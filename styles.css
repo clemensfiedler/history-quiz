@@ -8,6 +8,7 @@ body{
   text-align: center;
   background-color: #f8f6f0;
 }
+
 h1{
   font-weight: 300;
   margin: 0px;
@@ -16,15 +17,18 @@ h1{
   background-color: #444;
   color: #fff;
 }
+
 .question{
   font-size: 30px;
   margin-bottom: 10px;
 }
+
 .answers {
   margin-bottom: 20px;
   text-align: left;
   display: inline-block;
 }
+
 .answers label{
   display: block;
   margin-bottom: 10px;
@@ -69,7 +73,7 @@ button:disabled{
   margin-top: 40px;
 }
 
-.container {
+.container{
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(5, 45px);
@@ -77,7 +81,7 @@ button:disabled{
   margin-bottom: 40px;
 }
 
-.box {
+.box{
   font-family: 'Work Sans', sans-serif;
   font-size: 22px;
   background-color: rgb(48, 93, 78);
@@ -89,14 +93,24 @@ button:disabled{
   cursor: move;
 }
 
-.solution {
+.solution{
   display: "block"
 }
 
-.box.over {
+.box.over{
   border: 3px dotted #666;
 }
 
-#reset {
+#reset{
   background-color: red
+}
+
+a{
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+footer p{
+  margin: 0.25em
 }
