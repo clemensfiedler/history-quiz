@@ -13,10 +13,10 @@ index,year_start,year_end,date,detail,era,event
 11,-3000,-3000,3000 BC,,Ancient & Classical,First known use of papyrus by Egyptians
 12,-2800,-2800,2800 BC,,Ancient & Classical,Kot Diji phase of the Indus Valley Civilization begins
 13,-2800,-2800,2800 BC,,Ancient & Classical,Longshan culture in China
-14,-2700,-2700,2700 BC,,Ancient & Classical," Minoan Civilization ancient palace city Knossos reach 80000 inhabitants"
+14,-2700,-2700,2700 BC,,Ancient & Classical, Minoan Civilization ancient palace city Knossos reach 80000 inhabitants
 15,-2700,-2700,2700 BC,,Ancient & Classical,Rise of Elam in Iran
 16,-2700,-2700,2700 BC,,Ancient & Classical,The Epic of Gilgamesh becomes the first written story
-17,-2700,-2700,2700 BC,,Ancient & Classical,"The Old Kingdom begins in Egypt"
+17,-2700,-2700,2700 BC,,Ancient & Classical,The Old Kingdom begins in Egypt
 18,-2600,-2600,2600 BC,,Ancient & Classical,"Oldest known surviving literature: Sumerian texts from Abu Salabikh, including the Instructions of Shuruppak and the Kesh temple hymn."
 19,-2600,-2600,2600 BC,,Ancient & Classical,Mature Harappan phase of the Indus Valley civilization (in present-day Pakistan and India) begins
 20,-2600,-2600,2600 BC,,Ancient & Classical,Emergence of Maya culture in the Yucatán Peninsula
@@ -366,9 +366,9 @@ index,year_start,year_end,date,detail,era,event
 365,1163,1163,1163,,Medieval,The first cornerstone is laid for the construction of Notre Dame de Paris.
 366,1166,1166,1166,This marks the rise of Serbia which will dominate the Balkans for the next three hundred years. Allies of Serbia at this moment become the Hungarian Kingdom and the Republic of Venice.,Medieval,"Stefan Nemanja united Serbian territories, establishing the Medieval Serbian state."
 367,1171,1171,1171,"With his landing, Henry begins the English claim to and occupation of Ireland which would last some seven and a half centuries.",Medieval,King Henry II of England lands in Ireland to assert his supremacy and the Synod of Cashel acknowledges his sovereignty.
-368,7,12,1174 7/12,This is the beginning of the gradual acquisition of Scotland by the English.,Medieval,"King William I of Scotland, captured in the Battle of Alnwick by the English, accepts the feudal lordship of the English crown and does ceremonial allegiance at York."
+368,1174,1174,1174 7/12,This is the beginning of the gradual acquisition of Scotland by the English.,Medieval,"King William I of Scotland, captured in the Battle of Alnwick by the English, accepts the feudal lordship of the English crown and does ceremonial allegiance at York."
 369,1175,1175,1175,This event marks the beginning of the Buddhist sectarian movement in Japan.,Medieval,Hōnen Shōnin (Genkū) founds the Jōdo shū (Pure Land) sect of Buddhism.
-370,5,29,1176 5/29,"This is the first major defeat of cavalry by infantry, signaling the new role of the bourgeoisie.",Medieval,"At the Battle of Legnano, the cavalry of Frederick Barbarossa is defeated by the infantry of the Lombard League."
+370,1176,1176,1176 5/29,"This is the first major defeat of cavalry by infantry, signaling the new role of the bourgeoisie.",Medieval,"At the Battle of Legnano, the cavalry of Frederick Barbarossa is defeated by the infantry of the Lombard League."
 371,1175,1175,1175,Gerard of Cremona,Medieval,Latin-translation
 372,1179,1179,1179,Third Council of the Lateran,Medieval,church schools
 373,1179,1179,1179 March,,Medieval,"The Third Lateran Council limits papal electees to the cardinals alone, condemns simony, and forbids the promotion of anyone to the episcopate before the age of thirty."
@@ -378,7 +378,7 @@ index,year_start,year_end,date,detail,era,event
 377,1185,1185,1185,,Medieval,Windmills are first recorded.
 378,1185,1185,1185,,Medieval,Uprising of Asen and Peter. The reestablishment of the Bulgarian Empire.
 379,1185,1185,1185,The elimination of the Taira leaves the Minamoto the virtual rulers of Japan and marks the beginning of the first period of feudal rule known as the Kamakura Period.,Medieval,"At the Battle of Dan no Ura, Minamoto Yoshitsune annihilates the Taira clan."
-380,1,27,1186 1/27,This marriage shifts the focus of the Guelphs/Ghibelline struggle to Sicily and marks the ruin of the House of Hohenstaufen.,Medieval,"The future emperor Henry VI marries Constance of Sicily, heiress to the Sicilian throne."
+380,1186,1186,1186 1/27,This marriage shifts the focus of the Guelphs/Ghibelline struggle to Sicily and marks the ruin of the House of Hohenstaufen.,Medieval,"The future emperor Henry VI marries Constance of Sicily, heiress to the Sicilian throne."
 381,1187,1187,1187,Would lead to the Third Crusade.,Medieval,Saladin recaptures Jerusalem.
 382,1188,1188,1188,Oxford University,Medieval,Tractatus of Glanvil
 383,1189,1189,1189 July 6,"His heavy taxation to finance his European ventures created an antipathy of barons and people toward the crown, but his being absent enabled the English to advance in their political development.",Medieval,Richard I ascends the throne of England.
