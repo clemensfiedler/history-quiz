@@ -14,59 +14,47 @@ function getRandomInt(max, size) {
     return numbers
   }
 
-function getNewQuestion() {
-    questionIDs = getRandomInt(questionData.length, 4)
+function getNewEvent() {
+    idx = getRandomInt(questionData.length, 1)[0]
+    new_event = questionData[idx]
 
-    var question = {'events': []}
-
-    for (idx of questionIDs) {
-        question.events.push(questionData[idx])
-    }
-
-    return question
+    return new_event
 }
 
-function showQuestion(question) {
-    // variable to store the HTML output
-    const output = [];
-    const answers = [];
+function formatEvent(element) {
 
-    // and for each available answer...
-    for (element of question.events) {
+    event_HTML =
+    `
+    <div frozen="false" class="box"
+    year_start=${element.year_start} year_end=${element.year_start}>
+        ${element.event}
+        <div reveal="false" class="solution">
+            ${element.date}
+        </div>
+    </div>
+    `
+    return event_HTML
+}
 
-        answers.push(
-            `
-            <div draggable="true" class="box"
-            year_start=${element.year_start} year_end=${element.year_start}>
-                ${element.event}
-                <div class="solution">
-                    ${element.date}
-                </div>
-            </div>
-            `
-        );
+function appendEvent(element) {
+    fmt = formatEvent(element)
+    quizContainer.innerHTML = quizContainer.innerHTML + fmt
+}
+
+function updateEvents() {
+    // get a new event and append it to the list
+    questionList.push(getNewEvent())
+    // mark all previous events as frozen
+    items = document.querySelectorAll('.quiz-container .box')
+    for (it of items) {
+        it.setAttribute('frozen', true);
+        it.getElementsByClassName('solution')[0].setAttribute('reveal', true);
     }
-
-    output.push(
-        `<div class="slide">
-          <div class="question"> Question ${currentQuestion+1} </div>
-          <div class="answers"> ${answers.join("")} </div>
-        </div>`
-    );
-
-    quizContainer.innerHTML = output.join('');
-
-    solutionList = document.querySelectorAll(".solution");
-    solutionList.forEach(function(currentValue, currentIndex, listObj) {
-        currentValue.style.display = "none"
-    })
-
-    // make dragable
-    makeDragAble()
+    // append its button
+    appendEvent(questionList[questionList.length-1])
 }
 
 function validateAnswer() {
-
     // get current order
     items = document.querySelectorAll('.quiz-container .box');
     var lastYear = -Infinity
@@ -79,7 +67,6 @@ function validateAnswer() {
         if (lastYear <= newYearStart) {
             lastYear = parseInt(it.getAttribute('year_start'))
         } else {
-            it.style.color = 'red'
             return false
         }
     }
@@ -87,6 +74,8 @@ function validateAnswer() {
 }
 
 function submit() {
+
+    // validate answer
     res = validateAnswer()
 
     solutionList = document.querySelectorAll(".solution");
@@ -96,61 +85,21 @@ function submit() {
 
     // update points
     currentPoints = currentPoints + res
-    pointString = `${currentPoints} / ${maxQuestion+1}`
-
-    // deactivate submit button
-    submitButton.disabled = true
-
-    // update number of answered questions
-    maxQuestion = maxQuestion + 1
-
+    pointString = `${currentPoints}`
     pointContainer.innerHTML = pointString;
 
-    // stop being draggable
-    document.querySelectorAll('.quiz-container .box')
-
-    update()
-}
-
-function nextQuestion() {
-    if (currentQuestion == maxQuestion-1) {
-        //all questions answered
-        //increment counter
-        currentQuestion = currentQuestion + 1
-        //get new question
-        questionList.push(getNewQuestion())
-        submitButton.disabled=false
+    if (res == true) {
+        // get next event
+        updateEvents()
     } else {
-        currentQuestion = currentQuestion + 1
-    }
-    showQuestion(questionList[currentQuestion]);
-
-    update()
-}
-
-function previousQuestion() {
-
-    currentQuestion = currentQuestion-1
-    showQuestion(questionList[currentQuestion]);
-
-    update()
-}
-
-//general updates called if question changes
-function update() {
-    // deactivate previous Button
-    if (currentQuestion<1) {
-        previousButton.disabled = true
-    } else {
-        previousButton.disabled = false
-    }
-    // set submit and next button
-    if (currentQuestion==maxQuestion) {
-        submitButton.disabled = false
-        nextButton.disabled = true
-    } else {
+        //game ends
+        // reveal all years
+        items = document.querySelectorAll('.quiz-container .box')
+        for (it of items) {
+            it.getElementsByClassName('solution')[0].setAttribute('reveal', true);
+        }
         submitButton.disabled = true
-        nextButton.disabled = false
+        stateContainer.innerHTML = "Game OVER! Total points: " + `${currentPoints}`
     }
 }
 
@@ -162,18 +111,16 @@ function reset() {
 
 // define containers
 const pointContainer = document.getElementById('points')
+const stateContainer = document.getElementById('gamestate')
 const quizContainer = document.getElementById('quiz');
+const newEventContainer = document.getElementById('nextEvent')
 
 // define buttons
-const nextButton = document.getElementById("next");
-const previousButton = document.getElementById("previous");
 const submitButton = document.getElementById("submit");
 const resetButton = document.getElementById("reset");
 
 // button listeners
 submitButton.addEventListener('click', submit);
-nextButton.addEventListener('click', nextQuestion);
-previousButton.addEventListener('click', previousQuestion);
 resetButton.addEventListener('click', reset);
 
 var currentQuestion = 0 // question being shown
@@ -181,13 +128,11 @@ var maxQuestion = 0 // last question being solved
 var currentPoints = 0 // keep track of points
 var numEvents = 4 // number of events to sort
 
-//deactivate back button
-previousButton.disabled = true
-nextButton.disabled = true
-
 //get first question
 var questionList = []
-questionList.push(getNewQuestion())
-showQuestion(questionList[currentQuestion]);
+questionList.push(getNewEvent())
+appendEvent(questionList[0])
+// get second event
+updateEvents()
 
-
+//showQuestion(questionList[currentQuestion]);

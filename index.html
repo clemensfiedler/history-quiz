@@ -7,20 +7,16 @@
 <body>
   <h1>Quiz on Random Events</h1>
   <h2>Put the following 4 events in order! (earliest on top)</h2>
-
-  <h2>Current Points: <el id="points">0 / 0<el></h2>
+  <h2 id="gamestate">Current Points: <el id="points">0<el></h2>
 
   <div class="quiz-container">
     <div id="quiz"></div>
   </div>
 
-
   <div id="results"></div>
 
   <div class="buttons">
-    <button id="previous">Previous Question</button>
-    <button id="next">Next Question</button>
-    <button id="submit">Submit Quiz</button>
+    <button id="submit">Submit Order</button>
     <button id="reset">Reset Quiz</button>
   </div>
 
@@ -33,6 +29,8 @@
 
 </body>
 
-<script src="events.js"></script>
+<script src="https://raw.githack.com/SortableJS/Sortable/master/Sortable.js"></script>
+<script src="data/events.js"></script>
 <script src="drag.js"></script>
+<script src="sortable.js"></script>
 <script src="index.js"></script>
