@@ -4,6 +4,7 @@ import json
 
 # load dataset
 events_combined = pd.read_csv('events_prepared.csv', index_col=0).reset_index(drop=True)
+events_combined = events_combined.reset_index()
 
 # save as json
 results = events_combined.to_json(orient="records")

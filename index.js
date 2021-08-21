@@ -15,7 +15,12 @@ function getRandomInt(max, size) {
   }
 
 function getNewEvent() {
-    idx = getRandomInt(questionData.length, 1)[0]
+    do {
+        idx = getRandomInt(questionData.length, 1)[0]
+    }
+    while (questionID.includes(idx));
+
+    questionID.push(idx)
     new_event = questionData[idx]
 
     return new_event
@@ -104,9 +109,7 @@ function submit() {
 }
 
 function reset() {
-    if (confirm("Are you sure you want to reset the quiz?")) {
-        location.reload()
-    }
+    location.reload()
 }
 
 // define containers
@@ -130,6 +133,7 @@ var numEvents = 4 // number of events to sort
 
 //get first question
 var questionList = []
+var questionID = []
 questionList.push(getNewEvent())
 appendEvent(questionList[0])
 // get second event

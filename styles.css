@@ -93,13 +93,12 @@ button:disabled{
   opacity: 1
 }
 
-
 .box.over{
   border: 3px dotted #666;
 }
 
 #reset{
-  background-color: red
+  background-color: rgb(182, 49, 55)
 }
 
 a{
