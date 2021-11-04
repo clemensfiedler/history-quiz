@@ -62,16 +62,19 @@ function updateEvents() {
 function validateAnswer() {
     // get current order
     items = document.querySelectorAll('.quiz-container .box');
-    var lastYear = -Infinity
-    var newYearStart = lastYear
+    // initialize start and end year to negative infinity
+    var lastEventStart = -Infinity
+    var nextEventEnd = lastEventStart
 
     for (it of items) {
-        //compare end year of next event
-        newYearStart = parseInt(it.getAttribute('year_end'))
-        //did it end after the other started?
-        if (lastYear <= newYearStart) {
-            lastYear = parseInt(it.getAttribute('year_start'))
+        //get the end year of the next event
+        nextEventEnd = parseInt(it.getAttribute('year_end'))
+        //did the next event end after the previous event started?
+        if (lastEventStart <= nextEventEnd) {
+            // take the starting year of the next event
+            lastEventStart = parseInt(it.getAttribute('year_start'))
         } else {
+            // the order is incompatible so return false
             return false
         }
     }
