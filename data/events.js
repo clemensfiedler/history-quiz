@@ -1,3 +1,5 @@
+const questionDate = "2021-11-04T18:58:19.458501"
+const questionNumber = 504
 const questionData = [
     {
         "year_start": -3200,
@@ -5,7 +7,7 @@ const questionData = [
         "date": "c. 3200 BCE",
         "era": "Ancient & Classical",
         "event": "Sumerian cuneiform writing system and Egyptian hieroglyphs",
-        "detail": null,
+        "Source": null,
         "id": 0
     },
     {
@@ -14,7 +16,7 @@ const questionData = [
         "date": "c. 3200 BCE",
         "era": "Ancient & Classical",
         "event": "Newgrange built in Ireland",
-        "detail": null,
+        "Source": null,
         "id": 1
     },
     {
@@ -23,7 +25,7 @@ const questionData = [
         "date": "c. 3200 BCE",
         "era": "Ancient & Classical",
         "event": "Cycladic culture in Greece",
-        "detail": null,
+        "Source": null,
         "id": 2
     },
     {
@@ -32,7 +34,7 @@ const questionData = [
         "date": "c. 3200 BCE",
         "era": "Ancient & Classical",
         "event": "Norte Chico civilization begins in Peru",
-        "detail": null,
+        "Source": null,
         "id": 3
     },
     {
@@ -41,7 +43,7 @@ const questionData = [
         "date": "c. 3200 BCE",
         "era": "Ancient & Classical",
         "event": "Rise of Proto-Elamite Civilization in Iran",
-        "detail": null,
+        "Source": null,
         "id": 4
     },
     {
@@ -50,7 +52,7 @@ const questionData = [
         "date": "c. 3150 BCE",
         "era": "Ancient & Classical",
         "event": "First Dynasty of Egypt",
-        "detail": null,
+        "Source": null,
         "id": 5
     },
     {
@@ -59,7 +61,7 @@ const questionData = [
         "date": "c. 3100 BCE",
         "era": "Ancient & Classical",
         "event": "Skara Brae in Scotland",
-        "detail": null,
+        "Source": null,
         "id": 6
     },
     {
@@ -68,7 +70,7 @@ const questionData = [
         "date": "c. 3000 BCE",
         "era": "Ancient & Classical",
         "event": "Egyptian calendar",
-        "detail": null,
+        "Source": null,
         "id": 7
     },
     {
@@ -76,8 +78,8 @@ const questionData = [
         "year_end": -3000,
         "date": "c. 3000 BCE",
         "era": "Ancient & Classical",
-        "event": " Stonehenge construction begins. In its first version, it consisted of a circular ditch and bank, with . wooden posts.",
-        "detail": null,
+        "event": "Stonehenge construction begins. In its first version, it consisted of a circular ditch and bank, with 56 wooden posts.",
+        "Source": null,
         "id": 8
     },
     {
@@ -86,7 +88,7 @@ const questionData = [
         "date": "c. 3000 BCE",
         "era": "Ancient & Classical",
         "event": "Cucuteni-Trypillian culture in Romania and Ukraine",
-        "detail": null,
+        "Source": null,
         "id": 9
     },
     {
@@ -95,7 +97,7 @@ const questionData = [
         "date": "c. 3000 BCE",
         "era": "Ancient & Classical",
         "event": "Jiroft civilization begins in Iran",
-        "detail": null,
+        "Source": null,
         "id": 10
     },
     {
@@ -104,7 +106,7 @@ const questionData = [
         "date": "c. 3000 BCE",
         "era": "Ancient & Classical",
         "event": "First known use of papyrus by Egyptians",
-        "detail": null,
+        "Source": null,
         "id": 11
     },
     {
@@ -113,7 +115,7 @@ const questionData = [
         "date": "c. 2800 BCE",
         "era": "Ancient & Classical",
         "event": "Kot Diji phase of the Indus Valley Civilization begins",
-        "detail": null,
+        "Source": null,
         "id": 12
     },
     {
@@ -122,7 +124,7 @@ const questionData = [
         "date": "c. 2800 BCE",
         "era": "Ancient & Classical",
         "event": "Longshan culture in China",
-        "detail": null,
+        "Source": null,
         "id": 13
     },
     {
@@ -130,8 +132,8 @@ const questionData = [
         "year_end": -2700,
         "date": "c. 2700 BCE",
         "era": "Ancient & Classical",
-        "event": " Minoan Civilization ancient palace city Knossos reach 80000 inhabitants",
-        "detail": null,
+        "event": "Minoan Civilization ancient palace city Knossos reach 80,000",
+        "Source": null,
         "id": 14
     },
     {
@@ -140,7 +142,7 @@ const questionData = [
         "date": "c. 2700 BCE",
         "era": "Ancient & Classical",
         "event": "Rise of Elam in Iran",
-        "detail": null,
+        "Source": null,
         "id": 15
     },
     {
@@ -149,7 +151,7 @@ const questionData = [
         "date": "c. 2700 BCE",
         "era": "Ancient & Classical",
         "event": "The Epic of Gilgamesh becomes the first written story",
-        "detail": null,
+        "Source": null,
         "id": 16
     },
     {
@@ -158,7 +160,7 @@ const questionData = [
         "date": "c. 2700 BCE",
         "era": "Ancient & Classical",
         "event": "The Old Kingdom begins in Egypt",
-        "detail": null,
+        "Source": null,
         "id": 17
     },
     {
@@ -167,7 +169,7 @@ const questionData = [
         "date": "c. 2600 BCE",
         "era": "Ancient & Classical",
         "event": "Oldest known surviving literature: Sumerian texts from Abu Salabikh, including the Instructions of Shuruppak and the Kesh temple hymn.",
-        "detail": null,
+        "Source": null,
         "id": 18
     },
     {
@@ -176,7 +178,7 @@ const questionData = [
         "date": "c. 2600 BCE",
         "era": "Ancient & Classical",
         "event": "Mature Harappan phase of the Indus Valley civilization (in present-day Pakistan and India) begins",
-        "detail": null,
+        "Source": null,
         "id": 19
     },
     {
@@ -185,7 +187,7 @@ const questionData = [
         "date": "c. 2600 BCE",
         "era": "Ancient & Classical",
         "event": "Emergence of Maya culture in the Yucat\u00e1n Peninsula",
-        "detail": null,
+        "Source": null,
         "id": 20
     },
     {
@@ -193,8 +195,8 @@ const questionData = [
         "year_end": -2560,
         "date": "2560 BCE",
         "era": "Ancient & Classical",
-        "event": "King Khufu completes the Great Pyramid of Giza.  The Land of Punt in the Horn of Africa first appears in Egyptian records around this time.",
-        "detail": null,
+        "event": "King Khufu completes the Great Pyramid of Giza. The Land of Punt in the Horn of Africa first appears in Egyptian records around this time.",
+        "Source": null,
         "id": 21
     },
     {
@@ -203,7 +205,7 @@ const questionData = [
         "date": "2500-1500 BCE",
         "era": "Ancient & Classical",
         "event": "Kerma culture in Nubia",
-        "detail": null,
+        "Source": null,
         "id": 22
     },
     {
@@ -212,7 +214,7 @@ const questionData = [
         "date": "c. 2500 BCE",
         "era": "Ancient & Classical",
         "event": "The mammoth goes extinct.",
-        "detail": null,
+        "Source": null,
         "id": 23
     },
     {
@@ -220,8 +222,8 @@ const questionData = [
         "year_end": -2270,
         "date": "2334 or 2270 BCE",
         "era": "Ancient & Classical",
-        "event": " Akkadian Empire is founded, dating depends upon whether the Middle chronology or the Short chronology is used.",
-        "detail": null,
+        "event": "Akkadian Empire is founded, dating depends upon whether the Middle chronology or the Short chronology is used.",
+        "Source": null,
         "id": 24
     },
     {
@@ -229,8 +231,8 @@ const questionData = [
         "year_end": -2250,
         "date": "2250 BCE",
         "era": "Ancient & Classical",
-        "event": " Oldest known depiction of the Staff God, the oldest image of a god to be found in the Americas.",
-        "detail": null,
+        "event": "Oldest known depiction of the Staff God, the oldest image of a god to be found in the Americas.",
+        "Source": null,
         "id": 25
     },
     {
@@ -238,8 +240,8 @@ const questionData = [
         "year_end": -2100,
         "date": "2200-2100 BCE",
         "era": "Ancient & Classical",
-        "event": "The 4.2-kiloyear BP aridification event: It has been hypothesised to have caused the collapse of the Old Kingdom in Egypt, the Akkadian Empire in Mesopotamia, and the Liangzhu culture in the lower Yangtze River area.",
-        "detail": null,
+        "event": "The 4.2-kiloyear BP aridification event, which may have caused the collapse of the Old Kingdom in Egypt, the Akkadian Empire in Mesopotamia, and the Liangzhu culture in the Yangtze River area.",
+        "Source": null,
         "id": 26
     },
     {
@@ -248,7 +250,7 @@ const questionData = [
         "date": "2200 BCE",
         "era": "Ancient & Classical",
         "event": "completion of Stonehenge.",
-        "detail": null,
+        "Source": null,
         "id": 27
     },
     {
@@ -257,7 +259,7 @@ const questionData = [
         "date": "2055 BCE",
         "era": "Ancient & Classical",
         "event": "The Middle Kingdom begins in Egypt",
-        "detail": null,
+        "Source": null,
         "id": 28
     },
     {
@@ -266,7 +268,7 @@ const questionData = [
         "date": "2000 BCE",
         "era": "Ancient & Classical",
         "event": "Domestication of the horse",
-        "detail": null,
+        "Source": null,
         "id": 29
     },
     {
@@ -275,7 +277,7 @@ const questionData = [
         "date": "1900 BCE",
         "era": "Ancient & Classical",
         "event": "Erlitou culture in China",
-        "detail": null,
+        "Source": null,
         "id": 30
     },
     {
@@ -284,7 +286,7 @@ const questionData = [
         "date": "1800 BCE",
         "era": "Ancient & Classical",
         "event": "alphabetic writing emerges",
-        "detail": null,
+        "Source": null,
         "id": 31
     },
     {
@@ -293,7 +295,7 @@ const questionData = [
         "date": "1780 BCE",
         "era": "Ancient & Classical",
         "event": "Oldest Record of Hammurabi's Code.",
-        "detail": null,
+        "Source": null,
         "id": 32
     },
     {
@@ -302,7 +304,7 @@ const questionData = [
         "date": "1700 BCE",
         "era": "Ancient & Classical",
         "event": "Indus Valley Civilization comes to an end but is continued by the Cemetery H culture",
-        "detail": null,
+        "Source": null,
         "id": 33
     },
     {
@@ -311,7 +313,7 @@ const questionData = [
         "date": "1600 BCE",
         "era": "Ancient & Classical",
         "event": "Minoan civilization on Crete is destroyed by the Minoan eruption of Santorini island.",
-        "detail": null,
+        "Source": null,
         "id": 34
     },
     {
@@ -320,7 +322,7 @@ const questionData = [
         "date": "1600 BCE",
         "era": "Ancient & Classical",
         "event": "Mycenaean Greece",
-        "detail": null,
+        "Source": null,
         "id": 35
     },
     {
@@ -328,8 +330,8 @@ const questionData = [
         "year_end": -1600,
         "date": "1600 BCE",
         "era": "Ancient & Classical",
-        "event": " The beginning of Shang Dynasty in China, evidence of a fully developed Chinese writing system",
-        "detail": null,
+        "event": "The beginning of Shang Dynasty in China, evidence of a fully developed Chinese writing system",
+        "Source": null,
         "id": 36
     },
     {
@@ -338,7 +340,7 @@ const questionData = [
         "date": "1600 BCE",
         "era": "Ancient & Classical",
         "event": "Beginning of Hittite dominance of the Eastern Mediterranean region",
-        "detail": null,
+        "Source": null,
         "id": 37
     },
     {
@@ -347,7 +349,7 @@ const questionData = [
         "date": "c.1550 BCE",
         "era": "Ancient & Classical",
         "event": "The  New Kingdom begins in Egypt",
-        "detail": null,
+        "Source": null,
         "id": 38
     },
     {
@@ -356,7 +358,7 @@ const questionData = [
         "date": "1500 BCE",
         "era": "Ancient & Classical",
         "event": "Composition of the Rigveda is completed",
-        "detail": null,
+        "Source": null,
         "id": 39
     },
     {
@@ -365,7 +367,7 @@ const questionData = [
         "date": "c.1400 BCE",
         "era": "Ancient & Classical",
         "event": "Oldest known song with notation",
-        "detail": null,
+        "Source": null,
         "id": 40
     },
     {
@@ -373,8 +375,8 @@ const questionData = [
         "year_end": -400,
         "date": "1400-400 BCE",
         "era": "Ancient & Classical",
-        "event": " Olmec civilization flourishes in Pre-Columbian Mexico, during Mesoamerica's Formative period",
-        "detail": null,
+        "event": "Olmec civilization flourishes in Pre-Columbian Mexico, during Mesoamerica's Formative period",
+        "Source": null,
         "id": 41
     },
     {
@@ -383,7 +385,7 @@ const questionData = [
         "date": "1200 BCE",
         "era": "Ancient & Classical",
         "event": "The Hallstatt culture",
-        "detail": null,
+        "Source": null,
         "id": 42
     },
     {
@@ -391,8 +393,8 @@ const questionData = [
         "year_end": -1150,
         "date": "1200-1150 BCE",
         "era": "Ancient & Classical",
-        "event": "Bronze Age collapse in Southwestern Asia and in the Eastern Mediterranean region. This period is also the setting of the Iliad and the Odyssey epic poems (which were composed about four centuries later).",
-        "detail": null,
+        "event": "Bronze Age collapse in Southwestern Asia and Eastern Mediterranean region. This forms the setting of the Iliad and the Odyssey epic poems which were composed about four centuries later.",
+        "Source": null,
         "id": 43
     },
     {
@@ -401,7 +403,7 @@ const questionData = [
         "date": "c. 1180 BCE",
         "era": "Ancient & Classical",
         "event": "Disintegration of Hittite Empire",
-        "detail": null,
+        "Source": null,
         "id": 44
     },
     {
@@ -410,7 +412,7 @@ const questionData = [
         "date": "1100 BCE",
         "era": "Ancient & Classical",
         "event": "Use of Iron spreads.",
-        "detail": null,
+        "Source": null,
         "id": 45
     },
     {
@@ -419,7 +421,7 @@ const questionData = [
         "date": "1046 BCE",
         "era": "Ancient & Classical",
         "event": "The Zhou force (led by King Wu of Zhou) overthrow the last king of Shang Dynasty",
-        "detail": null,
+        "Source": null,
         "id": 46
     },
     {
@@ -428,7 +430,7 @@ const questionData = [
         "date": "1000 BCE",
         "era": "Ancient & Classical",
         "event": "Nok culture in West Africa",
-        "detail": null,
+        "Source": null,
         "id": 47
     },
     {
@@ -436,8 +438,8 @@ const questionData = [
         "year_end": -1000,
         "date": "c.1000 BCE",
         "era": "Ancient & Classical",
-        "event": " King David begins his reign as the second King of Israel, after Saul",
-        "detail": null,
+        "event": "King David begins his reign as the second King of Israel, after Saul",
+        "Source": null,
         "id": 48
     },
     {
@@ -445,8 +447,8 @@ const questionData = [
         "year_end": -970,
         "date": "970 BCE",
         "era": "Ancient & Classical",
-        "event": " King Solomon begins his reign as third King of Israel, after David",
-        "detail": null,
+        "event": "King Solomon begins his reign as third King of Israel, after David",
+        "Source": null,
         "id": 49
     },
     {
@@ -455,7 +457,7 @@ const questionData = [
         "date": "890 BCE",
         "era": "Ancient & Classical",
         "event": "Approximate date for the composition of the Iliad and the Odyssey",
-        "detail": null,
+        "Source": null,
         "id": 50
     },
     {
@@ -464,7 +466,7 @@ const questionData = [
         "date": "814 BCE",
         "era": "Ancient & Classical",
         "event": "Foundation of Carthage by the Phoenicians in today known Tunisia",
-        "detail": null,
+        "Source": null,
         "id": 51
     },
     {
@@ -473,7 +475,7 @@ const questionData = [
         "date": "800 BCE",
         "era": "Ancient & Classical",
         "event": "Rise of Greek city-states",
-        "detail": null,
+        "Source": null,
         "id": 52
     },
     {
@@ -482,7 +484,7 @@ const questionData = [
         "date": "788 BCE",
         "era": "Ancient & Classical",
         "event": "Iron Ancient in Sungai Batu (Old Kedah)",
-        "detail": null,
+        "Source": null,
         "id": 53
     },
     {
@@ -491,7 +493,7 @@ const questionData = [
         "date": "c.785 BCE",
         "era": "Ancient & Classical",
         "event": "Rise of the Kingdom of Kush",
-        "detail": null,
+        "Source": null,
         "id": 54
     },
     {
@@ -500,7 +502,7 @@ const questionData = [
         "date": "776 BCE",
         "era": "Ancient & Classical",
         "event": "First recorded Ancient Olympic Games.",
-        "detail": null,
+        "Source": null,
         "id": 55
     },
     {
@@ -509,7 +511,7 @@ const questionData = [
         "date": "753 BCE",
         "era": "Ancient & Classical",
         "event": "Founding of Rome (traditional date)",
-        "detail": null,
+        "Source": null,
         "id": 56
     },
     {
@@ -518,7 +520,7 @@ const questionData = [
         "date": "745 BCE",
         "era": "Ancient & Classical",
         "event": "Tiglath-Pileser III becomes the new king of Assyria. With time he conquers neighboring countries and turns Assyria into an empire.",
-        "detail": null,
+        "Source": null,
         "id": 57
     },
     {
@@ -527,7 +529,7 @@ const questionData = [
         "date": "728 BCE",
         "era": "Ancient & Classical",
         "event": "Rise of the Median Empire.",
-        "detail": null,
+        "Source": null,
         "id": 58
     },
     {
@@ -536,7 +538,7 @@ const questionData = [
         "date": "722 BCE",
         "era": "Ancient & Classical",
         "event": "Spring and Autumn period begins in China. The era of the Hundred Schools of Thought.",
-        "detail": null,
+        "Source": null,
         "id": 59
     },
     {
@@ -545,7 +547,7 @@ const questionData = [
         "date": "700 BCE",
         "era": "Ancient & Classical",
         "event": "The construction of Marib Dam in Arabia Felix.",
-        "detail": null,
+        "Source": null,
         "id": 60
     },
     {
@@ -553,8 +555,8 @@ const questionData = [
         "year_end": -660,
         "date": "660 BCE",
         "era": "Ancient & Classical",
-        "event": " Purported date of the accession of Jimmu, the mythical first Emperor of Japan.",
-        "detail": null,
+        "event": "Purported date of the accession of Jimmu, the mythical first Emperor of Japan.",
+        "Source": null,
         "id": 61
     },
     {
@@ -563,7 +565,7 @@ const questionData = [
         "date": "653 BCE",
         "era": "Ancient & Classical",
         "event": "Rise of Persian Empire.",
-        "detail": null,
+        "Source": null,
         "id": 62
     },
     {
@@ -571,8 +573,8 @@ const questionData = [
         "year_end": -612,
         "date": "612 BCE",
         "era": "Ancient & Classical",
-        "event": " An alliance between the Babylonians, Medes, and Scythians succeeds in destroying Nineveh and causing subsequent fall of the Assyrian empire.",
-        "detail": null,
+        "event": "An alliance between the Babylonians, Medes, and Scythians succeeds in destroying Nineveh and causing subsequent fall of the Assyrian empire.",
+        "Source": null,
         "id": 63
     },
     {
@@ -581,7 +583,7 @@ const questionData = [
         "date": "600 BCE",
         "era": "Ancient & Classical",
         "event": "Pandyan kingdom in South India.",
-        "detail": null,
+        "Source": null,
         "id": 64
     },
     {
@@ -589,8 +591,8 @@ const questionData = [
         "year_end": -600,
         "date": "600 BCE",
         "era": "Ancient & Classical",
-        "event": " Sixteen Maha Janapadas (\"Great Realms\" or \"Great Kingdoms\") emerge in India.",
-        "detail": null,
+        "event": "Sixteen Maha Janapadas ('Great Realms' or 'Great Kingdoms') emerge in India.",
+        "Source": null,
         "id": 65
     },
     {
@@ -599,7 +601,7 @@ const questionData = [
         "date": "600 BCE",
         "era": "Ancient & Classical",
         "event": "Evidence of writing system appear in Oaxaca used by the Zapotec civilization.",
-        "detail": null,
+        "Source": null,
         "id": 66
     },
     {
@@ -608,7 +610,7 @@ const questionData = [
         "date": "c. 600 BCE",
         "era": "Ancient & Classical",
         "event": "Rise of the Sao civilisation near Lake Chad",
-        "detail": null,
+        "Source": null,
         "id": 67
     },
     {
@@ -616,8 +618,8 @@ const questionData = [
         "year_end": -563,
         "date": "563 BCE",
         "era": "Ancient & Classical",
-        "event": " Siddhartha Gautama (Buddha), founder of Buddhism is born as a prince of the Shakya tribe, which ruled parts of Magadha, one of the Maha Janapadas.",
-        "detail": null,
+        "event": "Siddhartha Gautama (Buddha), founder of Buddhism is born as a prince of the Shakya tribe, which ruled parts of Magadha, one of the Maha Janapadas.",
+        "Source": null,
         "id": 68
     },
     {
@@ -625,8 +627,8 @@ const questionData = [
         "year_end": -551,
         "date": "551 BCE",
         "era": "Ancient & Classical",
-        "event": " Confucius, founder of Confucianism, is born.",
-        "detail": null,
+        "event": "Confucius, founder of Confucianism, is born.",
+        "Source": null,
         "id": 69
     },
     {
@@ -635,7 +637,7 @@ const questionData = [
         "date": "550 BCE",
         "era": "Ancient & Classical",
         "event": "Foundation of the Persian Empire by Cyrus the Great.",
-        "detail": null,
+        "Source": null,
         "id": 70
     },
     {
@@ -643,8 +645,8 @@ const questionData = [
         "year_end": -549,
         "date": "549 BCE",
         "era": "Ancient & Classical",
-        "event": " Mahavira, founder of Jainism, is born.",
-        "detail": null,
+        "event": "Mahavira, founder of Jainism, is born.",
+        "Source": null,
         "id": 71
     },
     {
@@ -653,7 +655,7 @@ const questionData = [
         "date": "546 BCE",
         "era": "Ancient & Classical",
         "event": "Cyrus the Great overthrows Croesus King of Lydia.",
-        "detail": null,
+        "Source": null,
         "id": 72
     },
     {
@@ -662,7 +664,7 @@ const questionData = [
         "date": "544 BCE",
         "era": "Ancient & Classical",
         "event": "Rise of Magadha as the dominant power under Bimbisara.",
-        "detail": null,
+        "Source": null,
         "id": 73
     },
     {
@@ -671,7 +673,7 @@ const questionData = [
         "date": "539 BCE",
         "era": "Ancient & Classical",
         "event": "The fall of the Babylonian Empire and liberation of the Jews by Cyrus the Great.",
-        "detail": null,
+        "Source": null,
         "id": 74
     },
     {
@@ -680,7 +682,7 @@ const questionData = [
         "date": "529 BCE",
         "era": "Ancient & Classical",
         "event": "Death of Cyrus",
-        "detail": null,
+        "Source": null,
         "id": 75
     },
     {
@@ -689,7 +691,7 @@ const questionData = [
         "date": "525 BCE",
         "era": "Ancient & Classical",
         "event": "Cambyses II of Persia conquers Egypt.",
-        "detail": null,
+        "Source": null,
         "id": 76
     },
     {
@@ -697,8 +699,8 @@ const questionData = [
         "year_end": -512,
         "date": "c. 512 BCE",
         "era": "Ancient & Classical",
-        "event": " Darius I (Darius the Great) of Persia, subjugates eastern Thrace, Macedonia submits voluntarily, and annexes Libya, Persian Empire at largest extent.",
-        "detail": null,
+        "event": "Darius I (Darius the Great) of Persia, subjugates eastern Thrace, Macedonia submits voluntarily, and annexes Libya, Persian Empire at largest extent.",
+        "Source": null,
         "id": 77
     },
     {
@@ -706,8 +708,8 @@ const questionData = [
         "year_end": -509,
         "date": "509 BCE",
         "era": "Ancient & Classical",
-        "event": " Expulsion of the last King of Rome, founding of Roman Republic (traditional date).",
-        "detail": null,
+        "event": "Expulsion of the last King of Rome, founding of Roman Republic (traditional date).",
+        "Source": null,
         "id": 78
     },
     {
@@ -716,7 +718,7 @@ const questionData = [
         "date": "508 BCE",
         "era": "Ancient & Classical",
         "event": "Democracy instituted at Athens",
-        "detail": null,
+        "Source": null,
         "id": 79
     },
     {
@@ -725,7 +727,7 @@ const questionData = [
         "date": "c. 500 BCE",
         "era": "Ancient & Classical",
         "event": "Completion  of Euclid's Elements",
-        "detail": null,
+        "Source": null,
         "id": 80
     },
     {
@@ -734,7 +736,7 @@ const questionData = [
         "date": "500 BCE",
         "era": "Ancient & Classical",
         "event": "Panini standardizes the grammar and morphology of Sanskrit in the text Ashtadhyayi. Panini's standardized Sanskrit is known as Classical Sanskrit.",
-        "detail": null,
+        "Source": null,
         "id": 81
     },
     {
@@ -743,7 +745,7 @@ const questionData = [
         "date": "500 BCE",
         "era": "Ancient & Classical",
         "event": "Pingala uses zero and binary numeral system",
-        "detail": null,
+        "Source": null,
         "id": 82
     },
     {
@@ -751,8 +753,8 @@ const questionData = [
         "year_end": -499,
         "date": "499 BCE",
         "era": "Ancient & Classical",
-        "event": " King Aristagoras of Miletus incites all of Hellenic Asia Minor to rebel against the Persian Empire, beginning the Greco-Persian Wars.",
-        "detail": null,
+        "event": "King Aristagoras of Miletus incites all of Hellenic Asia Minor to rebel against the Persian Empire, beginning the Greco-Persian Wars.",
+        "Source": null,
         "id": 83
     },
     {
@@ -761,7 +763,7 @@ const questionData = [
         "date": "490 BCE",
         "era": "Ancient & Classical",
         "event": "Greek city-states defeat Persian invasion at Battle of Marathon",
-        "detail": null,
+        "Source": null,
         "id": 84
     },
     {
@@ -770,7 +772,7 @@ const questionData = [
         "date": "483 BCE",
         "era": "Ancient & Classical",
         "event": "Death of Gautama Buddha",
-        "detail": null,
+        "Source": null,
         "id": 85
     },
     {
@@ -779,7 +781,7 @@ const questionData = [
         "date": "480 BCE",
         "era": "Ancient & Classical",
         "event": "Persian invasion of Greece by Xerxes",
-        "detail": null,
+        "Source": null,
         "id": 86
     },
     {
@@ -788,7 +790,7 @@ const questionData = [
         "date": "479 BCE",
         "era": "Ancient & Classical",
         "event": "Death of Confucius",
-        "detail": null,
+        "Source": null,
         "id": 87
     },
     {
@@ -797,7 +799,7 @@ const questionData = [
         "date": "475 BCE",
         "era": "Ancient & Classical",
         "event": "Warring States period begins in China as the Zhou king became a mere figurehead",
-        "detail": null,
+        "Source": null,
         "id": 88
     },
     {
@@ -806,7 +808,7 @@ const questionData = [
         "date": "470/469 BCE",
         "era": "Ancient & Classical",
         "event": "Birth of Socrates",
-        "detail": null,
+        "Source": null,
         "id": 89
     },
     {
@@ -815,7 +817,7 @@ const questionData = [
         "date": "465 BCE",
         "era": "Ancient & Classical",
         "event": "Murder of Xerxes",
-        "detail": null,
+        "Source": null,
         "id": 90
     },
     {
@@ -824,7 +826,7 @@ const questionData = [
         "date": "460 BCE",
         "era": "Ancient & Classical",
         "event": "Birth of Democritus",
-        "detail": null,
+        "Source": null,
         "id": 91
     },
     {
@@ -832,8 +834,8 @@ const questionData = [
         "year_end": -458,
         "date": "458 BCE",
         "era": "Ancient & Classical",
-        "event": " The Oresteia by Aeschylus, the only surviving trilogy of ancient Greek plays, is performed.",
-        "detail": null,
+        "event": "The Oresteia by Aeschylus, the only surviving trilogy of ancient Greek plays, is performed.",
+        "Source": null,
         "id": 92
     },
     {
@@ -842,7 +844,7 @@ const questionData = [
         "date": "449 BCE",
         "era": "Ancient & Classical",
         "event": "The Greco-Persian Wars end.",
-        "detail": null,
+        "Source": null,
         "id": 93
     },
     {
@@ -851,7 +853,7 @@ const questionData = [
         "date": "447 BCE",
         "era": "Ancient & Classical",
         "event": "Building of the Parthenon at Athens started",
-        "detail": null,
+        "Source": null,
         "id": 94
     },
     {
@@ -860,7 +862,7 @@ const questionData = [
         "date": "432 BCE",
         "era": "Ancient & Classical",
         "event": "Construction of the Parthenon is completed",
-        "detail": null,
+        "Source": null,
         "id": 95
     },
     {
@@ -869,7 +871,7 @@ const questionData = [
         "date": "431 BCE",
         "era": "Ancient & Classical",
         "event": "Beginning of the Peloponnesian war between the Greek city-states",
-        "detail": null,
+        "Source": null,
         "id": 96
     },
     {
@@ -878,7 +880,7 @@ const questionData = [
         "date": "429 BCE",
         "era": "Ancient & Classical",
         "event": "Sophocles's play Oedipus Rex is first performed",
-        "detail": null,
+        "Source": null,
         "id": 97
     },
     {
@@ -887,7 +889,7 @@ const questionData = [
         "date": "427 BCE",
         "era": "Ancient & Classical",
         "event": "Birth of Plato",
-        "detail": null,
+        "Source": null,
         "id": 98
     },
     {
@@ -896,7 +898,7 @@ const questionData = [
         "date": "424 BCE",
         "era": "Ancient & Classical",
         "event": "Nanda dynasty comes to power.",
-        "detail": null,
+        "Source": null,
         "id": 99
     },
     {
@@ -905,7 +907,7 @@ const questionData = [
         "date": "404 BCE",
         "era": "Ancient & Classical",
         "event": "End of the Peloponnesian War",
-        "detail": null,
+        "Source": null,
         "id": 100
     },
     {
@@ -914,7 +916,7 @@ const questionData = [
         "date": "400 BCE",
         "era": "Ancient & Classical",
         "event": "Zapotec culture flourishes around city of Monte Alb\u00e1n",
-        "detail": null,
+        "Source": null,
         "id": 101
     },
     {
@@ -923,7 +925,7 @@ const questionData = [
         "date": "c. 400 BCE",
         "era": "Ancient & Classical",
         "event": "Rise of the Garamantes as an irrigation-based desert state in the Fezzan region of Libya",
-        "detail": null,
+        "Source": null,
         "id": 102
     },
     {
@@ -932,7 +934,7 @@ const questionData = [
         "date": "399 BCE",
         "era": "Ancient & Classical",
         "event": "Death of Socrates",
-        "detail": null,
+        "Source": null,
         "id": 103
     },
     {
@@ -941,7 +943,7 @@ const questionData = [
         "date": "384 BCE",
         "era": "Ancient & Classical",
         "event": "Birth of Aristotle",
-        "detail": null,
+        "Source": null,
         "id": 104
     },
     {
@@ -950,7 +952,7 @@ const questionData = [
         "date": "370 BCE",
         "era": "Ancient & Classical",
         "event": "Death of Democritus",
-        "detail": null,
+        "Source": null,
         "id": 105
     },
     {
@@ -958,8 +960,8 @@ const questionData = [
         "year_end": -331,
         "date": "331 BCE",
         "era": "Ancient & Classical",
-        "event": " Alexander the Great defeats Darius III of Persia in the Battle of Gaugamela, completing his conquest of Persia.",
-        "detail": null,
+        "event": "Alexander the Great defeats Darius III of Persia in the Battle of Gaugamela, completing his conquest of Persia.",
+        "Source": null,
         "id": 106
     },
     {
@@ -968,7 +970,7 @@ const questionData = [
         "date": "326 BCE",
         "era": "Ancient & Classical",
         "event": "Alexander the Great defeats Indian king Porus in the Battle of the Hydaspes River.",
-        "detail": null,
+        "Source": null,
         "id": 107
     },
     {
@@ -977,7 +979,7 @@ const questionData = [
         "date": "323 BCE",
         "era": "Ancient & Classical",
         "event": "Death of Alexander the Great at Babylon.",
-        "detail": null,
+        "Source": null,
         "id": 108
     },
     {
@@ -986,7 +988,7 @@ const questionData = [
         "date": "322 BCE",
         "era": "Ancient & Classical",
         "event": "Death of Aristotle",
-        "detail": null,
+        "Source": null,
         "id": 109
     },
     {
@@ -995,7 +997,7 @@ const questionData = [
         "date": "321 BCE",
         "era": "Ancient & Classical",
         "event": "Chandragupta Maurya overthrows the Nanda Dynasty of Magadha.",
-        "detail": null,
+        "Source": null,
         "id": 110
     },
     {
@@ -1004,7 +1006,7 @@ const questionData = [
         "date": "305 BCE",
         "era": "Ancient & Classical",
         "event": "Chandragupta Maurya seizes the satrapies of Paropanisadai (Kabul), Aria (Herat), Arachosia (Qanadahar) and Gedrosia (Baluchistan) from Seleucus I Nicator, in return for 500 elephants.",
-        "detail": null,
+        "Source": null,
         "id": 111
     },
     {
@@ -1013,7 +1015,7 @@ const questionData = [
         "date": "300 BCE",
         "era": "Ancient & Classical",
         "event": "Sangam literature period in the history of ancient southern India (known as the Tamilakam)",
-        "detail": null,
+        "Source": null,
         "id": 112
     },
     {
@@ -1022,7 +1024,7 @@ const questionData = [
         "date": "300 BCE",
         "era": "Ancient & Classical",
         "event": "Chola Empire in South India",
-        "detail": null,
+        "Source": null,
         "id": 113
     },
     {
@@ -1031,7 +1033,7 @@ const questionData = [
         "date": "300 BCE",
         "era": "Ancient & Classical",
         "event": "Construction of the Great Pyramid of Cholula, the world's largest pyramid by volume (despite the Great Pyramid of Giza being taller) begins in Cholula, Puebla, Mexico.",
-        "detail": null,
+        "Source": null,
         "id": 114
     },
     {
@@ -1040,7 +1042,7 @@ const questionData = [
         "date": "273 BCE",
         "era": "Ancient & Classical",
         "event": "Ashoka becomes the emperor of the Mauryan Empire",
-        "detail": null,
+        "Source": null,
         "id": 115
     },
     {
@@ -1049,7 +1051,7 @@ const questionData = [
         "date": "261 BCE",
         "era": "Ancient & Classical",
         "event": "Kalinga war",
-        "detail": null,
+        "Source": null,
         "id": 116
     },
     {
@@ -1058,7 +1060,7 @@ const questionData = [
         "date": "257 BCE",
         "era": "Ancient & Classical",
         "event": "Th\u1ee5c Dynasty takes over Vi\u1ec7t Nam (then Kingdom of \u00c2u L\u1ea1c)",
-        "detail": null,
+        "Source": null,
         "id": 117
     },
     {
@@ -1067,7 +1069,7 @@ const questionData = [
         "date": "255 BCE",
         "era": "Ancient & Classical",
         "event": "Ashoka sends a Buddhist missionary led by his son who was Mahinda Thero (Buddhist monk) to Sri Lanka (then Lanka) Mahinda (Buddhist monk)",
-        "detail": null,
+        "Source": null,
         "id": 118
     },
     {
@@ -1075,8 +1077,8 @@ const questionData = [
         "year_end": -250,
         "date": "250 BCE",
         "era": "Ancient & Classical",
-        "event": " Rise of Parthia (Ashk\u00e2ni\u00e2n), the second native dynasty of ancient Persia",
-        "detail": null,
+        "event": "Rise of Parthia (Ashk\u00e2ni\u00e2n), the second native dynasty of ancient Persia",
+        "Source": null,
         "id": 119
     },
     {
@@ -1085,7 +1087,7 @@ const questionData = [
         "date": "232 BCE",
         "era": "Ancient & Classical",
         "event": "Death of Emperor Ashoka",
-        "detail": null,
+        "Source": null,
         "id": 120
     },
     {
@@ -1094,7 +1096,7 @@ const questionData = [
         "date": "230 BCE",
         "era": "Ancient & Classical",
         "event": "Emergence of Satavahanas in South India",
-        "detail": null,
+        "Source": null,
         "id": 121
     },
     {
@@ -1102,8 +1104,8 @@ const questionData = [
         "year_end": -221,
         "date": "221 BCE",
         "era": "Ancient & Classical",
-        "event": " Qin Shi Huang unifies China, end of Warring States period; marking the beginning of Imperial rule in China which lasts until .. Construction of the Great Wall by the Qin Dynasty begins.",
-        "detail": null,
+        "event": "Qin Shi Huang unifies China, end of Warring States period; marking the beginning of Imperial rule in China which lasts until .. Construction of the Great Wall by the Qin Dynasty begins.",
+        "Source": null,
         "id": 122
     },
     {
@@ -1112,7 +1114,7 @@ const questionData = [
         "date": "207 BCE",
         "era": "Ancient & Classical",
         "event": "Kingdom of Nan Yueh extends from Canton to North Vi\u1ec7t Nam .",
-        "detail": null,
+        "Source": null,
         "id": 123
     },
     {
@@ -1120,8 +1122,8 @@ const questionData = [
         "year_end": -206,
         "date": "206 BCE",
         "era": "Ancient & Classical",
-        "event": " Han Dynasty established in China, after the death of Qin Shi Huang; China in this period officially becomes a Confucian state and opens trading connections with the West, i.e. the Silk Road.",
-        "detail": null,
+        "event": "Han Dynasty established in China, after the death of Qin Shi Huang; China in this period officially becomes a Confucian state and opens trading connections with the West, i.e. the Silk Road.",
+        "Source": null,
         "id": 124
     },
     {
@@ -1130,7 +1132,7 @@ const questionData = [
         "date": "202 BCE",
         "era": "Ancient & Classical",
         "event": "Scipio Africanus defeats Hannibal at Battle of Zama.",
-        "detail": null,
+        "Source": null,
         "id": 125
     },
     {
@@ -1138,8 +1140,8 @@ const questionData = [
         "year_end": -200,
         "date": "200 BCE",
         "era": "Ancient & Classical",
-        "event": " El Mirador, largest early Maya city, flourishes.",
-        "detail": null,
+        "event": "El Mirador, largest early Maya city, flourishes.",
+        "Source": null,
         "id": 126
     },
     {
@@ -1148,7 +1150,7 @@ const questionData = [
         "date": "200 BCE",
         "era": "Ancient & Classical",
         "event": "Paper is invented in China.",
-        "detail": null,
+        "Source": null,
         "id": 127
     },
     {
@@ -1157,7 +1159,7 @@ const questionData = [
         "date": "c. 200 BCE",
         "era": "Ancient & Classical",
         "event": "Chera dynasty in South India.",
-        "detail": null,
+        "Source": null,
         "id": 128
     },
     {
@@ -1166,7 +1168,7 @@ const questionData = [
         "date": "185 BCE",
         "era": "Ancient & Classical",
         "event": "Shunga Empire founded.",
-        "detail": null,
+        "Source": null,
         "id": 129
     },
     {
@@ -1174,8 +1176,8 @@ const questionData = [
         "year_end": -146,
         "date": "149-146 BCE",
         "era": "Ancient & Classical",
-        "event": " Third Punic War between Rome and Carthage. War ends with the complete destruction of Carthage, allowing Rome to conquer modern day Tunisia and Libya.",
-        "detail": null,
+        "event": "Third Punic War between Rome and Carthage. War ends with the complete destruction of Carthage, allowing Rome to conquer modern day Tunisia and Libya.",
+        "Source": null,
         "id": 130
     },
     {
@@ -1183,8 +1185,8 @@ const questionData = [
         "year_end": -146,
         "date": "146 BCE",
         "era": "Ancient & Classical",
-        "event": " Roman conquest of Greece, see Roman Greece",
-        "detail": null,
+        "event": "Roman conquest of Greece, see Roman Greece",
+        "Source": null,
         "id": 131
     },
     {
@@ -1193,7 +1195,7 @@ const questionData = [
         "date": "121 BCE",
         "era": "Ancient & Classical",
         "event": "Roman armies enter Gaul for the first time.",
-        "detail": null,
+        "Source": null,
         "id": 132
     },
     {
@@ -1202,7 +1204,7 @@ const questionData = [
         "date": "111 BCE",
         "era": "Ancient & Classical",
         "event": "First Chinese domination of Vi\u1ec7t Nam in the form of the Nanyue Kingdom.",
-        "detail": null,
+        "Source": null,
         "id": 133
     },
     {
@@ -1211,7 +1213,7 @@ const questionData = [
         "date": "c. 100 BCE",
         "era": "Ancient & Classical",
         "event": "Chola dynasty rises in prominence.",
-        "detail": null,
+        "Source": null,
         "id": 134
     },
     {
@@ -1220,7 +1222,7 @@ const questionData = [
         "date": "c. 82 BCE",
         "era": "Ancient & Classical",
         "event": "Burebista becomes the king of Dacia.",
-        "detail": null,
+        "Source": null,
         "id": 135
     },
     {
@@ -1229,7 +1231,7 @@ const questionData = [
         "date": "80 BCE",
         "era": "Ancient & Classical",
         "event": "The city of Florence is founded.",
-        "detail": null,
+        "Source": null,
         "id": 136
     },
     {
@@ -1237,8 +1239,8 @@ const questionData = [
         "year_end": -44,
         "date": "c. 60-44 BCE",
         "era": "Ancient & Classical",
-        "event": " Burebista conquers territories from south Germany to Thrace,reaching the coast of the Aegean sea.",
-        "detail": null,
+        "event": "Burebista conquers territories from south Germany to Thrace,reaching the coast of the Aegean sea.",
+        "Source": null,
         "id": 137
     },
     {
@@ -1247,7 +1249,7 @@ const questionData = [
         "date": "49 BCE",
         "era": "Ancient & Classical",
         "event": "Roman Civil War between Julius Caesar and Pompey the Great.",
-        "detail": null,
+        "Source": null,
         "id": 138
     },
     {
@@ -1256,7 +1258,7 @@ const questionData = [
         "date": "44 BCE",
         "era": "Ancient & Classical",
         "event": "Julius Caesar murdered by Marcus Brutus and others",
-        "detail": null,
+        "Source": null,
         "id": 139
     },
     {
@@ -1265,7 +1267,7 @@ const questionData = [
         "date": "44 BCE",
         "era": "Ancient & Classical",
         "event": "Burebista is assassinated in the same year like Julius Caesar and his empire brokes in . and later . kingdoms in modern-day Romania.",
-        "detail": null,
+        "Source": null,
         "id": 140
     },
     {
@@ -1274,7 +1276,7 @@ const questionData = [
         "date": "40 BCE",
         "era": "Ancient & Classical",
         "event": "Roman conquest of Egypt.",
-        "detail": null,
+        "Source": null,
         "id": 141
     },
     {
@@ -1283,7 +1285,7 @@ const questionData = [
         "date": "30 BCE",
         "era": "Ancient & Classical",
         "event": "Cleopatra ends her reign as the last active ruler of the Ptolemaic Kingdom of Egypt",
-        "detail": null,
+        "Source": null,
         "id": 142
     },
     {
@@ -1292,7 +1294,7 @@ const questionData = [
         "date": "27 BCE",
         "era": "Ancient & Classical",
         "event": "Formation of Roman Empire:  Octavius is given titles of Princeps and Augustus by Roman Senate - beginning of Pax Romana. Formation of influential Praetorian Guard to provide security to Emperor",
-        "detail": null,
+        "Source": null,
         "id": 143
     },
     {
@@ -1301,7 +1303,7 @@ const questionData = [
         "date": "18 BCE",
         "era": "Ancient & Classical",
         "event": "Three Kingdoms period begins in Korea. The temple of Jerusalem is reconstructed.",
-        "detail": null,
+        "Source": null,
         "id": 144
     },
     {
@@ -1310,7 +1312,7 @@ const questionData = [
         "date": "6 BCE",
         "era": "Ancient & Classical",
         "event": "Earliest theorized date for birth of Jesus of Nazareth. Roman succession:  Gaius Caesar and Lucius Caesar groomed for the throne.",
-        "detail": null,
+        "Source": null,
         "id": 145
     },
     {
@@ -1319,7 +1321,7 @@ const questionData = [
         "date": "4 BCE",
         "era": "Ancient & Classical",
         "event": "Widely accepted date (Ussher) for birth of Jesus Christ.",
-        "detail": null,
+        "Source": null,
         "id": 146
     },
     {
@@ -1327,8 +1329,8 @@ const questionData = [
         "year_end": 9,
         "date": "9",
         "era": "Ancient & Classical",
-        "event": " Battle of the Teutoburg Forest, the Imperial Roman Army's bloodiest defeat.",
-        "detail": null,
+        "event": "Battle of the Teutoburg Forest, the Imperial Roman Army's bloodiest defeat.",
+        "Source": null,
         "id": 147
     },
     {
@@ -1336,8 +1338,8 @@ const questionData = [
         "year_end": 14,
         "date": "14",
         "era": "Ancient & Classical",
-        "event": " Death of Emperor Augustus (Octavian), ascension of his adopted son Tiberius to the throne.",
-        "detail": null,
+        "event": "Death of Emperor Augustus (Octavian), ascension of his adopted son Tiberius to the throne.",
+        "Source": null,
         "id": 148
     },
     {
@@ -1345,8 +1347,8 @@ const questionData = [
         "year_end": 34,
         "date": "26-34",
         "era": "Ancient & Classical",
-        "event": " Crucifixion of Jesus Christ, exact date unknown.",
-        "detail": null,
+        "event": "Crucifixion of Jesus Christ, exact date unknown.",
+        "Source": null,
         "id": 149
     },
     {
@@ -1354,8 +1356,8 @@ const questionData = [
         "year_end": 37,
         "date": "37",
         "era": "Ancient & Classical",
-        "event": " Death of Emperor Tiberius, ascension of his nephew Caligula to the throne.",
-        "detail": null,
+        "event": "Death of Emperor Tiberius, ascension of his nephew Caligula to the throne.",
+        "Source": null,
         "id": 150
     },
     {
@@ -1364,7 +1366,7 @@ const questionData = [
         "date": "40",
         "era": "Ancient & Classical",
         "event": "Rome conquers Morocco.",
-        "detail": null,
+        "Source": null,
         "id": 151
     },
     {
@@ -1373,7 +1375,7 @@ const questionData = [
         "date": "41",
         "era": "Ancient & Classical",
         "event": "Emperor Caligula is assassinated by the Roman senate. His uncle Claudius succeeds him.",
-        "detail": null,
+        "Source": null,
         "id": 152
     },
     {
@@ -1382,7 +1384,7 @@ const questionData = [
         "date": "43",
         "era": "Ancient & Classical",
         "event": "Rome enters Britain for the first time.",
-        "detail": null,
+        "Source": null,
         "id": 153
     },
     {
@@ -1391,7 +1393,7 @@ const questionData = [
         "date": "54",
         "era": "Ancient & Classical",
         "event": "Emperor Claudius dies and is succeeded by his grand nephew Nero.",
-        "detail": null,
+        "Source": null,
         "id": 154
     },
     {
@@ -1400,7 +1402,7 @@ const questionData = [
         "date": "68",
         "era": "Ancient & Classical",
         "event": "Emperor Nero commits suicide, prompting the Year of the four emperors in Rome.",
-        "detail": null,
+        "Source": null,
         "id": 155
     },
     {
@@ -1409,7 +1411,7 @@ const questionData = [
         "date": "70",
         "era": "Ancient & Classical",
         "event": "Destruction of Jerusalem by the armies of Titus.",
-        "detail": null,
+        "Source": null,
         "id": 156
     },
     {
@@ -1418,7 +1420,7 @@ const questionData = [
         "date": "79",
         "era": "Ancient & Classical",
         "event": "Destruction of Pompeii by the volcano Vesuvius.",
-        "detail": null,
+        "Source": null,
         "id": 157
     },
     {
@@ -1427,7 +1429,7 @@ const questionData = [
         "date": "98",
         "era": "Ancient & Classical",
         "event": "After a two-year rule, Emperor Nerva dies of natural causes, his adopted son Trajan succeeds him.",
-        "detail": null,
+        "Source": null,
         "id": 158
     },
     {
@@ -1436,7 +1438,7 @@ const questionData = [
         "date": "100-940",
         "era": "Ancient & Classical",
         "event": "Kingdom of Aksum in the Horn of Africa",
-        "detail": null,
+        "Source": null,
         "id": 159
     },
     {
@@ -1444,8 +1446,8 @@ const questionData = [
         "year_end": 117,
         "date": "106-117",
         "era": "Ancient & Classical",
-        "event": " Roman Empire at largest extent under Emperor Trajan after having conquered modern-day Romania, Iraq and Armenia.",
-        "detail": null,
+        "event": "Roman Empire at largest extent under Emperor Trajan after having conquered modern-day Romania, Iraq and Armenia.",
+        "Source": null,
         "id": 160
     },
     {
@@ -1454,7 +1456,7 @@ const questionData = [
         "date": "117",
         "era": "Ancient & Classical",
         "event": "Trajan dies of natural causes. His adopted son Hadrian succeeds him. Hadrian pulls out of Iraq and Armenia.",
-        "detail": null,
+        "Source": null,
         "id": 161
     },
     {
@@ -1463,7 +1465,7 @@ const questionData = [
         "date": "126",
         "era": "Ancient & Classical",
         "event": "Hadrian completes the Pantheon in Rome.",
-        "detail": null,
+        "Source": null,
         "id": 162
     },
     {
@@ -1472,7 +1474,7 @@ const questionData = [
         "date": "138",
         "era": "Ancient & Classical",
         "event": "Hadrian dies of natural causes. His adopted son Antoninus Pius succeeds him.",
-        "detail": null,
+        "Source": null,
         "id": 163
     },
     {
@@ -1481,7 +1483,7 @@ const questionData = [
         "date": "161",
         "era": "Ancient & Classical",
         "event": "Death of Antoninus Pius. His rule was the only one in which Rome did not fight in a war.",
-        "detail": null,
+        "Source": null,
         "id": 164
     },
     {
@@ -1490,7 +1492,7 @@ const questionData = [
         "date": "161",
         "era": "Ancient & Classical",
         "event": "Marcus Aurelius becomes emperor of the Roman Empire. He is often ranked by historians as one of the greatest roman emperors.",
-        "detail": null,
+        "Source": null,
         "id": 165
     },
     {
@@ -1499,7 +1501,7 @@ const questionData = [
         "date": "180",
         "era": "Ancient & Classical",
         "event": "Reign of Marcus Aurelius officially ends.",
-        "detail": null,
+        "Source": null,
         "id": 166
     },
     {
@@ -1508,7 +1510,7 @@ const questionData = [
         "date": "180 - 181",
         "era": "Ancient & Classical",
         "event": "Commodus becomes Roman Emperor.",
-        "detail": null,
+        "Source": null,
         "id": 167
     },
     {
@@ -1517,7 +1519,7 @@ const questionData = [
         "date": "192",
         "era": "Ancient & Classical",
         "event": "Kingdom of Champa in Central Vi\u1ec7t Nam.",
-        "detail": null,
+        "Source": null,
         "id": 168
     },
     {
@@ -1526,7 +1528,7 @@ const questionData = [
         "date": "200s",
         "era": "Ancient & Classical",
         "event": "The Buddhist Srivijaya Empire established in Maritime Southeast Asia.",
-        "detail": null,
+        "Source": null,
         "id": 169
     },
     {
@@ -1535,7 +1537,7 @@ const questionData = [
         "date": "220",
         "era": "Ancient & Classical",
         "event": "Three Kingdoms period begins in China after the fall of Han Dynasty.",
-        "detail": null,
+        "Source": null,
         "id": 170
     },
     {
@@ -1544,7 +1546,7 @@ const questionData = [
         "date": "226",
         "era": "Ancient & Classical",
         "event": "Fall of the Parthian Empire and Rise of the Sassanian Empire.",
-        "detail": null,
+        "Source": null,
         "id": 171
     },
     {
@@ -1552,8 +1554,8 @@ const questionData = [
         "year_end": 361,
         "date": "337-361",
         "era": "Ancient & Classical",
-        "event": " Perso-Roman wars between the Roman Empire and the Sasanian Empire.",
-        "detail": null,
+        "event": "Perso-Roman wars between the Roman Empire and the Sasanian Empire.",
+        "Source": null,
         "id": 172
     },
     {
@@ -1562,7 +1564,7 @@ const questionData = [
         "date": "280",
         "era": "Ancient & Classical",
         "event": "Emperor Wu established Jin Dynasty providing a temporary unity of China after the devastating Three Kingdoms period.",
-        "detail": null,
+        "Source": null,
         "id": 173
     },
     {
@@ -1571,7 +1573,7 @@ const questionData = [
         "date": "285",
         "era": "Ancient & Classical",
         "event": "Diocletian becomes emperor of Rome and splits the Roman Empire into Eastern and Western Empires.",
-        "detail": null,
+        "Source": null,
         "id": 174
     },
     {
@@ -1580,7 +1582,7 @@ const questionData = [
         "date": "285",
         "era": "Ancient & Classical",
         "event": "Diocletian begins a large-scale persecution of Christians.",
-        "detail": null,
+        "Source": null,
         "id": 175
     },
     {
@@ -1589,7 +1591,7 @@ const questionData = [
         "date": "292",
         "era": "Ancient & Classical",
         "event": "The capital of the Roman empire is officially moved from Rome to Mediolanum (modern day Milan).",
-        "detail": null,
+        "Source": null,
         "id": 176
     },
     {
@@ -1598,7 +1600,7 @@ const questionData = [
         "date": "301",
         "era": "Ancient & Classical",
         "event": "Diocletian's edict on prices",
-        "detail": null,
+        "Source": null,
         "id": 177
     },
     {
@@ -1607,7 +1609,7 @@ const questionData = [
         "date": "313",
         "era": "Ancient & Classical",
         "event": "Edict of Milan declared that the Roman Empire would tolerate all forms of religious worship.",
-        "detail": null,
+        "Source": null,
         "id": 178
     },
     {
@@ -1616,7 +1618,7 @@ const questionData = [
         "date": "325",
         "era": "Ancient & Classical",
         "event": "Constantine I organizes the First Council of Nicaea.",
-        "detail": null,
+        "Source": null,
         "id": 179
     },
     {
@@ -1625,7 +1627,7 @@ const questionData = [
         "date": "330",
         "era": "Ancient & Classical",
         "event": "Constantinople is officially named and becomes the capital of the eastern Roman Empire.",
-        "detail": null,
+        "Source": null,
         "id": 180
     },
     {
@@ -1634,7 +1636,7 @@ const questionData = [
         "date": "335",
         "era": "Ancient & Classical",
         "event": "Samudragupta becomes the emperor of the Gupta empire.",
-        "detail": null,
+        "Source": null,
         "id": 181
     },
     {
@@ -1642,8 +1644,8 @@ const questionData = [
         "year_end": 337,
         "date": "337",
         "era": "Ancient & Classical",
-        "event": " Emperor Constantine I dies, leaving his sons Constantius II, Constans I, and Constantine II as the emperors of the Roman empire.",
-        "detail": null,
+        "event": "Emperor Constantine I dies, leaving his sons Constantius II, Constans I, and Constantine II as the emperors of the Roman empire.",
+        "Source": null,
         "id": 182
     },
     {
@@ -1652,7 +1654,7 @@ const questionData = [
         "date": "350",
         "era": "Ancient & Classical",
         "event": "Constantius II is left sole emperor with the death of his two brothers.",
-        "detail": null,
+        "Source": null,
         "id": 183
     },
     {
@@ -1661,7 +1663,7 @@ const questionData = [
         "date": "354",
         "era": "Ancient & Classical",
         "event": "Birth of Augustine of Hippo",
-        "detail": null,
+        "Source": null,
         "id": 184
     },
     {
@@ -1669,8 +1671,8 @@ const questionData = [
         "year_end": 361,
         "date": "361",
         "era": "Ancient & Classical",
-        "event": " Constantius II dies, his cousin Julian succeeds him.",
-        "detail": null,
+        "event": "Constantius II dies, his cousin Julian succeeds him.",
+        "Source": null,
         "id": 185
     },
     {
@@ -1678,8 +1680,8 @@ const questionData = [
         "year_end": 378,
         "date": "378",
         "era": "Ancient & Classical",
-        "event": " Battle of Adrianople, Roman army is defeated by the Germanic tribes.",
-        "detail": null,
+        "event": "Battle of Adrianople, Roman army is defeated by the Germanic tribes.",
+        "Source": null,
         "id": 186
     },
     {
@@ -1688,7 +1690,7 @@ const questionData = [
         "date": "380",
         "era": "Ancient & Classical",
         "event": "Roman Emperor Theodosius I declares the Arian faith of Christianity heretical.",
-        "detail": null,
+        "Source": null,
         "id": 187
     },
     {
@@ -1697,7 +1699,7 @@ const questionData = [
         "date": "395",
         "era": "Ancient & Classical",
         "event": "Theodosius I outlaws all religions other than Catholic Christianity.",
-        "detail": null,
+        "Source": null,
         "id": 188
     },
     {
@@ -1706,7 +1708,7 @@ const questionData = [
         "date": "406",
         "era": "Ancient & Classical",
         "event": "Romans are expelled from Britain.",
-        "detail": null,
+        "Source": null,
         "id": 189
     },
     {
@@ -1715,7 +1717,7 @@ const questionData = [
         "date": "407-409",
         "era": "Ancient & Classical",
         "event": "Visigoths and other Germanic tribes cross into Roman-Gaul for the first time.",
-        "detail": null,
+        "Source": null,
         "id": 190
     },
     {
@@ -1724,7 +1726,7 @@ const questionData = [
         "date": "410",
         "era": "Ancient & Classical",
         "event": "Visigoths sacks Rome for the first time since ..",
-        "detail": null,
+        "Source": null,
         "id": 191
     },
     {
@@ -1733,7 +1735,7 @@ const questionData = [
         "date": "415",
         "era": "Ancient & Classical",
         "event": "Germanic tribes enter Spain.",
-        "detail": null,
+        "Source": null,
         "id": 192
     },
     {
@@ -1742,7 +1744,7 @@ const questionData = [
         "date": "429",
         "era": "Ancient & Classical",
         "event": "Vandals enter North Africa from Spain for the first time",
-        "detail": null,
+        "Source": null,
         "id": 193
     },
     {
@@ -1751,7 +1753,7 @@ const questionData = [
         "date": "439",
         "era": "Ancient & Classical",
         "event": "Vandals have conquered the land stretching from Morocco to Tunisia by this time.",
-        "detail": null,
+        "Source": null,
         "id": 194
     },
     {
@@ -1759,8 +1761,8 @@ const questionData = [
         "year_end": 455,
         "date": "455",
         "era": "Ancient & Classical",
-        "event": " Vandals sack Rome, capture Sicily and Sardinia.",
-        "detail": null,
+        "event": "Vandals sack Rome, capture Sicily and Sardinia.",
+        "Source": null,
         "id": 195
     },
     {
@@ -1769,7 +1771,7 @@ const questionData = [
         "date": "c. 455",
         "era": "Ancient & Classical",
         "event": "Skandagupta repels an Indo-Hephthalite attack on India.",
-        "detail": null,
+        "Source": null,
         "id": 196
     },
     {
@@ -1778,7 +1780,7 @@ const questionData = [
         "date": "476",
         "era": "Ancient & Classical",
         "event": "Romulus Augustus, last Western Roman Emperor is forced to abdicate by Odoacer, a chieftain of the Germanic Heruli",
-        "detail": null,
+        "Source": null,
         "id": 197
     },
     {
@@ -1786,8 +1788,8 @@ const questionData = [
         "year_end": 400,
         "date": "c. 400 ",
         "era": "Medieval",
-        "event": "Highland Maya fall to the lowland city of Teotihuacan",
-        "detail": "Begins the decline of Maya culture and language in some parts of the highlands.",
+        "event": "Highland Maya fall to the lowland city of Teotihuacan. Begins the decline of Maya culture and language in some parts of the highlands. ",
+        "Source": null,
         "id": 198
     },
     {
@@ -1795,8 +1797,8 @@ const questionData = [
         "year_end": 405,
         "date": "405",
         "era": "Medieval",
-        "event": "St. Jerome finished the Vulgate.",
-        "detail": "The Christian Gospel is translated into Latin.",
+        "event": "St. Jerome finished the Vulgate. The Christian Gospel is translated into Latin. ",
+        "Source": null,
         "id": 199
     },
     {
@@ -1804,8 +1806,8 @@ const questionData = [
         "year_end": 410,
         "date": "410 August 24",
         "era": "Medieval",
-        "event": "Rome is sacked by Alaric, King of the Visigoths.",
-        "detail": "Decisive event in the decline of the Western Roman Empire.",
+        "event": "Rome is sacked by Alaric, King of the Visigoths. Decisive event in the decline of the Western Roman Empire. ",
+        "Source": null,
         "id": 200
     },
     {
@@ -1813,8 +1815,8 @@ const questionData = [
         "year_end": 431,
         "date": "431 June 22 \u2013 July 31",
         "era": "Medieval",
-        "event": "Council of Ephesus",
-        "detail": "Confirmed the original Nicene Creed, and condemned the teachings of Nestorius, Patriarch of Constantinople, that led to his exile and separation with the Church of the East.",
+        "event": "The Council of Ephesus confirmed the original Nicene Creed, and condemned the teachings of Nestorius, Patriarch of Constantinople, that led to his exile and separation with the Church of the East. ",
+        "Source": null,
         "id": 201
     },
     {
@@ -1822,8 +1824,8 @@ const questionData = [
         "year_end": 455,
         "date": "455 June 2",
         "era": "Medieval",
-        "event": "Rome is sacked by Genseric, King of the Vandals.",
-        "detail": "Another decisive event in the Fall of Rome and held by some historians to mark the \"end of the Roman Empire\".",
+        "event": "Rome is sacked by Genseric, King of the Vandals. Another decisive event in the Fall of Rome and held by some historians to mark the `end of the Roman Empire`",
+        "Source": null,
         "id": 202
     },
     {
@@ -1831,8 +1833,8 @@ const questionData = [
         "year_end": 476,
         "date": "476 September 4",
         "era": "Medieval",
-        "event": "Odoacer deposes the Roman Emperor Romulus Augustulus",
-        "detail": "Considered by some historians to be the starting point of the Middle Ages.",
+        "event": "Odoacer deposes the Roman Emperor Romulus Augustulus. Considered by some historians to be the starting point of the Middle Ages.",
+        "Source": null,
         "id": 203
     },
     {
@@ -1840,8 +1842,8 @@ const questionData = [
         "year_end": 480,
         "date": "480 April 25",
         "era": "Medieval",
-        "event": "Death of Julius Nepos, last Roman Emperor to be recognized as such by the Roman Senate and the Eastern court",
-        "detail": "Considered by some historians to be the starting point of the Middle Ages.",
+        "event": "Death of Julius Nepos, last Roman Emperor to be recognized as such by the Roman Senate and the Eastern court. Considered by some historians to be the starting point of the Middle Ages.",
+        "Source": null,
         "id": 204
     },
     {
@@ -1849,8 +1851,8 @@ const questionData = [
         "year_end": 500,
         "date": "c. 500 ",
         "era": "Medieval",
-        "event": "Tikal becomes the first great Maya city",
-        "detail": "Significant cultural exchange between the Maya of Tikal and the citizens of Teotihuacan.",
+        "event": "Tikal becomes the first great Maya city. Significant cultural exchange between the Maya of Tikal and the citizens of Teotihuacan.",
+        "Source": null,
         "id": 205
     },
     {
@@ -1858,8 +1860,8 @@ const questionData = [
         "year_end": 500,
         "date": "c. 500 ",
         "era": "Medieval",
-        "event": "Battle of Mons Badonicus.",
-        "detail": "The West Saxon advance is halted by Britons in England. Chiefly known today for the supposed involvement of King Arthur but because of the limited number of sources, there is no certainty about the date, location, or details of the fighting.",
+        "event": "Battle of Mons Badonicus. The West Saxon advance is halted by Britons in England. Chiefly known today for the supposed involvement of King Arthur but information is very limited.",
+        "Source": null,
         "id": 206
     },
     {
@@ -1867,8 +1869,8 @@ const questionData = [
         "year_end": 507,
         "date": "507 Spring",
         "era": "Medieval",
-        "event": "The Franks under Clovis defeat the Visigoths in the Battle of Vouill\u00e9.",
-        "detail": "The Visigoths retreated into Spain.",
+        "event": "The Franks under Clovis defeat the Visigoths in the Battle of Vouill\u00e9. The Visigoths retreated into Spain. ",
+        "Source": null,
         "id": 207
     },
     {
@@ -1876,8 +1878,8 @@ const questionData = [
         "year_end": 524,
         "date": "c. 524 ",
         "era": "Medieval",
-        "event": "Boethius writes his Consolation of Philosophy",
-        "detail": "It has been described as the single most important and influential work in the West on Medieval and early Renaissance Christianity.",
+        "event": "Boethius writes his Consolation of Philosophy. It has been described as the single most important and influential work in the West on Medieval and early Renaissance Christianity. ",
+        "Source": null,
         "id": 208
     },
     {
@@ -1885,8 +1887,8 @@ const questionData = [
         "year_end": 525,
         "date": "525",
         "era": "Medieval",
-        "event": "Dionysius Exiguus publishes the Dionysius Exiguus' Easter table.",
-        "detail": "This initiated the Anno Domini era, used for the Gregorian and Julian calendars.",
+        "event": "Dionysius Exiguus publishes the Dionysius Exiguus' Easter table. This initiated the Anno Domini era, used for the Gregorian and Julian calendars. ",
+        "Source": null,
         "id": 209
     },
     {
@@ -1894,8 +1896,8 @@ const questionData = [
         "year_end": 527,
         "date": "527 August 1",
         "era": "Medieval",
-        "event": "Justinian I becomes Eastern Roman Emperor.",
-        "detail": "Justinian is best remembered for his Code of Civil Law (529), and expansion of imperial territory retaking Rome from the Ostrogoths.",
+        "event": "Justinian I becomes Eastern Roman Emperor. Justinian is best remembered for his Code of Civil Law and expansion of imperial territory retaking Rome from the Ostrogoths. ",
+        "Source": null,
         "id": 210
     },
     {
@@ -1903,8 +1905,8 @@ const questionData = [
         "year_end": 529,
         "date": "529\u2013534 ",
         "era": "Medieval",
-        "event": "Justinian I publishes the Code of Civil Law.",
-        "detail": "This compiled centuries of legal writings and imperial pronouncements into three parts of one body of law.",
+        "event": "Justinian I publishes the Code of Civil Law. This compiled centuries of legal writings and imperial pronouncements into three parts of one body of law.",
+        "Source": null,
         "id": 211
     },
     {
@@ -1912,8 +1914,8 @@ const questionData = [
         "year_end": 529,
         "date": "529",
         "era": "Medieval",
-        "event": "Benedict of Nursia founds monastery at Monte Cassino.",
-        "detail": "The first of twelve monasteries founded by Saint Benedict, beginning the Order of Saint Benedict.",
+        "event": "Benedict of Nursia founds monastery at Monte Cassino. The first of twelve monasteries founded by Saint Benedict, beginning the Order of Saint Benedict.",
+        "Source": null,
         "id": 212
     },
     {
@@ -1921,8 +1923,8 @@ const questionData = [
         "year_end": 532,
         "date": "532 January 1",
         "era": "Medieval",
-        "event": "Nika riots in Constantinople.",
-        "detail": "Nearly half the city being burned or destroyed and tens of thousands of people killed.",
+        "event": "Nika riots in Constantinople. Nearly half the city is burned down or destroyed and tens of thousands of people are killed.",
+        "Source": null,
         "id": 213
     },
     {
@@ -1930,8 +1932,8 @@ const questionData = [
         "year_end": 533,
         "date": "533 December 15",
         "era": "Medieval",
-        "event": "Byzantines, under Belisarius, retake North Africa from the Vandals.",
-        "detail": "Vandal kingdom ends and the Reconquest of North Africa is completed.",
+        "event": "Byzantines, under Belisarius, retake North Africa from the Vandals. Vandal kingdom ends and the Reconquest of North Africa is completed. ",
+        "Source": null,
         "id": 214
     },
     {
@@ -1939,8 +1941,8 @@ const questionData = [
         "year_end": 535,
         "date": "535\u2013554 ",
         "era": "Medieval",
-        "event": "Gothic War in Italy as a part of Justinian's Reconquest.",
-        "detail": "Byzantines retook Italy but crippled the Byzantine economy and left Italy unable to cope against the oncoming Lombards.",
+        "event": "Gothic War in Italy as a part of Justinian's Reconquest. Byzantines retook Italy but crippled the Byzantine economy and left Italy unable to cope against the oncoming Lombards.",
+        "Source": null,
         "id": 215
     },
     {
@@ -1948,8 +1950,8 @@ const questionData = [
         "year_end": 563,
         "date": "563",
         "era": "Medieval",
-        "event": "Saint Columba founds mission in Iona.",
-        "detail": "Constructed an abbey which helped convert the Picts to Christianity until it was destroyed and raided by the Vikings in 794.",
+        "event": "Saint Columba founds mission in Iona. Constructed an abbey which helped convert the Picts to Christianity until it was destroyed and raided by the Vikings in 794.",
+        "Source": null,
         "id": 216
     },
     {
@@ -1957,8 +1959,8 @@ const questionData = [
         "year_end": 568,
         "date": "568",
         "era": "Medieval",
-        "event": "The Kingdom of the Lombards is founded in Italy.",
-        "detail": "Survived in Italy until the invasion of the Franks in 774 under Charlemagne.",
+        "event": "The Kingdom of the Lombards is founded in Italy. Survived in Italy until the invasion of the Franks under Charlemagne. ",
+        "Source": null,
         "id": 217
     },
     {
@@ -1966,8 +1968,8 @@ const questionData = [
         "year_end": 570,
         "date": "c. 570 ",
         "era": "Medieval",
-        "event": "Muhammad is born.",
-        "detail": "Professed receiving revelations from a god, which were recorded in the Quran, the basis of Islamic theology, in which he is regarded as the last of the sent prophets.",
+        "event": "Muhammad is born. Professed receiving revelations from a god, which were recorded in the Quran, the basis of Islamic theology, in which he is regarded as the last of the sent prophets.",
+        "Source": null,
         "id": 218
     },
     {
@@ -1975,8 +1977,8 @@ const questionData = [
         "year_end": 577,
         "date": "577",
         "era": "Medieval",
-        "event": "The West Saxons continue their advance at the Battle of Deorham.",
-        "detail": "Led to the permanent separation of Cornwall, England from Wales.",
+        "event": "The West Saxons continue their advance at the Battle of Deorham. Led to the permanent separation of Cornwall, England from Wales. ",
+        "Source": null,
         "id": 219
     },
     {
@@ -1984,8 +1986,8 @@ const questionData = [
         "year_end": 581,
         "date": "04 March 581 \u2013 23 May 618",
         "era": "Medieval",
-        "event": "Sui dynasty in China.",
-        "detail": "China unified once again during this period for the first time in almost 400 years.",
+        "event": "Sui dynasty in China. China unified once again during this period for the first time in almost 400 years.",
+        "Source": null,
         "id": 220
     },
     {
@@ -1993,8 +1995,8 @@ const questionData = [
         "year_end": 590,
         "date": "590 September 3",
         "era": "Medieval",
-        "event": "Gregory the Great becomes Pope.",
-        "detail": "The missionary work reached new levels during his pontificate, revolutionized the way of worship for the Catholic Church (Gregorian chant), liturgy, etc., and was soon canonized after his death.",
+        "event": "Gregory the Great becomes Pope. The missionary work reached new levels during his reign and he revolutionized the way of worship for the Catholic Church.",
+        "Source": null,
         "id": 221
     },
     {
@@ -2002,8 +2004,8 @@ const questionData = [
         "year_end": 597,
         "date": "597",
         "era": "Medieval",
-        "event": "Augustine arrives in Kent.",
-        "detail": "Christianization of England (Anglo-Saxons) begins.",
+        "event": "Augustine arrives in Kent. Christianization of England (Anglo-Saxons) begins.",
+        "Source": null,
         "id": 222
     },
     {
@@ -2011,8 +2013,8 @@ const questionData = [
         "year_end": 598,
         "date": "598\u2013668 ",
         "era": "Medieval",
-        "event": "Massive Chinese (Sui and Tang) invasions against Korean Goguryeo.",
-        "detail": "Contributed to the fall of the Sui dynasty, and Goguryeo fell under the forces of the Tang and Silla.",
+        "event": "Massive Chinese (Sui and Tang) invasions against Korean Goguryeo. Contributed to the fall of the Sui dynasty, and Goguryeo fell under the forces of the Tang and Silla.",
+        "Source": null,
         "id": 223
     },
     {
@@ -2020,8 +2022,8 @@ const questionData = [
         "year_end": 600,
         "date": "c. 600 ",
         "era": "Medieval",
-        "event": "Deliberate fires set for unknown reasons destroy major buildings in Teotihuacan.",
-        "detail": "Destroys the Teotihuacan civilization and empire. Tikal is now the largest city-state in Mesoamerica.",
+        "event": "Deliberate fires set for unknown reasons destroy major buildings in Teotihuacan. Destroys the Teotihuacan civilization and empire. Tikal is now the largest city-state in Mesoamerica.",
+        "Source": null,
         "id": 224
     },
     {
@@ -2029,8 +2031,8 @@ const questionData = [
         "year_end": 602,
         "date": "602\u2013629 ",
         "era": "Medieval",
-        "event": "Last great Roman\u2013Persian War.",
-        "detail": "Long conflict leaves both empires exhausted and unable to cope with the newly united Arab armies under Islam in the 630s",
+        "event": "Last great Roman\u2013Persian War. Long conflict leaves both empires exhausted and unable to cope with the newly united Arab armies under Islam in the 630s",
+        "Source": null,
         "id": 225
     },
     {
@@ -2038,8 +2040,8 @@ const questionData = [
         "year_end": 604,
         "date": "604\u2013609 ",
         "era": "Medieval",
-        "event": "Grand Canal in China is fully completed",
-        "detail": "Its main role throughout its history was the transport of grain to the capital.",
+        "event": "Grand Canal in China is fully completed Its main role throughout its history was the transport of grain to the capital.",
+        "Source": null,
         "id": 226
     },
     {
@@ -2047,8 +2049,8 @@ const questionData = [
         "year_end": 618,
         "date": "01 June 618 \u2013 18 June 907",
         "era": "Medieval",
-        "event": "Tang dynasty in China.",
-        "detail": "The essential administrative system of this dynasty lasts for 286 years.",
+        "event": "Tang dynasty in China. The essential administrative system of this dynasty lasts for 286 years.",
+        "Source": null,
         "id": 227
     },
     {
@@ -2056,8 +2058,8 @@ const questionData = [
         "year_end": 622,
         "date": "9 September \u2013 23 September 622",
         "era": "Medieval",
-        "event": "Muhammad migrates from Mecca to Medina.",
-        "detail": "Event will have designated first year of the Islamic calendar, as Anno Hegirae.",
+        "event": "Muhammad migrates from Mecca to Medina. Event will have designated first year of the Islamic calendar, as Anno Hegirae. ",
+        "Source": null,
         "id": 228
     },
     {
@@ -2065,8 +2067,8 @@ const questionData = [
         "year_end": 626,
         "date": "626",
         "era": "Medieval",
-        "event": "Joint Persian\u2013Avar\u2013Slav Siege of Constantinople",
-        "detail": "Constantinople saved, Avar power broken and Persians henceforth on the defensive",
+        "event": "Joint Persian\u2013Avar\u2013Slav Siege of Constantinople. Constantinople saved, Avar power broken and Persians henceforth on the defensive ",
+        "Source": null,
         "id": 229
     },
     {
@@ -2074,8 +2076,8 @@ const questionData = [
         "year_end": 627,
         "date": "627 December 12",
         "era": "Medieval",
-        "event": "Battle of Nineveh.",
-        "detail": "The Byzantines, under Heraclius, crush the Persians.",
+        "event": "Battle of Nineveh. The Byzantines, under Heraclius, crush the Persians. ",
+        "Source": null,
         "id": 230
     },
     {
@@ -2084,7 +2086,7 @@ const questionData = [
         "date": "632 June 8",
         "era": "Medieval",
         "event": "Death of Muhammad",
-        "detail": "By this point, all of Arabia is Muslim.",
+        "Source": null,
         "id": 231
     },
     {
@@ -2092,8 +2094,8 @@ const questionData = [
         "year_end": 632,
         "date": "632\u2013668 ",
         "era": "Medieval",
-        "event": "Establishment and expansion of Old Great Bulgaria.",
-        "detail": "The demise of Old Great Bulgaria lead to the founding of the First Bulgarian Empire and Volga Bulgaria by the sons of Kubrat.",
+        "event": "Establishment and expansion of Old Great Bulgaria. The demise of Old Great Bulgaria lead to the founding of the First Bulgarian Empire and Volga Bulgaria by the sons of Kubrat.",
+        "Source": null,
         "id": 232
     },
     {
@@ -2101,8 +2103,8 @@ const questionData = [
         "year_end": 632,
         "date": "632 June 8",
         "era": "Medieval",
-        "event": "Accession of Abu Bakr as first Caliph.",
-        "detail": "Though the period of his caliphate was not long, it included successful invasions of the two most powerful empires of the time.",
+        "event": "Accession of Abu Bakr as first Caliph. Though the period of his caliphate was not long it included successful invasions of the two most powerful empires of the time.",
+        "Source": null,
         "id": 233
     },
     {
@@ -2110,8 +2112,8 @@ const questionData = [
         "year_end": 633,
         "date": "633\u2013634 ",
         "era": "Medieval",
-        "event": "Battle of Heavenfield.",
-        "detail": "Northumbrian army under Oswald defeat Welsh army.",
+        "event": "Battle of Heavenfield. Northumbrian army under Oswald defeat Welsh army.",
+        "Source": null,
         "id": 234
     },
     {
@@ -2120,7 +2122,7 @@ const questionData = [
         "date": "638",
         "era": "Medieval",
         "event": "Jerusalem captured by the Arab army, mostly Muslims, but with contingents of Syrian Christians.",
-        "detail": null,
+        "Source": null,
         "id": 235
     },
     {
@@ -2129,7 +2131,7 @@ const questionData = [
         "date": "641",
         "era": "Medieval",
         "event": "Battle of Nahavand. Muslims conquer Persia.",
-        "detail": null,
+        "Source": null,
         "id": 236
     },
     {
@@ -2138,7 +2140,7 @@ const questionData = [
         "date": "643",
         "era": "Medieval",
         "event": "Arab Army led by Amr ibn al-As takes Alexandria.",
-        "detail": null,
+        "Source": null,
         "id": 237
     },
     {
@@ -2146,8 +2148,8 @@ const questionData = [
         "year_end": 645,
         "date": "645",
         "era": "Medieval",
-        "event": "In Japan, the Soga clan falls.",
-        "detail": "This initiates a period of imitation of Chinese culture, The Nara period begins a year later.",
+        "event": "In Japan, the Soga clan falls. This initiates a period of imitation of Chinese culture, The Nara period begins a year later. ",
+        "Source": null,
         "id": 238
     },
     {
@@ -2156,7 +2158,7 @@ const questionData = [
         "date": "650",
         "era": "Medieval",
         "event": "Slav occupation of Balkans complete.",
-        "detail": null,
+        "Source": null,
         "id": 239
     },
     {
@@ -2164,8 +2166,8 @@ const questionData = [
         "year_end": 650,
         "date": "c. 650 ",
         "era": "Medieval",
-        "event": "The city-state Xochicalco is founded by the Olmeca\u2013Xicallanca.",
-        "detail": "Becomes an important cultural and commercial center.",
+        "event": "The city-state Xochicalco is founded by the Olmeca\u2013Xicallanca. Becomes an important cultural and commercial center.",
+        "Source": null,
         "id": 240
     },
     {
@@ -2173,8 +2175,8 @@ const questionData = [
         "year_end": 663,
         "date": "663",
         "era": "Medieval",
-        "event": "Synod of Whitby.",
-        "detail": "Roman Christianity triumphs over Celtic Christianity in England.",
+        "event": "Synod of Whitby. Roman Christianity triumphs over Celtic Christianity in England.",
+        "Source": null,
         "id": 241
     },
     {
@@ -2182,8 +2184,8 @@ const questionData = [
         "year_end": 668,
         "date": "668",
         "era": "Medieval",
-        "event": "End of the Three Kingdoms period in Korea.",
-        "detail": "Established a Unified Silla which led to the North\u2013South States Period 30 years later.",
+        "event": "End of the Three Kingdoms period in Korea. Established a Unified Silla which led to the North\u2013South States Period 30 years later.",
+        "Source": null,
         "id": 242
     },
     {
@@ -2191,8 +2193,8 @@ const questionData = [
         "year_end": 674,
         "date": "674\u2013678 ",
         "era": "Medieval",
-        "event": "First Arab siege of Constantinople.",
-        "detail": "First time Islamic armies defeated, forestalling Islamic conquest of Europe.",
+        "event": "First Arab siege of Constantinople. First time Islamic armies defeated forestalling Islamic conquest of Europe.",
+        "Source": null,
         "id": 243
     },
     {
@@ -2201,7 +2203,7 @@ const questionData = [
         "date": "681",
         "era": "Medieval",
         "event": "Establishment of the Bulgarian Empire.",
-        "detail": "A country with great influence in the European history in the Middle Ages.",
+        "Source": null,
         "id": 244
     },
     {
@@ -2209,8 +2211,8 @@ const questionData = [
         "year_end": 685,
         "date": "685",
         "era": "Medieval",
-        "event": "Battle of Dun Nechtain.",
-        "detail": "Picts defeat Northumbrians, whose dominance ends.",
+        "event": "Battle of Dun Nechtain. Picts defeat Northumbrians whose dominance ends.",
+        "Source": null,
         "id": 245
     },
     {
@@ -2218,8 +2220,8 @@ const questionData = [
         "year_end": 687,
         "date": "687",
         "era": "Medieval",
-        "event": "Battle of Tertry",
-        "detail": "Established Pepin of Herstal as mayor over the entire realms of Neustria and Austrasia, which further dwindled Merovingian power.",
+        "event": "Battle of Tertry Established Pepin of Herstal as mayor over the entire realms of Neustria and Austrasia which further dwindled Merovingian power.",
+        "Source": null,
         "id": 246
     },
     {
@@ -2227,8 +2229,8 @@ const questionData = [
         "year_end": 698,
         "date": "698",
         "era": "Medieval",
-        "event": "Arab army takes Carthage.",
-        "detail": "End of Byzantine rule in North Africa",
+        "event": "Arab army takes Carthage. End of Byzantine rule in North Africa",
+        "Source": null,
         "id": 247
     },
     {
@@ -2236,8 +2238,8 @@ const questionData = [
         "year_end": 698,
         "date": "698",
         "era": "Medieval",
-        "event": "North\u2013South States Period begins in Korea.",
-        "detail": "Silla and Balhae coexisted in the south and north of the peninsula, respectively, until 926",
+        "event": "North\u2013South States Period begins in Korea. Silla and Balhae coexisted in the south and north of the peninsula respectively until 926",
+        "Source": null,
         "id": 248
     },
     {
@@ -2245,8 +2247,8 @@ const questionData = [
         "year_end": 711,
         "date": "711",
         "era": "Medieval",
-        "event": "Umayyad conquest of Hispania under Tarik.",
-        "detail": "Will begin a period of Muslim rule within in the Al-Andalus (with various portions of Iberian peninsula) until nearly the end of the Fifteenth Century.",
+        "event": "Umayyad conquest of Hispania under Tarik. Will begin a period of Muslim rule within in the Al-Andalus (with various portions of Iberian peninsula) until nearly the end of the Fifteenth Century.",
+        "Source": null,
         "id": 249
     },
     {
@@ -2254,8 +2256,8 @@ const questionData = [
         "year_end": 718,
         "date": "718",
         "era": "Medieval",
-        "event": "Second Arab attack on Constantinople, ending in failure.",
-        "detail": "The combined Byzantine\u2013Bulgarian forces stop the Arab threat in Southeastern Europe.",
+        "event": "Second Arab attack on Constantinople, ending in failure. The combined Byzantine\u2013Bulgarian forces stop the Arab threat in Southeastern Europe.",
+        "Source": null,
         "id": 250
     },
     {
@@ -2264,7 +2266,7 @@ const questionData = [
         "date": "726",
         "era": "Medieval",
         "event": "Iconoclast movement begun in the Byzantine Empire under Leo III. This was opposed by Pope Gregory II, and an important difference between the Roman and Byzantine churches.",
-        "detail": null,
+        "Source": null,
         "id": 251
     },
     {
@@ -2272,8 +2274,8 @@ const questionData = [
         "year_end": 732,
         "date": "732 October",
         "era": "Medieval",
-        "event": "Battle of Tours. Charles Martel halts Muslim advance.",
-        "detail": "Significant moment that led to the forming of the Carolingian Empire for the Franks, and halted the advancement of the Moors in southwestern Europe.",
+        "event": "Battle of Tours. Charles Martel halts Muslim advance which led to the forming of the Carolingian Empire for the Franks and halted the advancement of the Moors in southwestern Europe.",
+        "Source": null,
         "id": 252
     },
     {
@@ -2281,8 +2283,8 @@ const questionData = [
         "year_end": 735,
         "date": "735 26 May",
         "era": "Medieval",
-        "event": "Death of Bede.",
-        "detail": "Bede was later regarded as \"the father of English history\"",
+        "event": "Death of Bede. Bede was later regarded as the father of English history ",
+        "Source": null,
         "id": 253
     },
     {
@@ -2290,8 +2292,8 @@ const questionData = [
         "year_end": 750,
         "date": "750 25 January",
         "era": "Medieval",
-        "event": "Beginning of Abbasid Caliphate.",
-        "detail": "Would become the longest lasting caliphate, until 1519 when conquered and annexed into the Ottoman Empire.",
+        "event": "Beginning of Abbasid Caliphate. Would become the longest lasting caliphate until 1519 when conquered and annexed into the Ottoman Empire.",
+        "Source": null,
         "id": 254
     },
     {
@@ -2300,7 +2302,7 @@ const questionData = [
         "date": "751",
         "era": "Medieval",
         "event": "Pepin the Short founds the Carolingian dynasty.",
-        "detail": null,
+        "Source": null,
         "id": 255
     },
     {
@@ -2309,7 +2311,7 @@ const questionData = [
         "date": "754",
         "era": "Medieval",
         "event": "Pepin promises the Pope central Italy. This is arguably the beginning of the temporal power of the Papacy.",
-        "detail": null,
+        "Source": null,
         "id": 256
     },
     {
@@ -2318,7 +2320,7 @@ const questionData = [
         "date": "768",
         "era": "Medieval",
         "event": "Beginning of Charlemagne's reign.",
-        "detail": null,
+        "Source": null,
         "id": 257
     },
     {
@@ -2327,7 +2329,7 @@ const questionData = [
         "date": "778 15 August",
         "era": "Medieval",
         "event": "Battle of Roncevaux Pass.",
-        "detail": null,
+        "Source": null,
         "id": 258
     },
     {
@@ -2336,7 +2338,7 @@ const questionData = [
         "date": "786 14 September",
         "era": "Medieval",
         "event": "Accession of Harun al-Rashid to the Caliphate in Baghdad.",
-        "detail": null,
+        "Source": null,
         "id": 259
     },
     {
@@ -2344,8 +2346,8 @@ const questionData = [
         "year_end": 793,
         "date": "793",
         "era": "Medieval",
-        "event": "Sack of Lindisfarne. Viking attacks on Britain begin.",
-        "detail": "Generally considered the beginning of the Viking Age that would span over two centuries, and reach as far south as Hispania and as far east as the Byzantine Empire, and present day Russia.",
+        "event": "Viking attacks on Britain begin with the Sack of Lindisfarne. The Viking Age will span over two centuries. There influence will reach Hispania, to the Byzantine Empire, and present day Russia. ",
+        "Source": null,
         "id": 260
     },
     {
@@ -2353,8 +2355,8 @@ const questionData = [
         "year_end": 794,
         "date": "794",
         "era": "Medieval",
-        "event": "Heian period in Japan.",
-        "detail": "Considered to be the last classical period of History of Japan. Chinese influence was at its strongest during this era in Japan.",
+        "event": "Heian period in Japan. Considered to be the last classical period of History of Japan. Chinese influence was at its strongest during this era in Japan.",
+        "Source": null,
         "id": 261
     },
     {
@@ -2362,8 +2364,8 @@ const questionData = [
         "year_end": 795,
         "date": "795 29 July",
         "era": "Medieval",
-        "event": "Death of Offa.",
-        "detail": "Marks the end of Mercian dominance in England.",
+        "event": "Death of Offa. Marks the end of Mercian dominance in England.",
+        "Source": null,
         "id": 262
     },
     {
@@ -2371,8 +2373,8 @@ const questionData = [
         "year_end": 800,
         "date": "800 25 December",
         "era": "Medieval",
-        "event": "Charlemagne is crowned Holy Roman Emperor.",
-        "detail": "With his crowning, Charlemagne's kingdom is officially recognized by the Papacy as the largest in Europe since the fall of the Roman Empire.",
+        "event": "Charlemagne is crowned Holy Roman Emperor. With his crowning Charlemagne's kingdom is officially recognized by the Papacy as the largest in Europe since the fall of the Roman Empire.",
+        "Source": null,
         "id": 263
     },
     {
@@ -2381,7 +2383,7 @@ const questionData = [
         "date": "800",
         "era": "Medieval",
         "event": "Gunpowder is invented in China (somewhere around 9th century)",
-        "detail": null,
+        "Source": null,
         "id": 264
     },
     {
@@ -2389,8 +2391,8 @@ const questionData = [
         "year_end": 814,
         "date": "814 28 January",
         "era": "Medieval",
-        "event": "Death of Charlemagne.",
-        "detail": "Would be a factor towards the splitting of his empire almost 30 years later.",
+        "event": "Death of Charlemagne. Would be a factor towards the splitting of his empire almost 30 years later.",
+        "Source": null,
         "id": 265
     },
     {
@@ -2398,8 +2400,8 @@ const questionData = [
         "year_end": 820,
         "date": "820",
         "era": "Medieval",
-        "event": "Algebrae et Alumcabola Algorithm",
-        "detail": "Muhammad ibn Musa- al-Khwarizmi",
+        "event": "Algebrae et Alumcabola Algorithm Muhammad ibn Musa- al-Khwarizmi",
+        "Source": null,
         "id": 266
     },
     {
@@ -2407,8 +2409,8 @@ const questionData = [
         "year_end": 825,
         "date": "825",
         "era": "Medieval",
-        "event": "Battle of Ellandun.  Egbert defeats Mercians.",
-        "detail": "Wessex becomes the leading kingdom of England.",
+        "event": "Battle of Ellandun. Egbert defeats Mercians. Wessex becomes the leading kingdom of England.",
+        "Source": null,
         "id": 267
     },
     {
@@ -2416,8 +2418,8 @@ const questionData = [
         "year_end": 827,
         "date": "827",
         "era": "Medieval",
-        "event": "Muslims invade Sicily.",
-        "detail": "First encounter of attempts to conquer Byzantine Sicily, until the last Byzantine outpost was conquered in 965.",
+        "event": "Muslims invade Sicily. First encounter of attempts to conquer Byzantine Sicily until the last Byzantine outpost was conquered in 965.",
+        "Source": null,
         "id": 268
     },
     {
@@ -2426,7 +2428,7 @@ const questionData = [
         "date": "840",
         "era": "Medieval",
         "event": "Muslims capture Bari and much of southern Italy.",
-        "detail": null,
+        "Source": null,
         "id": 269
     },
     {
@@ -2434,8 +2436,8 @@ const questionData = [
         "year_end": 843,
         "date": "843",
         "era": "Medieval",
-        "event": "Division of Charlemagne's Empire between his grandsons with the Treaty of Verdun.",
-        "detail": "Sets the stage for the founding of the Holy Roman Empire and France as separate states.",
+        "event": "Division of Charlemagne's Empire between his grandsons with the Treaty of Verdun. Sets the stage for the founding of the Holy Roman Empire and France as separate states.",
+        "Source": null,
         "id": 270
     },
     {
@@ -2444,7 +2446,7 @@ const questionData = [
         "date": "843",
         "era": "Medieval",
         "event": "Kenneth McAlpin becomes king of the Picts and Scots, creating the Kingdom of Alba.",
-        "detail": null,
+        "Source": null,
         "id": 271
     },
     {
@@ -2453,7 +2455,7 @@ const questionData = [
         "date": "862",
         "era": "Medieval",
         "event": "Viking state in Russia founded under Rurik, first at Novgorod, then Kiev.",
-        "detail": null,
+        "Source": null,
         "id": 272
     },
     {
@@ -2462,7 +2464,7 @@ const questionData = [
         "date": "864",
         "era": "Medieval",
         "event": "Christianization of Bulgaria.",
-        "detail": null,
+        "Source": null,
         "id": 273
     },
     {
@@ -2470,8 +2472,8 @@ const questionData = [
         "year_end": 866,
         "date": "866",
         "era": "Medieval",
-        "event": "Fujiwara period in Japan.",
-        "detail": "Would become the most powerful clan during the Heian period in Japan for around three centuries.",
+        "event": "Fujiwara period in Japan. Would become the most powerful clan during the Heian period in Japan for around three centuries.",
+        "Source": null,
         "id": 274
     },
     {
@@ -2479,8 +2481,8 @@ const questionData = [
         "year_end": 866,
         "date": "866",
         "era": "Medieval",
-        "event": "Viking Great Army arrives in England.",
-        "detail": "Northumbria, East Anglia, and Mercia were overwhelmed.",
+        "event": "Viking Great Army arrives in England. Northumbria, East Anglia, and Mercia were overwhelmed. ",
+        "Source": null,
         "id": 275
     },
     {
@@ -2489,7 +2491,7 @@ const questionData = [
         "date": "868",
         "era": "Medieval",
         "event": "Earliest known printed book in China with a date.",
-        "detail": null,
+        "Source": null,
         "id": 276
     },
     {
@@ -2497,8 +2499,8 @@ const questionData = [
         "year_end": 871,
         "date": "871",
         "era": "Medieval",
-        "event": "Alfred the Great assumes the throne, the first king of a united England.",
-        "detail": "He defended England from Viking invaders, formed new laws and fostered a rebirth of religious and scholarly activities.",
+        "event": "Alfred the Great assumes the throne, the first king of a united England. He defended England from Viking invaders, formed new laws and fostered a rebirth of religious and scholarly activities.",
+        "Source": null,
         "id": 277
     },
     {
@@ -2507,7 +2509,7 @@ const questionData = [
         "date": "c. 872 ",
         "era": "Medieval",
         "event": "Harold Fairhair becomes King of Norway.",
-        "detail": null,
+        "Source": null,
         "id": 278
     },
     {
@@ -2516,7 +2518,7 @@ const questionData = [
         "date": "874",
         "era": "Medieval",
         "event": "Iceland is settled by Norsemen.",
-        "detail": null,
+        "Source": null,
         "id": 279
     },
     {
@@ -2524,8 +2526,8 @@ const questionData = [
         "year_end": 882,
         "date": "882",
         "era": "Medieval",
-        "event": "Kievan Rus' is established.",
-        "detail": "Would be sustained until the Mongol invasion of Rus' over four and a half centuries, despite peaking during the middle 11th century during the reign of Yaroslav the Wise.",
+        "event": "Kievan Rus' is established. Would be sustained until the Mongol invasion of Rus' over four and a half centuries, despite peaking during the middle 11th century during the reign of Yaroslav the Wise.",
+        "Source": null,
         "id": 280
     },
     {
@@ -2533,8 +2535,8 @@ const questionData = [
         "year_end": 885,
         "date": "885",
         "era": "Medieval",
-        "event": "Arrival of the disciples of Saints Cyril and Methodius in Bulgaria",
-        "detail": "Creation of the Cyrillic script  in the following decades the country became the cultural and spiritual centre of the whole Eastern Orthodox part of the Slavic World.",
+        "event": "Arrival of the disciples of Saints Cyril and Methodius in Bulgaria. In the following decades the country became the cultural and spiritual centre of the Eastern Orthodox part of the Slavic World.",
+        "Source": null,
         "id": 281
     },
     {
@@ -2543,7 +2545,7 @@ const questionData = [
         "date": "885\u2013886 ",
         "era": "Medieval",
         "event": "Vikings attack Paris.",
-        "detail": null,
+        "Source": null,
         "id": 282
     },
     {
@@ -2551,8 +2553,8 @@ const questionData = [
         "year_end": 893,
         "date": "893",
         "era": "Medieval",
-        "event": "Emperor Simeon I becomes ruler of the First Bulgarian Empire in the Balkans.",
-        "detail": "Golden age of the First Bulgarian Empire (896\u2013927). The Cyrillic alphabet was developed in the Preslav Literary School and Ohrid Literary School.",
+        "event": "Emperor Simeon I becomes ruler of the First Bulgarian Empire in the Balkans. Under his rule falls the golden age of the First Bulgarian Empire and the invention of the Cyrillic Script. ",
+        "Source": null,
         "id": 283
     },
     {
@@ -2561,7 +2563,7 @@ const questionData = [
         "date": "896",
         "era": "Medieval",
         "event": "Arpad and the Magyars are present in Pannonia.",
-        "detail": null,
+        "Source": null,
         "id": 284
     },
     {
@@ -2569,8 +2571,8 @@ const questionData = [
         "year_end": 899,
         "date": "27 October 899",
         "era": "Medieval",
-        "event": "Death of Alfred the Great.",
-        "detail": null,
+        "event": "Death of Alfred the Great King of the Anglo-Saxon. Being learned he proposed that priamry education be conducted in Old English instead of Latin.",
+        "Source": null,
         "id": 285
     },
     {
@@ -2578,8 +2580,8 @@ const questionData = [
         "year_end": 900,
         "date": "c. 900 ",
         "era": "Medieval",
-        "event": "Lowland Maya cities in the south collapse.",
-        "detail": "Signifies the end of the Classic Period of Maya history. The Maya in northern Yucat\u00e1n continue to thrive.",
+        "event": "Lowland Maya cities in the south collapse. Signifies the end of the Classic Period of Maya history. The Maya in northern Yucat\u00e1n continue to thrive. ",
+        "Source": null,
         "id": 286
     },
     {
@@ -2587,8 +2589,8 @@ const questionData = [
         "year_end": 907,
         "date": "907",
         "era": "Medieval",
-        "event": "Tang Dynasty ends with Emperor Ai deposed.",
-        "detail": "The Five Dynasties and Ten Kingdoms period in China commences.",
+        "event": "Tang Dynasty ends with Emperor Ai deposed. The Five Dynasties and Ten Kingdoms period in China commences. ",
+        "Source": null,
         "id": 287
     },
     {
@@ -2597,7 +2599,7 @@ const questionData = [
         "date": "910",
         "era": "Medieval",
         "event": "King Edward the Elder of England, son of King Alfred, defeats the Northumbrian Vikings at the Battle of Tettenhall; they never raid south of the River Humber again.",
-        "detail": null,
+        "Source": null,
         "id": 288
     },
     {
@@ -2605,8 +2607,8 @@ const questionData = [
         "year_end": 910,
         "date": "910",
         "era": "Medieval",
-        "event": "Cluny Abbey is founded by William I, Count of Auvergne.",
-        "detail": "Cluny goes on to become the acknowledged leader of Western Monasticism. Cluniac Reforms initiated with the abbey's founding.",
+        "event": "Cluny Abbey is founded by William I, Count of Auvergne. Cluny goes on to become the acknowledged leader of Western Monasticism. Cluniac Reforms initiated with the abbey's founding.",
+        "Source": null,
         "id": 289
     },
     {
@@ -2615,7 +2617,7 @@ const questionData = [
         "date": "911",
         "era": "Medieval",
         "event": "The Viking Rollo and his tribe settle in what is now Normandy by the terms of the Treaty of Saint-Clair-sur-Epte, founding the Duchy of Normandy.",
-        "detail": null,
+        "Source": null,
         "id": 290
     },
     {
@@ -2624,7 +2626,7 @@ const questionData = [
         "date": "913",
         "era": "Medieval",
         "event": "Sri Kesari Warmadewa reigned in Walidwipa (Bali)",
-        "detail": null,
+        "Source": null,
         "id": 291
     },
     {
@@ -2632,8 +2634,8 @@ const questionData = [
         "year_end": 917,
         "date": "917",
         "era": "Medieval",
-        "event": "Battle of Anchialus. Simeon I the Great defeats the Byzantines.",
-        "detail": "Recognition of the Imperial Title of the Bulgarian rulers.",
+        "event": "Battle of Anchialus. Simeon I the Great defeats the Byzantines. Recognition of the Imperial Title of the Bulgarian rulers.",
+        "Source": null,
         "id": 292
     },
     {
@@ -2641,8 +2643,8 @@ const questionData = [
         "year_end": 919,
         "date": "919",
         "era": "Medieval",
-        "event": "Henry the Fowler, Duke of Saxony elected German King.  First king of the Ottonian Dynasty.",
-        "detail": "Henry I considered the founder and first king of the medieval German state.",
+        "event": "Henry the Fowler, Duke of Saxony elected German King.  First king of the Ottonian Dynasty. Henry I considered the founder and first king of the medieval German state.",
+        "Source": null,
         "id": 293
     },
     {
@@ -2650,8 +2652,8 @@ const questionData = [
         "year_end": 925,
         "date": "925",
         "era": "Medieval",
-        "event": "The first King of Croatia (rex Croatorum), Tomislav (910\u2013928) of the Trpimirovi\u0107 dynasty was crowned.",
-        "detail": "Tomislav united Croats of Dalmatia and Pannonia into a single Kingdom, and created a sizeable state.",
+        "event": "The first King of Croatia (rex Croatorum), Tomislav of the Trpimirovi\u0107 dynasty was crowned. Tomislav united Croats of Dalmatia and Pannonia into a single Kingdom, and created a sizeable state.",
+        "Source": null,
         "id": 294
     },
     {
@@ -2660,7 +2662,7 @@ const questionData = [
         "date": "927",
         "era": "Medieval",
         "event": "King Aethelstan the Glorious unites the heptarchy of The Anglo-Saxon  nations of Wessex, Sussex, Essex, Kent, East Anglia, Mercia and Northumbria founding the Kingdom of England.",
-        "detail": null,
+        "Source": null,
         "id": 295
     },
     {
@@ -2669,7 +2671,7 @@ const questionData = [
         "date": "927",
         "era": "Medieval",
         "event": "According to Theophanes Continuatus (The Continuer of Theophanes's Chronicle) \u2013 Tomislav of Croatia defeated Bulgarian army of Tsar Simeon I under Duke Alogobotur, in battle of the Bosnian Highlands.",
-        "detail": "Bulgarian expansion to the west was stopped.",
+        "Source": null,
         "id": 296
     },
     {
@@ -2678,7 +2680,7 @@ const questionData = [
         "date": "927",
         "era": "Medieval",
         "event": "Death of Simeon I the Great. Recognition of the Bulgarian Patriarchate, the first independent National Church in Europe.",
-        "detail": null,
+        "Source": null,
         "id": 297
     },
     {
@@ -2686,8 +2688,8 @@ const questionData = [
         "year_end": 929,
         "date": "929",
         "era": "Medieval",
-        "event": "Abd-ar-Rahman III of the Umayyad dynasty in al-Andalus (part of the Iberian peninsula) takes the title of Caliph or ruler of the Islamic world.",
-        "detail": "Beginning of the Caliphate of C\u00f3rdoba (929\u20131031).",
+        "event": "Abd-ar-Rahman III of the Umayyad dynasty in al-Andalus (part of the Iberian peninsula) takes the title of Caliph or ruler of the Islamic world. This marks the beginning of the Caliphate of C\u00f3rdoba.",
+        "Source": null,
         "id": 298
     },
     {
@@ -2695,8 +2697,8 @@ const questionData = [
         "year_end": 936,
         "date": "936",
         "era": "Medieval",
-        "event": "Wang Geon unified Later Three Kingdoms of Korea.",
-        "detail": null,
+        "event": "Wang Geon unifies Goryeo (Korea) which ends the Later Three Kingdoms Era.",
+        "Source": null,
         "id": 299
     },
     {
@@ -2704,8 +2706,8 @@ const questionData = [
         "year_end": 938,
         "date": "938",
         "era": "Medieval",
-        "event": "Ngo Quyen won the battle of Bach Dang against Chinese Southern Han army.",
-        "detail": "This event marked the independence of Vietnam after 1000 years under Chinese colony.",
+        "event": "Ngo Quyen won the battle of Bach Dang against Chinese Southern Han army. This event marked the independence of Vietnam after 1000 years under Chinese colony.",
+        "Source": null,
         "id": 300
     },
     {
@@ -2713,8 +2715,8 @@ const questionData = [
         "year_end": 955,
         "date": "955",
         "era": "Medieval",
-        "event": "Battle of Lechfeld. Otto the Great, son of Henry the Fowler, defeats the Magyars.",
-        "detail": "This is the defining event that prevents the Hungarians from entering Central Europe.",
+        "event": "Battle of Lechfeld. Otto the Great, son of Henry the Fowler, defeats the Magyars. This is the defining event that prevents the Hungarians from entering Central Europe.",
+        "Source": null,
         "id": 301
     },
     {
@@ -2722,8 +2724,8 @@ const questionData = [
         "year_end": 960,
         "date": "c.960 ",
         "era": "Medieval",
-        "event": "Mieszko I becomes duke of Polans.",
-        "detail": "First historical ruler of Poland and de facto founder of the Polish State.",
+        "event": "Mieszko I becomes duke of Polans. First historical ruler of Poland and de facto founder of the Polish State.",
+        "Source": null,
         "id": 302
     },
     {
@@ -2731,8 +2733,8 @@ const questionData = [
         "year_end": 960,
         "date": "960",
         "era": "Medieval",
-        "event": "Song Dynasty begins after Emperor of Taizu usurps the throne from the Later Zhou, last of the Five Dynasties.",
-        "detail": "A 319-year period of Song rule (Northern & Southern combined) goes underway.",
+        "event": "Song Dynasty begins after Emperor of Taizu usurps the throne from the Later Zhou, last of the Five Dynasties. A 319-year period of Song rule (Northern & Southern combined) goes underway.",
+        "Source": null,
         "id": 303
     },
     {
@@ -2740,8 +2742,8 @@ const questionData = [
         "year_end": 962,
         "date": "962",
         "era": "Medieval",
-        "event": "Otto the Great crowned the Holy Roman Emperor.",
-        "detail": "First to be crowned Holy Roman Emperor in nearly 40 years.",
+        "event": "Otto the Great crowned the Holy Roman Emperor. First to be crowned Holy Roman Emperor in nearly 40 years.",
+        "Source": null,
         "id": 304
     },
     {
@@ -2749,8 +2751,8 @@ const questionData = [
         "year_end": 963,
         "date": "963\u2013964 ",
         "era": "Medieval",
-        "event": "Otto deposes Pope John XII who is replaced with Pope Leo VIII.",
-        "detail": "Citizens of Rome promise not to elect another Pope without Imperial approval.",
+        "event": "Otto deposes Pope John XII who is replaced with Pope Leo VIII. Citizens of Rome promise not to elect another Pope without Imperial approval.",
+        "Source": null,
         "id": 305
     },
     {
@@ -2759,7 +2761,7 @@ const questionData = [
         "date": "965\u2013967 ",
         "era": "Medieval",
         "event": "Mieszko I of Poland and his court embrace Christianity, which becomes national religion.",
-        "detail": null,
+        "Source": null,
         "id": 306
     },
     {
@@ -2767,8 +2769,8 @@ const questionData = [
         "year_end": 969,
         "date": "969",
         "era": "Medieval",
-        "event": "John I Tzimiskes and Nikephoros II are executed.",
-        "detail": "Sultane of Rums are proclaimed.",
+        "event": "John I Tzimiskes and Nikephoros II are executed. Sultane of Rums are proclaimed.",
+        "Source": null,
         "id": 307
     },
     {
@@ -2776,8 +2778,8 @@ const questionData = [
         "year_end": 976,
         "date": "976",
         "era": "Medieval",
-        "event": "Death of John I Tzimiskes",
-        "detail": "Under Basil II zenith of the power of Eastern Empire after Justinian.",
+        "event": "Death of John I Tzimiskes Under Basil II zenith of the power of Eastern Empire after Justinian.",
+        "Source": null,
         "id": 308
     },
     {
@@ -2785,8 +2787,8 @@ const questionData = [
         "year_end": 978,
         "date": "978",
         "era": "Medieval",
-        "event": "Al-Mansur Ibn Abi Aamir becomes de facto ruler of Muslim Al-Andalus.",
-        "detail": "Peak of power of Moorish Iberia under \"Almanzor\".",
+        "event": "Al-Mansur Ibn Abi Aamir becomes de facto ruler of Muslim Al-Andalus. Peak of power of Moorish Iberia under Almanzor.",
+        "Source": null,
         "id": 309
     },
     {
@@ -2794,8 +2796,8 @@ const questionData = [
         "year_end": 981,
         "date": "981",
         "era": "Medieval",
-        "event": "Basil II (called \"Bulgar Slayer\") begins final conquest of Bulgaria by Eastern Empire.",
-        "detail": "Conquest finished by 1018.",
+        "event": "Basil II (called Bulgar Slayer) begins final conquest of Bulgaria by Eastern Empire.",
+        "Source": null,
         "id": 310
     },
     {
@@ -2804,7 +2806,7 @@ const questionData = [
         "date": "985",
         "era": "Medieval",
         "event": "Eric the Red, exiled from Iceland, begins Scandinavian colonization of Greenland.",
-        "detail": null,
+        "Source": null,
         "id": 311
     },
     {
@@ -2812,8 +2814,8 @@ const questionData = [
         "year_end": 987,
         "date": "987",
         "era": "Medieval",
-        "event": "Succession of Hugh Capet to the French Throne.",
-        "detail": "Beginning of Capetian Dynasty.",
+        "event": "Succession of Hugh Capet to the French Throne. Beginning of Capetian Dynasty.",
+        "Source": null,
         "id": 312
     },
     {
@@ -2822,7 +2824,7 @@ const questionData = [
         "date": "988",
         "era": "Medieval",
         "event": "Volodymyr I of Kiev embraces Christianity, which becomes national religion.",
-        "detail": null,
+        "Source": null,
         "id": 313
     },
     {
@@ -2830,8 +2832,8 @@ const questionData = [
         "year_end": 989,
         "date": "989",
         "era": "Medieval",
-        "event": "Peace and Truce of God formed.",
-        "detail": "The first movement of the Catholic Church using spiritual means to limit private war, and the first movement in medieval Europe to control society through non-violent means.",
+        "event": "Peace and Truce of God formed. The first movement of the Catholic Church using spiritual means to limit war and the first movement in medieval Europe to control society through non-violent means.",
+        "Source": null,
         "id": 314
     },
     {
@@ -2839,8 +2841,8 @@ const questionData = [
         "year_end": 1001,
         "date": "c. 1001 ",
         "era": "Medieval",
-        "event": "Leif Ericson is to settle during the winter in present-day Canada at L'Anse aux Meadows.",
-        "detail": "Ericson is to be the first European to settle in the Americas during the Norse exploration of the Americas.",
+        "event": "Leif Ericson is to settle during the winter in present-day Canada at L'Anse aux Meadows. Ericson is to be the first European to settle in the Americas during the Norse exploration of the Americas.",
+        "Source": null,
         "id": 315
     },
     {
@@ -2848,8 +2850,8 @@ const questionData = [
         "year_end": 1016,
         "date": "1016",
         "era": "Medieval",
-        "event": "Canute the Great becomes King of England after the death of Edmund Ironside, with whom he shared the English throne.",
-        "detail": "Danes become kings of England for the next 26 years before the last rise of the Anglo-Saxons before the Norman Conquest.",
+        "event": "Canute the Great becomes King of England after the death of Edmund Ironside, with whom he shared the English throne. Danes remain kings of England for the next 26 years.",
+        "Source": null,
         "id": 316
     },
     {
@@ -2857,8 +2859,8 @@ const questionData = [
         "year_end": 1018,
         "date": "1018",
         "era": "Medieval",
-        "event": "The Byzantines under Basil II conquer Bulgaria after a bitter 50-years struggle.",
-        "detail": "Concludes the Byzantine conquest of Bulgaria.",
+        "event": "The Byzantines under Basil II conquer Bulgaria after a bitter 50-years struggle. Concludes the Byzantine conquest of Bulgaria.",
+        "Source": null,
         "id": 317
     },
     {
@@ -2866,8 +2868,8 @@ const questionData = [
         "year_end": 1021,
         "date": "1021",
         "era": "Medieval",
-        "event": "The Tale of Genji, written by Murasaki Shikibu, is completed sometime before this date.",
-        "detail": "It is sometimes called the world's first novel, the first modern novel, the first psychological novel or the first novel still to be considered a classic.",
+        "event": "The Tale of Genji, by Murasaki Shikibu, is completed in Japan. It is sometimes called the world's first (modern) novel, or the first psychological novel.",
+        "Source": null,
         "id": 318
     },
     {
@@ -2875,8 +2877,8 @@ const questionData = [
         "year_end": 1025,
         "date": "1025",
         "era": "Medieval",
-        "event": "The Canon of Medicine",
-        "detail": "Persian Avicenna set standard medical textbook through 18th century in Europe",
+        "event": "The Canon of Medicine Persian Avicenna set standard medical textbook through 18th century in Europe",
+        "Source": null,
         "id": 319
     },
     {
@@ -2884,8 +2886,8 @@ const questionData = [
         "year_end": 1037,
         "date": "1037",
         "era": "Medieval",
-        "event": "The Great Seljuk Empire is founded by Tughril Beg.",
-        "detail": "Would be a major force during the first two Crusades, and an antagonist to the Byzantine Empire over the next century.",
+        "event": "The Great Seljuk Empire is founded by Tughril Beg. Would be a major force during the first two Crusades and an antagonist to the Byzantine Empire over the next century.",
+        "Source": null,
         "id": 320
     },
     {
@@ -2893,8 +2895,8 @@ const questionData = [
         "year_end": 1049,
         "date": "1049",
         "era": "Medieval",
-        "event": "Pope Leo IX ascends to the papal throne.",
-        "detail": "Leo IX was the pope that excommunicated Patriarch of Constantinople, Michael Cerularius (who also excommunicated Leo), which caused the Great Schism.",
+        "event": "Pope Leo IX ascends to the papal throne. Leo IX was the pope that excommunicated Patriarch of Constantinople, Michael Cerularius (who also excommunicated Leo), which caused the Great Schism.",
+        "Source": null,
         "id": 321
     },
     {
@@ -2902,8 +2904,8 @@ const questionData = [
         "year_end": 1050,
         "date": "1050",
         "era": "Medieval",
-        "event": "The astrolabe, an ancient tool of navigation, is first used in Europe.",
-        "detail": "Early tool of marine navigators, astrologers, astronomers.",
+        "event": "The astrolabe, an ancient tool of navigation, is first used in Europe. Early tool of marine navigators, astrologers, astronomers.",
+        "Source": null,
         "id": 322
     },
     {
@@ -2911,8 +2913,8 @@ const questionData = [
         "year_end": 1050,
         "date": "1050",
         "era": "Medieval",
-        "event": "Westminster Abbey",
-        "detail": "Edward the Confessor",
+        "event": "Westminster Abbey Edward the Confessor",
+        "Source": null,
         "id": 323
     },
     {
@@ -2920,8 +2922,8 @@ const questionData = [
         "year_end": 1054,
         "date": "1054",
         "era": "Medieval",
-        "event": "The East-West Schism which divided the church into Western Catholicism and Eastern Orthodoxy.",
-        "detail": "Tensions will vary between the Catholic and Orthodox churches throughout the Middle Ages.",
+        "event": "The East-West Schism which divided the church into Western Catholicism and Eastern Orthodoxy. Tensions will vary between the Catholic and Orthodox churches throughout the Middle Ages.",
+        "Source": null,
         "id": 324
     },
     {
@@ -2929,8 +2931,8 @@ const questionData = [
         "year_end": 1066,
         "date": "1066",
         "era": "Medieval",
-        "event": "William the Conqueror, Duke of Normandy, invades England and becomes King after the Battle of Hastings.",
-        "detail": "End of Anglo-Saxon rule in England and start of Norman lineage.",
+        "event": "William the Conqueror, Duke of Normandy, invades England and becomes King after the Battle of Hastings. End of Anglo-Saxon rule in England and start of Norman lineage.",
+        "Source": null,
         "id": 325
     },
     {
@@ -2938,8 +2940,8 @@ const questionData = [
         "year_end": 1067,
         "date": "1067",
         "era": "Medieval",
-        "event": "Pope Gregory VII elevated to the papal throne.",
-        "detail": "This begins a period of church reform.",
+        "event": "Pope Gregory VII elevated to the papal throne. This begins a period of church reform.",
+        "Source": null,
         "id": 326
     },
     {
@@ -2947,8 +2949,8 @@ const questionData = [
         "year_end": 1071,
         "date": "1071",
         "era": "Medieval",
-        "event": "The Seljuks under Alp Arslan defeat the Byzantine army at Manzikert. The Normans capture Bari, the last Byzantine possession in southern Italy.",
-        "detail": "Beginning of the end of Byzantine rule in Asia Minor.",
+        "event": "The Seljuks under Alp Arslan defeat the Byzantine army at Manzikert. The Normans capture Bari, the last Byzantine possession in southern Italy. Beginning of the end of Byzantine rule in Asia Minor.",
+        "Source": null,
         "id": 327
     },
     {
@@ -2956,8 +2958,8 @@ const questionData = [
         "year_end": 1075,
         "date": "1075",
         "era": "Medieval",
-        "event": "Dictatus Papae in which Pope Gregory VII defines the powers of the pope.",
-        "detail": "Peak of the Gregorian Reform, and an immense factor in the Investiture Controversy.",
+        "event": "Dictatus Papae in which Pope Gregory VII defines the powers of the pope. Peak of the Gregorian Reform, and an immense factor in the Investiture Controversy.",
+        "Source": null,
         "id": 328
     },
     {
@@ -2966,7 +2968,7 @@ const questionData = [
         "date": "1077",
         "era": "Medieval",
         "event": "Holy Roman Emperor Henry IV  walks to Canossa where he stands barefoot in the snow to beg forgiveness of the Pope for his offences, and admitting defeat in the Investiture Controversy.",
-        "detail": "This helps establish Papal rule over European heads of state for another 450 years.",
+        "Source": null,
         "id": 329
     },
     {
@@ -2974,8 +2976,8 @@ const questionData = [
         "year_end": 1077,
         "date": "1077",
         "era": "Medieval",
-        "event": "The Construction of the Tower of London begins.",
-        "detail": "The tower of London was the ultimate keep of the British Empire.",
+        "event": "The Construction of the Tower of London begins. The tower of London was the ultimate keep of the British Empire.",
+        "Source": null,
         "id": 330
     },
     {
@@ -2983,8 +2985,8 @@ const questionData = [
         "year_end": 1086,
         "date": "1086",
         "era": "Medieval",
-        "event": "The compilation of the Domesday Book, a great land and property survey commissioned by William the Conqueror to assess his new possessions.",
-        "detail": "This is the first such undertaking since Roman times.",
+        "event": "The compilation of the Domesday Book, a great land and property survey commissioned by William the Conqueror to assess his new possessions. This is the first such undertaking since Roman times.",
+        "Source": null,
         "id": 331
     },
     {
@@ -2992,8 +2994,8 @@ const questionData = [
         "year_end": 1088,
         "date": "1088",
         "era": "Medieval",
-        "event": "University of Bologna is formed.",
-        "detail": "It is the oldest university in Europe.",
+        "event": "University of Bologna is formed. It is the oldest university in Europe.",
+        "Source": null,
         "id": 332
     },
     {
@@ -3002,7 +3004,7 @@ const questionData = [
         "date": "1095",
         "era": "Medieval",
         "event": "Pope Urban issues the Crusades to capture the Holy Land, and to repel the Seljuk Turks from the Byzantine Empire from Alexios I Komnenos.",
-        "detail": "This would be the first of 9 Major Crusades, and a number of other crusades that would spread into the late 13th century.",
+        "Source": null,
         "id": 333
     },
     {
@@ -3010,8 +3012,8 @@ const questionData = [
         "year_end": 1098,
         "date": "1098",
         "era": "Medieval",
-        "event": "The Cistercian Order is founded.",
-        "detail": "Was a return to the original observance of the Rule of St. Benedict.",
+        "event": "The Cistercian Order is founded. Was a return to the original observance of the Rule of St. Benedict.",
+        "Source": null,
         "id": 334
     },
     {
@@ -3019,8 +3021,8 @@ const questionData = [
         "year_end": 1099,
         "date": "1099",
         "era": "Medieval",
-        "event": "First Crusade. Jerusalem is re-taken from the Muslims on the urging of Pope Urban II.",
-        "detail": "This would lead to the beginning of the Kingdom of Jerusalem, which would last for nearly two centuries; within the era of the Crusades to the Holy Land.",
+        "event": "First Crusade. Jerusalem is re-taken from the Muslims on the urging of Pope Urban II and the Kingdom of Jerusalem is formed. It last for nearly two centuries.",
+        "Source": null,
         "id": 335
     },
     {
@@ -3028,8 +3030,8 @@ const questionData = [
         "year_end": 1100,
         "date": "1100",
         "era": "Medieval",
-        "event": "Latin-translation of the great masters of Arabic medicine: Rhazes, Ishaq Ibn Imran, Ibn Suleiman, and Ibn al-Jazzar",
-        "detail": "Constantine the African",
+        "event": "Latin-translation of the great masters of Arabic medicine: Rhazes, Ishaq Ibn Imran, Ibn Suleiman, and Ibn al-Jazzar Constantine the African",
+        "Source": null,
         "id": 336
     },
     {
@@ -3037,8 +3039,8 @@ const questionData = [
         "year_end": 1102,
         "date": "1102",
         "era": "Medieval",
-        "event": "Kingdom of Croatia and Kingdom of Hungary formed a personal union of two kingdoms united under the Hungarian king.",
-        "detail": "Medieval Hungary and Croatia were (in terms of public international law) allied by means of personal union until 1526. Although, Hungarian-Croatian state existed until the beginning of the 20th century and the Treaty of Trianon.",
+        "event": "Kingdom of Croatia and Kingdom of Hungary formed a personal union under the Hungarian king. Medieval Hungary and Croatia were allied by means of personal union until 1526. ",
+        "Source": null,
         "id": 337
     },
     {
@@ -3046,8 +3048,8 @@ const questionData = [
         "year_end": 1102,
         "date": "1102",
         "era": "Medieval",
-        "event": "Synods of Westminster",
-        "detail": "End of simony, clerical marriages, slavery under Anselm of Canterbury",
+        "event": "Synods of Westminster End of simony, clerical marriages, slavery under Anselm of Canterbury",
+        "Source": null,
         "id": 338
     },
     {
@@ -3055,8 +3057,8 @@ const questionData = [
         "year_end": 1106,
         "date": "1106 28 September",
         "era": "Medieval",
-        "event": "Henry I of England defeats his older brother Robert Curthose, duke of Normandy, at the Battle of Tinchebrai, and imprisons him in Devizes castle; Edgar Atheling and William Clito are also taken prisoner.",
-        "detail": "This victory made a later struggle between England and the rising Capetian power in France inevitable.",
+        "event": "Henry I of England defeats his older brother Robert Curthose, duke of Normandy, at the Battle of Tinchebrai, and imprisons him in Devizes castle.",
+        "Source": null,
         "id": 339
     },
     {
@@ -3064,8 +3066,8 @@ const questionData = [
         "year_end": 1107,
         "date": "1107",
         "era": "Medieval",
-        "event": "Through the Compromise of 1107, suggested by Adela, the sister of King Henry, the Investiture Struggle in England is ended.",
-        "detail": "This compromise removed one of the points of friction between the English monarchy and the Catholic Church.",
+        "event": "Through the compromise, suggested by Adela, the sister of King Henry, the Investiture Struggle in England is ended it eases friction between the English monarchy and the Catholic Church.",
+        "Source": null,
         "id": 340
     },
     {
@@ -3073,8 +3075,8 @@ const questionData = [
         "year_end": 1109,
         "date": "1109",
         "era": "Medieval",
-        "event": "In the Battle of Naklo, Boleslaus III Wrymouth defeats the Pomeranians.",
-        "detail": "Polish access to the sea is re-established.",
+        "event": "In the Battle of Naklo, Boleslaus III Wrymouth defeats the Pomeranians. Polish access to the sea is re-established.",
+        "Source": null,
         "id": 341
     },
     {
@@ -3082,8 +3084,8 @@ const questionData = [
         "year_end": 1109,
         "date": "1109 24 August",
         "era": "Medieval",
-        "event": "In the Battle of Hundsfeld, Boleslaus III Wrymouth defeats Emperor Henry V.",
-        "detail": "German expansion to the centre of Europe is stopped.",
+        "event": "In the Battle of Hundsfeld, Boleslaus III Wrymouth defeats Emperor Henry V. German expansion to the centre of Europe is stopped.",
+        "Source": null,
         "id": 342
     },
     {
@@ -3091,8 +3093,8 @@ const questionData = [
         "year_end": 1116,
         "date": "1116",
         "era": "Medieval",
-        "event": "The Byzantine army defeats the Turks at Philomelion.",
-        "detail": "The Turks abandon the entire coastal area of Anatolia and all of western Anatolia",
+        "event": "The Byzantine army defeats the Turks at Philomelion. The Turks abandon the entire coastal area of Anatolia and all of western Anatolia",
+        "Source": null,
         "id": 343
     },
     {
@@ -3100,8 +3102,8 @@ const questionData = [
         "year_end": 1117,
         "date": "1117",
         "era": "Medieval",
-        "event": "The University of Oxford is founded.",
-        "detail": "It is the oldest university in the United Kingdom.",
+        "event": "The University of Oxford is founded. It is the oldest university in the United Kingdom.",
+        "Source": null,
         "id": 344
     },
     {
@@ -3109,8 +3111,8 @@ const questionData = [
         "year_end": 1118,
         "date": "1118",
         "era": "Medieval",
-        "event": "The Knights Templar are founded to protect Jerusalem and European pilgrims on their journey to the city.",
-        "detail": "Becomes the most recognizable, and impactful military orders during the Crusades.",
+        "event": "The Knights Templar are founded to protect Jerusalem and European pilgrims on their journey to the city. Becomes the most recognizable, and impactful military orders during the Crusades.",
+        "Source": null,
         "id": 345
     },
     {
@@ -3118,8 +3120,8 @@ const questionData = [
         "year_end": 1121,
         "date": "1121 25 December",
         "era": "Medieval",
-        "event": "St. Norbert and 29 companions make their solemn vows marking the beginning of the Premonstratensian Order.",
-        "detail": "This order played a significant role in evangelizing the Slavs, the Wends, to the east of the Holy Roman Empire.",
+        "event": "St. Norbert and 29 companions make their solemn vows marking the beginning of the Premonstratensian Order. This order played a significant role in evangelizing the Slavs, and the Wends.",
+        "Source": null,
         "id": 346
     },
     {
@@ -3127,8 +3129,8 @@ const questionData = [
         "year_end": 1122,
         "date": "1122 23 September",
         "era": "Medieval",
-        "event": "The Concordat of Worms was drawn up between Emperor Henry V and Pope Calixtus II.",
-        "detail": "This concordat ended the investiture struggle, but bitter rivalry between emperor and pope remained.",
+        "event": "The Concordat of Worms was drawn up between Emperor Henry V and Pope Calixtus II. This concordat ended the investiture struggle but bitter rivalry between emperor and pope remained.",
+        "Source": null,
         "id": 347
     },
     {
@@ -3137,7 +3139,7 @@ const questionData = [
         "date": "1123 18 March - 27 March",
         "era": "Medieval",
         "event": "The First Lateran Council followed and confirmed the Concordat of Worms.",
-        "detail": null,
+        "Source": null,
         "id": 348
     },
     {
@@ -3145,8 +3147,8 @@ const questionData = [
         "year_end": 1125,
         "date": "1125",
         "era": "Medieval",
-        "event": "School of Glossators",
-        "detail": "Irnerius",
+        "event": "School of Glossators Irnerius",
+        "Source": null,
         "id": 349
     },
     {
@@ -3154,8 +3156,8 @@ const questionData = [
         "year_end": 1125,
         "date": "1125",
         "era": "Medieval",
-        "event": "Lothair of Supplinburg, duke of Saxony, is elected Holy Roman Emperor instead of the nearest heir, Frederick of Swabia.",
-        "detail": "This election marks the beginning of the great struggle between the Guelfs and the Ghibellines.",
+        "event": "Lothair of Supplinburg, duke of Saxony, is elected Holy Roman Emperor instead, Frederick of Swabia. This election marks the beginning of the great struggle between the Guelfs and the Ghibellines.",
+        "Source": null,
         "id": 350
     },
     {
@@ -3163,8 +3165,8 @@ const questionData = [
         "year_end": 1125,
         "date": "1125\u20131127 ",
         "era": "Medieval",
-        "event": "Jingkang Incident",
-        "detail": "The Jurchen soldiers sack Kaifeng, bringing an end to the Northern Song Dynasty in China; the Song moves further south and makes Lin'an their new capital.",
+        "event": "Jingkang Incident The Jurchen soldiers sack Kaifeng, bringing an end to the Northern Song Dynasty in China; the Song moves further south and makes Lin'an their new capital.",
+        "Source": null,
         "id": 351
     },
     {
@@ -3172,8 +3174,8 @@ const questionData = [
         "year_end": 1130,
         "date": "1130 25 December",
         "era": "Medieval",
-        "event": "Roger II is crowned King of Sicily, a Royal title given him by the Antipope Anacletus II.",
-        "detail": "This coronation marks the beginning of the Kingdom of Sicily and its Mediterranean empire under the Norman kings, which was able to take on the Holy Roman Empire, the Papacy, and the Byzantine Empire.",
+        "event": "Roger II is crowned King of Sicily, a Royal title given him by the Antipope Anacletus II. This marks the beginning of the Kingdom of Sicily of Norman kings.",
+        "Source": null,
         "id": 352
     },
     {
@@ -3181,8 +3183,8 @@ const questionData = [
         "year_end": 1130,
         "date": "1130",
         "era": "Medieval",
-        "event": "Sic et Non",
-        "detail": "Peter Abelard",
+        "event": "Sic et Non Peter Abelard",
+        "Source": null,
         "id": 353
     },
     {
@@ -3190,8 +3192,8 @@ const questionData = [
         "year_end": 1135,
         "date": "1135",
         "era": "Medieval",
-        "event": "The Anarchy begins in England.",
-        "detail": "This will mark a 19-year period of Government strife and Civil War between the supporters of Stephen and Matilda, and end with the crowning of Matilda's son, Henry II, and beginning the Plantagenet dynasty.",
+        "event": "The Anarchy begins in England. This will mark a 19-year period of strife and Civil War between the supporters of Stephen and Matilda, and end with the crowning of Matilda's son, Henry II.",
+        "Source": null,
         "id": 354
     },
     {
@@ -3199,8 +3201,8 @@ const questionData = [
         "year_end": 1139,
         "date": "1139 April",
         "era": "Medieval",
-        "event": "The Second Lateran Council declared clerical marriages invalid, regulated clerical dress, and punished attacks on clerics by excommunication.",
-        "detail": "Enforces the major reforms that Gregory VII began to heavily campaign for several decades earlier.",
+        "event": "The Second Lateran Council enforces Gergory VII\u2019s campaign by declaring clerical marriages invalid, regulated clerical dress, and punished attacks on clerics by excommunication.",
+        "Source": null,
         "id": 355
     },
     {
@@ -3208,8 +3210,8 @@ const questionData = [
         "year_end": 1140,
         "date": "1140",
         "era": "Medieval",
-        "event": "Decretum",
-        "detail": "Gratian",
+        "event": "Decretum Gratian",
+        "Source": null,
         "id": 356
     },
     {
@@ -3217,8 +3219,8 @@ const questionData = [
         "year_end": 1144,
         "date": "1144",
         "era": "Medieval",
-        "event": "Rebuild of Basilica of Saint Denis",
-        "detail": "Suger",
+        "event": "Rebuild of Basilica of Saint Denis Suger",
+        "Source": null,
         "id": 357
     },
     {
@@ -3226,8 +3228,8 @@ const questionData = [
         "year_end": 1147,
         "date": "1147\u20131149 ",
         "era": "Medieval",
-        "event": "The Second Crusade was in retaliation for the fall of Edessa, one of the first Crusader States founded in the First Crusade. It was an overall failure.",
-        "detail": "This was the first Crusade to have been led by European kings.",
+        "event": "The Second Crusade was in retaliation for the fall of Edessa, one of the first Crusader States founded in the First Crusade. The first Crusade been led by European kngs was an overall failure.",
+        "Source": null,
         "id": 358
     },
     {
@@ -3235,8 +3237,8 @@ const questionData = [
         "year_end": 1150,
         "date": "1150",
         "era": "Medieval",
-        "event": "Ramon Berenguer IV, Count of Barcelona, married Queen Petronilla of Aragon. They had been betrothed in 1137.",
-        "detail": "This marriage gave the Kingdom of Aragon access to the Mediterranean Sea, creating a powerful kingdom which expanded to control many of the Mediterranean lands.",
+        "event": "Ramon Berenguer IV, Count of Barcelona, married Queen Petronilla of Aragon. This marriage gave the Kingdom of Aragon access to the Mediterranean Sea.",
+        "Source": null,
         "id": 359
     },
     {
@@ -3245,7 +3247,7 @@ const questionData = [
         "date": "1150",
         "era": "Medieval",
         "event": "Founding of the University of Paris",
-        "detail": null,
+        "Source": null,
         "id": 360
     },
     {
@@ -3253,8 +3255,8 @@ const questionData = [
         "year_end": 1152,
         "date": "1152",
         "era": "Medieval",
-        "event": "The Synod of Kells-Mellifont established the present diocesan system of Ireland (with later modifications) and recognized the primacy of Armagh.",
-        "detail": "This synod marks the inclusion of the Irish Church into mainstream European Catholicism.",
+        "event": "The Synod of Kells-Mellifont established the present diocesan system of Ireland and recognized the primacy of Armagh. The Irish Church is included into mainstream European Catholicism.",
+        "Source": null,
         "id": 361
     },
     {
@@ -3262,8 +3264,8 @@ const questionData = [
         "year_end": 1154,
         "date": "1154",
         "era": "Medieval",
-        "event": "Common Law",
-        "detail": "Henry II",
+        "event": "Common Law Henry II",
+        "Source": null,
         "id": 362
     },
     {
@@ -3271,8 +3273,8 @@ const questionData = [
         "year_end": 1158,
         "date": "1158",
         "era": "Medieval",
-        "event": "The Hanseatic League is founded.",
-        "detail": "This marks a new period of trade and economic development for northern and central Europe.",
+        "event": "The Hanseatic League is founded. This marks a new period of trade and economic development for northern and central Europe.",
+        "Source": null,
         "id": 363
     },
     {
@@ -3281,7 +3283,7 @@ const questionData = [
         "date": "1163",
         "era": "Medieval",
         "event": "The first cornerstone is laid for the construction of Notre Dame de Paris.",
-        "detail": null,
+        "Source": null,
         "id": 364
     },
     {
@@ -3289,8 +3291,8 @@ const questionData = [
         "year_end": 1166,
         "date": "1166",
         "era": "Medieval",
-        "event": "Stefan Nemanja united Serbian territories, establishing the Medieval Serbian state.",
-        "detail": "This marks the rise of Serbia which will dominate the Balkans for the next three hundred years. Allies of Serbia at this moment become the Hungarian Kingdom and the Republic of Venice.",
+        "event": "Stefan Nemanja united Serbian territories, establishing the Medieval Serbian state marking the rise of Serbia which will dominate the Balkans for the next three hundred years.",
+        "Source": null,
         "id": 365
     },
     {
@@ -3298,8 +3300,8 @@ const questionData = [
         "year_end": 1171,
         "date": "1171",
         "era": "Medieval",
-        "event": "King Henry II of England lands in Ireland to assert his supremacy and the Synod of Cashel acknowledges his sovereignty.",
-        "detail": "With his landing, Henry begins the English claim to and occupation of Ireland which would last some seven and a half centuries.",
+        "event": "King Henry II of England lands in Ireland to assert his supremacy. This begins the English claim to and occupation of Ireland which would last some seven and a half centuries.",
+        "Source": null,
         "id": 366
     },
     {
@@ -3307,8 +3309,8 @@ const questionData = [
         "year_end": 1174,
         "date": "1174 7/12",
         "era": "Medieval",
-        "event": "King William I of Scotland, captured in the Battle of Alnwick by the English, accepts the feudal lordship of the English crown and does ceremonial allegiance at York.",
-        "detail": "This is the beginning of the gradual acquisition of Scotland by the English.",
+        "event": "King William I of Scotland, captured in the Battle of Alnwick by the English, accepts the feudal lordship of the English crown. This is the beginning of the acquisition of Scotland by the English.",
+        "Source": null,
         "id": 367
     },
     {
@@ -3316,8 +3318,8 @@ const questionData = [
         "year_end": 1175,
         "date": "1175",
         "era": "Medieval",
-        "event": "H\u014dnen Sh\u014dnin (Genk\u016b) founds the J\u014ddo sh\u016b (Pure Land) sect of Buddhism.",
-        "detail": "This event marks the beginning of the Buddhist sectarian movement in Japan.",
+        "event": "H\u014dnen Sh\u014dnin (Genk\u016b) founds the J\u014ddo sh\u016b (Pure Land) sect of Buddhism. This event marks the beginning of the Buddhist sectarian movement in Japan.",
+        "Source": null,
         "id": 368
     },
     {
@@ -3325,8 +3327,8 @@ const questionData = [
         "year_end": 1176,
         "date": "1176 5/29",
         "era": "Medieval",
-        "event": "At the Battle of Legnano, the cavalry of Frederick Barbarossa is defeated by the infantry of the Lombard League.",
-        "detail": "This is the first major defeat of cavalry by infantry, signaling the new role of the bourgeoisie.",
+        "event": "At the Battle of Legnano, the Lombard League's infantry defeats Federick Barbarossa's cavalry \u2013 the first major defeat of cavalry by infantry, signaling the new role of the bourgeoisie.",
+        "Source": null,
         "id": 369
     },
     {
@@ -3334,8 +3336,8 @@ const questionData = [
         "year_end": 1175,
         "date": "1175",
         "era": "Medieval",
-        "event": "Latin-translation",
-        "detail": "Gerard of Cremona",
+        "event": "Gerard of Cremona translates the Arabic version of Ptolemy's Almagest",
+        "Source": null,
         "id": 370
     },
     {
@@ -3343,8 +3345,8 @@ const questionData = [
         "year_end": 1179,
         "date": "1179",
         "era": "Medieval",
-        "event": "church schools",
-        "detail": "Third Council of the Lateran",
+        "event": "Third Council of the Lateran",
+        "Source": null,
         "id": 371
     },
     {
@@ -3353,7 +3355,7 @@ const questionData = [
         "date": "1179 March",
         "era": "Medieval",
         "event": "The Third Lateran Council limits papal electees to the cardinals alone, condemns simony, and forbids the promotion of anyone to the episcopate before the age of thirty.",
-        "detail": null,
+        "Source": null,
         "id": 372
     },
     {
@@ -3362,7 +3364,7 @@ const questionData = [
         "date": "1183",
         "era": "Medieval",
         "event": "The final Peace of Constance between Frederick Barbarossa, the pope, and the Lombard towns is signed.",
-        "detail": "The various articles of the treaty destroyed the unity of the Empire and Germany and Italy underwent separate developments.",
+        "Source": null,
         "id": 373
     },
     {
@@ -3370,8 +3372,8 @@ const questionData = [
         "year_end": 1183,
         "date": "1183",
         "era": "Medieval",
-        "event": "The Taira clan are driven out of Ky\u014dto by Minamoto Yoshinaka.",
-        "detail": "The two-year conflict which follows ends at the Battle of Dan no Ura (1185).",
+        "event": "The Taira clan are driven out of Ky\u014dto by Minamoto Yoshinaka. The two-year conflict which follows ends at the Battle of Dan no Ura (1185).",
+        "Source": null,
         "id": 374
     },
     {
@@ -3379,8 +3381,8 @@ const questionData = [
         "year_end": 1184,
         "date": "1184 November",
         "era": "Medieval",
-        "event": "Pope Lucius III issues the papal bull Ad Abolendam.",
-        "detail": "This bull set up the organization of the medieval inquisitions.",
+        "event": "Pope Lucius III issues the papal bull Ad Abolendam. This bull set up the organization of the medieval inquisitions.",
+        "Source": null,
         "id": 375
     },
     {
@@ -3389,7 +3391,7 @@ const questionData = [
         "date": "1185",
         "era": "Medieval",
         "event": "Windmills are first recorded.",
-        "detail": null,
+        "Source": null,
         "id": 376
     },
     {
@@ -3398,7 +3400,7 @@ const questionData = [
         "date": "1185",
         "era": "Medieval",
         "event": "Uprising of Asen and Peter. The reestablishment of the Bulgarian Empire.",
-        "detail": null,
+        "Source": null,
         "id": 377
     },
     {
@@ -3406,8 +3408,8 @@ const questionData = [
         "year_end": 1185,
         "date": "1185",
         "era": "Medieval",
-        "event": "At the Battle of Dan no Ura, Minamoto Yoshitsune annihilates the Taira clan.",
-        "detail": "The elimination of the Taira leaves the Minamoto the virtual rulers of Japan and marks the beginning of the first period of feudal rule known as the Kamakura Period.",
+        "event": "At the Battle of Dan no Ura, Minamoto Yoshitsune annihilates the Taira clan which leaves Minamoto the rulers of Japan and marks the beginning of feudal rule known as the Kamakura Period.",
+        "Source": null,
         "id": 378
     },
     {
@@ -3415,8 +3417,8 @@ const questionData = [
         "year_end": 1186,
         "date": "1186 1/27",
         "era": "Medieval",
-        "event": "The future emperor Henry VI marries Constance of Sicily, heiress to the Sicilian throne.",
-        "detail": "This marriage shifts the focus of the Guelphs/Ghibelline struggle to Sicily and marks the ruin of the House of Hohenstaufen.",
+        "event": "The future emperor Henry VI marries Constance of Sicily, heiress to the Sicilian throne. This marriage shifts the focus of the Guelphs/Ghibelline struggle to Sicily.",
+        "Source": null,
         "id": 379
     },
     {
@@ -3424,8 +3426,8 @@ const questionData = [
         "year_end": 1187,
         "date": "1187",
         "era": "Medieval",
-        "event": "Saladin recaptures Jerusalem.",
-        "detail": "Would lead to the Third Crusade.",
+        "event": "Saladin recaptures Jerusalem. Would lead to the Third Crusade.",
+        "Source": null,
         "id": 380
     },
     {
@@ -3433,8 +3435,8 @@ const questionData = [
         "year_end": 1188,
         "date": "1188",
         "era": "Medieval",
-        "event": "Tractatus of Glanvil",
-        "detail": "Oxford University",
+        "event": "Tractatus of Glanvil Oxford University",
+        "Source": null,
         "id": 381
     },
     {
@@ -3442,8 +3444,8 @@ const questionData = [
         "year_end": 1189,
         "date": "1189 July 6",
         "era": "Medieval",
-        "event": "Richard I ascends the throne of England.",
-        "detail": "His heavy taxation to finance his European ventures created an antipathy of barons and people toward the crown, but his being absent enabled the English to advance in their political development.",
+        "event": "Richard I (C\u0153ur de Lion) ascends the throne of England. He levies heavy taxes to finance his European creates antipathy towards the crown but his being absent enabled political developments.",
+        "Source": null,
         "id": 382
     },
     {
@@ -3451,8 +3453,8 @@ const questionData = [
         "year_end": 1189,
         "date": "1189\u20131192 ",
         "era": "Medieval",
-        "event": "The Third Crusade follows upon Saladin's uniting the Muslim world and recapturing Jerusalem.",
-        "detail": "Despite managing to win several major battles, the Crusaders did not recapture Jerusalem.",
+        "event": "The Third Crusade follows upon Saladin's uniting the Muslim world and recapturing Jerusalem. Despite managing to win several major battles. the Crusaders did not recapture Jerusalem.",
+        "Source": null,
         "id": 383
     },
     {
@@ -3460,8 +3462,8 @@ const questionData = [
         "year_end": 1192,
         "date": "1192",
         "era": "Medieval",
-        "event": "Minamoto no Yoritomo is appointed Sei-i Taish\u014dgun, or sh\u014dgun for short.",
-        "detail": "He is the first of a long line of military dictators to bear this title. The institution would last until 1913.",
+        "event": "Minamoto no Yoritomo is appointed Sei-i Taish\u014dgun, or sh\u014dgun for short. He is the first of a long line of military dictators to bear this title. The institution would last until 1913.",
+        "Source": null,
         "id": 384
     },
     {
@@ -3469,8 +3471,8 @@ const questionData = [
         "year_end": 1193,
         "date": "1193",
         "era": "Medieval",
-        "event": "Muhammad bin Bakhtiyar Khilji sack and burn the university at Nalanda.",
-        "detail": "This is the beginning of the decline of Buddhism in India.",
+        "event": "Muhammad bin Bakhtiyar Khilji sack and burn the university at Nalanda. This is the beginning of the decline of Buddhism in India.",
+        "Source": null,
         "id": 385
     },
     {
@@ -3479,7 +3481,7 @@ const questionData = [
         "date": "1193",
         "era": "Medieval",
         "event": "The first known merchant guild.",
-        "detail": null,
+        "Source": null,
         "id": 386
     },
     {
@@ -3487,8 +3489,8 @@ const questionData = [
         "year_end": 1195,
         "date": "1195",
         "era": "Medieval",
-        "event": "Battle of Alarcos The Almohad Caliphate decisively defeat the Kingdom of Castile.",
-        "detail": "The Almohads pushed Christians to the north and stablished themselves as the supreme power in Al-Andalus",
+        "event": "Battle of Alarcos The Almohad Caliphate decisively defeat the Kingdom of Castile. The Almohads pushed Christians to the north and stablished themselves as the supreme power in Al-Andalus",
+        "Source": null,
         "id": 387
     },
     {
@@ -3497,7 +3499,7 @@ const questionData = [
         "date": "1199",
         "era": "Medieval",
         "event": "Europeans first use compasses.",
-        "detail": null,
+        "Source": null,
         "id": 388
     },
     {
@@ -3505,8 +3507,8 @@ const questionData = [
         "year_end": 1202,
         "date": "1202",
         "era": "Medieval",
-        "event": "The Fourth Crusade sacked Croatian town of Zadar (Italian: Zara), a rival of Venice despite letters from Pope Innocent III forbidding it.",
-        "detail": "Siege of Zara was the first major Crusade's action and the first attack against a Catholic city by Catholic crusaders.",
+        "event": "The Fourth Crusade sacked Croatian town of Zadar, a rival of Venice, despite letters from Pope Innocent III forbidding it. This marks the first attack against a Catholic city by Catholic crusaders.",
+        "Source": null,
         "id": 389
     },
     {
@@ -3514,8 +3516,8 @@ const questionData = [
         "year_end": 1204,
         "date": "1204",
         "era": "Medieval",
-        "event": "Sack of Constantinople during the Fourth Crusade.",
-        "detail": "Considered to be the beginning of the decline of the Byzantine Empire.",
+        "event": "Sack of Constantinople during the Fourth Crusade. Considered to be the beginning of the decline of the Byzantine Empire.",
+        "Source": null,
         "id": 390
     },
     {
@@ -3523,8 +3525,8 @@ const questionData = [
         "year_end": 1205,
         "date": "1205",
         "era": "Medieval",
-        "event": "Battle of Adrianople. The Bulgarians under Emperor Kaloyan defeat Baldwin I.",
-        "detail": "Beginning of the decline of the Latin Empire.",
+        "event": "Battle of Adrianople. The Bulgarians under Emperor Kaloyan defeat Baldwin I. Beginning of the decline of the Latin Empire.",
+        "Source": null,
         "id": 391
     },
     {
@@ -3532,8 +3534,8 @@ const questionData = [
         "year_end": 1206,
         "date": "1206",
         "era": "Medieval",
-        "event": "Genghis Khan was elected as Khagan of the Mongols and the Mongol Empire was established.",
-        "detail": "The Mongols would conquer much of Eurasia, changing former political borders.",
+        "event": "Genghis Khan was elected as Khagan of the Mongols and the Mongol Empire was established. The Mongols would conquer much of Eurasia, changing former political borders.",
+        "Source": null,
         "id": 392
     },
     {
@@ -3542,7 +3544,7 @@ const questionData = [
         "date": "1208",
         "era": "Medieval",
         "event": "Pope Innocent III calls for the Albigensian Crusade which seeks to destroy a rival form of Christianity practiced by the Cathars.",
-        "detail": null,
+        "Source": null,
         "id": 393
     },
     {
@@ -3551,7 +3553,7 @@ const questionData = [
         "date": "1209",
         "era": "Medieval",
         "event": "The University of Cambridge is founded.",
-        "detail": null,
+        "Source": null,
         "id": 394
     },
     {
@@ -3559,8 +3561,8 @@ const questionData = [
         "year_end": 1209,
         "date": "1209",
         "era": "Medieval",
-        "event": "Founding of the Franciscan Order.",
-        "detail": "One of the more significant orders in the Roman Catholic church, founded by Saint Francis of Assisi.",
+        "event": "Founding of the Franciscan Order. One of the more significant orders in the Roman Catholic church. founded by Saint Francis of Assisi.",
+        "Source": null,
         "id": 395
     },
     {
@@ -3569,7 +3571,7 @@ const questionData = [
         "date": "1212",
         "era": "Medieval",
         "event": "Spanish Christians succeed in defeating the Moors in the long Reconquista campaigns, after the Battle of Las Navas de Tolosa.",
-        "detail": "By 1238, only the small southern Emirate of Granada remained under Muslim control.",
+        "Source": null,
         "id": 396
     },
     {
@@ -3577,8 +3579,8 @@ const questionData = [
         "year_end": 1215,
         "date": "1215 15 June",
         "era": "Medieval",
-        "event": "The Magna Carta is sealed by John of England.",
-        "detail": "This marks one of the first times a medieval ruler is forced to accept limits on his power.",
+        "event": "The Magna Carta is sealed by John of England. This marks one of the first times a medieval ruler is forced to accept limits on his power.",
+        "Source": null,
         "id": 397
     },
     {
@@ -3587,7 +3589,7 @@ const questionData = [
         "date": "1215",
         "era": "Medieval",
         "event": "Fourth Lateran Council. Dealt with transubstantiation, papal primacy and conduct of clergy. Proclaimed that Jews and Muslims should wear identification marks to distinguish them from Christians.",
-        "detail": null,
+        "Source": null,
         "id": 398
     },
     {
@@ -3596,7 +3598,7 @@ const questionData = [
         "date": "1216",
         "era": "Medieval",
         "event": "Papal recognition of the Dominican Order.",
-        "detail": null,
+        "Source": null,
         "id": 399
     },
     {
@@ -3605,7 +3607,7 @@ const questionData = [
         "date": "1219",
         "era": "Medieval",
         "event": "Serbian Orthodox Church becomes autocephalous under St. Sava, its first Archbishop.",
-        "detail": null,
+        "Source": null,
         "id": 400
     },
     {
@@ -3613,8 +3615,8 @@ const questionData = [
         "year_end": 1227,
         "date": "1227 18 August",
         "era": "Medieval",
-        "event": "Genghis Khan dies.",
-        "detail": "His kingdom is divided among his children and grandchildren: Empire of the Great Khan, Chagatai Khanate, Mongolian Homeland, and the Blue Horde and White Horde (which would later become the Golden Horde).",
+        "event": "Genghis Khan dies. His kingdom is divided among his children and grandchildren some of which later form the Golden Horde.",
+        "Source": null,
         "id": 401
     },
     {
@@ -3622,8 +3624,8 @@ const questionData = [
         "year_end": 1237,
         "date": "1237\u20131240 ",
         "era": "Medieval",
-        "event": "Mongol invasion of Rus' resumes.",
-        "detail": "Causes the split of Kievan Rus' into three components (present day Russia, Ukraine, Belarus, greatly effects various regions of raided lands in other parts of Europe; Golden Horde formed.",
+        "event": "Mongol invasion of Rus' resumes. Causes the split of Kievan Rus' into three components (present day Russia, Ukraine, Belarus).",
+        "Source": null,
         "id": 402
     },
     {
@@ -3632,7 +3634,7 @@ const questionData = [
         "date": "1257",
         "era": "Medieval",
         "event": "Opening of the College of Sorbonne.",
-        "detail": null,
+        "Source": null,
         "id": 403
     },
     {
@@ -3640,8 +3642,8 @@ const questionData = [
         "year_end": 1257,
         "date": "1257",
         "era": "Medieval",
-        "event": "Provisions of Oxford forced upon Henry III of England.",
-        "detail": "This establishes a new form of government-limited regal authority.",
+        "event": "Provisions of Oxford forced upon Henry III of England. This establishes a new form of government-limited regal authority.",
+        "Source": null,
         "id": 404
     },
     {
@@ -3649,8 +3651,8 @@ const questionData = [
         "year_end": 1258,
         "date": "1258 29 January\u2013 10 February",
         "era": "Medieval",
-        "event": "Siege of Baghdad by Ilkhanate Mongol forces",
-        "detail": "Mongols (the Ilkhanate) ensure control of the region.  Generally considered the end of the Islamic Golden Age.",
+        "event": "Siege of Baghdad by Ilkhanate Mongol forces Mongols (the Ilkhanate) ensure control of the region.  Generally considered the end of the Islamic Golden Age.",
+        "Source": null,
         "id": 405
     },
     {
@@ -3658,8 +3660,8 @@ const questionData = [
         "year_end": 1258,
         "date": "1258",
         "era": "Medieval",
-        "event": "The first Mongol invasion of Vietnam",
-        "detail": "The Mongol army was defeated by emperor Tran Thai Tong of \u0110\u1ea1i Vi\u1ec7t",
+        "event": "The first Mongol invasion of Vietnam The Mongol army was defeated by emperor Tran Thai Tong of \u0110\u1ea1i Vi\u1ec7t",
+        "Source": null,
         "id": 406
     },
     {
@@ -3667,8 +3669,8 @@ const questionData = [
         "year_end": 1272,
         "date": "1272\u201373 ",
         "era": "Medieval",
-        "event": "The Ninth Crusade occurs.",
-        "detail": "Considered to be the Last Major Crusade to take place in the Holy Land.",
+        "event": "The Ninth Crusade occurs. Considered to be the Last Major Crusade to take place in the Holy Land.",
+        "Source": null,
         "id": 407
     },
     {
@@ -3676,8 +3678,8 @@ const questionData = [
         "year_end": 1273,
         "date": "1273 29 September",
         "era": "Medieval",
-        "event": "Rudolph I of Germany is elected Holy Roman Emperor.",
-        "detail": "This begins the Habsburg de facto domination of the crown that lasted until is dissolution in 1806.",
+        "event": "Rudolph I of Germany is elected Holy Roman Emperor. This begins the Habsburg de facto domination of the crown that lasted until is dissolution in 1806.",
+        "Source": null,
         "id": 408
     },
     {
@@ -3685,8 +3687,8 @@ const questionData = [
         "year_end": 1274,
         "date": "1274",
         "era": "Medieval",
-        "event": "Thomas Aquinas' work, Summa Theologica is published, after his death.",
-        "detail": "Is the main staple of theology during the Middle Ages.",
+        "event": "Thomas Aquinas' work, Summa Theologica is published, after his death. Is the main staple of theology during the Middle Ages.",
+        "Source": null,
         "id": 409
     },
     {
@@ -3694,8 +3696,8 @@ const questionData = [
         "year_end": 1279,
         "date": "1279 19 March",
         "era": "Medieval",
-        "event": "Battle of Yamen.",
-        "detail": "Marks the end of the Song Dynasty in China, and all of China is under the rule of Kublai Khan as the emperor.",
+        "event": "Battle of Yamen. Marks the end of the Song Dynasty in China, and all of China is under the rule of Kublai Khan as the emperor.",
+        "Source": null,
         "id": 410
     },
     {
@@ -3704,7 +3706,7 @@ const questionData = [
         "date": "1282",
         "era": "Medieval",
         "event": "Sicilian Vespers. Sicilians massacre Angevins over a six-week period, after a Frenchman harassed a woman.",
-        "detail": "Would mark a two decade period of war, and peace treaties mainly between Aragon, Sicily, and the Angevins.",
+        "Source": null,
         "id": 411
     },
     {
@@ -3712,8 +3714,8 @@ const questionData = [
         "year_end": 1283,
         "date": "1283",
         "era": "Medieval",
-        "event": "First regulated Catalan Courts.",
-        "detail": "Presided by king Peter III of Aragon for the whole Principality of Catalonia, it became in one of the first parliamentary bodies that banned the royal power to create legislation unilaterally.",
+        "event": "First regulated Catalan Courts are formed. Presided by king Peter III of Aragon they become the model for medieval parliaments.",
+        "Source": "https://en.wikipedia.org/wiki/Catalan_Courts",
         "id": 412
     },
     {
@@ -3721,8 +3723,8 @@ const questionData = [
         "year_end": 1285,
         "date": "1285",
         "era": "Medieval",
-        "event": "The second Mongol invasion of Vietnam",
-        "detail": "The Mongol army was defeated by emperor Tran Nhan Tong and general Tran Hung Dao.",
+        "event": "The second Mongol invasion of Vietnam The Mongol army was defeated by emperor Tran Nhan Tong and general Tran Hung Dao.",
+        "Source": null,
         "id": 413
     },
     {
@@ -3730,8 +3732,8 @@ const questionData = [
         "year_end": 1287,
         "date": "1287",
         "era": "Medieval",
-        "event": "The third Mongol invasion of Vietnam",
-        "detail": "Decisive Vietnam victory. To avoid further conflict, \u0110\u1ea1i Vi\u1ec7t agreed to a tributary relationship with the Yuan dynasty",
+        "event": "The third Mongol invasion of Vietnam Decisive Vietnam victory. To avoid further conflict \u0110\u1ea1i Vi\u1ec7t agreed to a tributary relationship with the Yuan dynasty",
+        "Source": null,
         "id": 414
     },
     {
@@ -3740,7 +3742,7 @@ const questionData = [
         "date": "1296",
         "era": "Medieval",
         "event": "Edward I of England invades Scotland, starting the First War of Scottish Independence.",
-        "detail": null,
+        "Source": null,
         "id": 415
     },
     {
@@ -3748,8 +3750,8 @@ const questionData = [
         "year_end": 1297,
         "date": "1297 11 September",
         "era": "Medieval",
-        "event": "The Battle of Stirling Bridge.",
-        "detail": "William Wallace emerges as the leader of the Scottish resistance to England.",
+        "event": "The Battle of Stirling Bridge. William Wallace emerges as the leader of the Scottish resistancce to England.",
+        "Source": null,
         "id": 416
     },
     {
@@ -3757,8 +3759,8 @@ const questionData = [
         "year_end": 1298,
         "date": "1298",
         "era": "Medieval",
-        "event": "Marco Polo publishes his tales of China, along with Rustichello da Pisa.",
-        "detail": "A key step to the bridging of Asia and Europe in trade.",
+        "event": "Marco Polo publishes his tales of China, along with Rustichello da Pisa. A key step to the bridging of Asia and Europe in trade.",
+        "Source": null,
         "id": 417
     },
     {
@@ -3766,8 +3768,8 @@ const questionData = [
         "year_end": 1299,
         "date": "1299 27 July",
         "era": "Medieval",
-        "event": "The Ottoman Empire is founded by Osman I.",
-        "detail": "Becomes longest lasting Islamic Empire, lasting over 600 years into the 20th century.",
+        "event": "The Ottoman Empire is founded by Osman I. Becomes longest lasting Islamic Empire, lasting over 600 years into the 20th century.",
+        "Source": null,
         "id": 418
     },
     {
@@ -3776,7 +3778,7 @@ const questionData = [
         "date": "23 August 1305",
         "era": "Medieval",
         "event": "William Wallace is executed for treason.",
-        "detail": null,
+        "Source": null,
         "id": 419
     },
     {
@@ -3784,8 +3786,8 @@ const questionData = [
         "year_end": 1307,
         "date": "13 October 1307",
         "era": "Medieval",
-        "event": "The Knights Templar are rounded up and murdered by Philip the Fair of France, with the backing of the Pope.",
-        "detail": "Hastens the demise of the order within a decade.",
+        "event": "The Knights Templar are rounded up and murdered by Philip the Fair of France, with the backing of the Pope. Hastens the demise of the order within a decade.",
+        "Source": null,
         "id": 420
     },
     {
@@ -3793,8 +3795,8 @@ const questionData = [
         "year_end": 1307,
         "date": "1307",
         "era": "Medieval",
-        "event": "Beginning of the Babylonian Captivity of the Papacy during which the Popes moved to Avignon.",
-        "detail": "Begins a period of over seven decades of the Papacy outside of Rome that would be one of the major factors of the Western Schism.",
+        "event": "The Popes move to Avignon and begin the Babylonian Captivity. The papacy remains there for seven decades which eventually leads to the Western Schism.",
+        "Source": null,
         "id": 421
     },
     {
@@ -3802,8 +3804,8 @@ const questionData = [
         "year_end": 1310,
         "date": "1310",
         "era": "Medieval",
-        "event": "Dante publishes his Divine Comedy.",
-        "detail": "Is one of the most defining works of literature during the Late Middle Ages, and among the most recognizable in all of literature.",
+        "event": "Dante publishes his Divine Comedy. Is one of the most defining works of literature during the Late Middle Ages, and among the most recognizable in all of literature.",
+        "Source": null,
         "id": 422
     },
     {
@@ -3811,8 +3813,8 @@ const questionData = [
         "year_end": 1314,
         "date": "1314 23\u201324 June",
         "era": "Medieval",
-        "event": "Battle of Bannockburn.",
-        "detail": "Robert the Bruce restores Scotland's de facto independence.",
+        "event": "Battle of Bannockburn. Robert the Bruce restores Scotland's de facto independence.",
+        "Source": null,
         "id": 423
     },
     {
@@ -3820,8 +3822,8 @@ const questionData = [
         "year_end": 1325,
         "date": "1325",
         "era": "Medieval",
-        "event": "The Mexica found the city of Tenochtitlan.",
-        "detail": "This would later be the epicenter and capital of the Aztec Empire until the Siege of Tenochtitlan 200 years later.",
+        "event": "The Mexica found the city of Tenochtitlan. This would later be the epicenter and capital of the Aztec Empire until the Siege of Tenochtitlan 200 years later.",
+        "Source": null,
         "id": 424
     },
     {
@@ -3830,7 +3832,7 @@ const questionData = [
         "date": "1328",
         "era": "Medieval",
         "event": "The First War of Scottish Independence ends in Scottish victory with the Treaty of Edinburgh-Northampton and de jure independence.",
-        "detail": null,
+        "Source": null,
         "id": 425
     },
     {
@@ -3839,7 +3841,7 @@ const questionData = [
         "date": "1323",
         "era": "Medieval",
         "event": "Romance of the three kingdoms",
-        "detail": null,
+        "Source": null,
         "id": 426
     },
     {
@@ -3848,7 +3850,7 @@ const questionData = [
         "date": "1330 28 July",
         "era": "Medieval",
         "event": "Battle of Velbazhd.",
-        "detail": null,
+        "Source": null,
         "id": 427
     },
     {
@@ -3856,8 +3858,8 @@ const questionData = [
         "year_end": 1333,
         "date": "1333",
         "era": "Medieval",
-        "event": "Emperor Go-Daigo returns to the throne from exile, and begins the Kenmu restoration.",
-        "detail": "The Kamakura Shogunate comes to an end, and the Kenmu Restoration only lasts a few years before the Ashikaga Shogunate begins.",
+        "event": "Emperor Go-Daigo returns to the throne from exile, and begins the Kenmu restoration ending the Kamakura Shogunate. It only lasts a few years before the Ashikaga Shogunate begins.",
+        "Source": null,
         "id": 428
     },
     {
@@ -3865,8 +3867,8 @@ const questionData = [
         "year_end": 1337,
         "date": "1337",
         "era": "Medieval",
-        "event": "The Hundred Years' War begins. England and France struggle for a dominating position in Europe and their region.",
-        "detail": "The war will span through three/four different war periods within a 116-year period.",
+        "event": "The Hundred Years' War begins. England and France struggle for a dominating position in Europe and their region. The war will span through three/four different war periods within a 116-year period.",
+        "Source": null,
         "id": 429
     },
     {
@@ -3874,8 +3876,8 @@ const questionData = [
         "year_end": 1346,
         "date": "1346 August 26th",
         "era": "Medieval",
-        "event": "Battle of Cr\u00e9cy.",
-        "detail": "English forces led by Edward III and Edward, the Black Prince defeat the French forces of Philip VI despite being outnumbered at least 4 to 1, with the longbow being a major factor in favor of England. Also considered to be the beginning of the end of classic chivalry.",
+        "event": "Battle of Cr\u00e9cy. English forces led by Edward III and Edward, the Black Prince defeat the French forces of Philip VI despite being outnumbered at least 4 to 1 thanks to the longbow.",
+        "Source": null,
         "id": 430
     },
     {
@@ -3883,8 +3885,8 @@ const questionData = [
         "year_end": 1347,
         "date": "1347",
         "era": "Medieval",
-        "event": "The Black Death ravages Europe for the first of many times. An estimated 20% \u2013 40% of the population is thought to have perished within the first year.",
-        "detail": "The first of many concurrences of this plague, This was believed to have wiped out as many as 50% of Europe's population by its end.",
+        "event": "The Black Death ravages Europe for the first of many times. In the first year 20% \u2013 40% of the population perishes, and it eventually kills over half of the population of Europe.",
+        "Source": null,
         "id": 431
     },
     {
@@ -3892,8 +3894,8 @@ const questionData = [
         "year_end": 1347,
         "date": "1347",
         "era": "Medieval",
-        "event": "The University of Prague is founded.",
-        "detail": "It is the oldest Czech and German-Speaking University in the world",
+        "event": "The University of Prague is founded. It is the oldest Czech and German-Speaking University in the world",
+        "Source": null,
         "id": 432
     },
     {
@@ -3901,8 +3903,8 @@ const questionData = [
         "year_end": 1364,
         "date": "1364",
         "era": "Medieval",
-        "event": "Astrarium",
-        "detail": "Giovanni de dondi",
+        "event": "Astrarium Giovanni de dondi",
+        "Source": null,
         "id": 433
     },
     {
@@ -3910,8 +3912,8 @@ const questionData = [
         "year_end": 1368,
         "date": "1368",
         "era": "Medieval",
-        "event": "The fall of the Yuan Dynasty. Its remnants, known as Northern Yuan, continued to rule Mongolia.",
-        "detail": "The breakup of the Mongol Empire, which marked the end of Pax Mongolica.",
+        "event": "The fall of the Yuan Dynasty. Its remnants, known as Northern Yuan, continued to rule Mongolia. The breakup of the Mongol Empire, which marked the end of Pax Mongolica.",
+        "Source": null,
         "id": 434
     },
     {
@@ -3919,8 +3921,8 @@ const questionData = [
         "year_end": 1370,
         "date": "1370",
         "era": "Medieval",
-        "event": "Tamerlane establishes the Timurid Dynasty.",
-        "detail": "During this 35-year period, Tamerlane would ravage his fellow Islamic states such as the Golden Horde and the Delhi Sultanate in order to accomplish his goal of a restored Mongol Empire.",
+        "event": "Tamerlane establishes the Timurid Dynasty. During this 35-year period Tamerlane would ravage his fellow Islamic states such as the Golden Horde and the Delhi Sultanate to restored the Mongol Empire.",
+        "Source": null,
         "id": 435
     },
     {
@@ -3928,8 +3930,8 @@ const questionData = [
         "year_end": 1378,
         "date": "1378",
         "era": "Medieval",
-        "event": "The Western Schism during which three claimant popes were elected simultaneously.",
-        "detail": "The Avignon Papacy ends.",
+        "event": "The Western Schism during which three claimant popes were elected simultaneously. The Avignon Papacy ends.",
+        "Source": null,
         "id": 436
     },
     {
@@ -3938,7 +3940,7 @@ const questionData = [
         "date": "1380",
         "era": "Medieval",
         "event": "Prince Dmitry Donskoy of Moscow led a united Russian army to a victory over the Mongols in the Battle of Kulikovo.",
-        "detail": null,
+        "Source": null,
         "id": 437
     },
     {
@@ -3946,8 +3948,8 @@ const questionData = [
         "year_end": 1380,
         "date": "1380",
         "era": "Medieval",
-        "event": "Chaucer begins to write The Canterbury Tales.",
-        "detail": "Chaucer's greatest work, and one of the foundations towards the formation of the Modern English language",
+        "event": "Chaucer begins to write The Canterbury Tales. Chaucer's greatest work and one of the foundations towards the formation of the Modern English language",
+        "Source": null,
         "id": 438
     },
     {
@@ -3955,8 +3957,8 @@ const questionData = [
         "year_end": 1381,
         "date": "1381",
         "era": "Medieval",
-        "event": "Peasants' Revolt in England.",
-        "detail": "Quickest-spread revolt in English history, and the most popular revolt of the Late Middle Ages.",
+        "event": "Peasants' Revolt in England. Quickest-spread revolt in English history and the most popular revolt of the Late Middle Ages.",
+        "Source": null,
         "id": 439
     },
     {
@@ -3964,8 +3966,8 @@ const questionData = [
         "year_end": 1381,
         "date": "1381",
         "era": "Medieval",
-        "event": "The Bible is translated into English by John Wycliffe.",
-        "detail": "First print published in English (Vulgate)",
+        "event": "The Bible is translated into English by John Wycliffe. First print published in English (Vulgate)",
+        "Source": null,
         "id": 440
     },
     {
@@ -3973,8 +3975,8 @@ const questionData = [
         "year_end": 1386,
         "date": "1386 October 18\u201319th",
         "era": "Medieval",
-        "event": "The University of Heidelberg is founded.",
-        "detail": "It is the oldest university in Germany.",
+        "event": "The University of Heidelberg is founded. It is the oldest university in Germany.",
+        "Source": null,
         "id": 441
     },
     {
@@ -3982,8 +3984,8 @@ const questionData = [
         "year_end": 1389,
         "date": "1389 June 28th",
         "era": "Medieval",
-        "event": "Battle of Kosovo in Serbia.",
-        "detail": "This was in many respects the decisive battle between the Turks, led by Sultan Murat, and Christian army, led by the Serbs and their duke Lazar. The battle took place in Kosovo, the southern province of the Medieval Serbian Empire. After this battle Turkish empire continued to spread over the Balkans, to finally reach Vienna.",
+        "event": "Battle of Kosovo in Serbia between the Turks (Sultan Murat) and the Christian army led by the Serbs (Duke Lazar). The Turkish empire continued to spread over the Balkans, and reaches Vienna.",
+        "Source": null,
         "id": 442
     },
     {
@@ -3991,8 +3993,8 @@ const questionData = [
         "year_end": 1392,
         "date": "1392",
         "era": "Medieval",
-        "event": "Joseon Dynasty founded in Korea.",
-        "detail": "Becomes longest reigning Korean dynasty.",
+        "event": "Joseon Dynasty founded in Korea. Becomes longest reigning Korean dynasty.",
+        "Source": null,
         "id": 443
     },
     {
@@ -4000,8 +4002,8 @@ const questionData = [
         "year_end": 1396,
         "date": "1396",
         "era": "Medieval",
-        "event": "The Battle of Nicopolis.",
-        "detail": "The last great Crusade fails. Bulgaria was conquered by the Ottomans",
+        "event": "The Battle of Nicopolis. The last great Crusade fails. Bulgaria was conquered by the Ottomans",
+        "Source": null,
         "id": 444
     },
     {
@@ -4009,8 +4011,8 @@ const questionData = [
         "year_end": 1397,
         "date": "1397",
         "era": "Medieval",
-        "event": "The Kalmar Union is formed.",
-        "detail": "Queen Margaret I of Denmark unites the Denmark, Sweden, and Norway, and lasts until 1523.",
+        "event": "The Kalmar Union is formed. Queen Margaret I of Denmark unites the Denmark, Sweden, and Norway, and lasts until 1523.",
+        "Source": null,
         "id": 445
     },
     {
@@ -4018,8 +4020,8 @@ const questionData = [
         "year_end": 1399,
         "date": "1399",
         "era": "Medieval",
-        "event": "Richard II abdicates the throne to Henry of Bolingbroke, who becomes Henry IV of England.",
-        "detail": "End of Plantagenet Dynasty, beginning of the Lancaster lineage of kings.",
+        "event": "Richard II abdicates the throne to Henry of Bolingbroke, who becomes Henry IV of England. End of Plantagenet Dynasty, beginning of the Lancaster lineage of kings.",
+        "Source": null,
         "id": 446
     },
     {
@@ -4027,8 +4029,8 @@ const questionData = [
         "year_end": 1402,
         "date": "20 July 1402",
         "era": "Medieval",
-        "event": "Battle of Ankara",
-        "detail": "Bayezid I is captured by Tamerlane's forces, causing the interregnum of the Ottoman Empire.",
+        "event": "Battle of Ankara Bayezid I is captured by Tamerlane's forces, causing the interregnum of the Ottoman Empire.",
+        "Source": null,
         "id": 447
     },
     {
@@ -4036,8 +4038,8 @@ const questionData = [
         "year_end": 1405,
         "date": "1405",
         "era": "Medieval",
-        "event": "Chinese naval expeditions of Southeast Asia and the Indian Ocean (to Eastern Africa) begin, under the leadership of Zheng He.",
-        "detail": "This will be the first of seven of the Ming Dynasty-sponsored expeditions, lasting until 1433.",
+        "event": "Chinese naval expeditions of Southeast Asia and the Indian Ocean (to Eastern Africa) begin under Zheng He. This will be the first of seven of the Ming Dynasty-sponsored expeditions.",
+        "Source": null,
         "id": 448
     },
     {
@@ -4045,8 +4047,8 @@ const questionData = [
         "year_end": 1409,
         "date": "1409",
         "era": "Medieval",
-        "event": "Ladislaus of Naples sells his \"rights\" on Dalmatia to the Venetian Republic for 100,000 ducats.",
-        "detail": "Dalmatia would with some interruptions remain under Venetian rule for nearly four centuries, until 1797.",
+        "event": "Ladislaus of Naples sells his 'rights' on Dalmatia to the Venetian Republic for 100,000 ducats. Dalmatia would with some interruptions remain under Venetian rule for nearly four centuries.",
+        "Source": null,
         "id": 449
     },
     {
@@ -4054,8 +4056,8 @@ const questionData = [
         "year_end": 1410,
         "date": "1410",
         "era": "Medieval",
-        "event": "Battle of Grunwald",
-        "detail": "Major turning point in history of Lithuania, Poland and the Teutonic Order.",
+        "event": "Battle of Grunwald Major turning point in history of Lithuania Poland and the Teutonic Order.",
+        "Source": null,
         "id": 450
     },
     {
@@ -4063,8 +4065,8 @@ const questionData = [
         "year_end": 1415,
         "date": "1415",
         "era": "Medieval",
-        "event": "Kingdom of Portugal conquers Ceuta.",
-        "detail": "Beginning of the Portuguese Empire. Beginning of the Age of Discovery.",
+        "event": "Kingdom of Portugal conquers Ceuta. Beginning of the Portuguese Empire. Beginning of the Age of Discovery.",
+        "Source": null,
         "id": 451
     },
     {
@@ -4072,8 +4074,8 @@ const questionData = [
         "year_end": 1415,
         "date": "25 October 1415",
         "era": "Medieval",
-        "event": "Battle of Agincourt. Henry V and his army defeat a numerically superior French army, partially because of the newly introduced English longbow.",
-        "detail": "The turning point in the Hundred Years' War for 15th-century England that leads to the signing of the Treaty of Troyes five years later, making Henry V heir to the throne of France.",
+        "event": "Battle of Agincourt. Henry V and his army defeat a numerically superior French army, partially because of the newly introduced English longbow. The turning point in the Hundred Years' War for England.",
+        "Source": null,
         "id": 452
     },
     {
@@ -4081,8 +4083,8 @@ const questionData = [
         "year_end": 1417,
         "date": "1417",
         "era": "Medieval",
-        "event": "The Council of Constance ends.",
-        "detail": "The Western Schism comes to a close, and elects Pope Martin V as the sole pope.",
+        "event": "The Council of Constance ends. The Western Schism comes to a close and elects Pope Martin V as the sole pope.",
+        "Source": null,
         "id": 453
     },
     {
@@ -4091,7 +4093,7 @@ const questionData = [
         "date": "1419",
         "era": "Medieval",
         "event": "Hussite Wars begin after four years after the death of Jan Hus in central Europe, dealing with the followers of Jan Hus and those against them.",
-        "detail": "Although the war was a stalemate (ended around 1434), it was another factor that[clarification needed] between the Catholics and Protestants before the Protestant Reformation.",
+        "Source": null,
         "id": 454
     },
     {
@@ -4099,8 +4101,8 @@ const questionData = [
         "year_end": 1428,
         "date": "1428",
         "era": "Medieval",
-        "event": "Itzcoatl, the fourth Mexica king in Tenochtitl\u00e1n, allied with Texcoco and Tlacopan, defeats Azcapotzalco.",
-        "detail": "Signifies the birth of the Aztec Empire and the start of an aggressive expansion lasting 90 years. Itzcoatl and his men began burning historic hieroglyphic books of conquered states, rewriting history with the Mexica at its center.",
+        "event": "Itzcoatl, the fourth Mexica king in Tenochtitl\u00e1n, allied with Texcoco and Tlacopan, defeats Azcapotzalco. Signifies the birth of the Aztec Empire and the start of a 90 years aggressive expansion.",
+        "Source": null,
         "id": 455
     },
     {
@@ -4108,8 +4110,8 @@ const questionData = [
         "year_end": 1429,
         "date": "1429",
         "era": "Medieval",
-        "event": "Joan of Arc lifts the siege of Orl\u00e9ans for the Dauphin of France, enabling him to eventually be crowned at Reims.",
-        "detail": "The battle at Orl\u00e9ans is the first of many which ultimately drive the English from continental Europe.",
+        "event": "Jeanne d\u2019Arc lifts the siege of Orl\u00e9ans for the Dauphin of France. This and following battles drive the English from the continent and allow the Dauphin to be crowned in Reims.",
+        "Source": "https://en.wikipedia.org/wiki/Joan_of_Arc",
         "id": 456
     },
     {
@@ -4117,8 +4119,8 @@ const questionData = [
         "year_end": 1431,
         "date": "30 May 1431",
         "era": "Medieval",
-        "event": "Trial and execution of Joan of Arc.",
-        "detail": "Death of the woman who helped turn the Hundred Years' War in favor of the French over the past two years.",
+        "event": "Trial and execution of Jeanne d\u2019Arc. Death of the woman who helped turn the Hundred Years' War in favor of the French over the past two years.",
+        "Source": "https://en.wikipedia.org/wiki/Joan_of_Arc",
         "id": 457
     },
     {
@@ -4126,8 +4128,8 @@ const questionData = [
         "year_end": 1434,
         "date": "1434",
         "era": "Medieval",
-        "event": "The Medici family rises to prominence in Florence.",
-        "detail": "This ushers in a period of significance of the Medicis, such as bankers, popes, queens (regents) and dukes, throughout Europe (mainly Italy, especially the Florentine Republic), over the next three centuries.",
+        "event": "The Medici family rises to prominence in Florence. Over the next three centuries the Medicis are bankers, popes, queens (regents) and dukes, in Italy but also throughout Europe.",
+        "Source": null,
         "id": 458
     },
     {
@@ -4135,8 +4137,8 @@ const questionData = [
         "year_end": 1434,
         "date": "1434",
         "era": "Medieval",
-        "event": "Aronolfini Portrait Jan Van Eyck",
-        "detail": "evidence on usage of convex mirror",
+        "event": "Aronolfini Portrait Jan Van Eyck evidence on usage of convex mirror",
+        "Source": null,
         "id": 459
     },
     {
@@ -4144,8 +4146,8 @@ const questionData = [
         "year_end": 1438,
         "date": "1438",
         "era": "Medieval",
-        "event": "Prince Cusi Yupanqui becomes the first Inca emperor.",
-        "detail": "Inca civilization begins expanding and the Inca Empire is born.",
+        "event": "Prince Cusi Yupanqui becomes the first Inca emperor. Inca civilization begins expanding and the Inca Empire is born.",
+        "Source": null,
         "id": 460
     },
     {
@@ -4154,7 +4156,7 @@ const questionData = [
         "date": "1439",
         "era": "Medieval",
         "event": "Johannes Gutenberg invents the printing press.",
-        "detail": "Literature, news, etc. becomes more accessible throughout Europe.",
+        "Source": null,
         "id": 461
     },
     {
@@ -4162,8 +4164,8 @@ const questionData = [
         "year_end": 1442,
         "date": "1442",
         "era": "Medieval",
-        "event": "Battle of Szeben",
-        "detail": "Third significant victory for the Hungarian forces led by Janos Hunyadi over the Ottoman forces.",
+        "event": "Battle of Szeben Third significant victory for the Hungarian forces led by Janos Hunyadi over the Ottoman forces.",
+        "Source": null,
         "id": 462
     },
     {
@@ -4171,8 +4173,8 @@ const questionData = [
         "year_end": 1443,
         "date": "1443",
         "era": "Medieval",
-        "event": "Sejong the Great creates Hangul",
-        "detail": "Koreans gain an alphabet suited to their language",
+        "event": "Sejong the Great creates Hangul, the Korean script still in use today.",
+        "Source": null,
         "id": 463
     },
     {
@@ -4180,8 +4182,8 @@ const questionData = [
         "year_end": 1444,
         "date": "10 November 1444",
         "era": "Medieval",
-        "event": "Battle of Varna",
-        "detail": "Final battle of the Crusade of Varna; Ottomans are victorious over the Hungarian-Polish armies, and W\u0142adys\u0142aw III of Poland dies.",
+        "event": "Battle of Varna Final battle of the Crusade of Varna, Ottomans are victorious over the Hungarian-Polish armies, and W\u0142adys\u0142aw III of Poland dies.",
+        "Source": null,
         "id": 464
     },
     {
@@ -4189,8 +4191,8 @@ const questionData = [
         "year_end": 1452,
         "date": "1452",
         "era": "Medieval",
-        "event": "Coronation of Frederick III",
-        "detail": null,
+        "event": "Coronation of Frederick III the first emperor of the House of Habsburg and last emperor to be crowned in Rome.",
+        "Source": "https://en.wikipedia.org/wiki/Frederick_III,_Holy_Roman_Emperor",
         "id": 465
     },
     {
@@ -4198,8 +4200,8 @@ const questionData = [
         "year_end": 1453,
         "date": "1453",
         "era": "Medieval",
-        "event": "Constantinople falls to the Ottoman Turks.",
-        "detail": "End of the Byzantine Empire (or Eastern Roman Empire to some) Constantinople becomes capital of Ottoman Empire.",
+        "event": "Constantinople falls to the Ottoman Turks ending the Eastern Roman (Byzantine) Empire. Constantinople becomes the capital of the Ottoman Empire.",
+        "Source": null,
         "id": 466
     },
     {
@@ -4207,8 +4209,8 @@ const questionData = [
         "year_end": 1453,
         "date": "1453",
         "era": "Medieval",
-        "event": "The Hundred Years' War ends.",
-        "detail": "England's once vast territory in France is now reduced to only Calais, which they eventually lose control of as well.",
+        "event": "The Hundred Years' War ends. England's once vast territory in France is now reduced to only Calais, which they eventually lose control of as well.",
+        "Source": null,
         "id": 467
     },
     {
@@ -4216,8 +4218,8 @@ const questionData = [
         "year_end": 1455,
         "date": "22 May 1455",
         "era": "Medieval",
-        "event": "Battle of St. Albans",
-        "detail": "Traditionally marks the beginning of the War of the Roses.",
+        "event": "Battle of St. Albans that traditionally marks the beginning of the War of the Roses.",
+        "Source": null,
         "id": 468
     },
     {
@@ -4225,8 +4227,8 @@ const questionData = [
         "year_end": 1456,
         "date": "1456",
         "era": "Medieval",
-        "event": "Siege of Belgrade",
-        "detail": "Major Ottoman advances are halted for seven decades  last major victory for Hunyadi.",
+        "event": "Siege of Belgrade, which marks the end of the Medieval Serbian state.  Major Ottoman advances are halted for seven decades  last major victory for Hunyadi.",
+        "Source": null,
         "id": 469
     },
     {
@@ -4235,7 +4237,7 @@ const questionData = [
         "date": "1459",
         "era": "Medieval",
         "event": "Smederevo falls under the Turks",
-        "detail": "Marks the end of the Medieval Serbian state.",
+        "Source": null,
         "id": 470
     },
     {
@@ -4243,8 +4245,8 @@ const questionData = [
         "year_end": 1461,
         "date": "1461",
         "era": "Medieval",
-        "event": "The Empire of Trebizond falls to the Ottoman Turks.",
-        "detail": "Last Roman outpost to be conquered by the Ottomans.",
+        "event": "The Empire of Trebizond, the last Roman outpost, falls to the Ottoman Turks.",
+        "Source": null,
         "id": 471
     },
     {
@@ -4252,8 +4254,8 @@ const questionData = [
         "year_end": 1464,
         "date": "1464",
         "era": "Medieval",
-        "event": "Dardanelles gun",
-        "detail": "Turkish Munir Ali",
+        "event": "Dardanelles gun Turkish Munir Ali",
+        "Source": null,
         "id": 472
     },
     {
@@ -4261,8 +4263,8 @@ const questionData = [
         "year_end": 1467,
         "date": "1467\u20131477 ",
         "era": "Medieval",
-        "event": "\u014cnin War takes place in Japan.",
-        "detail": "First of many significant civil wars between shogunates that would continue for another century during the Muromachi period.",
+        "event": "\u014cnin War takes place in Japan. First of many significant civil wars between shogunates that would continue for another century during the Muromachi period.",
+        "Source": null,
         "id": 473
     },
     {
@@ -4270,8 +4272,8 @@ const questionData = [
         "year_end": 1475,
         "date": "1475",
         "era": "Medieval",
-        "event": "The Khanate of Crimea is conquered and made a vassal state by the Ottoman Empire.",
-        "detail": "Venice is defeated and the Ottoman Empire becomes master of the Aegean Sea.",
+        "event": "The Khanate of Crimea is conquered and made a vassal state by the Ottoman Empire. Venice is defeated and the Ottoman Empire becomes master of the Aegean Sea.",
+        "Source": null,
         "id": 474
     },
     {
@@ -4279,8 +4281,8 @@ const questionData = [
         "year_end": 1485,
         "date": "1485",
         "era": "Medieval",
-        "event": "Thomas Malory composes Le Morte d'Arthur",
-        "detail": "Perhaps the best-known work of Arthurian literature in English.",
+        "event": "Thomas Malory composes Le Morte d'Arthur, the best-known work of Arthurian literature in English.",
+        "Source": null,
         "id": 475
     },
     {
@@ -4288,8 +4290,8 @@ const questionData = [
         "year_end": 1485,
         "date": "22 August 1485 ",
         "era": "Medieval",
-        "event": "Battle of Bosworth Field.",
-        "detail": "Richard III dies in battle, and Henry Tudor becomes king of England; last shift of Houses/kingship during the War of the Roses.",
+        "event": "Battle of Bosworth Field during which Richard III dies in battle.",
+        "Source": null,
         "id": 476
     },
     {
@@ -4297,8 +4299,8 @@ const questionData = [
         "year_end": 1487,
         "date": "1487 June 16",
         "era": "Medieval",
-        "event": "Battle of Stoke.",
-        "detail": "Marks end of the War of the Roses.",
+        "event": "The Battle of Stoke makes the end of the War of the Roses.",
+        "Source": null,
         "id": 477
     },
     {
@@ -4306,8 +4308,8 @@ const questionData = [
         "year_end": 1492,
         "date": "1492",
         "era": "Medieval",
-        "event": "Reconquista ends.",
-        "detail": "Marks end of Moorish-Muslim rule within Iberian Peninsula  Unification of Spain.",
+        "event": "The Reconquista ends. This marks the end of the Moorish-Muslim rule on the Iberian Peninsula and leads to the Unification of Spain.",
+        "Source": null,
         "id": 478
     },
     {
@@ -4316,7 +4318,7 @@ const questionData = [
         "date": "1492",
         "era": "Medieval",
         "event": "Christopher Columbus reaches the New World.",
-        "detail": "Age of Discovery into the New World begins.",
+        "Source": null,
         "id": 479
     },
     {
@@ -4325,7 +4327,7 @@ const questionData = [
         "date": "June 10 1494",
         "era": "Medieval",
         "event": "Spain and Portugal sign the Treaty of Tordesillas and agree to divide the World outside of Europe between themselves.",
-        "detail": "Pope's ruling will lead to the division of Brazil and Spanish America, as well as the formation of the Spanish Philippines and Portuguese colonies in India and Africa.",
+        "Source": null,
         "id": 480
     },
     {
@@ -4334,7 +4336,7 @@ const questionData = [
         "date": "1494\u20131559",
         "era": "Medieval",
         "event": "The Italian Wars which eventually will lead to the downfall of the Italian city-states.",
-        "detail": null,
+        "Source": null,
         "id": 481
     },
     {
@@ -4342,8 +4344,8 @@ const questionData = [
         "year_end": 1497,
         "date": "1497",
         "era": "Medieval",
-        "event": "Vasco da Gama begins his first voyage from Europe to India and back.",
-        "detail": "Vasco da Gama was the first European to sail directly to Eastern Asia from Europe.",
+        "event": "Vasco da Gama begins his first voyage from Europe to India and back. He was the first European to sail directly from Europe to Eastern Asia.",
+        "Source": null,
         "id": 482
     },
     {
@@ -4351,8 +4353,188 @@ const questionData = [
         "year_end": 1499,
         "date": "1499",
         "era": "Medieval",
-        "event": "Ottoman fleet defeats Venetians at the Battle of Zonchio.",
-        "detail": "The first naval battle that used cannons in ships.",
+        "event": "The Ottoman fleet defeats Venetians at the Battle of Zonchio. This marks the first naval battle that used cannons in ships. ",
+        "Source": null,
         "id": 483
+    },
+    {
+        "year_start": -284,
+        "year_end": -246,
+        "date": "284 - 246 BCE",
+        "era": "Ancient & Classical",
+        "event": "The Lighthouse of Alexandria is built during the reign of Ptolemy II. It exceeded 100 meteres in overall height.",
+        "Source": "https://en.wikipedia.org/wiki/Lighthouse_of_Alexandria",
+        "id": 484
+    },
+    {
+        "year_start": 1480,
+        "year_end": 1480,
+        "date": "1480",
+        "era": "Early Modern",
+        "event": "The last remaining stones of the abandoned Lighthouse of Alexandria are used to built the Citadel of Qaitbay.",
+        "Source": "https://en.wikipedia.org/wiki/Lighthouse_of_Alexandria",
+        "id": 485
+    },
+    {
+        "year_start": -280,
+        "year_end": -280,
+        "date": "280 BCE",
+        "era": "Ancient & Classical",
+        "event": "The Colossus of Rhodes is built to celebrate the defence of Rhodes against Demetrius Poliorcetes",
+        "Source": "https://en.wikipedia.org/wiki/Colossus_of_Rhodes",
+        "id": 486
+    },
+    {
+        "year_start": 653,
+        "year_end": 653,
+        "date": "653",
+        "era": "Medieval",
+        "event": "Arab force under Muslim general Muawiyah I conqueres Rhodes and destroys the Collosus of Rhodes.",
+        "Source": "https://en.wikipedia.org/wiki/Colossus_of_Rhodes",
+        "id": 487
+    },
+    {
+        "year_start": 1452,
+        "year_end": 1452,
+        "date": "1452",
+        "era": "Renaissance",
+        "event": "Leonardo da Vinci is born",
+        "Source": "https://www.thoughtco.com/renaissance-timeline-4158077",
+        "id": 488
+    },
+    {
+        "year_start": 1454,
+        "year_end": 1454,
+        "date": "1454",
+        "era": "Renaissance",
+        "event": "Johannes Gutenberg published the\u00a0Gutenberg Bible ",
+        "Source": "https://www.thoughtco.com/renaissance-timeline-4158077",
+        "id": 489
+    },
+    {
+        "year_start": 1469,
+        "year_end": 1469,
+        "date": "1469",
+        "era": "Renaissance",
+        "event": "Lorenzo de Medici \"The Magnificent\u201d takes over power in Florence. : his rule is considered the high point of the Florentine Renaissance. ",
+        "Source": "https://www.thoughtco.com/renaissance-timeline-4158077",
+        "id": 490
+    },
+    {
+        "year_start": 1481,
+        "year_end": 1481,
+        "date": "1481",
+        "era": "Renaissance",
+        "event": "Construction of the Sistine Chapel is finished",
+        "Source": "https://en.wikipedia.org/wiki/Sistine_Chapel",
+        "id": 491
+    },
+    {
+        "year_start": 1509,
+        "year_end": 1509,
+        "date": "1509",
+        "era": "Renaissance",
+        "event": "\u00a0Henry VIII\u00a0came to power in England ",
+        "Source": "https://www.thoughtco.com/renaissance-timeline-4158077",
+        "id": 492
+    },
+    {
+        "year_start": 1530,
+        "year_end": 1530,
+        "date": "1530",
+        "era": "Renaissance",
+        "event": "\u00a0Charles V\u00a0 become Holy Roman Emperor",
+        "Source": "https://www.thoughtco.com/renaissance-timeline-4158077",
+        "id": 493
+    },
+    {
+        "year_start": 1525,
+        "year_end": 1525,
+        "date": "1525",
+        "era": "Renaissance",
+        "event": "The Battle of Pavia took place between France and the Holy Roman Empire, ending French claims on Italy ",
+        "Source": "https://www.thoughtco.com/renaissance-timeline-4158077",
+        "id": 494
+    },
+    {
+        "year_start": 1471,
+        "year_end": 1528,
+        "date": "1471-1528",
+        "era": "Renaissance",
+        "event": "Life of Albrecht D\u00fcrer",
+        "Source": "https://en.wikipedia.org/wiki/Albrecht_D\u00fcrer",
+        "id": 495
+    },
+    {
+        "year_start": 1513,
+        "year_end": 1513,
+        "date": "1513",
+        "era": "Renaissance",
+        "event": "Niccol\u00f2 Machiavelli wrote \u2018The Prince\u2019",
+        "Source": "https://www.thoughtco.com/renaissance-timeline-4158077",
+        "id": 496
+    },
+    {
+        "year_start": 1516,
+        "year_end": 1516,
+        "date": "1516",
+        "era": "Renaissance",
+        "event": "Thomas More wrote \u2018Utopia\u2019",
+        "Source": "https://www.thoughtco.com/renaissance-timeline-4158077",
+        "id": 497
+    },
+    {
+        "year_start": 1536,
+        "year_end": 1536,
+        "date": "1536",
+        "era": "Renaissance",
+        "event": "Miguel CervantesMiguel Cervantes",
+        "Source": "https://www.thoughtco.com/renaissance-timeline-4158077",
+        "id": 498
+    },
+    {
+        "year_start": 1605,
+        "year_end": 1605,
+        "date": "1605",
+        "era": "Renaissance",
+        "event": "William Shakespeare wrote \"Hamlet,\"",
+        "Source": "https://www.thoughtco.com/renaissance-timeline-4158077",
+        "id": 499
+    },
+    {
+        "year_start": 1605,
+        "year_end": 1615,
+        "date": "Part 1 in 1605, Part 2 in 1615",
+        "era": "Renaissance",
+        "event": "Miguel Cervantes' \"Don Quixote\" was published. It is often labeled as the first modern novel",
+        "Source": "https://en.wikipedia.org/wiki/Don_Quixote",
+        "id": 500
+    },
+    {
+        "year_start": 1558,
+        "year_end": 1558,
+        "date": "17 November 1558 ",
+        "era": "Renaissance",
+        "event": "Elizabeth I\u00a0\u201cthe Virgin Queen\u201d was crowned queen ",
+        "Source": "https://en.wikipedia.org/wiki/Elizabeth_I",
+        "id": 501
+    },
+    {
+        "year_start": 1789,
+        "year_end": 1799,
+        "date": "5\u00a0May\u00a01789\u00a0\u2013 9\u00a0November\u00a01799 ",
+        "era": "Enlightenment\u00a0 ",
+        "event": "The French Revolution takes place",
+        "Source": "https://en.wikipedia.org/wiki/French_Revolution",
+        "id": 502
+    },
+    {
+        "year_start": 1789,
+        "year_end": 1789,
+        "date": "14 July 1789 ",
+        "era": "Enlightenment\u00a0 ",
+        "event": "Storming of the Bastille makes the beginning of the French Revolution",
+        "Source": "https://en.wikipedia.org/wiki/Storming_of_the_Bastille",
+        "id": 503
     }
 ]
