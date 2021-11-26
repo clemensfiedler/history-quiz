@@ -5,6 +5,7 @@
 </header>
 
 <body>
+
   <h1>Quiz on Random Events</h1>
   <h2>Put the following events in order! (earliest on top)</h2>
   <h2 id="gamestate">Current Points: <el id="points">0<el></h2>
@@ -20,8 +21,17 @@
     <button id="reset">Reset Quiz</button>
   </div>
 
+  <div class="dropdown">
+    <button onclick="showDropdown()" class="dropbtn">Question set</button>
+    <div id="quizeType" class="dropdown-content">
+      <button class='choice' onclick="setQuiz('history')">History</button>
+      <button class='choice' onclick="setQuiz('games')">Video Games</button>
+    </div>
+  </div>
+
   <hr>
   <footer>
+    <p>Source: Wikipedia</p>
     <p>Author: Clemens Fiedler</p>
     <p><a href="mailto:clemens.mb.fiedler@gmail.com">clemens.mb.fiedler@gmail.com</a></p>
     <p><a href="https://github.com/clemensfiedler/history-quiz"><i class="fa fa-github"></i>Code</a></p>

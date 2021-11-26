@@ -1,4540 +1,16012 @@
-const questionDate = "2021-11-04T18:58:19.458501"
-const questionNumber = 504
-const questionData = [
-    {
-        "year_start": -3200,
-        "year_end": -3200,
-        "date": "c. 3200 BCE",
-        "era": "Ancient & Classical",
-        "event": "Sumerian cuneiform writing system and Egyptian hieroglyphs",
-        "Source": null,
-        "id": 0
-    },
-    {
-        "year_start": -3200,
-        "year_end": -3200,
-        "date": "c. 3200 BCE",
-        "era": "Ancient & Classical",
-        "event": "Newgrange built in Ireland",
-        "Source": null,
-        "id": 1
-    },
-    {
-        "year_start": -3200,
-        "year_end": -3200,
-        "date": "c. 3200 BCE",
-        "era": "Ancient & Classical",
-        "event": "Cycladic culture in Greece",
-        "Source": null,
-        "id": 2
-    },
-    {
-        "year_start": -3200,
-        "year_end": -3200,
-        "date": "c. 3200 BCE",
-        "era": "Ancient & Classical",
-        "event": "Norte Chico civilization begins in Peru",
-        "Source": null,
-        "id": 3
-    },
-    {
-        "year_start": -3200,
-        "year_end": -3200,
-        "date": "c. 3200 BCE",
-        "era": "Ancient & Classical",
-        "event": "Rise of Proto-Elamite Civilization in Iran",
-        "Source": null,
-        "id": 4
-    },
-    {
-        "year_start": -3150,
-        "year_end": -3150,
-        "date": "c. 3150 BCE",
-        "era": "Ancient & Classical",
-        "event": "First Dynasty of Egypt",
-        "Source": null,
-        "id": 5
-    },
-    {
-        "year_start": -3100,
-        "year_end": -3100,
-        "date": "c. 3100 BCE",
-        "era": "Ancient & Classical",
-        "event": "Skara Brae in Scotland",
-        "Source": null,
-        "id": 6
-    },
-    {
-        "year_start": -3000,
-        "year_end": -3000,
-        "date": "c. 3000 BCE",
-        "era": "Ancient & Classical",
-        "event": "Egyptian calendar",
-        "Source": null,
-        "id": 7
-    },
-    {
-        "year_start": -3000,
-        "year_end": -3000,
-        "date": "c. 3000 BCE",
-        "era": "Ancient & Classical",
-        "event": "Stonehenge construction begins. In its first version, it consisted of a circular ditch and bank, with 56 wooden posts.",
-        "Source": null,
-        "id": 8
-    },
-    {
-        "year_start": -3000,
-        "year_end": -3000,
-        "date": "c. 3000 BCE",
-        "era": "Ancient & Classical",
-        "event": "Cucuteni-Trypillian culture in Romania and Ukraine",
-        "Source": null,
-        "id": 9
-    },
-    {
-        "year_start": -3000,
-        "year_end": -3000,
-        "date": "c. 3000 BCE",
-        "era": "Ancient & Classical",
-        "event": "Jiroft civilization begins in Iran",
-        "Source": null,
-        "id": 10
-    },
-    {
-        "year_start": -3000,
-        "year_end": -3000,
-        "date": "c. 3000 BCE",
-        "era": "Ancient & Classical",
-        "event": "First known use of papyrus by Egyptians",
-        "Source": null,
-        "id": 11
-    },
-    {
-        "year_start": -2800,
-        "year_end": -2800,
-        "date": "c. 2800 BCE",
-        "era": "Ancient & Classical",
-        "event": "Kot Diji phase of the Indus Valley Civilization begins",
-        "Source": null,
-        "id": 12
-    },
-    {
-        "year_start": -2800,
-        "year_end": -2800,
-        "date": "c. 2800 BCE",
-        "era": "Ancient & Classical",
-        "event": "Longshan culture in China",
-        "Source": null,
-        "id": 13
-    },
-    {
-        "year_start": -2700,
-        "year_end": -2700,
-        "date": "c. 2700 BCE",
-        "era": "Ancient & Classical",
-        "event": "Minoan Civilization ancient palace city Knossos reach 80,000",
-        "Source": null,
-        "id": 14
-    },
-    {
-        "year_start": -2700,
-        "year_end": -2700,
-        "date": "c. 2700 BCE",
-        "era": "Ancient & Classical",
-        "event": "Rise of Elam in Iran",
-        "Source": null,
-        "id": 15
-    },
-    {
-        "year_start": -2700,
-        "year_end": -2700,
-        "date": "c. 2700 BCE",
-        "era": "Ancient & Classical",
-        "event": "The Epic of Gilgamesh becomes the first written story",
-        "Source": null,
-        "id": 16
-    },
-    {
-        "year_start": -2700,
-        "year_end": -2700,
-        "date": "c. 2700 BCE",
-        "era": "Ancient & Classical",
-        "event": "The Old Kingdom begins in Egypt",
-        "Source": null,
-        "id": 17
-    },
-    {
-        "year_start": -2600,
-        "year_end": -2600,
-        "date": "c. 2600 BCE",
-        "era": "Ancient & Classical",
-        "event": "Oldest known surviving literature: Sumerian texts from Abu Salabikh, including the Instructions of Shuruppak and the Kesh temple hymn.",
-        "Source": null,
-        "id": 18
-    },
-    {
-        "year_start": -2600,
-        "year_end": -2600,
-        "date": "c. 2600 BCE",
-        "era": "Ancient & Classical",
-        "event": "Mature Harappan phase of the Indus Valley civilization (in present-day Pakistan and India) begins",
-        "Source": null,
-        "id": 19
-    },
-    {
-        "year_start": -2600,
-        "year_end": -2600,
-        "date": "c. 2600 BCE",
-        "era": "Ancient & Classical",
-        "event": "Emergence of Maya culture in the Yucat\u00e1n Peninsula",
-        "Source": null,
-        "id": 20
-    },
-    {
-        "year_start": -2560,
-        "year_end": -2560,
-        "date": "2560 BCE",
-        "era": "Ancient & Classical",
-        "event": "King Khufu completes the Great Pyramid of Giza. The Land of Punt in the Horn of Africa first appears in Egyptian records around this time.",
-        "Source": null,
-        "id": 21
-    },
-    {
-        "year_start": -2500,
-        "year_end": -1500,
-        "date": "2500-1500 BCE",
-        "era": "Ancient & Classical",
-        "event": "Kerma culture in Nubia",
-        "Source": null,
-        "id": 22
-    },
-    {
-        "year_start": -2500,
-        "year_end": -2500,
-        "date": "c. 2500 BCE",
-        "era": "Ancient & Classical",
-        "event": "The mammoth goes extinct.",
-        "Source": null,
-        "id": 23
-    },
-    {
-        "year_start": -2334,
-        "year_end": -2270,
-        "date": "2334 or 2270 BCE",
-        "era": "Ancient & Classical",
-        "event": "Akkadian Empire is founded, dating depends upon whether the Middle chronology or the Short chronology is used.",
-        "Source": null,
-        "id": 24
-    },
-    {
-        "year_start": -2250,
-        "year_end": -2250,
-        "date": "2250 BCE",
-        "era": "Ancient & Classical",
-        "event": "Oldest known depiction of the Staff God, the oldest image of a god to be found in the Americas.",
-        "Source": null,
-        "id": 25
-    },
-    {
-        "year_start": -2200,
-        "year_end": -2100,
-        "date": "2200-2100 BCE",
-        "era": "Ancient & Classical",
-        "event": "The 4.2-kiloyear BP aridification event, which may have caused the collapse of the Old Kingdom in Egypt, the Akkadian Empire in Mesopotamia, and the Liangzhu culture in the Yangtze River area.",
-        "Source": null,
-        "id": 26
-    },
-    {
-        "year_start": -2200,
-        "year_end": -2200,
-        "date": "2200 BCE",
-        "era": "Ancient & Classical",
-        "event": "completion of Stonehenge.",
-        "Source": null,
-        "id": 27
-    },
-    {
-        "year_start": -2055,
-        "year_end": -2055,
-        "date": "2055 BCE",
-        "era": "Ancient & Classical",
-        "event": "The Middle Kingdom begins in Egypt",
-        "Source": null,
-        "id": 28
-    },
-    {
-        "year_start": -2000,
-        "year_end": -2000,
-        "date": "2000 BCE",
-        "era": "Ancient & Classical",
-        "event": "Domestication of the horse",
-        "Source": null,
-        "id": 29
-    },
-    {
-        "year_start": -1900,
-        "year_end": -1900,
-        "date": "1900 BCE",
-        "era": "Ancient & Classical",
-        "event": "Erlitou culture in China",
-        "Source": null,
-        "id": 30
-    },
-    {
-        "year_start": -1800,
-        "year_end": -1800,
-        "date": "1800 BCE",
-        "era": "Ancient & Classical",
-        "event": "alphabetic writing emerges",
-        "Source": null,
-        "id": 31
-    },
-    {
-        "year_start": -1780,
-        "year_end": -1780,
-        "date": "1780 BCE",
-        "era": "Ancient & Classical",
-        "event": "Oldest Record of Hammurabi's Code.",
-        "Source": null,
-        "id": 32
-    },
-    {
-        "year_start": -1700,
-        "year_end": -1700,
-        "date": "1700 BCE",
-        "era": "Ancient & Classical",
-        "event": "Indus Valley Civilization comes to an end but is continued by the Cemetery H culture",
-        "Source": null,
-        "id": 33
-    },
-    {
-        "year_start": -1600,
-        "year_end": -1600,
-        "date": "1600 BCE",
-        "era": "Ancient & Classical",
-        "event": "Minoan civilization on Crete is destroyed by the Minoan eruption of Santorini island.",
-        "Source": null,
-        "id": 34
-    },
-    {
-        "year_start": -1600,
-        "year_end": -1600,
-        "date": "1600 BCE",
-        "era": "Ancient & Classical",
-        "event": "Mycenaean Greece",
-        "Source": null,
-        "id": 35
-    },
-    {
-        "year_start": -1600,
-        "year_end": -1600,
-        "date": "1600 BCE",
-        "era": "Ancient & Classical",
-        "event": "The beginning of Shang Dynasty in China, evidence of a fully developed Chinese writing system",
-        "Source": null,
-        "id": 36
-    },
-    {
-        "year_start": -1600,
-        "year_end": -1600,
-        "date": "1600 BCE",
-        "era": "Ancient & Classical",
-        "event": "Beginning of Hittite dominance of the Eastern Mediterranean region",
-        "Source": null,
-        "id": 37
-    },
-    {
-        "year_start": -1550,
-        "year_end": -1550,
-        "date": "c.1550 BCE",
-        "era": "Ancient & Classical",
-        "event": "The  New Kingdom begins in Egypt",
-        "Source": null,
-        "id": 38
-    },
-    {
-        "year_start": -1500,
-        "year_end": -1500,
-        "date": "1500 BCE",
-        "era": "Ancient & Classical",
-        "event": "Composition of the Rigveda is completed",
-        "Source": null,
-        "id": 39
-    },
-    {
-        "year_start": -1400,
-        "year_end": -1400,
-        "date": "c.1400 BCE",
-        "era": "Ancient & Classical",
-        "event": "Oldest known song with notation",
-        "Source": null,
-        "id": 40
-    },
-    {
-        "year_start": -1400,
-        "year_end": -400,
-        "date": "1400-400 BCE",
-        "era": "Ancient & Classical",
-        "event": "Olmec civilization flourishes in Pre-Columbian Mexico, during Mesoamerica's Formative period",
-        "Source": null,
-        "id": 41
-    },
-    {
-        "year_start": -1200,
-        "year_end": -1200,
-        "date": "1200 BCE",
-        "era": "Ancient & Classical",
-        "event": "The Hallstatt culture",
-        "Source": null,
-        "id": 42
-    },
-    {
-        "year_start": -1200,
-        "year_end": -1150,
-        "date": "1200-1150 BCE",
-        "era": "Ancient & Classical",
-        "event": "Bronze Age collapse in Southwestern Asia and Eastern Mediterranean region. This forms the setting of the Iliad and the Odyssey epic poems which were composed about four centuries later.",
-        "Source": null,
-        "id": 43
-    },
-    {
-        "year_start": -1180,
-        "year_end": -1180,
-        "date": "c. 1180 BCE",
-        "era": "Ancient & Classical",
-        "event": "Disintegration of Hittite Empire",
-        "Source": null,
-        "id": 44
-    },
-    {
-        "year_start": -1100,
-        "year_end": -1100,
-        "date": "1100 BCE",
-        "era": "Ancient & Classical",
-        "event": "Use of Iron spreads.",
-        "Source": null,
-        "id": 45
-    },
-    {
-        "year_start": -1046,
-        "year_end": -1046,
-        "date": "1046 BCE",
-        "era": "Ancient & Classical",
-        "event": "The Zhou force (led by King Wu of Zhou) overthrow the last king of Shang Dynasty",
-        "Source": null,
-        "id": 46
-    },
-    {
-        "year_start": -1000,
-        "year_end": -1000,
-        "date": "1000 BCE",
-        "era": "Ancient & Classical",
-        "event": "Nok culture in West Africa",
-        "Source": null,
-        "id": 47
-    },
-    {
-        "year_start": -1000,
-        "year_end": -1000,
-        "date": "c.1000 BCE",
-        "era": "Ancient & Classical",
-        "event": "King David begins his reign as the second King of Israel, after Saul",
-        "Source": null,
-        "id": 48
-    },
-    {
-        "year_start": -970,
-        "year_end": -970,
-        "date": "970 BCE",
-        "era": "Ancient & Classical",
-        "event": "King Solomon begins his reign as third King of Israel, after David",
-        "Source": null,
-        "id": 49
-    },
-    {
-        "year_start": -890,
-        "year_end": -890,
-        "date": "890 BCE",
-        "era": "Ancient & Classical",
-        "event": "Approximate date for the composition of the Iliad and the Odyssey",
-        "Source": null,
-        "id": 50
-    },
-    {
-        "year_start": -814,
-        "year_end": -814,
-        "date": "814 BCE",
-        "era": "Ancient & Classical",
-        "event": "Foundation of Carthage by the Phoenicians in today known Tunisia",
-        "Source": null,
-        "id": 51
-    },
-    {
-        "year_start": -800,
-        "year_end": -800,
-        "date": "800 BCE",
-        "era": "Ancient & Classical",
-        "event": "Rise of Greek city-states",
-        "Source": null,
-        "id": 52
-    },
-    {
-        "year_start": -788,
-        "year_end": -788,
-        "date": "788 BCE",
-        "era": "Ancient & Classical",
-        "event": "Iron Ancient in Sungai Batu (Old Kedah)",
-        "Source": null,
-        "id": 53
-    },
-    {
-        "year_start": -785,
-        "year_end": -785,
-        "date": "c.785 BCE",
-        "era": "Ancient & Classical",
-        "event": "Rise of the Kingdom of Kush",
-        "Source": null,
-        "id": 54
-    },
-    {
-        "year_start": -776,
-        "year_end": -776,
-        "date": "776 BCE",
-        "era": "Ancient & Classical",
-        "event": "First recorded Ancient Olympic Games.",
-        "Source": null,
-        "id": 55
-    },
-    {
-        "year_start": -753,
-        "year_end": -753,
-        "date": "753 BCE",
-        "era": "Ancient & Classical",
-        "event": "Founding of Rome (traditional date)",
-        "Source": null,
-        "id": 56
-    },
-    {
-        "year_start": -745,
-        "year_end": -745,
-        "date": "745 BCE",
-        "era": "Ancient & Classical",
-        "event": "Tiglath-Pileser III becomes the new king of Assyria. With time he conquers neighboring countries and turns Assyria into an empire.",
-        "Source": null,
-        "id": 57
-    },
-    {
-        "year_start": -728,
-        "year_end": -728,
-        "date": "728 BCE",
-        "era": "Ancient & Classical",
-        "event": "Rise of the Median Empire.",
-        "Source": null,
-        "id": 58
-    },
-    {
-        "year_start": -722,
-        "year_end": -722,
-        "date": "722 BCE",
-        "era": "Ancient & Classical",
-        "event": "Spring and Autumn period begins in China. The era of the Hundred Schools of Thought.",
-        "Source": null,
-        "id": 59
-    },
-    {
-        "year_start": -700,
-        "year_end": -700,
-        "date": "700 BCE",
-        "era": "Ancient & Classical",
-        "event": "The construction of Marib Dam in Arabia Felix.",
-        "Source": null,
-        "id": 60
-    },
-    {
-        "year_start": -660,
-        "year_end": -660,
-        "date": "660 BCE",
-        "era": "Ancient & Classical",
-        "event": "Purported date of the accession of Jimmu, the mythical first Emperor of Japan.",
-        "Source": null,
-        "id": 61
-    },
-    {
-        "year_start": -653,
-        "year_end": -653,
-        "date": "653 BCE",
-        "era": "Ancient & Classical",
-        "event": "Rise of Persian Empire.",
-        "Source": null,
-        "id": 62
-    },
-    {
-        "year_start": -612,
-        "year_end": -612,
-        "date": "612 BCE",
-        "era": "Ancient & Classical",
-        "event": "An alliance between the Babylonians, Medes, and Scythians succeeds in destroying Nineveh and causing subsequent fall of the Assyrian empire.",
-        "Source": null,
-        "id": 63
-    },
-    {
-        "year_start": -600,
-        "year_end": -600,
-        "date": "600 BCE",
-        "era": "Ancient & Classical",
-        "event": "Pandyan kingdom in South India.",
-        "Source": null,
-        "id": 64
-    },
-    {
-        "year_start": -600,
-        "year_end": -600,
-        "date": "600 BCE",
-        "era": "Ancient & Classical",
-        "event": "Sixteen Maha Janapadas ('Great Realms' or 'Great Kingdoms') emerge in India.",
-        "Source": null,
-        "id": 65
-    },
-    {
-        "year_start": -600,
-        "year_end": -600,
-        "date": "600 BCE",
-        "era": "Ancient & Classical",
-        "event": "Evidence of writing system appear in Oaxaca used by the Zapotec civilization.",
-        "Source": null,
-        "id": 66
-    },
-    {
-        "year_start": -600,
-        "year_end": -600,
-        "date": "c. 600 BCE",
-        "era": "Ancient & Classical",
-        "event": "Rise of the Sao civilisation near Lake Chad",
-        "Source": null,
-        "id": 67
-    },
-    {
-        "year_start": -563,
-        "year_end": -563,
-        "date": "563 BCE",
-        "era": "Ancient & Classical",
-        "event": "Siddhartha Gautama (Buddha), founder of Buddhism is born as a prince of the Shakya tribe, which ruled parts of Magadha, one of the Maha Janapadas.",
-        "Source": null,
-        "id": 68
-    },
-    {
-        "year_start": -551,
-        "year_end": -551,
-        "date": "551 BCE",
-        "era": "Ancient & Classical",
-        "event": "Confucius, founder of Confucianism, is born.",
-        "Source": null,
-        "id": 69
-    },
-    {
-        "year_start": -550,
-        "year_end": -550,
-        "date": "550 BCE",
-        "era": "Ancient & Classical",
-        "event": "Foundation of the Persian Empire by Cyrus the Great.",
-        "Source": null,
-        "id": 70
-    },
-    {
-        "year_start": -549,
-        "year_end": -549,
-        "date": "549 BCE",
-        "era": "Ancient & Classical",
-        "event": "Mahavira, founder of Jainism, is born.",
-        "Source": null,
-        "id": 71
-    },
-    {
-        "year_start": -546,
-        "year_end": -546,
-        "date": "546 BCE",
-        "era": "Ancient & Classical",
-        "event": "Cyrus the Great overthrows Croesus King of Lydia.",
-        "Source": null,
-        "id": 72
-    },
-    {
-        "year_start": -544,
-        "year_end": -544,
-        "date": "544 BCE",
-        "era": "Ancient & Classical",
-        "event": "Rise of Magadha as the dominant power under Bimbisara.",
-        "Source": null,
-        "id": 73
-    },
-    {
-        "year_start": -539,
-        "year_end": -539,
-        "date": "539 BCE",
-        "era": "Ancient & Classical",
-        "event": "The fall of the Babylonian Empire and liberation of the Jews by Cyrus the Great.",
-        "Source": null,
-        "id": 74
-    },
-    {
-        "year_start": -529,
-        "year_end": -529,
-        "date": "529 BCE",
-        "era": "Ancient & Classical",
-        "event": "Death of Cyrus",
-        "Source": null,
-        "id": 75
-    },
-    {
-        "year_start": -525,
-        "year_end": -525,
-        "date": "525 BCE",
-        "era": "Ancient & Classical",
-        "event": "Cambyses II of Persia conquers Egypt.",
-        "Source": null,
-        "id": 76
-    },
-    {
-        "year_start": -512,
-        "year_end": -512,
-        "date": "c. 512 BCE",
-        "era": "Ancient & Classical",
-        "event": "Darius I (Darius the Great) of Persia, subjugates eastern Thrace, Macedonia submits voluntarily, and annexes Libya, Persian Empire at largest extent.",
-        "Source": null,
-        "id": 77
-    },
-    {
-        "year_start": -509,
-        "year_end": -509,
-        "date": "509 BCE",
-        "era": "Ancient & Classical",
-        "event": "Expulsion of the last King of Rome, founding of Roman Republic (traditional date).",
-        "Source": null,
-        "id": 78
-    },
-    {
-        "year_start": -508,
-        "year_end": -508,
-        "date": "508 BCE",
-        "era": "Ancient & Classical",
-        "event": "Democracy instituted at Athens",
-        "Source": null,
-        "id": 79
-    },
-    {
-        "year_start": -500,
-        "year_end": -500,
-        "date": "c. 500 BCE",
-        "era": "Ancient & Classical",
-        "event": "Completion  of Euclid's Elements",
-        "Source": null,
-        "id": 80
-    },
-    {
-        "year_start": -500,
-        "year_end": -500,
-        "date": "500 BCE",
-        "era": "Ancient & Classical",
-        "event": "Panini standardizes the grammar and morphology of Sanskrit in the text Ashtadhyayi. Panini's standardized Sanskrit is known as Classical Sanskrit.",
-        "Source": null,
-        "id": 81
-    },
-    {
-        "year_start": -500,
-        "year_end": -500,
-        "date": "500 BCE",
-        "era": "Ancient & Classical",
-        "event": "Pingala uses zero and binary numeral system",
-        "Source": null,
-        "id": 82
-    },
-    {
-        "year_start": -499,
-        "year_end": -499,
-        "date": "499 BCE",
-        "era": "Ancient & Classical",
-        "event": "King Aristagoras of Miletus incites all of Hellenic Asia Minor to rebel against the Persian Empire, beginning the Greco-Persian Wars.",
-        "Source": null,
-        "id": 83
-    },
-    {
-        "year_start": -490,
-        "year_end": -490,
-        "date": "490 BCE",
-        "era": "Ancient & Classical",
-        "event": "Greek city-states defeat Persian invasion at Battle of Marathon",
-        "Source": null,
-        "id": 84
-    },
-    {
-        "year_start": -483,
-        "year_end": -483,
-        "date": "483 BCE",
-        "era": "Ancient & Classical",
-        "event": "Death of Gautama Buddha",
-        "Source": null,
-        "id": 85
-    },
-    {
-        "year_start": -480,
-        "year_end": -480,
-        "date": "480 BCE",
-        "era": "Ancient & Classical",
-        "event": "Persian invasion of Greece by Xerxes",
-        "Source": null,
-        "id": 86
-    },
-    {
-        "year_start": -479,
-        "year_end": -479,
-        "date": "479 BCE",
-        "era": "Ancient & Classical",
-        "event": "Death of Confucius",
-        "Source": null,
-        "id": 87
-    },
-    {
-        "year_start": -475,
-        "year_end": -475,
-        "date": "475 BCE",
-        "era": "Ancient & Classical",
-        "event": "Warring States period begins in China as the Zhou king became a mere figurehead",
-        "Source": null,
-        "id": 88
-    },
-    {
-        "year_start": -470,
-        "year_end": -469,
-        "date": "470/469 BCE",
-        "era": "Ancient & Classical",
-        "event": "Birth of Socrates",
-        "Source": null,
-        "id": 89
-    },
-    {
-        "year_start": -465,
-        "year_end": -465,
-        "date": "465 BCE",
-        "era": "Ancient & Classical",
-        "event": "Murder of Xerxes",
-        "Source": null,
-        "id": 90
-    },
-    {
-        "year_start": -460,
-        "year_end": -460,
-        "date": "460 BCE",
-        "era": "Ancient & Classical",
-        "event": "Birth of Democritus",
-        "Source": null,
-        "id": 91
-    },
-    {
-        "year_start": -458,
-        "year_end": -458,
-        "date": "458 BCE",
-        "era": "Ancient & Classical",
-        "event": "The Oresteia by Aeschylus, the only surviving trilogy of ancient Greek plays, is performed.",
-        "Source": null,
-        "id": 92
-    },
-    {
-        "year_start": -449,
-        "year_end": -449,
-        "date": "449 BCE",
-        "era": "Ancient & Classical",
-        "event": "The Greco-Persian Wars end.",
-        "Source": null,
-        "id": 93
-    },
-    {
-        "year_start": -447,
-        "year_end": -447,
-        "date": "447 BCE",
-        "era": "Ancient & Classical",
-        "event": "Building of the Parthenon at Athens started",
-        "Source": null,
-        "id": 94
-    },
-    {
-        "year_start": -432,
-        "year_end": -432,
-        "date": "432 BCE",
-        "era": "Ancient & Classical",
-        "event": "Construction of the Parthenon is completed",
-        "Source": null,
-        "id": 95
-    },
-    {
-        "year_start": -431,
-        "year_end": -431,
-        "date": "431 BCE",
-        "era": "Ancient & Classical",
-        "event": "Beginning of the Peloponnesian war between the Greek city-states",
-        "Source": null,
-        "id": 96
-    },
-    {
-        "year_start": -429,
-        "year_end": -429,
-        "date": "429 BCE",
-        "era": "Ancient & Classical",
-        "event": "Sophocles's play Oedipus Rex is first performed",
-        "Source": null,
-        "id": 97
-    },
-    {
-        "year_start": -427,
-        "year_end": -427,
-        "date": "427 BCE",
-        "era": "Ancient & Classical",
-        "event": "Birth of Plato",
-        "Source": null,
-        "id": 98
-    },
-    {
-        "year_start": -424,
-        "year_end": -424,
-        "date": "424 BCE",
-        "era": "Ancient & Classical",
-        "event": "Nanda dynasty comes to power.",
-        "Source": null,
-        "id": 99
-    },
-    {
-        "year_start": -404,
-        "year_end": -404,
-        "date": "404 BCE",
-        "era": "Ancient & Classical",
-        "event": "End of the Peloponnesian War",
-        "Source": null,
-        "id": 100
-    },
-    {
-        "year_start": -400,
-        "year_end": -400,
-        "date": "400 BCE",
-        "era": "Ancient & Classical",
-        "event": "Zapotec culture flourishes around city of Monte Alb\u00e1n",
-        "Source": null,
-        "id": 101
-    },
-    {
-        "year_start": -400,
-        "year_end": -400,
-        "date": "c. 400 BCE",
-        "era": "Ancient & Classical",
-        "event": "Rise of the Garamantes as an irrigation-based desert state in the Fezzan region of Libya",
-        "Source": null,
-        "id": 102
-    },
-    {
-        "year_start": -399,
-        "year_end": -399,
-        "date": "399 BCE",
-        "era": "Ancient & Classical",
-        "event": "Death of Socrates",
-        "Source": null,
-        "id": 103
-    },
-    {
-        "year_start": -384,
-        "year_end": -384,
-        "date": "384 BCE",
-        "era": "Ancient & Classical",
-        "event": "Birth of Aristotle",
-        "Source": null,
-        "id": 104
-    },
-    {
-        "year_start": -370,
-        "year_end": -370,
-        "date": "370 BCE",
-        "era": "Ancient & Classical",
-        "event": "Death of Democritus",
-        "Source": null,
-        "id": 105
-    },
-    {
-        "year_start": -331,
-        "year_end": -331,
-        "date": "331 BCE",
-        "era": "Ancient & Classical",
-        "event": "Alexander the Great defeats Darius III of Persia in the Battle of Gaugamela, completing his conquest of Persia.",
-        "Source": null,
-        "id": 106
-    },
-    {
-        "year_start": -326,
-        "year_end": -326,
-        "date": "326 BCE",
-        "era": "Ancient & Classical",
-        "event": "Alexander the Great defeats Indian king Porus in the Battle of the Hydaspes River.",
-        "Source": null,
-        "id": 107
-    },
-    {
-        "year_start": -323,
-        "year_end": -323,
-        "date": "323 BCE",
-        "era": "Ancient & Classical",
-        "event": "Death of Alexander the Great at Babylon.",
-        "Source": null,
-        "id": 108
-    },
-    {
-        "year_start": -322,
-        "year_end": -322,
-        "date": "322 BCE",
-        "era": "Ancient & Classical",
-        "event": "Death of Aristotle",
-        "Source": null,
-        "id": 109
-    },
-    {
-        "year_start": -321,
-        "year_end": -321,
-        "date": "321 BCE",
-        "era": "Ancient & Classical",
-        "event": "Chandragupta Maurya overthrows the Nanda Dynasty of Magadha.",
-        "Source": null,
-        "id": 110
-    },
-    {
-        "year_start": -305,
-        "year_end": -305,
-        "date": "305 BCE",
-        "era": "Ancient & Classical",
-        "event": "Chandragupta Maurya seizes the satrapies of Paropanisadai (Kabul), Aria (Herat), Arachosia (Qanadahar) and Gedrosia (Baluchistan) from Seleucus I Nicator, in return for 500 elephants.",
-        "Source": null,
-        "id": 111
-    },
-    {
-        "year_start": -300,
-        "year_end": -300,
-        "date": "300 BCE",
-        "era": "Ancient & Classical",
-        "event": "Sangam literature period in the history of ancient southern India (known as the Tamilakam)",
-        "Source": null,
-        "id": 112
-    },
-    {
-        "year_start": -300,
-        "year_end": -300,
-        "date": "300 BCE",
-        "era": "Ancient & Classical",
-        "event": "Chola Empire in South India",
-        "Source": null,
-        "id": 113
-    },
-    {
-        "year_start": -300,
-        "year_end": -300,
-        "date": "300 BCE",
-        "era": "Ancient & Classical",
-        "event": "Construction of the Great Pyramid of Cholula, the world's largest pyramid by volume (despite the Great Pyramid of Giza being taller) begins in Cholula, Puebla, Mexico.",
-        "Source": null,
-        "id": 114
-    },
-    {
-        "year_start": -273,
-        "year_end": -273,
-        "date": "273 BCE",
-        "era": "Ancient & Classical",
-        "event": "Ashoka becomes the emperor of the Mauryan Empire",
-        "Source": null,
-        "id": 115
-    },
-    {
-        "year_start": -261,
-        "year_end": -261,
-        "date": "261 BCE",
-        "era": "Ancient & Classical",
-        "event": "Kalinga war",
-        "Source": null,
-        "id": 116
-    },
-    {
-        "year_start": -257,
-        "year_end": -257,
-        "date": "257 BCE",
-        "era": "Ancient & Classical",
-        "event": "Th\u1ee5c Dynasty takes over Vi\u1ec7t Nam (then Kingdom of \u00c2u L\u1ea1c)",
-        "Source": null,
-        "id": 117
-    },
-    {
-        "year_start": -255,
-        "year_end": -255,
-        "date": "255 BCE",
-        "era": "Ancient & Classical",
-        "event": "Ashoka sends a Buddhist missionary led by his son who was Mahinda Thero (Buddhist monk) to Sri Lanka (then Lanka) Mahinda (Buddhist monk)",
-        "Source": null,
-        "id": 118
-    },
-    {
-        "year_start": -250,
-        "year_end": -250,
-        "date": "250 BCE",
-        "era": "Ancient & Classical",
-        "event": "Rise of Parthia (Ashk\u00e2ni\u00e2n), the second native dynasty of ancient Persia",
-        "Source": null,
-        "id": 119
-    },
-    {
-        "year_start": -232,
-        "year_end": -232,
-        "date": "232 BCE",
-        "era": "Ancient & Classical",
-        "event": "Death of Emperor Ashoka",
-        "Source": null,
-        "id": 120
-    },
-    {
-        "year_start": -230,
-        "year_end": -230,
-        "date": "230 BCE",
-        "era": "Ancient & Classical",
-        "event": "Emergence of Satavahanas in South India",
-        "Source": null,
-        "id": 121
-    },
-    {
-        "year_start": -221,
-        "year_end": -221,
-        "date": "221 BCE",
-        "era": "Ancient & Classical",
-        "event": "Qin Shi Huang unifies China, end of Warring States period; marking the beginning of Imperial rule in China which lasts until .. Construction of the Great Wall by the Qin Dynasty begins.",
-        "Source": null,
-        "id": 122
-    },
-    {
-        "year_start": -207,
-        "year_end": -207,
-        "date": "207 BCE",
-        "era": "Ancient & Classical",
-        "event": "Kingdom of Nan Yueh extends from Canton to North Vi\u1ec7t Nam .",
-        "Source": null,
-        "id": 123
-    },
-    {
-        "year_start": -206,
-        "year_end": -206,
-        "date": "206 BCE",
-        "era": "Ancient & Classical",
-        "event": "Han Dynasty established in China, after the death of Qin Shi Huang; China in this period officially becomes a Confucian state and opens trading connections with the West, i.e. the Silk Road.",
-        "Source": null,
-        "id": 124
-    },
-    {
-        "year_start": -202,
-        "year_end": -202,
-        "date": "202 BCE",
-        "era": "Ancient & Classical",
-        "event": "Scipio Africanus defeats Hannibal at Battle of Zama.",
-        "Source": null,
-        "id": 125
-    },
-    {
-        "year_start": -200,
-        "year_end": -200,
-        "date": "200 BCE",
-        "era": "Ancient & Classical",
-        "event": "El Mirador, largest early Maya city, flourishes.",
-        "Source": null,
-        "id": 126
-    },
-    {
-        "year_start": -200,
-        "year_end": -200,
-        "date": "200 BCE",
-        "era": "Ancient & Classical",
-        "event": "Paper is invented in China.",
-        "Source": null,
-        "id": 127
-    },
-    {
-        "year_start": -200,
-        "year_end": -200,
-        "date": "c. 200 BCE",
-        "era": "Ancient & Classical",
-        "event": "Chera dynasty in South India.",
-        "Source": null,
-        "id": 128
-    },
-    {
-        "year_start": -185,
-        "year_end": -185,
-        "date": "185 BCE",
-        "era": "Ancient & Classical",
-        "event": "Shunga Empire founded.",
-        "Source": null,
-        "id": 129
-    },
-    {
-        "year_start": -149,
-        "year_end": -146,
-        "date": "149-146 BCE",
-        "era": "Ancient & Classical",
-        "event": "Third Punic War between Rome and Carthage. War ends with the complete destruction of Carthage, allowing Rome to conquer modern day Tunisia and Libya.",
-        "Source": null,
-        "id": 130
-    },
-    {
-        "year_start": -146,
-        "year_end": -146,
-        "date": "146 BCE",
-        "era": "Ancient & Classical",
-        "event": "Roman conquest of Greece, see Roman Greece",
-        "Source": null,
-        "id": 131
-    },
-    {
-        "year_start": -121,
-        "year_end": -121,
-        "date": "121 BCE",
-        "era": "Ancient & Classical",
-        "event": "Roman armies enter Gaul for the first time.",
-        "Source": null,
-        "id": 132
-    },
-    {
-        "year_start": -111,
-        "year_end": -111,
-        "date": "111 BCE",
-        "era": "Ancient & Classical",
-        "event": "First Chinese domination of Vi\u1ec7t Nam in the form of the Nanyue Kingdom.",
-        "Source": null,
-        "id": 133
-    },
-    {
-        "year_start": -100,
-        "year_end": -100,
-        "date": "c. 100 BCE",
-        "era": "Ancient & Classical",
-        "event": "Chola dynasty rises in prominence.",
-        "Source": null,
-        "id": 134
-    },
-    {
-        "year_start": -82,
-        "year_end": -82,
-        "date": "c. 82 BCE",
-        "era": "Ancient & Classical",
-        "event": "Burebista becomes the king of Dacia.",
-        "Source": null,
-        "id": 135
-    },
-    {
-        "year_start": -80,
-        "year_end": -80,
-        "date": "80 BCE",
-        "era": "Ancient & Classical",
-        "event": "The city of Florence is founded.",
-        "Source": null,
-        "id": 136
-    },
-    {
-        "year_start": -60,
-        "year_end": -44,
-        "date": "c. 60-44 BCE",
-        "era": "Ancient & Classical",
-        "event": "Burebista conquers territories from south Germany to Thrace,reaching the coast of the Aegean sea.",
-        "Source": null,
-        "id": 137
-    },
-    {
-        "year_start": -49,
-        "year_end": -49,
-        "date": "49 BCE",
-        "era": "Ancient & Classical",
-        "event": "Roman Civil War between Julius Caesar and Pompey the Great.",
-        "Source": null,
-        "id": 138
-    },
-    {
-        "year_start": -44,
-        "year_end": -44,
-        "date": "44 BCE",
-        "era": "Ancient & Classical",
-        "event": "Julius Caesar murdered by Marcus Brutus and others",
-        "Source": null,
-        "id": 139
-    },
-    {
-        "year_start": -44,
-        "year_end": -44,
-        "date": "44 BCE",
-        "era": "Ancient & Classical",
-        "event": "Burebista is assassinated in the same year like Julius Caesar and his empire brokes in . and later . kingdoms in modern-day Romania.",
-        "Source": null,
-        "id": 140
-    },
-    {
-        "year_start": -40,
-        "year_end": -40,
-        "date": "40 BCE",
-        "era": "Ancient & Classical",
-        "event": "Roman conquest of Egypt.",
-        "Source": null,
-        "id": 141
-    },
-    {
-        "year_start": -30,
-        "year_end": -30,
-        "date": "30 BCE",
-        "era": "Ancient & Classical",
-        "event": "Cleopatra ends her reign as the last active ruler of the Ptolemaic Kingdom of Egypt",
-        "Source": null,
-        "id": 142
-    },
-    {
-        "year_start": -27,
-        "year_end": -27,
-        "date": "27 BCE",
-        "era": "Ancient & Classical",
-        "event": "Formation of Roman Empire:  Octavius is given titles of Princeps and Augustus by Roman Senate - beginning of Pax Romana. Formation of influential Praetorian Guard to provide security to Emperor",
-        "Source": null,
-        "id": 143
-    },
-    {
-        "year_start": -18,
-        "year_end": -18,
-        "date": "18 BCE",
-        "era": "Ancient & Classical",
-        "event": "Three Kingdoms period begins in Korea. The temple of Jerusalem is reconstructed.",
-        "Source": null,
-        "id": 144
-    },
-    {
-        "year_start": -6,
-        "year_end": -6,
-        "date": "6 BCE",
-        "era": "Ancient & Classical",
-        "event": "Earliest theorized date for birth of Jesus of Nazareth. Roman succession:  Gaius Caesar and Lucius Caesar groomed for the throne.",
-        "Source": null,
-        "id": 145
-    },
-    {
-        "year_start": -4,
-        "year_end": -4,
-        "date": "4 BCE",
-        "era": "Ancient & Classical",
-        "event": "Widely accepted date (Ussher) for birth of Jesus Christ.",
-        "Source": null,
-        "id": 146
-    },
-    {
-        "year_start": 9,
-        "year_end": 9,
-        "date": "9",
-        "era": "Ancient & Classical",
-        "event": "Battle of the Teutoburg Forest, the Imperial Roman Army's bloodiest defeat.",
-        "Source": null,
-        "id": 147
-    },
-    {
-        "year_start": 14,
-        "year_end": 14,
-        "date": "14",
-        "era": "Ancient & Classical",
-        "event": "Death of Emperor Augustus (Octavian), ascension of his adopted son Tiberius to the throne.",
-        "Source": null,
-        "id": 148
-    },
-    {
-        "year_start": 26,
-        "year_end": 34,
-        "date": "26-34",
-        "era": "Ancient & Classical",
-        "event": "Crucifixion of Jesus Christ, exact date unknown.",
-        "Source": null,
-        "id": 149
-    },
-    {
-        "year_start": 37,
-        "year_end": 37,
-        "date": "37",
-        "era": "Ancient & Classical",
-        "event": "Death of Emperor Tiberius, ascension of his nephew Caligula to the throne.",
-        "Source": null,
-        "id": 150
-    },
-    {
-        "year_start": 40,
-        "year_end": 40,
-        "date": "40",
-        "era": "Ancient & Classical",
-        "event": "Rome conquers Morocco.",
-        "Source": null,
-        "id": 151
-    },
-    {
-        "year_start": 41,
-        "year_end": 41,
-        "date": "41",
-        "era": "Ancient & Classical",
-        "event": "Emperor Caligula is assassinated by the Roman senate. His uncle Claudius succeeds him.",
-        "Source": null,
-        "id": 152
-    },
-    {
-        "year_start": 43,
-        "year_end": 43,
-        "date": "43",
-        "era": "Ancient & Classical",
-        "event": "Rome enters Britain for the first time.",
-        "Source": null,
-        "id": 153
-    },
-    {
-        "year_start": 54,
-        "year_end": 54,
-        "date": "54",
-        "era": "Ancient & Classical",
-        "event": "Emperor Claudius dies and is succeeded by his grand nephew Nero.",
-        "Source": null,
-        "id": 154
-    },
-    {
-        "year_start": 68,
-        "year_end": 68,
-        "date": "68",
-        "era": "Ancient & Classical",
-        "event": "Emperor Nero commits suicide, prompting the Year of the four emperors in Rome.",
-        "Source": null,
-        "id": 155
-    },
-    {
-        "year_start": 70,
-        "year_end": 70,
-        "date": "70",
-        "era": "Ancient & Classical",
-        "event": "Destruction of Jerusalem by the armies of Titus.",
-        "Source": null,
-        "id": 156
-    },
-    {
-        "year_start": 79,
-        "year_end": 79,
-        "date": "79",
-        "era": "Ancient & Classical",
-        "event": "Destruction of Pompeii by the volcano Vesuvius.",
-        "Source": null,
-        "id": 157
-    },
-    {
-        "year_start": 98,
-        "year_end": 98,
-        "date": "98",
-        "era": "Ancient & Classical",
-        "event": "After a two-year rule, Emperor Nerva dies of natural causes, his adopted son Trajan succeeds him.",
-        "Source": null,
-        "id": 158
-    },
-    {
-        "year_start": 100,
-        "year_end": 940,
-        "date": "100-940",
-        "era": "Ancient & Classical",
-        "event": "Kingdom of Aksum in the Horn of Africa",
-        "Source": null,
-        "id": 159
-    },
-    {
-        "year_start": 106,
-        "year_end": 117,
-        "date": "106-117",
-        "era": "Ancient & Classical",
-        "event": "Roman Empire at largest extent under Emperor Trajan after having conquered modern-day Romania, Iraq and Armenia.",
-        "Source": null,
-        "id": 160
-    },
-    {
-        "year_start": 117,
-        "year_end": 117,
-        "date": "117",
-        "era": "Ancient & Classical",
-        "event": "Trajan dies of natural causes. His adopted son Hadrian succeeds him. Hadrian pulls out of Iraq and Armenia.",
-        "Source": null,
-        "id": 161
-    },
-    {
-        "year_start": 126,
-        "year_end": 126,
-        "date": "126",
-        "era": "Ancient & Classical",
-        "event": "Hadrian completes the Pantheon in Rome.",
-        "Source": null,
-        "id": 162
-    },
-    {
-        "year_start": 138,
-        "year_end": 138,
-        "date": "138",
-        "era": "Ancient & Classical",
-        "event": "Hadrian dies of natural causes. His adopted son Antoninus Pius succeeds him.",
-        "Source": null,
-        "id": 163
-    },
-    {
-        "year_start": 161,
-        "year_end": 161,
-        "date": "161",
-        "era": "Ancient & Classical",
-        "event": "Death of Antoninus Pius. His rule was the only one in which Rome did not fight in a war.",
-        "Source": null,
-        "id": 164
-    },
-    {
-        "year_start": 161,
-        "year_end": 161,
-        "date": "161",
-        "era": "Ancient & Classical",
-        "event": "Marcus Aurelius becomes emperor of the Roman Empire. He is often ranked by historians as one of the greatest roman emperors.",
-        "Source": null,
-        "id": 165
-    },
-    {
-        "year_start": 180,
-        "year_end": 180,
-        "date": "180",
-        "era": "Ancient & Classical",
-        "event": "Reign of Marcus Aurelius officially ends.",
-        "Source": null,
-        "id": 166
-    },
-    {
-        "year_start": 180,
-        "year_end": 181,
-        "date": "180 - 181",
-        "era": "Ancient & Classical",
-        "event": "Commodus becomes Roman Emperor.",
-        "Source": null,
-        "id": 167
-    },
-    {
-        "year_start": 192,
-        "year_end": 192,
-        "date": "192",
-        "era": "Ancient & Classical",
-        "event": "Kingdom of Champa in Central Vi\u1ec7t Nam.",
-        "Source": null,
-        "id": 168
-    },
-    {
-        "year_start": 200,
-        "year_end": 200,
-        "date": "200s",
-        "era": "Ancient & Classical",
-        "event": "The Buddhist Srivijaya Empire established in Maritime Southeast Asia.",
-        "Source": null,
-        "id": 169
-    },
-    {
-        "year_start": 220,
-        "year_end": 220,
-        "date": "220",
-        "era": "Ancient & Classical",
-        "event": "Three Kingdoms period begins in China after the fall of Han Dynasty.",
-        "Source": null,
-        "id": 170
-    },
-    {
-        "year_start": 226,
-        "year_end": 226,
-        "date": "226",
-        "era": "Ancient & Classical",
-        "event": "Fall of the Parthian Empire and Rise of the Sassanian Empire.",
-        "Source": null,
-        "id": 171
-    },
-    {
-        "year_start": 337,
-        "year_end": 361,
-        "date": "337-361",
-        "era": "Ancient & Classical",
-        "event": "Perso-Roman wars between the Roman Empire and the Sasanian Empire.",
-        "Source": null,
-        "id": 172
-    },
-    {
-        "year_start": 280,
-        "year_end": 280,
-        "date": "280",
-        "era": "Ancient & Classical",
-        "event": "Emperor Wu established Jin Dynasty providing a temporary unity of China after the devastating Three Kingdoms period.",
-        "Source": null,
-        "id": 173
-    },
-    {
-        "year_start": 285,
-        "year_end": 285,
-        "date": "285",
-        "era": "Ancient & Classical",
-        "event": "Diocletian becomes emperor of Rome and splits the Roman Empire into Eastern and Western Empires.",
-        "Source": null,
-        "id": 174
-    },
-    {
-        "year_start": 285,
-        "year_end": 285,
-        "date": "285",
-        "era": "Ancient & Classical",
-        "event": "Diocletian begins a large-scale persecution of Christians.",
-        "Source": null,
-        "id": 175
-    },
-    {
-        "year_start": 292,
-        "year_end": 292,
-        "date": "292",
-        "era": "Ancient & Classical",
-        "event": "The capital of the Roman empire is officially moved from Rome to Mediolanum (modern day Milan).",
-        "Source": null,
-        "id": 176
-    },
-    {
-        "year_start": 301,
-        "year_end": 301,
-        "date": "301",
-        "era": "Ancient & Classical",
-        "event": "Diocletian's edict on prices",
-        "Source": null,
-        "id": 177
-    },
-    {
-        "year_start": 313,
-        "year_end": 313,
-        "date": "313",
-        "era": "Ancient & Classical",
-        "event": "Edict of Milan declared that the Roman Empire would tolerate all forms of religious worship.",
-        "Source": null,
-        "id": 178
-    },
-    {
-        "year_start": 325,
-        "year_end": 325,
-        "date": "325",
-        "era": "Ancient & Classical",
-        "event": "Constantine I organizes the First Council of Nicaea.",
-        "Source": null,
-        "id": 179
-    },
-    {
-        "year_start": 330,
-        "year_end": 330,
-        "date": "330",
-        "era": "Ancient & Classical",
-        "event": "Constantinople is officially named and becomes the capital of the eastern Roman Empire.",
-        "Source": null,
-        "id": 180
-    },
-    {
-        "year_start": 335,
-        "year_end": 335,
-        "date": "335",
-        "era": "Ancient & Classical",
-        "event": "Samudragupta becomes the emperor of the Gupta empire.",
-        "Source": null,
-        "id": 181
-    },
-    {
-        "year_start": 337,
-        "year_end": 337,
-        "date": "337",
-        "era": "Ancient & Classical",
-        "event": "Emperor Constantine I dies, leaving his sons Constantius II, Constans I, and Constantine II as the emperors of the Roman empire.",
-        "Source": null,
-        "id": 182
-    },
-    {
-        "year_start": 350,
-        "year_end": 350,
-        "date": "350",
-        "era": "Ancient & Classical",
-        "event": "Constantius II is left sole emperor with the death of his two brothers.",
-        "Source": null,
-        "id": 183
-    },
-    {
-        "year_start": 354,
-        "year_end": 354,
-        "date": "354",
-        "era": "Ancient & Classical",
-        "event": "Birth of Augustine of Hippo",
-        "Source": null,
-        "id": 184
-    },
-    {
-        "year_start": 361,
-        "year_end": 361,
-        "date": "361",
-        "era": "Ancient & Classical",
-        "event": "Constantius II dies, his cousin Julian succeeds him.",
-        "Source": null,
-        "id": 185
-    },
-    {
-        "year_start": 378,
-        "year_end": 378,
-        "date": "378",
-        "era": "Ancient & Classical",
-        "event": "Battle of Adrianople, Roman army is defeated by the Germanic tribes.",
-        "Source": null,
-        "id": 186
-    },
-    {
-        "year_start": 380,
-        "year_end": 380,
-        "date": "380",
-        "era": "Ancient & Classical",
-        "event": "Roman Emperor Theodosius I declares the Arian faith of Christianity heretical.",
-        "Source": null,
-        "id": 187
-    },
-    {
-        "year_start": 395,
-        "year_end": 395,
-        "date": "395",
-        "era": "Ancient & Classical",
-        "event": "Theodosius I outlaws all religions other than Catholic Christianity.",
-        "Source": null,
-        "id": 188
-    },
-    {
-        "year_start": 406,
-        "year_end": 406,
-        "date": "406",
-        "era": "Ancient & Classical",
-        "event": "Romans are expelled from Britain.",
-        "Source": null,
-        "id": 189
-    },
-    {
-        "year_start": 407,
-        "year_end": 409,
-        "date": "407-409",
-        "era": "Ancient & Classical",
-        "event": "Visigoths and other Germanic tribes cross into Roman-Gaul for the first time.",
-        "Source": null,
-        "id": 190
-    },
-    {
-        "year_start": 410,
-        "year_end": 410,
-        "date": "410",
-        "era": "Ancient & Classical",
-        "event": "Visigoths sacks Rome for the first time since ..",
-        "Source": null,
-        "id": 191
-    },
-    {
-        "year_start": 415,
-        "year_end": 415,
-        "date": "415",
-        "era": "Ancient & Classical",
-        "event": "Germanic tribes enter Spain.",
-        "Source": null,
-        "id": 192
-    },
-    {
-        "year_start": 429,
-        "year_end": 429,
-        "date": "429",
-        "era": "Ancient & Classical",
-        "event": "Vandals enter North Africa from Spain for the first time",
-        "Source": null,
-        "id": 193
-    },
-    {
-        "year_start": 439,
-        "year_end": 439,
-        "date": "439",
-        "era": "Ancient & Classical",
-        "event": "Vandals have conquered the land stretching from Morocco to Tunisia by this time.",
-        "Source": null,
-        "id": 194
-    },
-    {
-        "year_start": 455,
-        "year_end": 455,
-        "date": "455",
-        "era": "Ancient & Classical",
-        "event": "Vandals sack Rome, capture Sicily and Sardinia.",
-        "Source": null,
-        "id": 195
-    },
-    {
-        "year_start": 455,
-        "year_end": 455,
-        "date": "c. 455",
-        "era": "Ancient & Classical",
-        "event": "Skandagupta repels an Indo-Hephthalite attack on India.",
-        "Source": null,
-        "id": 196
-    },
-    {
-        "year_start": 476,
-        "year_end": 476,
-        "date": "476",
-        "era": "Ancient & Classical",
-        "event": "Romulus Augustus, last Western Roman Emperor is forced to abdicate by Odoacer, a chieftain of the Germanic Heruli",
-        "Source": null,
-        "id": 197
-    },
-    {
-        "year_start": 400,
-        "year_end": 400,
-        "date": "c. 400 ",
-        "era": "Medieval",
-        "event": "Highland Maya fall to the lowland city of Teotihuacan. Begins the decline of Maya culture and language in some parts of the highlands. ",
-        "Source": null,
-        "id": 198
-    },
-    {
-        "year_start": 405,
-        "year_end": 405,
-        "date": "405",
-        "era": "Medieval",
-        "event": "St. Jerome finished the Vulgate. The Christian Gospel is translated into Latin. ",
-        "Source": null,
-        "id": 199
-    },
-    {
-        "year_start": 410,
-        "year_end": 410,
-        "date": "410 August 24",
-        "era": "Medieval",
-        "event": "Rome is sacked by Alaric, King of the Visigoths. Decisive event in the decline of the Western Roman Empire. ",
-        "Source": null,
-        "id": 200
-    },
-    {
-        "year_start": 431,
-        "year_end": 431,
-        "date": "431 June 22 \u2013 July 31",
-        "era": "Medieval",
-        "event": "The Council of Ephesus confirmed the original Nicene Creed, and condemned the teachings of Nestorius, Patriarch of Constantinople, that led to his exile and separation with the Church of the East. ",
-        "Source": null,
-        "id": 201
-    },
-    {
-        "year_start": 455,
-        "year_end": 455,
-        "date": "455 June 2",
-        "era": "Medieval",
-        "event": "Rome is sacked by Genseric, King of the Vandals. Another decisive event in the Fall of Rome and held by some historians to mark the `end of the Roman Empire`",
-        "Source": null,
-        "id": 202
-    },
-    {
-        "year_start": 476,
-        "year_end": 476,
-        "date": "476 September 4",
-        "era": "Medieval",
-        "event": "Odoacer deposes the Roman Emperor Romulus Augustulus. Considered by some historians to be the starting point of the Middle Ages.",
-        "Source": null,
-        "id": 203
-    },
-    {
-        "year_start": 480,
-        "year_end": 480,
-        "date": "480 April 25",
-        "era": "Medieval",
-        "event": "Death of Julius Nepos, last Roman Emperor to be recognized as such by the Roman Senate and the Eastern court. Considered by some historians to be the starting point of the Middle Ages.",
-        "Source": null,
-        "id": 204
-    },
-    {
-        "year_start": 500,
-        "year_end": 500,
-        "date": "c. 500 ",
-        "era": "Medieval",
-        "event": "Tikal becomes the first great Maya city. Significant cultural exchange between the Maya of Tikal and the citizens of Teotihuacan.",
-        "Source": null,
-        "id": 205
-    },
-    {
-        "year_start": 500,
-        "year_end": 500,
-        "date": "c. 500 ",
-        "era": "Medieval",
-        "event": "Battle of Mons Badonicus. The West Saxon advance is halted by Britons in England. Chiefly known today for the supposed involvement of King Arthur but information is very limited.",
-        "Source": null,
-        "id": 206
-    },
-    {
-        "year_start": 507,
-        "year_end": 507,
-        "date": "507 Spring",
-        "era": "Medieval",
-        "event": "The Franks under Clovis defeat the Visigoths in the Battle of Vouill\u00e9. The Visigoths retreated into Spain. ",
-        "Source": null,
-        "id": 207
-    },
-    {
-        "year_start": 524,
-        "year_end": 524,
-        "date": "c. 524 ",
-        "era": "Medieval",
-        "event": "Boethius writes his Consolation of Philosophy. It has been described as the single most important and influential work in the West on Medieval and early Renaissance Christianity. ",
-        "Source": null,
-        "id": 208
-    },
-    {
-        "year_start": 525,
-        "year_end": 525,
-        "date": "525",
-        "era": "Medieval",
-        "event": "Dionysius Exiguus publishes the Dionysius Exiguus' Easter table. This initiated the Anno Domini era, used for the Gregorian and Julian calendars. ",
-        "Source": null,
-        "id": 209
-    },
-    {
-        "year_start": 527,
-        "year_end": 527,
-        "date": "527 August 1",
-        "era": "Medieval",
-        "event": "Justinian I becomes Eastern Roman Emperor. Justinian is best remembered for his Code of Civil Law and expansion of imperial territory retaking Rome from the Ostrogoths. ",
-        "Source": null,
-        "id": 210
-    },
-    {
-        "year_start": 529,
-        "year_end": 529,
-        "date": "529\u2013534 ",
-        "era": "Medieval",
-        "event": "Justinian I publishes the Code of Civil Law. This compiled centuries of legal writings and imperial pronouncements into three parts of one body of law.",
-        "Source": null,
-        "id": 211
-    },
-    {
-        "year_start": 529,
-        "year_end": 529,
-        "date": "529",
-        "era": "Medieval",
-        "event": "Benedict of Nursia founds monastery at Monte Cassino. The first of twelve monasteries founded by Saint Benedict, beginning the Order of Saint Benedict.",
-        "Source": null,
-        "id": 212
-    },
-    {
-        "year_start": 532,
-        "year_end": 532,
-        "date": "532 January 1",
-        "era": "Medieval",
-        "event": "Nika riots in Constantinople. Nearly half the city is burned down or destroyed and tens of thousands of people are killed.",
-        "Source": null,
-        "id": 213
-    },
-    {
-        "year_start": 533,
-        "year_end": 533,
-        "date": "533 December 15",
-        "era": "Medieval",
-        "event": "Byzantines, under Belisarius, retake North Africa from the Vandals. Vandal kingdom ends and the Reconquest of North Africa is completed. ",
-        "Source": null,
-        "id": 214
-    },
-    {
-        "year_start": 535,
-        "year_end": 535,
-        "date": "535\u2013554 ",
-        "era": "Medieval",
-        "event": "Gothic War in Italy as a part of Justinian's Reconquest. Byzantines retook Italy but crippled the Byzantine economy and left Italy unable to cope against the oncoming Lombards.",
-        "Source": null,
-        "id": 215
-    },
-    {
-        "year_start": 563,
-        "year_end": 563,
-        "date": "563",
-        "era": "Medieval",
-        "event": "Saint Columba founds mission in Iona. Constructed an abbey which helped convert the Picts to Christianity until it was destroyed and raided by the Vikings in 794.",
-        "Source": null,
-        "id": 216
-    },
-    {
-        "year_start": 568,
-        "year_end": 568,
-        "date": "568",
-        "era": "Medieval",
-        "event": "The Kingdom of the Lombards is founded in Italy. Survived in Italy until the invasion of the Franks under Charlemagne. ",
-        "Source": null,
-        "id": 217
-    },
-    {
-        "year_start": 570,
-        "year_end": 570,
-        "date": "c. 570 ",
-        "era": "Medieval",
-        "event": "Muhammad is born. Professed receiving revelations from a god, which were recorded in the Quran, the basis of Islamic theology, in which he is regarded as the last of the sent prophets.",
-        "Source": null,
-        "id": 218
-    },
-    {
-        "year_start": 577,
-        "year_end": 577,
-        "date": "577",
-        "era": "Medieval",
-        "event": "The West Saxons continue their advance at the Battle of Deorham. Led to the permanent separation of Cornwall, England from Wales. ",
-        "Source": null,
-        "id": 219
-    },
-    {
-        "year_start": 581,
-        "year_end": 581,
-        "date": "04 March 581 \u2013 23 May 618",
-        "era": "Medieval",
-        "event": "Sui dynasty in China. China unified once again during this period for the first time in almost 400 years.",
-        "Source": null,
-        "id": 220
-    },
-    {
-        "year_start": 590,
-        "year_end": 590,
-        "date": "590 September 3",
-        "era": "Medieval",
-        "event": "Gregory the Great becomes Pope. The missionary work reached new levels during his reign and he revolutionized the way of worship for the Catholic Church.",
-        "Source": null,
-        "id": 221
-    },
-    {
-        "year_start": 597,
-        "year_end": 597,
-        "date": "597",
-        "era": "Medieval",
-        "event": "Augustine arrives in Kent. Christianization of England (Anglo-Saxons) begins.",
-        "Source": null,
-        "id": 222
-    },
-    {
-        "year_start": 598,
-        "year_end": 598,
-        "date": "598\u2013668 ",
-        "era": "Medieval",
-        "event": "Massive Chinese (Sui and Tang) invasions against Korean Goguryeo. Contributed to the fall of the Sui dynasty, and Goguryeo fell under the forces of the Tang and Silla.",
-        "Source": null,
-        "id": 223
-    },
-    {
-        "year_start": 600,
-        "year_end": 600,
-        "date": "c. 600 ",
-        "era": "Medieval",
-        "event": "Deliberate fires set for unknown reasons destroy major buildings in Teotihuacan. Destroys the Teotihuacan civilization and empire. Tikal is now the largest city-state in Mesoamerica.",
-        "Source": null,
-        "id": 224
-    },
-    {
-        "year_start": 602,
-        "year_end": 602,
-        "date": "602\u2013629 ",
-        "era": "Medieval",
-        "event": "Last great Roman\u2013Persian War. Long conflict leaves both empires exhausted and unable to cope with the newly united Arab armies under Islam in the 630s",
-        "Source": null,
-        "id": 225
-    },
-    {
-        "year_start": 604,
-        "year_end": 604,
-        "date": "604\u2013609 ",
-        "era": "Medieval",
-        "event": "Grand Canal in China is fully completed Its main role throughout its history was the transport of grain to the capital.",
-        "Source": null,
-        "id": 226
-    },
-    {
-        "year_start": 618,
-        "year_end": 618,
-        "date": "01 June 618 \u2013 18 June 907",
-        "era": "Medieval",
-        "event": "Tang dynasty in China. The essential administrative system of this dynasty lasts for 286 years.",
-        "Source": null,
-        "id": 227
-    },
-    {
-        "year_start": 622,
-        "year_end": 622,
-        "date": "9 September \u2013 23 September 622",
-        "era": "Medieval",
-        "event": "Muhammad migrates from Mecca to Medina. Event will have designated first year of the Islamic calendar, as Anno Hegirae. ",
-        "Source": null,
-        "id": 228
-    },
-    {
-        "year_start": 626,
-        "year_end": 626,
-        "date": "626",
-        "era": "Medieval",
-        "event": "Joint Persian\u2013Avar\u2013Slav Siege of Constantinople. Constantinople saved, Avar power broken and Persians henceforth on the defensive ",
-        "Source": null,
-        "id": 229
-    },
-    {
-        "year_start": 627,
-        "year_end": 627,
-        "date": "627 December 12",
-        "era": "Medieval",
-        "event": "Battle of Nineveh. The Byzantines, under Heraclius, crush the Persians. ",
-        "Source": null,
-        "id": 230
-    },
-    {
-        "year_start": 632,
-        "year_end": 632,
-        "date": "632 June 8",
-        "era": "Medieval",
-        "event": "Death of Muhammad",
-        "Source": null,
-        "id": 231
-    },
-    {
-        "year_start": 632,
-        "year_end": 632,
-        "date": "632\u2013668 ",
-        "era": "Medieval",
-        "event": "Establishment and expansion of Old Great Bulgaria. The demise of Old Great Bulgaria lead to the founding of the First Bulgarian Empire and Volga Bulgaria by the sons of Kubrat.",
-        "Source": null,
-        "id": 232
-    },
-    {
-        "year_start": 632,
-        "year_end": 632,
-        "date": "632 June 8",
-        "era": "Medieval",
-        "event": "Accession of Abu Bakr as first Caliph. Though the period of his caliphate was not long it included successful invasions of the two most powerful empires of the time.",
-        "Source": null,
-        "id": 233
-    },
-    {
-        "year_start": 633,
-        "year_end": 633,
-        "date": "633\u2013634 ",
-        "era": "Medieval",
-        "event": "Battle of Heavenfield. Northumbrian army under Oswald defeat Welsh army.",
-        "Source": null,
-        "id": 234
-    },
-    {
-        "year_start": 638,
-        "year_end": 638,
-        "date": "638",
-        "era": "Medieval",
-        "event": "Jerusalem captured by the Arab army, mostly Muslims, but with contingents of Syrian Christians.",
-        "Source": null,
-        "id": 235
-    },
-    {
-        "year_start": 641,
-        "year_end": 641,
-        "date": "641",
-        "era": "Medieval",
-        "event": "Battle of Nahavand. Muslims conquer Persia.",
-        "Source": null,
-        "id": 236
-    },
-    {
-        "year_start": 643,
-        "year_end": 643,
-        "date": "643",
-        "era": "Medieval",
-        "event": "Arab Army led by Amr ibn al-As takes Alexandria.",
-        "Source": null,
-        "id": 237
-    },
-    {
-        "year_start": 645,
-        "year_end": 645,
-        "date": "645",
-        "era": "Medieval",
-        "event": "In Japan, the Soga clan falls. This initiates a period of imitation of Chinese culture, The Nara period begins a year later. ",
-        "Source": null,
-        "id": 238
-    },
-    {
-        "year_start": 650,
-        "year_end": 650,
-        "date": "650",
-        "era": "Medieval",
-        "event": "Slav occupation of Balkans complete.",
-        "Source": null,
-        "id": 239
-    },
-    {
-        "year_start": 650,
-        "year_end": 650,
-        "date": "c. 650 ",
-        "era": "Medieval",
-        "event": "The city-state Xochicalco is founded by the Olmeca\u2013Xicallanca. Becomes an important cultural and commercial center.",
-        "Source": null,
-        "id": 240
-    },
-    {
-        "year_start": 663,
-        "year_end": 663,
-        "date": "663",
-        "era": "Medieval",
-        "event": "Synod of Whitby. Roman Christianity triumphs over Celtic Christianity in England.",
-        "Source": null,
-        "id": 241
-    },
-    {
-        "year_start": 668,
-        "year_end": 668,
-        "date": "668",
-        "era": "Medieval",
-        "event": "End of the Three Kingdoms period in Korea. Established a Unified Silla which led to the North\u2013South States Period 30 years later.",
-        "Source": null,
-        "id": 242
-    },
-    {
-        "year_start": 674,
-        "year_end": 674,
-        "date": "674\u2013678 ",
-        "era": "Medieval",
-        "event": "First Arab siege of Constantinople. First time Islamic armies defeated forestalling Islamic conquest of Europe.",
-        "Source": null,
-        "id": 243
-    },
-    {
-        "year_start": 681,
-        "year_end": 681,
-        "date": "681",
-        "era": "Medieval",
-        "event": "Establishment of the Bulgarian Empire.",
-        "Source": null,
-        "id": 244
-    },
-    {
-        "year_start": 685,
-        "year_end": 685,
-        "date": "685",
-        "era": "Medieval",
-        "event": "Battle of Dun Nechtain. Picts defeat Northumbrians whose dominance ends.",
-        "Source": null,
-        "id": 245
-    },
-    {
-        "year_start": 687,
-        "year_end": 687,
-        "date": "687",
-        "era": "Medieval",
-        "event": "Battle of Tertry Established Pepin of Herstal as mayor over the entire realms of Neustria and Austrasia which further dwindled Merovingian power.",
-        "Source": null,
-        "id": 246
-    },
-    {
-        "year_start": 698,
-        "year_end": 698,
-        "date": "698",
-        "era": "Medieval",
-        "event": "Arab army takes Carthage. End of Byzantine rule in North Africa",
-        "Source": null,
-        "id": 247
-    },
-    {
-        "year_start": 698,
-        "year_end": 698,
-        "date": "698",
-        "era": "Medieval",
-        "event": "North\u2013South States Period begins in Korea. Silla and Balhae coexisted in the south and north of the peninsula respectively until 926",
-        "Source": null,
-        "id": 248
-    },
-    {
-        "year_start": 711,
-        "year_end": 711,
-        "date": "711",
-        "era": "Medieval",
-        "event": "Umayyad conquest of Hispania under Tarik. Will begin a period of Muslim rule within in the Al-Andalus (with various portions of Iberian peninsula) until nearly the end of the Fifteenth Century.",
-        "Source": null,
-        "id": 249
-    },
-    {
-        "year_start": 718,
-        "year_end": 718,
-        "date": "718",
-        "era": "Medieval",
-        "event": "Second Arab attack on Constantinople, ending in failure. The combined Byzantine\u2013Bulgarian forces stop the Arab threat in Southeastern Europe.",
-        "Source": null,
-        "id": 250
-    },
-    {
-        "year_start": 726,
-        "year_end": 726,
-        "date": "726",
-        "era": "Medieval",
-        "event": "Iconoclast movement begun in the Byzantine Empire under Leo III. This was opposed by Pope Gregory II, and an important difference between the Roman and Byzantine churches.",
-        "Source": null,
-        "id": 251
-    },
-    {
-        "year_start": 732,
-        "year_end": 732,
-        "date": "732 October",
-        "era": "Medieval",
-        "event": "Battle of Tours. Charles Martel halts Muslim advance which led to the forming of the Carolingian Empire for the Franks and halted the advancement of the Moors in southwestern Europe.",
-        "Source": null,
-        "id": 252
-    },
-    {
-        "year_start": 735,
-        "year_end": 735,
-        "date": "735 26 May",
-        "era": "Medieval",
-        "event": "Death of Bede. Bede was later regarded as the father of English history ",
-        "Source": null,
-        "id": 253
-    },
-    {
-        "year_start": 750,
-        "year_end": 750,
-        "date": "750 25 January",
-        "era": "Medieval",
-        "event": "Beginning of Abbasid Caliphate. Would become the longest lasting caliphate until 1519 when conquered and annexed into the Ottoman Empire.",
-        "Source": null,
-        "id": 254
-    },
-    {
-        "year_start": 751,
-        "year_end": 751,
-        "date": "751",
-        "era": "Medieval",
-        "event": "Pepin the Short founds the Carolingian dynasty.",
-        "Source": null,
-        "id": 255
-    },
-    {
-        "year_start": 754,
-        "year_end": 754,
-        "date": "754",
-        "era": "Medieval",
-        "event": "Pepin promises the Pope central Italy. This is arguably the beginning of the temporal power of the Papacy.",
-        "Source": null,
-        "id": 256
-    },
-    {
-        "year_start": 768,
-        "year_end": 768,
-        "date": "768",
-        "era": "Medieval",
-        "event": "Beginning of Charlemagne's reign.",
-        "Source": null,
-        "id": 257
-    },
-    {
-        "year_start": 778,
-        "year_end": 778,
-        "date": "778 15 August",
-        "era": "Medieval",
-        "event": "Battle of Roncevaux Pass.",
-        "Source": null,
-        "id": 258
-    },
-    {
-        "year_start": 786,
-        "year_end": 786,
-        "date": "786 14 September",
-        "era": "Medieval",
-        "event": "Accession of Harun al-Rashid to the Caliphate in Baghdad.",
-        "Source": null,
-        "id": 259
-    },
-    {
-        "year_start": 793,
-        "year_end": 793,
-        "date": "793",
-        "era": "Medieval",
-        "event": "Viking attacks on Britain begin with the Sack of Lindisfarne. The Viking Age will span over two centuries. There influence will reach Hispania, to the Byzantine Empire, and present day Russia. ",
-        "Source": null,
-        "id": 260
-    },
-    {
-        "year_start": 794,
-        "year_end": 794,
-        "date": "794",
-        "era": "Medieval",
-        "event": "Heian period in Japan. Considered to be the last classical period of History of Japan. Chinese influence was at its strongest during this era in Japan.",
-        "Source": null,
-        "id": 261
-    },
-    {
-        "year_start": 795,
-        "year_end": 795,
-        "date": "795 29 July",
-        "era": "Medieval",
-        "event": "Death of Offa. Marks the end of Mercian dominance in England.",
-        "Source": null,
-        "id": 262
-    },
-    {
-        "year_start": 800,
-        "year_end": 800,
-        "date": "800 25 December",
-        "era": "Medieval",
-        "event": "Charlemagne is crowned Holy Roman Emperor. With his crowning Charlemagne's kingdom is officially recognized by the Papacy as the largest in Europe since the fall of the Roman Empire.",
-        "Source": null,
-        "id": 263
-    },
-    {
-        "year_start": 800,
-        "year_end": 800,
-        "date": "800",
-        "era": "Medieval",
-        "event": "Gunpowder is invented in China (somewhere around 9th century)",
-        "Source": null,
-        "id": 264
-    },
-    {
-        "year_start": 814,
-        "year_end": 814,
-        "date": "814 28 January",
-        "era": "Medieval",
-        "event": "Death of Charlemagne. Would be a factor towards the splitting of his empire almost 30 years later.",
-        "Source": null,
-        "id": 265
-    },
-    {
-        "year_start": 820,
-        "year_end": 820,
-        "date": "820",
-        "era": "Medieval",
-        "event": "Algebrae et Alumcabola Algorithm Muhammad ibn Musa- al-Khwarizmi",
-        "Source": null,
-        "id": 266
-    },
-    {
-        "year_start": 825,
-        "year_end": 825,
-        "date": "825",
-        "era": "Medieval",
-        "event": "Battle of Ellandun. Egbert defeats Mercians. Wessex becomes the leading kingdom of England.",
-        "Source": null,
-        "id": 267
-    },
-    {
-        "year_start": 827,
-        "year_end": 827,
-        "date": "827",
-        "era": "Medieval",
-        "event": "Muslims invade Sicily. First encounter of attempts to conquer Byzantine Sicily until the last Byzantine outpost was conquered in 965.",
-        "Source": null,
-        "id": 268
-    },
-    {
-        "year_start": 840,
-        "year_end": 840,
-        "date": "840",
-        "era": "Medieval",
-        "event": "Muslims capture Bari and much of southern Italy.",
-        "Source": null,
-        "id": 269
-    },
-    {
-        "year_start": 843,
-        "year_end": 843,
-        "date": "843",
-        "era": "Medieval",
-        "event": "Division of Charlemagne's Empire between his grandsons with the Treaty of Verdun. Sets the stage for the founding of the Holy Roman Empire and France as separate states.",
-        "Source": null,
-        "id": 270
-    },
-    {
-        "year_start": 843,
-        "year_end": 843,
-        "date": "843",
-        "era": "Medieval",
-        "event": "Kenneth McAlpin becomes king of the Picts and Scots, creating the Kingdom of Alba.",
-        "Source": null,
-        "id": 271
-    },
-    {
-        "year_start": 862,
-        "year_end": 862,
-        "date": "862",
-        "era": "Medieval",
-        "event": "Viking state in Russia founded under Rurik, first at Novgorod, then Kiev.",
-        "Source": null,
-        "id": 272
-    },
-    {
-        "year_start": 864,
-        "year_end": 864,
-        "date": "864",
-        "era": "Medieval",
-        "event": "Christianization of Bulgaria.",
-        "Source": null,
-        "id": 273
-    },
-    {
-        "year_start": 866,
-        "year_end": 866,
-        "date": "866",
-        "era": "Medieval",
-        "event": "Fujiwara period in Japan. Would become the most powerful clan during the Heian period in Japan for around three centuries.",
-        "Source": null,
-        "id": 274
-    },
-    {
-        "year_start": 866,
-        "year_end": 866,
-        "date": "866",
-        "era": "Medieval",
-        "event": "Viking Great Army arrives in England. Northumbria, East Anglia, and Mercia were overwhelmed. ",
-        "Source": null,
-        "id": 275
-    },
-    {
-        "year_start": 868,
-        "year_end": 868,
-        "date": "868",
-        "era": "Medieval",
-        "event": "Earliest known printed book in China with a date.",
-        "Source": null,
-        "id": 276
-    },
-    {
-        "year_start": 871,
-        "year_end": 871,
-        "date": "871",
-        "era": "Medieval",
-        "event": "Alfred the Great assumes the throne, the first king of a united England. He defended England from Viking invaders, formed new laws and fostered a rebirth of religious and scholarly activities.",
-        "Source": null,
-        "id": 277
-    },
-    {
-        "year_start": 872,
-        "year_end": 872,
-        "date": "c. 872 ",
-        "era": "Medieval",
-        "event": "Harold Fairhair becomes King of Norway.",
-        "Source": null,
-        "id": 278
-    },
-    {
-        "year_start": 874,
-        "year_end": 874,
-        "date": "874",
-        "era": "Medieval",
-        "event": "Iceland is settled by Norsemen.",
-        "Source": null,
-        "id": 279
-    },
-    {
-        "year_start": 882,
-        "year_end": 882,
-        "date": "882",
-        "era": "Medieval",
-        "event": "Kievan Rus' is established. Would be sustained until the Mongol invasion of Rus' over four and a half centuries, despite peaking during the middle 11th century during the reign of Yaroslav the Wise.",
-        "Source": null,
-        "id": 280
-    },
-    {
-        "year_start": 885,
-        "year_end": 885,
-        "date": "885",
-        "era": "Medieval",
-        "event": "Arrival of the disciples of Saints Cyril and Methodius in Bulgaria. In the following decades the country became the cultural and spiritual centre of the Eastern Orthodox part of the Slavic World.",
-        "Source": null,
-        "id": 281
-    },
-    {
-        "year_start": 885,
-        "year_end": 885,
-        "date": "885\u2013886 ",
-        "era": "Medieval",
-        "event": "Vikings attack Paris.",
-        "Source": null,
-        "id": 282
-    },
-    {
-        "year_start": 893,
-        "year_end": 893,
-        "date": "893",
-        "era": "Medieval",
-        "event": "Emperor Simeon I becomes ruler of the First Bulgarian Empire in the Balkans. Under his rule falls the golden age of the First Bulgarian Empire and the invention of the Cyrillic Script. ",
-        "Source": null,
-        "id": 283
-    },
-    {
-        "year_start": 896,
-        "year_end": 896,
-        "date": "896",
-        "era": "Medieval",
-        "event": "Arpad and the Magyars are present in Pannonia.",
-        "Source": null,
-        "id": 284
-    },
-    {
-        "year_start": 899,
-        "year_end": 899,
-        "date": "27 October 899",
-        "era": "Medieval",
-        "event": "Death of Alfred the Great King of the Anglo-Saxon. Being learned he proposed that priamry education be conducted in Old English instead of Latin.",
-        "Source": null,
-        "id": 285
-    },
-    {
-        "year_start": 900,
-        "year_end": 900,
-        "date": "c. 900 ",
-        "era": "Medieval",
-        "event": "Lowland Maya cities in the south collapse. Signifies the end of the Classic Period of Maya history. The Maya in northern Yucat\u00e1n continue to thrive. ",
-        "Source": null,
-        "id": 286
-    },
-    {
-        "year_start": 907,
-        "year_end": 907,
-        "date": "907",
-        "era": "Medieval",
-        "event": "Tang Dynasty ends with Emperor Ai deposed. The Five Dynasties and Ten Kingdoms period in China commences. ",
-        "Source": null,
-        "id": 287
-    },
-    {
-        "year_start": 910,
-        "year_end": 910,
-        "date": "910",
-        "era": "Medieval",
-        "event": "King Edward the Elder of England, son of King Alfred, defeats the Northumbrian Vikings at the Battle of Tettenhall; they never raid south of the River Humber again.",
-        "Source": null,
-        "id": 288
-    },
-    {
-        "year_start": 910,
-        "year_end": 910,
-        "date": "910",
-        "era": "Medieval",
-        "event": "Cluny Abbey is founded by William I, Count of Auvergne. Cluny goes on to become the acknowledged leader of Western Monasticism. Cluniac Reforms initiated with the abbey's founding.",
-        "Source": null,
-        "id": 289
-    },
-    {
-        "year_start": 911,
-        "year_end": 911,
-        "date": "911",
-        "era": "Medieval",
-        "event": "The Viking Rollo and his tribe settle in what is now Normandy by the terms of the Treaty of Saint-Clair-sur-Epte, founding the Duchy of Normandy.",
-        "Source": null,
-        "id": 290
-    },
-    {
-        "year_start": 913,
-        "year_end": 913,
-        "date": "913",
-        "era": "Medieval",
-        "event": "Sri Kesari Warmadewa reigned in Walidwipa (Bali)",
-        "Source": null,
-        "id": 291
-    },
-    {
-        "year_start": 917,
-        "year_end": 917,
-        "date": "917",
-        "era": "Medieval",
-        "event": "Battle of Anchialus. Simeon I the Great defeats the Byzantines. Recognition of the Imperial Title of the Bulgarian rulers.",
-        "Source": null,
-        "id": 292
-    },
-    {
-        "year_start": 919,
-        "year_end": 919,
-        "date": "919",
-        "era": "Medieval",
-        "event": "Henry the Fowler, Duke of Saxony elected German King.  First king of the Ottonian Dynasty. Henry I considered the founder and first king of the medieval German state.",
-        "Source": null,
-        "id": 293
-    },
-    {
-        "year_start": 925,
-        "year_end": 925,
-        "date": "925",
-        "era": "Medieval",
-        "event": "The first King of Croatia (rex Croatorum), Tomislav of the Trpimirovi\u0107 dynasty was crowned. Tomislav united Croats of Dalmatia and Pannonia into a single Kingdom, and created a sizeable state.",
-        "Source": null,
-        "id": 294
-    },
-    {
-        "year_start": 927,
-        "year_end": 927,
-        "date": "927",
-        "era": "Medieval",
-        "event": "King Aethelstan the Glorious unites the heptarchy of The Anglo-Saxon  nations of Wessex, Sussex, Essex, Kent, East Anglia, Mercia and Northumbria founding the Kingdom of England.",
-        "Source": null,
-        "id": 295
-    },
-    {
-        "year_start": 927,
-        "year_end": 927,
-        "date": "927",
-        "era": "Medieval",
-        "event": "According to Theophanes Continuatus (The Continuer of Theophanes's Chronicle) \u2013 Tomislav of Croatia defeated Bulgarian army of Tsar Simeon I under Duke Alogobotur, in battle of the Bosnian Highlands.",
-        "Source": null,
-        "id": 296
-    },
-    {
-        "year_start": 927,
-        "year_end": 927,
-        "date": "927",
-        "era": "Medieval",
-        "event": "Death of Simeon I the Great. Recognition of the Bulgarian Patriarchate, the first independent National Church in Europe.",
-        "Source": null,
-        "id": 297
-    },
-    {
-        "year_start": 929,
-        "year_end": 929,
-        "date": "929",
-        "era": "Medieval",
-        "event": "Abd-ar-Rahman III of the Umayyad dynasty in al-Andalus (part of the Iberian peninsula) takes the title of Caliph or ruler of the Islamic world. This marks the beginning of the Caliphate of C\u00f3rdoba.",
-        "Source": null,
-        "id": 298
-    },
-    {
-        "year_start": 936,
-        "year_end": 936,
-        "date": "936",
-        "era": "Medieval",
-        "event": "Wang Geon unifies Goryeo (Korea) which ends the Later Three Kingdoms Era.",
-        "Source": null,
-        "id": 299
-    },
-    {
-        "year_start": 938,
-        "year_end": 938,
-        "date": "938",
-        "era": "Medieval",
-        "event": "Ngo Quyen won the battle of Bach Dang against Chinese Southern Han army. This event marked the independence of Vietnam after 1000 years under Chinese colony.",
-        "Source": null,
-        "id": 300
-    },
-    {
-        "year_start": 955,
-        "year_end": 955,
-        "date": "955",
-        "era": "Medieval",
-        "event": "Battle of Lechfeld. Otto the Great, son of Henry the Fowler, defeats the Magyars. This is the defining event that prevents the Hungarians from entering Central Europe.",
-        "Source": null,
-        "id": 301
-    },
-    {
-        "year_start": 960,
-        "year_end": 960,
-        "date": "c.960 ",
-        "era": "Medieval",
-        "event": "Mieszko I becomes duke of Polans. First historical ruler of Poland and de facto founder of the Polish State.",
-        "Source": null,
-        "id": 302
-    },
-    {
-        "year_start": 960,
-        "year_end": 960,
-        "date": "960",
-        "era": "Medieval",
-        "event": "Song Dynasty begins after Emperor of Taizu usurps the throne from the Later Zhou, last of the Five Dynasties. A 319-year period of Song rule (Northern & Southern combined) goes underway.",
-        "Source": null,
-        "id": 303
-    },
-    {
-        "year_start": 962,
-        "year_end": 962,
-        "date": "962",
-        "era": "Medieval",
-        "event": "Otto the Great crowned the Holy Roman Emperor. First to be crowned Holy Roman Emperor in nearly 40 years.",
-        "Source": null,
-        "id": 304
-    },
-    {
-        "year_start": 963,
-        "year_end": 963,
-        "date": "963\u2013964 ",
-        "era": "Medieval",
-        "event": "Otto deposes Pope John XII who is replaced with Pope Leo VIII. Citizens of Rome promise not to elect another Pope without Imperial approval.",
-        "Source": null,
-        "id": 305
-    },
-    {
-        "year_start": 965,
-        "year_end": 965,
-        "date": "965\u2013967 ",
-        "era": "Medieval",
-        "event": "Mieszko I of Poland and his court embrace Christianity, which becomes national religion.",
-        "Source": null,
-        "id": 306
-    },
-    {
-        "year_start": 969,
-        "year_end": 969,
-        "date": "969",
-        "era": "Medieval",
-        "event": "John I Tzimiskes and Nikephoros II are executed. Sultane of Rums are proclaimed.",
-        "Source": null,
-        "id": 307
-    },
-    {
-        "year_start": 976,
-        "year_end": 976,
-        "date": "976",
-        "era": "Medieval",
-        "event": "Death of John I Tzimiskes Under Basil II zenith of the power of Eastern Empire after Justinian.",
-        "Source": null,
-        "id": 308
-    },
-    {
-        "year_start": 978,
-        "year_end": 978,
-        "date": "978",
-        "era": "Medieval",
-        "event": "Al-Mansur Ibn Abi Aamir becomes de facto ruler of Muslim Al-Andalus. Peak of power of Moorish Iberia under Almanzor.",
-        "Source": null,
-        "id": 309
-    },
-    {
-        "year_start": 981,
-        "year_end": 981,
-        "date": "981",
-        "era": "Medieval",
-        "event": "Basil II (called Bulgar Slayer) begins final conquest of Bulgaria by Eastern Empire.",
-        "Source": null,
-        "id": 310
-    },
-    {
-        "year_start": 985,
-        "year_end": 985,
-        "date": "985",
-        "era": "Medieval",
-        "event": "Eric the Red, exiled from Iceland, begins Scandinavian colonization of Greenland.",
-        "Source": null,
-        "id": 311
-    },
-    {
-        "year_start": 987,
-        "year_end": 987,
-        "date": "987",
-        "era": "Medieval",
-        "event": "Succession of Hugh Capet to the French Throne. Beginning of Capetian Dynasty.",
-        "Source": null,
-        "id": 312
-    },
-    {
-        "year_start": 988,
-        "year_end": 988,
-        "date": "988",
-        "era": "Medieval",
-        "event": "Volodymyr I of Kiev embraces Christianity, which becomes national religion.",
-        "Source": null,
-        "id": 313
-    },
-    {
-        "year_start": 989,
-        "year_end": 989,
-        "date": "989",
-        "era": "Medieval",
-        "event": "Peace and Truce of God formed. The first movement of the Catholic Church using spiritual means to limit war and the first movement in medieval Europe to control society through non-violent means.",
-        "Source": null,
-        "id": 314
-    },
-    {
-        "year_start": 1001,
-        "year_end": 1001,
-        "date": "c. 1001 ",
-        "era": "Medieval",
-        "event": "Leif Ericson is to settle during the winter in present-day Canada at L'Anse aux Meadows. Ericson is to be the first European to settle in the Americas during the Norse exploration of the Americas.",
-        "Source": null,
-        "id": 315
-    },
-    {
-        "year_start": 1016,
-        "year_end": 1016,
-        "date": "1016",
-        "era": "Medieval",
-        "event": "Canute the Great becomes King of England after the death of Edmund Ironside, with whom he shared the English throne. Danes remain kings of England for the next 26 years.",
-        "Source": null,
-        "id": 316
-    },
-    {
-        "year_start": 1018,
-        "year_end": 1018,
-        "date": "1018",
-        "era": "Medieval",
-        "event": "The Byzantines under Basil II conquer Bulgaria after a bitter 50-years struggle. Concludes the Byzantine conquest of Bulgaria.",
-        "Source": null,
-        "id": 317
-    },
-    {
-        "year_start": 1021,
-        "year_end": 1021,
-        "date": "1021",
-        "era": "Medieval",
-        "event": "The Tale of Genji, by Murasaki Shikibu, is completed in Japan. It is sometimes called the world's first (modern) novel, or the first psychological novel.",
-        "Source": null,
-        "id": 318
-    },
-    {
-        "year_start": 1025,
-        "year_end": 1025,
-        "date": "1025",
-        "era": "Medieval",
-        "event": "The Canon of Medicine Persian Avicenna set standard medical textbook through 18th century in Europe",
-        "Source": null,
-        "id": 319
-    },
-    {
-        "year_start": 1037,
-        "year_end": 1037,
-        "date": "1037",
-        "era": "Medieval",
-        "event": "The Great Seljuk Empire is founded by Tughril Beg. Would be a major force during the first two Crusades and an antagonist to the Byzantine Empire over the next century.",
-        "Source": null,
-        "id": 320
-    },
-    {
-        "year_start": 1049,
-        "year_end": 1049,
-        "date": "1049",
-        "era": "Medieval",
-        "event": "Pope Leo IX ascends to the papal throne. Leo IX was the pope that excommunicated Patriarch of Constantinople, Michael Cerularius (who also excommunicated Leo), which caused the Great Schism.",
-        "Source": null,
-        "id": 321
-    },
-    {
-        "year_start": 1050,
-        "year_end": 1050,
-        "date": "1050",
-        "era": "Medieval",
-        "event": "The astrolabe, an ancient tool of navigation, is first used in Europe. Early tool of marine navigators, astrologers, astronomers.",
-        "Source": null,
-        "id": 322
-    },
-    {
-        "year_start": 1050,
-        "year_end": 1050,
-        "date": "1050",
-        "era": "Medieval",
-        "event": "Westminster Abbey Edward the Confessor",
-        "Source": null,
-        "id": 323
-    },
-    {
-        "year_start": 1054,
-        "year_end": 1054,
-        "date": "1054",
-        "era": "Medieval",
-        "event": "The East-West Schism which divided the church into Western Catholicism and Eastern Orthodoxy. Tensions will vary between the Catholic and Orthodox churches throughout the Middle Ages.",
-        "Source": null,
-        "id": 324
-    },
-    {
-        "year_start": 1066,
-        "year_end": 1066,
-        "date": "1066",
-        "era": "Medieval",
-        "event": "William the Conqueror, Duke of Normandy, invades England and becomes King after the Battle of Hastings. End of Anglo-Saxon rule in England and start of Norman lineage.",
-        "Source": null,
-        "id": 325
-    },
-    {
-        "year_start": 1067,
-        "year_end": 1067,
-        "date": "1067",
-        "era": "Medieval",
-        "event": "Pope Gregory VII elevated to the papal throne. This begins a period of church reform.",
-        "Source": null,
-        "id": 326
-    },
-    {
-        "year_start": 1071,
-        "year_end": 1071,
-        "date": "1071",
-        "era": "Medieval",
-        "event": "The Seljuks under Alp Arslan defeat the Byzantine army at Manzikert. The Normans capture Bari, the last Byzantine possession in southern Italy. Beginning of the end of Byzantine rule in Asia Minor.",
-        "Source": null,
-        "id": 327
-    },
-    {
-        "year_start": 1075,
-        "year_end": 1075,
-        "date": "1075",
-        "era": "Medieval",
-        "event": "Dictatus Papae in which Pope Gregory VII defines the powers of the pope. Peak of the Gregorian Reform, and an immense factor in the Investiture Controversy.",
-        "Source": null,
-        "id": 328
-    },
-    {
-        "year_start": 1077,
-        "year_end": 1077,
-        "date": "1077",
-        "era": "Medieval",
-        "event": "Holy Roman Emperor Henry IV  walks to Canossa where he stands barefoot in the snow to beg forgiveness of the Pope for his offences, and admitting defeat in the Investiture Controversy.",
-        "Source": null,
-        "id": 329
-    },
-    {
-        "year_start": 1077,
-        "year_end": 1077,
-        "date": "1077",
-        "era": "Medieval",
-        "event": "The Construction of the Tower of London begins. The tower of London was the ultimate keep of the British Empire.",
-        "Source": null,
-        "id": 330
-    },
-    {
-        "year_start": 1086,
-        "year_end": 1086,
-        "date": "1086",
-        "era": "Medieval",
-        "event": "The compilation of the Domesday Book, a great land and property survey commissioned by William the Conqueror to assess his new possessions. This is the first such undertaking since Roman times.",
-        "Source": null,
-        "id": 331
-    },
-    {
-        "year_start": 1088,
-        "year_end": 1088,
-        "date": "1088",
-        "era": "Medieval",
-        "event": "University of Bologna is formed. It is the oldest university in Europe.",
-        "Source": null,
-        "id": 332
-    },
-    {
-        "year_start": 1095,
-        "year_end": 1095,
-        "date": "1095",
-        "era": "Medieval",
-        "event": "Pope Urban issues the Crusades to capture the Holy Land, and to repel the Seljuk Turks from the Byzantine Empire from Alexios I Komnenos.",
-        "Source": null,
-        "id": 333
-    },
-    {
-        "year_start": 1098,
-        "year_end": 1098,
-        "date": "1098",
-        "era": "Medieval",
-        "event": "The Cistercian Order is founded. Was a return to the original observance of the Rule of St. Benedict.",
-        "Source": null,
-        "id": 334
-    },
-    {
-        "year_start": 1099,
-        "year_end": 1099,
-        "date": "1099",
-        "era": "Medieval",
-        "event": "First Crusade. Jerusalem is re-taken from the Muslims on the urging of Pope Urban II and the Kingdom of Jerusalem is formed. It last for nearly two centuries.",
-        "Source": null,
-        "id": 335
-    },
-    {
-        "year_start": 1100,
-        "year_end": 1100,
-        "date": "1100",
-        "era": "Medieval",
-        "event": "Latin-translation of the great masters of Arabic medicine: Rhazes, Ishaq Ibn Imran, Ibn Suleiman, and Ibn al-Jazzar Constantine the African",
-        "Source": null,
-        "id": 336
-    },
-    {
-        "year_start": 1102,
-        "year_end": 1102,
-        "date": "1102",
-        "era": "Medieval",
-        "event": "Kingdom of Croatia and Kingdom of Hungary formed a personal union under the Hungarian king. Medieval Hungary and Croatia were allied by means of personal union until 1526. ",
-        "Source": null,
-        "id": 337
-    },
-    {
-        "year_start": 1102,
-        "year_end": 1102,
-        "date": "1102",
-        "era": "Medieval",
-        "event": "Synods of Westminster End of simony, clerical marriages, slavery under Anselm of Canterbury",
-        "Source": null,
-        "id": 338
-    },
-    {
-        "year_start": 1106,
-        "year_end": 1106,
-        "date": "1106 28 September",
-        "era": "Medieval",
-        "event": "Henry I of England defeats his older brother Robert Curthose, duke of Normandy, at the Battle of Tinchebrai, and imprisons him in Devizes castle.",
-        "Source": null,
-        "id": 339
-    },
-    {
-        "year_start": 1107,
-        "year_end": 1107,
-        "date": "1107",
-        "era": "Medieval",
-        "event": "Through the compromise, suggested by Adela, the sister of King Henry, the Investiture Struggle in England is ended it eases friction between the English monarchy and the Catholic Church.",
-        "Source": null,
-        "id": 340
-    },
-    {
-        "year_start": 1109,
-        "year_end": 1109,
-        "date": "1109",
-        "era": "Medieval",
-        "event": "In the Battle of Naklo, Boleslaus III Wrymouth defeats the Pomeranians. Polish access to the sea is re-established.",
-        "Source": null,
-        "id": 341
-    },
-    {
-        "year_start": 1109,
-        "year_end": 1109,
-        "date": "1109 24 August",
-        "era": "Medieval",
-        "event": "In the Battle of Hundsfeld, Boleslaus III Wrymouth defeats Emperor Henry V. German expansion to the centre of Europe is stopped.",
-        "Source": null,
-        "id": 342
-    },
-    {
-        "year_start": 1116,
-        "year_end": 1116,
-        "date": "1116",
-        "era": "Medieval",
-        "event": "The Byzantine army defeats the Turks at Philomelion. The Turks abandon the entire coastal area of Anatolia and all of western Anatolia",
-        "Source": null,
-        "id": 343
-    },
-    {
-        "year_start": 1117,
-        "year_end": 1117,
-        "date": "1117",
-        "era": "Medieval",
-        "event": "The University of Oxford is founded. It is the oldest university in the United Kingdom.",
-        "Source": null,
-        "id": 344
-    },
-    {
-        "year_start": 1118,
-        "year_end": 1118,
-        "date": "1118",
-        "era": "Medieval",
-        "event": "The Knights Templar are founded to protect Jerusalem and European pilgrims on their journey to the city. Becomes the most recognizable, and impactful military orders during the Crusades.",
-        "Source": null,
-        "id": 345
-    },
-    {
-        "year_start": 1121,
-        "year_end": 1121,
-        "date": "1121 25 December",
-        "era": "Medieval",
-        "event": "St. Norbert and 29 companions make their solemn vows marking the beginning of the Premonstratensian Order. This order played a significant role in evangelizing the Slavs, and the Wends.",
-        "Source": null,
-        "id": 346
-    },
-    {
-        "year_start": 1122,
-        "year_end": 1122,
-        "date": "1122 23 September",
-        "era": "Medieval",
-        "event": "The Concordat of Worms was drawn up between Emperor Henry V and Pope Calixtus II. This concordat ended the investiture struggle but bitter rivalry between emperor and pope remained.",
-        "Source": null,
-        "id": 347
-    },
-    {
-        "year_start": 1123,
-        "year_end": 1123,
-        "date": "1123 18 March - 27 March",
-        "era": "Medieval",
-        "event": "The First Lateran Council followed and confirmed the Concordat of Worms.",
-        "Source": null,
-        "id": 348
-    },
-    {
-        "year_start": 1125,
-        "year_end": 1125,
-        "date": "1125",
-        "era": "Medieval",
-        "event": "School of Glossators Irnerius",
-        "Source": null,
-        "id": 349
-    },
-    {
-        "year_start": 1125,
-        "year_end": 1125,
-        "date": "1125",
-        "era": "Medieval",
-        "event": "Lothair of Supplinburg, duke of Saxony, is elected Holy Roman Emperor instead, Frederick of Swabia. This election marks the beginning of the great struggle between the Guelfs and the Ghibellines.",
-        "Source": null,
-        "id": 350
-    },
-    {
-        "year_start": 1125,
-        "year_end": 1125,
-        "date": "1125\u20131127 ",
-        "era": "Medieval",
-        "event": "Jingkang Incident The Jurchen soldiers sack Kaifeng, bringing an end to the Northern Song Dynasty in China; the Song moves further south and makes Lin'an their new capital.",
-        "Source": null,
-        "id": 351
-    },
-    {
-        "year_start": 1130,
-        "year_end": 1130,
-        "date": "1130 25 December",
-        "era": "Medieval",
-        "event": "Roger II is crowned King of Sicily, a Royal title given him by the Antipope Anacletus II. This marks the beginning of the Kingdom of Sicily of Norman kings.",
-        "Source": null,
-        "id": 352
-    },
-    {
-        "year_start": 1130,
-        "year_end": 1130,
-        "date": "1130",
-        "era": "Medieval",
-        "event": "Sic et Non Peter Abelard",
-        "Source": null,
-        "id": 353
-    },
-    {
-        "year_start": 1135,
-        "year_end": 1135,
-        "date": "1135",
-        "era": "Medieval",
-        "event": "The Anarchy begins in England. This will mark a 19-year period of strife and Civil War between the supporters of Stephen and Matilda, and end with the crowning of Matilda's son, Henry II.",
-        "Source": null,
-        "id": 354
-    },
-    {
-        "year_start": 1139,
-        "year_end": 1139,
-        "date": "1139 April",
-        "era": "Medieval",
-        "event": "The Second Lateran Council enforces Gergory VII\u2019s campaign by declaring clerical marriages invalid, regulated clerical dress, and punished attacks on clerics by excommunication.",
-        "Source": null,
-        "id": 355
-    },
-    {
-        "year_start": 1140,
-        "year_end": 1140,
-        "date": "1140",
-        "era": "Medieval",
-        "event": "Decretum Gratian",
-        "Source": null,
-        "id": 356
-    },
-    {
-        "year_start": 1144,
-        "year_end": 1144,
-        "date": "1144",
-        "era": "Medieval",
-        "event": "Rebuild of Basilica of Saint Denis Suger",
-        "Source": null,
-        "id": 357
-    },
-    {
-        "year_start": 1147,
-        "year_end": 1147,
-        "date": "1147\u20131149 ",
-        "era": "Medieval",
-        "event": "The Second Crusade was in retaliation for the fall of Edessa, one of the first Crusader States founded in the First Crusade. The first Crusade been led by European kngs was an overall failure.",
-        "Source": null,
-        "id": 358
-    },
-    {
-        "year_start": 1150,
-        "year_end": 1150,
-        "date": "1150",
-        "era": "Medieval",
-        "event": "Ramon Berenguer IV, Count of Barcelona, married Queen Petronilla of Aragon. This marriage gave the Kingdom of Aragon access to the Mediterranean Sea.",
-        "Source": null,
-        "id": 359
-    },
-    {
-        "year_start": 1150,
-        "year_end": 1150,
-        "date": "1150",
-        "era": "Medieval",
-        "event": "Founding of the University of Paris",
-        "Source": null,
-        "id": 360
-    },
-    {
-        "year_start": 1152,
-        "year_end": 1152,
-        "date": "1152",
-        "era": "Medieval",
-        "event": "The Synod of Kells-Mellifont established the present diocesan system of Ireland and recognized the primacy of Armagh. The Irish Church is included into mainstream European Catholicism.",
-        "Source": null,
-        "id": 361
-    },
-    {
-        "year_start": 1154,
-        "year_end": 1154,
-        "date": "1154",
-        "era": "Medieval",
-        "event": "Common Law Henry II",
-        "Source": null,
-        "id": 362
-    },
-    {
-        "year_start": 1158,
-        "year_end": 1158,
-        "date": "1158",
-        "era": "Medieval",
-        "event": "The Hanseatic League is founded. This marks a new period of trade and economic development for northern and central Europe.",
-        "Source": null,
-        "id": 363
-    },
-    {
-        "year_start": 1163,
-        "year_end": 1163,
-        "date": "1163",
-        "era": "Medieval",
-        "event": "The first cornerstone is laid for the construction of Notre Dame de Paris.",
-        "Source": null,
-        "id": 364
-    },
-    {
-        "year_start": 1166,
-        "year_end": 1166,
-        "date": "1166",
-        "era": "Medieval",
-        "event": "Stefan Nemanja united Serbian territories, establishing the Medieval Serbian state marking the rise of Serbia which will dominate the Balkans for the next three hundred years.",
-        "Source": null,
-        "id": 365
-    },
-    {
-        "year_start": 1171,
-        "year_end": 1171,
-        "date": "1171",
-        "era": "Medieval",
-        "event": "King Henry II of England lands in Ireland to assert his supremacy. This begins the English claim to and occupation of Ireland which would last some seven and a half centuries.",
-        "Source": null,
-        "id": 366
-    },
-    {
-        "year_start": 1174,
-        "year_end": 1174,
-        "date": "1174 7/12",
-        "era": "Medieval",
-        "event": "King William I of Scotland, captured in the Battle of Alnwick by the English, accepts the feudal lordship of the English crown. This is the beginning of the acquisition of Scotland by the English.",
-        "Source": null,
-        "id": 367
-    },
-    {
-        "year_start": 1175,
-        "year_end": 1175,
-        "date": "1175",
-        "era": "Medieval",
-        "event": "H\u014dnen Sh\u014dnin (Genk\u016b) founds the J\u014ddo sh\u016b (Pure Land) sect of Buddhism. This event marks the beginning of the Buddhist sectarian movement in Japan.",
-        "Source": null,
-        "id": 368
-    },
-    {
-        "year_start": 1176,
-        "year_end": 1176,
-        "date": "1176 5/29",
-        "era": "Medieval",
-        "event": "At the Battle of Legnano, the Lombard League's infantry defeats Federick Barbarossa's cavalry \u2013 the first major defeat of cavalry by infantry, signaling the new role of the bourgeoisie.",
-        "Source": null,
-        "id": 369
-    },
-    {
-        "year_start": 1175,
-        "year_end": 1175,
-        "date": "1175",
-        "era": "Medieval",
-        "event": "Gerard of Cremona translates the Arabic version of Ptolemy's Almagest",
-        "Source": null,
-        "id": 370
-    },
-    {
-        "year_start": 1179,
-        "year_end": 1179,
-        "date": "1179",
-        "era": "Medieval",
-        "event": "Third Council of the Lateran",
-        "Source": null,
-        "id": 371
-    },
-    {
-        "year_start": 1179,
-        "year_end": 1179,
-        "date": "1179 March",
-        "era": "Medieval",
-        "event": "The Third Lateran Council limits papal electees to the cardinals alone, condemns simony, and forbids the promotion of anyone to the episcopate before the age of thirty.",
-        "Source": null,
-        "id": 372
-    },
-    {
-        "year_start": 1183,
-        "year_end": 1183,
-        "date": "1183",
-        "era": "Medieval",
-        "event": "The final Peace of Constance between Frederick Barbarossa, the pope, and the Lombard towns is signed.",
-        "Source": null,
-        "id": 373
-    },
-    {
-        "year_start": 1183,
-        "year_end": 1183,
-        "date": "1183",
-        "era": "Medieval",
-        "event": "The Taira clan are driven out of Ky\u014dto by Minamoto Yoshinaka. The two-year conflict which follows ends at the Battle of Dan no Ura (1185).",
-        "Source": null,
-        "id": 374
-    },
-    {
-        "year_start": 1184,
-        "year_end": 1184,
-        "date": "1184 November",
-        "era": "Medieval",
-        "event": "Pope Lucius III issues the papal bull Ad Abolendam. This bull set up the organization of the medieval inquisitions.",
-        "Source": null,
-        "id": 375
-    },
-    {
-        "year_start": 1185,
-        "year_end": 1185,
-        "date": "1185",
-        "era": "Medieval",
-        "event": "Windmills are first recorded.",
-        "Source": null,
-        "id": 376
-    },
-    {
-        "year_start": 1185,
-        "year_end": 1185,
-        "date": "1185",
-        "era": "Medieval",
-        "event": "Uprising of Asen and Peter. The reestablishment of the Bulgarian Empire.",
-        "Source": null,
-        "id": 377
-    },
-    {
-        "year_start": 1185,
-        "year_end": 1185,
-        "date": "1185",
-        "era": "Medieval",
-        "event": "At the Battle of Dan no Ura, Minamoto Yoshitsune annihilates the Taira clan which leaves Minamoto the rulers of Japan and marks the beginning of feudal rule known as the Kamakura Period.",
-        "Source": null,
-        "id": 378
-    },
-    {
-        "year_start": 1186,
-        "year_end": 1186,
-        "date": "1186 1/27",
-        "era": "Medieval",
-        "event": "The future emperor Henry VI marries Constance of Sicily, heiress to the Sicilian throne. This marriage shifts the focus of the Guelphs/Ghibelline struggle to Sicily.",
-        "Source": null,
-        "id": 379
-    },
-    {
-        "year_start": 1187,
-        "year_end": 1187,
-        "date": "1187",
-        "era": "Medieval",
-        "event": "Saladin recaptures Jerusalem. Would lead to the Third Crusade.",
-        "Source": null,
-        "id": 380
-    },
-    {
-        "year_start": 1188,
-        "year_end": 1188,
-        "date": "1188",
-        "era": "Medieval",
-        "event": "Tractatus of Glanvil Oxford University",
-        "Source": null,
-        "id": 381
-    },
-    {
-        "year_start": 1189,
-        "year_end": 1189,
-        "date": "1189 July 6",
-        "era": "Medieval",
-        "event": "Richard I (C\u0153ur de Lion) ascends the throne of England. He levies heavy taxes to finance his European creates antipathy towards the crown but his being absent enabled political developments.",
-        "Source": null,
-        "id": 382
-    },
-    {
-        "year_start": 1189,
-        "year_end": 1189,
-        "date": "1189\u20131192 ",
-        "era": "Medieval",
-        "event": "The Third Crusade follows upon Saladin's uniting the Muslim world and recapturing Jerusalem. Despite managing to win several major battles. the Crusaders did not recapture Jerusalem.",
-        "Source": null,
-        "id": 383
-    },
-    {
-        "year_start": 1192,
-        "year_end": 1192,
-        "date": "1192",
-        "era": "Medieval",
-        "event": "Minamoto no Yoritomo is appointed Sei-i Taish\u014dgun, or sh\u014dgun for short. He is the first of a long line of military dictators to bear this title. The institution would last until 1913.",
-        "Source": null,
-        "id": 384
-    },
-    {
-        "year_start": 1193,
-        "year_end": 1193,
-        "date": "1193",
-        "era": "Medieval",
-        "event": "Muhammad bin Bakhtiyar Khilji sack and burn the university at Nalanda. This is the beginning of the decline of Buddhism in India.",
-        "Source": null,
-        "id": 385
-    },
-    {
-        "year_start": 1193,
-        "year_end": 1193,
-        "date": "1193",
-        "era": "Medieval",
-        "event": "The first known merchant guild.",
-        "Source": null,
-        "id": 386
-    },
-    {
-        "year_start": 1195,
-        "year_end": 1195,
-        "date": "1195",
-        "era": "Medieval",
-        "event": "Battle of Alarcos The Almohad Caliphate decisively defeat the Kingdom of Castile. The Almohads pushed Christians to the north and stablished themselves as the supreme power in Al-Andalus",
-        "Source": null,
-        "id": 387
-    },
-    {
-        "year_start": 1199,
-        "year_end": 1199,
-        "date": "1199",
-        "era": "Medieval",
-        "event": "Europeans first use compasses.",
-        "Source": null,
-        "id": 388
-    },
-    {
-        "year_start": 1202,
-        "year_end": 1202,
-        "date": "1202",
-        "era": "Medieval",
-        "event": "The Fourth Crusade sacked Croatian town of Zadar, a rival of Venice, despite letters from Pope Innocent III forbidding it. This marks the first attack against a Catholic city by Catholic crusaders.",
-        "Source": null,
-        "id": 389
-    },
-    {
-        "year_start": 1204,
-        "year_end": 1204,
-        "date": "1204",
-        "era": "Medieval",
-        "event": "Sack of Constantinople during the Fourth Crusade. Considered to be the beginning of the decline of the Byzantine Empire.",
-        "Source": null,
-        "id": 390
-    },
-    {
-        "year_start": 1205,
-        "year_end": 1205,
-        "date": "1205",
-        "era": "Medieval",
-        "event": "Battle of Adrianople. The Bulgarians under Emperor Kaloyan defeat Baldwin I. Beginning of the decline of the Latin Empire.",
-        "Source": null,
-        "id": 391
-    },
-    {
-        "year_start": 1206,
-        "year_end": 1206,
-        "date": "1206",
-        "era": "Medieval",
-        "event": "Genghis Khan was elected as Khagan of the Mongols and the Mongol Empire was established. The Mongols would conquer much of Eurasia, changing former political borders.",
-        "Source": null,
-        "id": 392
-    },
-    {
-        "year_start": 1208,
-        "year_end": 1208,
-        "date": "1208",
-        "era": "Medieval",
-        "event": "Pope Innocent III calls for the Albigensian Crusade which seeks to destroy a rival form of Christianity practiced by the Cathars.",
-        "Source": null,
-        "id": 393
-    },
-    {
-        "year_start": 1209,
-        "year_end": 1209,
-        "date": "1209",
-        "era": "Medieval",
-        "event": "The University of Cambridge is founded.",
-        "Source": null,
-        "id": 394
-    },
-    {
-        "year_start": 1209,
-        "year_end": 1209,
-        "date": "1209",
-        "era": "Medieval",
-        "event": "Founding of the Franciscan Order. One of the more significant orders in the Roman Catholic church. founded by Saint Francis of Assisi.",
-        "Source": null,
-        "id": 395
-    },
-    {
-        "year_start": 1212,
-        "year_end": 1212,
-        "date": "1212",
-        "era": "Medieval",
-        "event": "Spanish Christians succeed in defeating the Moors in the long Reconquista campaigns, after the Battle of Las Navas de Tolosa.",
-        "Source": null,
-        "id": 396
-    },
-    {
-        "year_start": 1215,
-        "year_end": 1215,
-        "date": "1215 15 June",
-        "era": "Medieval",
-        "event": "The Magna Carta is sealed by John of England. This marks one of the first times a medieval ruler is forced to accept limits on his power.",
-        "Source": null,
-        "id": 397
-    },
-    {
-        "year_start": 1215,
-        "year_end": 1215,
-        "date": "1215",
-        "era": "Medieval",
-        "event": "Fourth Lateran Council. Dealt with transubstantiation, papal primacy and conduct of clergy. Proclaimed that Jews and Muslims should wear identification marks to distinguish them from Christians.",
-        "Source": null,
-        "id": 398
-    },
-    {
-        "year_start": 1216,
-        "year_end": 1216,
-        "date": "1216",
-        "era": "Medieval",
-        "event": "Papal recognition of the Dominican Order.",
-        "Source": null,
-        "id": 399
-    },
-    {
-        "year_start": 1219,
-        "year_end": 1219,
-        "date": "1219",
-        "era": "Medieval",
-        "event": "Serbian Orthodox Church becomes autocephalous under St. Sava, its first Archbishop.",
-        "Source": null,
-        "id": 400
-    },
-    {
-        "year_start": 1227,
-        "year_end": 1227,
-        "date": "1227 18 August",
-        "era": "Medieval",
-        "event": "Genghis Khan dies. His kingdom is divided among his children and grandchildren some of which later form the Golden Horde.",
-        "Source": null,
-        "id": 401
-    },
-    {
-        "year_start": 1237,
-        "year_end": 1237,
-        "date": "1237\u20131240 ",
-        "era": "Medieval",
-        "event": "Mongol invasion of Rus' resumes. Causes the split of Kievan Rus' into three components (present day Russia, Ukraine, Belarus).",
-        "Source": null,
-        "id": 402
-    },
-    {
-        "year_start": 1257,
-        "year_end": 1257,
-        "date": "1257",
-        "era": "Medieval",
-        "event": "Opening of the College of Sorbonne.",
-        "Source": null,
-        "id": 403
-    },
-    {
-        "year_start": 1257,
-        "year_end": 1257,
-        "date": "1257",
-        "era": "Medieval",
-        "event": "Provisions of Oxford forced upon Henry III of England. This establishes a new form of government-limited regal authority.",
-        "Source": null,
-        "id": 404
-    },
-    {
-        "year_start": 1258,
-        "year_end": 1258,
-        "date": "1258 29 January\u2013 10 February",
-        "era": "Medieval",
-        "event": "Siege of Baghdad by Ilkhanate Mongol forces Mongols (the Ilkhanate) ensure control of the region.  Generally considered the end of the Islamic Golden Age.",
-        "Source": null,
-        "id": 405
-    },
-    {
-        "year_start": 1258,
-        "year_end": 1258,
-        "date": "1258",
-        "era": "Medieval",
-        "event": "The first Mongol invasion of Vietnam The Mongol army was defeated by emperor Tran Thai Tong of \u0110\u1ea1i Vi\u1ec7t",
-        "Source": null,
-        "id": 406
-    },
-    {
-        "year_start": 1272,
-        "year_end": 1272,
-        "date": "1272\u201373 ",
-        "era": "Medieval",
-        "event": "The Ninth Crusade occurs. Considered to be the Last Major Crusade to take place in the Holy Land.",
-        "Source": null,
-        "id": 407
-    },
-    {
-        "year_start": 1273,
-        "year_end": 1273,
-        "date": "1273 29 September",
-        "era": "Medieval",
-        "event": "Rudolph I of Germany is elected Holy Roman Emperor. This begins the Habsburg de facto domination of the crown that lasted until is dissolution in 1806.",
-        "Source": null,
-        "id": 408
-    },
-    {
-        "year_start": 1274,
-        "year_end": 1274,
-        "date": "1274",
-        "era": "Medieval",
-        "event": "Thomas Aquinas' work, Summa Theologica is published, after his death. Is the main staple of theology during the Middle Ages.",
-        "Source": null,
-        "id": 409
-    },
-    {
-        "year_start": 1279,
-        "year_end": 1279,
-        "date": "1279 19 March",
-        "era": "Medieval",
-        "event": "Battle of Yamen. Marks the end of the Song Dynasty in China, and all of China is under the rule of Kublai Khan as the emperor.",
-        "Source": null,
-        "id": 410
-    },
-    {
-        "year_start": 1282,
-        "year_end": 1282,
-        "date": "1282",
-        "era": "Medieval",
-        "event": "Sicilian Vespers. Sicilians massacre Angevins over a six-week period, after a Frenchman harassed a woman.",
-        "Source": null,
-        "id": 411
-    },
-    {
-        "year_start": 1283,
-        "year_end": 1283,
-        "date": "1283",
-        "era": "Medieval",
-        "event": "First regulated Catalan Courts are formed. Presided by king Peter III of Aragon they become the model for medieval parliaments.",
-        "Source": "https://en.wikipedia.org/wiki/Catalan_Courts",
-        "id": 412
-    },
-    {
-        "year_start": 1285,
-        "year_end": 1285,
-        "date": "1285",
-        "era": "Medieval",
-        "event": "The second Mongol invasion of Vietnam The Mongol army was defeated by emperor Tran Nhan Tong and general Tran Hung Dao.",
-        "Source": null,
-        "id": 413
-    },
-    {
-        "year_start": 1287,
-        "year_end": 1287,
-        "date": "1287",
-        "era": "Medieval",
-        "event": "The third Mongol invasion of Vietnam Decisive Vietnam victory. To avoid further conflict \u0110\u1ea1i Vi\u1ec7t agreed to a tributary relationship with the Yuan dynasty",
-        "Source": null,
-        "id": 414
-    },
-    {
-        "year_start": 1296,
-        "year_end": 1296,
-        "date": "1296",
-        "era": "Medieval",
-        "event": "Edward I of England invades Scotland, starting the First War of Scottish Independence.",
-        "Source": null,
-        "id": 415
-    },
-    {
-        "year_start": 1297,
-        "year_end": 1297,
-        "date": "1297 11 September",
-        "era": "Medieval",
-        "event": "The Battle of Stirling Bridge. William Wallace emerges as the leader of the Scottish resistancce to England.",
-        "Source": null,
-        "id": 416
-    },
-    {
-        "year_start": 1298,
-        "year_end": 1298,
-        "date": "1298",
-        "era": "Medieval",
-        "event": "Marco Polo publishes his tales of China, along with Rustichello da Pisa. A key step to the bridging of Asia and Europe in trade.",
-        "Source": null,
-        "id": 417
-    },
-    {
-        "year_start": 1299,
-        "year_end": 1299,
-        "date": "1299 27 July",
-        "era": "Medieval",
-        "event": "The Ottoman Empire is founded by Osman I. Becomes longest lasting Islamic Empire, lasting over 600 years into the 20th century.",
-        "Source": null,
-        "id": 418
-    },
-    {
-        "year_start": 1305,
-        "year_end": 1305,
-        "date": "23 August 1305",
-        "era": "Medieval",
-        "event": "William Wallace is executed for treason.",
-        "Source": null,
-        "id": 419
-    },
-    {
-        "year_start": 1307,
-        "year_end": 1307,
-        "date": "13 October 1307",
-        "era": "Medieval",
-        "event": "The Knights Templar are rounded up and murdered by Philip the Fair of France, with the backing of the Pope. Hastens the demise of the order within a decade.",
-        "Source": null,
-        "id": 420
-    },
-    {
-        "year_start": 1307,
-        "year_end": 1307,
-        "date": "1307",
-        "era": "Medieval",
-        "event": "The Popes move to Avignon and begin the Babylonian Captivity. The papacy remains there for seven decades which eventually leads to the Western Schism.",
-        "Source": null,
-        "id": 421
-    },
-    {
-        "year_start": 1310,
-        "year_end": 1310,
-        "date": "1310",
-        "era": "Medieval",
-        "event": "Dante publishes his Divine Comedy. Is one of the most defining works of literature during the Late Middle Ages, and among the most recognizable in all of literature.",
-        "Source": null,
-        "id": 422
-    },
-    {
-        "year_start": 1314,
-        "year_end": 1314,
-        "date": "1314 23\u201324 June",
-        "era": "Medieval",
-        "event": "Battle of Bannockburn. Robert the Bruce restores Scotland's de facto independence.",
-        "Source": null,
-        "id": 423
-    },
-    {
-        "year_start": 1325,
-        "year_end": 1325,
-        "date": "1325",
-        "era": "Medieval",
-        "event": "The Mexica found the city of Tenochtitlan. This would later be the epicenter and capital of the Aztec Empire until the Siege of Tenochtitlan 200 years later.",
-        "Source": null,
-        "id": 424
-    },
-    {
-        "year_start": 1328,
-        "year_end": 1328,
-        "date": "1328",
-        "era": "Medieval",
-        "event": "The First War of Scottish Independence ends in Scottish victory with the Treaty of Edinburgh-Northampton and de jure independence.",
-        "Source": null,
-        "id": 425
-    },
-    {
-        "year_start": 1323,
-        "year_end": 1323,
-        "date": "1323",
-        "era": "Medieval",
-        "event": "Romance of the three kingdoms",
-        "Source": null,
-        "id": 426
-    },
-    {
-        "year_start": 1330,
-        "year_end": 1330,
-        "date": "1330 28 July",
-        "era": "Medieval",
-        "event": "Battle of Velbazhd.",
-        "Source": null,
-        "id": 427
-    },
-    {
-        "year_start": 1333,
-        "year_end": 1333,
-        "date": "1333",
-        "era": "Medieval",
-        "event": "Emperor Go-Daigo returns to the throne from exile, and begins the Kenmu restoration ending the Kamakura Shogunate. It only lasts a few years before the Ashikaga Shogunate begins.",
-        "Source": null,
-        "id": 428
-    },
-    {
-        "year_start": 1337,
-        "year_end": 1337,
-        "date": "1337",
-        "era": "Medieval",
-        "event": "The Hundred Years' War begins. England and France struggle for a dominating position in Europe and their region. The war will span through three/four different war periods within a 116-year period.",
-        "Source": null,
-        "id": 429
-    },
-    {
-        "year_start": 1346,
-        "year_end": 1346,
-        "date": "1346 August 26th",
-        "era": "Medieval",
-        "event": "Battle of Cr\u00e9cy. English forces led by Edward III and Edward, the Black Prince defeat the French forces of Philip VI despite being outnumbered at least 4 to 1 thanks to the longbow.",
-        "Source": null,
-        "id": 430
-    },
-    {
-        "year_start": 1347,
-        "year_end": 1347,
-        "date": "1347",
-        "era": "Medieval",
-        "event": "The Black Death ravages Europe for the first of many times. In the first year 20% \u2013 40% of the population perishes, and it eventually kills over half of the population of Europe.",
-        "Source": null,
-        "id": 431
-    },
-    {
-        "year_start": 1347,
-        "year_end": 1347,
-        "date": "1347",
-        "era": "Medieval",
-        "event": "The University of Prague is founded. It is the oldest Czech and German-Speaking University in the world",
-        "Source": null,
-        "id": 432
-    },
-    {
-        "year_start": 1364,
-        "year_end": 1364,
-        "date": "1364",
-        "era": "Medieval",
-        "event": "Astrarium Giovanni de dondi",
-        "Source": null,
-        "id": 433
-    },
-    {
-        "year_start": 1368,
-        "year_end": 1368,
-        "date": "1368",
-        "era": "Medieval",
-        "event": "The fall of the Yuan Dynasty. Its remnants, known as Northern Yuan, continued to rule Mongolia. The breakup of the Mongol Empire, which marked the end of Pax Mongolica.",
-        "Source": null,
-        "id": 434
-    },
-    {
-        "year_start": 1370,
-        "year_end": 1370,
-        "date": "1370",
-        "era": "Medieval",
-        "event": "Tamerlane establishes the Timurid Dynasty. During this 35-year period Tamerlane would ravage his fellow Islamic states such as the Golden Horde and the Delhi Sultanate to restored the Mongol Empire.",
-        "Source": null,
-        "id": 435
-    },
-    {
-        "year_start": 1378,
-        "year_end": 1378,
-        "date": "1378",
-        "era": "Medieval",
-        "event": "The Western Schism during which three claimant popes were elected simultaneously. The Avignon Papacy ends.",
-        "Source": null,
-        "id": 436
-    },
-    {
-        "year_start": 1380,
-        "year_end": 1380,
-        "date": "1380",
-        "era": "Medieval",
-        "event": "Prince Dmitry Donskoy of Moscow led a united Russian army to a victory over the Mongols in the Battle of Kulikovo.",
-        "Source": null,
-        "id": 437
-    },
-    {
-        "year_start": 1380,
-        "year_end": 1380,
-        "date": "1380",
-        "era": "Medieval",
-        "event": "Chaucer begins to write The Canterbury Tales. Chaucer's greatest work and one of the foundations towards the formation of the Modern English language",
-        "Source": null,
-        "id": 438
-    },
-    {
-        "year_start": 1381,
-        "year_end": 1381,
-        "date": "1381",
-        "era": "Medieval",
-        "event": "Peasants' Revolt in England. Quickest-spread revolt in English history and the most popular revolt of the Late Middle Ages.",
-        "Source": null,
-        "id": 439
-    },
-    {
-        "year_start": 1381,
-        "year_end": 1381,
-        "date": "1381",
-        "era": "Medieval",
-        "event": "The Bible is translated into English by John Wycliffe. First print published in English (Vulgate)",
-        "Source": null,
-        "id": 440
-    },
-    {
-        "year_start": 1386,
-        "year_end": 1386,
-        "date": "1386 October 18\u201319th",
-        "era": "Medieval",
-        "event": "The University of Heidelberg is founded. It is the oldest university in Germany.",
-        "Source": null,
-        "id": 441
-    },
-    {
-        "year_start": 1389,
-        "year_end": 1389,
-        "date": "1389 June 28th",
-        "era": "Medieval",
-        "event": "Battle of Kosovo in Serbia between the Turks (Sultan Murat) and the Christian army led by the Serbs (Duke Lazar). The Turkish empire continued to spread over the Balkans, and reaches Vienna.",
-        "Source": null,
-        "id": 442
-    },
-    {
-        "year_start": 1392,
-        "year_end": 1392,
-        "date": "1392",
-        "era": "Medieval",
-        "event": "Joseon Dynasty founded in Korea. Becomes longest reigning Korean dynasty.",
-        "Source": null,
-        "id": 443
-    },
-    {
-        "year_start": 1396,
-        "year_end": 1396,
-        "date": "1396",
-        "era": "Medieval",
-        "event": "The Battle of Nicopolis. The last great Crusade fails. Bulgaria was conquered by the Ottomans",
-        "Source": null,
-        "id": 444
-    },
-    {
-        "year_start": 1397,
-        "year_end": 1397,
-        "date": "1397",
-        "era": "Medieval",
-        "event": "The Kalmar Union is formed. Queen Margaret I of Denmark unites the Denmark, Sweden, and Norway, and lasts until 1523.",
-        "Source": null,
-        "id": 445
-    },
-    {
-        "year_start": 1399,
-        "year_end": 1399,
-        "date": "1399",
-        "era": "Medieval",
-        "event": "Richard II abdicates the throne to Henry of Bolingbroke, who becomes Henry IV of England. End of Plantagenet Dynasty, beginning of the Lancaster lineage of kings.",
-        "Source": null,
-        "id": 446
-    },
-    {
-        "year_start": 1402,
-        "year_end": 1402,
-        "date": "20 July 1402",
-        "era": "Medieval",
-        "event": "Battle of Ankara Bayezid I is captured by Tamerlane's forces, causing the interregnum of the Ottoman Empire.",
-        "Source": null,
-        "id": 447
-    },
-    {
-        "year_start": 1405,
-        "year_end": 1405,
-        "date": "1405",
-        "era": "Medieval",
-        "event": "Chinese naval expeditions of Southeast Asia and the Indian Ocean (to Eastern Africa) begin under Zheng He. This will be the first of seven of the Ming Dynasty-sponsored expeditions.",
-        "Source": null,
-        "id": 448
-    },
-    {
-        "year_start": 1409,
-        "year_end": 1409,
-        "date": "1409",
-        "era": "Medieval",
-        "event": "Ladislaus of Naples sells his 'rights' on Dalmatia to the Venetian Republic for 100,000 ducats. Dalmatia would with some interruptions remain under Venetian rule for nearly four centuries.",
-        "Source": null,
-        "id": 449
-    },
-    {
-        "year_start": 1410,
-        "year_end": 1410,
-        "date": "1410",
-        "era": "Medieval",
-        "event": "Battle of Grunwald Major turning point in history of Lithuania Poland and the Teutonic Order.",
-        "Source": null,
-        "id": 450
-    },
-    {
-        "year_start": 1415,
-        "year_end": 1415,
-        "date": "1415",
-        "era": "Medieval",
-        "event": "Kingdom of Portugal conquers Ceuta. Beginning of the Portuguese Empire. Beginning of the Age of Discovery.",
-        "Source": null,
-        "id": 451
-    },
-    {
-        "year_start": 1415,
-        "year_end": 1415,
-        "date": "25 October 1415",
-        "era": "Medieval",
-        "event": "Battle of Agincourt. Henry V and his army defeat a numerically superior French army, partially because of the newly introduced English longbow. The turning point in the Hundred Years' War for England.",
-        "Source": null,
-        "id": 452
-    },
-    {
-        "year_start": 1417,
-        "year_end": 1417,
-        "date": "1417",
-        "era": "Medieval",
-        "event": "The Council of Constance ends. The Western Schism comes to a close and elects Pope Martin V as the sole pope.",
-        "Source": null,
-        "id": 453
-    },
-    {
-        "year_start": 1419,
-        "year_end": 1419,
-        "date": "1419",
-        "era": "Medieval",
-        "event": "Hussite Wars begin after four years after the death of Jan Hus in central Europe, dealing with the followers of Jan Hus and those against them.",
-        "Source": null,
-        "id": 454
-    },
-    {
-        "year_start": 1428,
-        "year_end": 1428,
-        "date": "1428",
-        "era": "Medieval",
-        "event": "Itzcoatl, the fourth Mexica king in Tenochtitl\u00e1n, allied with Texcoco and Tlacopan, defeats Azcapotzalco. Signifies the birth of the Aztec Empire and the start of a 90 years aggressive expansion.",
-        "Source": null,
-        "id": 455
-    },
-    {
-        "year_start": 1429,
-        "year_end": 1429,
-        "date": "1429",
-        "era": "Medieval",
-        "event": "Jeanne d\u2019Arc lifts the siege of Orl\u00e9ans for the Dauphin of France. This and following battles drive the English from the continent and allow the Dauphin to be crowned in Reims.",
-        "Source": "https://en.wikipedia.org/wiki/Joan_of_Arc",
-        "id": 456
-    },
-    {
-        "year_start": 1431,
-        "year_end": 1431,
-        "date": "30 May 1431",
-        "era": "Medieval",
-        "event": "Trial and execution of Jeanne d\u2019Arc. Death of the woman who helped turn the Hundred Years' War in favor of the French over the past two years.",
-        "Source": "https://en.wikipedia.org/wiki/Joan_of_Arc",
-        "id": 457
-    },
-    {
-        "year_start": 1434,
-        "year_end": 1434,
-        "date": "1434",
-        "era": "Medieval",
-        "event": "The Medici family rises to prominence in Florence. Over the next three centuries the Medicis are bankers, popes, queens (regents) and dukes, in Italy but also throughout Europe.",
-        "Source": null,
-        "id": 458
-    },
-    {
-        "year_start": 1434,
-        "year_end": 1434,
-        "date": "1434",
-        "era": "Medieval",
-        "event": "Aronolfini Portrait Jan Van Eyck evidence on usage of convex mirror",
-        "Source": null,
-        "id": 459
-    },
-    {
-        "year_start": 1438,
-        "year_end": 1438,
-        "date": "1438",
-        "era": "Medieval",
-        "event": "Prince Cusi Yupanqui becomes the first Inca emperor. Inca civilization begins expanding and the Inca Empire is born.",
-        "Source": null,
-        "id": 460
-    },
-    {
-        "year_start": 1439,
-        "year_end": 1439,
-        "date": "1439",
-        "era": "Medieval",
-        "event": "Johannes Gutenberg invents the printing press.",
-        "Source": null,
-        "id": 461
-    },
-    {
-        "year_start": 1442,
-        "year_end": 1442,
-        "date": "1442",
-        "era": "Medieval",
-        "event": "Battle of Szeben Third significant victory for the Hungarian forces led by Janos Hunyadi over the Ottoman forces.",
-        "Source": null,
-        "id": 462
-    },
-    {
-        "year_start": 1443,
-        "year_end": 1443,
-        "date": "1443",
-        "era": "Medieval",
-        "event": "Sejong the Great creates Hangul, the Korean script still in use today.",
-        "Source": null,
-        "id": 463
-    },
-    {
-        "year_start": 1444,
-        "year_end": 1444,
-        "date": "10 November 1444",
-        "era": "Medieval",
-        "event": "Battle of Varna Final battle of the Crusade of Varna, Ottomans are victorious over the Hungarian-Polish armies, and W\u0142adys\u0142aw III of Poland dies.",
-        "Source": null,
-        "id": 464
-    },
-    {
-        "year_start": 1452,
-        "year_end": 1452,
-        "date": "1452",
-        "era": "Medieval",
-        "event": "Coronation of Frederick III the first emperor of the House of Habsburg and last emperor to be crowned in Rome.",
-        "Source": "https://en.wikipedia.org/wiki/Frederick_III,_Holy_Roman_Emperor",
-        "id": 465
-    },
-    {
-        "year_start": 1453,
-        "year_end": 1453,
-        "date": "1453",
-        "era": "Medieval",
-        "event": "Constantinople falls to the Ottoman Turks ending the Eastern Roman (Byzantine) Empire. Constantinople becomes the capital of the Ottoman Empire.",
-        "Source": null,
-        "id": 466
-    },
-    {
-        "year_start": 1453,
-        "year_end": 1453,
-        "date": "1453",
-        "era": "Medieval",
-        "event": "The Hundred Years' War ends. England's once vast territory in France is now reduced to only Calais, which they eventually lose control of as well.",
-        "Source": null,
-        "id": 467
-    },
-    {
-        "year_start": 1455,
-        "year_end": 1455,
-        "date": "22 May 1455",
-        "era": "Medieval",
-        "event": "Battle of St. Albans that traditionally marks the beginning of the War of the Roses.",
-        "Source": null,
-        "id": 468
-    },
-    {
-        "year_start": 1456,
-        "year_end": 1456,
-        "date": "1456",
-        "era": "Medieval",
-        "event": "Siege of Belgrade, which marks the end of the Medieval Serbian state.  Major Ottoman advances are halted for seven decades  last major victory for Hunyadi.",
-        "Source": null,
-        "id": 469
-    },
-    {
-        "year_start": 1459,
-        "year_end": 1459,
-        "date": "1459",
-        "era": "Medieval",
-        "event": "Smederevo falls under the Turks",
-        "Source": null,
-        "id": 470
-    },
-    {
-        "year_start": 1461,
-        "year_end": 1461,
-        "date": "1461",
-        "era": "Medieval",
-        "event": "The Empire of Trebizond, the last Roman outpost, falls to the Ottoman Turks.",
-        "Source": null,
-        "id": 471
-    },
-    {
-        "year_start": 1464,
-        "year_end": 1464,
-        "date": "1464",
-        "era": "Medieval",
-        "event": "Dardanelles gun Turkish Munir Ali",
-        "Source": null,
-        "id": 472
-    },
-    {
-        "year_start": 1467,
-        "year_end": 1467,
-        "date": "1467\u20131477 ",
-        "era": "Medieval",
-        "event": "\u014cnin War takes place in Japan. First of many significant civil wars between shogunates that would continue for another century during the Muromachi period.",
-        "Source": null,
-        "id": 473
-    },
-    {
-        "year_start": 1475,
-        "year_end": 1475,
-        "date": "1475",
-        "era": "Medieval",
-        "event": "The Khanate of Crimea is conquered and made a vassal state by the Ottoman Empire. Venice is defeated and the Ottoman Empire becomes master of the Aegean Sea.",
-        "Source": null,
-        "id": 474
-    },
-    {
-        "year_start": 1485,
-        "year_end": 1485,
-        "date": "1485",
-        "era": "Medieval",
-        "event": "Thomas Malory composes Le Morte d'Arthur, the best-known work of Arthurian literature in English.",
-        "Source": null,
-        "id": 475
-    },
-    {
-        "year_start": 1485,
-        "year_end": 1485,
-        "date": "22 August 1485 ",
-        "era": "Medieval",
-        "event": "Battle of Bosworth Field during which Richard III dies in battle.",
-        "Source": null,
-        "id": 476
-    },
-    {
-        "year_start": 1487,
-        "year_end": 1487,
-        "date": "1487 June 16",
-        "era": "Medieval",
-        "event": "The Battle of Stoke makes the end of the War of the Roses.",
-        "Source": null,
-        "id": 477
-    },
-    {
-        "year_start": 1492,
-        "year_end": 1492,
-        "date": "1492",
-        "era": "Medieval",
-        "event": "The Reconquista ends. This marks the end of the Moorish-Muslim rule on the Iberian Peninsula and leads to the Unification of Spain.",
-        "Source": null,
-        "id": 478
-    },
-    {
-        "year_start": 1492,
-        "year_end": 1492,
-        "date": "1492",
-        "era": "Medieval",
-        "event": "Christopher Columbus reaches the New World.",
-        "Source": null,
-        "id": 479
-    },
-    {
-        "year_start": 1494,
-        "year_end": 1494,
-        "date": "June 10 1494",
-        "era": "Medieval",
-        "event": "Spain and Portugal sign the Treaty of Tordesillas and agree to divide the World outside of Europe between themselves.",
-        "Source": null,
-        "id": 480
-    },
-    {
-        "year_start": 1494,
-        "year_end": 1494,
-        "date": "1494\u20131559",
-        "era": "Medieval",
-        "event": "The Italian Wars which eventually will lead to the downfall of the Italian city-states.",
-        "Source": null,
-        "id": 481
-    },
-    {
-        "year_start": 1497,
-        "year_end": 1497,
-        "date": "1497",
-        "era": "Medieval",
-        "event": "Vasco da Gama begins his first voyage from Europe to India and back. He was the first European to sail directly from Europe to Eastern Asia.",
-        "Source": null,
-        "id": 482
-    },
-    {
-        "year_start": 1499,
-        "year_end": 1499,
-        "date": "1499",
-        "era": "Medieval",
-        "event": "The Ottoman fleet defeats Venetians at the Battle of Zonchio. This marks the first naval battle that used cannons in ships. ",
-        "Source": null,
-        "id": 483
-    },
-    {
-        "year_start": -284,
-        "year_end": -246,
-        "date": "284 - 246 BCE",
-        "era": "Ancient & Classical",
-        "event": "The Lighthouse of Alexandria is built during the reign of Ptolemy II. It exceeded 100 meteres in overall height.",
-        "Source": "https://en.wikipedia.org/wiki/Lighthouse_of_Alexandria",
-        "id": 484
-    },
-    {
-        "year_start": 1480,
-        "year_end": 1480,
-        "date": "1480",
-        "era": "Early Modern",
-        "event": "The last remaining stones of the abandoned Lighthouse of Alexandria are used to built the Citadel of Qaitbay.",
-        "Source": "https://en.wikipedia.org/wiki/Lighthouse_of_Alexandria",
-        "id": 485
-    },
-    {
-        "year_start": -280,
-        "year_end": -280,
-        "date": "280 BCE",
-        "era": "Ancient & Classical",
-        "event": "The Colossus of Rhodes is built to celebrate the defence of Rhodes against Demetrius Poliorcetes",
-        "Source": "https://en.wikipedia.org/wiki/Colossus_of_Rhodes",
-        "id": 486
-    },
-    {
-        "year_start": 653,
-        "year_end": 653,
-        "date": "653",
-        "era": "Medieval",
-        "event": "Arab force under Muslim general Muawiyah I conqueres Rhodes and destroys the Collosus of Rhodes.",
-        "Source": "https://en.wikipedia.org/wiki/Colossus_of_Rhodes",
-        "id": 487
-    },
-    {
-        "year_start": 1452,
-        "year_end": 1452,
-        "date": "1452",
-        "era": "Renaissance",
-        "event": "Leonardo da Vinci is born",
-        "Source": "https://www.thoughtco.com/renaissance-timeline-4158077",
-        "id": 488
-    },
-    {
-        "year_start": 1454,
-        "year_end": 1454,
-        "date": "1454",
-        "era": "Renaissance",
-        "event": "Johannes Gutenberg published the\u00a0Gutenberg Bible ",
-        "Source": "https://www.thoughtco.com/renaissance-timeline-4158077",
-        "id": 489
-    },
-    {
-        "year_start": 1469,
-        "year_end": 1469,
-        "date": "1469",
-        "era": "Renaissance",
-        "event": "Lorenzo de Medici \"The Magnificent\u201d takes over power in Florence. : his rule is considered the high point of the Florentine Renaissance. ",
-        "Source": "https://www.thoughtco.com/renaissance-timeline-4158077",
-        "id": 490
-    },
-    {
-        "year_start": 1481,
-        "year_end": 1481,
-        "date": "1481",
-        "era": "Renaissance",
-        "event": "Construction of the Sistine Chapel is finished",
-        "Source": "https://en.wikipedia.org/wiki/Sistine_Chapel",
-        "id": 491
-    },
-    {
-        "year_start": 1509,
-        "year_end": 1509,
-        "date": "1509",
-        "era": "Renaissance",
-        "event": "\u00a0Henry VIII\u00a0came to power in England ",
-        "Source": "https://www.thoughtco.com/renaissance-timeline-4158077",
-        "id": 492
-    },
-    {
-        "year_start": 1530,
-        "year_end": 1530,
-        "date": "1530",
-        "era": "Renaissance",
-        "event": "\u00a0Charles V\u00a0 become Holy Roman Emperor",
-        "Source": "https://www.thoughtco.com/renaissance-timeline-4158077",
-        "id": 493
-    },
-    {
-        "year_start": 1525,
-        "year_end": 1525,
-        "date": "1525",
-        "era": "Renaissance",
-        "event": "The Battle of Pavia took place between France and the Holy Roman Empire, ending French claims on Italy ",
-        "Source": "https://www.thoughtco.com/renaissance-timeline-4158077",
-        "id": 494
-    },
-    {
-        "year_start": 1471,
-        "year_end": 1528,
-        "date": "1471-1528",
-        "era": "Renaissance",
-        "event": "Life of Albrecht D\u00fcrer",
-        "Source": "https://en.wikipedia.org/wiki/Albrecht_D\u00fcrer",
-        "id": 495
-    },
-    {
-        "year_start": 1513,
-        "year_end": 1513,
-        "date": "1513",
-        "era": "Renaissance",
-        "event": "Niccol\u00f2 Machiavelli wrote \u2018The Prince\u2019",
-        "Source": "https://www.thoughtco.com/renaissance-timeline-4158077",
-        "id": 496
-    },
-    {
-        "year_start": 1516,
-        "year_end": 1516,
-        "date": "1516",
-        "era": "Renaissance",
-        "event": "Thomas More wrote \u2018Utopia\u2019",
-        "Source": "https://www.thoughtco.com/renaissance-timeline-4158077",
-        "id": 497
-    },
-    {
-        "year_start": 1536,
-        "year_end": 1536,
-        "date": "1536",
-        "era": "Renaissance",
-        "event": "Miguel CervantesMiguel Cervantes",
-        "Source": "https://www.thoughtco.com/renaissance-timeline-4158077",
-        "id": 498
-    },
-    {
-        "year_start": 1605,
-        "year_end": 1605,
-        "date": "1605",
-        "era": "Renaissance",
-        "event": "William Shakespeare wrote \"Hamlet,\"",
-        "Source": "https://www.thoughtco.com/renaissance-timeline-4158077",
-        "id": 499
-    },
-    {
-        "year_start": 1605,
-        "year_end": 1615,
-        "date": "Part 1 in 1605, Part 2 in 1615",
-        "era": "Renaissance",
-        "event": "Miguel Cervantes' \"Don Quixote\" was published. It is often labeled as the first modern novel",
-        "Source": "https://en.wikipedia.org/wiki/Don_Quixote",
-        "id": 500
-    },
-    {
-        "year_start": 1558,
-        "year_end": 1558,
-        "date": "17 November 1558 ",
-        "era": "Renaissance",
-        "event": "Elizabeth I\u00a0\u201cthe Virgin Queen\u201d was crowned queen ",
-        "Source": "https://en.wikipedia.org/wiki/Elizabeth_I",
-        "id": 501
-    },
-    {
-        "year_start": 1789,
-        "year_end": 1799,
-        "date": "5\u00a0May\u00a01789\u00a0\u2013 9\u00a0November\u00a01799 ",
-        "era": "Enlightenment\u00a0 ",
-        "event": "The French Revolution takes place",
-        "Source": "https://en.wikipedia.org/wiki/French_Revolution",
-        "id": 502
-    },
-    {
-        "year_start": 1789,
-        "year_end": 1789,
-        "date": "14 July 1789 ",
-        "era": "Enlightenment\u00a0 ",
-        "event": "Storming of the Bastille makes the beginning of the French Revolution",
-        "Source": "https://en.wikipedia.org/wiki/Storming_of_the_Bastille",
-        "id": 503
+const questionData = {
+    'history': {
+        'questionDate': "2021-11-26T23:47:17.156421",
+        'questionNumber': 504,
+        'questions': [
+            {
+                "date_start": -3200,
+                "date_end": -3200,
+                "date": "c. 3200 BCE",
+                "era": "Ancient & Classical",
+                "event": "Sumerian cuneiform writing system and Egyptian hieroglyphs",
+                "Source": null,
+                "id": 0
+            },
+            {
+                "date_start": -3200,
+                "date_end": -3200,
+                "date": "c. 3200 BCE",
+                "era": "Ancient & Classical",
+                "event": "Newgrange built in Ireland",
+                "Source": null,
+                "id": 1
+            },
+            {
+                "date_start": -3200,
+                "date_end": -3200,
+                "date": "c. 3200 BCE",
+                "era": "Ancient & Classical",
+                "event": "Cycladic culture in Greece",
+                "Source": null,
+                "id": 2
+            },
+            {
+                "date_start": -3200,
+                "date_end": -3200,
+                "date": "c. 3200 BCE",
+                "era": "Ancient & Classical",
+                "event": "Norte Chico civilization begins in Peru",
+                "Source": null,
+                "id": 3
+            },
+            {
+                "date_start": -3200,
+                "date_end": -3200,
+                "date": "c. 3200 BCE",
+                "era": "Ancient & Classical",
+                "event": "Rise of Proto-Elamite Civilization in Iran",
+                "Source": null,
+                "id": 4
+            },
+            {
+                "date_start": -3150,
+                "date_end": -3150,
+                "date": "c. 3150 BCE",
+                "era": "Ancient & Classical",
+                "event": "First Dynasty of Egypt",
+                "Source": null,
+                "id": 5
+            },
+            {
+                "date_start": -3100,
+                "date_end": -3100,
+                "date": "c. 3100 BCE",
+                "era": "Ancient & Classical",
+                "event": "Skara Brae in Scotland",
+                "Source": null,
+                "id": 6
+            },
+            {
+                "date_start": -3000,
+                "date_end": -3000,
+                "date": "c. 3000 BCE",
+                "era": "Ancient & Classical",
+                "event": "Egyptian calendar",
+                "Source": null,
+                "id": 7
+            },
+            {
+                "date_start": -3000,
+                "date_end": -3000,
+                "date": "c. 3000 BCE",
+                "era": "Ancient & Classical",
+                "event": "Stonehenge construction begins. In its first version, it consisted of a circular ditch and bank, with 56 wooden posts.",
+                "Source": null,
+                "id": 8
+            },
+            {
+                "date_start": -3000,
+                "date_end": -3000,
+                "date": "c. 3000 BCE",
+                "era": "Ancient & Classical",
+                "event": "Cucuteni-Trypillian culture in Romania and Ukraine",
+                "Source": null,
+                "id": 9
+            },
+            {
+                "date_start": -3000,
+                "date_end": -3000,
+                "date": "c. 3000 BCE",
+                "era": "Ancient & Classical",
+                "event": "Jiroft civilization begins in Iran",
+                "Source": null,
+                "id": 10
+            },
+            {
+                "date_start": -3000,
+                "date_end": -3000,
+                "date": "c. 3000 BCE",
+                "era": "Ancient & Classical",
+                "event": "First known use of papyrus by Egyptians",
+                "Source": null,
+                "id": 11
+            },
+            {
+                "date_start": -2800,
+                "date_end": -2800,
+                "date": "c. 2800 BCE",
+                "era": "Ancient & Classical",
+                "event": "Kot Diji phase of the Indus Valley Civilization begins",
+                "Source": null,
+                "id": 12
+            },
+            {
+                "date_start": -2800,
+                "date_end": -2800,
+                "date": "c. 2800 BCE",
+                "era": "Ancient & Classical",
+                "event": "Longshan culture in China",
+                "Source": null,
+                "id": 13
+            },
+            {
+                "date_start": -2700,
+                "date_end": -2700,
+                "date": "c. 2700 BCE",
+                "era": "Ancient & Classical",
+                "event": "Minoan Civilization ancient palace city Knossos reach 80,000",
+                "Source": null,
+                "id": 14
+            },
+            {
+                "date_start": -2700,
+                "date_end": -2700,
+                "date": "c. 2700 BCE",
+                "era": "Ancient & Classical",
+                "event": "Rise of Elam in Iran",
+                "Source": null,
+                "id": 15
+            },
+            {
+                "date_start": -2700,
+                "date_end": -2700,
+                "date": "c. 2700 BCE",
+                "era": "Ancient & Classical",
+                "event": "The Epic of Gilgamesh becomes the first written story",
+                "Source": null,
+                "id": 16
+            },
+            {
+                "date_start": -2700,
+                "date_end": -2700,
+                "date": "c. 2700 BCE",
+                "era": "Ancient & Classical",
+                "event": "The Old Kingdom begins in Egypt",
+                "Source": null,
+                "id": 17
+            },
+            {
+                "date_start": -2600,
+                "date_end": -2600,
+                "date": "c. 2600 BCE",
+                "era": "Ancient & Classical",
+                "event": "Oldest known surviving literature: Sumerian texts from Abu Salabikh, including the Instructions of Shuruppak and the Kesh temple hymn.",
+                "Source": null,
+                "id": 18
+            },
+            {
+                "date_start": -2600,
+                "date_end": -2600,
+                "date": "c. 2600 BCE",
+                "era": "Ancient & Classical",
+                "event": "Mature Harappan phase of the Indus Valley civilization (in present-day Pakistan and India) begins",
+                "Source": null,
+                "id": 19
+            },
+            {
+                "date_start": -2600,
+                "date_end": -2600,
+                "date": "c. 2600 BCE",
+                "era": "Ancient & Classical",
+                "event": "Emergence of Maya culture in the Yucat\u00e1n Peninsula",
+                "Source": null,
+                "id": 20
+            },
+            {
+                "date_start": -2560,
+                "date_end": -2560,
+                "date": "2560 BCE",
+                "era": "Ancient & Classical",
+                "event": "King Khufu completes the Great Pyramid of Giza. The Land of Punt in the Horn of Africa first appears in Egyptian records around this time.",
+                "Source": null,
+                "id": 21
+            },
+            {
+                "date_start": -2500,
+                "date_end": -1500,
+                "date": "2500-1500 BCE",
+                "era": "Ancient & Classical",
+                "event": "Kerma culture in Nubia",
+                "Source": null,
+                "id": 22
+            },
+            {
+                "date_start": -2500,
+                "date_end": -2500,
+                "date": "c. 2500 BCE",
+                "era": "Ancient & Classical",
+                "event": "The mammoth goes extinct.",
+                "Source": null,
+                "id": 23
+            },
+            {
+                "date_start": -2334,
+                "date_end": -2270,
+                "date": "2334 or 2270 BCE",
+                "era": "Ancient & Classical",
+                "event": "Akkadian Empire is founded, dating depends upon whether the Middle chronology or the Short chronology is used.",
+                "Source": null,
+                "id": 24
+            },
+            {
+                "date_start": -2250,
+                "date_end": -2250,
+                "date": "2250 BCE",
+                "era": "Ancient & Classical",
+                "event": "Oldest known depiction of the Staff God, the oldest image of a god to be found in the Americas.",
+                "Source": null,
+                "id": 25
+            },
+            {
+                "date_start": -2200,
+                "date_end": -2100,
+                "date": "2200-2100 BCE",
+                "era": "Ancient & Classical",
+                "event": "The 4.2-kiloyear BP aridification event, which may have caused the collapse of the Old Kingdom in Egypt, the Akkadian Empire in Mesopotamia, and the Liangzhu culture in the Yangtze River area.",
+                "Source": null,
+                "id": 26
+            },
+            {
+                "date_start": -2200,
+                "date_end": -2200,
+                "date": "2200 BCE",
+                "era": "Ancient & Classical",
+                "event": "completion of Stonehenge.",
+                "Source": null,
+                "id": 27
+            },
+            {
+                "date_start": -2055,
+                "date_end": -2055,
+                "date": "2055 BCE",
+                "era": "Ancient & Classical",
+                "event": "The Middle Kingdom begins in Egypt",
+                "Source": null,
+                "id": 28
+            },
+            {
+                "date_start": -2000,
+                "date_end": -2000,
+                "date": "2000 BCE",
+                "era": "Ancient & Classical",
+                "event": "Domestication of the horse",
+                "Source": null,
+                "id": 29
+            },
+            {
+                "date_start": -1900,
+                "date_end": -1900,
+                "date": "1900 BCE",
+                "era": "Ancient & Classical",
+                "event": "Erlitou culture in China",
+                "Source": null,
+                "id": 30
+            },
+            {
+                "date_start": -1800,
+                "date_end": -1800,
+                "date": "1800 BCE",
+                "era": "Ancient & Classical",
+                "event": "alphabetic writing emerges",
+                "Source": null,
+                "id": 31
+            },
+            {
+                "date_start": -1780,
+                "date_end": -1780,
+                "date": "1780 BCE",
+                "era": "Ancient & Classical",
+                "event": "Oldest Record of Hammurabi's Code.",
+                "Source": null,
+                "id": 32
+            },
+            {
+                "date_start": -1700,
+                "date_end": -1700,
+                "date": "1700 BCE",
+                "era": "Ancient & Classical",
+                "event": "Indus Valley Civilization comes to an end but is continued by the Cemetery H culture",
+                "Source": null,
+                "id": 33
+            },
+            {
+                "date_start": -1600,
+                "date_end": -1600,
+                "date": "1600 BCE",
+                "era": "Ancient & Classical",
+                "event": "Minoan civilization on Crete is destroyed by the Minoan eruption of Santorini island.",
+                "Source": null,
+                "id": 34
+            },
+            {
+                "date_start": -1600,
+                "date_end": -1600,
+                "date": "1600 BCE",
+                "era": "Ancient & Classical",
+                "event": "Mycenaean Greece",
+                "Source": null,
+                "id": 35
+            },
+            {
+                "date_start": -1600,
+                "date_end": -1600,
+                "date": "1600 BCE",
+                "era": "Ancient & Classical",
+                "event": "The beginning of Shang Dynasty in China, evidence of a fully developed Chinese writing system",
+                "Source": null,
+                "id": 36
+            },
+            {
+                "date_start": -1600,
+                "date_end": -1600,
+                "date": "1600 BCE",
+                "era": "Ancient & Classical",
+                "event": "Beginning of Hittite dominance of the Eastern Mediterranean region",
+                "Source": null,
+                "id": 37
+            },
+            {
+                "date_start": -1550,
+                "date_end": -1550,
+                "date": "c.1550 BCE",
+                "era": "Ancient & Classical",
+                "event": "The  New Kingdom begins in Egypt",
+                "Source": null,
+                "id": 38
+            },
+            {
+                "date_start": -1500,
+                "date_end": -1500,
+                "date": "1500 BCE",
+                "era": "Ancient & Classical",
+                "event": "Composition of the Rigveda is completed",
+                "Source": null,
+                "id": 39
+            },
+            {
+                "date_start": -1400,
+                "date_end": -1400,
+                "date": "c.1400 BCE",
+                "era": "Ancient & Classical",
+                "event": "Oldest known song with notation",
+                "Source": null,
+                "id": 40
+            },
+            {
+                "date_start": -1400,
+                "date_end": -400,
+                "date": "1400-400 BCE",
+                "era": "Ancient & Classical",
+                "event": "Olmec civilization flourishes in Pre-Columbian Mexico, during Mesoamerica's Formative period",
+                "Source": null,
+                "id": 41
+            },
+            {
+                "date_start": -1200,
+                "date_end": -1200,
+                "date": "1200 BCE",
+                "era": "Ancient & Classical",
+                "event": "The Hallstatt culture",
+                "Source": null,
+                "id": 42
+            },
+            {
+                "date_start": -1200,
+                "date_end": -1150,
+                "date": "1200-1150 BCE",
+                "era": "Ancient & Classical",
+                "event": "Bronze Age collapse in Southwestern Asia and Eastern Mediterranean region. This forms the setting of the Iliad and the Odyssey epic poems which were composed about four centuries later.",
+                "Source": null,
+                "id": 43
+            },
+            {
+                "date_start": -1180,
+                "date_end": -1180,
+                "date": "c. 1180 BCE",
+                "era": "Ancient & Classical",
+                "event": "Disintegration of Hittite Empire",
+                "Source": null,
+                "id": 44
+            },
+            {
+                "date_start": -1100,
+                "date_end": -1100,
+                "date": "1100 BCE",
+                "era": "Ancient & Classical",
+                "event": "Use of Iron spreads.",
+                "Source": null,
+                "id": 45
+            },
+            {
+                "date_start": -1046,
+                "date_end": -1046,
+                "date": "1046 BCE",
+                "era": "Ancient & Classical",
+                "event": "The Zhou force (led by King Wu of Zhou) overthrow the last king of Shang Dynasty",
+                "Source": null,
+                "id": 46
+            },
+            {
+                "date_start": -1000,
+                "date_end": -1000,
+                "date": "1000 BCE",
+                "era": "Ancient & Classical",
+                "event": "Nok culture in West Africa",
+                "Source": null,
+                "id": 47
+            },
+            {
+                "date_start": -1000,
+                "date_end": -1000,
+                "date": "c.1000 BCE",
+                "era": "Ancient & Classical",
+                "event": "King David begins his reign as the second King of Israel, after Saul",
+                "Source": null,
+                "id": 48
+            },
+            {
+                "date_start": -970,
+                "date_end": -970,
+                "date": "970 BCE",
+                "era": "Ancient & Classical",
+                "event": "King Solomon begins his reign as third King of Israel, after David",
+                "Source": null,
+                "id": 49
+            },
+            {
+                "date_start": -890,
+                "date_end": -890,
+                "date": "890 BCE",
+                "era": "Ancient & Classical",
+                "event": "Approximate date for the composition of the Iliad and the Odyssey",
+                "Source": null,
+                "id": 50
+            },
+            {
+                "date_start": -814,
+                "date_end": -814,
+                "date": "814 BCE",
+                "era": "Ancient & Classical",
+                "event": "Foundation of Carthage by the Phoenicians in today known Tunisia",
+                "Source": null,
+                "id": 51
+            },
+            {
+                "date_start": -800,
+                "date_end": -800,
+                "date": "800 BCE",
+                "era": "Ancient & Classical",
+                "event": "Rise of Greek city-states",
+                "Source": null,
+                "id": 52
+            },
+            {
+                "date_start": -788,
+                "date_end": -788,
+                "date": "788 BCE",
+                "era": "Ancient & Classical",
+                "event": "Iron Ancient in Sungai Batu (Old Kedah)",
+                "Source": null,
+                "id": 53
+            },
+            {
+                "date_start": -785,
+                "date_end": -785,
+                "date": "c.785 BCE",
+                "era": "Ancient & Classical",
+                "event": "Rise of the Kingdom of Kush",
+                "Source": null,
+                "id": 54
+            },
+            {
+                "date_start": -776,
+                "date_end": -776,
+                "date": "776 BCE",
+                "era": "Ancient & Classical",
+                "event": "First recorded Ancient Olympic Games.",
+                "Source": null,
+                "id": 55
+            },
+            {
+                "date_start": -753,
+                "date_end": -753,
+                "date": "753 BCE",
+                "era": "Ancient & Classical",
+                "event": "Founding of Rome (traditional date)",
+                "Source": null,
+                "id": 56
+            },
+            {
+                "date_start": -745,
+                "date_end": -745,
+                "date": "745 BCE",
+                "era": "Ancient & Classical",
+                "event": "Tiglath-Pileser III becomes the new king of Assyria. With time he conquers neighboring countries and turns Assyria into an empire.",
+                "Source": null,
+                "id": 57
+            },
+            {
+                "date_start": -728,
+                "date_end": -728,
+                "date": "728 BCE",
+                "era": "Ancient & Classical",
+                "event": "Rise of the Median Empire.",
+                "Source": null,
+                "id": 58
+            },
+            {
+                "date_start": -722,
+                "date_end": -722,
+                "date": "722 BCE",
+                "era": "Ancient & Classical",
+                "event": "Spring and Autumn period begins in China. The era of the Hundred Schools of Thought.",
+                "Source": null,
+                "id": 59
+            },
+            {
+                "date_start": -700,
+                "date_end": -700,
+                "date": "700 BCE",
+                "era": "Ancient & Classical",
+                "event": "The construction of Marib Dam in Arabia Felix.",
+                "Source": null,
+                "id": 60
+            },
+            {
+                "date_start": -660,
+                "date_end": -660,
+                "date": "660 BCE",
+                "era": "Ancient & Classical",
+                "event": "Purported date of the accession of Jimmu, the mythical first Emperor of Japan.",
+                "Source": null,
+                "id": 61
+            },
+            {
+                "date_start": -653,
+                "date_end": -653,
+                "date": "653 BCE",
+                "era": "Ancient & Classical",
+                "event": "Rise of Persian Empire.",
+                "Source": null,
+                "id": 62
+            },
+            {
+                "date_start": -612,
+                "date_end": -612,
+                "date": "612 BCE",
+                "era": "Ancient & Classical",
+                "event": "An alliance between the Babylonians, Medes, and Scythians succeeds in destroying Nineveh and causing subsequent fall of the Assyrian empire.",
+                "Source": null,
+                "id": 63
+            },
+            {
+                "date_start": -600,
+                "date_end": -600,
+                "date": "600 BCE",
+                "era": "Ancient & Classical",
+                "event": "Pandyan kingdom in South India.",
+                "Source": null,
+                "id": 64
+            },
+            {
+                "date_start": -600,
+                "date_end": -600,
+                "date": "600 BCE",
+                "era": "Ancient & Classical",
+                "event": "Sixteen Maha Janapadas ('Great Realms' or 'Great Kingdoms') emerge in India.",
+                "Source": null,
+                "id": 65
+            },
+            {
+                "date_start": -600,
+                "date_end": -600,
+                "date": "600 BCE",
+                "era": "Ancient & Classical",
+                "event": "Evidence of writing system appear in Oaxaca used by the Zapotec civilization.",
+                "Source": null,
+                "id": 66
+            },
+            {
+                "date_start": -600,
+                "date_end": -600,
+                "date": "c. 600 BCE",
+                "era": "Ancient & Classical",
+                "event": "Rise of the Sao civilisation near Lake Chad",
+                "Source": null,
+                "id": 67
+            },
+            {
+                "date_start": -563,
+                "date_end": -563,
+                "date": "563 BCE",
+                "era": "Ancient & Classical",
+                "event": "Siddhartha Gautama (Buddha), founder of Buddhism is born as a prince of the Shakya tribe, which ruled parts of Magadha, one of the Maha Janapadas.",
+                "Source": null,
+                "id": 68
+            },
+            {
+                "date_start": -551,
+                "date_end": -551,
+                "date": "551 BCE",
+                "era": "Ancient & Classical",
+                "event": "Confucius, founder of Confucianism, is born.",
+                "Source": null,
+                "id": 69
+            },
+            {
+                "date_start": -550,
+                "date_end": -550,
+                "date": "550 BCE",
+                "era": "Ancient & Classical",
+                "event": "Foundation of the Persian Empire by Cyrus the Great.",
+                "Source": null,
+                "id": 70
+            },
+            {
+                "date_start": -549,
+                "date_end": -549,
+                "date": "549 BCE",
+                "era": "Ancient & Classical",
+                "event": "Mahavira, founder of Jainism, is born.",
+                "Source": null,
+                "id": 71
+            },
+            {
+                "date_start": -546,
+                "date_end": -546,
+                "date": "546 BCE",
+                "era": "Ancient & Classical",
+                "event": "Cyrus the Great overthrows Croesus King of Lydia.",
+                "Source": null,
+                "id": 72
+            },
+            {
+                "date_start": -544,
+                "date_end": -544,
+                "date": "544 BCE",
+                "era": "Ancient & Classical",
+                "event": "Rise of Magadha as the dominant power under Bimbisara.",
+                "Source": null,
+                "id": 73
+            },
+            {
+                "date_start": -539,
+                "date_end": -539,
+                "date": "539 BCE",
+                "era": "Ancient & Classical",
+                "event": "The fall of the Babylonian Empire and liberation of the Jews by Cyrus the Great.",
+                "Source": null,
+                "id": 74
+            },
+            {
+                "date_start": -529,
+                "date_end": -529,
+                "date": "529 BCE",
+                "era": "Ancient & Classical",
+                "event": "Death of Cyrus",
+                "Source": null,
+                "id": 75
+            },
+            {
+                "date_start": -525,
+                "date_end": -525,
+                "date": "525 BCE",
+                "era": "Ancient & Classical",
+                "event": "Cambyses II of Persia conquers Egypt.",
+                "Source": null,
+                "id": 76
+            },
+            {
+                "date_start": -512,
+                "date_end": -512,
+                "date": "c. 512 BCE",
+                "era": "Ancient & Classical",
+                "event": "Darius I (Darius the Great) of Persia, subjugates eastern Thrace, Macedonia submits voluntarily, and annexes Libya, Persian Empire at largest extent.",
+                "Source": null,
+                "id": 77
+            },
+            {
+                "date_start": -509,
+                "date_end": -509,
+                "date": "509 BCE",
+                "era": "Ancient & Classical",
+                "event": "Expulsion of the last King of Rome, founding of Roman Republic (traditional date).",
+                "Source": null,
+                "id": 78
+            },
+            {
+                "date_start": -508,
+                "date_end": -508,
+                "date": "508 BCE",
+                "era": "Ancient & Classical",
+                "event": "Democracy instituted at Athens",
+                "Source": null,
+                "id": 79
+            },
+            {
+                "date_start": -500,
+                "date_end": -500,
+                "date": "c. 500 BCE",
+                "era": "Ancient & Classical",
+                "event": "Completion  of Euclid's Elements",
+                "Source": null,
+                "id": 80
+            },
+            {
+                "date_start": -500,
+                "date_end": -500,
+                "date": "500 BCE",
+                "era": "Ancient & Classical",
+                "event": "Panini standardizes the grammar and morphology of Sanskrit in the text Ashtadhyayi. Panini's standardized Sanskrit is known as Classical Sanskrit.",
+                "Source": null,
+                "id": 81
+            },
+            {
+                "date_start": -500,
+                "date_end": -500,
+                "date": "500 BCE",
+                "era": "Ancient & Classical",
+                "event": "Pingala uses zero and binary numeral system",
+                "Source": null,
+                "id": 82
+            },
+            {
+                "date_start": -499,
+                "date_end": -499,
+                "date": "499 BCE",
+                "era": "Ancient & Classical",
+                "event": "King Aristagoras of Miletus incites all of Hellenic Asia Minor to rebel against the Persian Empire, beginning the Greco-Persian Wars.",
+                "Source": null,
+                "id": 83
+            },
+            {
+                "date_start": -490,
+                "date_end": -490,
+                "date": "490 BCE",
+                "era": "Ancient & Classical",
+                "event": "Greek city-states defeat Persian invasion at Battle of Marathon",
+                "Source": null,
+                "id": 84
+            },
+            {
+                "date_start": -483,
+                "date_end": -483,
+                "date": "483 BCE",
+                "era": "Ancient & Classical",
+                "event": "Death of Gautama Buddha",
+                "Source": null,
+                "id": 85
+            },
+            {
+                "date_start": -480,
+                "date_end": -480,
+                "date": "480 BCE",
+                "era": "Ancient & Classical",
+                "event": "Persian invasion of Greece by Xerxes",
+                "Source": null,
+                "id": 86
+            },
+            {
+                "date_start": -479,
+                "date_end": -479,
+                "date": "479 BCE",
+                "era": "Ancient & Classical",
+                "event": "Death of Confucius",
+                "Source": null,
+                "id": 87
+            },
+            {
+                "date_start": -475,
+                "date_end": -475,
+                "date": "475 BCE",
+                "era": "Ancient & Classical",
+                "event": "Warring States period begins in China as the Zhou king became a mere figurehead",
+                "Source": null,
+                "id": 88
+            },
+            {
+                "date_start": -470,
+                "date_end": -469,
+                "date": "470/469 BCE",
+                "era": "Ancient & Classical",
+                "event": "Birth of Socrates",
+                "Source": null,
+                "id": 89
+            },
+            {
+                "date_start": -465,
+                "date_end": -465,
+                "date": "465 BCE",
+                "era": "Ancient & Classical",
+                "event": "Murder of Xerxes",
+                "Source": null,
+                "id": 90
+            },
+            {
+                "date_start": -460,
+                "date_end": -460,
+                "date": "460 BCE",
+                "era": "Ancient & Classical",
+                "event": "Birth of Democritus",
+                "Source": null,
+                "id": 91
+            },
+            {
+                "date_start": -458,
+                "date_end": -458,
+                "date": "458 BCE",
+                "era": "Ancient & Classical",
+                "event": "The Oresteia by Aeschylus, the only surviving trilogy of ancient Greek plays, is performed.",
+                "Source": null,
+                "id": 92
+            },
+            {
+                "date_start": -449,
+                "date_end": -449,
+                "date": "449 BCE",
+                "era": "Ancient & Classical",
+                "event": "The Greco-Persian Wars end.",
+                "Source": null,
+                "id": 93
+            },
+            {
+                "date_start": -447,
+                "date_end": -447,
+                "date": "447 BCE",
+                "era": "Ancient & Classical",
+                "event": "Building of the Parthenon at Athens started",
+                "Source": null,
+                "id": 94
+            },
+            {
+                "date_start": -432,
+                "date_end": -432,
+                "date": "432 BCE",
+                "era": "Ancient & Classical",
+                "event": "Construction of the Parthenon is completed",
+                "Source": null,
+                "id": 95
+            },
+            {
+                "date_start": -431,
+                "date_end": -431,
+                "date": "431 BCE",
+                "era": "Ancient & Classical",
+                "event": "Beginning of the Peloponnesian war between the Greek city-states",
+                "Source": null,
+                "id": 96
+            },
+            {
+                "date_start": -429,
+                "date_end": -429,
+                "date": "429 BCE",
+                "era": "Ancient & Classical",
+                "event": "Sophocles's play Oedipus Rex is first performed",
+                "Source": null,
+                "id": 97
+            },
+            {
+                "date_start": -427,
+                "date_end": -427,
+                "date": "427 BCE",
+                "era": "Ancient & Classical",
+                "event": "Birth of Plato",
+                "Source": null,
+                "id": 98
+            },
+            {
+                "date_start": -424,
+                "date_end": -424,
+                "date": "424 BCE",
+                "era": "Ancient & Classical",
+                "event": "Nanda dynasty comes to power.",
+                "Source": null,
+                "id": 99
+            },
+            {
+                "date_start": -404,
+                "date_end": -404,
+                "date": "404 BCE",
+                "era": "Ancient & Classical",
+                "event": "End of the Peloponnesian War",
+                "Source": null,
+                "id": 100
+            },
+            {
+                "date_start": -400,
+                "date_end": -400,
+                "date": "400 BCE",
+                "era": "Ancient & Classical",
+                "event": "Zapotec culture flourishes around city of Monte Alb\u00e1n",
+                "Source": null,
+                "id": 101
+            },
+            {
+                "date_start": -400,
+                "date_end": -400,
+                "date": "c. 400 BCE",
+                "era": "Ancient & Classical",
+                "event": "Rise of the Garamantes as an irrigation-based desert state in the Fezzan region of Libya",
+                "Source": null,
+                "id": 102
+            },
+            {
+                "date_start": -399,
+                "date_end": -399,
+                "date": "399 BCE",
+                "era": "Ancient & Classical",
+                "event": "Death of Socrates",
+                "Source": null,
+                "id": 103
+            },
+            {
+                "date_start": -384,
+                "date_end": -384,
+                "date": "384 BCE",
+                "era": "Ancient & Classical",
+                "event": "Birth of Aristotle",
+                "Source": null,
+                "id": 104
+            },
+            {
+                "date_start": -370,
+                "date_end": -370,
+                "date": "370 BCE",
+                "era": "Ancient & Classical",
+                "event": "Death of Democritus",
+                "Source": null,
+                "id": 105
+            },
+            {
+                "date_start": -331,
+                "date_end": -331,
+                "date": "331 BCE",
+                "era": "Ancient & Classical",
+                "event": "Alexander the Great defeats Darius III of Persia in the Battle of Gaugamela, completing his conquest of Persia.",
+                "Source": null,
+                "id": 106
+            },
+            {
+                "date_start": -326,
+                "date_end": -326,
+                "date": "326 BCE",
+                "era": "Ancient & Classical",
+                "event": "Alexander the Great defeats Indian king Porus in the Battle of the Hydaspes River.",
+                "Source": null,
+                "id": 107
+            },
+            {
+                "date_start": -323,
+                "date_end": -323,
+                "date": "323 BCE",
+                "era": "Ancient & Classical",
+                "event": "Death of Alexander the Great at Babylon.",
+                "Source": null,
+                "id": 108
+            },
+            {
+                "date_start": -322,
+                "date_end": -322,
+                "date": "322 BCE",
+                "era": "Ancient & Classical",
+                "event": "Death of Aristotle",
+                "Source": null,
+                "id": 109
+            },
+            {
+                "date_start": -321,
+                "date_end": -321,
+                "date": "321 BCE",
+                "era": "Ancient & Classical",
+                "event": "Chandragupta Maurya overthrows the Nanda Dynasty of Magadha.",
+                "Source": null,
+                "id": 110
+            },
+            {
+                "date_start": -305,
+                "date_end": -305,
+                "date": "305 BCE",
+                "era": "Ancient & Classical",
+                "event": "Chandragupta Maurya seizes the satrapies of Paropanisadai (Kabul), Aria (Herat), Arachosia (Qanadahar) and Gedrosia (Baluchistan) from Seleucus I Nicator, in return for 500 elephants.",
+                "Source": null,
+                "id": 111
+            },
+            {
+                "date_start": -300,
+                "date_end": -300,
+                "date": "300 BCE",
+                "era": "Ancient & Classical",
+                "event": "Sangam literature period in the history of ancient southern India (known as the Tamilakam)",
+                "Source": null,
+                "id": 112
+            },
+            {
+                "date_start": -300,
+                "date_end": -300,
+                "date": "300 BCE",
+                "era": "Ancient & Classical",
+                "event": "Chola Empire in South India",
+                "Source": null,
+                "id": 113
+            },
+            {
+                "date_start": -300,
+                "date_end": -300,
+                "date": "300 BCE",
+                "era": "Ancient & Classical",
+                "event": "Construction of the Great Pyramid of Cholula, the world's largest pyramid by volume (despite the Great Pyramid of Giza being taller) begins in Cholula, Puebla, Mexico.",
+                "Source": null,
+                "id": 114
+            },
+            {
+                "date_start": -273,
+                "date_end": -273,
+                "date": "273 BCE",
+                "era": "Ancient & Classical",
+                "event": "Ashoka becomes the emperor of the Mauryan Empire",
+                "Source": null,
+                "id": 115
+            },
+            {
+                "date_start": -261,
+                "date_end": -261,
+                "date": "261 BCE",
+                "era": "Ancient & Classical",
+                "event": "Kalinga war",
+                "Source": null,
+                "id": 116
+            },
+            {
+                "date_start": -257,
+                "date_end": -257,
+                "date": "257 BCE",
+                "era": "Ancient & Classical",
+                "event": "Th\u1ee5c Dynasty takes over Vi\u1ec7t Nam (then Kingdom of \u00c2u L\u1ea1c)",
+                "Source": null,
+                "id": 117
+            },
+            {
+                "date_start": -255,
+                "date_end": -255,
+                "date": "255 BCE",
+                "era": "Ancient & Classical",
+                "event": "Ashoka sends a Buddhist missionary led by his son who was Mahinda Thero (Buddhist monk) to Sri Lanka (then Lanka) Mahinda (Buddhist monk)",
+                "Source": null,
+                "id": 118
+            },
+            {
+                "date_start": -250,
+                "date_end": -250,
+                "date": "250 BCE",
+                "era": "Ancient & Classical",
+                "event": "Rise of Parthia (Ashk\u00e2ni\u00e2n), the second native dynasty of ancient Persia",
+                "Source": null,
+                "id": 119
+            },
+            {
+                "date_start": -232,
+                "date_end": -232,
+                "date": "232 BCE",
+                "era": "Ancient & Classical",
+                "event": "Death of Emperor Ashoka",
+                "Source": null,
+                "id": 120
+            },
+            {
+                "date_start": -230,
+                "date_end": -230,
+                "date": "230 BCE",
+                "era": "Ancient & Classical",
+                "event": "Emergence of Satavahanas in South India",
+                "Source": null,
+                "id": 121
+            },
+            {
+                "date_start": -221,
+                "date_end": -221,
+                "date": "221 BCE",
+                "era": "Ancient & Classical",
+                "event": "Qin Shi Huang unifies China, end of Warring States period; marking the beginning of Imperial rule in China which lasts until .. Construction of the Great Wall by the Qin Dynasty begins.",
+                "Source": null,
+                "id": 122
+            },
+            {
+                "date_start": -207,
+                "date_end": -207,
+                "date": "207 BCE",
+                "era": "Ancient & Classical",
+                "event": "Kingdom of Nan Yueh extends from Canton to North Vi\u1ec7t Nam .",
+                "Source": null,
+                "id": 123
+            },
+            {
+                "date_start": -206,
+                "date_end": -206,
+                "date": "206 BCE",
+                "era": "Ancient & Classical",
+                "event": "Han Dynasty established in China, after the death of Qin Shi Huang; China in this period officially becomes a Confucian state and opens trading connections with the West, i.e. the Silk Road.",
+                "Source": null,
+                "id": 124
+            },
+            {
+                "date_start": -202,
+                "date_end": -202,
+                "date": "202 BCE",
+                "era": "Ancient & Classical",
+                "event": "Scipio Africanus defeats Hannibal at Battle of Zama.",
+                "Source": null,
+                "id": 125
+            },
+            {
+                "date_start": -200,
+                "date_end": -200,
+                "date": "200 BCE",
+                "era": "Ancient & Classical",
+                "event": "El Mirador, largest early Maya city, flourishes.",
+                "Source": null,
+                "id": 126
+            },
+            {
+                "date_start": -200,
+                "date_end": -200,
+                "date": "200 BCE",
+                "era": "Ancient & Classical",
+                "event": "Paper is invented in China.",
+                "Source": null,
+                "id": 127
+            },
+            {
+                "date_start": -200,
+                "date_end": -200,
+                "date": "c. 200 BCE",
+                "era": "Ancient & Classical",
+                "event": "Chera dynasty in South India.",
+                "Source": null,
+                "id": 128
+            },
+            {
+                "date_start": -185,
+                "date_end": -185,
+                "date": "185 BCE",
+                "era": "Ancient & Classical",
+                "event": "Shunga Empire founded.",
+                "Source": null,
+                "id": 129
+            },
+            {
+                "date_start": -149,
+                "date_end": -146,
+                "date": "149-146 BCE",
+                "era": "Ancient & Classical",
+                "event": "Third Punic War between Rome and Carthage. War ends with the complete destruction of Carthage, allowing Rome to conquer modern day Tunisia and Libya.",
+                "Source": null,
+                "id": 130
+            },
+            {
+                "date_start": -146,
+                "date_end": -146,
+                "date": "146 BCE",
+                "era": "Ancient & Classical",
+                "event": "Roman conquest of Greece, see Roman Greece",
+                "Source": null,
+                "id": 131
+            },
+            {
+                "date_start": -121,
+                "date_end": -121,
+                "date": "121 BCE",
+                "era": "Ancient & Classical",
+                "event": "Roman armies enter Gaul for the first time.",
+                "Source": null,
+                "id": 132
+            },
+            {
+                "date_start": -111,
+                "date_end": -111,
+                "date": "111 BCE",
+                "era": "Ancient & Classical",
+                "event": "First Chinese domination of Vi\u1ec7t Nam in the form of the Nanyue Kingdom.",
+                "Source": null,
+                "id": 133
+            },
+            {
+                "date_start": -100,
+                "date_end": -100,
+                "date": "c. 100 BCE",
+                "era": "Ancient & Classical",
+                "event": "Chola dynasty rises in prominence.",
+                "Source": null,
+                "id": 134
+            },
+            {
+                "date_start": -82,
+                "date_end": -82,
+                "date": "c. 82 BCE",
+                "era": "Ancient & Classical",
+                "event": "Burebista becomes the king of Dacia.",
+                "Source": null,
+                "id": 135
+            },
+            {
+                "date_start": -80,
+                "date_end": -80,
+                "date": "80 BCE",
+                "era": "Ancient & Classical",
+                "event": "The city of Florence is founded.",
+                "Source": null,
+                "id": 136
+            },
+            {
+                "date_start": -60,
+                "date_end": -44,
+                "date": "c. 60-44 BCE",
+                "era": "Ancient & Classical",
+                "event": "Burebista conquers territories from south Germany to Thrace,reaching the coast of the Aegean sea.",
+                "Source": null,
+                "id": 137
+            },
+            {
+                "date_start": -49,
+                "date_end": -49,
+                "date": "49 BCE",
+                "era": "Ancient & Classical",
+                "event": "Roman Civil War between Julius Caesar and Pompey the Great.",
+                "Source": null,
+                "id": 138
+            },
+            {
+                "date_start": -44,
+                "date_end": -44,
+                "date": "44 BCE",
+                "era": "Ancient & Classical",
+                "event": "Julius Caesar murdered by Marcus Brutus and others",
+                "Source": null,
+                "id": 139
+            },
+            {
+                "date_start": -44,
+                "date_end": -44,
+                "date": "44 BCE",
+                "era": "Ancient & Classical",
+                "event": "Burebista is assassinated in the same year like Julius Caesar and his empire brokes in . and later . kingdoms in modern-day Romania.",
+                "Source": null,
+                "id": 140
+            },
+            {
+                "date_start": -40,
+                "date_end": -40,
+                "date": "40 BCE",
+                "era": "Ancient & Classical",
+                "event": "Roman conquest of Egypt.",
+                "Source": null,
+                "id": 141
+            },
+            {
+                "date_start": -30,
+                "date_end": -30,
+                "date": "30 BCE",
+                "era": "Ancient & Classical",
+                "event": "Cleopatra ends her reign as the last active ruler of the Ptolemaic Kingdom of Egypt",
+                "Source": null,
+                "id": 142
+            },
+            {
+                "date_start": -27,
+                "date_end": -27,
+                "date": "27 BCE",
+                "era": "Ancient & Classical",
+                "event": "Formation of Roman Empire:  Octavius is given titles of Princeps and Augustus by Roman Senate - beginning of Pax Romana. Formation of influential Praetorian Guard to provide security to Emperor",
+                "Source": null,
+                "id": 143
+            },
+            {
+                "date_start": -18,
+                "date_end": -18,
+                "date": "18 BCE",
+                "era": "Ancient & Classical",
+                "event": "Three Kingdoms period begins in Korea. The temple of Jerusalem is reconstructed.",
+                "Source": null,
+                "id": 144
+            },
+            {
+                "date_start": -6,
+                "date_end": -6,
+                "date": "6 BCE",
+                "era": "Ancient & Classical",
+                "event": "Earliest theorized date for birth of Jesus of Nazareth. Roman succession:  Gaius Caesar and Lucius Caesar groomed for the throne.",
+                "Source": null,
+                "id": 145
+            },
+            {
+                "date_start": -4,
+                "date_end": -4,
+                "date": "4 BCE",
+                "era": "Ancient & Classical",
+                "event": "Widely accepted date (Ussher) for birth of Jesus Christ.",
+                "Source": null,
+                "id": 146
+            },
+            {
+                "date_start": 9,
+                "date_end": 9,
+                "date": "9",
+                "era": "Ancient & Classical",
+                "event": "Battle of the Teutoburg Forest, the Imperial Roman Army's bloodiest defeat.",
+                "Source": null,
+                "id": 147
+            },
+            {
+                "date_start": 14,
+                "date_end": 14,
+                "date": "14",
+                "era": "Ancient & Classical",
+                "event": "Death of Emperor Augustus (Octavian), ascension of his adopted son Tiberius to the throne.",
+                "Source": null,
+                "id": 148
+            },
+            {
+                "date_start": 26,
+                "date_end": 34,
+                "date": "26-34",
+                "era": "Ancient & Classical",
+                "event": "Crucifixion of Jesus Christ, exact date unknown.",
+                "Source": null,
+                "id": 149
+            },
+            {
+                "date_start": 37,
+                "date_end": 37,
+                "date": "37",
+                "era": "Ancient & Classical",
+                "event": "Death of Emperor Tiberius, ascension of his nephew Caligula to the throne.",
+                "Source": null,
+                "id": 150
+            },
+            {
+                "date_start": 40,
+                "date_end": 40,
+                "date": "40",
+                "era": "Ancient & Classical",
+                "event": "Rome conquers Morocco.",
+                "Source": null,
+                "id": 151
+            },
+            {
+                "date_start": 41,
+                "date_end": 41,
+                "date": "41",
+                "era": "Ancient & Classical",
+                "event": "Emperor Caligula is assassinated by the Roman senate. His uncle Claudius succeeds him.",
+                "Source": null,
+                "id": 152
+            },
+            {
+                "date_start": 43,
+                "date_end": 43,
+                "date": "43",
+                "era": "Ancient & Classical",
+                "event": "Rome enters Britain for the first time.",
+                "Source": null,
+                "id": 153
+            },
+            {
+                "date_start": 54,
+                "date_end": 54,
+                "date": "54",
+                "era": "Ancient & Classical",
+                "event": "Emperor Claudius dies and is succeeded by his grand nephew Nero.",
+                "Source": null,
+                "id": 154
+            },
+            {
+                "date_start": 68,
+                "date_end": 68,
+                "date": "68",
+                "era": "Ancient & Classical",
+                "event": "Emperor Nero commits suicide, prompting the Year of the four emperors in Rome.",
+                "Source": null,
+                "id": 155
+            },
+            {
+                "date_start": 70,
+                "date_end": 70,
+                "date": "70",
+                "era": "Ancient & Classical",
+                "event": "Destruction of Jerusalem by the armies of Titus.",
+                "Source": null,
+                "id": 156
+            },
+            {
+                "date_start": 79,
+                "date_end": 79,
+                "date": "79",
+                "era": "Ancient & Classical",
+                "event": "Destruction of Pompeii by the volcano Vesuvius.",
+                "Source": null,
+                "id": 157
+            },
+            {
+                "date_start": 98,
+                "date_end": 98,
+                "date": "98",
+                "era": "Ancient & Classical",
+                "event": "After a two-year rule, Emperor Nerva dies of natural causes, his adopted son Trajan succeeds him.",
+                "Source": null,
+                "id": 158
+            },
+            {
+                "date_start": 100,
+                "date_end": 940,
+                "date": "100-940",
+                "era": "Ancient & Classical",
+                "event": "Kingdom of Aksum in the Horn of Africa",
+                "Source": null,
+                "id": 159
+            },
+            {
+                "date_start": 106,
+                "date_end": 117,
+                "date": "106-117",
+                "era": "Ancient & Classical",
+                "event": "Roman Empire at largest extent under Emperor Trajan after having conquered modern-day Romania, Iraq and Armenia.",
+                "Source": null,
+                "id": 160
+            },
+            {
+                "date_start": 117,
+                "date_end": 117,
+                "date": "117",
+                "era": "Ancient & Classical",
+                "event": "Trajan dies of natural causes. His adopted son Hadrian succeeds him. Hadrian pulls out of Iraq and Armenia.",
+                "Source": null,
+                "id": 161
+            },
+            {
+                "date_start": 126,
+                "date_end": 126,
+                "date": "126",
+                "era": "Ancient & Classical",
+                "event": "Hadrian completes the Pantheon in Rome.",
+                "Source": null,
+                "id": 162
+            },
+            {
+                "date_start": 138,
+                "date_end": 138,
+                "date": "138",
+                "era": "Ancient & Classical",
+                "event": "Hadrian dies of natural causes. His adopted son Antoninus Pius succeeds him.",
+                "Source": null,
+                "id": 163
+            },
+            {
+                "date_start": 161,
+                "date_end": 161,
+                "date": "161",
+                "era": "Ancient & Classical",
+                "event": "Death of Antoninus Pius. His rule was the only one in which Rome did not fight in a war.",
+                "Source": null,
+                "id": 164
+            },
+            {
+                "date_start": 161,
+                "date_end": 161,
+                "date": "161",
+                "era": "Ancient & Classical",
+                "event": "Marcus Aurelius becomes emperor of the Roman Empire. He is often ranked by historians as one of the greatest roman emperors.",
+                "Source": null,
+                "id": 165
+            },
+            {
+                "date_start": 180,
+                "date_end": 180,
+                "date": "180",
+                "era": "Ancient & Classical",
+                "event": "Reign of Marcus Aurelius officially ends.",
+                "Source": null,
+                "id": 166
+            },
+            {
+                "date_start": 180,
+                "date_end": 181,
+                "date": "180 - 181",
+                "era": "Ancient & Classical",
+                "event": "Commodus becomes Roman Emperor.",
+                "Source": null,
+                "id": 167
+            },
+            {
+                "date_start": 192,
+                "date_end": 192,
+                "date": "192",
+                "era": "Ancient & Classical",
+                "event": "Kingdom of Champa in Central Vi\u1ec7t Nam.",
+                "Source": null,
+                "id": 168
+            },
+            {
+                "date_start": 200,
+                "date_end": 200,
+                "date": "200s",
+                "era": "Ancient & Classical",
+                "event": "The Buddhist Srivijaya Empire established in Maritime Southeast Asia.",
+                "Source": null,
+                "id": 169
+            },
+            {
+                "date_start": 220,
+                "date_end": 220,
+                "date": "220",
+                "era": "Ancient & Classical",
+                "event": "Three Kingdoms period begins in China after the fall of Han Dynasty.",
+                "Source": null,
+                "id": 170
+            },
+            {
+                "date_start": 226,
+                "date_end": 226,
+                "date": "226",
+                "era": "Ancient & Classical",
+                "event": "Fall of the Parthian Empire and Rise of the Sassanian Empire.",
+                "Source": null,
+                "id": 171
+            },
+            {
+                "date_start": 337,
+                "date_end": 361,
+                "date": "337-361",
+                "era": "Ancient & Classical",
+                "event": "Perso-Roman wars between the Roman Empire and the Sasanian Empire.",
+                "Source": null,
+                "id": 172
+            },
+            {
+                "date_start": 280,
+                "date_end": 280,
+                "date": "280",
+                "era": "Ancient & Classical",
+                "event": "Emperor Wu established Jin Dynasty providing a temporary unity of China after the devastating Three Kingdoms period.",
+                "Source": null,
+                "id": 173
+            },
+            {
+                "date_start": 285,
+                "date_end": 285,
+                "date": "285",
+                "era": "Ancient & Classical",
+                "event": "Diocletian becomes emperor of Rome and splits the Roman Empire into Eastern and Western Empires.",
+                "Source": null,
+                "id": 174
+            },
+            {
+                "date_start": 285,
+                "date_end": 285,
+                "date": "285",
+                "era": "Ancient & Classical",
+                "event": "Diocletian begins a large-scale persecution of Christians.",
+                "Source": null,
+                "id": 175
+            },
+            {
+                "date_start": 292,
+                "date_end": 292,
+                "date": "292",
+                "era": "Ancient & Classical",
+                "event": "The capital of the Roman empire is officially moved from Rome to Mediolanum (modern day Milan).",
+                "Source": null,
+                "id": 176
+            },
+            {
+                "date_start": 301,
+                "date_end": 301,
+                "date": "301",
+                "era": "Ancient & Classical",
+                "event": "Diocletian's edict on prices",
+                "Source": null,
+                "id": 177
+            },
+            {
+                "date_start": 313,
+                "date_end": 313,
+                "date": "313",
+                "era": "Ancient & Classical",
+                "event": "Edict of Milan declared that the Roman Empire would tolerate all forms of religious worship.",
+                "Source": null,
+                "id": 178
+            },
+            {
+                "date_start": 325,
+                "date_end": 325,
+                "date": "325",
+                "era": "Ancient & Classical",
+                "event": "Constantine I organizes the First Council of Nicaea.",
+                "Source": null,
+                "id": 179
+            },
+            {
+                "date_start": 330,
+                "date_end": 330,
+                "date": "330",
+                "era": "Ancient & Classical",
+                "event": "Constantinople is officially named and becomes the capital of the eastern Roman Empire.",
+                "Source": null,
+                "id": 180
+            },
+            {
+                "date_start": 335,
+                "date_end": 335,
+                "date": "335",
+                "era": "Ancient & Classical",
+                "event": "Samudragupta becomes the emperor of the Gupta empire.",
+                "Source": null,
+                "id": 181
+            },
+            {
+                "date_start": 337,
+                "date_end": 337,
+                "date": "337",
+                "era": "Ancient & Classical",
+                "event": "Emperor Constantine I dies, leaving his sons Constantius II, Constans I, and Constantine II as the emperors of the Roman empire.",
+                "Source": null,
+                "id": 182
+            },
+            {
+                "date_start": 350,
+                "date_end": 350,
+                "date": "350",
+                "era": "Ancient & Classical",
+                "event": "Constantius II is left sole emperor with the death of his two brothers.",
+                "Source": null,
+                "id": 183
+            },
+            {
+                "date_start": 354,
+                "date_end": 354,
+                "date": "354",
+                "era": "Ancient & Classical",
+                "event": "Birth of Augustine of Hippo",
+                "Source": null,
+                "id": 184
+            },
+            {
+                "date_start": 361,
+                "date_end": 361,
+                "date": "361",
+                "era": "Ancient & Classical",
+                "event": "Constantius II dies, his cousin Julian succeeds him.",
+                "Source": null,
+                "id": 185
+            },
+            {
+                "date_start": 378,
+                "date_end": 378,
+                "date": "378",
+                "era": "Ancient & Classical",
+                "event": "Battle of Adrianople, Roman army is defeated by the Germanic tribes.",
+                "Source": null,
+                "id": 186
+            },
+            {
+                "date_start": 380,
+                "date_end": 380,
+                "date": "380",
+                "era": "Ancient & Classical",
+                "event": "Roman Emperor Theodosius I declares the Arian faith of Christianity heretical.",
+                "Source": null,
+                "id": 187
+            },
+            {
+                "date_start": 395,
+                "date_end": 395,
+                "date": "395",
+                "era": "Ancient & Classical",
+                "event": "Theodosius I outlaws all religions other than Catholic Christianity.",
+                "Source": null,
+                "id": 188
+            },
+            {
+                "date_start": 406,
+                "date_end": 406,
+                "date": "406",
+                "era": "Ancient & Classical",
+                "event": "Romans are expelled from Britain.",
+                "Source": null,
+                "id": 189
+            },
+            {
+                "date_start": 407,
+                "date_end": 409,
+                "date": "407-409",
+                "era": "Ancient & Classical",
+                "event": "Visigoths and other Germanic tribes cross into Roman-Gaul for the first time.",
+                "Source": null,
+                "id": 190
+            },
+            {
+                "date_start": 410,
+                "date_end": 410,
+                "date": "410",
+                "era": "Ancient & Classical",
+                "event": "Visigoths sacks Rome for the first time since ..",
+                "Source": null,
+                "id": 191
+            },
+            {
+                "date_start": 415,
+                "date_end": 415,
+                "date": "415",
+                "era": "Ancient & Classical",
+                "event": "Germanic tribes enter Spain.",
+                "Source": null,
+                "id": 192
+            },
+            {
+                "date_start": 429,
+                "date_end": 429,
+                "date": "429",
+                "era": "Ancient & Classical",
+                "event": "Vandals enter North Africa from Spain for the first time",
+                "Source": null,
+                "id": 193
+            },
+            {
+                "date_start": 439,
+                "date_end": 439,
+                "date": "439",
+                "era": "Ancient & Classical",
+                "event": "Vandals have conquered the land stretching from Morocco to Tunisia by this time.",
+                "Source": null,
+                "id": 194
+            },
+            {
+                "date_start": 455,
+                "date_end": 455,
+                "date": "455",
+                "era": "Ancient & Classical",
+                "event": "Vandals sack Rome, capture Sicily and Sardinia.",
+                "Source": null,
+                "id": 195
+            },
+            {
+                "date_start": 455,
+                "date_end": 455,
+                "date": "c. 455",
+                "era": "Ancient & Classical",
+                "event": "Skandagupta repels an Indo-Hephthalite attack on India.",
+                "Source": null,
+                "id": 196
+            },
+            {
+                "date_start": 476,
+                "date_end": 476,
+                "date": "476",
+                "era": "Ancient & Classical",
+                "event": "Romulus Augustus, last Western Roman Emperor is forced to abdicate by Odoacer, a chieftain of the Germanic Heruli",
+                "Source": null,
+                "id": 197
+            },
+            {
+                "date_start": 400,
+                "date_end": 400,
+                "date": "c. 400 ",
+                "era": "Medieval",
+                "event": "Highland Maya fall to the lowland city of Teotihuacan. Begins the decline of Maya culture and language in some parts of the highlands. ",
+                "Source": null,
+                "id": 198
+            },
+            {
+                "date_start": 405,
+                "date_end": 405,
+                "date": "405",
+                "era": "Medieval",
+                "event": "St. Jerome finished the Vulgate. The Christian Gospel is translated into Latin. ",
+                "Source": null,
+                "id": 199
+            },
+            {
+                "date_start": 410,
+                "date_end": 410,
+                "date": "410 August 24",
+                "era": "Medieval",
+                "event": "Rome is sacked by Alaric, King of the Visigoths. Decisive event in the decline of the Western Roman Empire. ",
+                "Source": null,
+                "id": 200
+            },
+            {
+                "date_start": 431,
+                "date_end": 431,
+                "date": "431 June 22 \u2013 July 31",
+                "era": "Medieval",
+                "event": "The Council of Ephesus confirmed the original Nicene Creed, and condemned the teachings of Nestorius, Patriarch of Constantinople, that led to his exile and separation with the Church of the East. ",
+                "Source": null,
+                "id": 201
+            },
+            {
+                "date_start": 455,
+                "date_end": 455,
+                "date": "455 June 2",
+                "era": "Medieval",
+                "event": "Rome is sacked by Genseric, King of the Vandals. Another decisive event in the Fall of Rome and held by some historians to mark the `end of the Roman Empire`",
+                "Source": null,
+                "id": 202
+            },
+            {
+                "date_start": 476,
+                "date_end": 476,
+                "date": "476 September 4",
+                "era": "Medieval",
+                "event": "Odoacer deposes the Roman Emperor Romulus Augustulus. Considered by some historians to be the starting point of the Middle Ages.",
+                "Source": null,
+                "id": 203
+            },
+            {
+                "date_start": 480,
+                "date_end": 480,
+                "date": "480 April 25",
+                "era": "Medieval",
+                "event": "Death of Julius Nepos, last Roman Emperor to be recognized as such by the Roman Senate and the Eastern court. Considered by some historians to be the starting point of the Middle Ages.",
+                "Source": null,
+                "id": 204
+            },
+            {
+                "date_start": 500,
+                "date_end": 500,
+                "date": "c. 500 ",
+                "era": "Medieval",
+                "event": "Tikal becomes the first great Maya city. Significant cultural exchange between the Maya of Tikal and the citizens of Teotihuacan.",
+                "Source": null,
+                "id": 205
+            },
+            {
+                "date_start": 500,
+                "date_end": 500,
+                "date": "c. 500 ",
+                "era": "Medieval",
+                "event": "Battle of Mons Badonicus. The West Saxon advance is halted by Britons in England. Chiefly known today for the supposed involvement of King Arthur but information is very limited.",
+                "Source": null,
+                "id": 206
+            },
+            {
+                "date_start": 507,
+                "date_end": 507,
+                "date": "507 Spring",
+                "era": "Medieval",
+                "event": "The Franks under Clovis defeat the Visigoths in the Battle of Vouill\u00e9. The Visigoths retreated into Spain. ",
+                "Source": null,
+                "id": 207
+            },
+            {
+                "date_start": 524,
+                "date_end": 524,
+                "date": "c. 524 ",
+                "era": "Medieval",
+                "event": "Boethius writes his Consolation of Philosophy. It has been described as the single most important and influential work in the West on Medieval and early Renaissance Christianity. ",
+                "Source": null,
+                "id": 208
+            },
+            {
+                "date_start": 525,
+                "date_end": 525,
+                "date": "525",
+                "era": "Medieval",
+                "event": "Dionysius Exiguus publishes the Dionysius Exiguus' Easter table. This initiated the Anno Domini era, used for the Gregorian and Julian calendars. ",
+                "Source": null,
+                "id": 209
+            },
+            {
+                "date_start": 527,
+                "date_end": 527,
+                "date": "527 August 1",
+                "era": "Medieval",
+                "event": "Justinian I becomes Eastern Roman Emperor. Justinian is best remembered for his Code of Civil Law and expansion of imperial territory retaking Rome from the Ostrogoths. ",
+                "Source": null,
+                "id": 210
+            },
+            {
+                "date_start": 529,
+                "date_end": 529,
+                "date": "529\u2013534 ",
+                "era": "Medieval",
+                "event": "Justinian I publishes the Code of Civil Law. This compiled centuries of legal writings and imperial pronouncements into three parts of one body of law.",
+                "Source": null,
+                "id": 211
+            },
+            {
+                "date_start": 529,
+                "date_end": 529,
+                "date": "529",
+                "era": "Medieval",
+                "event": "Benedict of Nursia founds monastery at Monte Cassino. The first of twelve monasteries founded by Saint Benedict, beginning the Order of Saint Benedict.",
+                "Source": null,
+                "id": 212
+            },
+            {
+                "date_start": 532,
+                "date_end": 532,
+                "date": "532 January 1",
+                "era": "Medieval",
+                "event": "Nika riots in Constantinople. Nearly half the city is burned down or destroyed and tens of thousands of people are killed.",
+                "Source": null,
+                "id": 213
+            },
+            {
+                "date_start": 533,
+                "date_end": 533,
+                "date": "533 December 15",
+                "era": "Medieval",
+                "event": "Byzantines, under Belisarius, retake North Africa from the Vandals. Vandal kingdom ends and the Reconquest of North Africa is completed. ",
+                "Source": null,
+                "id": 214
+            },
+            {
+                "date_start": 535,
+                "date_end": 535,
+                "date": "535\u2013554 ",
+                "era": "Medieval",
+                "event": "Gothic War in Italy as a part of Justinian's Reconquest. Byzantines retook Italy but crippled the Byzantine economy and left Italy unable to cope against the oncoming Lombards.",
+                "Source": null,
+                "id": 215
+            },
+            {
+                "date_start": 563,
+                "date_end": 563,
+                "date": "563",
+                "era": "Medieval",
+                "event": "Saint Columba founds mission in Iona. Constructed an abbey which helped convert the Picts to Christianity until it was destroyed and raided by the Vikings in 794.",
+                "Source": null,
+                "id": 216
+            },
+            {
+                "date_start": 568,
+                "date_end": 568,
+                "date": "568",
+                "era": "Medieval",
+                "event": "The Kingdom of the Lombards is founded in Italy. Survived in Italy until the invasion of the Franks under Charlemagne. ",
+                "Source": null,
+                "id": 217
+            },
+            {
+                "date_start": 570,
+                "date_end": 570,
+                "date": "c. 570 ",
+                "era": "Medieval",
+                "event": "Muhammad is born. Professed receiving revelations from a god, which were recorded in the Quran, the basis of Islamic theology, in which he is regarded as the last of the sent prophets.",
+                "Source": null,
+                "id": 218
+            },
+            {
+                "date_start": 577,
+                "date_end": 577,
+                "date": "577",
+                "era": "Medieval",
+                "event": "The West Saxons continue their advance at the Battle of Deorham. Led to the permanent separation of Cornwall, England from Wales. ",
+                "Source": null,
+                "id": 219
+            },
+            {
+                "date_start": 581,
+                "date_end": 581,
+                "date": "04 March 581 \u2013 23 May 618",
+                "era": "Medieval",
+                "event": "Sui dynasty in China. China unified once again during this period for the first time in almost 400 years.",
+                "Source": null,
+                "id": 220
+            },
+            {
+                "date_start": 590,
+                "date_end": 590,
+                "date": "590 September 3",
+                "era": "Medieval",
+                "event": "Gregory the Great becomes Pope. The missionary work reached new levels during his reign and he revolutionized the way of worship for the Catholic Church.",
+                "Source": null,
+                "id": 221
+            },
+            {
+                "date_start": 597,
+                "date_end": 597,
+                "date": "597",
+                "era": "Medieval",
+                "event": "Augustine arrives in Kent. Christianization of England (Anglo-Saxons) begins.",
+                "Source": null,
+                "id": 222
+            },
+            {
+                "date_start": 598,
+                "date_end": 598,
+                "date": "598\u2013668 ",
+                "era": "Medieval",
+                "event": "Massive Chinese (Sui and Tang) invasions against Korean Goguryeo. Contributed to the fall of the Sui dynasty, and Goguryeo fell under the forces of the Tang and Silla.",
+                "Source": null,
+                "id": 223
+            },
+            {
+                "date_start": 600,
+                "date_end": 600,
+                "date": "c. 600 ",
+                "era": "Medieval",
+                "event": "Deliberate fires set for unknown reasons destroy major buildings in Teotihuacan. Destroys the Teotihuacan civilization and empire. Tikal is now the largest city-state in Mesoamerica.",
+                "Source": null,
+                "id": 224
+            },
+            {
+                "date_start": 602,
+                "date_end": 602,
+                "date": "602\u2013629 ",
+                "era": "Medieval",
+                "event": "Last great Roman\u2013Persian War. Long conflict leaves both empires exhausted and unable to cope with the newly united Arab armies under Islam in the 630s",
+                "Source": null,
+                "id": 225
+            },
+            {
+                "date_start": 604,
+                "date_end": 604,
+                "date": "604\u2013609 ",
+                "era": "Medieval",
+                "event": "Grand Canal in China is fully completed Its main role throughout its history was the transport of grain to the capital.",
+                "Source": null,
+                "id": 226
+            },
+            {
+                "date_start": 618,
+                "date_end": 618,
+                "date": "01 June 618 \u2013 18 June 907",
+                "era": "Medieval",
+                "event": "Tang dynasty in China. The essential administrative system of this dynasty lasts for 286 years.",
+                "Source": null,
+                "id": 227
+            },
+            {
+                "date_start": 622,
+                "date_end": 622,
+                "date": "9 September \u2013 23 September 622",
+                "era": "Medieval",
+                "event": "Muhammad migrates from Mecca to Medina. Event will have designated first year of the Islamic calendar, as Anno Hegirae. ",
+                "Source": null,
+                "id": 228
+            },
+            {
+                "date_start": 626,
+                "date_end": 626,
+                "date": "626",
+                "era": "Medieval",
+                "event": "Joint Persian\u2013Avar\u2013Slav Siege of Constantinople. Constantinople saved, Avar power broken and Persians henceforth on the defensive ",
+                "Source": null,
+                "id": 229
+            },
+            {
+                "date_start": 627,
+                "date_end": 627,
+                "date": "627 December 12",
+                "era": "Medieval",
+                "event": "Battle of Nineveh. The Byzantines, under Heraclius, crush the Persians. ",
+                "Source": null,
+                "id": 230
+            },
+            {
+                "date_start": 632,
+                "date_end": 632,
+                "date": "632 June 8",
+                "era": "Medieval",
+                "event": "Death of Muhammad",
+                "Source": null,
+                "id": 231
+            },
+            {
+                "date_start": 632,
+                "date_end": 632,
+                "date": "632\u2013668 ",
+                "era": "Medieval",
+                "event": "Establishment and expansion of Old Great Bulgaria. The demise of Old Great Bulgaria lead to the founding of the First Bulgarian Empire and Volga Bulgaria by the sons of Kubrat.",
+                "Source": null,
+                "id": 232
+            },
+            {
+                "date_start": 632,
+                "date_end": 632,
+                "date": "632 June 8",
+                "era": "Medieval",
+                "event": "Accession of Abu Bakr as first Caliph. Though the period of his caliphate was not long it included successful invasions of the two most powerful empires of the time.",
+                "Source": null,
+                "id": 233
+            },
+            {
+                "date_start": 633,
+                "date_end": 633,
+                "date": "633\u2013634 ",
+                "era": "Medieval",
+                "event": "Battle of Heavenfield. Northumbrian army under Oswald defeat Welsh army.",
+                "Source": null,
+                "id": 234
+            },
+            {
+                "date_start": 638,
+                "date_end": 638,
+                "date": "638",
+                "era": "Medieval",
+                "event": "Jerusalem captured by the Arab army, mostly Muslims, but with contingents of Syrian Christians.",
+                "Source": null,
+                "id": 235
+            },
+            {
+                "date_start": 641,
+                "date_end": 641,
+                "date": "641",
+                "era": "Medieval",
+                "event": "Battle of Nahavand. Muslims conquer Persia.",
+                "Source": null,
+                "id": 236
+            },
+            {
+                "date_start": 643,
+                "date_end": 643,
+                "date": "643",
+                "era": "Medieval",
+                "event": "Arab Army led by Amr ibn al-As takes Alexandria.",
+                "Source": null,
+                "id": 237
+            },
+            {
+                "date_start": 645,
+                "date_end": 645,
+                "date": "645",
+                "era": "Medieval",
+                "event": "In Japan, the Soga clan falls. This initiates a period of imitation of Chinese culture, The Nara period begins a year later. ",
+                "Source": null,
+                "id": 238
+            },
+            {
+                "date_start": 650,
+                "date_end": 650,
+                "date": "650",
+                "era": "Medieval",
+                "event": "Slav occupation of Balkans complete.",
+                "Source": null,
+                "id": 239
+            },
+            {
+                "date_start": 650,
+                "date_end": 650,
+                "date": "c. 650 ",
+                "era": "Medieval",
+                "event": "The city-state Xochicalco is founded by the Olmeca\u2013Xicallanca. Becomes an important cultural and commercial center.",
+                "Source": null,
+                "id": 240
+            },
+            {
+                "date_start": 663,
+                "date_end": 663,
+                "date": "663",
+                "era": "Medieval",
+                "event": "Synod of Whitby. Roman Christianity triumphs over Celtic Christianity in England.",
+                "Source": null,
+                "id": 241
+            },
+            {
+                "date_start": 668,
+                "date_end": 668,
+                "date": "668",
+                "era": "Medieval",
+                "event": "End of the Three Kingdoms period in Korea. Established a Unified Silla which led to the North\u2013South States Period 30 years later.",
+                "Source": null,
+                "id": 242
+            },
+            {
+                "date_start": 674,
+                "date_end": 674,
+                "date": "674\u2013678 ",
+                "era": "Medieval",
+                "event": "First Arab siege of Constantinople. First time Islamic armies defeated forestalling Islamic conquest of Europe.",
+                "Source": null,
+                "id": 243
+            },
+            {
+                "date_start": 681,
+                "date_end": 681,
+                "date": "681",
+                "era": "Medieval",
+                "event": "Establishment of the Bulgarian Empire.",
+                "Source": null,
+                "id": 244
+            },
+            {
+                "date_start": 685,
+                "date_end": 685,
+                "date": "685",
+                "era": "Medieval",
+                "event": "Battle of Dun Nechtain. Picts defeat Northumbrians whose dominance ends.",
+                "Source": null,
+                "id": 245
+            },
+            {
+                "date_start": 687,
+                "date_end": 687,
+                "date": "687",
+                "era": "Medieval",
+                "event": "Battle of Tertry Established Pepin of Herstal as mayor over the entire realms of Neustria and Austrasia which further dwindled Merovingian power.",
+                "Source": null,
+                "id": 246
+            },
+            {
+                "date_start": 698,
+                "date_end": 698,
+                "date": "698",
+                "era": "Medieval",
+                "event": "Arab army takes Carthage. End of Byzantine rule in North Africa",
+                "Source": null,
+                "id": 247
+            },
+            {
+                "date_start": 698,
+                "date_end": 698,
+                "date": "698",
+                "era": "Medieval",
+                "event": "North\u2013South States Period begins in Korea. Silla and Balhae coexisted in the south and north of the peninsula respectively until 926",
+                "Source": null,
+                "id": 248
+            },
+            {
+                "date_start": 711,
+                "date_end": 711,
+                "date": "711",
+                "era": "Medieval",
+                "event": "Umayyad conquest of Hispania under Tarik. Will begin a period of Muslim rule within in the Al-Andalus (with various portions of Iberian peninsula) until nearly the end of the Fifteenth Century.",
+                "Source": null,
+                "id": 249
+            },
+            {
+                "date_start": 718,
+                "date_end": 718,
+                "date": "718",
+                "era": "Medieval",
+                "event": "Second Arab attack on Constantinople, ending in failure. The combined Byzantine\u2013Bulgarian forces stop the Arab threat in Southeastern Europe.",
+                "Source": null,
+                "id": 250
+            },
+            {
+                "date_start": 726,
+                "date_end": 726,
+                "date": "726",
+                "era": "Medieval",
+                "event": "Iconoclast movement begun in the Byzantine Empire under Leo III. This was opposed by Pope Gregory II, and an important difference between the Roman and Byzantine churches.",
+                "Source": null,
+                "id": 251
+            },
+            {
+                "date_start": 732,
+                "date_end": 732,
+                "date": "732 October",
+                "era": "Medieval",
+                "event": "Battle of Tours. Charles Martel halts Muslim advance which led to the forming of the Carolingian Empire for the Franks and halted the advancement of the Moors in southwestern Europe.",
+                "Source": null,
+                "id": 252
+            },
+            {
+                "date_start": 735,
+                "date_end": 735,
+                "date": "735 26 May",
+                "era": "Medieval",
+                "event": "Death of Bede. Bede was later regarded as the father of English history ",
+                "Source": null,
+                "id": 253
+            },
+            {
+                "date_start": 750,
+                "date_end": 750,
+                "date": "750 25 January",
+                "era": "Medieval",
+                "event": "Beginning of Abbasid Caliphate. Would become the longest lasting caliphate until 1519 when conquered and annexed into the Ottoman Empire.",
+                "Source": null,
+                "id": 254
+            },
+            {
+                "date_start": 751,
+                "date_end": 751,
+                "date": "751",
+                "era": "Medieval",
+                "event": "Pepin the Short founds the Carolingian dynasty.",
+                "Source": null,
+                "id": 255
+            },
+            {
+                "date_start": 754,
+                "date_end": 754,
+                "date": "754",
+                "era": "Medieval",
+                "event": "Pepin promises the Pope central Italy. This is arguably the beginning of the temporal power of the Papacy.",
+                "Source": null,
+                "id": 256
+            },
+            {
+                "date_start": 768,
+                "date_end": 768,
+                "date": "768",
+                "era": "Medieval",
+                "event": "Beginning of Charlemagne's reign.",
+                "Source": null,
+                "id": 257
+            },
+            {
+                "date_start": 778,
+                "date_end": 778,
+                "date": "778 15 August",
+                "era": "Medieval",
+                "event": "Battle of Roncevaux Pass.",
+                "Source": null,
+                "id": 258
+            },
+            {
+                "date_start": 786,
+                "date_end": 786,
+                "date": "786 14 September",
+                "era": "Medieval",
+                "event": "Accession of Harun al-Rashid to the Caliphate in Baghdad.",
+                "Source": null,
+                "id": 259
+            },
+            {
+                "date_start": 793,
+                "date_end": 793,
+                "date": "793",
+                "era": "Medieval",
+                "event": "Viking attacks on Britain begin with the Sack of Lindisfarne. The Viking Age will span over two centuries. There influence will reach Hispania, to the Byzantine Empire, and present day Russia. ",
+                "Source": null,
+                "id": 260
+            },
+            {
+                "date_start": 794,
+                "date_end": 794,
+                "date": "794",
+                "era": "Medieval",
+                "event": "Heian period in Japan. Considered to be the last classical period of History of Japan. Chinese influence was at its strongest during this era in Japan.",
+                "Source": null,
+                "id": 261
+            },
+            {
+                "date_start": 795,
+                "date_end": 795,
+                "date": "795 29 July",
+                "era": "Medieval",
+                "event": "Death of Offa. Marks the end of Mercian dominance in England.",
+                "Source": null,
+                "id": 262
+            },
+            {
+                "date_start": 800,
+                "date_end": 800,
+                "date": "800 25 December",
+                "era": "Medieval",
+                "event": "Charlemagne is crowned Holy Roman Emperor. With his crowning Charlemagne's kingdom is officially recognized by the Papacy as the largest in Europe since the fall of the Roman Empire.",
+                "Source": null,
+                "id": 263
+            },
+            {
+                "date_start": 800,
+                "date_end": 800,
+                "date": "800",
+                "era": "Medieval",
+                "event": "Gunpowder is invented in China (somewhere around 9th century)",
+                "Source": null,
+                "id": 264
+            },
+            {
+                "date_start": 814,
+                "date_end": 814,
+                "date": "814 28 January",
+                "era": "Medieval",
+                "event": "Death of Charlemagne. Would be a factor towards the splitting of his empire almost 30 years later.",
+                "Source": null,
+                "id": 265
+            },
+            {
+                "date_start": 820,
+                "date_end": 820,
+                "date": "820",
+                "era": "Medieval",
+                "event": "Algebrae et Alumcabola Algorithm Muhammad ibn Musa- al-Khwarizmi",
+                "Source": null,
+                "id": 266
+            },
+            {
+                "date_start": 825,
+                "date_end": 825,
+                "date": "825",
+                "era": "Medieval",
+                "event": "Battle of Ellandun. Egbert defeats Mercians. Wessex becomes the leading kingdom of England.",
+                "Source": null,
+                "id": 267
+            },
+            {
+                "date_start": 827,
+                "date_end": 827,
+                "date": "827",
+                "era": "Medieval",
+                "event": "Muslims invade Sicily. First encounter of attempts to conquer Byzantine Sicily until the last Byzantine outpost was conquered in 965.",
+                "Source": null,
+                "id": 268
+            },
+            {
+                "date_start": 840,
+                "date_end": 840,
+                "date": "840",
+                "era": "Medieval",
+                "event": "Muslims capture Bari and much of southern Italy.",
+                "Source": null,
+                "id": 269
+            },
+            {
+                "date_start": 843,
+                "date_end": 843,
+                "date": "843",
+                "era": "Medieval",
+                "event": "Division of Charlemagne's Empire between his grandsons with the Treaty of Verdun. Sets the stage for the founding of the Holy Roman Empire and France as separate states.",
+                "Source": null,
+                "id": 270
+            },
+            {
+                "date_start": 843,
+                "date_end": 843,
+                "date": "843",
+                "era": "Medieval",
+                "event": "Kenneth McAlpin becomes king of the Picts and Scots, creating the Kingdom of Alba.",
+                "Source": null,
+                "id": 271
+            },
+            {
+                "date_start": 862,
+                "date_end": 862,
+                "date": "862",
+                "era": "Medieval",
+                "event": "Viking state in Russia founded under Rurik, first at Novgorod, then Kiev.",
+                "Source": null,
+                "id": 272
+            },
+            {
+                "date_start": 864,
+                "date_end": 864,
+                "date": "864",
+                "era": "Medieval",
+                "event": "Christianization of Bulgaria.",
+                "Source": null,
+                "id": 273
+            },
+            {
+                "date_start": 866,
+                "date_end": 866,
+                "date": "866",
+                "era": "Medieval",
+                "event": "Fujiwara period in Japan. Would become the most powerful clan during the Heian period in Japan for around three centuries.",
+                "Source": null,
+                "id": 274
+            },
+            {
+                "date_start": 866,
+                "date_end": 866,
+                "date": "866",
+                "era": "Medieval",
+                "event": "Viking Great Army arrives in England. Northumbria, East Anglia, and Mercia were overwhelmed. ",
+                "Source": null,
+                "id": 275
+            },
+            {
+                "date_start": 868,
+                "date_end": 868,
+                "date": "868",
+                "era": "Medieval",
+                "event": "Earliest known printed book in China with a date.",
+                "Source": null,
+                "id": 276
+            },
+            {
+                "date_start": 871,
+                "date_end": 871,
+                "date": "871",
+                "era": "Medieval",
+                "event": "Alfred the Great assumes the throne, the first king of a united England. He defended England from Viking invaders, formed new laws and fostered a rebirth of religious and scholarly activities.",
+                "Source": null,
+                "id": 277
+            },
+            {
+                "date_start": 872,
+                "date_end": 872,
+                "date": "c. 872 ",
+                "era": "Medieval",
+                "event": "Harold Fairhair becomes King of Norway.",
+                "Source": null,
+                "id": 278
+            },
+            {
+                "date_start": 874,
+                "date_end": 874,
+                "date": "874",
+                "era": "Medieval",
+                "event": "Iceland is settled by Norsemen.",
+                "Source": null,
+                "id": 279
+            },
+            {
+                "date_start": 882,
+                "date_end": 882,
+                "date": "882",
+                "era": "Medieval",
+                "event": "Kievan Rus' is established. Would be sustained until the Mongol invasion of Rus' over four and a half centuries, despite peaking during the middle 11th century during the reign of Yaroslav the Wise.",
+                "Source": null,
+                "id": 280
+            },
+            {
+                "date_start": 885,
+                "date_end": 885,
+                "date": "885",
+                "era": "Medieval",
+                "event": "Arrival of the disciples of Saints Cyril and Methodius in Bulgaria. In the following decades the country became the cultural and spiritual centre of the Eastern Orthodox part of the Slavic World.",
+                "Source": null,
+                "id": 281
+            },
+            {
+                "date_start": 885,
+                "date_end": 885,
+                "date": "885\u2013886 ",
+                "era": "Medieval",
+                "event": "Vikings attack Paris.",
+                "Source": null,
+                "id": 282
+            },
+            {
+                "date_start": 893,
+                "date_end": 893,
+                "date": "893",
+                "era": "Medieval",
+                "event": "Emperor Simeon I becomes ruler of the First Bulgarian Empire in the Balkans. Under his rule falls the golden age of the First Bulgarian Empire and the invention of the Cyrillic Script. ",
+                "Source": null,
+                "id": 283
+            },
+            {
+                "date_start": 896,
+                "date_end": 896,
+                "date": "896",
+                "era": "Medieval",
+                "event": "Arpad and the Magyars are present in Pannonia.",
+                "Source": null,
+                "id": 284
+            },
+            {
+                "date_start": 899,
+                "date_end": 899,
+                "date": "27 October 899",
+                "era": "Medieval",
+                "event": "Death of Alfred the Great King of the Anglo-Saxon. Being learned he proposed that priamry education be conducted in Old English instead of Latin.",
+                "Source": null,
+                "id": 285
+            },
+            {
+                "date_start": 900,
+                "date_end": 900,
+                "date": "c. 900 ",
+                "era": "Medieval",
+                "event": "Lowland Maya cities in the south collapse. Signifies the end of the Classic Period of Maya history. The Maya in northern Yucat\u00e1n continue to thrive. ",
+                "Source": null,
+                "id": 286
+            },
+            {
+                "date_start": 907,
+                "date_end": 907,
+                "date": "907",
+                "era": "Medieval",
+                "event": "Tang Dynasty ends with Emperor Ai deposed. The Five Dynasties and Ten Kingdoms period in China commences. ",
+                "Source": null,
+                "id": 287
+            },
+            {
+                "date_start": 910,
+                "date_end": 910,
+                "date": "910",
+                "era": "Medieval",
+                "event": "King Edward the Elder of England, son of King Alfred, defeats the Northumbrian Vikings at the Battle of Tettenhall; they never raid south of the River Humber again.",
+                "Source": null,
+                "id": 288
+            },
+            {
+                "date_start": 910,
+                "date_end": 910,
+                "date": "910",
+                "era": "Medieval",
+                "event": "Cluny Abbey is founded by William I, Count of Auvergne. Cluny goes on to become the acknowledged leader of Western Monasticism. Cluniac Reforms initiated with the abbey's founding.",
+                "Source": null,
+                "id": 289
+            },
+            {
+                "date_start": 911,
+                "date_end": 911,
+                "date": "911",
+                "era": "Medieval",
+                "event": "The Viking Rollo and his tribe settle in what is now Normandy by the terms of the Treaty of Saint-Clair-sur-Epte, founding the Duchy of Normandy.",
+                "Source": null,
+                "id": 290
+            },
+            {
+                "date_start": 913,
+                "date_end": 913,
+                "date": "913",
+                "era": "Medieval",
+                "event": "Sri Kesari Warmadewa reigned in Walidwipa (Bali)",
+                "Source": null,
+                "id": 291
+            },
+            {
+                "date_start": 917,
+                "date_end": 917,
+                "date": "917",
+                "era": "Medieval",
+                "event": "Battle of Anchialus. Simeon I the Great defeats the Byzantines. Recognition of the Imperial Title of the Bulgarian rulers.",
+                "Source": null,
+                "id": 292
+            },
+            {
+                "date_start": 919,
+                "date_end": 919,
+                "date": "919",
+                "era": "Medieval",
+                "event": "Henry the Fowler, Duke of Saxony elected German King.  First king of the Ottonian Dynasty. Henry I considered the founder and first king of the medieval German state.",
+                "Source": null,
+                "id": 293
+            },
+            {
+                "date_start": 925,
+                "date_end": 925,
+                "date": "925",
+                "era": "Medieval",
+                "event": "The first King of Croatia (rex Croatorum), Tomislav of the Trpimirovi\u0107 dynasty was crowned. Tomislav united Croats of Dalmatia and Pannonia into a single Kingdom, and created a sizeable state.",
+                "Source": null,
+                "id": 294
+            },
+            {
+                "date_start": 927,
+                "date_end": 927,
+                "date": "927",
+                "era": "Medieval",
+                "event": "King Aethelstan the Glorious unites the heptarchy of The Anglo-Saxon  nations of Wessex, Sussex, Essex, Kent, East Anglia, Mercia and Northumbria founding the Kingdom of England.",
+                "Source": null,
+                "id": 295
+            },
+            {
+                "date_start": 927,
+                "date_end": 927,
+                "date": "927",
+                "era": "Medieval",
+                "event": "According to Theophanes Continuatus (The Continuer of Theophanes's Chronicle) \u2013 Tomislav of Croatia defeated Bulgarian army of Tsar Simeon I under Duke Alogobotur, in battle of the Bosnian Highlands.",
+                "Source": null,
+                "id": 296
+            },
+            {
+                "date_start": 927,
+                "date_end": 927,
+                "date": "927",
+                "era": "Medieval",
+                "event": "Death of Simeon I the Great. Recognition of the Bulgarian Patriarchate, the first independent National Church in Europe.",
+                "Source": null,
+                "id": 297
+            },
+            {
+                "date_start": 929,
+                "date_end": 929,
+                "date": "929",
+                "era": "Medieval",
+                "event": "Abd-ar-Rahman III of the Umayyad dynasty in al-Andalus (part of the Iberian peninsula) takes the title of Caliph or ruler of the Islamic world. This marks the beginning of the Caliphate of C\u00f3rdoba.",
+                "Source": null,
+                "id": 298
+            },
+            {
+                "date_start": 936,
+                "date_end": 936,
+                "date": "936",
+                "era": "Medieval",
+                "event": "Wang Geon unifies Goryeo (Korea) which ends the Later Three Kingdoms Era.",
+                "Source": null,
+                "id": 299
+            },
+            {
+                "date_start": 938,
+                "date_end": 938,
+                "date": "938",
+                "era": "Medieval",
+                "event": "Ngo Quyen won the battle of Bach Dang against Chinese Southern Han army. This event marked the independence of Vietnam after 1000 years under Chinese colony.",
+                "Source": null,
+                "id": 300
+            },
+            {
+                "date_start": 955,
+                "date_end": 955,
+                "date": "955",
+                "era": "Medieval",
+                "event": "Battle of Lechfeld. Otto the Great, son of Henry the Fowler, defeats the Magyars. This is the defining event that prevents the Hungarians from entering Central Europe.",
+                "Source": null,
+                "id": 301
+            },
+            {
+                "date_start": 960,
+                "date_end": 960,
+                "date": "c.960 ",
+                "era": "Medieval",
+                "event": "Mieszko I becomes duke of Polans. First historical ruler of Poland and de facto founder of the Polish State.",
+                "Source": null,
+                "id": 302
+            },
+            {
+                "date_start": 960,
+                "date_end": 960,
+                "date": "960",
+                "era": "Medieval",
+                "event": "Song Dynasty begins after Emperor of Taizu usurps the throne from the Later Zhou, last of the Five Dynasties. A 319-year period of Song rule (Northern & Southern combined) goes underway.",
+                "Source": null,
+                "id": 303
+            },
+            {
+                "date_start": 962,
+                "date_end": 962,
+                "date": "962",
+                "era": "Medieval",
+                "event": "Otto the Great crowned the Holy Roman Emperor. First to be crowned Holy Roman Emperor in nearly 40 years.",
+                "Source": null,
+                "id": 304
+            },
+            {
+                "date_start": 963,
+                "date_end": 963,
+                "date": "963\u2013964 ",
+                "era": "Medieval",
+                "event": "Otto deposes Pope John XII who is replaced with Pope Leo VIII. Citizens of Rome promise not to elect another Pope without Imperial approval.",
+                "Source": null,
+                "id": 305
+            },
+            {
+                "date_start": 965,
+                "date_end": 965,
+                "date": "965\u2013967 ",
+                "era": "Medieval",
+                "event": "Mieszko I of Poland and his court embrace Christianity, which becomes national religion.",
+                "Source": null,
+                "id": 306
+            },
+            {
+                "date_start": 969,
+                "date_end": 969,
+                "date": "969",
+                "era": "Medieval",
+                "event": "John I Tzimiskes and Nikephoros II are executed. Sultane of Rums are proclaimed.",
+                "Source": null,
+                "id": 307
+            },
+            {
+                "date_start": 976,
+                "date_end": 976,
+                "date": "976",
+                "era": "Medieval",
+                "event": "Death of John I Tzimiskes Under Basil II zenith of the power of Eastern Empire after Justinian.",
+                "Source": null,
+                "id": 308
+            },
+            {
+                "date_start": 978,
+                "date_end": 978,
+                "date": "978",
+                "era": "Medieval",
+                "event": "Al-Mansur Ibn Abi Aamir becomes de facto ruler of Muslim Al-Andalus. Peak of power of Moorish Iberia under Almanzor.",
+                "Source": null,
+                "id": 309
+            },
+            {
+                "date_start": 981,
+                "date_end": 981,
+                "date": "981",
+                "era": "Medieval",
+                "event": "Basil II (called Bulgar Slayer) begins final conquest of Bulgaria by Eastern Empire.",
+                "Source": null,
+                "id": 310
+            },
+            {
+                "date_start": 985,
+                "date_end": 985,
+                "date": "985",
+                "era": "Medieval",
+                "event": "Eric the Red, exiled from Iceland, begins Scandinavian colonization of Greenland.",
+                "Source": null,
+                "id": 311
+            },
+            {
+                "date_start": 987,
+                "date_end": 987,
+                "date": "987",
+                "era": "Medieval",
+                "event": "Succession of Hugh Capet to the French Throne. Beginning of Capetian Dynasty.",
+                "Source": null,
+                "id": 312
+            },
+            {
+                "date_start": 988,
+                "date_end": 988,
+                "date": "988",
+                "era": "Medieval",
+                "event": "Volodymyr I of Kiev embraces Christianity, which becomes national religion.",
+                "Source": null,
+                "id": 313
+            },
+            {
+                "date_start": 989,
+                "date_end": 989,
+                "date": "989",
+                "era": "Medieval",
+                "event": "Peace and Truce of God formed. The first movement of the Catholic Church using spiritual means to limit war and the first movement in medieval Europe to control society through non-violent means.",
+                "Source": null,
+                "id": 314
+            },
+            {
+                "date_start": 1001,
+                "date_end": 1001,
+                "date": "c. 1001 ",
+                "era": "Medieval",
+                "event": "Leif Ericson is to settle during the winter in present-day Canada at L'Anse aux Meadows. Ericson is to be the first European to settle in the Americas during the Norse exploration of the Americas.",
+                "Source": null,
+                "id": 315
+            },
+            {
+                "date_start": 1016,
+                "date_end": 1016,
+                "date": "1016",
+                "era": "Medieval",
+                "event": "Canute the Great becomes King of England after the death of Edmund Ironside, with whom he shared the English throne. Danes remain kings of England for the next 26 years.",
+                "Source": null,
+                "id": 316
+            },
+            {
+                "date_start": 1018,
+                "date_end": 1018,
+                "date": "1018",
+                "era": "Medieval",
+                "event": "The Byzantines under Basil II conquer Bulgaria after a bitter 50-years struggle. Concludes the Byzantine conquest of Bulgaria.",
+                "Source": null,
+                "id": 317
+            },
+            {
+                "date_start": 1021,
+                "date_end": 1021,
+                "date": "1021",
+                "era": "Medieval",
+                "event": "The Tale of Genji, by Murasaki Shikibu, is completed in Japan. It is sometimes called the world's first (modern) novel, or the first psychological novel.",
+                "Source": null,
+                "id": 318
+            },
+            {
+                "date_start": 1025,
+                "date_end": 1025,
+                "date": "1025",
+                "era": "Medieval",
+                "event": "The Canon of Medicine Persian Avicenna set standard medical textbook through 18th century in Europe",
+                "Source": null,
+                "id": 319
+            },
+            {
+                "date_start": 1037,
+                "date_end": 1037,
+                "date": "1037",
+                "era": "Medieval",
+                "event": "The Great Seljuk Empire is founded by Tughril Beg. Would be a major force during the first two Crusades and an antagonist to the Byzantine Empire over the next century.",
+                "Source": null,
+                "id": 320
+            },
+            {
+                "date_start": 1049,
+                "date_end": 1049,
+                "date": "1049",
+                "era": "Medieval",
+                "event": "Pope Leo IX ascends to the papal throne. Leo IX was the pope that excommunicated Patriarch of Constantinople, Michael Cerularius (who also excommunicated Leo), which caused the Great Schism.",
+                "Source": null,
+                "id": 321
+            },
+            {
+                "date_start": 1050,
+                "date_end": 1050,
+                "date": "1050",
+                "era": "Medieval",
+                "event": "The astrolabe, an ancient tool of navigation, is first used in Europe. Early tool of marine navigators, astrologers, astronomers.",
+                "Source": null,
+                "id": 322
+            },
+            {
+                "date_start": 1050,
+                "date_end": 1050,
+                "date": "1050",
+                "era": "Medieval",
+                "event": "Westminster Abbey Edward the Confessor",
+                "Source": null,
+                "id": 323
+            },
+            {
+                "date_start": 1054,
+                "date_end": 1054,
+                "date": "1054",
+                "era": "Medieval",
+                "event": "The East-West Schism which divided the church into Western Catholicism and Eastern Orthodoxy. Tensions will vary between the Catholic and Orthodox churches throughout the Middle Ages.",
+                "Source": null,
+                "id": 324
+            },
+            {
+                "date_start": 1066,
+                "date_end": 1066,
+                "date": "1066",
+                "era": "Medieval",
+                "event": "William the Conqueror, Duke of Normandy, invades England and becomes King after the Battle of Hastings. End of Anglo-Saxon rule in England and start of Norman lineage.",
+                "Source": null,
+                "id": 325
+            },
+            {
+                "date_start": 1067,
+                "date_end": 1067,
+                "date": "1067",
+                "era": "Medieval",
+                "event": "Pope Gregory VII elevated to the papal throne. This begins a period of church reform.",
+                "Source": null,
+                "id": 326
+            },
+            {
+                "date_start": 1071,
+                "date_end": 1071,
+                "date": "1071",
+                "era": "Medieval",
+                "event": "The Seljuks under Alp Arslan defeat the Byzantine army at Manzikert. The Normans capture Bari, the last Byzantine possession in southern Italy. Beginning of the end of Byzantine rule in Asia Minor.",
+                "Source": null,
+                "id": 327
+            },
+            {
+                "date_start": 1075,
+                "date_end": 1075,
+                "date": "1075",
+                "era": "Medieval",
+                "event": "Dictatus Papae in which Pope Gregory VII defines the powers of the pope. Peak of the Gregorian Reform, and an immense factor in the Investiture Controversy.",
+                "Source": null,
+                "id": 328
+            },
+            {
+                "date_start": 1077,
+                "date_end": 1077,
+                "date": "1077",
+                "era": "Medieval",
+                "event": "Holy Roman Emperor Henry IV  walks to Canossa where he stands barefoot in the snow to beg forgiveness of the Pope for his offences, and admitting defeat in the Investiture Controversy.",
+                "Source": null,
+                "id": 329
+            },
+            {
+                "date_start": 1077,
+                "date_end": 1077,
+                "date": "1077",
+                "era": "Medieval",
+                "event": "The Construction of the Tower of London begins. The tower of London was the ultimate keep of the British Empire.",
+                "Source": null,
+                "id": 330
+            },
+            {
+                "date_start": 1086,
+                "date_end": 1086,
+                "date": "1086",
+                "era": "Medieval",
+                "event": "The compilation of the Domesday Book, a great land and property survey commissioned by William the Conqueror to assess his new possessions. This is the first such undertaking since Roman times.",
+                "Source": null,
+                "id": 331
+            },
+            {
+                "date_start": 1088,
+                "date_end": 1088,
+                "date": "1088",
+                "era": "Medieval",
+                "event": "University of Bologna is formed. It is the oldest university in Europe.",
+                "Source": null,
+                "id": 332
+            },
+            {
+                "date_start": 1095,
+                "date_end": 1095,
+                "date": "1095",
+                "era": "Medieval",
+                "event": "Pope Urban issues the Crusades to capture the Holy Land, and to repel the Seljuk Turks from the Byzantine Empire from Alexios I Komnenos.",
+                "Source": null,
+                "id": 333
+            },
+            {
+                "date_start": 1098,
+                "date_end": 1098,
+                "date": "1098",
+                "era": "Medieval",
+                "event": "The Cistercian Order is founded. Was a return to the original observance of the Rule of St. Benedict.",
+                "Source": null,
+                "id": 334
+            },
+            {
+                "date_start": 1099,
+                "date_end": 1099,
+                "date": "1099",
+                "era": "Medieval",
+                "event": "First Crusade. Jerusalem is re-taken from the Muslims on the urging of Pope Urban II and the Kingdom of Jerusalem is formed. It last for nearly two centuries.",
+                "Source": null,
+                "id": 335
+            },
+            {
+                "date_start": 1100,
+                "date_end": 1100,
+                "date": "1100",
+                "era": "Medieval",
+                "event": "Latin-translation of the great masters of Arabic medicine: Rhazes, Ishaq Ibn Imran, Ibn Suleiman, and Ibn al-Jazzar Constantine the African",
+                "Source": null,
+                "id": 336
+            },
+            {
+                "date_start": 1102,
+                "date_end": 1102,
+                "date": "1102",
+                "era": "Medieval",
+                "event": "Kingdom of Croatia and Kingdom of Hungary formed a personal union under the Hungarian king. Medieval Hungary and Croatia were allied by means of personal union until 1526. ",
+                "Source": null,
+                "id": 337
+            },
+            {
+                "date_start": 1102,
+                "date_end": 1102,
+                "date": "1102",
+                "era": "Medieval",
+                "event": "Synods of Westminster End of simony, clerical marriages, slavery under Anselm of Canterbury",
+                "Source": null,
+                "id": 338
+            },
+            {
+                "date_start": 1106,
+                "date_end": 1106,
+                "date": "1106 28 September",
+                "era": "Medieval",
+                "event": "Henry I of England defeats his older brother Robert Curthose, duke of Normandy, at the Battle of Tinchebrai, and imprisons him in Devizes castle.",
+                "Source": null,
+                "id": 339
+            },
+            {
+                "date_start": 1107,
+                "date_end": 1107,
+                "date": "1107",
+                "era": "Medieval",
+                "event": "Through the compromise, suggested by Adela, the sister of King Henry, the Investiture Struggle in England is ended it eases friction between the English monarchy and the Catholic Church.",
+                "Source": null,
+                "id": 340
+            },
+            {
+                "date_start": 1109,
+                "date_end": 1109,
+                "date": "1109",
+                "era": "Medieval",
+                "event": "In the Battle of Naklo, Boleslaus III Wrymouth defeats the Pomeranians. Polish access to the sea is re-established.",
+                "Source": null,
+                "id": 341
+            },
+            {
+                "date_start": 1109,
+                "date_end": 1109,
+                "date": "1109 24 August",
+                "era": "Medieval",
+                "event": "In the Battle of Hundsfeld, Boleslaus III Wrymouth defeats Emperor Henry V. German expansion to the centre of Europe is stopped.",
+                "Source": null,
+                "id": 342
+            },
+            {
+                "date_start": 1116,
+                "date_end": 1116,
+                "date": "1116",
+                "era": "Medieval",
+                "event": "The Byzantine army defeats the Turks at Philomelion. The Turks abandon the entire coastal area of Anatolia and all of western Anatolia",
+                "Source": null,
+                "id": 343
+            },
+            {
+                "date_start": 1117,
+                "date_end": 1117,
+                "date": "1117",
+                "era": "Medieval",
+                "event": "The University of Oxford is founded. It is the oldest university in the United Kingdom.",
+                "Source": null,
+                "id": 344
+            },
+            {
+                "date_start": 1118,
+                "date_end": 1118,
+                "date": "1118",
+                "era": "Medieval",
+                "event": "The Knights Templar are founded to protect Jerusalem and European pilgrims on their journey to the city. Becomes the most recognizable, and impactful military orders during the Crusades.",
+                "Source": null,
+                "id": 345
+            },
+            {
+                "date_start": 1121,
+                "date_end": 1121,
+                "date": "1121 25 December",
+                "era": "Medieval",
+                "event": "St. Norbert and 29 companions make their solemn vows marking the beginning of the Premonstratensian Order. This order played a significant role in evangelizing the Slavs, and the Wends.",
+                "Source": null,
+                "id": 346
+            },
+            {
+                "date_start": 1122,
+                "date_end": 1122,
+                "date": "1122 23 September",
+                "era": "Medieval",
+                "event": "The Concordat of Worms was drawn up between Emperor Henry V and Pope Calixtus II. This concordat ended the investiture struggle but bitter rivalry between emperor and pope remained.",
+                "Source": null,
+                "id": 347
+            },
+            {
+                "date_start": 1123,
+                "date_end": 1123,
+                "date": "1123 18 March - 27 March",
+                "era": "Medieval",
+                "event": "The First Lateran Council followed and confirmed the Concordat of Worms.",
+                "Source": null,
+                "id": 348
+            },
+            {
+                "date_start": 1125,
+                "date_end": 1125,
+                "date": "1125",
+                "era": "Medieval",
+                "event": "School of Glossators Irnerius",
+                "Source": null,
+                "id": 349
+            },
+            {
+                "date_start": 1125,
+                "date_end": 1125,
+                "date": "1125",
+                "era": "Medieval",
+                "event": "Lothair of Supplinburg, duke of Saxony, is elected Holy Roman Emperor instead, Frederick of Swabia. This election marks the beginning of the great struggle between the Guelfs and the Ghibellines.",
+                "Source": null,
+                "id": 350
+            },
+            {
+                "date_start": 1125,
+                "date_end": 1125,
+                "date": "1125\u20131127 ",
+                "era": "Medieval",
+                "event": "Jingkang Incident The Jurchen soldiers sack Kaifeng, bringing an end to the Northern Song Dynasty in China; the Song moves further south and makes Lin'an their new capital.",
+                "Source": null,
+                "id": 351
+            },
+            {
+                "date_start": 1130,
+                "date_end": 1130,
+                "date": "1130 25 December",
+                "era": "Medieval",
+                "event": "Roger II is crowned King of Sicily, a Royal title given him by the Antipope Anacletus II. This marks the beginning of the Kingdom of Sicily of Norman kings.",
+                "Source": null,
+                "id": 352
+            },
+            {
+                "date_start": 1130,
+                "date_end": 1130,
+                "date": "1130",
+                "era": "Medieval",
+                "event": "Sic et Non Peter Abelard",
+                "Source": null,
+                "id": 353
+            },
+            {
+                "date_start": 1135,
+                "date_end": 1135,
+                "date": "1135",
+                "era": "Medieval",
+                "event": "The Anarchy begins in England. This will mark a 19-year period of strife and Civil War between the supporters of Stephen and Matilda, and end with the crowning of Matilda's son, Henry II.",
+                "Source": null,
+                "id": 354
+            },
+            {
+                "date_start": 1139,
+                "date_end": 1139,
+                "date": "1139 April",
+                "era": "Medieval",
+                "event": "The Second Lateran Council enforces Gergory VII\u2019s campaign by declaring clerical marriages invalid, regulated clerical dress, and punished attacks on clerics by excommunication.",
+                "Source": null,
+                "id": 355
+            },
+            {
+                "date_start": 1140,
+                "date_end": 1140,
+                "date": "1140",
+                "era": "Medieval",
+                "event": "Decretum Gratian",
+                "Source": null,
+                "id": 356
+            },
+            {
+                "date_start": 1144,
+                "date_end": 1144,
+                "date": "1144",
+                "era": "Medieval",
+                "event": "Rebuild of Basilica of Saint Denis Suger",
+                "Source": null,
+                "id": 357
+            },
+            {
+                "date_start": 1147,
+                "date_end": 1147,
+                "date": "1147\u20131149 ",
+                "era": "Medieval",
+                "event": "The Second Crusade was in retaliation for the fall of Edessa, one of the first Crusader States founded in the First Crusade. The first Crusade been led by European kngs was an overall failure.",
+                "Source": null,
+                "id": 358
+            },
+            {
+                "date_start": 1150,
+                "date_end": 1150,
+                "date": "1150",
+                "era": "Medieval",
+                "event": "Ramon Berenguer IV, Count of Barcelona, married Queen Petronilla of Aragon. This marriage gave the Kingdom of Aragon access to the Mediterranean Sea.",
+                "Source": null,
+                "id": 359
+            },
+            {
+                "date_start": 1150,
+                "date_end": 1150,
+                "date": "1150",
+                "era": "Medieval",
+                "event": "Founding of the University of Paris",
+                "Source": null,
+                "id": 360
+            },
+            {
+                "date_start": 1152,
+                "date_end": 1152,
+                "date": "1152",
+                "era": "Medieval",
+                "event": "The Synod of Kells-Mellifont established the present diocesan system of Ireland and recognized the primacy of Armagh. The Irish Church is included into mainstream European Catholicism.",
+                "Source": null,
+                "id": 361
+            },
+            {
+                "date_start": 1154,
+                "date_end": 1154,
+                "date": "1154",
+                "era": "Medieval",
+                "event": "Common Law Henry II",
+                "Source": null,
+                "id": 362
+            },
+            {
+                "date_start": 1158,
+                "date_end": 1158,
+                "date": "1158",
+                "era": "Medieval",
+                "event": "The Hanseatic League is founded. This marks a new period of trade and economic development for northern and central Europe.",
+                "Source": null,
+                "id": 363
+            },
+            {
+                "date_start": 1163,
+                "date_end": 1163,
+                "date": "1163",
+                "era": "Medieval",
+                "event": "The first cornerstone is laid for the construction of Notre Dame de Paris.",
+                "Source": null,
+                "id": 364
+            },
+            {
+                "date_start": 1166,
+                "date_end": 1166,
+                "date": "1166",
+                "era": "Medieval",
+                "event": "Stefan Nemanja united Serbian territories, establishing the Medieval Serbian state marking the rise of Serbia which will dominate the Balkans for the next three hundred years.",
+                "Source": null,
+                "id": 365
+            },
+            {
+                "date_start": 1171,
+                "date_end": 1171,
+                "date": "1171",
+                "era": "Medieval",
+                "event": "King Henry II of England lands in Ireland to assert his supremacy. This begins the English claim to and occupation of Ireland which would last some seven and a half centuries.",
+                "Source": null,
+                "id": 366
+            },
+            {
+                "date_start": 1174,
+                "date_end": 1174,
+                "date": "1174 7/12",
+                "era": "Medieval",
+                "event": "King William I of Scotland, captured in the Battle of Alnwick by the English, accepts the feudal lordship of the English crown. This is the beginning of the acquisition of Scotland by the English.",
+                "Source": null,
+                "id": 367
+            },
+            {
+                "date_start": 1175,
+                "date_end": 1175,
+                "date": "1175",
+                "era": "Medieval",
+                "event": "H\u014dnen Sh\u014dnin (Genk\u016b) founds the J\u014ddo sh\u016b (Pure Land) sect of Buddhism. This event marks the beginning of the Buddhist sectarian movement in Japan.",
+                "Source": null,
+                "id": 368
+            },
+            {
+                "date_start": 1176,
+                "date_end": 1176,
+                "date": "1176 5/29",
+                "era": "Medieval",
+                "event": "At the Battle of Legnano, the Lombard League's infantry defeats Federick Barbarossa's cavalry \u2013 the first major defeat of cavalry by infantry, signaling the new role of the bourgeoisie.",
+                "Source": null,
+                "id": 369
+            },
+            {
+                "date_start": 1175,
+                "date_end": 1175,
+                "date": "1175",
+                "era": "Medieval",
+                "event": "Gerard of Cremona translates the Arabic version of Ptolemy's Almagest",
+                "Source": null,
+                "id": 370
+            },
+            {
+                "date_start": 1179,
+                "date_end": 1179,
+                "date": "1179",
+                "era": "Medieval",
+                "event": "Third Council of the Lateran",
+                "Source": null,
+                "id": 371
+            },
+            {
+                "date_start": 1179,
+                "date_end": 1179,
+                "date": "1179 March",
+                "era": "Medieval",
+                "event": "The Third Lateran Council limits papal electees to the cardinals alone, condemns simony, and forbids the promotion of anyone to the episcopate before the age of thirty.",
+                "Source": null,
+                "id": 372
+            },
+            {
+                "date_start": 1183,
+                "date_end": 1183,
+                "date": "1183",
+                "era": "Medieval",
+                "event": "The final Peace of Constance between Frederick Barbarossa, the pope, and the Lombard towns is signed.",
+                "Source": null,
+                "id": 373
+            },
+            {
+                "date_start": 1183,
+                "date_end": 1183,
+                "date": "1183",
+                "era": "Medieval",
+                "event": "The Taira clan are driven out of Ky\u014dto by Minamoto Yoshinaka. The two-year conflict which follows ends at the Battle of Dan no Ura (1185).",
+                "Source": null,
+                "id": 374
+            },
+            {
+                "date_start": 1184,
+                "date_end": 1184,
+                "date": "1184 November",
+                "era": "Medieval",
+                "event": "Pope Lucius III issues the papal bull Ad Abolendam. This bull set up the organization of the medieval inquisitions.",
+                "Source": null,
+                "id": 375
+            },
+            {
+                "date_start": 1185,
+                "date_end": 1185,
+                "date": "1185",
+                "era": "Medieval",
+                "event": "Windmills are first recorded.",
+                "Source": null,
+                "id": 376
+            },
+            {
+                "date_start": 1185,
+                "date_end": 1185,
+                "date": "1185",
+                "era": "Medieval",
+                "event": "Uprising of Asen and Peter. The reestablishment of the Bulgarian Empire.",
+                "Source": null,
+                "id": 377
+            },
+            {
+                "date_start": 1185,
+                "date_end": 1185,
+                "date": "1185",
+                "era": "Medieval",
+                "event": "At the Battle of Dan no Ura, Minamoto Yoshitsune annihilates the Taira clan which leaves Minamoto the rulers of Japan and marks the beginning of feudal rule known as the Kamakura Period.",
+                "Source": null,
+                "id": 378
+            },
+            {
+                "date_start": 1186,
+                "date_end": 1186,
+                "date": "1186 1/27",
+                "era": "Medieval",
+                "event": "The future emperor Henry VI marries Constance of Sicily, heiress to the Sicilian throne. This marriage shifts the focus of the Guelphs/Ghibelline struggle to Sicily.",
+                "Source": null,
+                "id": 379
+            },
+            {
+                "date_start": 1187,
+                "date_end": 1187,
+                "date": "1187",
+                "era": "Medieval",
+                "event": "Saladin recaptures Jerusalem. Would lead to the Third Crusade.",
+                "Source": null,
+                "id": 380
+            },
+            {
+                "date_start": 1188,
+                "date_end": 1188,
+                "date": "1188",
+                "era": "Medieval",
+                "event": "Tractatus of Glanvil Oxford University",
+                "Source": null,
+                "id": 381
+            },
+            {
+                "date_start": 1189,
+                "date_end": 1189,
+                "date": "1189 July 6",
+                "era": "Medieval",
+                "event": "Richard I (C\u0153ur de Lion) ascends the throne of England. He levies heavy taxes to finance his European creates antipathy towards the crown but his being absent enabled political developments.",
+                "Source": null,
+                "id": 382
+            },
+            {
+                "date_start": 1189,
+                "date_end": 1189,
+                "date": "1189\u20131192 ",
+                "era": "Medieval",
+                "event": "The Third Crusade follows upon Saladin's uniting the Muslim world and recapturing Jerusalem. Despite managing to win several major battles. the Crusaders did not recapture Jerusalem.",
+                "Source": null,
+                "id": 383
+            },
+            {
+                "date_start": 1192,
+                "date_end": 1192,
+                "date": "1192",
+                "era": "Medieval",
+                "event": "Minamoto no Yoritomo is appointed Sei-i Taish\u014dgun, or sh\u014dgun for short. He is the first of a long line of military dictators to bear this title. The institution would last until 1913.",
+                "Source": null,
+                "id": 384
+            },
+            {
+                "date_start": 1193,
+                "date_end": 1193,
+                "date": "1193",
+                "era": "Medieval",
+                "event": "Muhammad bin Bakhtiyar Khilji sack and burn the university at Nalanda. This is the beginning of the decline of Buddhism in India.",
+                "Source": null,
+                "id": 385
+            },
+            {
+                "date_start": 1193,
+                "date_end": 1193,
+                "date": "1193",
+                "era": "Medieval",
+                "event": "The first known merchant guild.",
+                "Source": null,
+                "id": 386
+            },
+            {
+                "date_start": 1195,
+                "date_end": 1195,
+                "date": "1195",
+                "era": "Medieval",
+                "event": "Battle of Alarcos The Almohad Caliphate decisively defeat the Kingdom of Castile. The Almohads pushed Christians to the north and stablished themselves as the supreme power in Al-Andalus",
+                "Source": null,
+                "id": 387
+            },
+            {
+                "date_start": 1199,
+                "date_end": 1199,
+                "date": "1199",
+                "era": "Medieval",
+                "event": "Europeans first use compasses.",
+                "Source": null,
+                "id": 388
+            },
+            {
+                "date_start": 1202,
+                "date_end": 1202,
+                "date": "1202",
+                "era": "Medieval",
+                "event": "The Fourth Crusade sacked Croatian town of Zadar, a rival of Venice, despite letters from Pope Innocent III forbidding it. This marks the first attack against a Catholic city by Catholic crusaders.",
+                "Source": null,
+                "id": 389
+            },
+            {
+                "date_start": 1204,
+                "date_end": 1204,
+                "date": "1204",
+                "era": "Medieval",
+                "event": "Sack of Constantinople during the Fourth Crusade. Considered to be the beginning of the decline of the Byzantine Empire.",
+                "Source": null,
+                "id": 390
+            },
+            {
+                "date_start": 1205,
+                "date_end": 1205,
+                "date": "1205",
+                "era": "Medieval",
+                "event": "Battle of Adrianople. The Bulgarians under Emperor Kaloyan defeat Baldwin I. Beginning of the decline of the Latin Empire.",
+                "Source": null,
+                "id": 391
+            },
+            {
+                "date_start": 1206,
+                "date_end": 1206,
+                "date": "1206",
+                "era": "Medieval",
+                "event": "Genghis Khan was elected as Khagan of the Mongols and the Mongol Empire was established. The Mongols would conquer much of Eurasia, changing former political borders.",
+                "Source": null,
+                "id": 392
+            },
+            {
+                "date_start": 1208,
+                "date_end": 1208,
+                "date": "1208",
+                "era": "Medieval",
+                "event": "Pope Innocent III calls for the Albigensian Crusade which seeks to destroy a rival form of Christianity practiced by the Cathars.",
+                "Source": null,
+                "id": 393
+            },
+            {
+                "date_start": 1209,
+                "date_end": 1209,
+                "date": "1209",
+                "era": "Medieval",
+                "event": "The University of Cambridge is founded.",
+                "Source": null,
+                "id": 394
+            },
+            {
+                "date_start": 1209,
+                "date_end": 1209,
+                "date": "1209",
+                "era": "Medieval",
+                "event": "Founding of the Franciscan Order. One of the more significant orders in the Roman Catholic church. founded by Saint Francis of Assisi.",
+                "Source": null,
+                "id": 395
+            },
+            {
+                "date_start": 1212,
+                "date_end": 1212,
+                "date": "1212",
+                "era": "Medieval",
+                "event": "Spanish Christians succeed in defeating the Moors in the long Reconquista campaigns, after the Battle of Las Navas de Tolosa.",
+                "Source": null,
+                "id": 396
+            },
+            {
+                "date_start": 1215,
+                "date_end": 1215,
+                "date": "1215 15 June",
+                "era": "Medieval",
+                "event": "The Magna Carta is sealed by John of England. This marks one of the first times a medieval ruler is forced to accept limits on his power.",
+                "Source": null,
+                "id": 397
+            },
+            {
+                "date_start": 1215,
+                "date_end": 1215,
+                "date": "1215",
+                "era": "Medieval",
+                "event": "Fourth Lateran Council. Dealt with transubstantiation, papal primacy and conduct of clergy. Proclaimed that Jews and Muslims should wear identification marks to distinguish them from Christians.",
+                "Source": null,
+                "id": 398
+            },
+            {
+                "date_start": 1216,
+                "date_end": 1216,
+                "date": "1216",
+                "era": "Medieval",
+                "event": "Papal recognition of the Dominican Order.",
+                "Source": null,
+                "id": 399
+            },
+            {
+                "date_start": 1219,
+                "date_end": 1219,
+                "date": "1219",
+                "era": "Medieval",
+                "event": "Serbian Orthodox Church becomes autocephalous under St. Sava, its first Archbishop.",
+                "Source": null,
+                "id": 400
+            },
+            {
+                "date_start": 1227,
+                "date_end": 1227,
+                "date": "1227 18 August",
+                "era": "Medieval",
+                "event": "Genghis Khan dies. His kingdom is divided among his children and grandchildren some of which later form the Golden Horde.",
+                "Source": null,
+                "id": 401
+            },
+            {
+                "date_start": 1237,
+                "date_end": 1237,
+                "date": "1237\u20131240 ",
+                "era": "Medieval",
+                "event": "Mongol invasion of Rus' resumes. Causes the split of Kievan Rus' into three components (present day Russia, Ukraine, Belarus).",
+                "Source": null,
+                "id": 402
+            },
+            {
+                "date_start": 1257,
+                "date_end": 1257,
+                "date": "1257",
+                "era": "Medieval",
+                "event": "Opening of the College of Sorbonne.",
+                "Source": null,
+                "id": 403
+            },
+            {
+                "date_start": 1257,
+                "date_end": 1257,
+                "date": "1257",
+                "era": "Medieval",
+                "event": "Provisions of Oxford forced upon Henry III of England. This establishes a new form of government-limited regal authority.",
+                "Source": null,
+                "id": 404
+            },
+            {
+                "date_start": 1258,
+                "date_end": 1258,
+                "date": "1258 29 January\u2013 10 February",
+                "era": "Medieval",
+                "event": "Siege of Baghdad by Ilkhanate Mongol forces Mongols (the Ilkhanate) ensure control of the region.  Generally considered the end of the Islamic Golden Age.",
+                "Source": null,
+                "id": 405
+            },
+            {
+                "date_start": 1258,
+                "date_end": 1258,
+                "date": "1258",
+                "era": "Medieval",
+                "event": "The first Mongol invasion of Vietnam The Mongol army was defeated by emperor Tran Thai Tong of \u0110\u1ea1i Vi\u1ec7t",
+                "Source": null,
+                "id": 406
+            },
+            {
+                "date_start": 1272,
+                "date_end": 1272,
+                "date": "1272\u201373 ",
+                "era": "Medieval",
+                "event": "The Ninth Crusade occurs. Considered to be the Last Major Crusade to take place in the Holy Land.",
+                "Source": null,
+                "id": 407
+            },
+            {
+                "date_start": 1273,
+                "date_end": 1273,
+                "date": "1273 29 September",
+                "era": "Medieval",
+                "event": "Rudolph I of Germany is elected Holy Roman Emperor. This begins the Habsburg de facto domination of the crown that lasted until is dissolution in 1806.",
+                "Source": null,
+                "id": 408
+            },
+            {
+                "date_start": 1274,
+                "date_end": 1274,
+                "date": "1274",
+                "era": "Medieval",
+                "event": "Thomas Aquinas' work, Summa Theologica is published, after his death. Is the main staple of theology during the Middle Ages.",
+                "Source": null,
+                "id": 409
+            },
+            {
+                "date_start": 1279,
+                "date_end": 1279,
+                "date": "1279 19 March",
+                "era": "Medieval",
+                "event": "Battle of Yamen. Marks the end of the Song Dynasty in China, and all of China is under the rule of Kublai Khan as the emperor.",
+                "Source": null,
+                "id": 410
+            },
+            {
+                "date_start": 1282,
+                "date_end": 1282,
+                "date": "1282",
+                "era": "Medieval",
+                "event": "Sicilian Vespers. Sicilians massacre Angevins over a six-week period, after a Frenchman harassed a woman.",
+                "Source": null,
+                "id": 411
+            },
+            {
+                "date_start": 1283,
+                "date_end": 1283,
+                "date": "1283",
+                "era": "Medieval",
+                "event": "First regulated Catalan Courts are formed. Presided by king Peter III of Aragon they become the model for medieval parliaments.",
+                "Source": "https://en.wikipedia.org/wiki/Catalan_Courts",
+                "id": 412
+            },
+            {
+                "date_start": 1285,
+                "date_end": 1285,
+                "date": "1285",
+                "era": "Medieval",
+                "event": "The second Mongol invasion of Vietnam The Mongol army was defeated by emperor Tran Nhan Tong and general Tran Hung Dao.",
+                "Source": null,
+                "id": 413
+            },
+            {
+                "date_start": 1287,
+                "date_end": 1287,
+                "date": "1287",
+                "era": "Medieval",
+                "event": "The third Mongol invasion of Vietnam Decisive Vietnam victory. To avoid further conflict \u0110\u1ea1i Vi\u1ec7t agreed to a tributary relationship with the Yuan dynasty",
+                "Source": null,
+                "id": 414
+            },
+            {
+                "date_start": 1296,
+                "date_end": 1296,
+                "date": "1296",
+                "era": "Medieval",
+                "event": "Edward I of England invades Scotland, starting the First War of Scottish Independence.",
+                "Source": null,
+                "id": 415
+            },
+            {
+                "date_start": 1297,
+                "date_end": 1297,
+                "date": "1297 11 September",
+                "era": "Medieval",
+                "event": "The Battle of Stirling Bridge. William Wallace emerges as the leader of the Scottish resistancce to England.",
+                "Source": null,
+                "id": 416
+            },
+            {
+                "date_start": 1298,
+                "date_end": 1298,
+                "date": "1298",
+                "era": "Medieval",
+                "event": "Marco Polo publishes his tales of China, along with Rustichello da Pisa. A key step to the bridging of Asia and Europe in trade.",
+                "Source": null,
+                "id": 417
+            },
+            {
+                "date_start": 1299,
+                "date_end": 1299,
+                "date": "1299 27 July",
+                "era": "Medieval",
+                "event": "The Ottoman Empire is founded by Osman I. Becomes longest lasting Islamic Empire, lasting over 600 years into the 20th century.",
+                "Source": null,
+                "id": 418
+            },
+            {
+                "date_start": 1305,
+                "date_end": 1305,
+                "date": "23 August 1305",
+                "era": "Medieval",
+                "event": "William Wallace is executed for treason.",
+                "Source": null,
+                "id": 419
+            },
+            {
+                "date_start": 1307,
+                "date_end": 1307,
+                "date": "13 October 1307",
+                "era": "Medieval",
+                "event": "The Knights Templar are rounded up and murdered by Philip the Fair of France, with the backing of the Pope. Hastens the demise of the order within a decade.",
+                "Source": null,
+                "id": 420
+            },
+            {
+                "date_start": 1307,
+                "date_end": 1307,
+                "date": "1307",
+                "era": "Medieval",
+                "event": "The Popes move to Avignon and begin the Babylonian Captivity. The papacy remains there for seven decades which eventually leads to the Western Schism.",
+                "Source": null,
+                "id": 421
+            },
+            {
+                "date_start": 1310,
+                "date_end": 1310,
+                "date": "1310",
+                "era": "Medieval",
+                "event": "Dante publishes his Divine Comedy. Is one of the most defining works of literature during the Late Middle Ages, and among the most recognizable in all of literature.",
+                "Source": null,
+                "id": 422
+            },
+            {
+                "date_start": 1314,
+                "date_end": 1314,
+                "date": "1314 23\u201324 June",
+                "era": "Medieval",
+                "event": "Battle of Bannockburn. Robert the Bruce restores Scotland's de facto independence.",
+                "Source": null,
+                "id": 423
+            },
+            {
+                "date_start": 1325,
+                "date_end": 1325,
+                "date": "1325",
+                "era": "Medieval",
+                "event": "The Mexica found the city of Tenochtitlan. This would later be the epicenter and capital of the Aztec Empire until the Siege of Tenochtitlan 200 years later.",
+                "Source": null,
+                "id": 424
+            },
+            {
+                "date_start": 1328,
+                "date_end": 1328,
+                "date": "1328",
+                "era": "Medieval",
+                "event": "The First War of Scottish Independence ends in Scottish victory with the Treaty of Edinburgh-Northampton and de jure independence.",
+                "Source": null,
+                "id": 425
+            },
+            {
+                "date_start": 1323,
+                "date_end": 1323,
+                "date": "1323",
+                "era": "Medieval",
+                "event": "Romance of the three kingdoms",
+                "Source": null,
+                "id": 426
+            },
+            {
+                "date_start": 1330,
+                "date_end": 1330,
+                "date": "1330 28 July",
+                "era": "Medieval",
+                "event": "Battle of Velbazhd.",
+                "Source": null,
+                "id": 427
+            },
+            {
+                "date_start": 1333,
+                "date_end": 1333,
+                "date": "1333",
+                "era": "Medieval",
+                "event": "Emperor Go-Daigo returns to the throne from exile, and begins the Kenmu restoration ending the Kamakura Shogunate. It only lasts a few years before the Ashikaga Shogunate begins.",
+                "Source": null,
+                "id": 428
+            },
+            {
+                "date_start": 1337,
+                "date_end": 1337,
+                "date": "1337",
+                "era": "Medieval",
+                "event": "The Hundred Years' War begins. England and France struggle for a dominating position in Europe and their region. The war will span through three/four different war periods within a 116-year period.",
+                "Source": null,
+                "id": 429
+            },
+            {
+                "date_start": 1346,
+                "date_end": 1346,
+                "date": "1346 August 26th",
+                "era": "Medieval",
+                "event": "Battle of Cr\u00e9cy. English forces led by Edward III and Edward, the Black Prince defeat the French forces of Philip VI despite being outnumbered at least 4 to 1 thanks to the longbow.",
+                "Source": null,
+                "id": 430
+            },
+            {
+                "date_start": 1347,
+                "date_end": 1347,
+                "date": "1347",
+                "era": "Medieval",
+                "event": "The Black Death ravages Europe for the first of many times. In the first year 20% \u2013 40% of the population perishes, and it eventually kills over half of the population of Europe.",
+                "Source": null,
+                "id": 431
+            },
+            {
+                "date_start": 1347,
+                "date_end": 1347,
+                "date": "1347",
+                "era": "Medieval",
+                "event": "The University of Prague is founded. It is the oldest Czech and German-Speaking University in the world",
+                "Source": null,
+                "id": 432
+            },
+            {
+                "date_start": 1364,
+                "date_end": 1364,
+                "date": "1364",
+                "era": "Medieval",
+                "event": "Astrarium Giovanni de dondi",
+                "Source": null,
+                "id": 433
+            },
+            {
+                "date_start": 1368,
+                "date_end": 1368,
+                "date": "1368",
+                "era": "Medieval",
+                "event": "The fall of the Yuan Dynasty. Its remnants, known as Northern Yuan, continued to rule Mongolia. The breakup of the Mongol Empire, which marked the end of Pax Mongolica.",
+                "Source": null,
+                "id": 434
+            },
+            {
+                "date_start": 1370,
+                "date_end": 1370,
+                "date": "1370",
+                "era": "Medieval",
+                "event": "Tamerlane establishes the Timurid Dynasty. During this 35-year period Tamerlane would ravage his fellow Islamic states such as the Golden Horde and the Delhi Sultanate to restored the Mongol Empire.",
+                "Source": null,
+                "id": 435
+            },
+            {
+                "date_start": 1378,
+                "date_end": 1378,
+                "date": "1378",
+                "era": "Medieval",
+                "event": "The Western Schism during which three claimant popes were elected simultaneously. The Avignon Papacy ends.",
+                "Source": null,
+                "id": 436
+            },
+            {
+                "date_start": 1380,
+                "date_end": 1380,
+                "date": "1380",
+                "era": "Medieval",
+                "event": "Prince Dmitry Donskoy of Moscow led a united Russian army to a victory over the Mongols in the Battle of Kulikovo.",
+                "Source": null,
+                "id": 437
+            },
+            {
+                "date_start": 1380,
+                "date_end": 1380,
+                "date": "1380",
+                "era": "Medieval",
+                "event": "Chaucer begins to write The Canterbury Tales. Chaucer's greatest work and one of the foundations towards the formation of the Modern English language",
+                "Source": null,
+                "id": 438
+            },
+            {
+                "date_start": 1381,
+                "date_end": 1381,
+                "date": "1381",
+                "era": "Medieval",
+                "event": "Peasants' Revolt in England. Quickest-spread revolt in English history and the most popular revolt of the Late Middle Ages.",
+                "Source": null,
+                "id": 439
+            },
+            {
+                "date_start": 1381,
+                "date_end": 1381,
+                "date": "1381",
+                "era": "Medieval",
+                "event": "The Bible is translated into English by John Wycliffe. First print published in English (Vulgate)",
+                "Source": null,
+                "id": 440
+            },
+            {
+                "date_start": 1386,
+                "date_end": 1386,
+                "date": "1386 October 18\u201319th",
+                "era": "Medieval",
+                "event": "The University of Heidelberg is founded. It is the oldest university in Germany.",
+                "Source": null,
+                "id": 441
+            },
+            {
+                "date_start": 1389,
+                "date_end": 1389,
+                "date": "1389 June 28th",
+                "era": "Medieval",
+                "event": "Battle of Kosovo in Serbia between the Turks (Sultan Murat) and the Christian army led by the Serbs (Duke Lazar). The Turkish empire continued to spread over the Balkans, and reaches Vienna.",
+                "Source": null,
+                "id": 442
+            },
+            {
+                "date_start": 1392,
+                "date_end": 1392,
+                "date": "1392",
+                "era": "Medieval",
+                "event": "Joseon Dynasty founded in Korea. Becomes longest reigning Korean dynasty.",
+                "Source": null,
+                "id": 443
+            },
+            {
+                "date_start": 1396,
+                "date_end": 1396,
+                "date": "1396",
+                "era": "Medieval",
+                "event": "The Battle of Nicopolis. The last great Crusade fails. Bulgaria was conquered by the Ottomans",
+                "Source": null,
+                "id": 444
+            },
+            {
+                "date_start": 1397,
+                "date_end": 1397,
+                "date": "1397",
+                "era": "Medieval",
+                "event": "The Kalmar Union is formed. Queen Margaret I of Denmark unites the Denmark, Sweden, and Norway, and lasts until 1523.",
+                "Source": null,
+                "id": 445
+            },
+            {
+                "date_start": 1399,
+                "date_end": 1399,
+                "date": "1399",
+                "era": "Medieval",
+                "event": "Richard II abdicates the throne to Henry of Bolingbroke, who becomes Henry IV of England. End of Plantagenet Dynasty, beginning of the Lancaster lineage of kings.",
+                "Source": null,
+                "id": 446
+            },
+            {
+                "date_start": 1402,
+                "date_end": 1402,
+                "date": "20 July 1402",
+                "era": "Medieval",
+                "event": "Battle of Ankara Bayezid I is captured by Tamerlane's forces, causing the interregnum of the Ottoman Empire.",
+                "Source": null,
+                "id": 447
+            },
+            {
+                "date_start": 1405,
+                "date_end": 1405,
+                "date": "1405",
+                "era": "Medieval",
+                "event": "Chinese naval expeditions of Southeast Asia and the Indian Ocean (to Eastern Africa) begin under Zheng He. This will be the first of seven of the Ming Dynasty-sponsored expeditions.",
+                "Source": null,
+                "id": 448
+            },
+            {
+                "date_start": 1409,
+                "date_end": 1409,
+                "date": "1409",
+                "era": "Medieval",
+                "event": "Ladislaus of Naples sells his 'rights' on Dalmatia to the Venetian Republic for 100,000 ducats. Dalmatia would with some interruptions remain under Venetian rule for nearly four centuries.",
+                "Source": null,
+                "id": 449
+            },
+            {
+                "date_start": 1410,
+                "date_end": 1410,
+                "date": "1410",
+                "era": "Medieval",
+                "event": "Battle of Grunwald Major turning point in history of Lithuania Poland and the Teutonic Order.",
+                "Source": null,
+                "id": 450
+            },
+            {
+                "date_start": 1415,
+                "date_end": 1415,
+                "date": "1415",
+                "era": "Medieval",
+                "event": "Kingdom of Portugal conquers Ceuta. Beginning of the Portuguese Empire. Beginning of the Age of Discovery.",
+                "Source": null,
+                "id": 451
+            },
+            {
+                "date_start": 1415,
+                "date_end": 1415,
+                "date": "25 October 1415",
+                "era": "Medieval",
+                "event": "Battle of Agincourt. Henry V and his army defeat a numerically superior French army, partially because of the newly introduced English longbow. The turning point in the Hundred Years' War for England.",
+                "Source": null,
+                "id": 452
+            },
+            {
+                "date_start": 1417,
+                "date_end": 1417,
+                "date": "1417",
+                "era": "Medieval",
+                "event": "The Council of Constance ends. The Western Schism comes to a close and elects Pope Martin V as the sole pope.",
+                "Source": null,
+                "id": 453
+            },
+            {
+                "date_start": 1419,
+                "date_end": 1419,
+                "date": "1419",
+                "era": "Medieval",
+                "event": "Hussite Wars begin after four years after the death of Jan Hus in central Europe, dealing with the followers of Jan Hus and those against them.",
+                "Source": null,
+                "id": 454
+            },
+            {
+                "date_start": 1428,
+                "date_end": 1428,
+                "date": "1428",
+                "era": "Medieval",
+                "event": "Itzcoatl, the fourth Mexica king in Tenochtitl\u00e1n, allied with Texcoco and Tlacopan, defeats Azcapotzalco. Signifies the birth of the Aztec Empire and the start of a 90 years aggressive expansion.",
+                "Source": null,
+                "id": 455
+            },
+            {
+                "date_start": 1429,
+                "date_end": 1429,
+                "date": "1429",
+                "era": "Medieval",
+                "event": "Jeanne d\u2019Arc lifts the siege of Orl\u00e9ans for the Dauphin of France. This and following battles drive the English from the continent and allow the Dauphin to be crowned in Reims.",
+                "Source": "https://en.wikipedia.org/wiki/Joan_of_Arc",
+                "id": 456
+            },
+            {
+                "date_start": 1431,
+                "date_end": 1431,
+                "date": "30 May 1431",
+                "era": "Medieval",
+                "event": "Trial and execution of Jeanne d\u2019Arc. Death of the woman who helped turn the Hundred Years' War in favor of the French over the past two years.",
+                "Source": "https://en.wikipedia.org/wiki/Joan_of_Arc",
+                "id": 457
+            },
+            {
+                "date_start": 1434,
+                "date_end": 1434,
+                "date": "1434",
+                "era": "Medieval",
+                "event": "The Medici family rises to prominence in Florence. Over the next three centuries the Medicis are bankers, popes, queens (regents) and dukes, in Italy but also throughout Europe.",
+                "Source": null,
+                "id": 458
+            },
+            {
+                "date_start": 1434,
+                "date_end": 1434,
+                "date": "1434",
+                "era": "Medieval",
+                "event": "Aronolfini Portrait Jan Van Eyck evidence on usage of convex mirror",
+                "Source": null,
+                "id": 459
+            },
+            {
+                "date_start": 1438,
+                "date_end": 1438,
+                "date": "1438",
+                "era": "Medieval",
+                "event": "Prince Cusi Yupanqui becomes the first Inca emperor. Inca civilization begins expanding and the Inca Empire is born.",
+                "Source": null,
+                "id": 460
+            },
+            {
+                "date_start": 1439,
+                "date_end": 1439,
+                "date": "1439",
+                "era": "Medieval",
+                "event": "Johannes Gutenberg invents the printing press.",
+                "Source": null,
+                "id": 461
+            },
+            {
+                "date_start": 1442,
+                "date_end": 1442,
+                "date": "1442",
+                "era": "Medieval",
+                "event": "Battle of Szeben Third significant victory for the Hungarian forces led by Janos Hunyadi over the Ottoman forces.",
+                "Source": null,
+                "id": 462
+            },
+            {
+                "date_start": 1443,
+                "date_end": 1443,
+                "date": "1443",
+                "era": "Medieval",
+                "event": "Sejong the Great creates Hangul, the Korean script still in use today.",
+                "Source": null,
+                "id": 463
+            },
+            {
+                "date_start": 1444,
+                "date_end": 1444,
+                "date": "10 November 1444",
+                "era": "Medieval",
+                "event": "Battle of Varna Final battle of the Crusade of Varna, Ottomans are victorious over the Hungarian-Polish armies, and W\u0142adys\u0142aw III of Poland dies.",
+                "Source": null,
+                "id": 464
+            },
+            {
+                "date_start": 1452,
+                "date_end": 1452,
+                "date": "1452",
+                "era": "Medieval",
+                "event": "Coronation of Frederick III the first emperor of the House of Habsburg and last emperor to be crowned in Rome.",
+                "Source": "https://en.wikipedia.org/wiki/Frederick_III,_Holy_Roman_Emperor",
+                "id": 465
+            },
+            {
+                "date_start": 1453,
+                "date_end": 1453,
+                "date": "1453",
+                "era": "Medieval",
+                "event": "Constantinople falls to the Ottoman Turks ending the Eastern Roman (Byzantine) Empire. Constantinople becomes the capital of the Ottoman Empire.",
+                "Source": null,
+                "id": 466
+            },
+            {
+                "date_start": 1453,
+                "date_end": 1453,
+                "date": "1453",
+                "era": "Medieval",
+                "event": "The Hundred Years' War ends. England's once vast territory in France is now reduced to only Calais, which they eventually lose control of as well.",
+                "Source": null,
+                "id": 467
+            },
+            {
+                "date_start": 1455,
+                "date_end": 1455,
+                "date": "22 May 1455",
+                "era": "Medieval",
+                "event": "Battle of St. Albans that traditionally marks the beginning of the War of the Roses.",
+                "Source": null,
+                "id": 468
+            },
+            {
+                "date_start": 1456,
+                "date_end": 1456,
+                "date": "1456",
+                "era": "Medieval",
+                "event": "Siege of Belgrade, which marks the end of the Medieval Serbian state.  Major Ottoman advances are halted for seven decades  last major victory for Hunyadi.",
+                "Source": null,
+                "id": 469
+            },
+            {
+                "date_start": 1459,
+                "date_end": 1459,
+                "date": "1459",
+                "era": "Medieval",
+                "event": "Smederevo falls under the Turks",
+                "Source": null,
+                "id": 470
+            },
+            {
+                "date_start": 1461,
+                "date_end": 1461,
+                "date": "1461",
+                "era": "Medieval",
+                "event": "The Empire of Trebizond, the last Roman outpost, falls to the Ottoman Turks.",
+                "Source": null,
+                "id": 471
+            },
+            {
+                "date_start": 1464,
+                "date_end": 1464,
+                "date": "1464",
+                "era": "Medieval",
+                "event": "Dardanelles gun Turkish Munir Ali",
+                "Source": null,
+                "id": 472
+            },
+            {
+                "date_start": 1467,
+                "date_end": 1467,
+                "date": "1467\u20131477 ",
+                "era": "Medieval",
+                "event": "\u014cnin War takes place in Japan. First of many significant civil wars between shogunates that would continue for another century during the Muromachi period.",
+                "Source": null,
+                "id": 473
+            },
+            {
+                "date_start": 1475,
+                "date_end": 1475,
+                "date": "1475",
+                "era": "Medieval",
+                "event": "The Khanate of Crimea is conquered and made a vassal state by the Ottoman Empire. Venice is defeated and the Ottoman Empire becomes master of the Aegean Sea.",
+                "Source": null,
+                "id": 474
+            },
+            {
+                "date_start": 1485,
+                "date_end": 1485,
+                "date": "1485",
+                "era": "Medieval",
+                "event": "Thomas Malory composes Le Morte d'Arthur, the best-known work of Arthurian literature in English.",
+                "Source": null,
+                "id": 475
+            },
+            {
+                "date_start": 1485,
+                "date_end": 1485,
+                "date": "22 August 1485 ",
+                "era": "Medieval",
+                "event": "Battle of Bosworth Field during which Richard III dies in battle.",
+                "Source": null,
+                "id": 476
+            },
+            {
+                "date_start": 1487,
+                "date_end": 1487,
+                "date": "1487 June 16",
+                "era": "Medieval",
+                "event": "The Battle of Stoke makes the end of the War of the Roses.",
+                "Source": null,
+                "id": 477
+            },
+            {
+                "date_start": 1492,
+                "date_end": 1492,
+                "date": "1492",
+                "era": "Medieval",
+                "event": "The Reconquista ends. This marks the end of the Moorish-Muslim rule on the Iberian Peninsula and leads to the Unification of Spain.",
+                "Source": null,
+                "id": 478
+            },
+            {
+                "date_start": 1492,
+                "date_end": 1492,
+                "date": "1492",
+                "era": "Medieval",
+                "event": "Christopher Columbus reaches the New World.",
+                "Source": null,
+                "id": 479
+            },
+            {
+                "date_start": 1494,
+                "date_end": 1494,
+                "date": "June 10 1494",
+                "era": "Medieval",
+                "event": "Spain and Portugal sign the Treaty of Tordesillas and agree to divide the World outside of Europe between themselves.",
+                "Source": null,
+                "id": 480
+            },
+            {
+                "date_start": 1494,
+                "date_end": 1494,
+                "date": "1494\u20131559",
+                "era": "Medieval",
+                "event": "The Italian Wars which eventually will lead to the downfall of the Italian city-states.",
+                "Source": null,
+                "id": 481
+            },
+            {
+                "date_start": 1497,
+                "date_end": 1497,
+                "date": "1497",
+                "era": "Medieval",
+                "event": "Vasco da Gama begins his first voyage from Europe to India and back. He was the first European to sail directly from Europe to Eastern Asia.",
+                "Source": null,
+                "id": 482
+            },
+            {
+                "date_start": 1499,
+                "date_end": 1499,
+                "date": "1499",
+                "era": "Medieval",
+                "event": "The Ottoman fleet defeats Venetians at the Battle of Zonchio. This marks the first naval battle that used cannons in ships. ",
+                "Source": null,
+                "id": 483
+            },
+            {
+                "date_start": -284,
+                "date_end": -246,
+                "date": "284 - 246 BCE",
+                "era": "Ancient & Classical",
+                "event": "The Lighthouse of Alexandria is built during the reign of Ptolemy II. It exceeded 100 meteres in overall height.",
+                "Source": "https://en.wikipedia.org/wiki/Lighthouse_of_Alexandria",
+                "id": 484
+            },
+            {
+                "date_start": 1480,
+                "date_end": 1480,
+                "date": "1480",
+                "era": "Early Modern",
+                "event": "The last remaining stones of the abandoned Lighthouse of Alexandria are used to built the Citadel of Qaitbay.",
+                "Source": "https://en.wikipedia.org/wiki/Lighthouse_of_Alexandria",
+                "id": 485
+            },
+            {
+                "date_start": -280,
+                "date_end": -280,
+                "date": "280 BCE",
+                "era": "Ancient & Classical",
+                "event": "The Colossus of Rhodes is built to celebrate the defence of Rhodes against Demetrius Poliorcetes",
+                "Source": "https://en.wikipedia.org/wiki/Colossus_of_Rhodes",
+                "id": 486
+            },
+            {
+                "date_start": 653,
+                "date_end": 653,
+                "date": "653",
+                "era": "Medieval",
+                "event": "Arab force under Muslim general Muawiyah I conqueres Rhodes and destroys the Collosus of Rhodes.",
+                "Source": "https://en.wikipedia.org/wiki/Colossus_of_Rhodes",
+                "id": 487
+            },
+            {
+                "date_start": 1452,
+                "date_end": 1452,
+                "date": "1452",
+                "era": "Renaissance",
+                "event": "Leonardo da Vinci is born",
+                "Source": "https://www.thoughtco.com/renaissance-timeline-4158077",
+                "id": 488
+            },
+            {
+                "date_start": 1454,
+                "date_end": 1454,
+                "date": "1454",
+                "era": "Renaissance",
+                "event": "Johannes Gutenberg published the\u00a0Gutenberg Bible ",
+                "Source": "https://www.thoughtco.com/renaissance-timeline-4158077",
+                "id": 489
+            },
+            {
+                "date_start": 1469,
+                "date_end": 1469,
+                "date": "1469",
+                "era": "Renaissance",
+                "event": "Lorenzo de Medici \"The Magnificent\u201d takes over power in Florence. : his rule is considered the high point of the Florentine Renaissance. ",
+                "Source": "https://www.thoughtco.com/renaissance-timeline-4158077",
+                "id": 490
+            },
+            {
+                "date_start": 1481,
+                "date_end": 1481,
+                "date": "1481",
+                "era": "Renaissance",
+                "event": "Construction of the Sistine Chapel is finished",
+                "Source": "https://en.wikipedia.org/wiki/Sistine_Chapel",
+                "id": 491
+            },
+            {
+                "date_start": 1509,
+                "date_end": 1509,
+                "date": "1509",
+                "era": "Renaissance",
+                "event": "\u00a0Henry VIII\u00a0came to power in England ",
+                "Source": "https://www.thoughtco.com/renaissance-timeline-4158077",
+                "id": 492
+            },
+            {
+                "date_start": 1530,
+                "date_end": 1530,
+                "date": "1530",
+                "era": "Renaissance",
+                "event": "\u00a0Charles V\u00a0 become Holy Roman Emperor",
+                "Source": "https://www.thoughtco.com/renaissance-timeline-4158077",
+                "id": 493
+            },
+            {
+                "date_start": 1525,
+                "date_end": 1525,
+                "date": "1525",
+                "era": "Renaissance",
+                "event": "The Battle of Pavia took place between France and the Holy Roman Empire, ending French claims on Italy ",
+                "Source": "https://www.thoughtco.com/renaissance-timeline-4158077",
+                "id": 494
+            },
+            {
+                "date_start": 1471,
+                "date_end": 1528,
+                "date": "1471-1528",
+                "era": "Renaissance",
+                "event": "Life of Albrecht D\u00fcrer",
+                "Source": "https://en.wikipedia.org/wiki/Albrecht_D\u00fcrer",
+                "id": 495
+            },
+            {
+                "date_start": 1513,
+                "date_end": 1513,
+                "date": "1513",
+                "era": "Renaissance",
+                "event": "Niccol\u00f2 Machiavelli wrote \u2018The Prince\u2019",
+                "Source": "https://www.thoughtco.com/renaissance-timeline-4158077",
+                "id": 496
+            },
+            {
+                "date_start": 1516,
+                "date_end": 1516,
+                "date": "1516",
+                "era": "Renaissance",
+                "event": "Thomas More wrote \u2018Utopia\u2019",
+                "Source": "https://www.thoughtco.com/renaissance-timeline-4158077",
+                "id": 497
+            },
+            {
+                "date_start": 1536,
+                "date_end": 1536,
+                "date": "1536",
+                "era": "Renaissance",
+                "event": "Miguel CervantesMiguel Cervantes",
+                "Source": "https://www.thoughtco.com/renaissance-timeline-4158077",
+                "id": 498
+            },
+            {
+                "date_start": 1605,
+                "date_end": 1605,
+                "date": "1605",
+                "era": "Renaissance",
+                "event": "William Shakespeare wrote \"Hamlet,\"",
+                "Source": "https://www.thoughtco.com/renaissance-timeline-4158077",
+                "id": 499
+            },
+            {
+                "date_start": 1605,
+                "date_end": 1615,
+                "date": "Part 1 in 1605, Part 2 in 1615",
+                "era": "Renaissance",
+                "event": "Miguel Cervantes' \"Don Quixote\" was published. It is often labeled as the first modern novel",
+                "Source": "https://en.wikipedia.org/wiki/Don_Quixote",
+                "id": 500
+            },
+            {
+                "date_start": 1558,
+                "date_end": 1558,
+                "date": "17 November 1558 ",
+                "era": "Renaissance",
+                "event": "Elizabeth I\u00a0\u201cthe Virgin Queen\u201d was crowned queen ",
+                "Source": "https://en.wikipedia.org/wiki/Elizabeth_I",
+                "id": 501
+            },
+            {
+                "date_start": 1789,
+                "date_end": 1799,
+                "date": "5\u00a0May\u00a01789\u00a0\u2013 9\u00a0November\u00a01799 ",
+                "era": "Enlightenment\u00a0 ",
+                "event": "The French Revolution takes place",
+                "Source": "https://en.wikipedia.org/wiki/French_Revolution",
+                "id": 502
+            },
+            {
+                "date_start": 1789,
+                "date_end": 1789,
+                "date": "14 July 1789 ",
+                "era": "Enlightenment\u00a0 ",
+                "event": "Storming of the Bastille makes the beginning of the French Revolution",
+                "Source": "https://en.wikipedia.org/wiki/Storming_of_the_Bastille",
+                "id": 503
+            }
+        ]
+    },
+    'games': {
+        'questionDate': "2021-11-26T23:54:44.258222",
+        'questionNumber': 1042,
+        'questions': [
+            {
+                "event": "A-Men 2",
+                "Developer": "Bloober Team",
+                "Publisher": "Bloober Team",
+                "Genre(s)": "Adventure, Puzzle",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "June 24, 2015",
+                "date_start": 1435104000,
+                "date_end": 1435104000,
+                "id": 0
+            },
+            {
+                "event": "A-Train",
+                "Developer": "Artdink",
+                "Publisher": "JP: ArtdinkNA: MaxisEU: Ocean Software",
+                "Genre(s)": "Vehicle Simulation Game",
+                "Operating system(s)": "Windows, Mac",
+                "date": "1985",
+                "date_start": 473385600,
+                "date_end": 504835200,
+                "id": 1
+            },
+            {
+                "event": "A-10 Cuba!",
+                "Developer": "Parsoft Interactive",
+                "Publisher": "Activision",
+                "Genre(s)": "Flight simulator",
+                "Operating system(s)": "Windows, Mac",
+                "date": "November 30, 1996",
+                "date_start": 849312000,
+                "date_end": 849312000,
+                "id": 2
+            },
+            {
+                "event": "A.D. 2044",
+                "Developer": "R.M.P. Software",
+                "Publisher": "LK Avalon",
+                "Genre(s)": "Adventure",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "September 6, 1996",
+                "date_start": 841968000,
+                "date_end": 841968000,
+                "id": 3
+            },
+            {
+                "event": "A.D.A.M. Life's Greatest Mysteries",
+                "Developer": "Columbia Healthcare Corporation",
+                "Publisher": "Columbia Healthcare Corporation",
+                "Genre(s)": "Educational",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "1996",
+                "date_start": 820454400,
+                "date_end": 851990400,
+                "id": 4
+            },
+            {
+                "event": "A.D.A.M. The Inside Story",
+                "Developer": "Columbia Healthcare Corporation",
+                "Publisher": "Columbia Healthcare Corporation",
+                "Genre(s)": "Educational",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "1995",
+                "date_start": 788918400,
+                "date_end": 820368000,
+                "id": 5
+            },
+            {
+                "event": "A.R.E.S.: Extinction Agenda",
+                "Developer": "Extend Studio",
+                "Publisher": "Origo Games, Aksys Games",
+                "Genre(s)": "Action, platform",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "December 14, 2010",
+                "date_start": 1292284800,
+                "date_end": 1292284800,
+                "id": 6
+            },
+            {
+                "event": "A Girls Fabric Face",
+                "Developer": "Stanislaw Truchowskit",
+                "Publisher": "TurnVex",
+                "Genre(s)": "Adventure",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "March 10, 2017",
+                "date_start": 1489104000,
+                "date_end": 1489104000,
+                "id": 7
+            },
+            {
+                "event": "A Hat in Time",
+                "Developer": "Gears for Breakfast",
+                "Publisher": "Gears for Breakfast",
+                "Genre(s)": "Platform, action-adventure",
+                "Operating system(s)": "macOS, Microsoft Windows",
+                "date": "October 5, 2017",
+                "date_start": 1507161600,
+                "date_end": 1507161600,
+                "id": 8
+            },
+            {
+                "event": "A Game of Thrones: Genesis",
+                "Developer": "Cyanide",
+                "Publisher": "Focus Home Interactive",
+                "Genre(s)": "Strategy",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "September 28, 2011",
+                "date_start": 1317168000,
+                "date_end": 1317168000,
+                "id": 9
+            },
+            {
+                "event": "A Passion for Art: Renoir, Cezanne, Matisse, and Dr. Barnes",
+                "Developer": "Corbis Corporation",
+                "Publisher": "Corbis Corporation",
+                "Genre(s)": "Fine Art",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "1995",
+                "date_start": 788918400,
+                "date_end": 820368000,
+                "id": 10
+            },
+            {
+                "event": "A to Zap! Featuring the Sunbuddies",
+                "Developer": "ImageBuilder Software",
+                "Publisher": "ImageBuilder Software",
+                "Genre(s)": "Educational",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "1995",
+                "date_start": 788918400,
+                "date_end": 820368000,
+                "id": 11
+            },
+            {
+                "event": "AaAaAA!!! \u2013 A Reckless Disregard for Gravity",
+                "Developer": "Dejobaan Games",
+                "Publisher": "Dejobaan Games",
+                "Genre(s)": "Simulation",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "September 3, 2009",
+                "date_start": 1251936000,
+                "date_end": 1251936000,
+                "id": 12
+            },
+            {
+                "event": "Aaero",
+                "Developer": "Mad Fellows",
+                "Publisher": "Mad Fellows",
+                "Genre(s)": "Action, Rhythm/Music",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "April 11, 2017",
+                "date_start": 1491868800,
+                "date_end": 1491868800,
+                "id": 13
+            },
+            {
+                "event": "ABC Sports Indy Racing",
+                "Developer": "Shot Sports Software",
+                "Publisher": "ABC Interactive",
+                "Genre(s)": "Racing",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "1997",
+                "date_start": 852076800,
+                "date_end": 883526400,
+                "id": 14
+            },
+            {
+                "event": "ABC Sports Monday Night Football",
+                "Developer": "OT Sports]",
+                "Publisher": "ABC Interactive",
+                "Genre(s)": "Sports",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "1996",
+                "date_start": 820454400,
+                "date_end": 851990400,
+                "id": 15
+            },
+            {
+                "event": "Abomination: The Nemesis Project",
+                "Developer": "Hothouse Creations",
+                "Publisher": "Eidos Interactive",
+                "Genre(s)": "Action, real-time tactics",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "1999",
+                "date_start": 915148800,
+                "date_end": 946598400,
+                "id": 16
+            },
+            {
+                "event": "Absolute Drift",
+                "Developer": "Funselektor Labs",
+                "Publisher": "Funselektor Labs",
+                "Genre(s)": "Racing game",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "July 29, 2015",
+                "date_start": 1438128000,
+                "date_end": 1438128000,
+                "id": 17
+            },
+            {
+                "event": "Absolute Force Online",
+                "Developer": "TQ Digital",
+                "Publisher": "NetDragon Websoft Inc.",
+                "Genre(s)": "First-person shooter, Third-person shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 15, 2012",
+                "date_start": 1352937600,
+                "date_end": 1352937600,
+                "id": 18
+            },
+            {
+                "event": "Absolver",
+                "Developer": "Sloclap",
+                "Publisher": "Devolver Digital",
+                "Genre(s)": "Action role-playing",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "August 29, 2017",
+                "date_start": 1503964800,
+                "date_end": 1503964800,
+                "id": 19
+            },
+            {
+                "event": "Abyss Odyssey",
+                "Developer": "ACE Team",
+                "Publisher": "Atlus",
+                "Genre(s)": "Roguelike, action-adventure",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "July 28, 2015",
+                "date_start": 1438041600,
+                "date_end": 1438041600,
+                "id": 20
+            },
+            {
+                "event": "Abz\u00fb",
+                "Developer": "Giant Squid Studios",
+                "Publisher": "505 Games",
+                "Genre(s)": "Adventure, art game, simulation",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "August 2, 2019",
+                "date_start": 1564704000,
+                "date_end": 1564704000,
+                "id": 21
+            },
+            {
+                "event": "Accel World vs. Sword Art Online: Millennium Twilight",
+                "Developer": "Artdink",
+                "Publisher": "Bandai Namco Entertainment",
+                "Genre(s)": "Action role-playing",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "September 12, 2017",
+                "date_start": 1505174400,
+                "date_end": 1505174400,
+                "id": 22
+            },
+            {
+                "event": "Acceleration of Suguri X Edition",
+                "Developer": "Orange Juice",
+                "Publisher": "Rockin' Android",
+                "Genre(s)": "Fighting",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "February 15, 2011",
+                "date_start": 1297728000,
+                "date_end": 1297728000,
+                "id": 23
+            },
+            {
+                "event": "Accounting (video game)",
+                "Developer": "Crows Crows Crows",
+                "Publisher": "Crows Crows Crows",
+                "Genre(s)": "Exploration game",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "October 18, 2016",
+                "date_start": 1476748800,
+                "date_end": 1476748800,
+                "id": 24
+            },
+            {
+                "event": "Ace Combat 7: Skies Unknown",
+                "Developer": "Bandai Namco Studios",
+                "Publisher": "Bandai Namco Entertainment",
+                "Genre(s)": "Combat flight simulator",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "February 1, 2019",
+                "date_start": 1548979200,
+                "date_end": 1548979200,
+                "id": 25
+            },
+            {
+                "event": "Ace Combat: Assault Horizon",
+                "Developer": "Project Aces",
+                "Publisher": "Namco Bandai Games",
+                "Genre(s)": "Combat flight simulator",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "January 24, 2013",
+                "date_start": 1358985600,
+                "date_end": 1358985600,
+                "id": 26
+            },
+            {
+                "event": "Ace Lightning",
+                "Developer": "Absolute Studios",
+                "Publisher": "Gamezlab",
+                "Genre(s)": "Action-adventure, third person shooter, platform game",
+                "Operating system(s)": "IBM PC",
+                "date": "October 25, 2002",
+                "date_start": 1035504000,
+                "date_end": 1035504000,
+                "id": 27
+            },
+            {
+                "event": "Ace of Spades",
+                "Developer": "Jagex",
+                "Publisher": "Jagex",
+                "Genre(s)": "FPS",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "December 12, 2012",
+                "date_start": 1355270400,
+                "date_end": 1355270400,
+                "id": 28
+            },
+            {
+                "event": "Ace Online",
+                "Developer": "MasangSoft Inc.",
+                "Publisher": "Many",
+                "Genre(s)": "MMO, 3D Space Shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "May 26, 2006",
+                "date_start": 1148601600,
+                "date_end": 1148601600,
+                "id": 29
+            },
+            {
+                "event": "Ace Ventura: The CD-Rom Game",
+                "Developer": "7th Level",
+                "Publisher": "Bomico Entertainment Software",
+                "Genre(s)": "Graphic Adventure (Point-and-click)",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "October 31, 1996",
+                "date_start": 846720000,
+                "date_end": 846720000,
+                "id": 30
+            },
+            {
+                "event": "Aces High",
+                "Developer": "HiTech Creations",
+                "Publisher": "HiTech Creations",
+                "Genre(s)": "Combat flight simulator",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "May 8, 2000",
+                "date_start": 957744000,
+                "date_end": 957744000,
+                "id": 31
+            },
+            {
+                "event": "Aces of the Galaxy",
+                "Developer": "Artech Digital Entertainment",
+                "Publisher": "Vivendi Games",
+                "Genre(s)": "Rail shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "June 4, 2008",
+                "date_start": 1212537600,
+                "date_end": 1212537600,
+                "id": 32
+            },
+            {
+                "event": "Aces of the Pacific",
+                "Developer": "Dynamix",
+                "Publisher": "Sierra Entertainment",
+                "Genre(s)": "Combat flight simulator",
+                "Operating system(s)": "MS-DOS",
+                "date": "November 8, 1992",
+                "date_start": 721180800,
+                "date_end": 721180800,
+                "id": 33
+            },
+            {
+                "event": "Achron",
+                "Developer": "Hazardous Software, Inc.",
+                "Publisher": "Hazardous Software, Inc.",
+                "Genre(s)": "Real-time strategy",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "August 29, 2011",
+                "date_start": 1314576000,
+                "date_end": 1314576000,
+                "id": 34
+            },
+            {
+                "event": "Achtung Panzer: Kharkov 1943",
+                "Developer": "Graviteam",
+                "Publisher": "Paradox Interactive",
+                "Genre(s)": "Real-time strategy, Wargame",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "February 25, 2010",
+                "date_start": 1267056000,
+                "date_end": 1267056000,
+                "id": 35
+            },
+            {
+                "event": "Achtung Spitfire!",
+                "Developer": "Big Time Software",
+                "Publisher": "Avalon Hill",
+                "Genre(s)": "Strategy, Computer wargaming",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "August 31, 1997",
+                "date_start": 872985600,
+                "date_end": 872985600,
+                "id": 36
+            },
+            {
+                "event": "Acrophobia (game)",
+                "Developer": "Andrea Jennifer Shubert",
+                "Publisher": "Internet Relay Chat",
+                "Genre(s)": "Word",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "1995",
+                "date_start": 788918400,
+                "date_end": 820368000,
+                "id": 37
+            },
+            {
+                "event": "Act of Aggression",
+                "Developer": "Eugen Systems",
+                "Publisher": "Focus Home Interactive",
+                "Genre(s)": "Real-time strategy",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "September 2, 2015",
+                "date_start": 1441152000,
+                "date_end": 1441152000,
+                "id": 38
+            },
+            {
+                "event": "Act of War: Direct Action",
+                "Developer": "Eugen Systems",
+                "Publisher": "Atari, Inc.",
+                "Genre(s)": "Real-time Strategy (RTS)",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "March 15, 2005",
+                "date_start": 1110844800,
+                "date_end": 1110844800,
+                "id": 39
+            },
+            {
+                "event": "Act of War: High Treason",
+                "Developer": "Eugen Systems",
+                "Publisher": "Atari, Inc.",
+                "Genre(s)": "Real-time Strategy (RTS)",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "March 24, 2006",
+                "date_start": 1143158400,
+                "date_end": 1143158400,
+                "id": 40
+            },
+            {
+                "event": "Action Quake 2",
+                "Developer": "The A-Team",
+                "Publisher": "The A-Team",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "BeOS, Linux, Mac OS, Microsoft Windows",
+                "date": "November 12, 1998",
+                "date_start": 910828800,
+                "date_end": 910828800,
+                "id": 41
+            },
+            {
+                "event": "Activision Anthology",
+                "Developer": "MumboJumbo, MacPlay",
+                "Publisher": "Activision",
+                "Genre(s)": "Compilation",
+                "Operating system(s)": "Microsoft Windows, Macintosh",
+                "date": "November 19, 2002",
+                "date_start": 1037664000,
+                "date_end": 1037664000,
+                "id": 42
+            },
+            {
+                "event": "Actua Golf 2",
+                "Developer": "Gremlin Interactive",
+                "Publisher": "Fox Sports Interactive",
+                "Genre(s)": "Sports",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "1998",
+                "date_start": 883612800,
+                "date_end": 915062400,
+                "id": 43
+            },
+            {
+                "event": "Actua Ice Hockey",
+                "Developer": "Gremlin Interactive",
+                "Publisher": "Gremlin Interactive",
+                "Genre(s)": "Sports",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "1998",
+                "date_start": 883612800,
+                "date_end": 915062400,
+                "id": 44
+            },
+            {
+                "event": "Actua Pool",
+                "Developer": "Gremlin Interactive",
+                "Publisher": "Gremlin Interactive",
+                "Genre(s)": "Sports",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "1999",
+                "date_start": 915148800,
+                "date_end": 946598400,
+                "id": 45
+            },
+            {
+                "event": "Actua Soccer",
+                "Developer": "Gremlin Interactive",
+                "Publisher": "Greenwood Entertainment",
+                "Genre(s)": "Soccer",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "2009",
+                "date_start": 1230768000,
+                "date_end": 1262217600,
+                "id": 46
+            },
+            {
+                "event": "Ad Verbum",
+                "Developer": "Nick Montfort",
+                "Publisher": "Nick Montfort",
+                "Genre(s)": "Text Adventure, Interactive Fiction",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "October 4, 2000",
+                "date_start": 970617600,
+                "date_end": 970617600,
+                "id": 47
+            },
+            {
+                "event": "AD&D Masterpiece Collection",
+                "Developer": "Strategic Simulations",
+                "Publisher": "Strategic Simulations",
+                "Genre(s)": "Role-playing video game",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "1996",
+                "date_start": 820454400,
+                "date_end": 851990400,
+                "id": 48
+            },
+            {
+                "event": "Adam's Venture",
+                "Developer": "Vertigo Digital Entertainment",
+                "Publisher": "Soedesco",
+                "Genre(s)": "Adventure",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "2009",
+                "date_start": 1230768000,
+                "date_end": 1262217600,
+                "id": 49
+            },
+            {
+                "event": "Addiction Pinball",
+                "Developer": "Team17",
+                "Publisher": "MicroProse",
+                "Genre(s)": "Pinball",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "April 30, 1998",
+                "date_start": 893894400,
+                "date_end": 893894400,
+                "id": 50
+            },
+            {
+                "event": "Adidas Power Soccer",
+                "Developer": "Psygnosis France",
+                "Publisher": "Psygnosis",
+                "Genre(s)": "Sports",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "1996",
+                "date_start": 820454400,
+                "date_end": 851990400,
+                "id": 51
+            },
+            {
+                "event": "Adrift (video game)",
+                "Developer": "Three One Zero",
+                "Publisher": "505 Games",
+                "Genre(s)": "Adventure",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "March 28, 2016",
+                "date_start": 1459123200,
+                "date_end": 1459123200,
+                "id": 52
+            },
+            {
+                "event": "Advent Rising",
+                "Developer": "GlyphX Games",
+                "Publisher": "Majesco Entertainment",
+                "Genre(s)": "Action-adventure, third-person shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "May 31, 2005",
+                "date_start": 1117497600,
+                "date_end": 1117497600,
+                "id": 53
+            },
+            {
+                "event": "Adventure at the Chateau d'Or",
+                "Developer": "Karma Labs",
+                "Publisher": "Karma Labs",
+                "Genre(s)": "Adventure",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "April 2, 2001",
+                "date_start": 986169600,
+                "date_end": 986169600,
+                "id": 54
+            },
+            {
+                "event": "AdVenture Capitalist",
+                "Developer": "Hyper Hippo Productions",
+                "Publisher": "Hyper Hippo Productions",
+                "Genre(s)": "Incremental",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "March 30, 2015",
+                "date_start": 1427673600,
+                "date_end": 1427673600,
+                "id": 55
+            },
+            {
+                "event": "Adventure Pinball: Forgotten Island",
+                "Developer": "Digital Extremes",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "Pinball",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "March 21, 2001",
+                "date_start": 985132800,
+                "date_end": 985132800,
+                "id": 56
+            },
+            {
+                "event": "Adventures of Pip",
+                "Developer": "Tic Toc Games",
+                "Publisher": "Tic Toc Games",
+                "Genre(s)": "Action, platform",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "June 4, 2015",
+                "date_start": 1433376000,
+                "date_end": 1433376000,
+                "id": 57
+            },
+            {
+                "event": "AdvertCity",
+                "Developer": "VoxelStorm",
+                "Publisher": "VoxelStorm",
+                "Genre(s)": "Tycoon game",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "April 17, 2015",
+                "date_start": 1429228800,
+                "date_end": 1429228800,
+                "id": 58
+            },
+            {
+                "event": "Africa Trail",
+                "Developer": "MECC",
+                "Publisher": "The Learning Company",
+                "Genre(s)": "Adventure, Educational, Simulation, Sports",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "1995",
+                "date_start": 788918400,
+                "date_end": 820368000,
+                "id": 59
+            },
+            {
+                "event": "After...",
+                "Developer": "Ciel",
+                "Publisher": "Ciel",
+                "Genre(s)": "Visual novel",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "June 27, 2003",
+                "date_start": 1056672000,
+                "date_end": 1056672000,
+                "id": 60
+            },
+            {
+                "event": "Afterlife",
+                "Developer": "LucasArts",
+                "Publisher": "LucasArts",
+                "Genre(s)": "God game",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "1996",
+                "date_start": 820454400,
+                "date_end": 851990400,
+                "id": 61
+            },
+            {
+                "event": "Afterparty",
+                "Developer": "Night School Studio",
+                "Publisher": "Night School Studio",
+                "Genre(s)": "Adventure",
+                "Operating system(s)": "Windows, macOS",
+                "date": "Oct 29, 2017",
+                "date_start": 1509235200,
+                "date_end": 1509235200,
+                "id": 62
+            },
+            {
+                "event": "Agatha Christie: And Then There Were None",
+                "Developer": "AWE Productions",
+                "Publisher": "The Adventure Company",
+                "Genre(s)": "Adventure",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "September 30, 2005",
+                "date_start": 1128038400,
+                "date_end": 1128038400,
+                "id": 63
+            },
+            {
+                "event": "Agatha Christie: Evil Under the Sun",
+                "Developer": "AWE Productions",
+                "Publisher": "The Adventure Company",
+                "Genre(s)": "Adventure",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "October 16, 2007",
+                "date_start": 1192492800,
+                "date_end": 1192492800,
+                "id": 64
+            },
+            {
+                "event": "Agatha Christie: Murder on the Orient Express",
+                "Developer": "AWE Productions",
+                "Publisher": "The Adventure Company",
+                "Genre(s)": "Adventure",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 14, 2006",
+                "date_start": 1163462400,
+                "date_end": 1163462400,
+                "id": 65
+            },
+            {
+                "event": "Age of Booty",
+                "Developer": "Certain Affinity",
+                "Publisher": "Capcom",
+                "Genre(s)": "Real-time Strategy (RTS)",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "March 5, 2009",
+                "date_start": 1236211200,
+                "date_end": 1236211200,
+                "id": 66
+            },
+            {
+                "event": "Age of Chivalry",
+                "Developer": "Team Chivalry",
+                "Publisher": "Team Chivalry",
+                "Genre(s)": "Action",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "September 10, 2007",
+                "date_start": 1189382400,
+                "date_end": 1189382400,
+                "id": 67
+            },
+            {
+                "event": "Age of Conan",
+                "Developer": "Funcom",
+                "Publisher": "Funcom",
+                "Genre(s)": "MMORPG",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "May 20, 2008",
+                "date_start": 1211241600,
+                "date_end": 1211241600,
+                "id": 68
+            },
+            {
+                "event": "Age of Empires",
+                "Developer": "Ensemble Studios",
+                "Publisher": "Microsoft Game Studios",
+                "Genre(s)": "Real-time Strategy (RTS)",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "October 15, 1997",
+                "date_start": 876873600,
+                "date_end": 876873600,
+                "id": 69
+            },
+            {
+                "event": "Age of Empires: The Rise of Rome",
+                "Developer": "Ensemble Studios",
+                "Publisher": "Microsoft Game Studios",
+                "Genre(s)": "Real-time Strategy (RTS)",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "October 31, 1998",
+                "date_start": 909792000,
+                "date_end": 909792000,
+                "id": 70
+            },
+            {
+                "event": "Age of Empires II: HD Edition",
+                "Developer": "Hidden Path Entertainment, Ensemble Studios",
+                "Publisher": "Microsoft Game Studios",
+                "Genre(s)": "Real-time Strategy (RTS)",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "April 9, 2013",
+                "date_start": 1365465600,
+                "date_end": 1365465600,
+                "id": 71
+            },
+            {
+                "event": "Age of Empires II: The African Kingdoms",
+                "Developer": "Ensemble Studios",
+                "Publisher": "Microsoft Game Studios",
+                "Genre(s)": "Real-time Strategy (RTS)",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "April 9, 2015",
+                "date_start": 1428537600,
+                "date_end": 1428537600,
+                "id": 72
+            },
+            {
+                "event": "Age of Empires II: The Age of Kings",
+                "Developer": "Ensemble Studios",
+                "Publisher": "Microsoft Game Studios, Konami",
+                "Genre(s)": "Real-time Strategy (RTS)",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "September 30, 1999",
+                "date_start": 938649600,
+                "date_end": 938649600,
+                "id": 73
+            },
+            {
+                "event": "Age of Empires II: The Conquerors",
+                "Developer": "Ensemble Studios",
+                "Publisher": "Microsoft Game Studios, Konami",
+                "Genre(s)": "Real-time Strategy (RTS)",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "August 24, 2000",
+                "date_start": 967075200,
+                "date_end": 967075200,
+                "id": 74
+            },
+            {
+                "event": "Age of Empires II: The Forgotten",
+                "Developer": "Skybox Labs, Forgotten Empires LLC",
+                "Publisher": "Microsoft Game Studios",
+                "Genre(s)": "Real-time Strategy (RTS) expansion pack",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 7, 2013",
+                "date_start": 1383782400,
+                "date_end": 1383782400,
+                "id": 75
+            },
+            {
+                "event": "Age of Empires III",
+                "Developer": "Ensemble Studios",
+                "Publisher": "Microsoft Game Studios",
+                "Genre(s)": "Real-time Strategy (RTS)",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "October 18, 2005",
+                "date_start": 1129593600,
+                "date_end": 1129593600,
+                "id": 76
+            },
+            {
+                "event": "Age of Empires III: The Asian Dynasties",
+                "Developer": "Ensemble Studios, Big Huge Games",
+                "Publisher": "Microsoft Game Studios, MacSoft",
+                "Genre(s)": "Real-time Strategy (RTS)",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "November 2, 2007",
+                "date_start": 1193961600,
+                "date_end": 1193961600,
+                "id": 77
+            },
+            {
+                "event": "Age of Empires III: The WarChiefs",
+                "Developer": "Ensemble Studios",
+                "Publisher": "Microsoft Game Studios, MacSoft",
+                "Genre(s)": "Real-time Strategy (RTS)",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "October 7, 2006",
+                "date_start": 1160179200,
+                "date_end": 1160179200,
+                "id": 78
+            },
+            {
+                "event": "Age of Mythology",
+                "Developer": "Ensemble Studios",
+                "Publisher": "Microsoft Game Studios, MacSoft",
+                "Genre(s)": "Real-time Strategy (RTS)",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "October 30, 2002",
+                "date_start": 1035936000,
+                "date_end": 1035936000,
+                "id": 79
+            },
+            {
+                "event": "Age of Pirates: Caribbean Tales",
+                "Developer": "Akella",
+                "Publisher": "1C Company, Playlogic",
+                "Genre(s)": "Role-playing video game",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "September 12, 2006",
+                "date_start": 1158019200,
+                "date_end": 1158019200,
+                "id": 80
+            },
+            {
+                "event": "Age of Pirates 2: City of Abandoned Ships",
+                "Developer": "Akella",
+                "Publisher": "Playlogic",
+                "Genre(s)": "Role-playing video game",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "May 26, 2009",
+                "date_start": 1243296000,
+                "date_end": 1243296000,
+                "id": 81
+            },
+            {
+                "event": "Age of Wonders",
+                "Developer": "Triumph Studios",
+                "Publisher": "Gathering of Developers",
+                "Genre(s)": "Turn-based strategy",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "October 31, 1999",
+                "date_start": 941328000,
+                "date_end": 941328000,
+                "id": 82
+            },
+            {
+                "event": "Age of Wonders II: The Wizard's Throne",
+                "Developer": "Triumph Studios",
+                "Publisher": "Take Two Interactive",
+                "Genre(s)": "Turn-based strategy",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "June 12, 2002",
+                "date_start": 1023840000,
+                "date_end": 1023840000,
+                "id": 83
+            },
+            {
+                "event": "Age of Wonders III",
+                "Developer": "Triumph Studios",
+                "Publisher": "Triumph Studios",
+                "Genre(s)": "Turn-based strategy",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "March 31, 2014",
+                "date_start": 1396224000,
+                "date_end": 1396224000,
+                "id": 84
+            },
+            {
+                "event": "Age of Wonders: Shadow Magic",
+                "Developer": "Triumph Studios",
+                "Publisher": "Gathering of Developers",
+                "Genre(s)": "Turn-based strategy",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "July 25, 2003",
+                "date_start": 1059091200,
+                "date_end": 1059091200,
+                "id": 85
+            },
+            {
+                "event": "AGEOD's American Civil War",
+                "Developer": "AGEOD",
+                "Publisher": "Matrix Games",
+                "Genre(s)": "Turn-based strategy",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "June 26, 2007",
+                "date_start": 1182816000,
+                "date_end": 1182816000,
+                "id": 86
+            },
+            {
+                "event": "AGON",
+                "Developer": "Private Moon Studios",
+                "Publisher": "Private Moon Studios",
+                "Genre(s)": "Adventure",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "2003",
+                "date_start": 1041379200,
+                "date_end": 1072828800,
+                "id": 87
+            },
+            {
+                "event": "Ai Space",
+                "Developer": "Ai Space Production Committee",
+                "Publisher": "Ai Space Production Committee",
+                "Genre(s)": "MMOSG, Virtual world",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "October 15, 2008",
+                "date_start": 1224028800,
+                "date_end": 1224028800,
+                "id": 88
+            },
+            {
+                "event": "Aion",
+                "Developer": "NCsoft",
+                "Publisher": "NCsoft, NC Interactive, Gameforge",
+                "Genre(s)": "Massively multiplayer online role-playing game",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 25, 2008",
+                "date_start": 1227571200,
+                "date_end": 1227571200,
+                "id": 89
+            },
+            {
+                "event": "Air Assault Task Force",
+                "Developer": "ProSIM Company",
+                "Publisher": "Shrapnel Games",
+                "Genre(s)": "Wargame",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 17, 2006",
+                "date_start": 1163721600,
+                "date_end": 1163721600,
+                "id": 90
+            },
+            {
+                "event": "Air Conflicts: Secret Wars",
+                "Developer": "Games Farm",
+                "Publisher": "bitComposer",
+                "Genre(s)": "Flight simulation",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "September 30, 2011",
+                "date_start": 1317340800,
+                "date_end": 1317340800,
+                "id": 91
+            },
+            {
+                "event": "Air Conflicts: Vietnam",
+                "Developer": "Games Farm",
+                "Publisher": "bitComposer",
+                "Genre(s)": "Flight simulation",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 26, 2013",
+                "date_start": 1385424000,
+                "date_end": 1385424000,
+                "id": 92
+            },
+            {
+                "event": "Airscape: The Fall of Gravity",
+                "Developer": "Cross-Product",
+                "Publisher": "Cross-Product",
+                "Genre(s)": "Platformer",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "August 11, 2015",
+                "date_start": 1439251200,
+                "date_end": 1439251200,
+                "id": 93
+            },
+            {
+                "event": "Alan Wake",
+                "Developer": "Remedy Entertainment",
+                "Publisher": "Microsoft Game Studios, Remedy Entertainment, Nordic Games, E Frontier",
+                "Genre(s)": "Survival horror",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "May 14, 2010",
+                "date_start": 1273795200,
+                "date_end": 1273795200,
+                "id": 94
+            },
+            {
+                "event": "Alien Swarm",
+                "Developer": "Valve",
+                "Publisher": "Valve",
+                "Genre(s)": "Shoot-em-up",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "July 19, 2010",
+                "date_start": 1279497600,
+                "date_end": 1279497600,
+                "id": 95
+            },
+            {
+                "event": "Alpha Prime",
+                "Developer": "Black Element Software",
+                "Publisher": "IDEA Games, Meridian4, Bohemia Interactive",
+                "Genre(s)": "FPS",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "May 25, 2007",
+                "date_start": 1180051200,
+                "date_end": 1180051200,
+                "id": 96
+            },
+            {
+                "event": "Amnesia: The Dark Descent",
+                "Developer": "Frictional Games",
+                "Publisher": "Frictional Games",
+                "Genre(s)": "Horror game",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "August 8, 2010",
+                "date_start": 1281225600,
+                "date_end": 1281225600,
+                "id": 97
+            },
+            {
+                "event": "Amnesia: A Machine for Pigs",
+                "Developer": "The Chinese Room",
+                "Publisher": "Frictional Games",
+                "Genre(s)": "Horror game",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "September 10, 2013",
+                "date_start": 1378771200,
+                "date_end": 1378771200,
+                "id": 98
+            },
+            {
+                "event": "Anno 1503",
+                "Developer": "Max Design",
+                "Publisher": "Sunflowers",
+                "Genre(s)": "City-building game",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "March 23, 2003",
+                "date_start": 1048377600,
+                "date_end": 1048377600,
+                "id": 99
+            },
+            {
+                "event": "Anno 1602",
+                "Developer": "Max Design",
+                "Publisher": "Sunflowers",
+                "Genre(s)": "City-building game",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "September 24, 1998",
+                "date_start": 906595200,
+                "date_end": 906595200,
+                "id": 100
+            },
+            {
+                "event": "Anno 1701",
+                "Developer": "Related Designs",
+                "Publisher": "Sunflowers",
+                "Genre(s)": "City-building game",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 3, 2006",
+                "date_start": 1162512000,
+                "date_end": 1162512000,
+                "id": 101
+            },
+            {
+                "event": "Anno 2070",
+                "Developer": "Related Designs, Blue Byte",
+                "Publisher": "UbisoftAdded Achron",
+                "Genre(s)": "City-building game",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 17, 2011",
+                "date_start": 1321488000,
+                "date_end": 1321488000,
+                "id": 102
+            },
+            {
+                "event": "Anno 2205",
+                "Developer": "Blue Byte",
+                "Publisher": "Ubisoft",
+                "Genre(s)": "City-building game",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 3, 2015",
+                "date_start": 1446508800,
+                "date_end": 1446508800,
+                "id": 103
+            },
+            {
+                "event": "Anomaly: Warzone Earth",
+                "Developer": "11 bit studios",
+                "Publisher": "11 bit studios",
+                "Genre(s)": "Reverse Tower Defense",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "April 8, 2011",
+                "date_start": 1302220800,
+                "date_end": 1302220800,
+                "id": 104
+            },
+            {
+                "event": "Antichamber",
+                "Developer": "Alexander Bruce",
+                "Publisher": "Demruth",
+                "Genre(s)": "Puzzle platformer",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "January 31, 2013",
+                "date_start": 1359590400,
+                "date_end": 1359590400,
+                "id": 105
+            },
+            {
+                "event": "Anubis II",
+                "Developer": "Data Design Interactive",
+                "Publisher": "Metro3D Europe",
+                "Genre(s)": "Action",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "July 14, 2005",
+                "date_start": 1121299200,
+                "date_end": 1121299200,
+                "id": 106
+            },
+            {
+                "event": "Apex Legends",
+                "Developer": "Respawn Entertainment",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "Battle royale",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "February 4, 2019",
+                "date_start": 1549238400,
+                "date_end": 1549238400,
+                "id": 107
+            },
+            {
+                "event": "ARMA: Armed Assault",
+                "Developer": "Bohemia Interactive",
+                "Publisher": "505 Games",
+                "Genre(s)": "Tactical shooter, military simulation, open world",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 10, 2006",
+                "date_start": 1163116800,
+                "date_end": 1163116800,
+                "id": 108
+            },
+            {
+                "event": "ARMA 2",
+                "Developer": "Bohemia Interactive",
+                "Publisher": "505 Games",
+                "Genre(s)": "Tactical shooter, military simulation, open world",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "June 26, 2009",
+                "date_start": 1245974400,
+                "date_end": 1245974400,
+                "id": 109
+            },
+            {
+                "event": "ARMA 3",
+                "Developer": "Bohemia Interactive",
+                "Publisher": "Bohemia Interactive",
+                "Genre(s)": "Tactical shooter, military simulation, open world",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "September 12, 2013",
+                "date_start": 1378944000,
+                "date_end": 1378944000,
+                "id": 110
+            },
+            {
+                "event": "Asphalt 8: Airborne",
+                "Developer": "Gameloft",
+                "Publisher": "Gameloft",
+                "Genre(s)": "Racing, simulation",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "August 22, 2013",
+                "date_start": 1377129600,
+                "date_end": 1377129600,
+                "id": 111
+            },
+            {
+                "event": "Assassin's Creed",
+                "Developer": "Ubisoft Montreal",
+                "Publisher": "Ubisoft",
+                "Genre(s)": "Action-adventure",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 13, 2007",
+                "date_start": 1194912000,
+                "date_end": 1194912000,
+                "id": 112
+            },
+            {
+                "event": "Assassin\u2019s Creed II",
+                "Developer": "Ubisoft Montreal",
+                "Publisher": "Ubisoft",
+                "Genre(s)": "Action-adventure",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 17, 2009",
+                "date_start": 1258416000,
+                "date_end": 1258416000,
+                "id": 113
+            },
+            {
+                "event": "Assassin's Creed: Brotherhood",
+                "Developer": "Ubisoft Montreal",
+                "Publisher": "Ubisoft",
+                "Genre(s)": "Action-adventure",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 16, 2010",
+                "date_start": 1289865600,
+                "date_end": 1289865600,
+                "id": 114
+            },
+            {
+                "event": "Assassin\u2019s Creed: Revelations",
+                "Developer": "Ubisoft Montreal",
+                "Publisher": "Ubisoft",
+                "Genre(s)": "Action-adventure",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 15, 2011",
+                "date_start": 1321315200,
+                "date_end": 1321315200,
+                "id": 115
+            },
+            {
+                "event": "Assassin's Creed III",
+                "Developer": "Ubisoft Montreal",
+                "Publisher": "Ubisoft",
+                "Genre(s)": "Action-adventure",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "October 30, 2012",
+                "date_start": 1351555200,
+                "date_end": 1351555200,
+                "id": 116
+            },
+            {
+                "event": "Assassin's Creed IV: Black Flag",
+                "Developer": "Ubisoft Montreal",
+                "Publisher": "Ubisoft",
+                "Genre(s)": "Action-adventure",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "October 29, 2013",
+                "date_start": 1383004800,
+                "date_end": 1383004800,
+                "id": 117
+            },
+            {
+                "event": "Assassin's Creed Rogue",
+                "Developer": "Ubisoft Montreal",
+                "Publisher": "Ubisoft",
+                "Genre(s)": "Action-adventure",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 11, 2014",
+                "date_start": 1415664000,
+                "date_end": 1415664000,
+                "id": 118
+            },
+            {
+                "event": "Assassin's Creed Unity",
+                "Developer": "Ubisoft Montreal",
+                "Publisher": "Ubisoft",
+                "Genre(s)": "Action-adventure",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 14, 2014",
+                "date_start": 1415923200,
+                "date_end": 1415923200,
+                "id": 119
+            },
+            {
+                "event": "Assassin's Creed Syndicate",
+                "Developer": "Ubisoft Montreal",
+                "Publisher": "Ubisoft",
+                "Genre(s)": "Action-adventure",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "October 23, 2015",
+                "date_start": 1445558400,
+                "date_end": 1445558400,
+                "id": 120
+            },
+            {
+                "event": "Assassin's Creed Origins",
+                "Developer": "Ubisoft Montreal",
+                "Publisher": "Ubisoft",
+                "Genre(s)": "Action-adventure",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "October 27, 2017",
+                "date_start": 1509062400,
+                "date_end": 1509062400,
+                "id": 121
+            },
+            {
+                "event": "Assassin's Creed Odyssey",
+                "Developer": "Ubisoft Montreal",
+                "Publisher": "Ubisoft",
+                "Genre(s)": "Action-adventure",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "October 5, 2018",
+                "date_start": 1538697600,
+                "date_end": 1538697600,
+                "id": 122
+            },
+            {
+                "event": "Assassin's Creed Valhalla",
+                "Developer": "Ubisoft Montreal",
+                "Publisher": "Ubisoft",
+                "Genre(s)": "Action-adventure",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 10, 2020",
+                "date_start": 1604966400,
+                "date_end": 1604966400,
+                "id": 123
+            },
+            {
+                "event": "AssaultCube (AC)",
+                "Developer": "Rabid Viper Productions",
+                "Publisher": "Rabid Viper Productions",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "November 18, 2006",
+                "date_start": 1163808000,
+                "date_end": 1163808000,
+                "id": 124
+            },
+            {
+                "event": "AssaultCube Reloaded (ACR)",
+                "Developer": "AssaultCube Reloaded Task Force",
+                "Publisher": "AssaultCube Reloaded Task Force",
+                "Genre(s)": "First-person shooter, Third-person shooter",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "December 24, 2010",
+                "date_start": 1293148800,
+                "date_end": 1293148800,
+                "id": 125
+            },
+            {
+                "event": "Assetto Corsa",
+                "Developer": "Kunos Simulazioni",
+                "Publisher": "Kunos Simulazioni",
+                "Genre(s)": "Racing, simulation",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 8, 2013",
+                "date_start": 1383868800,
+                "date_end": 1383868800,
+                "id": 126
+            },
+            {
+                "event": "Astebreed",
+                "Developer": "Edelweiss",
+                "Publisher": "Playism",
+                "Genre(s)": "Shoot em up",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "May 31, 2014",
+                "date_start": 1401494400,
+                "date_end": 1401494400,
+                "id": 127
+            },
+            {
+                "event": "AstroFire[2]",
+                "Developer": "ORT Software[3]",
+                "Publisher": "ORT Software[4]",
+                "Genre(s)": "Shoot em up",
+                "Operating system(s)": "MS-DOS",
+                "date": "1994",
+                "date_start": 757382400,
+                "date_end": 788832000,
+                "id": 128
+            },
+            {
+                "event": "Attack on Titan",
+                "Developer": "Omega Force",
+                "Publisher": "Koei Tecmo",
+                "Genre(s)": "Action, Hack and slash",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "February 18, 2016",
+                "date_start": 1455753600,
+                "date_end": 1455753600,
+                "id": 129
+            },
+            {
+                "event": "Attack on Titan 2",
+                "Developer": "Omega Force",
+                "Publisher": "Koei Tecmo",
+                "Genre(s)": "Action, Hack and slash",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "March 15, 2018",
+                "date_start": 1521072000,
+                "date_end": 1521072000,
+                "id": 130
+            },
+            {
+                "event": "Audiosurf",
+                "Developer": "Dylan Fitterer",
+                "Publisher": "Dylan Fitterer",
+                "Genre(s)": "Music, indie",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "February 15, 2008",
+                "date_start": 1203033600,
+                "date_end": 1203033600,
+                "id": 131
+            },
+            {
+                "event": "Audiosurf 2",
+                "Developer": "Dylan Fitterer",
+                "Publisher": "Dylan Fitterer",
+                "Genre(s)": "Music, indie",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "October 2, 2013",
+                "date_start": 1380672000,
+                "date_end": 1380672000,
+                "id": 132
+            },
+            {
+                "event": "Automation - The Car Company Tycoon Game",
+                "Developer": "Camshaft Software",
+                "Publisher": "Camshaft Software",
+                "Genre(s)": "Business simulation",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "March 12, 2015",
+                "date_start": 1426118400,
+                "date_end": 1426118400,
+                "id": 133
+            },
+            {
+                "event": "Axis Assassin",
+                "Developer": "Electronic Arts",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "Tube shooter",
+                "Operating system(s)": "Apple II, Atari 8-bit, Commodore 64",
+                "date": "1983",
+                "date_start": 410227200,
+                "date_end": 441676800,
+                "id": 134
+            },
+            {
+                "event": "A Bastard's Tale",
+                "Developer": "No Pest Productions",
+                "Publisher": "No Pest Productions",
+                "Genre(s)": "Action, Adventure",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "May 26, 2015",
+                "date_start": 1432598400,
+                "date_end": 1432598400,
+                "id": 135
+            },
+            {
+                "event": "A Bird Story",
+                "Developer": "Freebird Games",
+                "Publisher": "Freebird Games",
+                "Genre(s)": "Adventure, RPG",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "November 7, 2014",
+                "date_start": 1415318400,
+                "date_end": 1415318400,
+                "id": 136
+            },
+            {
+                "event": "A Blind Legend",
+                "Developer": "Dowino",
+                "Publisher": "Plug In Digital",
+                "Genre(s)": "Action, Adventure",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "April 7, 2016",
+                "date_start": 1459987200,
+                "date_end": 1459987200,
+                "id": 137
+            },
+            {
+                "event": "A Bloody Night",
+                "Developer": "Emanuele Leoncilli",
+                "Publisher": "Emanuele Leoncilli",
+                "Genre(s)": "Action",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "May 23, 2017",
+                "date_start": 1495497600,
+                "date_end": 1495497600,
+                "id": 138
+            },
+            {
+                "event": "A Boy and His Blob",
+                "Developer": "Abstraction Games,\tWayForward",
+                "Publisher": ".mw-parser-output .tooltip-dotted{border-bottom:1px dotted;cursor:help}Midnight City, Majesco,",
+                "Genre(s)": "Adventure",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "January 19, 2016",
+                "date_start": 1453161600,
+                "date_end": 1453161600,
+                "id": 139
+            },
+            {
+                "event": "A Butterfly in the District of Dreams",
+                "Developer": "Life a Little",
+                "Publisher": "Sekai Project",
+                "Genre(s)": "Visual Novel",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "May 12, 2017",
+                "date_start": 1494547200,
+                "date_end": 1494547200,
+                "id": 140
+            },
+            {
+                "event": "A Chair in a Room: Greenwater",
+                "Developer": "Wolf & Wood Interactive Ltd",
+                "Publisher": "Wolf & Wood Interactive Ltd",
+                "Genre(s)": "Adventure",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "April 5, 2016",
+                "date_start": 1459814400,
+                "date_end": 1459814400,
+                "id": 141
+            },
+            {
+                "event": "A City Sleeps",
+                "Developer": "Harmonix Music Systems, Inc",
+                "Publisher": "Harmonix Music Systems, Inc",
+                "Genre(s)": "Action, Shoot 'em up",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "October 16, 2014",
+                "date_start": 1413417600,
+                "date_end": 1413417600,
+                "id": 142
+            },
+            {
+                "event": "A Date in the Park",
+                "Developer": "Cloak and Dagger Games",
+                "Publisher": "Cloak and Dagger Games",
+                "Genre(s)": "Adventure",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "February 14, 2015",
+                "date_start": 1423872000,
+                "date_end": 1423872000,
+                "id": 143
+            },
+            {
+                "event": "A Day in the Woods",
+                "Developer": "RetroEpic Software",
+                "Publisher": "RetroEpic Software",
+                "Genre(s)": "Puzzle",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "October 28, 2011",
+                "date_start": 1319760000,
+                "date_end": 1319760000,
+                "id": 144
+            },
+            {
+                "event": "A dead world's dream",
+                "Developer": "JoqLePecheur",
+                "Publisher": "JoqLePecheur",
+                "Genre(s)": "Platformer",
+                "Operating system(s)": "Microsoft Windows,",
+                "date": "September 20, 2016",
+                "date_start": 1474329600,
+                "date_end": 1474329600,
+                "id": 145
+            },
+            {
+                "event": "A Demon's Game: Episode 1",
+                "Developer": "RP Studios",
+                "Publisher": "RP Studios",
+                "Genre(s)": "Action, Adventure, Horror",
+                "Operating system(s)": "Microsoft Windows,",
+                "date": "December 19, 2016",
+                "date_start": 1482105600,
+                "date_end": 1482105600,
+                "id": 146
+            },
+            {
+                "event": "A Detective's Novel",
+                "Developer": "Amaterasu Software",
+                "Publisher": "Amaterasu Software",
+                "Genre(s)": "Visual Novel",
+                "Operating system(s)": "Microsoft Windows,",
+                "date": "July 28, 2016",
+                "date_start": 1469664000,
+                "date_end": 1469664000,
+                "id": 147
+            },
+            {
+                "event": "A dragon girl looks up at the endless sky",
+                "Developer": "DebonosuWorks Inc.",
+                "Publisher": "DebonosuWorks Inc.",
+                "Genre(s)": "RPG",
+                "Operating system(s)": "Microsoft Windows,",
+                "date": "October 27, 2016",
+                "date_start": 1477526400,
+                "date_end": 1477526400,
+                "id": 148
+            },
+            {
+                "event": "A Druid's Duel",
+                "Developer": "Thoughtshelter Games",
+                "Publisher": "Surprise Attack, note",
+                "Genre(s)": "Turn-Based Strategy",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "February 25, 2015",
+                "date_start": 1424822400,
+                "date_end": 1424822400,
+                "id": 149
+            },
+            {
+                "event": "A Duel Hand Disaster: Trackher",
+                "Developer": "Ask An Enemy Studios",
+                "Publisher": "Ask An Enemy Studios",
+                "Genre(s)": "Shoot 'em up",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "August 29, 2017",
+                "date_start": 1503964800,
+                "date_end": 1503964800,
+                "id": 150
+            },
+            {
+                "event": "ARIDA:Backland's Awakening",
+                "Developer": "Aoca Game Lab",
+                "Publisher": "Aoca Game Lab",
+                "Genre(s)": "Adventure",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "August 15, 2019",
+                "date_start": 1565827200,
+                "date_end": 1565827200,
+                "id": 151
+            },
+            {
+                "event": "Baldur's Gate",
+                "Developer": "BioWare",
+                "Publisher": "Black Isle Studios, Interplay Entertainment",
+                "Genre(s)": "Role-playing",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "December 21, 1998",
+                "date_start": 914198400,
+                "date_end": 914198400,
+                "id": 152
+            },
+            {
+                "event": "Baldur's Gate: Tales of the Sword Coast",
+                "Developer": "BioWare",
+                "Publisher": "Black Isle Studios, Interplay Entertainment",
+                "Genre(s)": "Role-playing",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "April 30, 1999",
+                "date_start": 925430400,
+                "date_end": 925430400,
+                "id": 153
+            },
+            {
+                "event": "Baldur's Gate II: Shadows of Amn",
+                "Developer": "BioWare",
+                "Publisher": "Black Isle Studios, Interplay Entertainment",
+                "Genre(s)": "Role-playing",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "September 24, 2000",
+                "date_start": 969753600,
+                "date_end": 969753600,
+                "id": 154
+            },
+            {
+                "event": "Baldur's Gate II: Throne of Bhaal",
+                "Developer": "BioWare",
+                "Publisher": "Black Isle Studios, Interplay Entertainment",
+                "Genre(s)": "Role-playing Microsoft Windows, macOS",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "June 21, 2001",
+                "date_start": 993081600,
+                "date_end": 993081600,
+                "id": 155
+            },
+            {
+                "event": "Banished",
+                "Developer": "Shining Rock Software",
+                "Publisher": "Shining Rock Software",
+                "Genre(s)": "City building, strategy",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "February 18, 2014",
+                "date_start": 1392681600,
+                "date_end": 1392681600,
+                "id": 156
+            },
+            {
+                "event": "Bastion",
+                "Developer": "Supergiant Games",
+                "Publisher": "Warner Bros. Interactive Entertainment",
+                "Genre(s)": "Action, role-playing",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "August 16, 2011",
+                "date_start": 1313452800,
+                "date_end": 1313452800,
+                "id": 157
+            },
+            {
+                "event": "Batman: Arkham Asylum",
+                "Developer": "Rocksteady Studios",
+                "Publisher": "Warner Bros. Interactive Entertainment",
+                "Genre(s)": "Action, adventure",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "September 15, 2009",
+                "date_start": 1252972800,
+                "date_end": 1252972800,
+                "id": 158
+            },
+            {
+                "event": "Batman: Arkham City",
+                "Developer": "Rocksteady Studios",
+                "Publisher": "Warner Bros. Interactive Entertainment",
+                "Genre(s)": "Action, adventure",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "October 18, 2011",
+                "date_start": 1318896000,
+                "date_end": 1318896000,
+                "id": 159
+            },
+            {
+                "event": "Batman: Arkham Knight",
+                "Developer": "Rocksteady Studios",
+                "Publisher": "Warner Bros. Interactive Entertainment",
+                "Genre(s)": "Action, adventure",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "June 2, 2015",
+                "date_start": 1433203200,
+                "date_end": 1433203200,
+                "id": 160
+            },
+            {
+                "event": "Batman: Arkham Origins",
+                "Developer": "WB Games Montr\u00e9al, Splash Damage",
+                "Publisher": "Warner Bros. Interactive Entertainment",
+                "Genre(s)": "Action, adventure",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "October 25, 2013",
+                "date_start": 1382659200,
+                "date_end": 1382659200,
+                "id": 161
+            },
+            {
+                "event": "BattleBlock Theater",
+                "Developer": "The Behemoth",
+                "Publisher": "The Behemoth",
+                "Genre(s)": "Platformer",
+                "Operating system(s)": "Microsoft Windows, Linux",
+                "date": "May 15, 2014",
+                "date_start": 1400112000,
+                "date_end": 1400112000,
+                "id": 162
+            },
+            {
+                "event": "Battlefield 1942",
+                "Developer": "Digital Illusions CE",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "September 10, 2002",
+                "date_start": 1031616000,
+                "date_end": 1031616000,
+                "id": 163
+            },
+            {
+                "event": "Battlefield 1942: The Road to Rome",
+                "Developer": "Digital Illusions CE",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "February 2, 2003",
+                "date_start": 1044144000,
+                "date_end": 1044144000,
+                "id": 164
+            },
+            {
+                "event": "Battlefield 1942: Secret Weapons of WWII",
+                "Developer": "Digital Illusions CE",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "September 4, 2003",
+                "date_start": 1062633600,
+                "date_end": 1062633600,
+                "id": 165
+            },
+            {
+                "event": "Battlefield 2",
+                "Developer": "Digital Illusions CE",
+                "Publisher": "EA Games",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "June 21, 2005",
+                "date_start": 1119312000,
+                "date_end": 1119312000,
+                "id": 166
+            },
+            {
+                "event": "Battlefield 2142",
+                "Developer": "EA Digital Illusions CE",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "October 17, 2006",
+                "date_start": 1161043200,
+                "date_end": 1161043200,
+                "id": 167
+            },
+            {
+                "event": "Battlefield 3",
+                "Developer": "EA Digital Illusions CE",
+                "Publisher": "Sega, Electronic Arts",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "October 25, 2011",
+                "date_start": 1319500800,
+                "date_end": 1319500800,
+                "id": 168
+            },
+            {
+                "event": "Battlefield 4",
+                "Developer": "EA Digital Illusions CE",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "October 29, 2013",
+                "date_start": 1383004800,
+                "date_end": 1383004800,
+                "id": 169
+            },
+            {
+                "event": "Battlefield Heroes",
+                "Developer": "EA Digital Illusions CE, Easy Studios",
+                "Publisher": "Electronic Arts, Aeria Games",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "June 25, 2009",
+                "date_start": 1245888000,
+                "date_end": 1245888000,
+                "id": 170
+            },
+            {
+                "event": "Battlefield Play4Free",
+                "Developer": "EA Digital Illusions CE, Easy Studios",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "April 4, 2011",
+                "date_start": 1301875200,
+                "date_end": 1301875200,
+                "id": 171
+            },
+            {
+                "event": "Battlefield V",
+                "Developer": "EA Digital Illusions CE",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "October 19, 2018",
+                "date_start": 1539907200,
+                "date_end": 1539907200,
+                "id": 172
+            },
+            {
+                "event": "Battleforge",
+                "Developer": "EA Phenomic",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "RTS",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "March 23, 2009",
+                "date_start": 1237766400,
+                "date_end": 1237766400,
+                "id": 173
+            },
+            {
+                "event": "Battleground 2: Gettysburg",
+                "Developer": "TalonSoft",
+                "Publisher": "TalonSoft",
+                "Genre(s)": "Turn-based strategy, real-time tactics",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "December 31, 1995",
+                "date_start": 820368000,
+                "date_end": 820368000,
+                "id": 174
+            },
+            {
+                "event": "Battleground 3: Waterloo",
+                "Developer": "TalonSoft",
+                "Publisher": "TalonSoft",
+                "Genre(s)": "Turn-based strategy, real-time tactics",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "May 31, 1996",
+                "date_start": 833500800,
+                "date_end": 833500800,
+                "id": 175
+            },
+            {
+                "event": "Battleground 4: Shiloh",
+                "Developer": "TalonSoft",
+                "Publisher": "TalonSoft",
+                "Genre(s)": "Turn-based strategy, real-time tactics",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "January 31, 1996",
+                "date_start": 823046400,
+                "date_end": 823046400,
+                "id": 176
+            },
+            {
+                "event": "Battleground 5: Antietam",
+                "Developer": "TalonSoft",
+                "Publisher": "TalonSoft",
+                "Genre(s)": "Turn-based strategy, real-time tactics",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "December 31, 1996",
+                "date_start": 851990400,
+                "date_end": 851990400,
+                "id": 177
+            },
+            {
+                "event": "Battleground 6: Napoleon in Russia",
+                "Developer": "TalonSoft",
+                "Publisher": "TalonSoft",
+                "Genre(s)": "Turn-based strategy, real-time tactics",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "March 30, 1997",
+                "date_start": 859680000,
+                "date_end": 859680000,
+                "id": 178
+            },
+            {
+                "event": "Battleground 7: Bull Run",
+                "Developer": "TalonSoft",
+                "Publisher": "TalonSoft",
+                "Genre(s)": "Turn-based strategy, real-time tactics",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "March 30, 1997",
+                "date_start": 859680000,
+                "date_end": 859680000,
+                "id": 179
+            },
+            {
+                "event": "Battleground 8: Prelude to Waterloo",
+                "Developer": "TalonSoft",
+                "Publisher": "TalonSoft",
+                "Genre(s)": "Turn-based strategy, real-time tactics",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "1997",
+                "date_start": 852076800,
+                "date_end": 883526400,
+                "id": 180
+            },
+            {
+                "event": "Battleground 9: Chickamauga",
+                "Developer": "TalonSoft",
+                "Publisher": "TalonSoft",
+                "Genre(s)": "Turn-based strategy, real-time tactics",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "1998",
+                "date_start": 883612800,
+                "date_end": 915062400,
+                "id": 181
+            },
+            {
+                "event": "Battleground 10: Middle East",
+                "Developer": "TalonSoft",
+                "Publisher": "TalonSoft",
+                "Genre(s)": "Turn-based strategy, real-time tactics",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "1997",
+                "date_start": 852076800,
+                "date_end": 883526400,
+                "id": 182
+            },
+            {
+                "event": "Battleground 11: East Front",
+                "Developer": "TalonSoft",
+                "Publisher": "TalonSoft",
+                "Genre(s)": "Turn-based strategy, real-time tactics",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "1997",
+                "date_start": 852076800,
+                "date_end": 883526400,
+                "id": 183
+            },
+            {
+                "event": "Battlehawks 1942",
+                "Developer": "Lucasfilm Games",
+                "Publisher": "Lucasfilm Games",
+                "Genre(s)": "Flight simulation",
+                "Operating system(s)": "MS-DOS, Amiga, Atari ST",
+                "date": "October 1988",
+                "date_start": 591667200,
+                "date_end": 591667200,
+                "id": 184
+            },
+            {
+                "event": "Battles in Time",
+                "Developer": "Quantum Quality Productions, American Laser Games",
+                "Publisher": "Quantum Quality Productions",
+                "Genre(s)": "Strategy",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "1995",
+                "date_start": 788918400,
+                "date_end": 820368000,
+                "id": 185
+            },
+            {
+                "event": "Battles of Napoleon",
+                "Developer": "Chuck Kroegel, David Landrey",
+                "Publisher": "Strategic Simulations, Inc.",
+                "Genre(s)": "Wargame",
+                "Operating system(s)": "Apple II, Commodore 64, MS-DOS",
+                "date": "1988",
+                "date_start": 567993600,
+                "date_end": 599529600,
+                "id": 186
+            },
+            {
+                "event": "Battleship: Surface Thunder",
+                "Developer": "Hasbro Interactive",
+                "Publisher": "Hasbro Interactive",
+                "Genre(s)": "Action",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "September 12, 2000",
+                "date_start": 968716800,
+                "date_end": 968716800,
+                "id": 187
+            },
+            {
+                "event": "Beam Breakers",
+                "Developer": "Similis Software GmbH",
+                "Publisher": "JoWooD Productions Software",
+                "Genre(s)": "Futuristic racing",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "October 31, 2002",
+                "date_start": 1036022400,
+                "date_end": 1036022400,
+                "id": 188
+            },
+            {
+                "event": "Beasts and Bumpkins",
+                "Developer": "Worldweaver Ltd",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "Real-time simulation",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "1997",
+                "date_start": 852076800,
+                "date_end": 883526400,
+                "id": 189
+            },
+            {
+                "event": "Beyond Divinity",
+                "Developer": "Larian Studios",
+                "Publisher": "HIP Interactive, Ubisoft, Focus Home Interactive",
+                "Genre(s)": "RPG",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "2004",
+                "date_start": 1072915200,
+                "date_end": 1104451200,
+                "id": 190
+            },
+            {
+                "event": "Beyond Good & Evil",
+                "Developer": "Ubisoft Pictures, Ubisoft Milan",
+                "Publisher": "Ubisoft",
+                "Genre(s)": "Action-adventure",
+                "Operating system(s)": "Microsoft Windows, PlayStation 2, PlayStation 3, Xbox, Xbox 360, GameCube",
+                "date": "November 11, 2003",
+                "date_start": 1068508800,
+                "date_end": 1068508800,
+                "id": 191
+            },
+            {
+                "event": "The Binding of Isaac",
+                "Developer": "Edmund McMillen",
+                "Publisher": "Florian Himsl, Edmund McMillen",
+                "Genre(s)": "Roguelike",
+                "Operating system(s)": "Microsoft Windows, macOS, Linux",
+                "date": "May 7, 2014",
+                "date_start": 1399420800,
+                "date_end": 1399420800,
+                "id": 192
+            },
+            {
+                "event": "Billy the Wizard: Rocket Broomstick Racing",
+                "Developer": "Data Design Interactive",
+                "Publisher": "Metro3D Europe",
+                "Genre(s)": "Racing, platform",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "September 8, 2011",
+                "date_start": 1315440000,
+                "date_end": 1315440000,
+                "id": 193
+            },
+            {
+                "event": "BioShock",
+                "Developer": "2K Boston, 2K Australia",
+                "Publisher": "2K Games",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows, macOS, PlayStation 3, Xbox 360, PlayStation 4, Xbox One, iOS",
+                "date": "August 21, 2007",
+                "date_start": 1187654400,
+                "date_end": 1187654400,
+                "id": 194
+            },
+            {
+                "event": "BioShock 2",
+                "Developer": "2K Marin",
+                "Publisher": "2K Games",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows, macOS, PlayStation 3, Xbox 360",
+                "date": "February 9, 2010",
+                "date_start": 1265673600,
+                "date_end": 1265673600,
+                "id": 195
+            },
+            {
+                "event": "BioShock Infinite",
+                "Developer": "Irrational Games",
+                "Publisher": "2K Games",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows, macOS, Linux, PlayStation 3, Xbox 360",
+                "date": "March 26, 2013",
+                "date_start": 1364256000,
+                "date_end": 1364256000,
+                "id": 196
+            },
+            {
+                "event": "Black Mesa",
+                "Developer": "Crowbar Collective",
+                "Publisher": "Crowbar Collective",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows, Linux",
+                "date": "May 5, 2015",
+                "date_start": 1430784000,
+                "date_end": 1430784000,
+                "id": 197
+            },
+            {
+                "event": "Blade Strangers",
+                "Developer": "Studio Saizensen",
+                "Publisher": "Nicalis",
+                "Genre(s)": "Fighting",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "August 28, 2018",
+                "date_start": 1535414400,
+                "date_end": 1535414400,
+                "id": 198
+            },
+            {
+                "event": "Blade Symphony",
+                "Developer": "Puny Human",
+                "Publisher": "Puny Human Games",
+                "Genre(s)": "Action",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "May 7, 2014",
+                "date_start": 1399420800,
+                "date_end": 1399420800,
+                "id": 199
+            },
+            {
+                "event": "Blades of Time",
+                "Developer": "Gaijin Entertainment",
+                "Publisher": "Gaijin Entertainment",
+                "Genre(s)": "Hack and slash, platformer, action-adventure",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "March 6, 2012",
+                "date_start": 1330992000,
+                "date_end": 1330992000,
+                "id": 200
+            },
+            {
+                "event": "Blitzkrieg",
+                "Developer": "Nival Interactive",
+                "Publisher": "CDV, 1C Company, Virtual Programming",
+                "Genre(s)": "Real-time tactics",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "June 4, 2003",
+                "date_start": 1054684800,
+                "date_end": 1054684800,
+                "id": 201
+            },
+            {
+                "event": "Borderlands",
+                "Developer": "Gearbox Software",
+                "Publisher": "2K Games",
+                "Genre(s)": "Action role-playing, first-person shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "October 20, 2009",
+                "date_start": 1255996800,
+                "date_end": 1255996800,
+                "id": 202
+            },
+            {
+                "event": "Borderlands 2",
+                "Developer": "Gearbox Software, Iron Galaxy Studios",
+                "Publisher": "2K Games",
+                "Genre(s)": "Action role-playing, first-person shooter",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "September 18, 2012",
+                "date_start": 1347926400,
+                "date_end": 1347926400,
+                "id": 203
+            },
+            {
+                "event": "Borderlands 3",
+                "Developer": "Gearbox Software",
+                "Publisher": "2K Games",
+                "Genre(s)": "Action role-playing, first-person shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "September 13, 2019",
+                "date_start": 1568332800,
+                "date_end": 1568332800,
+                "id": 204
+            },
+            {
+                "event": "Borderlands: The Pre-Sequel!",
+                "Developer": "Gearbox Software, 2K Australia",
+                "Publisher": "2K Games",
+                "Genre(s)": "Action role-playing, first-person shooter",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "October 14, 2014",
+                "date_start": 1413244800,
+                "date_end": 1413244800,
+                "id": 205
+            },
+            {
+                "event": "Braid",
+                "Developer": "Number None",
+                "Publisher": "Number None",
+                "Genre(s)": "Puzzle, platform",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "April 10, 2009",
+                "date_start": 1239321600,
+                "date_end": 1239321600,
+                "id": 206
+            },
+            {
+                "event": "Brawlhalla",
+                "Developer": "Blue Mammoth Games",
+                "Publisher": "Ubisoft",
+                "Genre(s)": "Fighting",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "October 17, 2017",
+                "date_start": 1508198400,
+                "date_end": 1508198400,
+                "id": 207
+            },
+            {
+                "event": "Bridge Project",
+                "Developer": "Halycon Media GmbH & Co. KG",
+                "Publisher": "BitComposer Games",
+                "Genre(s)": "Simulation",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "March 28, 2013",
+                "date_start": 1364428800,
+                "date_end": 1364428800,
+                "id": 208
+            },
+            {
+                "event": "Brothers in Arms: Earned in Blood",
+                "Developer": "Gearbox Software",
+                "Publisher": "Ubisoft",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows, OS X",
+                "date": "October 4, 2005",
+                "date_start": 1128384000,
+                "date_end": 1128384000,
+                "id": 209
+            },
+            {
+                "event": "Brothers in Arms: Hell's Highway",
+                "Developer": "Gearbox Software",
+                "Publisher": "Ubisoft",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "September 23, 2008",
+                "date_start": 1222128000,
+                "date_end": 1222128000,
+                "id": 210
+            },
+            {
+                "event": "Brothers in Arms: Road to Hill 30",
+                "Developer": "Gearbox Software",
+                "Publisher": "Ubisoft",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows, Mac OS X",
+                "date": "February 15, 2005",
+                "date_start": 1108425600,
+                "date_end": 1108425600,
+                "id": 211
+            },
+            {
+                "event": "Burnout Paradise: The Ultimate Box",
+                "Developer": "Criterion Games",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "Racing",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "February 3, 2009",
+                "date_start": 1233619200,
+                "date_end": 1233619200,
+                "id": 212
+            },
+            {
+                "event": "Bus Simulator",
+                "Developer": "Stillalive Studios",
+                "Publisher": "Astragon",
+                "Genre(s)": "Simulator",
+                "Operating system(s)": "Windows 10 64-Bit, Mac OS X",
+                "date": "07 Sep 2021",
+                "date_start": 1630972800,
+                "date_end": 1630972800,
+                "id": 213
+            },
+            {
+                "event": "Call of Cthulhu: Dark Corners of the Earth",
+                "Developer": "Headfirst Productions",
+                "Publisher": "Bethesda Softworks",
+                "Genre(s)": "Survival horror, first-person shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "October 24, 2005",
+                "date_start": 1130112000,
+                "date_end": 1130112000,
+                "id": 214
+            },
+            {
+                "event": "Call of Duty",
+                "Developer": "Infinity Ward",
+                "Publisher": "MediaQuest, Activision, Aspyr",
+                "Genre(s)": "Action, FPS",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "October 29, 2003",
+                "date_start": 1067385600,
+                "date_end": 1067385600,
+                "id": 215
+            },
+            {
+                "event": "Call of Duty 2",
+                "Developer": "Infinity Ward",
+                "Publisher": "Konami, Activision, Aspyr",
+                "Genre(s)": "Action, FPS",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "October 25, 2005",
+                "date_start": 1130198400,
+                "date_end": 1130198400,
+                "id": 216
+            },
+            {
+                "event": "Call of Duty 4: Modern Warfare",
+                "Developer": "Infinity Ward",
+                "Publisher": "Square Enix, Activision",
+                "Genre(s)": "Action, FPS",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "November 5, 2007",
+                "date_start": 1194220800,
+                "date_end": 1194220800,
+                "id": 217
+            },
+            {
+                "event": "Call of Duty: Black Ops",
+                "Developer": "Treyarch, n-Space",
+                "Publisher": "Square Enix, Activision",
+                "Genre(s)": "Action, FPS",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "November 9, 2010",
+                "date_start": 1289260800,
+                "date_end": 1289260800,
+                "id": 218
+            },
+            {
+                "event": "Call of Duty: Black Ops 2",
+                "Developer": "Treyarch",
+                "Publisher": "Square Enix, Activision",
+                "Genre(s)": "Action, FPS",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "December 12, 2012",
+                "date_start": 1355270400,
+                "date_end": 1355270400,
+                "id": 219
+            },
+            {
+                "event": "Call of Duty: Black Ops 3",
+                "Developer": "Treyarch",
+                "Publisher": "Activision",
+                "Genre(s)": "FPS",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 6, 2015",
+                "date_start": 1446768000,
+                "date_end": 1446768000,
+                "id": 220
+            },
+            {
+                "event": "Call of Duty: Black Ops 4",
+                "Developer": "Treyarch",
+                "Publisher": "Activision",
+                "Genre(s)": "FPS",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "October 12, 2018",
+                "date_start": 1539302400,
+                "date_end": 1539302400,
+                "id": 221
+            },
+            {
+                "event": "Call of Duty: Ghosts",
+                "Developer": "Infinity Ward",
+                "Publisher": "Square Enix, Activision",
+                "Genre(s)": "Action, FPS",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 5, 2013",
+                "date_start": 1383609600,
+                "date_end": 1383609600,
+                "id": 222
+            },
+            {
+                "event": "Call of Duty: Infinite Warfare",
+                "Developer": "Infinity Ward",
+                "Publisher": "Activision",
+                "Genre(s)": "FPS",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 4, 2016",
+                "date_start": 1478217600,
+                "date_end": 1478217600,
+                "id": 223
+            },
+            {
+                "event": "Call of Duty: Modern Warfare 2",
+                "Developer": "Infinity Ward",
+                "Publisher": "Activision, Square Enix",
+                "Genre(s)": "Action, FPS",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "November 10, 2009",
+                "date_start": 1257811200,
+                "date_end": 1257811200,
+                "id": 224
+            },
+            {
+                "event": "Call of Duty: Modern Warfare 3",
+                "Developer": "Sledgehammer Games, Treyarch, Infinity Ward, Raven Software",
+                "Publisher": "Square Enix, Activision",
+                "Genre(s)": "Action, FPS",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "November 8, 2011",
+                "date_start": 1320710400,
+                "date_end": 1320710400,
+                "id": 225
+            },
+            {
+                "event": "Call of Duty Online",
+                "Developer": "Tencent, Raven Software",
+                "Publisher": "Tencent",
+                "Genre(s)": "Action, FPS",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "January 14, 2013",
+                "date_start": 1358121600,
+                "date_end": 1358121600,
+                "id": 226
+            },
+            {
+                "event": "Call of Duty: United Offensive",
+                "Developer": "Gray Matter Interactive, MediaQuest, Aspyr",
+                "Publisher": "Activision",
+                "Genre(s)": "Action, FPS",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "September 14, 2004",
+                "date_start": 1095120000,
+                "date_end": 1095120000,
+                "id": 227
+            },
+            {
+                "event": "Call of Duty: World at War",
+                "Developer": "Exakt Entertainment, Rebellion Developments, Treyarch, n-Space",
+                "Publisher": "Activision Blizzard",
+                "Genre(s)": "Action, FPS",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 11, 2008",
+                "date_start": 1226361600,
+                "date_end": 1226361600,
+                "id": 228
+            },
+            {
+                "event": "CarneyVale: Showtime",
+                "Developer": "Singapore-MIT GAMBIT Game Lab",
+                "Publisher": "Microsoft Game Studios",
+                "Genre(s)": "Platformer",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 11, 2010",
+                "date_start": 1289433600,
+                "date_end": 1289433600,
+                "id": 229
+            },
+            {
+                "event": "Castlevania: Lords of Shadow",
+                "Developer": "MercurySteam, Kojima Productions, Climax Studios",
+                "Publisher": "Konami",
+                "Genre(s)": "Action-adventure, hack and slash",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "October 5, 2010",
+                "date_start": 1286236800,
+                "date_end": 1286236800,
+                "id": 230
+            },
+            {
+                "event": "Champions of Krynn",
+                "Developer": "Strategic Simulations, Inc.",
+                "Publisher": "Strategic Simulations, Inc., U.S. Gold",
+                "Genre(s)": "Fantasy, RPG",
+                "Operating system(s)": "MS-DOS, Apple II, Commodore 64, Amiga",
+                "date": "June 1, 1990",
+                "date_start": 644198400,
+                "date_end": 644198400,
+                "id": 231
+            },
+            {
+                "event": "Chaos Island: The Lost World",
+                "Developer": "DreamWorks Interactive",
+                "Publisher": "DreamWorks Interactive",
+                "Genre(s)": "Real-time strategy",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "October 30, 1997",
+                "date_start": 878169600,
+                "date_end": 878169600,
+                "id": 232
+            },
+            {
+                "event": "Chivalry: Medieval Warfare",
+                "Developer": "Torn Banner Studios",
+                "Publisher": "Torn Banner Studios",
+                "Genre(s)": "Action, first-person slasher",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "October 16, 2012",
+                "date_start": 1350345600,
+                "date_end": 1350345600,
+                "id": 233
+            },
+            {
+                "event": "Cities in Motion",
+                "Developer": "Colossal Order",
+                "Publisher": "Paradox Interactive",
+                "Genre(s)": "Business simulation",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "February 23, 2011",
+                "date_start": 1298419200,
+                "date_end": 1298419200,
+                "id": 234
+            },
+            {
+                "event": "Cities in Motion 2",
+                "Developer": "Colossal Order",
+                "Publisher": "Paradox Interactive",
+                "Genre(s)": "Business simulation",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "April 2, 2013",
+                "date_start": 1364860800,
+                "date_end": 1364860800,
+                "id": 235
+            },
+            {
+                "event": "Cities: Skylines",
+                "Developer": "Colossal Order",
+                "Publisher": "Paradox Interactive",
+                "Genre(s)": "City-building, Simulation",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "March 10, 2015",
+                "date_start": 1425945600,
+                "date_end": 1425945600,
+                "id": 236
+            },
+            {
+                "event": "Cities XL",
+                "Developer": "Monte Cristo",
+                "Publisher": "Monte Cristo",
+                "Genre(s)": "City-building game, massively multiplayer online game",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "October 8, 2009",
+                "date_start": 1254960000,
+                "date_end": 1254960000,
+                "id": 237
+            },
+            {
+                "event": "Civilization III",
+                "Developer": "Firaxis Games, Westlake Interactive, Aspyr",
+                "Publisher": "Atari, Aspyr",
+                "Genre(s)": "Turn-based strategy",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "October 30, 2001",
+                "date_start": 1004400000,
+                "date_end": 1004400000,
+                "id": 238
+            },
+            {
+                "event": "Civilization III: Conquests",
+                "Developer": "Firaxis Games, BreakAway Games",
+                "Publisher": "Atari",
+                "Genre(s)": "Turn-based strategy",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 4, 2003",
+                "date_start": 1067904000,
+                "date_end": 1067904000,
+                "id": 239
+            },
+            {
+                "event": "Civilization III: Play the World",
+                "Developer": "Firaxis Games",
+                "Publisher": null,
+                "Genre(s)": "Turn-based strategy",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "October 31, 2002",
+                "date_start": 1036022400,
+                "date_end": 1036022400,
+                "id": 240
+            },
+            {
+                "event": "Civilization IV",
+                "Developer": "Firaxis Games",
+                "Publisher": "2K Games, Aspyr",
+                "Genre(s)": "Turn-based strategy",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "October 25, 2005",
+                "date_start": 1130198400,
+                "date_end": 1130198400,
+                "id": 241
+            },
+            {
+                "event": "Civilization V",
+                "Developer": "Firaxis Games",
+                "Publisher": "2K Games, Aspyr",
+                "Genre(s)": "Turn-based strategy",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "September 21, 2010",
+                "date_start": 1285027200,
+                "date_end": 1285027200,
+                "id": 242
+            },
+            {
+                "event": "Civilization V: Brave New World",
+                "Developer": "Firaxis Games",
+                "Publisher": "2K Games, Aspyr",
+                "Genre(s)": "Turn-based strategy",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "March 15, 2013",
+                "date_start": 1363305600,
+                "date_end": 1363305600,
+                "id": 243
+            },
+            {
+                "event": "Civilization V: Gods & Kings",
+                "Developer": "Firaxis Games",
+                "Publisher": "2K Games, Aspyr",
+                "Genre(s)": "Turn-based strategy",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "February 16, 2012",
+                "date_start": 1329350400,
+                "date_end": 1329350400,
+                "id": 244
+            },
+            {
+                "event": "Civilization VI",
+                "Developer": "Firaxis Games",
+                "Publisher": "2K Games",
+                "Genre(s)": "Turn-based strategy",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "October 21, 2016",
+                "date_start": 1477008000,
+                "date_end": 1477008000,
+                "id": 245
+            },
+            {
+                "event": "Clans to Kingdoms",
+                "Developer": "Clans to Kingdoms",
+                "Publisher": "Clans to Kingdoms",
+                "Genre(s)": "4X, Turn-based strategy, City-building",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "April 15, 2019",
+                "date_start": 1555286400,
+                "date_end": 1555286400,
+                "id": 246
+            },
+            {
+                "event": "Classic British Motor Racing",
+                "Developer": "Data Design Interactive",
+                "Publisher": "Bold Games",
+                "Genre(s)": "Racing",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "January 2, 2008",
+                "date_start": 1199232000,
+                "date_end": 1199232000,
+                "id": 247
+            },
+            {
+                "event": "The Club",
+                "Developer": "Bizarre Creations",
+                "Publisher": "Sega",
+                "Genre(s)": "Third-person shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "February 7, 2008",
+                "date_start": 1202342400,
+                "date_end": 1202342400,
+                "id": 248
+            },
+            {
+                "event": "Cobalt",
+                "Developer": "Oxeye Game Studio[1]",
+                "Publisher": "Mojang",
+                "Genre(s)": "Action, sidescroller",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "February 2, 2016",
+                "date_start": 1454371200,
+                "date_end": 1454371200,
+                "id": 249
+            },
+            {
+                "event": "Microsoft Combat Flight Simulator",
+                "Developer": "Microsoft[2][circular reference]",
+                "Publisher": "Microsoft",
+                "Genre(s)": "CFS, Flight Simulation",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "October 28, 1998",
+                "date_start": 909532800,
+                "date_end": 909532800,
+                "id": 250
+            },
+            {
+                "event": "Command & Conquer",
+                "Developer": "Westwood Studios",
+                "Publisher": "Virgin Interactive",
+                "Genre(s)": "RTS",
+                "Operating system(s)": "MS-DOS, Microsoft Windows",
+                "date": "August 31, 1995",
+                "date_start": 809827200,
+                "date_end": 809827200,
+                "id": 251
+            },
+            {
+                "event": "Command & Conquer: Red Alert",
+                "Developer": "Westwood Studios",
+                "Publisher": "Virgin Interactive",
+                "Genre(s)": "RTS",
+                "Operating system(s)": "MS-DOS, Microsoft Windows, PlayStation",
+                "date": "November 22, 1996",
+                "date_start": 848620800,
+                "date_end": 848620800,
+                "id": 252
+            },
+            {
+                "event": "Command & Conquer: Generals",
+                "Developer": "EA Pacific",
+                "Publisher": "EA Games",
+                "Genre(s)": "RTS",
+                "Operating system(s)": "Microsoft Windows, Mac OS X",
+                "date": "February 10, 2003",
+                "date_start": 1044835200,
+                "date_end": 1044835200,
+                "id": 253
+            },
+            {
+                "event": "Command & Conquer: Red Alert 2",
+                "Developer": "Westwood Pacific",
+                "Publisher": "EA Games",
+                "Genre(s)": "RTS",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "October 26, 2000",
+                "date_start": 972518400,
+                "date_end": 972518400,
+                "id": 254
+            },
+            {
+                "event": "Command & Conquer: Red Alert 3",
+                "Developer": "EA Los Angeles",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "RTS",
+                "Operating system(s)": "Microsoft Windows, Xbox 360, PlayStation 3, Mac OS X",
+                "date": "October 28, 2008",
+                "date_start": 1225152000,
+                "date_end": 1225152000,
+                "id": 255
+            },
+            {
+                "event": "Command & Conquer: Renegade",
+                "Developer": "Westwood Studios",
+                "Publisher": "EA Games",
+                "Genre(s)": "Tactical shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "February 26, 2002",
+                "date_start": 1014681600,
+                "date_end": 1014681600,
+                "id": 256
+            },
+            {
+                "event": "Command & Conquer: Tiberian Sun",
+                "Developer": "Westwood Studios",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "RTS",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "August 27, 1999",
+                "date_start": 935712000,
+                "date_end": 935712000,
+                "id": 257
+            },
+            {
+                "event": "Command & Conquer 3: Tiberium Wars",
+                "Developer": "EA Los Angeles",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "RTS",
+                "Operating system(s)": "Microsoft Windows, Xbox 360, Mac OS X",
+                "date": "March 26, 2007",
+                "date_start": 1174867200,
+                "date_end": 1174867200,
+                "id": 258
+            },
+            {
+                "event": "Command & Conquer 4: Tiberian Twilight",
+                "Developer": "EA Los Angeles",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "RTS",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "March 16, 2010",
+                "date_start": 1268697600,
+                "date_end": 1268697600,
+                "id": 259
+            },
+            {
+                "event": "Commandos: Behind Enemy Lines",
+                "Developer": "Pyro Studios",
+                "Publisher": "Eidos Interactive",
+                "Genre(s)": "RTS",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "July 31, 1998",
+                "date_start": 901843200,
+                "date_end": 901843200,
+                "id": 260
+            },
+            {
+                "event": "Commandos: Beyond the Call of Duty",
+                "Developer": "Pyro Studios",
+                "Publisher": "Eidos Interactive",
+                "Genre(s)": "RTS",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "March 31, 1999",
+                "date_start": 922838400,
+                "date_end": 922838400,
+                "id": 261
+            },
+            {
+                "event": "Commandos: Strike Force",
+                "Developer": "Pyro Studios",
+                "Publisher": "Eidos Interactive",
+                "Genre(s)": "RTS",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "March 17, 2006",
+                "date_start": 1142553600,
+                "date_end": 1142553600,
+                "id": 262
+            },
+            {
+                "event": "Commandos 2: Men of Courage",
+                "Developer": "Pyro Studios",
+                "Publisher": "Eidos Interactive",
+                "Genre(s)": "RTS",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "September 21, 2001",
+                "date_start": 1001030400,
+                "date_end": 1001030400,
+                "id": 263
+            },
+            {
+                "event": "Commandos 3: Destination Berlin",
+                "Developer": "Pyro Studios",
+                "Publisher": "Eidos Interactive",
+                "Genre(s)": "RTS",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "October 23, 2003",
+                "date_start": 1066867200,
+                "date_end": 1066867200,
+                "id": 264
+            },
+            {
+                "event": "Company of Heroes",
+                "Developer": "Relic Entertainment",
+                "Publisher": "THQ",
+                "Genre(s)": "RTS",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "September 12, 2006",
+                "date_start": 1158019200,
+                "date_end": 1158019200,
+                "id": 265
+            },
+            {
+                "event": "Company of Heroes 2",
+                "Developer": "Relic Entertainment",
+                "Publisher": "Sega",
+                "Genre(s)": "RTS",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "June 25, 2013",
+                "date_start": 1372118400,
+                "date_end": 1372118400,
+                "id": 266
+            },
+            {
+                "event": "Constantine",
+                "Developer": "Bits Studios",
+                "Publisher": "SCi Games",
+                "Genre(s)": "Action-adventure, third-person shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "February 14, 2005",
+                "date_start": 1108339200,
+                "date_end": 1108339200,
+                "id": 267
+            },
+            {
+                "event": "Contagion",
+                "Developer": "Monochrome LLC",
+                "Publisher": "Monochrome LLC",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "April 14, 2014",
+                "date_start": 1397433600,
+                "date_end": 1397433600,
+                "id": 268
+            },
+            {
+                "event": "Cossacks II: Battle for Europe",
+                "Developer": "GSC Game World",
+                "Publisher": "GSC World Publishing",
+                "Genre(s)": "RTS",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "June 19, 2006",
+                "date_start": 1150675200,
+                "date_end": 1150675200,
+                "id": 269
+            },
+            {
+                "event": "Counter-Strike",
+                "Developer": "Valve",
+                "Publisher": "Valve",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "June 19, 1999",
+                "date_start": 929750400,
+                "date_end": 929750400,
+                "id": 270
+            },
+            {
+                "event": "Counter-Strike: Condition Zero",
+                "Developer": "Valve, Gearbox Software, Ritual Entertainment, Turtle Rock Studios",
+                "Publisher": "Valve",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "March 23, 2004",
+                "date_start": 1080000000,
+                "date_end": 1080000000,
+                "id": 271
+            },
+            {
+                "event": "Counter-Strike: Global Offensive",
+                "Developer": "Valve",
+                "Publisher": "Valve",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "August 12, 2012",
+                "date_start": 1344729600,
+                "date_end": 1344729600,
+                "id": 272
+            },
+            {
+                "event": "Counter-Strike Online",
+                "Developer": "Valve, Nexon Corporation",
+                "Publisher": "Valve, Nexon Corporation, Gamania",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "June 24, 2008",
+                "date_start": 1214265600,
+                "date_end": 1214265600,
+                "id": 273
+            },
+            {
+                "event": "Counter-Strike: Source",
+                "Developer": "Valve",
+                "Publisher": "Valve",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "September 1, 2004",
+                "date_start": 1093996800,
+                "date_end": 1093996800,
+                "id": 274
+            },
+            {
+                "event": "Crusader Kings",
+                "Developer": "Paradox Development Studios",
+                "Publisher": "Paradox Interactive",
+                "Genre(s)": "Grand strategy",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "August 27, 2004",
+                "date_start": 1093564800,
+                "date_end": 1093564800,
+                "id": 275
+            },
+            {
+                "event": "Crusader Kings II",
+                "Developer": "Paradox Development Studios",
+                "Publisher": "Paradox Interactive",
+                "Genre(s)": "Grand strategy",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "February 14, 2012",
+                "date_start": 1329177600,
+                "date_end": 1329177600,
+                "id": 276
+            },
+            {
+                "event": "Cryostasis: Sleep of Reason",
+                "Developer": "Action Forms",
+                "Publisher": "1C, Aspyr, 505 Games",
+                "Genre(s)": "Survival horror",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "February 27, 2009",
+                "date_start": 1235692800,
+                "date_end": 1235692800,
+                "id": 277
+            },
+            {
+                "event": "Crysis",
+                "Developer": "Crytek",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 13, 2007",
+                "date_start": 1194912000,
+                "date_end": 1194912000,
+                "id": 278
+            },
+            {
+                "event": "Crysis Warhead",
+                "Developer": "Crytek Budapest",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "September 16, 2008",
+                "date_start": 1221523200,
+                "date_end": 1221523200,
+                "id": 279
+            },
+            {
+                "event": "Crysis 2",
+                "Developer": "Crytek, Crytek UK",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "March 22, 2011",
+                "date_start": 1300752000,
+                "date_end": 1300752000,
+                "id": 280
+            },
+            {
+                "event": "Crysis 3",
+                "Developer": "Crytek, Crytek UK",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "February 19, 2013",
+                "date_start": 1361232000,
+                "date_end": 1361232000,
+                "id": 281
+            },
+            {
+                "event": "Cuphead",
+                "Developer": "StudioMDHR",
+                "Publisher": "StudioMDHR",
+                "Genre(s)": "Action, run and gun",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "September 29, 2017",
+                "date_start": 1506643200,
+                "date_end": 1506643200,
+                "id": 282
+            },
+            {
+                "event": "Curse of the Azure Bonds",
+                "Developer": "Strategic Simulations, Inc.",
+                "Publisher": "Strategic Simulations, Inc., U.S. Gold, Pony Canyon, Inc.",
+                "Genre(s)": "Fantasy, RPG",
+                "Operating system(s)": "MS-DOS, Apple II, macOS, Commodore 64, Amiga, Atari ST, NEC PC-9801",
+                "date": "September 1, 1989",
+                "date_start": 620611200,
+                "date_end": 620611200,
+                "id": 283
+            },
+            {
+                "event": "The Cursed Crusade",
+                "Developer": "Kylotonn",
+                "Publisher": "Atlus",
+                "Genre(s)": "Action-adventure",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "October 25, 2011",
+                "date_start": 1319500800,
+                "date_end": 1319500800,
+                "id": 284
+            },
+            {
+                "event": "Damnation",
+                "Developer": "Blue Omega Entertainment",
+                "Publisher": "Codemasters",
+                "Genre(s)": "Third-person shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "May 25, 2009",
+                "date_start": 1243209600,
+                "date_end": 1243209600,
+                "id": 285
+            },
+            {
+                "event": "Dark Souls",
+                "Developer": "From Software",
+                "Publisher": "From Software",
+                "Genre(s)": "action role-playing, More Games Here",
+                "Operating system(s)": "Nintendo Switch, PlayStation 4, PlayStation 3, Xbox One, Xbox 360, Microsoft Windows",
+                "date": "September 22, 2011",
+                "date_start": 1316649600,
+                "date_end": 1316649600,
+                "id": 286
+            },
+            {
+                "event": "Dark Souls II",
+                "Developer": "From Software",
+                "Publisher": "Bandai Namco Games",
+                "Genre(s)": "action role-playing",
+                "Operating system(s)": "PlayStation 4, PlayStation 3, Xbox One, Xbox 360, Microsoft Windows",
+                "date": "March 11, 2014",
+                "date_start": 1394496000,
+                "date_end": 1394496000,
+                "id": 287
+            },
+            {
+                "event": "Dark Souls III",
+                "Developer": "From Software",
+                "Publisher": "From Software",
+                "Genre(s)": "action role-playing",
+                "Operating system(s)": "PlayStation 4, Xbox One, Microsoft Windows",
+                "date": "March 24, 2016",
+                "date_start": 1458777600,
+                "date_end": 1458777600,
+                "id": 288
+            },
+            {
+                "event": "Dark Sun Online: Crimson Sands",
+                "Developer": "Strategic Simulations, Inc.",
+                "Publisher": "Total Entertainment Network",
+                "Genre(s)": "RPG, fantasy",
+                "Operating system(s)": "MS-DOS",
+                "date": "February 1, 1996",
+                "date_start": 823132800,
+                "date_end": 823132800,
+                "id": 289
+            },
+            {
+                "event": "Dark Sun: Shattered Lands",
+                "Developer": "Strategic Simulations, Inc.",
+                "Publisher": "Softgold Computerspiele GmbH",
+                "Genre(s)": "RPG, fantasy",
+                "Operating system(s)": "MS-DOS",
+                "date": "September 1, 1993",
+                "date_start": 746841600,
+                "date_end": 746841600,
+                "id": 290
+            },
+            {
+                "event": "Dark Sun: Wake of the Ravager",
+                "Developer": "Strategic Simulations, Inc.",
+                "Publisher": "Strategic Simulations, Inc.",
+                "Genre(s)": "RPG, fantasy",
+                "Operating system(s)": "MS-DOS",
+                "date": "1995",
+                "date_start": 788918400,
+                "date_end": 820368000,
+                "id": 291
+            },
+            {
+                "event": "Darksiders 2",
+                "Developer": "Vigil Games",
+                "Publisher": "THQ",
+                "Genre(s)": "Hack and slash, platformer",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "August 14, 2012",
+                "date_start": 1344902400,
+                "date_end": 1344902400,
+                "id": 292
+            },
+            {
+                "event": "Darkstone: Evil Reigns",
+                "Developer": "Delphine Software International",
+                "Publisher": "Electronic Arts EU, Gathering of Developers NA",
+                "Genre(s)": "Action RPG",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "July 31, 1999",
+                "date_start": 933379200,
+                "date_end": 933379200,
+                "id": 293
+            },
+            {
+                "event": "Daryl F. Gates' Police Quest: SWAT",
+                "Developer": "Sierra Entertainment",
+                "Publisher": "Sierra Entertainment",
+                "Genre(s)": "Interactive movie, simulation, action-adventure",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "September 30, 1995",
+                "date_start": 812419200,
+                "date_end": 812419200,
+                "id": 294
+            },
+            {
+                "event": "Day of Defeat",
+                "Developer": "Valve",
+                "Publisher": "Valve",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "August 4, 2000",
+                "date_start": 965347200,
+                "date_end": 965347200,
+                "id": 295
+            },
+            {
+                "event": "Day of Defeat: Source",
+                "Developer": "Valve",
+                "Publisher": "Valve",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "September 26, 2005",
+                "date_start": 1127692800,
+                "date_end": 1127692800,
+                "id": 296
+            },
+            {
+                "event": "DayZ",
+                "Developer": "Bohemia Interactive",
+                "Publisher": "Bohemia Interactive",
+                "Genre(s)": "Open-world, first-person shooter, RPG",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "December 16, 2013",
+                "date_start": 1387152000,
+                "date_end": 1387152000,
+                "id": 297
+            },
+            {
+                "event": "Dead Island",
+                "Developer": "Techland",
+                "Publisher": "Deep Silver",
+                "Genre(s)": "Zombies, survival",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "October 20, 2011",
+                "date_start": 1319068800,
+                "date_end": 1319068800,
+                "id": 298
+            },
+            {
+                "event": "Dead Space",
+                "Developer": "EA Redwood Shores",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "Survival horror, third-person shooter",
+                "Operating system(s)": "PlayStation 3, Xbox 360, Microsoft Windows",
+                "date": "October 20, 2008",
+                "date_start": 1224460800,
+                "date_end": 1224460800,
+                "id": 299
+            },
+            {
+                "event": "Dead Space 2",
+                "Developer": "Visceral Games",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "Survival horror, third-person shooter",
+                "Operating system(s)": "Microsoft Windows, PlayStation 3, Xbox 360",
+                "date": "January 25, 2011",
+                "date_start": 1295913600,
+                "date_end": 1295913600,
+                "id": 300
+            },
+            {
+                "event": "Dead Space 3",
+                "Developer": "Visceral Games",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "Action-adventure, survival horror, third-person shooter",
+                "Operating system(s)": "Microsoft Windows, PlayStation 3, Xbox 360",
+                "date": "February 5, 2013",
+                "date_start": 1360022400,
+                "date_end": 1360022400,
+                "id": 301
+            },
+            {
+                "event": "Deadlight",
+                "Developer": "Tequila Works",
+                "Publisher": "Microsoft Studios",
+                "Genre(s)": "Cinematic platformer, survival horror, sidescroller",
+                "Operating system(s)": "Microsoft Windows, Xbox 360",
+                "date": "August 1, 2012",
+                "date_start": 1343779200,
+                "date_end": 1343779200,
+                "id": 302
+            },
+            {
+                "event": "Dear Esther",
+                "Developer": "The Chinese Room",
+                "Publisher": "The Chinese Room",
+                "Genre(s)": "Art",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "February 14, 2012",
+                "date_start": 1329177600,
+                "date_end": 1329177600,
+                "id": 303
+            },
+            {
+                "event": "Death Knights of Krynn",
+                "Developer": "Strategic Simulations, Inc.",
+                "Publisher": "Strategic Simulations, Inc.",
+                "Genre(s)": "Fantasy, RPG",
+                "Operating system(s)": "MS-DOS, Commodore 64, Amiga",
+                "date": "January 15, 1991",
+                "date_start": 663897600,
+                "date_end": 663897600,
+                "id": 304
+            },
+            {
+                "event": "Deathmatch Classic",
+                "Developer": "Valve",
+                "Publisher": "Valve",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "June 1, 2001",
+                "date_start": 991353600,
+                "date_end": 991353600,
+                "id": 305
+            },
+            {
+                "event": "Defcon",
+                "Developer": "Introversion Software",
+                "Publisher": "Introversion Software",
+                "Genre(s)": "RTS",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "September 29, 2006",
+                "date_start": 1159488000,
+                "date_end": 1159488000,
+                "id": 306
+            },
+            {
+                "event": "Delta Force",
+                "Developer": "NovaLogic",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "Tactical shooter, first-person shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 1, 1998",
+                "date_start": 909878400,
+                "date_end": 909878400,
+                "id": 307
+            },
+            {
+                "event": "Delta Force 2",
+                "Developer": "NovaLogic",
+                "Publisher": "NovaLogic",
+                "Genre(s)": "Tactical shooter, first-person shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 3, 1999",
+                "date_start": 941587200,
+                "date_end": 941587200,
+                "id": 308
+            },
+            {
+                "event": "Delta Force: Black Hawk Down",
+                "Developer": "NovaLogic",
+                "Publisher": "NovaLogic",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "March 24, 2003",
+                "date_start": 1048464000,
+                "date_end": 1048464000,
+                "id": 309
+            },
+            {
+                "event": "Delta Force: Black Hawk Down: Team Sabre",
+                "Developer": "NovaLogic",
+                "Publisher": "NovaLogic",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "January 20, 2004",
+                "date_start": 1074556800,
+                "date_end": 1074556800,
+                "id": 310
+            },
+            {
+                "event": "Delta Force: Land Warrior",
+                "Developer": "NovaLogic",
+                "Publisher": "NovaLogic",
+                "Genre(s)": "Tactical shooter, first-person shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 7, 2000",
+                "date_start": 973555200,
+                "date_end": 973555200,
+                "id": 311
+            },
+            {
+                "event": "Delta Force: Task Force Dagger",
+                "Developer": "Zombie Studios",
+                "Publisher": "NovaLogic",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "June 27, 2002",
+                "date_start": 1025136000,
+                "date_end": 1025136000,
+                "id": 312
+            },
+            {
+                "event": "Delta Force: Xtreme",
+                "Developer": "NovaLogic",
+                "Publisher": "NovaLogic",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "April 22, 2005",
+                "date_start": 1114128000,
+                "date_end": 1114128000,
+                "id": 313
+            },
+            {
+                "event": "Delta Force: Xtreme 2",
+                "Developer": "NovaLogic",
+                "Publisher": "NovaLogic",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "June 2, 2009",
+                "date_start": 1243900800,
+                "date_end": 1243900800,
+                "id": 314
+            },
+            {
+                "event": "Democracy 3",
+                "Developer": "Positech Games",
+                "Publisher": "Positech Games",
+                "Genre(s)": "Government simulation",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "October 14, 2013",
+                "date_start": 1381708800,
+                "date_end": 1381708800,
+                "id": 315
+            },
+            {
+                "event": "Desperados: Wanted Dead or Alive",
+                "Developer": "Spellbound Entertainment AG",
+                "Publisher": "Atari",
+                "Genre(s)": "Real-time tactics",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "20 April, 2001",
+                "date_start": 987724800,
+                "date_end": 987724800,
+                "id": 316
+            },
+            {
+                "event": "Desperados 2: Cooper's Revenge",
+                "Developer": "Spellbound Entertainment AG",
+                "Publisher": "Atari",
+                "Genre(s)": "Real-time tactics",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "28 April, 2006",
+                "date_start": 1146182400,
+                "date_end": 1146182400,
+                "id": 317
+            },
+            {
+                "event": "Desperados III",
+                "Developer": "Mimimi Games",
+                "Publisher": "THQ Nordic",
+                "Genre(s)": "Real-time tactics",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "June 16, 2020",
+                "date_start": 1592265600,
+                "date_end": 1592265600,
+                "id": 318
+            },
+            {
+                "event": "Deus Ex",
+                "Developer": "Ion Storm",
+                "Publisher": "Eidos Interactive",
+                "Genre(s)": "Action role-playing",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "June 26, 2000",
+                "date_start": 961977600,
+                "date_end": 961977600,
+                "id": 319
+            },
+            {
+                "event": "Deus Ex: Human Revolution",
+                "Developer": "Eidos Montr\u00e9al",
+                "Publisher": "Square Enix",
+                "Genre(s)": "Action role-playing",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "August 23, 2011",
+                "date_start": 1314057600,
+                "date_end": 1314057600,
+                "id": 320
+            },
+            {
+                "event": "Deus Ex: Invisible War",
+                "Developer": "Ion Storm",
+                "Publisher": "Eidos Interactive",
+                "Genre(s)": "Action role-playing",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "December 3, 2003",
+                "date_start": 1070409600,
+                "date_end": 1070409600,
+                "id": 321
+            },
+            {
+                "event": "Deus Ex: Mankind Divided",
+                "Developer": "Eidos Montr\u00e9al",
+                "Publisher": "Square Enix",
+                "Genre(s)": "Action role-playing",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "August 23, 2016",
+                "date_start": 1471910400,
+                "date_end": 1471910400,
+                "id": 322
+            },
+            {
+                "event": "Diablo",
+                "Developer": "Blizzard North",
+                "Publisher": "Blizzard Entertainment, Ubisoft",
+                "Genre(s)": "Action role-playing, hack and slash",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "December 31, 1996",
+                "date_start": 851990400,
+                "date_end": 851990400,
+                "id": 323
+            },
+            {
+                "event": "Diablo II",
+                "Developer": "Blizzard North",
+                "Publisher": "Blizzard Entertainment, Sierra Entertainment",
+                "Genre(s)": "Action role-playing, hack and slash",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "June 29, 2000",
+                "date_start": 962236800,
+                "date_end": 962236800,
+                "id": 324
+            },
+            {
+                "event": "Diablo III",
+                "Developer": "Blizzard Entertainment",
+                "Publisher": "Blizzard Entertainment",
+                "Genre(s)": "Action role-playing, hack and slash",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "May 15, 2012",
+                "date_start": 1337040000,
+                "date_end": 1337040000,
+                "id": 325
+            },
+            {
+                "event": "Digital Combat Simulator",
+                "Developer": "Eagle Dynamics",
+                "Publisher": "The Fighter Collection",
+                "Genre(s)": "Flight simulator",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "December 10, 2008",
+                "date_start": 1228867200,
+                "date_end": 1228867200,
+                "id": 326
+            },
+            {
+                "event": "Dino D-Day",
+                "Developer": "800 North and Digital Ranch",
+                "Publisher": "800 North and Digital Ranch",
+                "Genre(s)": "Action, indie",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "April 8, 2011",
+                "date_start": 1302220800,
+                "date_end": 1302220800,
+                "id": 327
+            },
+            {
+                "event": "Dirt 3",
+                "Developer": "Codemasters",
+                "Publisher": "Codemasters",
+                "Genre(s)": "Racing, arcade",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "May 24, 2011",
+                "date_start": 1306195200,
+                "date_end": 1306195200,
+                "id": 328
+            },
+            {
+                "event": "Divine Divinity",
+                "Developer": "Larian Studios",
+                "Publisher": "CDV, Snowball Studios",
+                "Genre(s)": "RPG",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "September 22, 2002",
+                "date_start": 1032652800,
+                "date_end": 1032652800,
+                "id": 329
+            },
+            {
+                "event": "Dofus",
+                "Developer": "Ankama Games",
+                "Publisher": "Ankama Games",
+                "Genre(s)": "MMORPG",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "September 2004",
+                "date_start": 1093996800,
+                "date_end": 1093996800,
+                "id": 330
+            },
+            {
+                "event": "Doom",
+                "Developer": "id Software",
+                "Publisher": "GT Interactive",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "MS-DOS, Linux",
+                "date": "December 10, 1993",
+                "date_start": 755481600,
+                "date_end": 755481600,
+                "id": 331
+            },
+            {
+                "event": "Doom II: Hell on Earth",
+                "Developer": "id Software",
+                "Publisher": "GT Interactive",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "MS-DOS, Macintosh",
+                "date": "September 30, 1994",
+                "date_start": 780883200,
+                "date_end": 780883200,
+                "id": 332
+            },
+            {
+                "event": "Doom 3",
+                "Developer": "id Software",
+                "Publisher": "Activision",
+                "Genre(s)": "Survival horror, First-person shooter",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "August 3, 2004",
+                "date_start": 1091491200,
+                "date_end": 1091491200,
+                "id": 333
+            },
+            {
+                "event": "DOOM",
+                "Developer": "id Software",
+                "Publisher": "Bethesda Softworks",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "May 13, 2016",
+                "date_start": 1463097600,
+                "date_end": 1463097600,
+                "id": 334
+            },
+            {
+                "event": "Dota 2",
+                "Developer": "Valve",
+                "Publisher": "Valve",
+                "Genre(s)": "MOBA",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "July 9, 2013",
+                "date_start": 1373328000,
+                "date_end": 1373328000,
+                "id": 335
+            },
+            {
+                "event": "Dragon Age II",
+                "Developer": "BioWare",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "Role-playing",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "March 8, 2011",
+                "date_start": 1299542400,
+                "date_end": 1299542400,
+                "id": 336
+            },
+            {
+                "event": "Dragon Age: Inquisition",
+                "Developer": "BioWare",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "Role-playing",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 18, 2014",
+                "date_start": 1416268800,
+                "date_end": 1416268800,
+                "id": 337
+            },
+            {
+                "event": "Dragon Age: Origins",
+                "Developer": "BioWare Edmonton",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "Role-playing",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "November 3, 2009",
+                "date_start": 1257206400,
+                "date_end": 1257206400,
+                "id": 338
+            },
+            {
+                "event": "Dragon Age: Origins \u2013 Awakening",
+                "Developer": "BioWare Edmonton",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "Role-playing",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "March 16, 2010",
+                "date_start": 1268697600,
+                "date_end": 1268697600,
+                "id": 339
+            },
+            {
+                "event": "Dragon Quest X",
+                "Developer": "Square Enix, Armor Project",
+                "Publisher": "Square Enix",
+                "Genre(s)": "RPG",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "August 2, 2012",
+                "date_start": 1343865600,
+                "date_end": 1343865600,
+                "id": 340
+            },
+            {
+                "event": "Dragon's Dogma",
+                "Developer": "Capcom",
+                "Publisher": "Capcom",
+                "Genre(s)": "Action role-playing, hack and slash",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "May 22, 2012",
+                "date_start": 1337644800,
+                "date_end": 1337644800,
+                "id": 341
+            },
+            {
+                "event": "Dragons of Flame",
+                "Developer": "U.S. Gold",
+                "Publisher": "Strategic Simulations, Inc.",
+                "Genre(s)": "Action, RPG, fantasy",
+                "Operating system(s)": "MS-DOS, Amiga, Amstrad CPC, Atari ST, Commodore 64, ZX Spectrum",
+                "date": "September 1, 1989",
+                "date_start": 620611200,
+                "date_end": 620611200,
+                "id": 342
+            },
+            {
+                "event": "DragonStrike",
+                "Developer": "Westwood Associates",
+                "Publisher": "Strategic Simulations, Inc.",
+                "Genre(s)": "RPG",
+                "Operating system(s)": "MS-DOS, Amiga, Commodore 64, Sharp X68000",
+                "date": "1990",
+                "date_start": 631152000,
+                "date_end": 662601600,
+                "id": 343
+            },
+            {
+                "event": "DRAMAtical Murder",
+                "Developer": "Nitro+chiral",
+                "Publisher": "Nitro+chiral",
+                "Genre(s)": "BL game, visual novel",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "March 23, 2012",
+                "date_start": 1332460800,
+                "date_end": 1332460800,
+                "id": 344
+            },
+            {
+                "event": "Driver",
+                "Developer": "Reflections Interactive",
+                "Publisher": "GT Interactive Software",
+                "Genre(s)": "Driving, action",
+                "Operating system(s)": "Microsoft Windows, Macintosh",
+                "date": "June 25, 1999",
+                "date_start": 930268800,
+                "date_end": 930268800,
+                "id": 345
+            },
+            {
+                "event": "Driver 3",
+                "Developer": "Reflections Interactive",
+                "Publisher": "Atari, Inc.",
+                "Genre(s)": "Racing, shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "June 24, 2004",
+                "date_start": 1088035200,
+                "date_end": 1088035200,
+                "id": 346
+            },
+            {
+                "event": "Driver: Parallel Lines",
+                "Developer": "Reflections Interactive",
+                "Publisher": "Atari, Inc.",
+                "Genre(s)": "Racing, third-person shooter, action-adventure",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "March 14, 2006",
+                "date_start": 1142294400,
+                "date_end": 1142294400,
+                "id": 347
+            },
+            {
+                "event": "Driver: San Francisco",
+                "Developer": "Ubisoft Reflections",
+                "Publisher": "Ubisoft",
+                "Genre(s)": "Action-adventure, racing",
+                "Operating system(s)": "Microsoft Windows, Mac OS X",
+                "date": "September 1, 2011",
+                "date_start": 1314835200,
+                "date_end": 1314835200,
+                "id": 348
+            },
+            {
+                "event": "Duke Nukem",
+                "Developer": "Apogee Software",
+                "Publisher": "Apogee Software",
+                "Genre(s)": "Platformer",
+                "Operating system(s)": "MS-DOS, Microsoft Windows, macOS",
+                "date": "July 1, 1991",
+                "date_start": 678326400,
+                "date_end": 678326400,
+                "id": 349
+            },
+            {
+                "event": "Dune",
+                "Developer": "Cryo Interactive",
+                "Publisher": "Virgin Interactive",
+                "Genre(s)": "Adventure, strategy",
+                "Operating system(s)": "MS-DOS, Amiga, Mega-CD/Sega CD",
+                "date": "November 1, 1992",
+                "date_start": 720576000,
+                "date_end": 720576000,
+                "id": 350
+            },
+            {
+                "event": "Dune II",
+                "Developer": "Westwood Studios",
+                "Publisher": "Virgin Interactive",
+                "Genre(s)": "Real-time strategy",
+                "Operating system(s)": "MS-DOS, Amiga, Mega-CD/Sega CD, RISC OS",
+                "date": "December 1992",
+                "date_start": 723168000,
+                "date_end": 723168000,
+                "id": 351
+            },
+            {
+                "event": "Dune 2000",
+                "Developer": "Intelligent Games, Westwood Studios",
+                "Publisher": "Virgin Interactive, Electronic Arts",
+                "Genre(s)": "Real-time strategy",
+                "Operating system(s)": "Microsoft Windows, PlayStation",
+                "date": "September 4, 1998",
+                "date_start": 904867200,
+                "date_end": 904867200,
+                "id": 352
+            },
+            {
+                "event": "Dungeon Defenders",
+                "Developer": "Trendy Entertainment",
+                "Publisher": "Trendy Entertainment",
+                "Genre(s)": "Tower defense, action RPG",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "October 19, 2011",
+                "date_start": 1318982400,
+                "date_end": 1318982400,
+                "id": 353
+            },
+            {
+                "event": "Dungeon Keeper",
+                "Developer": "Bullfrog Productions",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "RTS, god game, dungeon management game",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "June 26, 1997",
+                "date_start": 867283200,
+                "date_end": 867283200,
+                "id": 354
+            },
+            {
+                "event": "Dungeon Keeper 2",
+                "Developer": "Bullfrog Productions",
+                "Publisher": "Electronic Arts, Sold-Out Software",
+                "Genre(s)": "RTS, god game, dungeon management game",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "June 30, 1999",
+                "date_start": 930700800,
+                "date_end": 930700800,
+                "id": 355
+            },
+            {
+                "event": "Dungeons & Dragons Online",
+                "Developer": "Turbine, Inc.",
+                "Publisher": "Warner Bros., Atari, Codemasters",
+                "Genre(s)": "MMORPG",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "February 28, 2006",
+                "date_start": 1141084800,
+                "date_end": 1141084800,
+                "id": 356
+            },
+            {
+                "event": "Dungeons of Dredmor",
+                "Developer": "Gaslamp Games",
+                "Publisher": "Gaslamp Games",
+                "Genre(s)": "Roguelike, indie",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "July 13, 2011",
+                "date_start": 1310515200,
+                "date_end": 1310515200,
+                "id": 357
+            },
+            {
+                "event": "Dwarf Fortress",
+                "Developer": "Bay 12 Games",
+                "Publisher": "Bay 12 Games",
+                "Genre(s)": "Construction and management simulation, Roguelike",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "August 8, 2006",
+                "date_start": 1154995200,
+                "date_end": 1154995200,
+                "id": 358
+            },
+            {
+                "event": "Emperor: Battle for Dune",
+                "Developer": "Intelligent Games, Westwood Studios",
+                "Publisher": "EA Games",
+                "Genre(s)": "Real-time strategy",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "June 12, 2001",
+                "date_start": 992304000,
+                "date_end": 992304000,
+                "id": 359
+            },
+            {
+                "event": "The Elder Scrolls: Arena",
+                "Developer": "Bethesda Softworks",
+                "Publisher": "Bethesda Softworks",
+                "Genre(s)": "Action role-playing",
+                "Operating system(s)": "MS-DOS",
+                "date": "March 25, 1994",
+                "date_start": 764553600,
+                "date_end": 764553600,
+                "id": 360
+            },
+            {
+                "event": "The Elder Scrolls Adventures: Redguard",
+                "Developer": "Bethesda Softworks",
+                "Publisher": "Bethesda Softworks",
+                "Genre(s)": "Action role-playing",
+                "Operating system(s)": "MS-DOS",
+                "date": "November 14, 1998",
+                "date_start": 911001600,
+                "date_end": 911001600,
+                "id": 361
+            },
+            {
+                "event": "The Elder Scrolls II: Daggerfall",
+                "Developer": "Bethesda Softworks",
+                "Publisher": "Bethesda Softworks",
+                "Genre(s)": "Action role-playing",
+                "Operating system(s)": "MS-DOS",
+                "date": "August 31, 1996",
+                "date_start": 841449600,
+                "date_end": 841449600,
+                "id": 362
+            },
+            {
+                "event": "The Elder Scrolls III: Morrowind",
+                "Developer": "Bethesda Game Studios",
+                "Publisher": "Bethesda Softworks",
+                "Genre(s)": "Action role-playing",
+                "Operating system(s)": "Microsoft Windows, Xbox",
+                "date": "May 1, 2002",
+                "date_start": 1020211200,
+                "date_end": 1020211200,
+                "id": 363
+            },
+            {
+                "event": "The Elder Scrolls IV: Oblivion",
+                "Developer": "Bethesda Game Studios, 4J Games, Superscape",
+                "Publisher": "Bethesda Softworks",
+                "Genre(s)": "Action role-playing",
+                "Operating system(s)": "Microsoft Windows, PlayStation 3, Xbox 360",
+                "date": "March 20, 2006",
+                "date_start": 1142812800,
+                "date_end": 1142812800,
+                "id": 364
+            },
+            {
+                "event": "The Elder Scrolls V: Skyrim",
+                "Developer": "Bethesda Game Studios",
+                "Publisher": "Bethesda Softworks",
+                "Genre(s)": "Action role-playing",
+                "Operating system(s)": "Microsoft Windows, PlayStation 3, Xbox 360, PlayStation 4, Xbox One, Nintendo Switch",
+                "date": "November 11, 2011",
+                "date_start": 1320969600,
+                "date_end": 1320969600,
+                "id": 365
+            },
+            {
+                "event": "The Elder Scrolls Online",
+                "Developer": "ZeniMax Online Studios",
+                "Publisher": "Bethesda Softworks",
+                "Genre(s)": "MMORPG",
+                "Operating system(s)": "Microsoft Windows, Mac OS X, PlayStation 4, Xbox One, Stadia",
+                "date": "April 4, 2014",
+                "date_start": 1396569600,
+                "date_end": 1396569600,
+                "id": 366
+            },
+            {
+                "event": "An Elder Scrolls Legend: Battlespire",
+                "Developer": "Bethesda Softworks",
+                "Publisher": "Bethesda Softworks",
+                "Genre(s)": "Action role-playing",
+                "Operating system(s)": "MS-DOS",
+                "date": "November 30, 1997",
+                "date_start": 880848000,
+                "date_end": 880848000,
+                "id": 367
+            },
+            {
+                "event": "Emily Wants to Play",
+                "Developer": "Shawn Hitchcock",
+                "Publisher": "SKH Apps",
+                "Genre(s)": "Survival horror",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "December 10, 2015",
+                "date_start": 1449705600,
+                "date_end": 1449705600,
+                "id": 368
+            },
+            {
+                "event": "Empire: Total War",
+                "Developer": "The Creative Assembly, Feral Interactive",
+                "Publisher": "Sega, Feral Interactive",
+                "Genre(s)": "RTS",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "March 3, 2009",
+                "date_start": 1236038400,
+                "date_end": 1236038400,
+                "id": 369
+            },
+            {
+                "event": "Empire Earth",
+                "Developer": "Stainless Steel Studios",
+                "Publisher": "Sierra Entertainment",
+                "Genre(s)": "RTS",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 12, 2001",
+                "date_start": 1005523200,
+                "date_end": 1005523200,
+                "id": 370
+            },
+            {
+                "event": "Empire Earth II",
+                "Developer": "Mad Doc Software",
+                "Publisher": "Vivendi Universal",
+                "Genre(s)": "RTS",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "April 26, 2005",
+                "date_start": 1114473600,
+                "date_end": 1114473600,
+                "id": 371
+            },
+            {
+                "event": "Empire Earth III",
+                "Developer": "Mad Doc Software",
+                "Publisher": "Sierra Entertainment",
+                "Genre(s)": "RTS",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 6, 2007",
+                "date_start": 1194307200,
+                "date_end": 1194307200,
+                "id": 372
+            },
+            {
+                "event": "Empires Apart",
+                "Developer": "Destiny Bit",
+                "Publisher": "Slitherine",
+                "Genre(s)": "RTS",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "March 29, 2018",
+                "date_start": 1522281600,
+                "date_end": 1522281600,
+                "id": 373
+            },
+            {
+                "event": "Enclave",
+                "Developer": "Starbreeze Studios",
+                "Publisher": "Vivendi Universal, TopWare Interactive",
+                "Genre(s)": "Action",
+                "Operating system(s)": "Microsoft Windows, Xbox, Wii",
+                "date": "March 10, 2003",
+                "date_start": 1047254400,
+                "date_end": 1047254400,
+                "id": 374
+            },
+            {
+                "event": "Endless Space",
+                "Developer": "Amplitude Studios",
+                "Publisher": "Iceberg Interactive",
+                "Genre(s)": "4X",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "July 4, 2012",
+                "date_start": 1341360000,
+                "date_end": 1341360000,
+                "id": 375
+            },
+            {
+                "event": "Epic Battle Fantasy",
+                "Developer": "Matt Roszak",
+                "Publisher": "Kupo Games",
+                "Genre(s)": "Role-playing",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "March 1, 2009",
+                "date_start": 1235865600,
+                "date_end": 1235865600,
+                "id": 376
+            },
+            {
+                "event": "Epic Battle Fantasy 2",
+                "Developer": "Matt Roszak",
+                "Publisher": "Kupo Games",
+                "Genre(s)": "Role-playing",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "August 20, 2009",
+                "date_start": 1250726400,
+                "date_end": 1250726400,
+                "id": 377
+            },
+            {
+                "event": "Epic Battle Fantasy 3",
+                "Developer": "Matt Roszak",
+                "Publisher": "Kupo Games",
+                "Genre(s)": "Role-playing",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "September 12, 2010",
+                "date_start": 1284249600,
+                "date_end": 1284249600,
+                "id": 378
+            },
+            {
+                "event": "Epic Battle Fantasy 4",
+                "Developer": "Matt Roszak",
+                "Publisher": "Kupo Games",
+                "Genre(s)": "Role-playing",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "September 12, 2013",
+                "date_start": 1378944000,
+                "date_end": 1378944000,
+                "id": 379
+            },
+            {
+                "event": "Euro Truck Simulator",
+                "Developer": "SCS Software",
+                "Publisher": "SCS Software",
+                "Genre(s)": "Simulator",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "August 29, 2008",
+                "date_start": 1219968000,
+                "date_end": 1219968000,
+                "id": 380
+            },
+            {
+                "event": "Euro Truck Simulator 2",
+                "Developer": "SCS Software",
+                "Publisher": "SCS Software",
+                "Genre(s)": "Simulator",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "October 19, 2012",
+                "date_start": 1350604800,
+                "date_end": 1350604800,
+                "id": 381
+            },
+            {
+                "event": "Europa Universalis",
+                "Developer": "Paradox Development Studio",
+                "Publisher": "Strategy First",
+                "Genre(s)": "Grand strategy",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "March 14, 2000",
+                "date_start": 952992000,
+                "date_end": 952992000,
+                "id": 382
+            },
+            {
+                "event": "Europa Universalis II",
+                "Developer": "Paradox Development Studio",
+                "Publisher": "Strategy First, MacPlay, Typhoon Games",
+                "Genre(s)": "Grand strategy",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "November 12, 2001",
+                "date_start": 1005523200,
+                "date_end": 1005523200,
+                "id": 383
+            },
+            {
+                "event": "Europa Universalis III",
+                "Developer": "Paradox Development Studio",
+                "Publisher": "Paradox Interactive",
+                "Genre(s)": "Grand strategy",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "January 23, 2007",
+                "date_start": 1169510400,
+                "date_end": 1169510400,
+                "id": 384
+            },
+            {
+                "event": "Europa Universalis IV",
+                "Developer": "Paradox Development Studio",
+                "Publisher": "Paradox Interactive",
+                "Genre(s)": "Grand strategy",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "August 13, 2013",
+                "date_start": 1376352000,
+                "date_end": 1376352000,
+                "id": 385
+            },
+            {
+                "event": "Eve Online",
+                "Developer": "CCP Games",
+                "Publisher": "CCP Games",
+                "Genre(s)": "Space flight simulator game, MMORPG",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "May 6, 2003",
+                "date_start": 1052179200,
+                "date_end": 1052179200,
+                "id": 386
+            },
+            {
+                "event": "Event 0",
+                "Developer": "Ocelot Society",
+                "Publisher": "Ocelot Society",
+                "Genre(s)": "Adventure",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "September 14, 2016",
+                "date_start": 1473811200,
+                "date_end": 1473811200,
+                "id": 387
+            },
+            {
+                "event": "Eye of the Beholder",
+                "Developer": "Strategic Simulations, Inc.",
+                "Publisher": "TSR, Inc.",
+                "Genre(s)": "Fantasy, RPG",
+                "Operating system(s)": "MS-DOS",
+                "date": "April 16, 1990",
+                "date_start": 640224000,
+                "date_end": 640224000,
+                "id": 388
+            },
+            {
+                "event": "Eye of the Beholder II: The Legend of Darkmoon",
+                "Developer": "Westwood Associates",
+                "Publisher": "Strategic Simulations, Inc.",
+                "Genre(s)": "Fantasy, RPG",
+                "Operating system(s)": "MS-DOS",
+                "date": "December 12, 1991",
+                "date_start": 692496000,
+                "date_end": 692496000,
+                "id": 389
+            },
+            {
+                "event": "Eye of the Beholder III: Assault on Myth Drannor",
+                "Developer": "Strategic Simulations, Inc.",
+                "Publisher": "Strategic Simulations, Inc.",
+                "Genre(s)": "Fantasy, RPG",
+                "Operating system(s)": "MS-DOS",
+                "date": "August 3, 1992",
+                "date_start": 712800000,
+                "date_end": 712800000,
+                "id": 390
+            },
+            {
+                "event": "Frank Herbert's Dune",
+                "Developer": "Widescreen Games",
+                "Publisher": "Cryo Interactive, DreamCatcher Interactive",
+                "Genre(s)": "Adventure",
+                "Operating system(s)": "Microsoft Windows, PlayStation 2",
+                "date": "November 14, 2001",
+                "date_start": 1005696000,
+                "date_end": 1005696000,
+                "id": 391
+            },
+            {
+                "event": "Factorio",
+                "Developer": "Wube Software",
+                "Publisher": "Wube Software",
+                "Genre(s)": "RTS",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "2015",
+                "date_start": 1420070400,
+                "date_end": 1451520000,
+                "id": 392
+            },
+            {
+                "event": "A Fairy Tale",
+                "Developer": "Reflexive Entertainment",
+                "Publisher": "Reflexive Entertainment",
+                "Genre(s)": "Matching",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "March 12, 2009",
+                "date_start": 1236816000,
+                "date_end": 1236816000,
+                "id": 393
+            },
+            {
+                "event": "Fallout",
+                "Developer": "Interplay Inc.",
+                "Publisher": "Bethesda Softworks",
+                "Genre(s)": "RPG",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 1, 1997",
+                "date_start": 878342400,
+                "date_end": 878342400,
+                "id": 394
+            },
+            {
+                "event": "Fallout 2",
+                "Developer": "Black Isle Studios",
+                "Publisher": "Bethesda Softworks",
+                "Genre(s)": "RPG",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "December 1, 1998",
+                "date_start": 912470400,
+                "date_end": 912470400,
+                "id": 395
+            },
+            {
+                "event": "Fallout 3",
+                "Developer": "Bethesda Game Studios",
+                "Publisher": "Bethesda Softworks",
+                "Genre(s)": "RPG",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "October 28, 2008",
+                "date_start": 1225152000,
+                "date_end": 1225152000,
+                "id": 396
+            },
+            {
+                "event": "Fallout 4",
+                "Developer": "Bethesda Game Studios",
+                "Publisher": "Bethesda Softworks",
+                "Genre(s)": "RPG",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 10, 2015",
+                "date_start": 1447113600,
+                "date_end": 1447113600,
+                "id": 397
+            },
+            {
+                "event": "Fallout: New Vegas",
+                "Developer": "Obsidian Entertainment",
+                "Publisher": "Namco Bandai Games, Bethesda Softworks",
+                "Genre(s)": "RPG",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "October 19, 2010",
+                "date_start": 1287446400,
+                "date_end": 1287446400,
+                "id": 398
+            },
+            {
+                "event": "Fallout Tactics: Brotherhood of Steel",
+                "Developer": "Micro Fort\u00e9",
+                "Publisher": "14 Degrees East",
+                "Genre(s)": "TRPG",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "March 15, 2001",
+                "date_start": 984614400,
+                "date_end": 984614400,
+                "id": 399
+            },
+            {
+                "event": "Far Cry",
+                "Developer": "Crytek",
+                "Publisher": "Ubisoft",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "March 12, 2004",
+                "date_start": 1079049600,
+                "date_end": 1079049600,
+                "id": 400
+            },
+            {
+                "event": "Far Cry 2",
+                "Developer": "Ubisoft Montreal",
+                "Publisher": "Ubisoft",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "October 21, 2008",
+                "date_start": 1224547200,
+                "date_end": 1224547200,
+                "id": 401
+            },
+            {
+                "event": "Far Cry 3",
+                "Developer": "Ubisoft Montreal",
+                "Publisher": "Ubisoft",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 29, 2012",
+                "date_start": 1354147200,
+                "date_end": 1354147200,
+                "id": 402
+            },
+            {
+                "event": "Far Cry 3: Blood Dragon",
+                "Developer": "Ubisoft Montreal, Ubisoft Shanghai",
+                "Publisher": "Ubisoft",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "May 1, 2013",
+                "date_start": 1367366400,
+                "date_end": 1367366400,
+                "id": 403
+            },
+            {
+                "event": "Far Cry 4",
+                "Developer": "Ubisoft Montreal",
+                "Publisher": "Ubisoft",
+                "Genre(s)": "First-person shooter, Action-adventure",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 18, 2014",
+                "date_start": 1416268800,
+                "date_end": 1416268800,
+                "id": 404
+            },
+            {
+                "event": "Far Cry Primal",
+                "Developer": "Ubisoft Montreal",
+                "Publisher": "Ubisoft",
+                "Genre(s)": "Action-adventure",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "February 23, 2016",
+                "date_start": 1456185600,
+                "date_end": 1456185600,
+                "id": 405
+            },
+            {
+                "event": "Fez",
+                "Developer": "Polytron Corporation",
+                "Publisher": "Trapdoor",
+                "Genre(s)": "Puzzle-platform",
+                "Operating system(s)": "Windows, Linux, OS X",
+                "date": "May 1, 2013",
+                "date_start": 1367366400,
+                "date_end": 1367366400,
+                "id": 406
+            },
+            {
+                "event": "Fiesta Online",
+                "Developer": "Ons On Soft",
+                "Publisher": "Ons On Soft, Gamigo AG",
+                "Genre(s)": "MMORPG",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 7, 2007",
+                "date_start": 1194393600,
+                "date_end": 1194393600,
+                "id": 407
+            },
+            {
+                "event": "Final Fantasy VII",
+                "Developer": "Square Product Development Division 1",
+                "Publisher": "Square, Square Enix, Eidos Interactive",
+                "Genre(s)": "Role-playing",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "May 31, 1998",
+                "date_start": 896572800,
+                "date_end": 896572800,
+                "id": 408
+            },
+            {
+                "event": "Final Fantasy VIII",
+                "Developer": "Square Product Development Division 1",
+                "Publisher": "Square, Square Enix",
+                "Genre(s)": "Role-playing",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "February 11, 1999",
+                "date_start": 918691200,
+                "date_end": 918691200,
+                "id": 409
+            },
+            {
+                "event": "Final Fantasy XI",
+                "Developer": "Square Product Development Division 3 (pre-April 1, 2003)[2]Square Enix Product Development Division 3[2]",
+                "Publisher": "Square, Square Enix",
+                "Genre(s)": "Role-playing",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "May 16, 2002",
+                "date_start": 1021507200,
+                "date_end": 1021507200,
+                "id": 410
+            },
+            {
+                "event": "Firefall",
+                "Developer": "Red 5 Studios",
+                "Publisher": "Red 5 Studios",
+                "Genre(s)": "MMOFPS",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "July 29, 2014",
+                "date_start": 1406592000,
+                "date_end": 1406592000,
+                "id": 411
+            },
+            {
+                "event": "Fistful of Frags",
+                "Developer": "FoF Developer Team",
+                "Publisher": "FoF Developer Team, Valve",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "December 20, 2007",
+                "date_start": 1198108800,
+                "date_end": 1198108800,
+                "id": 412
+            },
+            {
+                "event": "Five Nights at Freddy's",
+                "Developer": "Scott Cawthon",
+                "Publisher": "Scott Cawthon",
+                "Genre(s)": "Survival horror",
+                "Operating system(s)": "Microsoft Windows, Linux",
+                "date": "August 8, 2014",
+                "date_start": 1407456000,
+                "date_end": 1407456000,
+                "id": 413
+            },
+            {
+                "event": "Five Nights at Freddy's 2",
+                "Developer": "Scott Cawthon",
+                "Publisher": "Scott Cawthon",
+                "Genre(s)": "Survival horror",
+                "Operating system(s)": "Microsoft Windows, Linux",
+                "date": "November 10, 2014",
+                "date_start": 1415577600,
+                "date_end": 1415577600,
+                "id": 414
+            },
+            {
+                "event": "Five Nights at Freddy's 3",
+                "Developer": "Scott Cawthon",
+                "Publisher": "Scott Cawthon",
+                "Genre(s)": "Survival horror",
+                "Operating system(s)": "Microsoft Windows, Linux",
+                "date": "March 2, 2015",
+                "date_start": 1425254400,
+                "date_end": 1425254400,
+                "id": 415
+            },
+            {
+                "event": "FlatOut",
+                "Developer": "Bugbear Entertainment",
+                "Publisher": "Valve, Empire Interactive, Konami",
+                "Genre(s)": "Racing, arcade",
+                "Operating system(s)": "Microsoft Windows, Linux",
+                "date": "November 5, 2004",
+                "date_start": 1099612800,
+                "date_end": 1099612800,
+                "id": 416
+            },
+            {
+                "event": "FlatOut 2",
+                "Developer": "Bugbear Entertainment",
+                "Publisher": "Valve, Empire Interactive, Konami",
+                "Genre(s)": "Racing, arcade",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "June 30, 2006",
+                "date_start": 1151625600,
+                "date_end": 1151625600,
+                "id": 417
+            },
+            {
+                "event": "FlatOut 3: Chaos & Destruction",
+                "Developer": "Team6 Game Studios",
+                "Publisher": "Strategy First",
+                "Genre(s)": "Racing, arcade",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "December 13, 2011",
+                "date_start": 1323734400,
+                "date_end": 1323734400,
+                "id": 418
+            },
+            {
+                "event": "FlatOut: Ultimate Carnage",
+                "Developer": "Bugbear Entertainment",
+                "Publisher": "Valve, Empire Interactive",
+                "Genre(s)": "Racing, arcade",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "July 22, 2007",
+                "date_start": 1185062400,
+                "date_end": 1185062400,
+                "id": 419
+            },
+            {
+                "event": "For the Glory: A Europa Universalis Game",
+                "Developer": "Crystal Empire Games",
+                "Publisher": "Paradox Interactive",
+                "Genre(s)": "Grand strategy",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 11, 2009",
+                "date_start": 1257897600,
+                "date_end": 1257897600,
+                "id": 420
+            },
+            {
+                "event": "The Forest",
+                "Developer": "Endnight Games Ltd",
+                "Publisher": "Endnight Games Ltd",
+                "Genre(s)": "Survival horror",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "May 30, 2013",
+                "date_start": 1369872000,
+                "date_end": 1369872000,
+                "id": 421
+            },
+            {
+                "event": "A Fork in the Tale",
+                "Developer": "Advance Reality Interactive",
+                "Publisher": "Any River Entertainment",
+                "Genre(s)": "Adventure",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "February 28, 1997",
+                "date_start": 857088000,
+                "date_end": 857088000,
+                "id": 422
+            },
+            {
+                "event": "Fortnite",
+                "Developer": "Epic Games, People Can Fly",
+                "Publisher": "Epic Games",
+                "Genre(s)": "co-op, sandbox, survival game",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "July 25, 2017",
+                "date_start": 1500940800,
+                "date_end": 1500940800,
+                "id": 423
+            },
+            {
+                "event": "Fragile Allegiance",
+                "Developer": "Gremlin Interactive",
+                "Publisher": "Gremlin Interactive, Interplay",
+                "Genre(s)": "4X, real-time strategy",
+                "Operating system(s)": "Microsoft Windows, MS-DOS",
+                "date": "December 1996",
+                "date_start": 849398400,
+                "date_end": 849398400,
+                "id": 424
+            },
+            {
+                "event": "Fragmented[3]",
+                "Developer": "Above and Beyond Technologies",
+                "Publisher": "Above and Beyond Technologies",
+                "Genre(s)": "Survival, RPG",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "March 26, 2016",
+                "date_start": 1458950400,
+                "date_end": 1458950400,
+                "id": 425
+            },
+            {
+                "event": "Freelancer",
+                "Developer": "Digital Anvil",
+                "Publisher": "Microsoft Game Studios",
+                "Genre(s)": "Space trading and combat simulator",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "March 4, 2003",
+                "date_start": 1046736000,
+                "date_end": 1046736000,
+                "id": 426
+            },
+            {
+                "event": "FTL: Faster Than Light",
+                "Developer": "Subset Games",
+                "Publisher": "Subset Games",
+                "Genre(s)": "Indie, simulation, strategy",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "September 14, 2012",
+                "date_start": 1347580800,
+                "date_end": 1347580800,
+                "id": 427
+            },
+            {
+                "event": "Game Dev Tycoon",
+                "Developer": "Greenheart Games",
+                "Publisher": "Greenheart Games",
+                "Genre(s)": "Casual, indie, simulation, strategy",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "December 10, 2012",
+                "date_start": 1355097600,
+                "date_end": 1355097600,
+                "id": 428
+            },
+            {
+                "event": "Garry's Mod",
+                "Developer": "Facepunch Studios",
+                "Publisher": "Valve",
+                "Genre(s)": "Nonlinear, sandbox physics",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "August 29, 2013",
+                "date_start": 1377734400,
+                "date_end": 1377734400,
+                "id": 429
+            },
+            {
+                "event": "Giant Cop: Justice Above All",
+                "Developer": "Other Ocean Interactive",
+                "Publisher": "Other Ocean Interactive",
+                "Genre(s)": "Action",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "May 30, 2017",
+                "date_start": 1496102400,
+                "date_end": 1496102400,
+                "id": 430
+            },
+            {
+                "event": "Goat Simulator",
+                "Developer": "Coffee Stain Studios",
+                "Publisher": "Coffee Stain Studios",
+                "Genre(s)": "Nonlinear, sandbox physics",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "April 1, 2014",
+                "date_start": 1396310400,
+                "date_end": 1396310400,
+                "id": 431
+            },
+            {
+                "event": "Gone Home",
+                "Developer": "The Fullbright Company",
+                "Publisher": "The Fullbright Company",
+                "Genre(s)": "Adventure, interactive fiction, point and click",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "August 15, 2013",
+                "date_start": 1376524800,
+                "date_end": 1376524800,
+                "id": 432
+            },
+            {
+                "event": "Gothic",
+                "Developer": "Piranha Bytes",
+                "Publisher": "Xicat Interactive",
+                "Genre(s)": "Action role-playing",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "April 15, 2001",
+                "date_start": 987292800,
+                "date_end": 987292800,
+                "id": 433
+            },
+            {
+                "event": "Gothic II",
+                "Developer": "Piranha Bytes",
+                "Publisher": "JoWooD Entertainment",
+                "Genre(s)": "Action role-playing",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 29, 2002",
+                "date_start": 1038528000,
+                "date_end": 1038528000,
+                "id": 434
+            },
+            {
+                "event": "Gothic 3",
+                "Developer": "Piranha Bytes",
+                "Publisher": "JoWooD Entertainment, Deep Silver, Aspyr Media",
+                "Genre(s)": "Action role-playing",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "October 13, 2006",
+                "date_start": 1160697600,
+                "date_end": 1160697600,
+                "id": 435
+            },
+            {
+                "event": "Gothic 3: Forsaken Gods",
+                "Developer": "Trine Games, Mad Vulture Games",
+                "Publisher": "JoWooD Entertainment",
+                "Genre(s)": "Action role-playing",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 21, 2008",
+                "date_start": 1227225600,
+                "date_end": 1227225600,
+                "id": 436
+            },
+            {
+                "event": "Arcania: Gothic 4",
+                "Developer": "Spellbound Entertainment",
+                "Publisher": "JoWooD Entertainment, DreamCatcher Interactive",
+                "Genre(s)": "Action role-playing",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "October 14, 2010",
+                "date_start": 1287014400,
+                "date_end": 1287014400,
+                "id": 437
+            },
+            {
+                "event": "Arcania: Fall of Setarrif",
+                "Developer": "Spellbound Entertainment",
+                "Publisher": "Nordic Games",
+                "Genre(s)": "Action role-playing",
+                "Operating system(s)": "Microsoft Windows, Xbox 360, PlayStation 3",
+                "date": "October 25, 2011",
+                "date_start": 1319500800,
+                "date_end": 1319500800,
+                "id": 438
+            },
+            {
+                "event": "Grand Theft Auto",
+                "Developer": "DMA Design",
+                "Publisher": "BMG Interactive",
+                "Genre(s)": "Open world, action-adventure",
+                "Operating system(s)": "Microsoft Windows, MS-DOS",
+                "date": "October 21, 1997",
+                "date_start": 877392000,
+                "date_end": 877392000,
+                "id": 439
+            },
+            {
+                "event": "Grand Theft Auto: London 1961",
+                "Developer": "Rockstar Canada",
+                "Publisher": "Rockstar Games",
+                "Genre(s)": "Open world, action-adventure",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "June 1, 1999",
+                "date_start": 928195200,
+                "date_end": 928195200,
+                "id": 440
+            },
+            {
+                "event": "Grand Theft Auto: London 1969",
+                "Developer": "Rockstar Canada",
+                "Publisher": "Rockstar Games",
+                "Genre(s)": "Open world, action-adventure",
+                "Operating system(s)": "Microsoft Windows, MS-DOS",
+                "date": "March 31, 1999",
+                "date_start": 922838400,
+                "date_end": 922838400,
+                "id": 441
+            },
+            {
+                "event": "Grand Theft Auto 2",
+                "Developer": "DMA Design",
+                "Publisher": "Rockstar Games",
+                "Genre(s)": "Open world, action-adventure",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "October 22, 1999",
+                "date_start": 940550400,
+                "date_end": 940550400,
+                "id": 442
+            },
+            {
+                "event": "Grand Theft Auto III",
+                "Developer": "DMA Design",
+                "Publisher": "Rockstar Games",
+                "Genre(s)": "Open world, action-adventure",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "May 21, 2002",
+                "date_start": 1021939200,
+                "date_end": 1021939200,
+                "id": 443
+            },
+            {
+                "event": "Grand Theft Auto IV",
+                "Developer": "Rockstar North",
+                "Publisher": "Rockstar Games",
+                "Genre(s)": "Open world, action-adventure",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "December 2, 2008",
+                "date_start": 1228176000,
+                "date_end": 1228176000,
+                "id": 444
+            },
+            {
+                "event": "Grand Theft Auto IV: The Lost and Damned",
+                "Developer": "Rockstar North",
+                "Publisher": "Rockstar Games",
+                "Genre(s)": "Open world, action-adventure",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "April 13, 2010",
+                "date_start": 1271116800,
+                "date_end": 1271116800,
+                "id": 445
+            },
+            {
+                "event": "Grand Theft Auto: The Ballad of Gay Tony",
+                "Developer": "Rockstar North",
+                "Publisher": "Rockstar Games",
+                "Genre(s)": "Open world, action-adventure",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "April 13, 2010",
+                "date_start": 1271116800,
+                "date_end": 1271116800,
+                "id": 446
+            },
+            {
+                "event": "Grand Theft Auto: San Andreas",
+                "Developer": "Rockstar North",
+                "Publisher": "Rockstar Games",
+                "Genre(s)": "Open world, action-adventure",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "June 7, 2005",
+                "date_start": 1118102400,
+                "date_end": 1118102400,
+                "id": 447
+            },
+            {
+                "event": "Grand Theft Auto: Vice City",
+                "Developer": "Rockstar North",
+                "Publisher": "Rockstar Games",
+                "Genre(s)": "Open world, action-adventure",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "May 12, 2003",
+                "date_start": 1052697600,
+                "date_end": 1052697600,
+                "id": 448
+            },
+            {
+                "event": "Grand Theft Auto V",
+                "Developer": "Rockstar North",
+                "Publisher": "Rockstar Games",
+                "Genre(s)": "Open world, action-adventure",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "April 14, 2015",
+                "date_start": 1428969600,
+                "date_end": 1428969600,
+                "id": 449
+            },
+            {
+                "event": "Grid 2",
+                "Developer": "Codemasters",
+                "Publisher": "Codemasters",
+                "Genre(s)": "Racing, arcade",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "May 27, 2013",
+                "date_start": 1369612800,
+                "date_end": 1369612800,
+                "id": 450
+            },
+            {
+                "event": "Ground Control",
+                "Developer": "Massive Entertainment",
+                "Publisher": "Sierra On-Line",
+                "Genre(s)": "Real-time tactics",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "June 1, 2000",
+                "date_start": 959817600,
+                "date_end": 959817600,
+                "id": 451
+            },
+            {
+                "event": "Ground Control II: Operation Exodus",
+                "Developer": "Massive Entertainment",
+                "Publisher": "Vivendi Universal",
+                "Genre(s)": "Real-time tactics",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "June 18, 2004",
+                "date_start": 1087516800,
+                "date_end": 1087516800,
+                "id": 452
+            },
+            {
+                "event": "Growtopia",
+                "Developer": "Ubisoft Abu Dhabi (2017\u2013present), Robinson Technologies (2013-2017), Hamumu Software (2013-2017)",
+                "Publisher": "Ubisoft (2017\u2013present), Robinson Technologies (2013-2017)",
+                "Genre(s)": "MMO",
+                "Operating system(s)": "Microsoft Windows, macOS, iOS, Android",
+                "date": "November 30, 2012",
+                "date_start": 1354233600,
+                "date_end": 1354233600,
+                "id": 453
+            },
+            {
+                "event": "GTR Evolution",
+                "Developer": "Sinbin Studios",
+                "Publisher": "Atari, Viva Media",
+                "Genre(s)": "Racing",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "August 1, 2008",
+                "date_start": 1217548800,
+                "date_end": 1217548800,
+                "id": 454
+            },
+            {
+                "event": "Guild Wars",
+                "Developer": "ArenaNet",
+                "Publisher": "NCSoft",
+                "Genre(s)": "CORPG",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "April 26, 2005",
+                "date_start": 1114473600,
+                "date_end": 1114473600,
+                "id": 455
+            },
+            {
+                "event": "Guild Wars 2",
+                "Developer": "ArenaNet",
+                "Publisher": "NCSoft",
+                "Genre(s)": "MMORPG",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "August 28, 2012",
+                "date_start": 1346112000,
+                "date_end": 1346112000,
+                "id": 456
+            },
+            {
+                "event": "Guild Wars Factions",
+                "Developer": "ArenaNet",
+                "Publisher": "NCSoft",
+                "Genre(s)": "CORPG",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "April 28, 2006",
+                "date_start": 1146182400,
+                "date_end": 1146182400,
+                "id": 457
+            },
+            {
+                "event": "Guild Wars Nightfall",
+                "Developer": "ArenaNet",
+                "Publisher": "NCSoft",
+                "Genre(s)": "CORPG",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "October 27, 2006",
+                "date_start": 1161907200,
+                "date_end": 1161907200,
+                "id": 458
+            },
+            {
+                "event": "Guitar Hero III: Legends of Rock",
+                "Developer": "Neversoft",
+                "Publisher": "Aspyr Media",
+                "Genre(s)": "Music, Rhythm",
+                "Operating system(s)": "Microsoft Windows, Mac OS X",
+                "date": "November 13, 2007",
+                "date_start": 1194912000,
+                "date_end": 1194912000,
+                "id": 459
+            },
+            {
+                "event": "Gunpoint",
+                "Developer": "Suspicious Developments",
+                "Publisher": "Suspicious Developments",
+                "Genre(s)": "Action, adventure, puzzle platformer",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "June 3, 2013",
+                "date_start": 1370217600,
+                "date_end": 1370217600,
+                "id": 460
+            },
+            {
+                "event": "Half-Life",
+                "Developer": "Valve, Gearbox Software",
+                "Publisher": "Sierra Entertainment",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "November 19, 1998",
+                "date_start": 911433600,
+                "date_end": 911433600,
+                "id": 461
+            },
+            {
+                "event": "Half-Life 2",
+                "Developer": "Valve",
+                "Publisher": "Valve, Sierra Entertainment",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "November 16, 2004",
+                "date_start": 1100563200,
+                "date_end": 1100563200,
+                "id": 462
+            },
+            {
+                "event": "Half-Life: Blue Shift",
+                "Developer": "Valve, Gearbox Software",
+                "Publisher": "Sierra Studios",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "June 12, 2001",
+                "date_start": 992304000,
+                "date_end": 992304000,
+                "id": 463
+            },
+            {
+                "event": "Half-Life Deathmatch: Source",
+                "Developer": "Valve",
+                "Publisher": "Valve",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "May 1, 2006",
+                "date_start": 1146441600,
+                "date_end": 1146441600,
+                "id": 464
+            },
+            {
+                "event": "Half-Life: Opposing Force",
+                "Developer": "Valve, Gearbox Software",
+                "Publisher": "Sierra Studios",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "November 10, 1999",
+                "date_start": 942192000,
+                "date_end": 942192000,
+                "id": 465
+            },
+            {
+                "event": "Half-Life: Source",
+                "Developer": "Valve",
+                "Publisher": "Valve",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "June 1, 2004",
+                "date_start": 1086048000,
+                "date_end": 1086048000,
+                "id": 466
+            },
+            {
+                "event": "Half-Life 2: Deathmatch",
+                "Developer": "Valve",
+                "Publisher": "Valve",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "November 30, 2004",
+                "date_start": 1101772800,
+                "date_end": 1101772800,
+                "id": 467
+            },
+            {
+                "event": "Half-Life 2: Episode One",
+                "Developer": "Valve",
+                "Publisher": "Valve",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "June 1, 2006",
+                "date_start": 1149120000,
+                "date_end": 1149120000,
+                "id": 468
+            },
+            {
+                "event": "Half-Life 2: Episode Two",
+                "Developer": "Valve",
+                "Publisher": "Valve",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "October 10, 2007",
+                "date_start": 1191974400,
+                "date_end": 1191974400,
+                "id": 469
+            },
+            {
+                "event": "Half-Life 2: Lost Coast",
+                "Developer": "Valve",
+                "Publisher": "Valve",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "October 27, 2005",
+                "date_start": 1130371200,
+                "date_end": 1130371200,
+                "id": 470
+            },
+            {
+                "event": "Halo: Combat Evolved",
+                "Developer": "Bungie, Gearbox Software, Westlake Interactive",
+                "Publisher": "Microsoft Game Studios, MacSoft",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "September 30, 2003",
+                "date_start": 1064880000,
+                "date_end": 1064880000,
+                "id": 471
+            },
+            {
+                "event": "Halo 2",
+                "Developer": "Bungie, Microsoft Game Studios, Pi Studios",
+                "Publisher": "Microsoft Game Studios",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "May 17, 2007",
+                "date_start": 1179360000,
+                "date_end": 1179360000,
+                "id": 472
+            },
+            {
+                "event": "Hard Truck Apocalypse",
+                "Developer": "Targem Games",
+                "Publisher": "Buka Entertainment",
+                "Genre(s)": "Vehicular combat",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "June 19, 2006",
+                "date_start": 1150675200,
+                "date_end": 1150675200,
+                "id": 473
+            },
+            {
+                "event": "Harvester",
+                "Developer": "DigiFX Interactive",
+                "Publisher": "Merit Studios, Virgin Interactive, Night Dive Studios",
+                "Genre(s)": "Adventure",
+                "Operating system(s)": "DOS, Microsoft Windows, Linux",
+                "date": "September 25, 1996",
+                "date_start": 843609600,
+                "date_end": 843609600,
+                "id": 474
+            },
+            {
+                "event": "A Hat in Time",
+                "Developer": "Gears for Breakfast",
+                "Publisher": "Humble Bundle",
+                "Genre(s)": "Adventure, platforming",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "2017",
+                "date_start": 1483228800,
+                "date_end": 1514678400,
+                "id": 475
+            },
+            {
+                "event": "Hatoful Boyfriend: A School of Hope and White Wings",
+                "Developer": "PigeoNaton, Mediatonic",
+                "Publisher": "MIST[PSI]PRESS, Devolver Digital",
+                "Genre(s)": "Visual novel, dating simulation, otome game, nakige",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "August 24, 2014",
+                "date_start": 1408838400,
+                "date_end": 1408838400,
+                "id": 476
+            },
+            {
+                "event": "Hearthstone",
+                "Developer": "Blizzard Entertainment",
+                "Publisher": "Blizzard Entertainment",
+                "Genre(s)": "Digital collectible card game",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "March 11, 2014",
+                "date_start": 1394496000,
+                "date_end": 1394496000,
+                "id": 477
+            },
+            {
+                "event": "Hearts of Iron",
+                "Developer": "Paradox Development Studios",
+                "Publisher": "Strategy First",
+                "Genre(s)": "Grand strategy",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "November 24, 2002",
+                "date_start": 1038096000,
+                "date_end": 1038096000,
+                "id": 478
+            },
+            {
+                "event": "Hearts of Iron II",
+                "Developer": "Paradox Development Studios",
+                "Publisher": "Paradox Interactive",
+                "Genre(s)": "Grand strategy",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "January 4, 2005",
+                "date_start": 1104796800,
+                "date_end": 1104796800,
+                "id": 479
+            },
+            {
+                "event": "Hearts of Iron III",
+                "Developer": "Paradox Development Studios",
+                "Publisher": "Paradox Interactive",
+                "Genre(s)": "Grand strategy",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "August 7, 2009",
+                "date_start": 1249603200,
+                "date_end": 1249603200,
+                "id": 480
+            },
+            {
+                "event": "Hello Neighbor",
+                "Developer": "Dynamic Pixels",
+                "Publisher": "tinyBuild",
+                "Genre(s)": "Stealth, survival horror",
+                "Operating system(s)": "Microsoft Windows, macOS, Xbox One",
+                "date": "December 8, 2017",
+                "date_start": 1512691200,
+                "date_end": 1512691200,
+                "id": 481
+            },
+            {
+                "event": "Heroes of the Lance",
+                "Developer": "U.S. Gold",
+                "Publisher": "Strategic Simulations, Inc.",
+                "Genre(s)": "RPG, fantasy",
+                "Operating system(s)": "MS-DOS, Amiga, Amstrad CPC, Atari ST, Commodore 64, FM Towns, ZX Spectrum",
+                "date": "November 1, 1988",
+                "date_start": 594345600,
+                "date_end": 594345600,
+                "id": 482
+            },
+            {
+                "event": "Heroes of Might and Magic: A Strategic Quest",
+                "Developer": "New World Computing",
+                "Publisher": "New World Computing",
+                "Genre(s)": "Turn-based strategy",
+                "Operating system(s)": "Microsoft Windows, DOS, Mac OS",
+                "date": "August 31, 1995",
+                "date_start": 809827200,
+                "date_end": 809827200,
+                "id": 483
+            },
+            {
+                "event": "Heroes of Might and Magic II",
+                "Developer": "New World Computing",
+                "Publisher": "The 3DO Company",
+                "Genre(s)": "Turn-based strategy",
+                "Operating system(s)": "Microsoft Windows, DOS, Mac OS, RISC OS",
+                "date": "October 1, 1996",
+                "date_start": 844128000,
+                "date_end": 844128000,
+                "id": 484
+            },
+            {
+                "event": "Heroes of Might and Magic III",
+                "Developer": "New World Computing",
+                "Publisher": "The 3DO Company",
+                "Genre(s)": "Turn-based strategy",
+                "Operating system(s)": "Microsoft Windows, Linux, Mac OS",
+                "date": "February 28, 1999",
+                "date_start": 920160000,
+                "date_end": 920160000,
+                "id": 485
+            },
+            {
+                "event": "Heroes of Newerth",
+                "Developer": "S2 Games",
+                "Publisher": "S2 Games",
+                "Genre(s)": "MOBA",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "May 12, 2010",
+                "date_start": 1273622400,
+                "date_end": 1273622400,
+                "id": 486
+            },
+            {
+                "event": "Heroes of the Storm",
+                "Developer": "Blizzard Entertainment",
+                "Publisher": "Blizzard Entertainment",
+                "Genre(s)": "MOBA",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "June 2, 2015",
+                "date_start": 1433203200,
+                "date_end": 1433203200,
+                "id": 487
+            },
+            {
+                "event": "Hitman: Absolution",
+                "Developer": "IO Interactive, Feral Interactive",
+                "Publisher": "Eidos Interactive, Feral Interactive",
+                "Genre(s)": "Action-adventure, stealth",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "November 19, 2012",
+                "date_start": 1353283200,
+                "date_end": 1353283200,
+                "id": 488
+            },
+            {
+                "event": "Hitman: Blood Money",
+                "Developer": "IO Interactive",
+                "Publisher": "Eidos Interactive",
+                "Genre(s)": "Action-adventure, stealth",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "May 30, 2006",
+                "date_start": 1148947200,
+                "date_end": 1148947200,
+                "id": 489
+            },
+            {
+                "event": "Hitman: Codename 47",
+                "Developer": "IO Interactive",
+                "Publisher": "Eidos Interactive",
+                "Genre(s)": "Action-adventure, stealth",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 19, 2000",
+                "date_start": 974592000,
+                "date_end": 974592000,
+                "id": 490
+            },
+            {
+                "event": "Hitman: Contracts",
+                "Developer": "IO Interactive",
+                "Publisher": "Eidos Interactive",
+                "Genre(s)": "Action-adventure, stealth",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "April 20, 2004",
+                "date_start": 1082419200,
+                "date_end": 1082419200,
+                "id": 491
+            },
+            {
+                "event": "Hitman 2: Silent Assassin",
+                "Developer": "IO Interactive",
+                "Publisher": "Eidos Interactive",
+                "Genre(s)": "Action-adventure, stealth",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "October 1, 2002",
+                "date_start": 1033430400,
+                "date_end": 1033430400,
+                "id": 492
+            },
+            {
+                "event": "Hitman",
+                "Developer": "IO Interactive, Feral Interactive",
+                "Publisher": "Square Enix",
+                "Genre(s)": "Action-adventure, stealth",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "March 11, 2016",
+                "date_start": 1457654400,
+                "date_end": 1457654400,
+                "id": 493
+            },
+            {
+                "event": "Hitman 2",
+                "Developer": "IO Interactive, Feral Interactive",
+                "Publisher": "Warner Bros. Interactive Entertainment",
+                "Genre(s)": "Action-adventure, stealth",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "November 9, 2018",
+                "date_start": 1541721600,
+                "date_end": 1541721600,
+                "id": 494
+            },
+            {
+                "event": "Hitman III",
+                "Developer": "IO Interactive, Feral Interactive",
+                "Publisher": "[Unknown]",
+                "Genre(s)": "Action-adventure, stealth",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "January 2021",
+                "date_start": 1609459200,
+                "date_end": 1609459200,
+                "id": 495
+            },
+            {
+                "event": "Hogs of War",
+                "Developer": "Infogrames Studios",
+                "Publisher": "Infogrames Europe",
+                "Genre(s)": "Turn-based tactics, artillery",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 3, 2000",
+                "date_start": 973209600,
+                "date_end": 973209600,
+                "id": 496
+            },
+            {
+                "event": "Homeworld",
+                "Developer": "Relic Entertainment",
+                "Publisher": "Sierra Entertainment",
+                "Genre(s)": "Real-time strategy, real-time tactics, space simulation",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "September 28, 1999",
+                "date_start": 938476800,
+                "date_end": 938476800,
+                "id": 497
+            },
+            {
+                "event": "Homeworld: Cataclysm",
+                "Developer": "Barking Dog Studios",
+                "Publisher": "Sierra Entertainment",
+                "Genre(s)": "Real-time strategy",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "June 30, 2000",
+                "date_start": 962323200,
+                "date_end": 962323200,
+                "id": 498
+            },
+            {
+                "event": "Homeworld 2",
+                "Developer": "Relic Entertainment",
+                "Publisher": "Sierra Entertainment",
+                "Genre(s)": "Real-time strategy",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "September 16, 2003",
+                "date_start": 1063670400,
+                "date_end": 1063670400,
+                "id": 499
+            },
+            {
+                "event": "Homeworld: Deserts of Kharak",
+                "Developer": "Blackbird Interactive",
+                "Publisher": "Gearbox Software",
+                "Genre(s)": "Real-time strategy",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "January 20, 2016",
+                "date_start": 1453248000,
+                "date_end": 1453248000,
+                "id": 500
+            },
+            {
+                "event": "Hotline Miami",
+                "Developer": "Dennaton Games",
+                "Publisher": "Devolver Digital",
+                "Genre(s)": "Action, top-down shooter",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "October 23, 2012",
+                "date_start": 1350950400,
+                "date_end": 1350950400,
+                "id": 501
+            },
+            {
+                "event": "Hotline Miami 2: Wrong Number",
+                "Developer": "Dennaton Games",
+                "Publisher": "Devolver Digital",
+                "Genre(s)": "Action, top-down shooter",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "March 10, 2015",
+                "date_start": 1425945600,
+                "date_end": 1425945600,
+                "id": 502
+            },
+            {
+                "event": "Hugo's House of Horrors",
+                "Developer": "Gray Design Associates",
+                "Publisher": "Gray Design Associates",
+                "Genre(s)": "Adventure, survival horror",
+                "Operating system(s)": "Microsoft Windows, DOS",
+                "date": "1990",
+                "date_start": 631152000,
+                "date_end": 662601600,
+                "id": 503
+            },
+            {
+                "event": "I.G.I.-2: Covert Strike",
+                "Developer": "Innerloop Studios",
+                "Publisher": "Codemasters",
+                "Genre(s)": "Stealth",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "March 3, 2003",
+                "date_start": 1046649600,
+                "date_end": 1046649600,
+                "id": 504
+            },
+            {
+                "event": "Icewind Dale",
+                "Developer": "Black Isle Studios",
+                "Publisher": "Interplay Entertainment",
+                "Genre(s)": "RPG",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "June 29, 2000",
+                "date_start": 962236800,
+                "date_end": 962236800,
+                "id": 505
+            },
+            {
+                "event": "Icewind Dale II",
+                "Developer": "Black Isle Studios",
+                "Publisher": "Interplay Entertainment",
+                "Genre(s)": "RPG",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "August 27, 2002",
+                "date_start": 1030406400,
+                "date_end": 1030406400,
+                "id": 506
+            },
+            {
+                "event": "Insurgency",
+                "Developer": "New World Interactive",
+                "Publisher": "New World Interactive",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows, macOS, Linux",
+                "date": "January 22, 2014",
+                "date_start": 1390348800,
+                "date_end": 1390348800,
+                "id": 507
+            },
+            {
+                "event": "Insurgency: Sandstorm",
+                "Developer": "New World Interactive",
+                "Publisher": "Focus Home Interactive",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "December 12, 2018",
+                "date_start": 1544572800,
+                "date_end": 1544572800,
+                "id": 508
+            },
+            {
+                "event": "Jill of the Jungle",
+                "Developer": "Epic MegaGames",
+                "Publisher": "Epic MegaGames",
+                "Genre(s)": "Platform",
+                "Operating system(s)": "DOS",
+                "date": "June 1992",
+                "date_start": 707356800,
+                "date_end": 707356800,
+                "id": 509
+            },
+            {
+                "event": "Jade Empire",
+                "Developer": "BioWare, LTI Gray Matter",
+                "Publisher": "2K Games, Valve",
+                "Genre(s)": "Action role-playing",
+                "Operating system(s)": "Microsoft Windows, macOS, Xbox 360, Xbox",
+                "date": "February 26, 2007",
+                "date_start": 1172448000,
+                "date_end": 1172448000,
+                "id": 510
+            },
+            {
+                "event": "James Bond 007: Nightfire",
+                "Developer": "Eurocom, Gearbox Software, TransGaming Inc.",
+                "Publisher": "Electronic Arts, Aspyr",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows, macOS, PS2, Xbox, GameCube, Game Boy Advance",
+                "date": "November 28, 2002",
+                "date_start": 1038441600,
+                "date_end": 1038441600,
+                "id": 511
+            },
+            {
+                "event": "Jazz Jackrabbit",
+                "Developer": "Epic MegaGames, Arjan Brussee",
+                "Publisher": "Epic MegaGames",
+                "Genre(s)": "Side-scrolling shooter, platform",
+                "Operating system(s)": "Microsoft Windows, MS-DOS",
+                "date": "July 30, 1994",
+                "date_start": 775526400,
+                "date_end": 775526400,
+                "id": 512
+            },
+            {
+                "event": "Jazz Jackrabbit 2",
+                "Developer": "Orange Games, Epic MegaGames",
+                "Publisher": "Gathering of Developers",
+                "Genre(s)": "Side-scrolling shooter, platform",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "April 13, 1998",
+                "date_start": 892425600,
+                "date_end": 892425600,
+                "id": 513
+            },
+            {
+                "event": "Judge Dredd: Dredd vs. Death",
+                "Developer": "Rebellion Developments",
+                "Publisher": "Sierra Entertainment, BAM! Entertainment",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows, Xbox, PlayStation 2, GameCube",
+                "date": "October 17, 2003",
+                "date_start": 1066348800,
+                "date_end": 1066348800,
+                "id": 514
+            },
+            {
+                "event": "Juiced 2: Hot Import Nights",
+                "Developer": "Paradigm Entertainment",
+                "Publisher": "THQ",
+                "Genre(s)": "Racing",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 16, 2007",
+                "date_start": 1195171200,
+                "date_end": 1195171200,
+                "id": 515
+            },
+            {
+                "event": "Jurassic Park",
+                "Developer": "Ocean Software",
+                "Publisher": "Ocean Software",
+                "Genre(s)": "Action",
+                "Operating system(s)": "Amiga, DOS",
+                "date": "October 1993",
+                "date_start": 749433600,
+                "date_end": 749433600,
+                "id": 516
+            },
+            {
+                "event": "Jurassic Park III: Danger Zone!",
+                "Developer": "Knowledge Adventure",
+                "Publisher": "Knowledge Adventure",
+                "Genre(s)": "Action, adventure",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "June 29, 2001",
+                "date_start": 993772800,
+                "date_end": 993772800,
+                "id": 517
+            },
+            {
+                "event": "Jurassic Park III: Dino Defender",
+                "Developer": "Knowledge Adventure",
+                "Publisher": "Knowledge Adventure",
+                "Genre(s)": "Side-scrolling, action",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "June 29, 2001",
+                "date_start": 993772800,
+                "date_end": 993772800,
+                "id": 518
+            },
+            {
+                "event": "Jurassic Park: The Game",
+                "Developer": "Telltale Games",
+                "Publisher": "Telltale Games",
+                "Genre(s)": "Graphic adventure",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "November 15, 2011",
+                "date_start": 1321315200,
+                "date_end": 1321315200,
+                "id": 519
+            },
+            {
+                "event": "Just Cause",
+                "Developer": "Avalanche Studios",
+                "Publisher": "Eidos Interactive",
+                "Genre(s)": "Open world, action",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "September 22, 2006",
+                "date_start": 1158883200,
+                "date_end": 1158883200,
+                "id": 520
+            },
+            {
+                "event": "Just Cause 2",
+                "Developer": "Avalanche Studios",
+                "Publisher": "Eidos Interactive",
+                "Genre(s)": "Open world, action",
+                "Operating system(s)": "Microsoft Windows, Xbox 360, PS3",
+                "date": "March 23, 2010",
+                "date_start": 1269302400,
+                "date_end": 1269302400,
+                "id": 521
+            },
+            {
+                "event": "Just Cause 3",
+                "Developer": "Avalanche Studios",
+                "Publisher": "Square Enix",
+                "Genre(s)": "Open world, action",
+                "Operating system(s)": "Microsoft Windows, Xbox One, PS4",
+                "date": "December 1, 2015",
+                "date_start": 1448928000,
+                "date_end": 1448928000,
+                "id": 522
+            },
+            {
+                "event": "Just Cause 4",
+                "Developer": "Avalanche Studios",
+                "Publisher": "Square Enix",
+                "Genre(s)": "Open world, action",
+                "Operating system(s)": "Microsoft Windows, Xbox One, PS4",
+                "date": "December 4, 2018",
+                "date_start": 1543881600,
+                "date_end": 1543881600,
+                "id": 523
+            },
+            {
+                "event": "Katawa Shoujo",
+                "Developer": "Four Leaf Studios",
+                "Publisher": "Four Leaf Studios",
+                "Genre(s)": "Visual novel, dating sim",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "January 24, 2012",
+                "date_start": 1327363200,
+                "date_end": 1327363200,
+                "id": 524
+            },
+            {
+                "event": "Kenshi",
+                "Developer": "Lo-Fi Games",
+                "Publisher": "Lo-Fi Games",
+                "Genre(s)": "Role-playing video game",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "December 6, 2018",
+                "date_start": 1544054400,
+                "date_end": 1544054400,
+                "id": 525
+            },
+            {
+                "event": "Kentucky Route Zero",
+                "Developer": "Cardboard Computer",
+                "Publisher": "Cardboard Computer",
+                "Genre(s)": "Adventure",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "January 7, 2013",
+                "date_start": 1357516800,
+                "date_end": 1357516800,
+                "id": 526
+            },
+            {
+                "event": "Kerbal Space Program",
+                "Developer": "Squad",
+                "Publisher": "Squad",
+                "Genre(s)": "Sandbox",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "June 24, 2011",
+                "date_start": 1308873600,
+                "date_end": 1308873600,
+                "id": 527
+            },
+            {
+                "event": "Killing Floor",
+                "Developer": "Tripwire Interactive",
+                "Publisher": "Tripwire Interactive",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "May 14, 2009",
+                "date_start": 1242259200,
+                "date_end": 1242259200,
+                "id": 528
+            },
+            {
+                "event": "Killing Floor 2",
+                "Developer": "Tripwire Interactive",
+                "Publisher": "Tripwire Interactive",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "November 18, 2016",
+                "date_start": 1479427200,
+                "date_end": 1479427200,
+                "id": 529
+            },
+            {
+                "event": "Kingdom: New Lands",
+                "Developer": "Noio",
+                "Publisher": "Raw Fury",
+                "Genre(s)": "Strategy, Adventure",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS, PlayStation 4, Xbox One, Nintendo Switch, iOS, Android",
+                "date": "August 9, 2016",
+                "date_start": 1470700800,
+                "date_end": 1470700800,
+                "id": 530
+            },
+            {
+                "event": "Kingdoms of Amalur: Reckoning",
+                "Developer": "38 Studios, Big Huge Games",
+                "Publisher": "38 Studios, Electronic Arts",
+                "Genre(s)": "Action role-playing, hack and slash",
+                "Operating system(s)": "Microsoft Windows, PlayStation 3, Xbox 360",
+                "date": "February 7, 2012",
+                "date_start": 1328572800,
+                "date_end": 1328572800,
+                "id": 531
+            },
+            {
+                "event": "King Arthur: The Role-Playing Wargame",
+                "Developer": "NeocoreGames",
+                "Publisher": "Paradox Interactive",
+                "Genre(s)": "Turn-based strategy, real-time tactics",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 25, 2009",
+                "date_start": 1259107200,
+                "date_end": 1259107200,
+                "id": 532
+            },
+            {
+                "event": "King Arthur II: The Role-Playing Wargame",
+                "Developer": "NeocoreGames",
+                "Publisher": "Paradox Interactive",
+                "Genre(s)": "Turn-based strategy, real-time tactics",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "January 27, 2012",
+                "date_start": 1327622400,
+                "date_end": 1327622400,
+                "id": 533
+            },
+            {
+                "event": "kkrieger",
+                "Developer": ".theprodukkt",
+                "Publisher": ".theprodukkt",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "April 30, 2004",
+                "date_start": 1083283200,
+                "date_end": 1083283200,
+                "id": 534
+            },
+            {
+                "event": "Knights and Merchants: The Shattered Kingdom",
+                "Developer": "Joymania Entertainment",
+                "Publisher": "TopWare Interactive, Interactive Magic",
+                "Genre(s)": "RTS",
+                "Operating system(s)": "Microsoft Windows, Linux",
+                "date": "September 18, 1998",
+                "date_start": 906076800,
+                "date_end": 906076800,
+                "id": 535
+            },
+            {
+                "event": "L.A. Noire",
+                "Developer": "Team Bondi",
+                "Publisher": "Rockstar Games",
+                "Genre(s)": "Action-adventure",
+                "Operating system(s)": "Microsoft Windows, PlayStation 3, Xbox 360, PlayStation 4, Xbox One, Nintendo Switch",
+                "date": "May 17, 2011",
+                "date_start": 1305590400,
+                "date_end": 1305590400,
+                "id": 536
+            },
+            {
+                "event": "Lands of Lore: Guardians of Destiny",
+                "Developer": "Westwood Studios",
+                "Publisher": "Virgin Interactive",
+                "Genre(s)": "RPG",
+                "Operating system(s)": "MS-DOS, Microsoft Windows",
+                "date": "September 30, 1997",
+                "date_start": 875577600,
+                "date_end": 875577600,
+                "id": 537
+            },
+            {
+                "event": "Lands of Lore: The Throne of Chaos",
+                "Developer": "Westwood Studios",
+                "Publisher": "Virgin Interactive",
+                "Genre(s)": "RPG",
+                "Operating system(s)": "MS-DOS, NEC PC-9801",
+                "date": "1993",
+                "date_start": 725846400,
+                "date_end": 757296000,
+                "id": 538
+            },
+            {
+                "event": "Lands of Lore III",
+                "Developer": "Westwood Studios",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "RPG",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "March 3, 1999",
+                "date_start": 920419200,
+                "date_end": 920419200,
+                "id": 539
+            },
+            {
+                "event": "Lara Croft and the Guardian of Light",
+                "Developer": "Crystal Dynamics",
+                "Publisher": "Square Enix",
+                "Genre(s)": "Action-adventure",
+                "Operating system(s)": "Microsoft Windows, PlayStation 3, Xbox 360, Android, iOS, Google Chrome, Blackberry Playbook",
+                "date": "August 18, 2010",
+                "date_start": 1282089600,
+                "date_end": 1282089600,
+                "id": 540
+            },
+            {
+                "event": "Layers of Fear",
+                "Developer": "Bloober Team",
+                "Publisher": "Aspyr",
+                "Genre(s)": "Survival horror",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS, PlayStation 4, Xbox One",
+                "date": "February 16, 2016",
+                "date_start": 1455580800,
+                "date_end": 1455580800,
+                "id": 541
+            },
+            {
+                "event": "League of Legends",
+                "Developer": "Riot Games",
+                "Publisher": "Riot Games",
+                "Genre(s)": "MOBA",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "October 27, 2009",
+                "date_start": 1256601600,
+                "date_end": 1256601600,
+                "id": 542
+            },
+            {
+                "event": "Legends of Callasia",
+                "Developer": "Boomzap Entertainment",
+                "Publisher": "Boomzap Entertainment",
+                "Genre(s)": "Turn-based strategy",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "June 10, 2016",
+                "date_start": 1465516800,
+                "date_end": 1465516800,
+                "id": 543
+            },
+            {
+                "event": "Lego Batman: The Videogame",
+                "Developer": "Traveller's Tales",
+                "Publisher": "Warner Bros. Interactive Entertainment, Feral Interactive",
+                "Genre(s)": "Action-adventure",
+                "Operating system(s)": "Microsoft Windows, macOS, Nintendo DS, PlayStation 2, PlayStation 3, PlayStation Portable, Wii, Xbox 360",
+                "date": "September 23, 2008",
+                "date_start": 1222128000,
+                "date_end": 1222128000,
+                "id": 544
+            },
+            {
+                "event": "Lego Batman 2: DC Super Heroes",
+                "Developer": "Traveller's Tales",
+                "Publisher": "Warner Bros. Interactive Entertainment, Feral Interactive",
+                "Genre(s)": "Action-adventure",
+                "Operating system(s)": "Microsoft Windows, macOS, Nintendo DS, PlayStation 3, PlayStation 4, PlayStation Vita, Wii, Wii U, Xbox 360, Nintendo 3DS, Android, iOS",
+                "date": "June 23, 2012",
+                "date_start": 1340409600,
+                "date_end": 1340409600,
+                "id": 545
+            },
+            {
+                "event": "Lego Batman 3: Beyond Gotham",
+                "Developer": "Traveller's Tales",
+                "Publisher": "Warner Bros. Interactive Entertainment, Feral Interactive",
+                "Genre(s)": "Action-adventure",
+                "Operating system(s)": "Microsoft Windows, macOS, PlayStation 3, PlayStation 4, PlayStation Vita, Wii, Wii U, Xbox 360, Nintendo 3DS, Android, IOS",
+                "date": "November 11, 2014",
+                "date_start": 1415664000,
+                "date_end": 1415664000,
+                "id": 546
+            },
+            {
+                "event": "Lego Rock Raiders",
+                "Developer": "Data Design Interactive",
+                "Publisher": "Lego Media",
+                "Genre(s)": "Real-time strategy, action",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 15, 1999",
+                "date_start": 942624000,
+                "date_end": 942624000,
+                "id": 547
+            },
+            {
+                "event": "Lego Star Wars: The Video Game",
+                "Developer": "Traveller's Tales",
+                "Publisher": "Eidos Interactive",
+                "Genre(s)": "Action-adventure",
+                "Operating system(s)": "Game Boy Advance, Microsoft Windows, Nintendo GameCube, PlayStation 2, Xbox, OS X}",
+                "date": "March 29, 2005",
+                "date_start": 1112054400,
+                "date_end": 1112054400,
+                "id": 548
+            },
+            {
+                "event": "Leisure Suit Larry series",
+                "Developer": "Sierra Entertainment, High Voltage Software, Team17, Replay Games",
+                "Publisher": "Sierra Entertainment, Codemasters, Replay Games",
+                "Genre(s)": "Graphic adventure",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "June 5, 1987",
+                "date_start": 549849600,
+                "date_end": 549849600,
+                "id": 549
+            },
+            {
+                "event": "Lineage",
+                "Developer": "NCSOFT",
+                "Publisher": "NCSOFT",
+                "Genre(s)": "MMORPG",
+                "Operating system(s)": "Windows, Mac OS X",
+                "date": "September 3, 1998",
+                "date_start": 904780800,
+                "date_end": 904780800,
+                "id": 550
+            },
+            {
+                "event": "London Taxi: Rush Hour",
+                "Developer": "Data Design Interactive",
+                "Publisher": "Metro3D Europe",
+                "Genre(s)": "Driving",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "June 23, 2006",
+                "date_start": 1151020800,
+                "date_end": 1151020800,
+                "id": 551
+            },
+            {
+                "event": "Lovely Planet",
+                "Developer": "QUICKTEQUILA",
+                "Publisher": "tinyBuild",
+                "Genre(s)": "First-person shooter, indie",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "July 31, 2014",
+                "date_start": 1406764800,
+                "date_end": 1406764800,
+                "id": 552
+            },
+            {
+                "event": "Luftrausers",
+                "Developer": "Vlambeer",
+                "Publisher": "Devolver Digital",
+                "Genre(s)": "Shoot 'em Up",
+                "Operating system(s)": "Microsoft Windows, macOS, Linux, PlayStation 3, PlayStation Vita, Android",
+                "date": "March 18, 2014",
+                "date_start": 1395100800,
+                "date_end": 1395100800,
+                "id": 553
+            },
+            {
+                "event": "M.U.D. TV",
+                "Developer": "Realmforge Studios",
+                "Publisher": "Kalypso Media",
+                "Genre(s)": "Business simulation",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "February 23, 2010",
+                "date_start": 1266883200,
+                "date_end": 1266883200,
+                "id": 554
+            },
+            {
+                "event": "M.U.G.E.N",
+                "Developer": "ElecByte",
+                "Publisher": "ElecByte",
+                "Genre(s)": "Fighting",
+                "Operating system(s)": "MS-DOS, Microsoft Windows, Linux, macOS",
+                "date": "July 17, 1999",
+                "date_start": 932169600,
+                "date_end": 932169600,
+                "id": 555
+            },
+            {
+                "event": "M1 Tank Platoon",
+                "Developer": "MPS Labs",
+                "Publisher": "MicroProse",
+                "Genre(s)": "Simulation, real-time tactics",
+                "Operating system(s)": "Amiga, Atari ST, MS-DOS",
+                "date": "1989",
+                "date_start": 599616000,
+                "date_end": 631065600,
+                "id": 556
+            },
+            {
+                "event": "M1 Tank Platoon II",
+                "Developer": "MicroProse",
+                "Publisher": "MicroProse",
+                "Genre(s)": "Simulation, real-time tactics",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "February 28, 1998",
+                "date_start": 888624000,
+                "date_end": 888624000,
+                "id": 557
+            },
+            {
+                "event": "Magicka",
+                "Developer": "Arrowhead Game Studios",
+                "Publisher": "Paradox Interactive",
+                "Genre(s)": "Fantasy, action-adventure",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "January 25, 2011",
+                "date_start": 1295913600,
+                "date_end": 1295913600,
+                "id": 558
+            },
+            {
+                "event": "Mass Effect",
+                "Developer": "BioWare Corporation",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "RPG, Action, science fiction",
+                "Operating system(s)": "Microsoft Windows, PlayStation 3, Xbox 360",
+                "date": "November 20, 2007",
+                "date_start": 1195516800,
+                "date_end": 1195516800,
+                "id": 559
+            },
+            {
+                "event": "Mass Effect 2",
+                "Developer": "BioWare Corporation",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "RPG, action, science fiction",
+                "Operating system(s)": "Microsoft Windows, PlayStation 3, Xbox 360",
+                "date": "January 26, 2010",
+                "date_start": 1264464000,
+                "date_end": 1264464000,
+                "id": 560
+            },
+            {
+                "event": "Mass Effect 3",
+                "Developer": "BioWare Corporation",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "RPG, action, science fiction",
+                "Operating system(s)": "Microsoft Windows, PlayStation 3, Xbox 360",
+                "date": "March 6, 2012",
+                "date_start": 1330992000,
+                "date_end": 1330992000,
+                "id": 561
+            },
+            {
+                "event": "Max Payne",
+                "Developer": "Remedy Entertainment",
+                "Publisher": "Gathering of Developers, Rockstar Games, MacSoft, Feral Interactive",
+                "Genre(s)": "Third-person shooter",
+                "Operating system(s)": "Microsoft Windows, macOS, PlayStation 2, Xbox, iOS, Android",
+                "date": "July 23, 2001",
+                "date_start": 995846400,
+                "date_end": 995846400,
+                "id": 562
+            },
+            {
+                "event": "Max Payne 2: The Fall of Max Payne",
+                "Developer": "Remedy Entertainment",
+                "Publisher": "Rockstar Games",
+                "Genre(s)": "Third-person shooter",
+                "Operating system(s)": "Microsoft Windows, PlayStation 2, Xbox",
+                "date": "October 14, 2003",
+                "date_start": 1066089600,
+                "date_end": 1066089600,
+                "id": 563
+            },
+            {
+                "event": "MDK",
+                "Developer": "Shiny Entertainment",
+                "Publisher": "PIE, Interplay Entertainment",
+                "Genre(s)": "Third-person shooter",
+                "Operating system(s)": "Microsoft Windows, DOS, macOS",
+                "date": "November 21, 1997",
+                "date_start": 880070400,
+                "date_end": 880070400,
+                "id": 564
+            },
+            {
+                "event": "MDK2",
+                "Developer": "BioWare",
+                "Publisher": "Interplay Entertainment",
+                "Genre(s)": "Third-person shooter, action-adventure",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "March 31, 2000",
+                "date_start": 954460800,
+                "date_end": 954460800,
+                "id": 565
+            },
+            {
+                "event": "Mechwarrior Online",
+                "Developer": "Piranha Games",
+                "Publisher": "Piranha Games",
+                "Genre(s)": "Vehicular combat, action",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "September 17, 2013",
+                "date_start": 1379376000,
+                "date_end": 1379376000,
+                "id": 566
+            },
+            {
+                "event": "Medal of Honor",
+                "Developer": "DICE, Danger Close Games",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows, PlayStation 3, Xbox 360",
+                "date": "October 8, 2010",
+                "date_start": 1286496000,
+                "date_end": 1286496000,
+                "id": 567
+            },
+            {
+                "event": "Medal of Honor: Warfighter",
+                "Developer": "Danger Close Games",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows, PlayStation 3, Xbox 360",
+                "date": "October 23, 2012",
+                "date_start": 1350950400,
+                "date_end": 1350950400,
+                "id": 568
+            },
+            {
+                "event": "Medieval: Total War",
+                "Developer": "The Creative Assembly",
+                "Publisher": "Activision",
+                "Genre(s)": "Turn-based strategy",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "August 20, 2002",
+                "date_start": 1029801600,
+                "date_end": 1029801600,
+                "id": 569
+            },
+            {
+                "event": "Medieval II: Total War",
+                "Developer": "The Creative Assembly",
+                "Publisher": "Sega",
+                "Genre(s)": "Turn-based strategy",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 11, 2006",
+                "date_start": 1163203200,
+                "date_end": 1163203200,
+                "id": 570
+            },
+            {
+                "event": "MegaRace",
+                "Developer": "Cryo Interactive",
+                "Publisher": "The Software Toolworks",
+                "Genre(s)": "Racing video game",
+                "Operating system(s)": "MS-DOS, Sega CD, 3DO",
+                "date": "1993",
+                "date_start": 725846400,
+                "date_end": 757296000,
+                "id": 571
+            },
+            {
+                "event": "MegaRace 2",
+                "Developer": "Cryo Interactive",
+                "Publisher": "Mindscape",
+                "Genre(s)": "Racing video game",
+                "Operating system(s)": "MS-DOS, macOS",
+                "date": "1996",
+                "date_start": 820454400,
+                "date_end": 851990400,
+                "id": 572
+            },
+            {
+                "event": "MegaRace 3",
+                "Developer": "Cryo Interactive",
+                "Publisher": "Cryo Interactive, DreamCatcher Interactive",
+                "Genre(s)": "Racing video game",
+                "Operating system(s)": "Microsoft Windows, PlayStation 2",
+                "date": "January 9, 2002",
+                "date_start": 1010534400,
+                "date_end": 1010534400,
+                "id": 573
+            },
+            {
+                "event": "Metal Gear",
+                "Developer": "Konami",
+                "Publisher": "Konami",
+                "Genre(s)": "Action-adventure, stealth",
+                "Operating system(s)": "MSX2, MS-DOS",
+                "date": "July 7, 1987",
+                "date_start": 552614400,
+                "date_end": 552614400,
+                "id": 574
+            },
+            {
+                "event": "Metal Gear 2: Solid Snake",
+                "Developer": "Konami",
+                "Publisher": "Konami",
+                "Genre(s)": "Action-adventure, stealth",
+                "Operating system(s)": "MSX2",
+                "date": "July 20, 1990",
+                "date_start": 648432000,
+                "date_end": 648432000,
+                "id": 575
+            },
+            {
+                "event": "'Metal Gear Rising: Revengeance",
+                "Developer": "PlatinumGames",
+                "Publisher": "Konami",
+                "Genre(s)": "Action, hack and slash",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "January 9, 2014",
+                "date_start": 1389225600,
+                "date_end": 1389225600,
+                "id": 576
+            },
+            {
+                "event": "Metal Gear Solid",
+                "Developer": "KCEJ, Digital Dialect",
+                "Publisher": "Konami, Microsoft Game Studios",
+                "Genre(s)": "Action-adventure, stealth",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "September 3, 1998",
+                "date_start": 904780800,
+                "date_end": 904780800,
+                "id": 577
+            },
+            {
+                "event": "Metal Gear Solid 2: Substance",
+                "Developer": "KCEJ, Success",
+                "Publisher": "Konami",
+                "Genre(s)": "Action-adventure, stealth",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "March 27, 2003",
+                "date_start": 1048723200,
+                "date_end": 1048723200,
+                "id": 578
+            },
+            {
+                "event": "Metal Gear Solid V: Ground Zeroes",
+                "Developer": "Kojima Productions",
+                "Publisher": "Konami",
+                "Genre(s)": "Action-adventure, stealth",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "September 1, 2015",
+                "date_start": 1441065600,
+                "date_end": 1441065600,
+                "id": 579
+            },
+            {
+                "event": "Metal Gear Solid V: The Phantom Pain",
+                "Developer": "Kojima Productions",
+                "Publisher": "Konami",
+                "Genre(s)": "Action-adventure, stealth",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "September 1, 2015",
+                "date_start": 1441065600,
+                "date_end": 1441065600,
+                "id": 580
+            },
+            {
+                "event": "Metro 2033",
+                "Developer": "4A Games",
+                "Publisher": "Deep Silver, THQ",
+                "Genre(s)": "Post-apocalyptic, FPS",
+                "Operating system(s)": "Microsoft Windows, Linux",
+                "date": "March 16, 2010",
+                "date_start": 1268697600,
+                "date_end": 1268697600,
+                "id": 581
+            },
+            {
+                "event": "Metro: Last Light",
+                "Developer": "4A Games",
+                "Publisher": "Spike Chunsoft, Deep Silver",
+                "Genre(s)": "Post-apocalyptic, FPS",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "May 14, 2013",
+                "date_start": 1368489600,
+                "date_end": 1368489600,
+                "id": 582
+            },
+            {
+                "event": "Microsoft Minesweeper",
+                "Developer": "Arkadium",
+                "Publisher": "Microsoft Studios",
+                "Genre(s)": null,
+                "Operating system(s)": "Microsoft Windows",
+                "date": "2012",
+                "date_start": 1325376000,
+                "date_end": 1356912000,
+                "id": 583
+            },
+            {
+                "event": "Middle-earth: Shadow of Mordor",
+                "Developer": "Monolith",
+                "Publisher": "Warner Bros.",
+                "Genre(s)": "Action-adventure",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "September 30, 2014",
+                "date_start": 1412035200,
+                "date_end": 1412035200,
+                "id": 584
+            },
+            {
+                "event": "Might & Magic X: Legacy",
+                "Developer": "Limbic Entertainment",
+                "Publisher": "Ubisoft",
+                "Genre(s)": "RPG, action RPG",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "January 23, 2014",
+                "date_start": 1390435200,
+                "date_end": 1390435200,
+                "id": 585
+            },
+            {
+                "event": "Might and Magic VI",
+                "Developer": "New World Computing",
+                "Publisher": "3DO",
+                "Genre(s)": "RPG, action RPG",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "April 30, 1998",
+                "date_start": 893894400,
+                "date_end": 893894400,
+                "id": 586
+            },
+            {
+                "event": "Might and Magic VII",
+                "Developer": "New World Computing",
+                "Publisher": "3DO",
+                "Genre(s)": "RPG, action RPG",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "May 15, 1999",
+                "date_start": 926726400,
+                "date_end": 926726400,
+                "id": 587
+            },
+            {
+                "event": "A Mind Forever Voyaging",
+                "Developer": "Infocom",
+                "Publisher": "Infocom",
+                "Genre(s)": "Interactive fiction",
+                "Operating system(s)": "Amiga, Apple II series, Atari ST, Commodore 128, MS-DOS, macOS",
+                "date": "August 14, 1985",
+                "date_start": 492825600,
+                "date_end": 492825600,
+                "id": 588
+            },
+            {
+                "event": "Minecraft",
+                "Developer": "Mojang",
+                "Publisher": "Mojang",
+                "Genre(s)": "Sandbox",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS, iOS, Windows Phone, Xbox 360, Xbox One, PlayStation 3, PlayStation 4, PlayStation Vita, Raspberry Pi, Universal Windows Platform, Wii U, Nintendo Switch, New Nintendo 3DS, Apple TV, Amazon Fire TV",
+                "date": "November 18, 2011",
+                "date_start": 1321574400,
+                "date_end": 1321574400,
+                "id": 589
+            },
+            {
+                "event": "Minecraft: Story Mode",
+                "Developer": "Mojang",
+                "Publisher": "Mojang",
+                "Genre(s)": "Graphic adventure",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "October 13, 2015",
+                "date_start": 1444694400,
+                "date_end": 1444694400,
+                "id": 590
+            },
+            {
+                "event": "Mirror's Edge",
+                "Developer": "EA Digital Illusions CE",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "First-person action-adventure, platform",
+                "Operating system(s)": "Microsoft Windows, PlayStation 3, Xbox 360 iOS, Windows Phone",
+                "date": "November 12, 2008",
+                "date_start": 1226448000,
+                "date_end": 1226448000,
+                "id": 591
+            },
+            {
+                "event": "Monaco: What's Yours Is Mine",
+                "Developer": "Pocketwatch Games",
+                "Publisher": "Majesco Entertainment",
+                "Genre(s)": "Action, stealth",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS, Xbox 360",
+                "date": "April 24, 2013",
+                "date_start": 1366761600,
+                "date_end": 1366761600,
+                "id": 592
+            },
+            {
+                "event": "Mortal Kombat (2011)",
+                "Developer": "NetherRealm Studios, High Voltage Software",
+                "Publisher": "Warner Bros. Interactive Entertainment.",
+                "Genre(s)": "Fighting",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "July, 2013",
+                "date_start": 1372636800,
+                "date_end": 1372636800,
+                "id": 593
+            },
+            {
+                "event": "Mortal Kombat X",
+                "Developer": "NetherRealm Studios, High Voltage Software",
+                "Publisher": "Warner Bros. Interactive Entertainment.",
+                "Genre(s)": "Fighting",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "April 13, 2015",
+                "date_start": 1428883200,
+                "date_end": 1428883200,
+                "id": 594
+            },
+            {
+                "event": "Mortal Kombat 11",
+                "Developer": "NetherRealm Studios, QLOC",
+                "Publisher": "Warner Bros. Interactive Entertainment.",
+                "Genre(s)": "Fighting",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "April 23, 2019",
+                "date_start": 1555977600,
+                "date_end": 1555977600,
+                "id": 595
+            },
+            {
+                "event": "Mount & Blade",
+                "Developer": "TaleWorlds Entertainment",
+                "Publisher": "Paradox Interactive",
+                "Genre(s)": "Action RPG",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "September 16, 2008",
+                "date_start": 1221523200,
+                "date_end": 1221523200,
+                "id": 596
+            },
+            {
+                "event": "Mount & Blade: Warband",
+                "Developer": "TaleWorlds Entertainment",
+                "Publisher": "Paradox Interactive",
+                "Genre(s)": "Action RPG, strategy",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "March 30, 2010",
+                "date_start": 1269907200,
+                "date_end": 1269907200,
+                "id": 597
+            },
+            {
+                "event": "Mount & Blade: With Fire & Sword",
+                "Developer": "TaleWorlds Entertainment",
+                "Publisher": "Paradox Interactive",
+                "Genre(s)": "Action RPG, strategy",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "May 3, 2011",
+                "date_start": 1304380800,
+                "date_end": 1304380800,
+                "id": 598
+            },
+            {
+                "event": "MouseCraft",
+                "Developer": "Crunching Koalas",
+                "Publisher": "Crunching Koalas",
+                "Genre(s)": "Puzzle",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "June 9, 2014",
+                "date_start": 1402272000,
+                "date_end": 1402272000,
+                "id": 599
+            },
+            {
+                "event": "MVP Baseball 2005",
+                "Developer": "EA Canada",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "Sports",
+                "Operating system(s)": "PlayStation 2, Xbox, Nintendo GameCube, Microsoft Windows, PlayStation Portable",
+                "date": "February 22, 2005",
+                "date_start": 1109030400,
+                "date_end": 1109030400,
+                "id": 600
+            },
+            {
+                "event": "Myst",
+                "Developer": "Cyan",
+                "Publisher": "Br\u00f8derbund",
+                "Genre(s)": "Adventure",
+                "Operating system(s)": "Mac OS, Microsoft Windows",
+                "date": "1994",
+                "date_start": 757382400,
+                "date_end": 788832000,
+                "id": 601
+            },
+            {
+                "event": "Myth Makers: Super Kart GP",
+                "Developer": "Data Design Interactive",
+                "Publisher": "Phoenix Games",
+                "Genre(s)": "Racing video game",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "January 1, 2006",
+                "date_start": 1136073600,
+                "date_end": 1136073600,
+                "id": 602
+            },
+            {
+                "event": "Myth Makers: Trixie in Toyland",
+                "Developer": "Data Design Interactive",
+                "Publisher": "Metro3D Europe",
+                "Genre(s)": "Platformer",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "August 19, 2005",
+                "date_start": 1124409600,
+                "date_end": 1124409600,
+                "id": 603
+            },
+            {
+                "event": "Napoleon: Total War",
+                "Developer": "The Creative Assembly, Feral Interactive",
+                "Publisher": "Sega, Typhoon Games, Feral Interactive",
+                "Genre(s)": "Turn-based strategy",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "February 23, 2010",
+                "date_start": 1266883200,
+                "date_end": 1266883200,
+                "id": 604
+            },
+            {
+                "event": "Natural Selection 2",
+                "Developer": "Unknown Worlds Entertainment",
+                "Publisher": "Unknown Worlds Entertainment",
+                "Genre(s)": "First-person shooter, RTS",
+                "Operating system(s)": "Microsoft Windows, Linux",
+                "date": "October 30, 2012",
+                "date_start": 1351555200,
+                "date_end": 1351555200,
+                "id": 605
+            },
+            {
+                "event": "NBA 2K10",
+                "Developer": "Visual Concepts",
+                "Publisher": "2K Sports",
+                "Genre(s)": "Sports",
+                "Operating system(s)": "Microsoft Windows, PlayStation 3, PlayStation 2, PlayStation Portable, Xbox 360, Wii",
+                "date": "October 12, 2009",
+                "date_start": 1255305600,
+                "date_end": 1255305600,
+                "id": 606
+            },
+            {
+                "event": "NBA 2K11",
+                "Developer": "Visual Concepts",
+                "Publisher": "2K Sports",
+                "Genre(s)": "Sports",
+                "Operating system(s)": "Xbox 360, Wii, PlayStation 3, PlayStation 2, PlayStation Portable, Microsoft Windows",
+                "date": "October 5, 2010",
+                "date_start": 1286236800,
+                "date_end": 1286236800,
+                "id": 607
+            },
+            {
+                "event": "NBA 2K12",
+                "Developer": "Visual Concepts",
+                "Publisher": "2K Sports",
+                "Genre(s)": "Sports",
+                "Operating system(s)": "Xbox 360 PlayStation 3, PlayStation 2, PlayStation Portable, Wii, Microsoft Windows, iOS",
+                "date": "October 4, 2011",
+                "date_start": 1317686400,
+                "date_end": 1317686400,
+                "id": 608
+            },
+            {
+                "event": "NBA 2K13",
+                "Developer": "Visual Concepts",
+                "Publisher": "2K Sports",
+                "Genre(s)": "Sports",
+                "Operating system(s)": "Xbox 360, WiiWii U, PlayStation 3, PlayStation Portable, iOS, Android, Microsoft Windows",
+                "date": "October 2, 2012",
+                "date_start": 1349136000,
+                "date_end": 1349136000,
+                "id": 609
+            },
+            {
+                "event": "NBA 2K14",
+                "Developer": "Visual Concepts",
+                "Publisher": "2K Sports",
+                "Genre(s)": "Sports",
+                "Operating system(s)": "Microsoft Windows, PlayStation 3, PlayStation 4, Xbox 360, Xbox One, iOS, Android",
+                "date": "November 15, 2013",
+                "date_start": 1384473600,
+                "date_end": 1384473600,
+                "id": 610
+            },
+            {
+                "event": "NBA 2K15",
+                "Developer": "Visual Concepts",
+                "Publisher": "2K Sports",
+                "Genre(s)": "Sports",
+                "Operating system(s)": "Microsoft Windows, Xbox One, Xbox 360, iOS, PlayStation 3, PlayStation 4, Android",
+                "date": "October 7, 2014",
+                "date_start": 1412640000,
+                "date_end": 1412640000,
+                "id": 611
+            },
+            {
+                "event": "NBA 2K16",
+                "Developer": "Visual Concepts",
+                "Publisher": "2K Sports",
+                "Genre(s)": "Sports",
+                "Operating system(s)": "Microsoft Windows, PlayStation 3, PlayStation 4, Xbox 360, Xbox One, Android, iOS",
+                "date": "September 29, 2016",
+                "date_start": 1475107200,
+                "date_end": 1475107200,
+                "id": 612
+            },
+            {
+                "event": "NBA 2K17",
+                "Developer": "Visual Concepts",
+                "Publisher": "2K Sports",
+                "Genre(s)": "Sports",
+                "Operating system(s)": "Microsoft Windows, PlayStation 4, PlayStation 3, Xbox One, Xbox 360, iOS, Android",
+                "date": "September 20, 2016",
+                "date_start": 1474329600,
+                "date_end": 1474329600,
+                "id": 613
+            },
+            {
+                "event": "NBA 2K18",
+                "Developer": "Visual Concepts",
+                "Publisher": "2K Sports",
+                "Genre(s)": "Sports",
+                "Operating system(s)": "Microsoft Windows, Nintendo Switch, PlayStation 4, PlayStation 3, Xbox One, Xbox 360",
+                "date": "September 19, 2017",
+                "date_start": 1505779200,
+                "date_end": 1505779200,
+                "id": 614
+            },
+            {
+                "event": "NBA 2K9",
+                "Developer": "Visual Concepts",
+                "Publisher": "2K Sports",
+                "Genre(s)": "Sports",
+                "Operating system(s)": "PlayStation 2, PlayStation 3, Xbox 360, Microsoft Windows",
+                "date": "October 7, 2008",
+                "date_start": 1223337600,
+                "date_end": 1223337600,
+                "id": 615
+            },
+            {
+                "event": "NBA Hangtime",
+                "Developer": "Midway, Funcom",
+                "Publisher": "Midway",
+                "Genre(s)": "Sports",
+                "Operating system(s)": "Arcade, Nintendo 64, PlayStation, SNES, Sega Genesis, Windows",
+                "date": "December 31, 1996",
+                "date_start": 851990400,
+                "date_end": 851990400,
+                "id": 616
+            },
+            {
+                "event": "NBA Inside Drive",
+                "Developer": "Microsoft Studios",
+                "Publisher": "Microsoft Studios",
+                "Genre(s)": "Sports",
+                "Operating system(s)": "Microsoft Windows, Xbox",
+                "date": "August 17, 2000",
+                "date_start": 966470400,
+                "date_end": 966470400,
+                "id": 617
+            },
+            {
+                "event": "NBA Jam Extreme",
+                "Developer": "Sculptured Software",
+                "Publisher": "Acclaim",
+                "Genre(s)": "Sports",
+                "Operating system(s)": "Arcade, PlayStation, Sega Saturn, Windows",
+                "date": "January 31, 1997",
+                "date_start": 854668800,
+                "date_end": 854668800,
+                "id": 618
+            },
+            {
+                "event": "NBA Live 2000",
+                "Developer": "EA Canada",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "Sports",
+                "Operating system(s)": "Windows, PlayStation, Nintendo 64",
+                "date": "October 31, 1990",
+                "date_start": 657331200,
+                "date_end": 657331200,
+                "id": 619
+            },
+            {
+                "event": "NBA Live 2001",
+                "Developer": "Electronic Arts",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "Sports",
+                "Operating system(s)": "PlayStation, PlayStation 2, Windows",
+                "date": "February 7, 2001",
+                "date_start": 981504000,
+                "date_end": 981504000,
+                "id": 620
+            },
+            {
+                "event": "NBA Live 2003",
+                "Developer": "EA Canada",
+                "Publisher": "EA Sports",
+                "Genre(s)": "Sports",
+                "Operating system(s)": "PlayStation, PlayStation 2, Windows",
+                "date": "October 8, 2002",
+                "date_start": 1034035200,
+                "date_end": 1034035200,
+                "id": 621
+            },
+            {
+                "event": "NBA Live 2004",
+                "Developer": "EA Canada",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "Sports",
+                "Operating system(s)": "PlayStation 2, Xbox, GameCube, Windows",
+                "date": "October 15, 2003",
+                "date_start": 1066176000,
+                "date_end": 1066176000,
+                "id": 622
+            },
+            {
+                "event": "NBA Live 2005",
+                "Developer": "EA Canada",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "Sports",
+                "Operating system(s)": "PlayStation 2, Xbox GameCube, Windows",
+                "date": "September 28, 2004",
+                "date_start": 1096329600,
+                "date_end": 1096329600,
+                "id": 623
+            },
+            {
+                "event": "NBA Live 06",
+                "Developer": "EA Canada",
+                "Publisher": "EA Sports",
+                "Genre(s)": "Sports",
+                "Operating system(s)": "Nintendo GameCube, Microsoft Windows, PlayStation 2, PlayStation Portable, Xbox 360, Xbox, Mobile",
+                "date": "October 4, 2005",
+                "date_start": 1128384000,
+                "date_end": 1128384000,
+                "id": 624
+            },
+            {
+                "event": "NBA Live 07",
+                "Developer": "EA Canada",
+                "Publisher": "EA Sports",
+                "Genre(s)": "Sports",
+                "Operating system(s)": "PlayStation 2, PlayStation Portable, Xbox 360, Xbox, Windows, Mobile phone",
+                "date": "November 15, 2006",
+                "date_start": 1163548800,
+                "date_end": 1163548800,
+                "id": 625
+            },
+            {
+                "event": "NBA Live 99",
+                "Developer": "EA Canada",
+                "Publisher": "EA Sports",
+                "Genre(s)": "Sports",
+                "Operating system(s)": "PlayStation, Windows, Nintendo 64",
+                "date": "October 31, 1998",
+                "date_start": 909792000,
+                "date_end": 909792000,
+                "id": 626
+            },
+            {
+                "event": "NBA Playgrounds",
+                "Developer": "Saber Interactive",
+                "Publisher": "Mad Dog Games",
+                "Genre(s)": "Sports",
+                "Operating system(s)": "Microsoft Windows, Nintendo Switch, PlayStation 4, Xbox One",
+                "date": "May 9, 2017",
+                "date_start": 1494288000,
+                "date_end": 1494288000,
+                "id": 627
+            },
+            {
+                "event": "Need for Speed",
+                "Developer": "Pioneer Productions",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "Racing",
+                "Operating system(s)": "DOS, PlayStation",
+                "date": "August 31, 1994",
+                "date_start": 778291200,
+                "date_end": 778291200,
+                "id": 628
+            },
+            {
+                "event": "Need for Speed II",
+                "Developer": "Electronic Arts",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "Racing",
+                "Operating system(s)": "Microsoft Windows, PlayStation",
+                "date": "March 31, 1997",
+                "date_start": 859766400,
+                "date_end": 859766400,
+                "id": 629
+            },
+            {
+                "event": "Need for Speed III: Hot Pursuit",
+                "Developer": "Electronic Arts",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "Racing",
+                "Operating system(s)": "Microsoft Windows, PlayStation",
+                "date": "March 25, 1998",
+                "date_start": 890784000,
+                "date_end": 890784000,
+                "id": 630
+            },
+            {
+                "event": "Need for Speed: High Stakes",
+                "Developer": "Electronic Arts",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "Racing",
+                "Operating system(s)": "Microsoft Windows, PlayStation",
+                "date": "March 8, 1999",
+                "date_start": 920851200,
+                "date_end": 920851200,
+                "id": 631
+            },
+            {
+                "event": "Need for Speed: Hot Pursuit 2",
+                "Developer": "Electronic Arts",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "Racing",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "October 2, 2002",
+                "date_start": 1033516800,
+                "date_end": 1033516800,
+                "id": 632
+            },
+            {
+                "event": "Need for Speed: Porsche Unleashed",
+                "Developer": "Electronic Arts",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "Racing",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "February 29, 2000",
+                "date_start": 951782400,
+                "date_end": 951782400,
+                "id": 633
+            },
+            {
+                "event": "Need for Speed: Underground",
+                "Developer": "EA Black Box",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "Racing",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "October 2, 2002",
+                "date_start": 1033516800,
+                "date_end": 1033516800,
+                "id": 634
+            },
+            {
+                "event": "Neighbours from Hell",
+                "Developer": "JoWood Productions",
+                "Publisher": "JoWood Productions",
+                "Genre(s)": "Puzzle",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "June 20, 2003",
+                "date_start": 1056067200,
+                "date_end": 1056067200,
+                "id": 635
+            },
+            {
+                "event": "Neighbours from Hell 2: On Vacation",
+                "Developer": "JoWood Productions",
+                "Publisher": "Cinemaware",
+                "Genre(s)": "Puzzle",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "May 5, 2004",
+                "date_start": 1083715200,
+                "date_end": 1083715200,
+                "id": 636
+            },
+            {
+                "event": "Nether: Resurrected",
+                "Developer": "Phosphor Games Studio",
+                "Publisher": "Nether Productions, LLC",
+                "Genre(s)": "Survival Horror, Open World, Action",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "October 28, 2013",
+                "date_start": 1382918400,
+                "date_end": 1382918400,
+                "id": 637
+            },
+            {
+                "event": "The Neverhood",
+                "Developer": "The Neverhood, Inc.",
+                "Publisher": "DreamWorks Interactive",
+                "Genre(s)": "Point-and-click adventure game",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "October 31, 1996",
+                "date_start": 846720000,
+                "date_end": 846720000,
+                "id": 638
+            },
+            {
+                "event": "Neverwinter Nights",
+                "Developer": "BioWare",
+                "Publisher": "Atari, Infogrames, MacSoft",
+                "Genre(s)": "Role-playing",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "June 18, 2002",
+                "date_start": 1024358400,
+                "date_end": 1024358400,
+                "id": 639
+            },
+            {
+                "event": "Neverwinter Nights 2",
+                "Developer": "Obsidian Entertainment",
+                "Publisher": "Atari",
+                "Genre(s)": "RPG",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "October 31, 2006",
+                "date_start": 1162252800,
+                "date_end": 1162252800,
+                "id": 640
+            },
+            {
+                "event": "Neverwinter Nights: Hordes of the Underdark",
+                "Developer": "BioWare",
+                "Publisher": "Atari, Infogrames, MacSoft",
+                "Genre(s)": "Role-playing",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "December 2, 2003",
+                "date_start": 1070323200,
+                "date_end": 1070323200,
+                "id": 641
+            },
+            {
+                "event": "Neverwinter Nights: Shadows of Undrentide",
+                "Developer": "BioWare, Floodgate Entertainment",
+                "Publisher": "Atari, Infogrames, MacSoft",
+                "Genre(s)": "Role-playing",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "June 21, 2003",
+                "date_start": 1056153600,
+                "date_end": 1056153600,
+                "id": 642
+            },
+            {
+                "event": "Nickelodeon Party Blast",
+                "Developer": "Data Design Interactive",
+                "Publisher": "Infogrames",
+                "Genre(s)": "Party",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "October 30, 2002",
+                "date_start": 1035936000,
+                "date_end": 1035936000,
+                "id": 643
+            },
+            {
+                "event": "Nier: Automata",
+                "Developer": "PlatinumGames",
+                "Publisher": "Square Enix",
+                "Genre(s)": "Action role-playing",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "March 17, 2017",
+                "date_start": 1489708800,
+                "date_end": 1489708800,
+                "id": 644
+            },
+            {
+                "event": "Night in the Woods",
+                "Developer": "Infinite Fall",
+                "Publisher": "Finji",
+                "Genre(s)": "Adventure",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS, PlayStation 4, Xbox One, iOS, Android",
+                "date": "February 21, 2017",
+                "date_start": 1487635200,
+                "date_end": 1487635200,
+                "id": 645
+            },
+            {
+                "event": "Ninjabread Man",
+                "Developer": "Data Design Interactive",
+                "Publisher": "Metro3D Europe",
+                "Genre(s)": "Platformer",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "July 23, 2005",
+                "date_start": 1122076800,
+                "date_end": 1122076800,
+                "id": 646
+            },
+            {
+                "event": "Nioh",
+                "Developer": "Team Ninja",
+                "Publisher": "Koei Tecmo, Sony Interactive Entertainment",
+                "Genre(s)": "Action role-playing",
+                "Operating system(s)": "Microsoft Windows, PlayStation 4",
+                "date": "November 7, 2017",
+                "date_start": 1510012800,
+                "date_end": 1510012800,
+                "id": 647
+            },
+            {
+                "event": "No More Room in Hell",
+                "Developer": "Matt Kazan",
+                "Publisher": "Steam",
+                "Genre(s)": "Survival horror",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "October 31, 2013",
+                "date_start": 1383177600,
+                "date_end": 1383177600,
+                "id": 648
+            },
+            {
+                "event": "OneShot",
+                "Developer": "Liitle Cat Feet",
+                "Publisher": "Degica",
+                "Genre(s)": "Adventure, Puzzle",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "December 8, 2016",
+                "date_start": 1481155200,
+                "date_end": 1481155200,
+                "id": 649
+            },
+            {
+                "event": "Operation Flashpoint: Cold War Crisis",
+                "Developer": "Bohemia Interactive",
+                "Publisher": "Codemasters",
+                "Genre(s)": "Tactical shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "June 22, 2001",
+                "date_start": 993168000,
+                "date_end": 993168000,
+                "id": 650
+            },
+            {
+                "event": "Operation Flashpoint: Resistance",
+                "Developer": "Bohemia Interactive",
+                "Publisher": "Codemasters",
+                "Genre(s)": "Tactical shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "July 10, 2002",
+                "date_start": 1026259200,
+                "date_end": 1026259200,
+                "id": 651
+            },
+            {
+                "event": "Orcs Must Die 2",
+                "Developer": "Robot Entertainment",
+                "Publisher": "Robot Entertainment",
+                "Genre(s)": "Action, Tower Defense",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "July 30, 2012",
+                "date_start": 1343606400,
+                "date_end": 1343606400,
+                "id": 652
+            },
+            {
+                "event": "Order of War",
+                "Developer": "Wargaming",
+                "Publisher": "Square Enix",
+                "Genre(s)": "Strategy",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "September 22, 2009",
+                "date_start": 1253577600,
+                "date_end": 1253577600,
+                "id": 653
+            },
+            {
+                "event": "Ori and the Blind Forest",
+                "Developer": "Moon Studios",
+                "Publisher": "Microsoft Studios",
+                "Genre(s)": "Platform",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "March 11, 2015",
+                "date_start": 1426032000,
+                "date_end": 1426032000,
+                "id": 654
+            },
+            {
+                "event": "Ori and the Will of the Wisps",
+                "Developer": "Moon Studios",
+                "Publisher": "Xbox Game Studios",
+                "Genre(s)": "Platform",
+                "Operating system(s)": "Microsoft Windows, Xbox One",
+                "date": "March 11, 2020",
+                "date_start": 1583884800,
+                "date_end": 1583884800,
+                "id": 655
+            },
+            {
+                "event": "osu!",
+                "Developer": "Dean Herbert",
+                "Publisher": "PPY Developments PTY",
+                "Genre(s)": "Rhythm, music",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "September 16, 2007",
+                "date_start": 1189900800,
+                "date_end": 1189900800,
+                "id": 656
+            },
+            {
+                "event": "Out of the Park Baseball",
+                "Developer": "Sports Interactive",
+                "Publisher": "Sports Interactive",
+                "Genre(s)": "Sports",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "March 26, 2006",
+                "date_start": 1143331200,
+                "date_end": 1143331200,
+                "id": 657
+            },
+            {
+                "event": "Outcast",
+                "Developer": "Appeal",
+                "Publisher": "Infogrames",
+                "Genre(s)": "Adventure, Action",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "August 31, 1999",
+                "date_start": 936057600,
+                "date_end": 936057600,
+                "id": 658
+            },
+            {
+                "event": "Outlast",
+                "Developer": "Red Barrels",
+                "Publisher": "Red Barrels",
+                "Genre(s)": "Action",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "September 4, 2013",
+                "date_start": 1378252800,
+                "date_end": 1378252800,
+                "id": 659
+            },
+            {
+                "event": "Overgrowth",
+                "Developer": "Wolfire Games",
+                "Publisher": "Wolfire Games",
+                "Genre(s)": "Action",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "September 17, 2008",
+                "date_start": 1221609600,
+                "date_end": 1221609600,
+                "id": 660
+            },
+            {
+                "event": "Overwatch",
+                "Developer": "Blizzard Entertainment",
+                "Publisher": "Blizzard Entertainment",
+                "Genre(s)": "Action",
+                "Operating system(s)": "Microsoft Windows, Xbox One, PlayStation 4",
+                "date": "May 24, 2016",
+                "date_start": 1464048000,
+                "date_end": 1464048000,
+                "id": 661
+            },
+            {
+                "event": "Oxenfree",
+                "Developer": "Night School Studio",
+                "Publisher": "Night School Studio",
+                "Genre(s)": "Graphic adventure",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS, Xbox One, PlayStation 4, iOS, Android, Nintendo Switch",
+                "date": "January 15, 2016",
+                "date_start": 1452816000,
+                "date_end": 1452816000,
+                "id": 662
+            },
+            {
+                "event": "Papers, Please",
+                "Developer": "3909 LLC",
+                "Publisher": "3909 LLC",
+                "Genre(s)": "Puzzle, simulation",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "August 8, 2013",
+                "date_start": 1375920000,
+                "date_end": 1375920000,
+                "id": 663
+            },
+            {
+                "event": "ParaWorld",
+                "Developer": "SEK",
+                "Publisher": "Sunflowers",
+                "Genre(s)": "Real-time strategy",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "September 15, 2006",
+                "date_start": 1158278400,
+                "date_end": 1158278400,
+                "id": 664
+            },
+            {
+                "event": "Path of Exile",
+                "Developer": "Grinding Gear Games",
+                "Publisher": "Grinding Gear Games",
+                "Genre(s)": "Action RPG",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "October 23, 2013",
+                "date_start": 1382486400,
+                "date_end": 1382486400,
+                "id": 665
+            },
+            {
+                "event": "Payday: The Heist",
+                "Developer": "Overkill Software",
+                "Publisher": "Sony Online Entertainment",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows, PlayStation 3",
+                "date": "October 18, 2011",
+                "date_start": 1318896000,
+                "date_end": 1318896000,
+                "id": 666
+            },
+            {
+                "event": "Payday 2",
+                "Developer": "Overkill Software",
+                "Publisher": "505 Games",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows, PlayStation 3, PlayStation 4, Xbox 360, Xbox One",
+                "date": "August 13, 2013",
+                "date_start": 1376352000,
+                "date_end": 1376352000,
+                "id": 667
+            },
+            {
+                "event": "Penumbra: Black Plague",
+                "Developer": "Frictional Games",
+                "Publisher": "Paradox Interactive",
+                "Genre(s)": "Survival horror",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "February 12, 2008",
+                "date_start": 1202774400,
+                "date_end": 1202774400,
+                "id": 668
+            },
+            {
+                "event": "Penumbra: Overture",
+                "Developer": "Frictional Games",
+                "Publisher": "Frictional Games",
+                "Genre(s)": "Survival horror",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "March 30, 2007",
+                "date_start": 1175212800,
+                "date_end": 1175212800,
+                "id": 669
+            },
+            {
+                "event": "Penumbra: Requiem",
+                "Developer": "Frictional Games",
+                "Publisher": "Paradox Interactive",
+                "Genre(s)": "Survival horror",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "August 27, 2008",
+                "date_start": 1219795200,
+                "date_end": 1219795200,
+                "id": 670
+            },
+            {
+                "event": "Phantom Doctrine",
+                "Developer": "CreativeForge Games",
+                "Publisher": "Good Shepherd Entertainment",
+                "Genre(s)": "Strategy",
+                "Operating system(s)": "Windows, Xbox One, PlayStation 4, Nintendo Switch",
+                "date": "August 14, 2018",
+                "date_start": 1534204800,
+                "date_end": 1534204800,
+                "id": 671
+            },
+            {
+                "event": "Pillars of Eternity",
+                "Developer": "Obsidian Entertainment",
+                "Publisher": "Paradox Interactive",
+                "Genre(s)": "Role-playing",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS, Xbox One, PlayStation 4",
+                "date": "March 26, 2015",
+                "date_start": 1427328000,
+                "date_end": 1427328000,
+                "id": 672
+            },
+            {
+                "event": "Pixel Piracy",
+                "Developer": "Quadro Delta",
+                "Publisher": "Re-Logic",
+                "Genre(s)": "Action-adventure",
+                "Operating system(s)": "Microsoft Windows, Linux, OS X, PlayStation 4, Xbox One",
+                "date": "February 16, 2016",
+                "date_start": 1455580800,
+                "date_end": 1455580800,
+                "id": 673
+            },
+            {
+                "event": "Planetarian: The Reverie of a Little Planet",
+                "Developer": "Key",
+                "Publisher": "VisualArt's, KineticNovel",
+                "Genre(s)": "Visual novel",
+                "Operating system(s)": "Microsoft Windows, PlayStation 2, PlayStation Portable",
+                "date": "November 29, 2004",
+                "date_start": 1101686400,
+                "date_end": 1101686400,
+                "id": 674
+            },
+            {
+                "event": "Planetary Annihilation",
+                "Developer": "Uber Entertainment",
+                "Publisher": "Uber Entertainment",
+                "Genre(s)": "RTS",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "September 5, 2014",
+                "date_start": 1409875200,
+                "date_end": 1409875200,
+                "id": 675
+            },
+            {
+                "event": "PlanetSide",
+                "Developer": "Sony Online Entertainment",
+                "Publisher": "Sony Online Entertainment",
+                "Genre(s)": "MMOFPS",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "May 20, 2003",
+                "date_start": 1053388800,
+                "date_end": 1053388800,
+                "id": 676
+            },
+            {
+                "event": "PlanetSide 2",
+                "Developer": "Sony Online Entertainment",
+                "Publisher": "Sony Online Entertainment",
+                "Genre(s)": "MMOFPS",
+                "Operating system(s)": "Microsoft Windows, PlayStation 4",
+                "date": "November 12, 2012",
+                "date_start": 1352678400,
+                "date_end": 1352678400,
+                "id": 677
+            },
+            {
+                "event": "Playboy: The Mansion",
+                "Developer": "Cyberlore Studios",
+                "Publisher": "Arush Entertainment, Groove Games",
+                "Genre(s)": "Business simulation game",
+                "Operating system(s)": "Microsoft Windows, PlayStation 2, Xbox",
+                "date": "March 4, 2005",
+                "date_start": 1109894400,
+                "date_end": 1109894400,
+                "id": 678
+            },
+            {
+                "event": "PlayerUnknown's Battlegrounds",
+                "Developer": "PUBG Corporation, Lightspeed & Quantum Studios (mobile)",
+                "Publisher": "PUBG Corporation (Windows), Microsoft Studios (Xbox One), Tencent Games (mobile)",
+                "Genre(s)": "Multiplayer online game, Battle royale game",
+                "Operating system(s)": "Microsoft Windows, Xbox One, Android, iOS",
+                "date": "December 12, 2017",
+                "date_start": 1513036800,
+                "date_end": 1513036800,
+                "id": 679
+            },
+            {
+                "event": "Pok\u00e9mon TCG Online",
+                "Developer": "Dire Wolf Digital",
+                "Publisher": "The Pok\u00e9mon Company",
+                "Genre(s)": "Digital collectible card game",
+                "Operating system(s)": "Microsoft Windows, OS X, iPad, Android",
+                "date": "March 24, 2011",
+                "date_start": 1300924800,
+                "date_end": 1300924800,
+                "id": 680
+            },
+            {
+                "event": "Police Quest: SWAT 2",
+                "Developer": "Yosemite Entertainment",
+                "Publisher": "Sierra FX",
+                "Genre(s)": "Real-time tactics",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "July 11, 1998",
+                "date_start": 900115200,
+                "date_end": 900115200,
+                "id": 681
+            },
+            {
+                "event": "Pony Island",
+                "Developer": "Daniel Mullins Games",
+                "Publisher": "Daniel Mullins Games",
+                "Genre(s)": "Indie",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "January 4, 2016",
+                "date_start": 1451865600,
+                "date_end": 1451865600,
+                "id": 682
+            },
+            {
+                "event": "Pool of Radiance",
+                "Developer": "Strategic Simulations, Inc.",
+                "Publisher": "Strategic Simulations, Inc., Pony Canyon (PC9800, X1)",
+                "Genre(s)": "Fantasy, RPG",
+                "Operating system(s)": "MS-DOS, Amiga, Apple II, Commodore 64, PC-9800 series, X1",
+                "date": "1988",
+                "date_start": 567993600,
+                "date_end": 599529600,
+                "id": 683
+            },
+            {
+                "event": "Pools of Darkness",
+                "Developer": "Strategic Simulations, Inc., MicroMagic, Inc., Marionette (PC9800)",
+                "Publisher": "Strategic Simulations, Inc., Pony Canyon (PC9800)",
+                "Genre(s)": "Fantasy, RPG",
+                "Operating system(s)": "Microsoft Windows, macOS, Amiga, PC-9800 series",
+                "date": "1991",
+                "date_start": 662688000,
+                "date_end": 694137600,
+                "id": 684
+            },
+            {
+                "event": "Portal",
+                "Developer": "Valve",
+                "Publisher": "Valve, Microsoft Game Studios",
+                "Genre(s)": "Puzzle-platform game",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS, PlayStation 3, Xbox 360, Android",
+                "date": "October 10, 2007",
+                "date_start": 1191974400,
+                "date_end": 1191974400,
+                "id": 685
+            },
+            {
+                "event": "Portal 2",
+                "Developer": "Valve",
+                "Publisher": "Valve",
+                "Genre(s)": "Puzzle-platform game",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS, PlayStation 3, Xbox 360",
+                "date": "April 19, 2011",
+                "date_start": 1303171200,
+                "date_end": 1303171200,
+                "id": 686
+            },
+            {
+                "event": "Postal",
+                "Developer": "Running with Scissors",
+                "Publisher": "Running with Scissors",
+                "Genre(s)": "Top-down shooter",
+                "Operating system(s)": "Android, Microsoft Windows, Mac OS, OS X, Linux",
+                "date": "November 14, 1997",
+                "date_start": 879465600,
+                "date_end": 879465600,
+                "id": 687
+            },
+            {
+                "event": "Postal 2",
+                "Developer": "Running with Scissors",
+                "Publisher": "Running with Scissors",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows, Linux, OS X",
+                "date": "April 13, 2003",
+                "date_start": 1050192000,
+                "date_end": 1050192000,
+                "id": 688
+            },
+            {
+                "event": "Postal III",
+                "Developer": "Running with Scissors",
+                "Publisher": "Akella",
+                "Genre(s)": "Third-person shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 23, 2011",
+                "date_start": 1322006400,
+                "date_end": 1322006400,
+                "id": 689
+            },
+            {
+                "event": "Postal Redux",
+                "Developer": "Running with Scissors",
+                "Publisher": "Running with Scissors",
+                "Genre(s)": "Shoot 'em up",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "May 20, 2016",
+                "date_start": 1463702400,
+                "date_end": 1463702400,
+                "id": 690
+            },
+            {
+                "event": "PP: Pianissimo",
+                "Developer": "Innocent Grey",
+                "Publisher": "Innocent Grey",
+                "Genre(s)": "Mystery",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "September 29, 2009",
+                "date_start": 1254182400,
+                "date_end": 1254182400,
+                "id": 691
+            },
+            {
+                "event": "Prince of Persia: The Sands of Time",
+                "Developer": "Ubisoft Montreal",
+                "Publisher": "Ubisoft",
+                "Genre(s)": "Action-adventure, puzzle-platformer, hack and slash",
+                "Operating system(s)": "Microsoft Windows, PlayStation 2, Xbox, GameCube, Game Boy Advance, Mobile, PlayStation 3",
+                "date": "November 6, 2003",
+                "date_start": 1068076800,
+                "date_end": 1068076800,
+                "id": 692
+            },
+            {
+                "event": "Prince of Persia: Warrior Within",
+                "Developer": "Ubisoft Montreal, Pipeworks Software, Gameloft",
+                "Publisher": "Ubisoft, Gameloft",
+                "Genre(s)": "Action-adventure, platform, hack and slash",
+                "Operating system(s)": "Microsoft Windows, PlayStation 2, GameCube, Xbox, PlayStation 3, iOS, PlayStation Portable",
+                "date": "November 30, 2004",
+                "date_start": 1101772800,
+                "date_end": 1101772800,
+                "id": 693
+            },
+            {
+                "event": "Prison Architect",
+                "Developer": "Introversion Software",
+                "Publisher": "Introversion Software",
+                "Genre(s)": "Construction and management simulation",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "October 6, 2015",
+                "date_start": 1444089600,
+                "date_end": 1444089600,
+                "id": 694
+            },
+            {
+                "event": "Project I.G.I.",
+                "Developer": "Innerloop Studios",
+                "Publisher": "Eidos Interactive",
+                "Genre(s)": "Stealth game",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "December 15, 2000",
+                "date_start": 976838400,
+                "date_end": 976838400,
+                "id": 695
+            },
+            {
+                "event": "Project Zomboid",
+                "Developer": "The Indie Stone",
+                "Publisher": "The Indie Stone",
+                "Genre(s)": "Role-playing, survival horror",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "November 8, 2013",
+                "date_start": 1383868800,
+                "date_end": 1383868800,
+                "id": 696
+            },
+            {
+                "event": "Quake",
+                "Developer": "id Software",
+                "Publisher": "GT Interactive",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "DOS, Linux, macOS",
+                "date": "June 22, 1996",
+                "date_start": 835401600,
+                "date_end": 835401600,
+                "id": 697
+            },
+            {
+                "event": "Quake II",
+                "Developer": "id Software, Logicware, Raster Productions, Hammerhead",
+                "Publisher": "Activision, Macmillan Digital Publishing USA",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS, Nintendo 64, PlayStation, Amiga, Xbox 360",
+                "date": "December 9, 1997",
+                "date_start": 881625600,
+                "date_end": 881625600,
+                "id": 698
+            },
+            {
+                "event": "Quake III Arena",
+                "Developer": "id Software, Raster Productions, Bullfrog Productions, Pi Studios",
+                "Publisher": "Activision, Loki Software, Sega, Electronic Arts",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS, Amiga, Dreamcast, PlayStation 2, Xbox 360",
+                "date": "December 2, 1999",
+                "date_start": 944092800,
+                "date_end": 944092800,
+                "id": 699
+            },
+            {
+                "event": "Quake 4",
+                "Developer": "Raven Software, id Software",
+                "Publisher": "Activision Bethesda Softworks",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS, Xbox 360",
+                "date": "October 18, 2005",
+                "date_start": 1129593600,
+                "date_end": 1129593600,
+                "id": 700
+            },
+            {
+                "event": "Rage",
+                "Developer": "id Software",
+                "Publisher": "Bethesda Softworks",
+                "Genre(s)": "First-person shooter, action-adventure, vehicular combat, racing",
+                "Operating system(s)": "Microsoft Windows, PlayStation 3, Xbox 360",
+                "date": "October 4, 2011",
+                "date_start": 1317686400,
+                "date_end": 1317686400,
+                "id": 701
+            },
+            {
+                "event": "Railroad Tycoon",
+                "Developer": "MicroProse",
+                "Publisher": "MicroProse",
+                "Genre(s)": "Business simulation",
+                "Operating system(s)": "DOS, Amiga, macOS, Atari ST",
+                "date": "1990",
+                "date_start": 631152000,
+                "date_end": 662601600,
+                "id": 702
+            },
+            {
+                "event": "Railroad Tycoon 3",
+                "Developer": "PopTop Software",
+                "Publisher": "Gathering of Developers",
+                "Genre(s)": "Business simulation",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "October 27, 2003",
+                "date_start": 1067212800,
+                "date_end": 1067212800,
+                "id": 703
+            },
+            {
+                "event": "Rayman",
+                "Developer": "Ubisoft",
+                "Publisher": "Ubisoft",
+                "Genre(s)": "Platformer",
+                "Operating system(s)": "DOS",
+                "date": "April 30, 1996",
+                "date_start": 830822400,
+                "date_end": 830822400,
+                "id": 704
+            },
+            {
+                "event": "Rayman 2: The Great Escape",
+                "Developer": "Ubisoft",
+                "Publisher": "Ubisoft",
+                "Genre(s)": "Platformer",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "October 31, 1999",
+                "date_start": 941328000,
+                "date_end": 941328000,
+                "id": 705
+            },
+            {
+                "event": "Rayman 3: Hoodlum Havoc",
+                "Developer": "Ubisoft",
+                "Publisher": "Ubisoft",
+                "Genre(s)": "Platformer",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "March 24, 2003",
+                "date_start": 1048464000,
+                "date_end": 1048464000,
+                "id": 706
+            },
+            {
+                "event": "Rayman Legends",
+                "Developer": "Ubisoft",
+                "Publisher": "Ubisoft",
+                "Genre(s)": "Platformer",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "September 3, 2013",
+                "date_start": 1378166400,
+                "date_end": 1378166400,
+                "id": 707
+            },
+            {
+                "event": "Rayman M/Arena",
+                "Developer": "Ubisoft",
+                "Publisher": "Ubisoft",
+                "Genre(s)": "Party",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "August 31, 2002",
+                "date_start": 1030752000,
+                "date_end": 1030752000,
+                "id": 708
+            },
+            {
+                "event": "Rayman Origins",
+                "Developer": "Ubisoft",
+                "Publisher": "Ubisoft",
+                "Genre(s)": "Platformer",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "March 29, 2012",
+                "date_start": 1332979200,
+                "date_end": 1332979200,
+                "id": 709
+            },
+            {
+                "event": "Recettear: An Item Shop's Tale",
+                "Developer": "EasyGameStation",
+                "Publisher": "Carpe Fulgur",
+                "Genre(s)": "RPG",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "September 10, 2010",
+                "date_start": 1284076800,
+                "date_end": 1284076800,
+                "id": 710
+            },
+            {
+                "event": "Rec Room",
+                "Developer": "Against Gravity",
+                "Publisher": "Against Gravity",
+                "Genre(s)": "Action RPG, first-person shooter",
+                "Operating system(s)": "Microsoft Windows, PlayStation 4",
+                "date": "June 28, 2016",
+                "date_start": 1467072000,
+                "date_end": 1467072000,
+                "id": 711
+            },
+            {
+                "event": "Red Orchestra: Ostfront 41-45",
+                "Developer": "Tripwire Interactive",
+                "Publisher": "Bold Games",
+                "Genre(s)": "Tactical shooter, first-person shooter",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "March 14, 2006",
+                "date_start": 1142294400,
+                "date_end": 1142294400,
+                "id": 712
+            },
+            {
+                "event": "Red Dead Redemption 2",
+                "Developer": "Rockstar Studios",
+                "Publisher": "Rockstar Games",
+                "Genre(s)": "Action-adventure",
+                "Operating system(s)": "Microsoft Windows, PlayStation 4, Xbox One",
+                "date": "November 5, 2019",
+                "date_start": 1572912000,
+                "date_end": 1572912000,
+                "id": 713
+            },
+            {
+                "event": "Red Orchestra 2: Heroes of Stalingrad",
+                "Developer": "Tripwire Interactive",
+                "Publisher": "1C Company",
+                "Genre(s)": "Tactical shooter, first-person shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "September 13, 2011",
+                "date_start": 1315872000,
+                "date_end": 1315872000,
+                "id": 714
+            },
+            {
+                "event": "Redshirt",
+                "Developer": "The Tiniest Shark",
+                "Publisher": "Positech Games",
+                "Genre(s)": "Simulation game",
+                "Operating system(s)": "Microsoft Windows, iOS, Android",
+                "date": "November 13, 2013",
+                "date_start": 1384300800,
+                "date_end": 1384300800,
+                "id": 715
+            },
+            {
+                "event": "Reign of Kings",
+                "Developer": "CodeHatch",
+                "Publisher": null,
+                "Genre(s)": "Sandbox, first-person shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "March 11, 2015",
+                "date_start": 1426032000,
+                "date_end": 1426032000,
+                "id": 716
+            },
+            {
+                "event": "Resident Evil",
+                "Developer": "Capcom",
+                "Publisher": "Capcom",
+                "Genre(s)": "Survival horror",
+                "Operating system(s)": "Microsoft Windows, PlayStation",
+                "date": "March 22, 1996",
+                "date_start": 827452800,
+                "date_end": 827452800,
+                "id": 717
+            },
+            {
+                "event": "Resident Evil 2",
+                "Developer": "Capcom",
+                "Publisher": "Capcom",
+                "Genre(s)": "Survival horror",
+                "Operating system(s)": "Microsoft Windows, PlayStation",
+                "date": "January 21, 1998",
+                "date_start": 885340800,
+                "date_end": 885340800,
+                "id": 718
+            },
+            {
+                "event": "Resident Evil 3: Nemesis",
+                "Developer": "Capcom",
+                "Publisher": "Capcom",
+                "Genre(s)": "Survival horror",
+                "Operating system(s)": "Microsoft Windows, PlayStation",
+                "date": "September 22, 1999",
+                "date_start": 937958400,
+                "date_end": 937958400,
+                "id": 719
+            },
+            {
+                "event": "Resident Evil 4",
+                "Developer": "Capcom Production Studio 4",
+                "Publisher": "Capcom",
+                "Genre(s)": "Survival horror",
+                "Operating system(s)": "Microsoft Windows, GameCube, PlayStation 2, Wii, iOS, Zeebo, PlayStation 3, Xbox 360, PlayStation 4",
+                "date": "January 11, 2005",
+                "date_start": 1105401600,
+                "date_end": 1105401600,
+                "id": 720
+            },
+            {
+                "event": "Resident Evil 5",
+                "Developer": "Capcom",
+                "Publisher": "Capcom",
+                "Genre(s)": "Action-adventure, third-person shooter",
+                "Operating system(s)": "Microsoft Windows, PlayStation 3, Xbox 360",
+                "date": "March 5, 2009",
+                "date_start": 1236211200,
+                "date_end": 1236211200,
+                "id": 721
+            },
+            {
+                "event": "Resident Evil 6",
+                "Developer": "Capcom",
+                "Publisher": "Capcom",
+                "Genre(s)": "Action-adventure, third-person shooter",
+                "Operating system(s)": "Microsoft Windows, PlayStation 3, Xbox 360",
+                "date": "October 2, 2012",
+                "date_start": 1349136000,
+                "date_end": 1349136000,
+                "id": 722
+            },
+            {
+                "event": "Resident Evil: Operation Raccoon City",
+                "Developer": "Slant Six Games, Capcom",
+                "Publisher": "Capcom",
+                "Genre(s)": "Action-adventure, third-person shooter",
+                "Operating system(s)": "Microsoft Windows, PlayStation 3, Xbox 360",
+                "date": "March 20, 2012",
+                "date_start": 1332201600,
+                "date_end": 1332201600,
+                "id": 723
+            },
+            {
+                "event": "Resident Evil: Revelations",
+                "Developer": "Capcom Tose Co. Ltd",
+                "Publisher": "Capcom",
+                "Genre(s)": "Action, survival horror",
+                "Operating system(s)": "Microsoft Windows, PlayStation 3, Xbox 360, Nintendo 3DS",
+                "date": "January 26, 2012",
+                "date_start": 1327536000,
+                "date_end": 1327536000,
+                "id": 724
+            },
+            {
+                "event": "Resident Evil: Revelations 2",
+                "Developer": "Capcom",
+                "Publisher": "Capcom",
+                "Genre(s)": "Action, survival horror",
+                "Operating system(s)": "Microsoft Windows, PlayStation 3, PlayStation 4, PlayStation Vita, Xbox 360, Xbox One",
+                "date": "February 24, 2015",
+                "date_start": 1424736000,
+                "date_end": 1424736000,
+                "id": 725
+            },
+            {
+                "event": "Retrobooster",
+                "Developer": "Really Slick",
+                "Publisher": "Really Slick",
+                "Genre(s)": "Action, arcade, multidirectional shooter",
+                "Operating system(s)": "Microsoft Windows, Linux",
+                "date": "February 21, 2014",
+                "date_start": 1392940800,
+                "date_end": 1392940800,
+                "id": 726
+            },
+            {
+                "event": "Return of the Obra Dinn",
+                "Developer": "3909 LLC",
+                "Publisher": "3909 LLC",
+                "Genre(s)": "Adventure, Puzzle",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "October 18, 2018",
+                "date_start": 1539820800,
+                "date_end": 1539820800,
+                "id": 727
+            },
+            {
+                "event": "Ricochet",
+                "Developer": "Valve",
+                "Publisher": null,
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "November 1, 2000",
+                "date_start": 973036800,
+                "date_end": 973036800,
+                "id": 728
+            },
+            {
+                "event": "Ride",
+                "Developer": "Milestone srl",
+                "Publisher": "Milestone srl",
+                "Genre(s)": "Racing",
+                "Operating system(s)": "Microsoft Windows, PlayStation 3, PlayStation 4, Xbox 360, Xbox One",
+                "date": "March 27, 2015",
+                "date_start": 1427414400,
+                "date_end": 1427414400,
+                "id": 729
+            },
+            {
+                "event": "RimWorld",
+                "Developer": "Ludeon Studios",
+                "Publisher": "Ludeon Studios",
+                "Genre(s)": "Construction and management simulation",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "October 17, 2018",
+                "date_start": 1539734400,
+                "date_end": 1539734400,
+                "id": 730
+            },
+            {
+                "event": "Rise of Nations",
+                "Developer": "Big Huge Games",
+                "Publisher": "Microsoft Game Studios",
+                "Genre(s)": "Real-time strategy",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "May 20, 2003",
+                "date_start": 1053388800,
+                "date_end": 1053388800,
+                "id": 731
+            },
+            {
+                "event": "Rise of Nations: Rise of Legends",
+                "Developer": "Big Huge Games",
+                "Publisher": "Microsoft Game Studios",
+                "Genre(s)": "Real-time strategy",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "May 9, 2006",
+                "date_start": 1147132800,
+                "date_end": 1147132800,
+                "id": 732
+            },
+            {
+                "event": "Rise of Nations: Thrones and Patriots",
+                "Developer": "Big Huge Games",
+                "Publisher": "Microsoft Game Studios",
+                "Genre(s)": "Real-time strategy",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "April 21, 2004",
+                "date_start": 1082505600,
+                "date_end": 1082505600,
+                "id": 733
+            },
+            {
+                "event": "Rise of the Tomb Raider",
+                "Developer": "Square Enix",
+                "Publisher": "Crystal Dynamics",
+                "Genre(s)": "Action-adventure",
+                "Operating system(s)": "Microsoft Windows, PlayStation 4, Xbox 360, Xbox One",
+                "date": "January 28, 2016",
+                "date_start": 1453939200,
+                "date_end": 1453939200,
+                "id": 734
+            },
+            {
+                "event": "Robot Roller-Derby Disco Dodgeball",
+                "Developer": "Erik Asmussen",
+                "Publisher": "82 Apps",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "March 28, 2014",
+                "date_start": 1395964800,
+                "date_end": 1395964800,
+                "id": 735
+            },
+            {
+                "event": "Roblox",
+                "Developer": "Roblox Corporation",
+                "Publisher": "Roblox Corporation",
+                "Genre(s)": "Sandbox",
+                "Operating system(s)": "Microsoft Windows, Xbox One, Android, IOS, MacOS, Fire OS",
+                "date": "September 1, 2006",
+                "date_start": 1157068800,
+                "date_end": 1157068800,
+                "id": 736
+            },
+            {
+                "event": "Rock 'n' Roll Adventures",
+                "Developer": "Data Design Interactive",
+                "Publisher": "Data Design Interactive",
+                "Genre(s)": "Platform",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "September 17, 2007",
+                "date_start": 1189987200,
+                "date_end": 1189987200,
+                "id": 737
+            },
+            {
+                "event": "Rocket League",
+                "Developer": "Psyonix",
+                "Publisher": "Psyonix",
+                "Genre(s)": "Vehicular Soccer",
+                "Operating system(s)": "Microsoft Windows, PlayStation 4, Xbox One, MacOS, Linux, Nintendo Switch",
+                "date": "July 7, 2015",
+                "date_start": 1436227200,
+                "date_end": 1436227200,
+                "id": 738
+            },
+            {
+                "event": "RollerCoaster Tycoon",
+                "Developer": "Chris Sawyer Productions",
+                "Publisher": "Hasbro Interactive, MicroProse",
+                "Genre(s)": "Simulation game",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "March 31, 1999",
+                "date_start": 922838400,
+                "date_end": 922838400,
+                "id": 739
+            },
+            {
+                "event": "RollerCoaster Tycoon 2",
+                "Developer": "Chris Sawyer Productions",
+                "Publisher": "Infogrames",
+                "Genre(s)": "Simulation game",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "October 15, 2002",
+                "date_start": 1034640000,
+                "date_end": 1034640000,
+                "id": 740
+            },
+            {
+                "event": "RollerCoaster Tycoon 3",
+                "Developer": "Frontier Developments",
+                "Publisher": "Atari",
+                "Genre(s)": "Simulation game",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "October 26, 2004",
+                "date_start": 1098748800,
+                "date_end": 1098748800,
+                "id": 741
+            },
+            {
+                "event": "Rome: Total War",
+                "Developer": "The Creative Assembly",
+                "Publisher": "Sega",
+                "Genre(s)": "Turn-based strategy",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "November 22, 2004",
+                "date_start": 1101081600,
+                "date_end": 1101081600,
+                "id": 742
+            },
+            {
+                "event": "Rome: Total War: Alexander",
+                "Developer": "The Creative Assembly, Feral Interactive",
+                "Publisher": "Activision, Sega, Feral Interactive",
+                "Genre(s)": "Turn-based strategy",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "June 19, 2006",
+                "date_start": 1150675200,
+                "date_end": 1150675200,
+                "id": 743
+            },
+            {
+                "event": "Rome: Total War: Barbarian Invasion",
+                "Developer": "The Creative Assembly",
+                "Publisher": "Activision, Sega",
+                "Genre(s)": "Turn-based strategy",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "September 27, 2005",
+                "date_start": 1127779200,
+                "date_end": 1127779200,
+                "id": 744
+            },
+            {
+                "event": "Roundabout",
+                "Developer": "No Goblin LLC",
+                "Publisher": "No Goblin LLC",
+                "Genre(s)": "Open-world driving game",
+                "Operating system(s)": "Microsoft Windows, OS X, Linux, Xbox One, PlayStation 4, PlayStation Vita",
+                "date": "September 18, 2014",
+                "date_start": 1410998400,
+                "date_end": 1410998400,
+                "id": 745
+            },
+            {
+                "event": "RuneScape",
+                "Developer": "Jagex",
+                "Publisher": "Jagex",
+                "Genre(s)": "MMORPG",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "January 4, 2001",
+                "date_start": 978566400,
+                "date_end": 978566400,
+                "id": 746
+            },
+            {
+                "event": "Rust",
+                "Developer": "Facepunch Studios",
+                "Publisher": "Facepunch Studios",
+                "Genre(s)": "Open world",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "December 11, 2013",
+                "date_start": 1386720000,
+                "date_end": 1386720000,
+                "id": 747
+            },
+            {
+                "event": "Ryse: Son of Rome",
+                "Developer": "Crytek",
+                "Publisher": "Microsoft Studios, Crytek",
+                "Genre(s)": "Action-adventure, hack and slash",
+                "Operating system(s)": "Microsoft Windows, Xbox One",
+                "date": "October 10, 2014",
+                "date_start": 1412899200,
+                "date_end": 1412899200,
+                "id": 748
+            },
+            {
+                "event": "Saints Row 2",
+                "Developer": "Volition, CD Projekt (Windows)",
+                "Publisher": "THQ",
+                "Genre(s)": "Action-adventure, open world",
+                "Operating system(s)": "Microsoft Windows, PlayStation 3, Xbox 360",
+                "date": "January 5, 2009",
+                "date_start": 1231113600,
+                "date_end": 1231113600,
+                "id": 749
+            },
+            {
+                "event": "Saints Row: The Third",
+                "Developer": "Volition",
+                "Publisher": "THQ",
+                "Genre(s)": "Action-adventure, open world",
+                "Operating system(s)": "Microsoft Windows, PlayStation 3, Xbox 360",
+                "date": "November 15, 2011",
+                "date_start": 1321315200,
+                "date_end": 1321315200,
+                "id": 750
+            },
+            {
+                "event": "Saints Row IV",
+                "Developer": "Volition",
+                "Publisher": "Deep Silver, Spike Chunsoft",
+                "Genre(s)": "Action-adventure, open world",
+                "Operating system(s)": "Microsoft Windows, PlayStation 3, Xbox 360",
+                "date": "August 20, 2013",
+                "date_start": 1376956800,
+                "date_end": 1376956800,
+                "id": 751
+            },
+            {
+                "event": "Scrapland",
+                "Developer": "Mercury Steam Entertainment",
+                "Publisher": "Deep Silver, Enlight Software",
+                "Genre(s)": "Action-adventure",
+                "Operating system(s)": "Microsoft Windows, Xbox",
+                "date": "November 4, 2004",
+                "date_start": 1099526400,
+                "date_end": 1099526400,
+                "id": 752
+            },
+            {
+                "event": "Secret of the Silver Blades",
+                "Developer": "Strategic Simulations, Inc.",
+                "Publisher": "Strategic Simulations, Inc., Pony Canyon, Inc.",
+                "Genre(s)": "Fantasy, RPG",
+                "Operating system(s)": "DOS, macOS, Commodore 64, Amiga, NEC PC-9801",
+                "date": "October 20, 1990",
+                "date_start": 656380800,
+                "date_end": 656380800,
+                "id": 753
+            },
+            {
+                "event": "Sengoku",
+                "Developer": "Paradox Development Studios",
+                "Publisher": "Paradox Interactive",
+                "Genre(s)": "Grand strategy",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "September 13, 2011",
+                "date_start": 1315872000,
+                "date_end": 1315872000,
+                "id": 754
+            },
+            {
+                "event": "Shadow of the Tomb Raider",
+                "Developer": "Eidos Montr\u00e9al",
+                "Publisher": "Square Enix",
+                "Genre(s)": "action-adventure",
+                "Operating system(s)": "Microsoft Windows, PlayStation 4, Xbox One",
+                "date": "September 14, 2018",
+                "date_start": 1536883200,
+                "date_end": 1536883200,
+                "id": 755
+            },
+            {
+                "event": "Shogun: Total War",
+                "Developer": "The Creative Assembly",
+                "Publisher": "Electronic Arts, Sega, Sold-Out Software",
+                "Genre(s)": "Turn-based strategy, real-time tactics",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "June 13, 2000",
+                "date_start": 960854400,
+                "date_end": 960854400,
+                "id": 756
+            },
+            {
+                "event": "ShootMania Storm",
+                "Developer": "Nadeo",
+                "Publisher": "Ubisoft",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "April 10, 2013",
+                "date_start": 1365552000,
+                "date_end": 1365552000,
+                "id": 757
+            },
+            {
+                "event": "Sid Meier's Railroads!",
+                "Developer": "Firaxis Games, Feral Interactive",
+                "Publisher": "2K Games, Feral Interactive",
+                "Genre(s)": "Business simulation",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "October 17, 2006",
+                "date_start": 1161043200,
+                "date_end": 1161043200,
+                "id": 758
+            },
+            {
+                "event": "Silent Hunter",
+                "Developer": "Aeon Electronic Entertainment",
+                "Publisher": "Strategic Simulations",
+                "Genre(s)": "Submarine simulator",
+                "Operating system(s)": "DOS",
+                "date": "1996",
+                "date_start": 820454400,
+                "date_end": 851990400,
+                "id": 759
+            },
+            {
+                "event": "Silent Hunter II",
+                "Developer": "Aeon Electronic Entertainment",
+                "Publisher": "Ubisoft",
+                "Genre(s)": "Submarine simulator",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 6, 2001",
+                "date_start": 1005004800,
+                "date_end": 1005004800,
+                "id": 760
+            },
+            {
+                "event": "Silent Hunter III",
+                "Developer": "Ubisoft Bucharest",
+                "Publisher": "Ubisoft",
+                "Genre(s)": "Submarine simulator",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "March 15, 2005",
+                "date_start": 1110844800,
+                "date_end": 1110844800,
+                "id": 761
+            },
+            {
+                "event": "Silent Hunter 4: Wolves of the Pacific",
+                "Developer": "Ubisoft Bucharest",
+                "Publisher": "Ubisoft",
+                "Genre(s)": "Submarine simulator",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "March 20, 2007",
+                "date_start": 1174348800,
+                "date_end": 1174348800,
+                "id": 762
+            },
+            {
+                "event": "Silent Hunter 5: Battle of the Atlantic",
+                "Developer": "Ubisoft Bucharest",
+                "Publisher": "Ubisoft",
+                "Genre(s)": "Submarine simulator",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "March 2, 2010",
+                "date_start": 1267488000,
+                "date_end": 1267488000,
+                "id": 763
+            },
+            {
+                "event": "Silkroad Online",
+                "Developer": "Joymax",
+                "Publisher": "Joymax, Yahoo!",
+                "Genre(s)": "MMORPG",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "2004",
+                "date_start": 1072915200,
+                "date_end": 1104451200,
+                "id": 764
+            },
+            {
+                "event": "SimCity",
+                "Developer": "Maxis",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "City-building",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "March 5, 2013",
+                "date_start": 1362441600,
+                "date_end": 1362441600,
+                "id": 765
+            },
+            {
+                "event": "SimCity 2000",
+                "Developer": "Maxis",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "City-building",
+                "Operating system(s)": "Microsoft Windows, Various",
+                "date": "1994",
+                "date_start": 757382400,
+                "date_end": 788832000,
+                "id": 766
+            },
+            {
+                "event": "SimCity 3000",
+                "Developer": "Maxis",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "City-building",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "January 31, 1999",
+                "date_start": 917740800,
+                "date_end": 917740800,
+                "id": 767
+            },
+            {
+                "event": "SimCity 4",
+                "Developer": "Maxis",
+                "Publisher": "Electronic Arts, Aspyr Media",
+                "Genre(s)": "City-building",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "January 14, 2003",
+                "date_start": 1042502400,
+                "date_end": 1042502400,
+                "id": 768
+            },
+            {
+                "event": "SimCity Societies",
+                "Developer": "Tilted Mill Entertainment",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "City-building",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 13, 2007",
+                "date_start": 1194912000,
+                "date_end": 1194912000,
+                "id": 769
+            },
+            {
+                "event": "Sins of a Solar Empire",
+                "Developer": "Ironclad Games",
+                "Publisher": "Stardock",
+                "Genre(s)": "RTS",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "2008",
+                "date_start": 1199145600,
+                "date_end": 1230681600,
+                "id": 770
+            },
+            {
+                "event": "Sleeping Dogs",
+                "Developer": "United Front Games",
+                "Publisher": "Square Enix",
+                "Genre(s)": "Action-adventure",
+                "Operating system(s)": "Microsoft Windows, PlayStation 3, PlayStation 4, Xbox 360, Xbox One",
+                "date": "September 14, 2012",
+                "date_start": 1347580800,
+                "date_end": 1347580800,
+                "id": 771
+            },
+            {
+                "event": "Smite",
+                "Developer": "Hi-Rez Studios",
+                "Publisher": "Hi-Rez Studios",
+                "Genre(s)": "MOBA",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "March 25, 2014",
+                "date_start": 1395705600,
+                "date_end": 1395705600,
+                "id": 772
+            },
+            {
+                "event": "Sonic Heroes",
+                "Developer": "Sonic Team USA",
+                "Publisher": "Sega",
+                "Genre(s)": "platform",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "December 5, 2003",
+                "date_start": 1070582400,
+                "date_end": 1070582400,
+                "id": 773
+            },
+            {
+                "event": "Sonic & Knuckles Collection",
+                "Developer": "Sega PC",
+                "Publisher": "Sega",
+                "Genre(s)": "platform, compilation",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "1997",
+                "date_start": 852076800,
+                "date_end": 883526400,
+                "id": 774
+            },
+            {
+                "event": "Space Engineers",
+                "Developer": "Keen Software House",
+                "Publisher": "Keen Software House",
+                "Genre(s)": "Sandbox, simulation",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "October 23, 2013",
+                "date_start": 1382486400,
+                "date_end": 1382486400,
+                "id": 775
+            },
+            {
+                "event": "Space Station 13",
+                "Developer": "SS13 Development Team",
+                "Publisher": "SS13 Development Team",
+                "Genre(s)": "MMORPG",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "February 16, 2003",
+                "date_start": 1045353600,
+                "date_end": 1045353600,
+                "id": 776
+            },
+            {
+                "event": "SpaceChem",
+                "Developer": "Zachtronics Industries",
+                "Publisher": "Zachtronics Industries",
+                "Genre(s)": "Puzzle",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS, iOS, Android",
+                "date": "January 1, 2011",
+                "date_start": 1293840000,
+                "date_end": 1293840000,
+                "id": 777
+            },
+            {
+                "event": "Spore",
+                "Developer": "Maxis",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "Life simulation",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "September 7, 2008",
+                "date_start": 1220745600,
+                "date_end": 1220745600,
+                "id": 778
+            },
+            {
+                "event": "Spore Galactic Adventures",
+                "Developer": "Maxis",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "Life simulation",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "June 23, 2009",
+                "date_start": 1245715200,
+                "date_end": 1245715200,
+                "id": 779
+            },
+            {
+                "event": "S.T.A.L.K.E.R.: Call of Pripyat",
+                "Developer": "GSC Game World",
+                "Publisher": "Viva Media",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "February 2, 2010",
+                "date_start": 1265068800,
+                "date_end": 1265068800,
+                "id": 780
+            },
+            {
+                "event": "S.T.A.L.K.E.R.: Clear Sky",
+                "Developer": "GSC Game World",
+                "Publisher": "Deep Silver",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "September 15, 2008",
+                "date_start": 1221436800,
+                "date_end": 1221436800,
+                "id": 781
+            },
+            {
+                "event": "S.T.A.L.K.E.R.: Shadow of Chernobyl",
+                "Developer": "GSC Game World",
+                "Publisher": "THQ",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "March 20, 2007",
+                "date_start": 1174348800,
+                "date_end": 1174348800,
+                "id": 782
+            },
+            {
+                "event": "Starbound",
+                "Developer": "Chucklefish",
+                "Publisher": "Chucklefish",
+                "Genre(s)": "Action-adventure, first-person shooter",
+                "Operating system(s)": "Microsoft Windows, OS X, Linux, PlayStation 4, PlayStation Vita, Xbox One",
+                "date": "July 22, 2016",
+                "date_start": 1469145600,
+                "date_end": 1469145600,
+                "id": 783
+            },
+            {
+                "event": "Star Trek Online",
+                "Developer": "Cryptic Studios",
+                "Publisher": "Perfect World Entertainment",
+                "Genre(s)": "MMORPG",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "February 2, 2010",
+                "date_start": 1265068800,
+                "date_end": 1265068800,
+                "id": 784
+            },
+            {
+                "event": "Star Wars: Empire At War",
+                "Developer": "Petroglyph Games",
+                "Publisher": "LucasArts",
+                "Genre(s)": "Real-time strategy",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "February 16, 2006",
+                "date_start": 1140048000,
+                "date_end": 1140048000,
+                "id": 785
+            },
+            {
+                "event": "Star Wars Galaxies",
+                "Developer": "Sony Online Entertainment",
+                "Publisher": "Electronic Arts, LucasArts",
+                "Genre(s)": "MMORPG",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "February 17, 2006",
+                "date_start": 1140134400,
+                "date_end": 1140134400,
+                "id": 786
+            },
+            {
+                "event": "Star Wars: Knights of the Old Republic",
+                "Developer": "BioWare",
+                "Publisher": "LucasArts",
+                "Genre(s)": "RPG",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "November 19, 2003",
+                "date_start": 1069200000,
+                "date_end": 1069200000,
+                "id": 787
+            },
+            {
+                "event": "Star Wars: Knights of the Old Republic II \u2013 The Sith Lords",
+                "Developer": "Obsidian Entertainment",
+                "Publisher": "LucasArts",
+                "Genre(s)": "RPG",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "February 8, 2005",
+                "date_start": 1107820800,
+                "date_end": 1107820800,
+                "id": 788
+            },
+            {
+                "event": "Star Wars: Republic Commando",
+                "Developer": "LucasArts, Magellan Interactive",
+                "Publisher": "THQ Wireless",
+                "Genre(s)": "Tactical shooter, first-person shooter",
+                "Operating system(s)": "Xbox, Microsoft Windows, mobile phone",
+                "date": "February 17, 2005",
+                "date_start": 1108598400,
+                "date_end": 1108598400,
+                "id": 789
+            },
+            {
+                "event": "Star Wars: The Old Republic",
+                "Developer": "BioWare",
+                "Publisher": "Electronic Arts, LucasArts",
+                "Genre(s)": "MMORPG",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "December 20, 2011",
+                "date_start": 1324339200,
+                "date_end": 1324339200,
+                "id": 790
+            },
+            {
+                "event": "Star Wars: TIE Fighter",
+                "Developer": "Lucasarts",
+                "Publisher": "Lucasarts",
+                "Genre(s)": "Flight simulation",
+                "Operating system(s)": "DOS, Windows 9x, Linux, macOS",
+                "date": "July 1, 1994",
+                "date_start": 773020800,
+                "date_end": 773020800,
+                "id": 791
+            },
+            {
+                "event": "Star Wars: X-Wing",
+                "Developer": "Lucasarts",
+                "Publisher": "Lucasarts",
+                "Genre(s)": "Flight simulation",
+                "Operating system(s)": "DOS, macOS",
+                "date": "February 1, 1993",
+                "date_start": 728524800,
+                "date_end": 728524800,
+                "id": 792
+            },
+            {
+                "event": "StarCraft",
+                "Developer": "Blizzard Entertainment",
+                "Publisher": "Blizzard Entertainment",
+                "Genre(s)": "RTS",
+                "Operating system(s)": "Microsoft Windows, macOS, Nintendo 64",
+                "date": "March 31, 1998",
+                "date_start": 891302400,
+                "date_end": 891302400,
+                "id": 793
+            },
+            {
+                "event": "StarCraft: Brood War",
+                "Developer": "Blizzard Entertainment Saffire",
+                "Publisher": "Blizzard Entertainment",
+                "Genre(s)": "RTS",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "November 30, 1998",
+                "date_start": 912384000,
+                "date_end": 912384000,
+                "id": 794
+            },
+            {
+                "event": "StarCraft II: Heart of the Swarm",
+                "Developer": "Blizzard Entertainment",
+                "Publisher": "Blizzard Entertainment",
+                "Genre(s)": "RTS",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "March 12, 2013",
+                "date_start": 1363046400,
+                "date_end": 1363046400,
+                "id": 795
+            },
+            {
+                "event": "StarCraft II: Legacy of the Void",
+                "Developer": "Blizzard Entertainment",
+                "Publisher": "Blizzard Entertainment",
+                "Genre(s)": "RTS",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "November 10, 2015",
+                "date_start": 1447113600,
+                "date_end": 1447113600,
+                "id": 796
+            },
+            {
+                "event": "StarCraft II: Wings of Liberty",
+                "Developer": "Blizzard Entertainment",
+                "Publisher": "Blizzard Entertainment",
+                "Genre(s)": "RTS",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "July 27, 2010",
+                "date_start": 1280188800,
+                "date_end": 1280188800,
+                "id": 797
+            },
+            {
+                "event": "Stardew Valley",
+                "Developer": "Eric Barone",
+                "Publisher": "ChuckleFish, ConcernedApe",
+                "Genre(s)": "Farming simulation, RPG",
+                "Operating system(s)": "Microsoft Windows, OS X, Linux, PlayStation 4, PlayStation Vita, Xbox One, Nintendo Switch, iOS, Android",
+                "date": "February 26, 2016",
+                "date_start": 1456444800,
+                "date_end": 1456444800,
+                "id": 798
+            },
+            {
+                "event": "StarDrive",
+                "Developer": "Zero Sum Games",
+                "Publisher": "Iceberg Interactive",
+                "Genre(s)": "4X, strategy",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "April 26, 2013",
+                "date_start": 1366934400,
+                "date_end": 1366934400,
+                "id": 799
+            },
+            {
+                "event": "Starsector",
+                "Developer": "Fractal Softworks[1]",
+                "Publisher": "Fractal Softworks",
+                "Genre(s)": "4X, strategy, action RPG",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "April 26, 2013",
+                "date_start": 1366934400,
+                "date_end": 1366934400,
+                "id": 800
+            },
+            {
+                "event": "State of Decay",
+                "Developer": "Undead Labs",
+                "Publisher": "Microsoft Studios",
+                "Genre(s)": "Stealth, survival horror, RPG, third-person shooter, simulation",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 5, 2013",
+                "date_start": 1383609600,
+                "date_end": 1383609600,
+                "id": 801
+            },
+            {
+                "event": "Stellar Monarch",
+                "Developer": "Silver Lemur Games",
+                "Publisher": "Silver Lemur Games",
+                "Genre(s)": "4X, strategy",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "December 5, 2016",
+                "date_start": 1480896000,
+                "date_end": 1480896000,
+                "id": 802
+            },
+            {
+                "event": "Street Racing Syndicate'",
+                "Developer": "Eutechnyx",
+                "Publisher": "Namco",
+                "Genre(s)": "Racing",
+                "Operating system(s)": "PlayStation 2, GameCube, Xbox, Windows, Game Boy Advance",
+                "date": "October 4, 2005",
+                "date_start": 1128384000,
+                "date_end": 1128384000,
+                "id": 803
+            },
+            {
+                "event": "Stronghold",
+                "Developer": "Firefly Studios, MacSoft",
+                "Publisher": "Take 2 Interactive, God Games",
+                "Genre(s)": "RTS",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "October 19, 2001",
+                "date_start": 1003449600,
+                "date_end": 1003449600,
+                "id": 804
+            },
+            {
+                "event": "Stronghold 2",
+                "Developer": "Firefly Studios",
+                "Publisher": "2K Games",
+                "Genre(s)": "RTS",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "April 18, 2005",
+                "date_start": 1113782400,
+                "date_end": 1113782400,
+                "id": 805
+            },
+            {
+                "event": "Stronghold 3",
+                "Developer": "Firefly Studios",
+                "Publisher": "7Sixty Games",
+                "Genre(s)": "RTS",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "October 25, 2011",
+                "date_start": 1319500800,
+                "date_end": 1319500800,
+                "id": 806
+            },
+            {
+                "event": "Stronghold: Crusader",
+                "Developer": "Firefly Studios",
+                "Publisher": "Take 2 Interactive, God Games",
+                "Genre(s)": "RTS",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "July 31, 2002",
+                "date_start": 1028073600,
+                "date_end": 1028073600,
+                "id": 807
+            },
+            {
+                "event": "Stronghold: Crusader Extreme",
+                "Developer": "Firefly Studios",
+                "Publisher": "Gamecock Media Group",
+                "Genre(s)": "RTS",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "May 27, 2008",
+                "date_start": 1211846400,
+                "date_end": 1211846400,
+                "id": 808
+            },
+            {
+                "event": "Stronghold Kingdoms",
+                "Developer": "Firefly Studios",
+                "Publisher": "Firefly Studios",
+                "Genre(s)": "RTS",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "October 17, 2012",
+                "date_start": 1350432000,
+                "date_end": 1350432000,
+                "id": 809
+            },
+            {
+                "event": "Stronghold Legends",
+                "Developer": "Firefly Studios",
+                "Publisher": "2K Games",
+                "Genre(s)": "RTS",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "October 13, 2006",
+                "date_start": 1160697600,
+                "date_end": 1160697600,
+                "id": 810
+            },
+            {
+                "event": "Sunset Overdrive",
+                "Developer": "Insomniac Games",
+                "Publisher": "Microsoft Studios",
+                "Genre(s)": "Action-adventure, third-person shooter",
+                "Operating system(s)": "Microsoft Windows, Xbox One",
+                "date": "November 16, 2018",
+                "date_start": 1542326400,
+                "date_end": 1542326400,
+                "id": 811
+            },
+            {
+                "event": "Super Meat Boy",
+                "Developer": "Team Meat",
+                "Publisher": "Team Meat",
+                "Genre(s)": "Platformer",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS, Xbox 360",
+                "date": "April 5, 2011",
+                "date_start": 1301961600,
+                "date_end": 1301961600,
+                "id": 812
+            },
+            {
+                "event": "Supreme Commander",
+                "Developer": "Gas Powered Games",
+                "Publisher": "THQ",
+                "Genre(s)": "RTS",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "February 16, 2007",
+                "date_start": 1171584000,
+                "date_end": 1171584000,
+                "id": 813
+            },
+            {
+                "event": "Surf's Up",
+                "Developer": "Ubisoft Montreal, Ubisoft Quebec, Totally Games",
+                "Publisher": "Ubisoft, Sony Computer Entertainment America",
+                "Genre(s)": "Sports",
+                "Operating system(s)": "Game Boy Advance, GameCube, Mac OS X, Microsoft Windows, Nintendo DS, PlayStation 2, PlayStation 3, PlayStation Portable, Wii, Xbox 360",
+                "date": "May 30, 2007",
+                "date_start": 1180483200,
+                "date_end": 1180483200,
+                "id": 814
+            },
+            {
+                "event": "SWAT 3: Close Quarters Battle",
+                "Developer": "Sierra Northwest",
+                "Publisher": "Sierra Entertainment",
+                "Genre(s)": "First-person shooter, tactical shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 23, 1999",
+                "date_start": 943315200,
+                "date_end": 943315200,
+                "id": 815
+            },
+            {
+                "event": "SWAT 4",
+                "Developer": "Irrational Games",
+                "Publisher": "Vivendi Universal Games, Sierra Entertainment",
+                "Genre(s)": "First-person shooter, tactical shooter",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "April 5, 2005",
+                "date_start": 1112659200,
+                "date_end": 1112659200,
+                "id": 816
+            },
+            {
+                "event": "System Shock",
+                "Developer": "Looking Glass Studios",
+                "Publisher": "Origin Systems",
+                "Genre(s)": "Action-adventure, RPG",
+                "Operating system(s)": "DOS, macOS",
+                "date": "October 22, 1994",
+                "date_start": 782784000,
+                "date_end": 782784000,
+                "id": 817
+            },
+            {
+                "event": "System Shock 2",
+                "Developer": "Irrational Games, Looking Glass Studios",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "Action RPG, survival horror",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "August 11, 1999",
+                "date_start": 934329600,
+                "date_end": 934329600,
+                "id": 818
+            },
+            {
+                "event": "Tanarus",
+                "Developer": "Verant Interactive",
+                "Publisher": "Sony Interactive Studios America",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Windows",
+                "date": "December 12, 1997",
+                "date_start": 881884800,
+                "date_end": 881884800,
+                "id": 819
+            },
+            {
+                "event": "Transport Tycoon",
+                "Developer": "Chris Sawyer Productions",
+                "Publisher": "MicroProse",
+                "Genre(s)": "Business simulation game",
+                "Operating system(s)": "MS-DOS, Mac, PlayStation, Sega Saturn",
+                "date": "June 15, 1994",
+                "date_start": 771638400,
+                "date_end": 771638400,
+                "id": 820
+            },
+            {
+                "event": "The Settlers",
+                "Developer": "Blue Byte Software",
+                "Publisher": "Blue Byte Software",
+                "Genre(s)": "City-building game, Real-Time Strategy",
+                "Operating system(s)": "Amiga, MS-DOS",
+                "date": "June 30, 1993",
+                "date_start": 741398400,
+                "date_end": 741398400,
+                "id": 821
+            },
+            {
+                "event": "The Settlers II",
+                "Developer": "Blue Byte Software",
+                "Publisher": "Blue Byte Software",
+                "Genre(s)": "City-building game, Real-Time Strategy",
+                "Operating system(s)": "MS-DOS, Macintosh, Nintendo DS",
+                "date": "April 17, 1996",
+                "date_start": 829699200,
+                "date_end": 829699200,
+                "id": 822
+            },
+            {
+                "event": "The Settlers III",
+                "Developer": "Blue Byte Software",
+                "Publisher": "Blue Byte Software",
+                "Genre(s)": "City-building game, Real-Time Strategy",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 20, 1998",
+                "date_start": 911520000,
+                "date_end": 911520000,
+                "id": 823
+            },
+            {
+                "event": "The Settlers IV",
+                "Developer": "Blue Byte Software",
+                "Publisher": "Ubi Soft",
+                "Genre(s)": "City-building game, Real-Time Strategy",
+                "Operating system(s)": "Microsoft Windows, iOS, webOS, bada, Symbian, Android",
+                "date": "February 15, 2001",
+                "date_start": 982195200,
+                "date_end": 982195200,
+                "id": 824
+            },
+            {
+                "event": "The Settlers: Heritage of Kings",
+                "Developer": "Blue Byte Software",
+                "Publisher": "Ubi Soft",
+                "Genre(s)": "City-building game, Real-Time Strategy",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 25, 2004",
+                "date_start": 1101340800,
+                "date_end": 1101340800,
+                "id": 825
+            },
+            {
+                "event": "The Settlers II (10th Anniversary)",
+                "Developer": "Blue Byte Software",
+                "Publisher": "Ubi Soft",
+                "Genre(s)": "City-building game, Real-Time Strategy",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 7, 2006",
+                "date_start": 1162857600,
+                "date_end": 1162857600,
+                "id": 826
+            },
+            {
+                "event": "The Settlers: Rise of an Empire",
+                "Developer": "Blue Byte Software",
+                "Publisher": "Ubi Soft",
+                "Genre(s)": "City-building game, Real-Time Strategy",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 28, 2007",
+                "date_start": 1196208000,
+                "date_end": 1196208000,
+                "id": 827
+            },
+            {
+                "event": "The Settlers: Awakening of Cultures",
+                "Developer": "Blue Byte Software",
+                "Publisher": "Ubi Soft",
+                "Genre(s)": "City-building game, Real-Time Strategy",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "August 28, 2008",
+                "date_start": 1219881600,
+                "date_end": 1219881600,
+                "id": 828
+            },
+            {
+                "event": "The Settlers 7: Paths to a Kingdom",
+                "Developer": "Blue Byte Software",
+                "Publisher": "Ubi Soft",
+                "Genre(s)": "City-building game, Real-Time Strategy",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "March 25, 2010",
+                "date_start": 1269475200,
+                "date_end": 1269475200,
+                "id": 829
+            },
+            {
+                "event": "Team Fortress 2",
+                "Developer": "Valve",
+                "Publisher": "Valve",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS, PlayStation 3, Xbox 360",
+                "date": "October 9, 2007",
+                "date_start": 1191888000,
+                "date_end": 1191888000,
+                "id": 830
+            },
+            {
+                "event": "Team Fortress Classic",
+                "Developer": "Valve",
+                "Publisher": "Valve",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "April 7, 1999",
+                "date_start": 923443200,
+                "date_end": 923443200,
+                "id": 831
+            },
+            {
+                "event": "Terraria",
+                "Developer": "Re-Logic",
+                "Publisher": "Re-Logic, 505 Games, Spike Chunsoft",
+                "Genre(s)": "Action-adventure, survival",
+                "Operating system(s)": "Microsoft Windows, PlayStation 3, Xbox 360, PlayStation Vita, Android, iOS",
+                "date": "May 16, 2011",
+                "date_start": 1305504000,
+                "date_end": 1305504000,
+                "id": 832
+            },
+            {
+                "event": "Thomas Was Alone",
+                "Developer": "Mike Bithell",
+                "Publisher": "Mike Bithell",
+                "Genre(s)": "Puzzle-platformer",
+                "Operating system(s)": "Microsoft Windows, Linux, OS X, PlayStation 3, PlayStation Vita, iOS, Android, Xbox One, PlayStation 4, Wii U",
+                "date": "June 30, 2012",
+                "date_start": 1341014400,
+                "date_end": 1341014400,
+                "id": 833
+            },
+            {
+                "event": "The Adventures of Fatman",
+                "Developer": "SOCKO! Entertainment",
+                "Publisher": "SOCKO! Entertainment",
+                "Genre(s)": "Point-and-click adventure",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "May 2003",
+                "date_start": 1051747200,
+                "date_end": 1051747200,
+                "id": 834
+            },
+            {
+                "event": "The Adventures of Lomax",
+                "Developer": "Psygnosis",
+                "Publisher": "Psygnosis",
+                "Genre(s)": "2D platformer",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "October 22, 1996",
+                "date_start": 845942400,
+                "date_end": 845942400,
+                "id": 835
+            },
+            {
+                "event": "The Lord of the Rings Online",
+                "Developer": "Turbine, Inc.",
+                "Publisher": "Turbine, Inc.",
+                "Genre(s)": "MMORPG",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "April 27, 2007",
+                "date_start": 1177632000,
+                "date_end": 1177632000,
+                "id": 836
+            },
+            {
+                "event": "The Matrix Online",
+                "Developer": "Monolith Productions",
+                "Publisher": "Sega, Warner Bros. Interactive Entertainment",
+                "Genre(s)": "Massively multiplayer online role-playing game",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "March 22, 2005",
+                "date_start": 1111449600,
+                "date_end": 1111449600,
+                "id": 837
+            },
+            {
+                "event": "The Punisher (2005 video game)",
+                "Developer": "Volition",
+                "Publisher": "THQ",
+                "Genre(s)": "Action, third-person shooter",
+                "Operating system(s)": "PlayStation 2, Xbox, Microsoft Windows, mobile phone",
+                "date": "April 12, 2004",
+                "date_start": 1081728000,
+                "date_end": 1081728000,
+                "id": 838
+            },
+            {
+                "event": "The Secret World",
+                "Developer": "Funcom",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "MMORPG",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "July 3, 2012",
+                "date_start": 1341273600,
+                "date_end": 1341273600,
+                "id": 839
+            },
+            {
+                "event": "The Ship",
+                "Developer": "Outlight",
+                "Publisher": "Outlight",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "April 9, 2007",
+                "date_start": 1176076800,
+                "date_end": 1176076800,
+                "id": 840
+            },
+            {
+                "event": "The Sims",
+                "Developer": "Edge of Reality, Maxis",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "Life simulation",
+                "Operating system(s)": "Microsoft Windows, Mac OS, OS X, Linux, PlayStation 2, GameCube, Xbox",
+                "date": "February 11, 2000",
+                "date_start": 950227200,
+                "date_end": 950227200,
+                "id": 841
+            },
+            {
+                "event": "The Sims 2",
+                "Developer": "Maxis",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "Life simulation",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "September 14, 2004",
+                "date_start": 1095120000,
+                "date_end": 1095120000,
+                "id": 842
+            },
+            {
+                "event": "The Sims 2: Apartment Life",
+                "Developer": "Maxis",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "Life simulation",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "August 25, 2008",
+                "date_start": 1219622400,
+                "date_end": 1219622400,
+                "id": 843
+            },
+            {
+                "event": "The Sims 2: Bon Voyage",
+                "Developer": "Maxis",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "Life simulation",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "September 4, 2007",
+                "date_start": 1188864000,
+                "date_end": 1188864000,
+                "id": 844
+            },
+            {
+                "event": "The Sims 2: FreeTime",
+                "Developer": "Maxis",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "Life simulation",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "February 22, 2008",
+                "date_start": 1203638400,
+                "date_end": 1203638400,
+                "id": 845
+            },
+            {
+                "event": "The Sims 2: Nightlife",
+                "Developer": "Maxis",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "Life simulation",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "September 13, 2005",
+                "date_start": 1126569600,
+                "date_end": 1126569600,
+                "id": 846
+            },
+            {
+                "event": "The Sims 2: Open for Business",
+                "Developer": "Maxis",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "Life simulation",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "March 6, 2006",
+                "date_start": 1141603200,
+                "date_end": 1141603200,
+                "id": 847
+            },
+            {
+                "event": "The Sims 2: Seasons",
+                "Developer": "Maxis",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "Life simulation",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "February 23, 2007",
+                "date_start": 1172188800,
+                "date_end": 1172188800,
+                "id": 848
+            },
+            {
+                "event": "The Sims 2: University",
+                "Developer": "Maxis",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "Life simulation",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "March 11, 2005",
+                "date_start": 1110499200,
+                "date_end": 1110499200,
+                "id": 849
+            },
+            {
+                "event": "The Sims 3",
+                "Developer": "Maxis",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "Life simulation",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "June 2, 2009",
+                "date_start": 1243900800,
+                "date_end": 1243900800,
+                "id": 850
+            },
+            {
+                "event": "The Sims 3: Generations",
+                "Developer": "Maxis",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "Life simulation",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "May 31, 2011",
+                "date_start": 1306800000,
+                "date_end": 1306800000,
+                "id": 851
+            },
+            {
+                "event": "The Sims 3: Into the Future",
+                "Developer": "Maxis",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "Life simulation",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "October 22, 2013",
+                "date_start": 1382400000,
+                "date_end": 1382400000,
+                "id": 852
+            },
+            {
+                "event": "The Sims 3: Island Paradise",
+                "Developer": "Maxis",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "Life simulation",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "June 25, 2013",
+                "date_start": 1372118400,
+                "date_end": 1372118400,
+                "id": 853
+            },
+            {
+                "event": "The Sims 3: Late Night",
+                "Developer": "Maxis",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "Life simulation",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "October 26, 2010",
+                "date_start": 1288051200,
+                "date_end": 1288051200,
+                "id": 854
+            },
+            {
+                "event": "The Sims 3: Seasons",
+                "Developer": "Maxis",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "Life simulation",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "November 13, 2012",
+                "date_start": 1352764800,
+                "date_end": 1352764800,
+                "id": 855
+            },
+            {
+                "event": "The Sims 3: Showtime",
+                "Developer": "Maxis",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "Life simulation",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "March 6, 2012",
+                "date_start": 1330992000,
+                "date_end": 1330992000,
+                "id": 856
+            },
+            {
+                "event": "The Sims 3: Supernatural",
+                "Developer": "Maxis",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "Life simulation",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "September 4, 2012",
+                "date_start": 1346716800,
+                "date_end": 1346716800,
+                "id": 857
+            },
+            {
+                "event": "The Sims 3: University Life",
+                "Developer": "Maxis",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "Life simulation",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "March 5, 2013",
+                "date_start": 1362441600,
+                "date_end": 1362441600,
+                "id": 858
+            },
+            {
+                "event": "The Sims: Hot Date",
+                "Developer": "Maxis",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "Life simulation",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "November 14, 2001",
+                "date_start": 1005696000,
+                "date_end": 1005696000,
+                "id": 859
+            },
+            {
+                "event": "The Sims: House Party",
+                "Developer": "Maxis",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "Life simulation",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "April 2, 2001",
+                "date_start": 986169600,
+                "date_end": 986169600,
+                "id": 860
+            },
+            {
+                "event": "The Sims: Livin' Large",
+                "Developer": "Maxis",
+                "Publisher": "Electronic Arts, Aspyr",
+                "Genre(s)": "Life simulation",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "August 27, 2000",
+                "date_start": 967334400,
+                "date_end": 967334400,
+                "id": 861
+            },
+            {
+                "event": "The Sims: Makin' Magic",
+                "Developer": "Maxis",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "Life simulation",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "October 29, 2003",
+                "date_start": 1067385600,
+                "date_end": 1067385600,
+                "id": 862
+            },
+            {
+                "event": "The Sims: Superstar",
+                "Developer": "Maxis",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "Life simulation",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "May 13, 2003",
+                "date_start": 1052784000,
+                "date_end": 1052784000,
+                "id": 863
+            },
+            {
+                "event": "The Sims: Unleashed",
+                "Developer": "Maxis",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "Life simulation",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "January 7, 2002",
+                "date_start": 1010361600,
+                "date_end": 1010361600,
+                "id": 864
+            },
+            {
+                "event": "The Sims: Vacation",
+                "Developer": "Maxis",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "Life simulation",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "March 28, 2002",
+                "date_start": 1017273600,
+                "date_end": 1017273600,
+                "id": 865
+            },
+            {
+                "event": "The Song of Seven\u00a0: Overture",
+                "Developer": "Enlightened Games",
+                "Publisher": "Enlightened Games",
+                "Genre(s)": "Adventure",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "May 17, 2016",
+                "date_start": 1463443200,
+                "date_end": 1463443200,
+                "id": 866
+            },
+            {
+                "event": "The Stanley Parable",
+                "Developer": "Galactic Cafe",
+                "Publisher": "Galactic Cafe",
+                "Genre(s)": "Interactive fiction",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "October 17, 2013",
+                "date_start": 1381968000,
+                "date_end": 1381968000,
+                "id": 867
+            },
+            {
+                "event": "The Sting!",
+                "Developer": "Neo Software",
+                "Publisher": "JoWooD Entertainment",
+                "Genre(s)": "Strategy, adventure",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "July 1, 2001",
+                "date_start": 993945600,
+                "date_end": 993945600,
+                "id": 868
+            },
+            {
+                "event": "Thief",
+                "Developer": "Eidos Montr\u00e9al",
+                "Publisher": "Square Enix",
+                "Genre(s)": "Stealth",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "February 25, 2014",
+                "date_start": 1393286400,
+                "date_end": 1393286400,
+                "id": 869
+            },
+            {
+                "event": "Thief II: The Metal Age",
+                "Developer": "Looking Glass Studios",
+                "Publisher": "Eidos Interactive",
+                "Genre(s)": "Stealth",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "March 23, 2000",
+                "date_start": 953769600,
+                "date_end": 953769600,
+                "id": 870
+            },
+            {
+                "event": "Thief: The Dark Project",
+                "Developer": "Looking Glass Studios",
+                "Publisher": "Eidos Interactive",
+                "Genre(s)": "Stealth",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 30, 1998",
+                "date_start": 912384000,
+                "date_end": 912384000,
+                "id": 871
+            },
+            {
+                "event": "Thief: Deadly Shadows",
+                "Developer": "Ion Storm",
+                "Publisher": "Eidos Interactive",
+                "Genre(s)": "Stealth",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "May 25, 2004",
+                "date_start": 1085443200,
+                "date_end": 1085443200,
+                "id": 872
+            },
+            {
+                "event": "Titan Quest",
+                "Developer": "Iron Lore Entertainment",
+                "Publisher": "THQ",
+                "Genre(s)": "RPG",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "June 26, 2006",
+                "date_start": 1151280000,
+                "date_end": 1151280000,
+                "id": 873
+            },
+            {
+                "event": "Tom Clancy's Splinter Cell",
+                "Developer": "Ubisoft Montreal, Ubisoft Shanghai, Gameloft",
+                "Publisher": "Ubisoft, Gameloft, Aspyr Media",
+                "Genre(s)": "Stealth",
+                "Operating system(s)": "Microsoft Windows, macOS, Xbox, PlayStation 2, GameCube, Game Boy Advance, N-Gage, PlayStation 3",
+                "date": "November 17, 2002",
+                "date_start": 1037491200,
+                "date_end": 1037491200,
+                "id": 874
+            },
+            {
+                "event": "Tom Clancy's Splinter Cell: Blacklist",
+                "Developer": "Ubisoft Toronto, Ubisoft Montreal, Ubisoft Shanghai",
+                "Publisher": "Ubisoft",
+                "Genre(s)": "Action-adventure, stealth",
+                "Operating system(s)": "Microsoft Windows, PlayStation 3, Wii U, Xbox 360",
+                "date": "August 20, 2013",
+                "date_start": 1376956800,
+                "date_end": 1376956800,
+                "id": 875
+            },
+            {
+                "event": "Tom Clancy's Splinter Cell: Chaos Theory",
+                "Developer": "Gameloft, Ubisoft Montreal",
+                "Publisher": "Gameloft Ubisoft",
+                "Genre(s)": "Stealth",
+                "Operating system(s)": "Microsoft Windows, PlayStation 2, Xbox, Xbox 360, GameCube, Nintendo DS, Nintendo 3DS, PlayStation 3, N-Gage",
+                "date": "March 21, 2005",
+                "date_start": 1111363200,
+                "date_end": 1111363200,
+                "id": 876
+            },
+            {
+                "event": "Tom Clancy's Splinter Cell: Conviction",
+                "Developer": "Ubisoft Montreal, Gameloft",
+                "Publisher": "Ubisoft, Gameloft",
+                "Genre(s)": "Action-adventure, stealth",
+                "Operating system(s)": "Microsoft Windows, macOS, Xbox 360, iOS, Cloud (OnLive), Android, Windows Phone, Bada",
+                "date": "April 13, 2010",
+                "date_start": 1271116800,
+                "date_end": 1271116800,
+                "id": 877
+            },
+            {
+                "event": "Tom Clancy's Splinter Cell: Double Agent",
+                "Developer": "Ubisoft Shanghai, Ubisoft Montreal, Ubisoft Milan",
+                "Publisher": "Ubisoft",
+                "Genre(s)": "Stealth",
+                "Operating system(s)": "Microsoft Windows, Xbox, Xbox 360, PlayStation 2, GameCube, Wii, PlayStation 3",
+                "date": "October 17, 2006",
+                "date_start": 1161043200,
+                "date_end": 1161043200,
+                "id": 878
+            },
+            {
+                "event": "Tom Clancy's Splinter Cell: Pandora Tomorrow",
+                "Developer": "Ubisoft Shanghai, Ubisoft Milan, Ubisoft Annecy, Gameloft",
+                "Publisher": "Ubisoft",
+                "Genre(s)": "Stealth",
+                "Operating system(s)": "Microsoft Windows, Xbox, Game Boy Advance, PlayStation 2, GameCube, PlayStation 3",
+                "date": "March 23, 2004",
+                "date_start": 1080000000,
+                "date_end": 1080000000,
+                "id": 879
+            },
+            {
+                "event": "Tomb Raider",
+                "Developer": "Crystal Dynamics",
+                "Publisher": "Square Enix",
+                "Genre(s)": "Action-adventure",
+                "Operating system(s)": "Microsoft Windows, macOS, PlayStation 3, PlayStation 4, Xbox 360, Xbox One",
+                "date": "March 5, 2013",
+                "date_start": 1362441600,
+                "date_end": 1362441600,
+                "id": 880
+            },
+            {
+                "event": "Tomb Raider: Anniversary",
+                "Developer": "Crystal Dynamics",
+                "Publisher": "Eidos Interactive",
+                "Genre(s)": "Action-adventure",
+                "Operating system(s)": "Microsoft Windows, macOS, PlayStation 2, PlayStation 3, PlayStation Portable, Xbox 360, Wii, Mobile",
+                "date": "June 1, 2007",
+                "date_start": 1180656000,
+                "date_end": 1180656000,
+                "id": 881
+            },
+            {
+                "event": "Tomb Raider: Legend",
+                "Developer": "Crystal Dynamics",
+                "Publisher": "Eidos Interactive",
+                "Genre(s)": "Action-adventure",
+                "Operating system(s)": "Microsoft Windows, PlayStation 2, PlayStation 3, PlayStation Portable, Xbox, Xbox 360, GameCube, Nintendo DS, Game Boy Advance, Mobile",
+                "date": "April 7, 2006",
+                "date_start": 1144368000,
+                "date_end": 1144368000,
+                "id": 882
+            },
+            {
+                "event": "Torchlight",
+                "Developer": "Runic Games",
+                "Publisher": "Runic Games",
+                "Genre(s)": "Action RPG, hack and slash",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "October 27, 2009",
+                "date_start": 1256601600,
+                "date_end": 1256601600,
+                "id": 883
+            },
+            {
+                "event": "Torchlight II",
+                "Developer": "Runic Games",
+                "Publisher": "Runic Games",
+                "Genre(s)": "Action RPG, hack and slash",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "September 20, 2012",
+                "date_start": 1348099200,
+                "date_end": 1348099200,
+                "id": 884
+            },
+            {
+                "event": "Total Annihilation",
+                "Developer": "Cavedog Entertainment",
+                "Publisher": "GT Interactive",
+                "Genre(s)": "RTS",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "September 30, 1997",
+                "date_start": 875577600,
+                "date_end": 875577600,
+                "id": 885
+            },
+            {
+                "event": "Total War: Rome II",
+                "Developer": "The Creative Assembly",
+                "Publisher": "Sega",
+                "Genre(s)": "RTS",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "September 3, 2013",
+                "date_start": 1378166400,
+                "date_end": 1378166400,
+                "id": 886
+            },
+            {
+                "event": "Total War: Shogun 2",
+                "Developer": "The Creative Assembly",
+                "Publisher": "Sega",
+                "Genre(s)": "RTS",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "April 15, 2011",
+                "date_start": 1302825600,
+                "date_end": 1302825600,
+                "id": 887
+            },
+            {
+                "event": "TrackMania 2: Canyon",
+                "Developer": "Nadeo",
+                "Publisher": "Ubisoft",
+                "Genre(s)": "Racing",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "September 14, 2011",
+                "date_start": 1315958400,
+                "date_end": 1315958400,
+                "id": 888
+            },
+            {
+                "event": "TrackMania Forever",
+                "Developer": "Nadeo",
+                "Publisher": "Deep Silver, Enlight, Focus Home Interactive, Digital Jesters",
+                "Genre(s)": "Racing",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "April 15, 2008",
+                "date_start": 1208217600,
+                "date_end": 1208217600,
+                "id": 889
+            },
+            {
+                "event": "TrackMania Nations ESWC",
+                "Developer": "Nadeo",
+                "Publisher": "Deep Silver, Enlight, Focus Home Interactive, Digital Jesters",
+                "Genre(s)": "Racing",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "January 28, 2006",
+                "date_start": 1138406400,
+                "date_end": 1138406400,
+                "id": 890
+            },
+            {
+                "event": "TrackMania Nations Forever",
+                "Developer": "Nadeo",
+                "Publisher": "Focus Home Interactive, Valve",
+                "Genre(s)": "Racing",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "April 16, 2008",
+                "date_start": 1208304000,
+                "date_end": 1208304000,
+                "id": 891
+            },
+            {
+                "event": "TrackMania Sunrise",
+                "Developer": "Nadeo",
+                "Publisher": "Digital Jesters, Enlight",
+                "Genre(s)": "Racing",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "April 2005",
+                "date_start": 1112313600,
+                "date_end": 1112313600,
+                "id": 892
+            },
+            {
+                "event": "TrackMania United",
+                "Developer": "Nadeo",
+                "Publisher": "Deep Silver, Enlight, Buka, QV Software, Valve",
+                "Genre(s)": "Racing",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 17, 2006",
+                "date_start": 1163721600,
+                "date_end": 1163721600,
+                "id": 893
+            },
+            {
+                "event": "Train Simulator",
+                "Developer": "Dovetail Games",
+                "Publisher": "Dovetail Games",
+                "Genre(s)": "Simulation",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "2009",
+                "date_start": 1230768000,
+                "date_end": 1262217600,
+                "id": 894
+            },
+            {
+                "event": "Transistor",
+                "Developer": "Supergiant Games",
+                "Publisher": "Supergiant Games",
+                "Genre(s)": "Action RPG",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS, PlayStation 4",
+                "date": "May 20, 2014",
+                "date_start": 1400544000,
+                "date_end": 1400544000,
+                "id": 895
+            },
+            {
+                "event": "Trespasser",
+                "Developer": "DreamWorks Interactive",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "Action-adventure, first-person shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "October 28, 1998",
+                "date_start": 909532800,
+                "date_end": 909532800,
+                "id": 896
+            },
+            {
+                "event": "Tribes 2",
+                "Developer": "Dynamix",
+                "Publisher": "Sierra",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows, Linux",
+                "date": "March 30, 2001",
+                "date_start": 985910400,
+                "date_end": 985910400,
+                "id": 897
+            },
+            {
+                "event": "Tribes: Ascend",
+                "Developer": "Hi-Rez Studios",
+                "Publisher": "Hi-Rez Studios",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "April 12, 2012",
+                "date_start": 1334188800,
+                "date_end": 1334188800,
+                "id": 898
+            },
+            {
+                "event": "Tribes: Vengeance",
+                "Developer": "Irrational Games",
+                "Publisher": "VU Games",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "October 5, 2004",
+                "date_start": 1096934400,
+                "date_end": 1096934400,
+                "id": 899
+            },
+            {
+                "event": "Tropico",
+                "Developer": "PopTop Software, Feral Interactive",
+                "Publisher": "Gathering of Developers, MacSoft, Feral Interactive",
+                "Genre(s)": "Construction and management simulation",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "April 24, 2001",
+                "date_start": 988070400,
+                "date_end": 988070400,
+                "id": 900
+            },
+            {
+                "event": "Tropico 2: Pirate Cove",
+                "Developer": "Frog City Software",
+                "Publisher": "Gathering of Developers, Take-Two Interactive",
+                "Genre(s)": "Construction and management simulation",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "April 28, 2003",
+                "date_start": 1051488000,
+                "date_end": 1051488000,
+                "id": 901
+            },
+            {
+                "event": "Tropico 3",
+                "Developer": "Haemimont Games",
+                "Publisher": "Kalypso Media",
+                "Genre(s)": "Construction and management simulation, City-building game",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "October 20, 2009",
+                "date_start": 1255996800,
+                "date_end": 1255996800,
+                "id": 902
+            },
+            {
+                "event": "Tropico 4",
+                "Developer": "Haemimont Games",
+                "Publisher": "Kalypso Media",
+                "Genre(s)": "Construction and management simulation, City-building game",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "August 26, 2011",
+                "date_start": 1314316800,
+                "date_end": 1314316800,
+                "id": 903
+            },
+            {
+                "event": "Tropico 5",
+                "Developer": "Haemimont Games",
+                "Publisher": "Kalypso Media",
+                "Genre(s)": "Construction and management simulation, City-building game",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "May 23, 2014",
+                "date_start": 1400803200,
+                "date_end": 1400803200,
+                "id": 904
+            },
+            {
+                "event": "Tropico 6",
+                "Developer": "Limbic Entertainment",
+                "Publisher": "Kalypso Media",
+                "Genre(s)": "Construction and management simulation, City-building game",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "March 29, 2019",
+                "date_start": 1553817600,
+                "date_end": 1553817600,
+                "id": 905
+            },
+            {
+                "event": "True Love",
+                "Developer": "Software House Parsley",
+                "Publisher": "CD Bros., Otaku Publishing",
+                "Genre(s)": "Visual novel",
+                "Operating system(s)": "MS-DOS, Microsoft Windows",
+                "date": "July 9, 1995",
+                "date_start": 805248000,
+                "date_end": 805248000,
+                "id": 906
+            },
+            {
+                "event": "Tzar",
+                "Developer": "Haemimont Games",
+                "Publisher": "Take-Two Interactive, FX Interactive",
+                "Genre(s)": "Real-time strategy",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "March 31, 2000",
+                "date_start": 954460800,
+                "date_end": 954460800,
+                "id": 907
+            },
+            {
+                "event": "\u00dcberSoldier",
+                "Developer": "Burut Creative Team",
+                "Publisher": "Burut Creative Team",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "March 29, 2006",
+                "date_start": 1143590400,
+                "date_end": 1143590400,
+                "id": 908
+            },
+            {
+                "event": "Undertale",
+                "Developer": "Toby Fox",
+                "Publisher": "Toby Fox",
+                "Genre(s)": "RPG",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "September 15, 2015",
+                "date_start": 1442275200,
+                "date_end": 1442275200,
+                "id": 909
+            },
+            {
+                "event": "Universe Sandbox",
+                "Developer": "Giant Army",
+                "Publisher": "Giant Army",
+                "Genre(s)": "Casual, simulation, indie",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "April 29, 2011",
+                "date_start": 1304035200,
+                "date_end": 1304035200,
+                "id": 910
+            },
+            {
+                "event": "Unreal",
+                "Developer": "Epic MegaGames, Digital Extremes",
+                "Publisher": "GT Interactive",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "May 22, 1998",
+                "date_start": 895795200,
+                "date_end": 895795200,
+                "id": 911
+            },
+            {
+                "event": "Unreal Tournament",
+                "Developer": "Epic Games, Digital Extremes",
+                "Publisher": "GT Interactive, Infogrames, Redversiongamer",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS, Dreamcast, PlayStation 2",
+                "date": "November 30, 1999",
+                "date_start": 943920000,
+                "date_end": 943920000,
+                "id": 912
+            },
+            {
+                "event": "Unreal Tournament 2003",
+                "Developer": "Epic Games, Digital Extremes",
+                "Publisher": "Atari, Inc.",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "October 1, 2002",
+                "date_start": 1033430400,
+                "date_end": 1033430400,
+                "id": 913
+            },
+            {
+                "event": "Unreal Tournament 2004",
+                "Developer": "Epic Games, Digital Extremes, Psyonix, Streamline Studios",
+                "Publisher": "Atari, Inc., MacSoft, Midway Games",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "March 16, 2004",
+                "date_start": 1079395200,
+                "date_end": 1079395200,
+                "id": 914
+            },
+            {
+                "event": "Unreal Tournament 3",
+                "Developer": "Epic Games",
+                "Publisher": "Midway Games",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows, PlayStation 3, Xbox 360",
+                "date": "November 19, 2007",
+                "date_start": 1195430400,
+                "date_end": 1195430400,
+                "id": 915
+            },
+            {
+                "event": "Unturned",
+                "Developer": "Nelson Sexton",
+                "Publisher": "Smartly Dressed Games",
+                "Genre(s)": "Open-world, first-person shooter, RPG",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "July 7, 2017",
+                "date_start": 1499385600,
+                "date_end": 1499385600,
+                "id": 916
+            },
+            {
+                "event": "Valorant",
+                "Developer": "Riot Games",
+                "Publisher": "Riot Games",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "June 2, 2020",
+                "date_start": 1591056000,
+                "date_end": 1591056000,
+                "id": 917
+            },
+            {
+                "event": "Vampire: The Masquerade \u2013 Bloodlines",
+                "Developer": "Troika Games",
+                "Publisher": "Activision",
+                "Genre(s)": "Action role-playing",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 16, 2004",
+                "date_start": 1100563200,
+                "date_end": 1100563200,
+                "id": 918
+            },
+            {
+                "event": "Vampire: The Masquerade \u2013 Redemption",
+                "Developer": "Nihilistic Software",
+                "Publisher": "Activision",
+                "Genre(s)": "Role-playing",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "June 7, 2000",
+                "date_start": 960336000,
+                "date_end": 960336000,
+                "id": 919
+            },
+            {
+                "event": "Victoria: An Empire Under The Sun",
+                "Developer": "Paradox Development Studios",
+                "Publisher": "Paradox Development Studios",
+                "Genre(s)": "Grand strategy",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "2003",
+                "date_start": 1041379200,
+                "date_end": 1072828800,
+                "id": 920
+            },
+            {
+                "event": "Victoria II",
+                "Developer": "Paradox Development Studios",
+                "Publisher": "Paradox Interactive",
+                "Genre(s)": "Grand strategy",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "August 13, 2010",
+                "date_start": 1281657600,
+                "date_end": 1281657600,
+                "id": 921
+            },
+            {
+                "event": "Vivisector: Beast Within",
+                "Developer": "Action Forms",
+                "Publisher": "1C, Brigades",
+                "Genre(s)": "First-person shooter, survival horror",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "January 5, 2006",
+                "date_start": 1136419200,
+                "date_end": 1136419200,
+                "id": 922
+            },
+            {
+                "event": "War of the Lance",
+                "Developer": "Strategic Simulations, Inc.",
+                "Publisher": "Strategic Simulations, Inc.",
+                "Genre(s)": "Strategy",
+                "Operating system(s)": "MS-DOS, Apple II, Commodore 64",
+                "date": "May 1, 1988",
+                "date_start": 578448000,
+                "date_end": 578448000,
+                "id": 923
+            },
+            {
+                "event": "War of the Roses",
+                "Developer": "Paradox Interactive",
+                "Publisher": "Fatshark",
+                "Genre(s)": "Action role-playing",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "October 2, 2012",
+                "date_start": 1349136000,
+                "date_end": 1349136000,
+                "id": 924
+            },
+            {
+                "event": "Warcraft: Orcs & Humans",
+                "Developer": "Blizzard Entertainment",
+                "Publisher": "Blizzard Entertainment",
+                "Genre(s)": "RTS",
+                "Operating system(s)": "MS-DOS, macOS",
+                "date": "November 23, 1994",
+                "date_start": 785548800,
+                "date_end": 785548800,
+                "id": 925
+            },
+            {
+                "event": "Warcraft III: Reign of Chaos",
+                "Developer": "Blizzard Entertainment",
+                "Publisher": "Blizzard Entertainment",
+                "Genre(s)": "RTS",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "July 3, 2002",
+                "date_start": 1025654400,
+                "date_end": 1025654400,
+                "id": 926
+            },
+            {
+                "event": "Wargame: AirLand Battle",
+                "Developer": "Eugen Systems",
+                "Publisher": "Focus Home Interactive",
+                "Genre(s)": "Real-time tactics",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "May 29, 2013",
+                "date_start": 1369785600,
+                "date_end": 1369785600,
+                "id": 927
+            },
+            {
+                "event": "Wargame: European Escalation",
+                "Developer": "Eugen Systems",
+                "Publisher": "Focus Home Interactive",
+                "Genre(s)": "Real-time tactics",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "February 22, 2012",
+                "date_start": 1329868800,
+                "date_end": 1329868800,
+                "id": 928
+            },
+            {
+                "event": "Wargame: Red Dragon",
+                "Developer": "Eugen Systems",
+                "Publisher": "Focus Home Interactive",
+                "Genre(s)": "Real-time tactics",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "April 17, 2014",
+                "date_start": 1397692800,
+                "date_end": 1397692800,
+                "id": 929
+            },
+            {
+                "event": "Warhammer 40,000: Dawn of War II",
+                "Developer": "Relic Entertainment",
+                "Publisher": "THQ",
+                "Genre(s)": "Real-time tactics",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "February 19, 2009",
+                "date_start": 1235001600,
+                "date_end": 1235001600,
+                "id": 930
+            },
+            {
+                "event": "Wasteland",
+                "Developer": "Interplay Productions",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "RPG",
+                "Operating system(s)": "Commodore 64, Apple II, DOS, Microsoft Windows, Linux, macOS",
+                "date": "1988",
+                "date_start": 567993600,
+                "date_end": 599529600,
+                "id": 931
+            },
+            {
+                "event": "Wasteland 2",
+                "Developer": "inXile Entertainment",
+                "Publisher": "Deep Silver",
+                "Genre(s)": "RPG",
+                "Operating system(s)": "Microsoft Windows, OS X, Linux, PlayStation 4, Xbox One, Nintendo Switch",
+                "date": "September 19, 2014",
+                "date_start": 1411084800,
+                "date_end": 1411084800,
+                "id": 932
+            },
+            {
+                "event": "Wheels of Aurelia",
+                "Developer": "Santa Ragione S.r.l.",
+                "Publisher": "Santa Ragione S.r.l.",
+                "Genre(s)": "Visual Novel",
+                "Operating system(s)": "Linux, Macintosh, PlayStation 4, Xbox One, iOS, Nintendo Switch",
+                "date": "September 20, 2016",
+                "date_start": 1474329600,
+                "date_end": 1474329600,
+                "id": 933
+            },
+            {
+                "event": "White Night",
+                "Developer": "OSome Studio",
+                "Publisher": "Activision",
+                "Genre(s)": "Survival horror, noir",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "March 3, 2015",
+                "date_start": 1425340800,
+                "date_end": 1425340800,
+                "id": 934
+            },
+            {
+                "event": "Widelands",
+                "Developer": "Widelands Development Team",
+                "Publisher": "Widelands Development Team",
+                "Genre(s)": "Widelands",
+                "Operating system(s)": "Linux, Macintosh, Windows",
+                "date": "May 2, 2019",
+                "date_start": 1556755200,
+                "date_end": 1556755200,
+                "id": 935
+            },
+            {
+                "event": "WildStar",
+                "Developer": "Carbine Studios",
+                "Publisher": "NC Soft",
+                "Genre(s)": "MMORPG",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "June 7, 2014",
+                "date_start": 1402099200,
+                "date_end": 1402099200,
+                "id": 936
+            },
+            {
+                "event": "The Witcher",
+                "Developer": "CD Projekt Red",
+                "Publisher": "Atari, Inc",
+                "Genre(s)": "Action role-playing",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "October 26, 2007",
+                "date_start": 1193356800,
+                "date_end": 1193356800,
+                "id": 937
+            },
+            {
+                "event": "The Witcher 3: Wild Hunt",
+                "Developer": "CD Projekt Red",
+                "Publisher": "Atari, Inc",
+                "Genre(s)": "Action role-playing",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "May 19, 2015",
+                "date_start": 1431993600,
+                "date_end": 1431993600,
+                "id": 938
+            },
+            {
+                "event": "Wizards & Warriors",
+                "Developer": "Heuristic Park",
+                "Publisher": "Activision",
+                "Genre(s)": "RPG",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "September 27, 2000",
+                "date_start": 970012800,
+                "date_end": 970012800,
+                "id": 939
+            },
+            {
+                "event": "World in Conflict",
+                "Developer": "Massive Entertainment",
+                "Publisher": "Sierra Entertainment (former), Ubisoft",
+                "Genre(s)": "Real-time tactics",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "September 18, 2007",
+                "date_start": 1190073600,
+                "date_end": 1190073600,
+                "id": 940
+            },
+            {
+                "event": "World in Conflict: Soviet Assault",
+                "Developer": "Massive Entertainment",
+                "Publisher": "Sierra Entertainment (former), Ubisoft",
+                "Genre(s)": "Real-time tactics",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "March 10, 2009",
+                "date_start": 1236643200,
+                "date_end": 1236643200,
+                "id": 941
+            },
+            {
+                "event": "World of Goo",
+                "Developer": "2D Boy",
+                "Publisher": "2D Boy",
+                "Genre(s)": "Puzzle",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "October 13, 2008",
+                "date_start": 1223856000,
+                "date_end": 1223856000,
+                "id": 942
+            },
+            {
+                "event": "World of Tanks",
+                "Developer": "Wargaming",
+                "Publisher": "Wargaming",
+                "Genre(s)": "Action, MMO",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "April 12, 2011",
+                "date_start": 1302566400,
+                "date_end": 1302566400,
+                "id": 943
+            },
+            {
+                "event": "World of Warplanes",
+                "Developer": "Wargaming",
+                "Publisher": "Wargaming",
+                "Genre(s)": "Action, MMO",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 13, 2013",
+                "date_start": 1384300800,
+                "date_end": 1384300800,
+                "id": 944
+            },
+            {
+                "event": "World of Warcraft",
+                "Developer": "Blizzard Entertainment",
+                "Publisher": "Blizzard Entertainment",
+                "Genre(s)": "Online role-playing game",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "November 23, 2004",
+                "date_start": 1101168000,
+                "date_end": 1101168000,
+                "id": 945
+            },
+            {
+                "event": "World of Warcraft: Battle for Azeroth",
+                "Developer": "Blizzard Entertainment",
+                "Publisher": "Blizzard Entertainment",
+                "Genre(s)": "Online role-playing game",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "August 14, 2018",
+                "date_start": 1534204800,
+                "date_end": 1534204800,
+                "id": 946
+            },
+            {
+                "event": "World of Warcraft: The Burning Crusade",
+                "Developer": "Blizzard Entertainment",
+                "Publisher": "Blizzard Entertainment",
+                "Genre(s)": "Online role-playing game",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "January 15, 2007",
+                "date_start": 1168819200,
+                "date_end": 1168819200,
+                "id": 947
+            },
+            {
+                "event": "World of Warcraft: Cataclysm",
+                "Developer": "Blizzard Entertainment",
+                "Publisher": "Blizzard Entertainment",
+                "Genre(s)": "Online role-playing game",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "December 7, 2010",
+                "date_start": 1291680000,
+                "date_end": 1291680000,
+                "id": 948
+            },
+            {
+                "event": "World of Warcraft: Legion",
+                "Developer": "Blizzard Entertainment",
+                "Publisher": "Blizzard Entertainment",
+                "Genre(s)": "Online role-playing game",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "August 30, 2016",
+                "date_start": 1472515200,
+                "date_end": 1472515200,
+                "id": 949
+            },
+            {
+                "event": "World of Warcraft: Mists of Pandaria",
+                "Developer": "Blizzard Entertainment",
+                "Publisher": "Blizzard Entertainment",
+                "Genre(s)": "Online role-playing game",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "July 25, 2012",
+                "date_start": 1343174400,
+                "date_end": 1343174400,
+                "id": 950
+            },
+            {
+                "event": "World of Warcraft: Warlords of Draenor",
+                "Developer": "Blizzard Entertainment",
+                "Publisher": "Blizzard Entertainment",
+                "Genre(s)": "Online role-playing game",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "November 13, 2014",
+                "date_start": 1415836800,
+                "date_end": 1415836800,
+                "id": 951
+            },
+            {
+                "event": "World of Warcraft: Wrath of the Lich King",
+                "Developer": "Blizzard Entertainment",
+                "Publisher": "Blizzard Entertainment",
+                "Genre(s)": "Online role-playing game",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "November 13, 2008",
+                "date_start": 1226534400,
+                "date_end": 1226534400,
+                "id": 952
+            },
+            {
+                "event": "Xargon",
+                "Developer": "Epic MegaGames",
+                "Publisher": "Epic MegaGames",
+                "Genre(s)": "Platform",
+                "Operating system(s)": "DOS",
+                "date": "January 15, 1994",
+                "date_start": 758592000,
+                "date_end": 758592000,
+                "id": 953
+            },
+            {
+                "event": "X3: Terran Conflict",
+                "Developer": "Egosoft",
+                "Publisher": "Egosoft",
+                "Genre(s)": "Space simulation",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "October 16, 2008",
+                "date_start": 1224115200,
+                "date_end": 1224115200,
+                "id": 954
+            },
+            {
+                "event": "X-Plane 11",
+                "Developer": "Laminar Research",
+                "Publisher": "Laminar Research",
+                "Genre(s)": "Flight simulator",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "November 25, 2016",
+                "date_start": 1480032000,
+                "date_end": 1480032000,
+                "id": 955
+            },
+            {
+                "event": "XCOM: Enemy Unknown",
+                "Developer": "Firaxis Games, Feral Interactive",
+                "Publisher": "2K Games, Feral Interactive",
+                "Genre(s)": "Turn-based tactics, tactical role-playing",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS, Xbox 360, PlayStation 3, iOS",
+                "date": "October 9, 2012",
+                "date_start": 1349740800,
+                "date_end": 1349740800,
+                "id": 956
+            },
+            {
+                "event": "XCOM: Enemy Within",
+                "Developer": "Firaxis Games, Feral Interactive",
+                "Publisher": "2K Games, Feral Interactive",
+                "Genre(s)": "Turn-based tactics",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS, Xbox 360, PlayStation 3",
+                "date": "November 12, 2013",
+                "date_start": 1384214400,
+                "date_end": 1384214400,
+                "id": 957
+            },
+            {
+                "event": "Xenonauts",
+                "Developer": "Goldhawk Interactive",
+                "Publisher": "Goldhawk Interactive",
+                "Genre(s)": "Turn-based tactics",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "June 17, 2014",
+                "date_start": 1402963200,
+                "date_end": 1402963200,
+                "id": 958
+            },
+            {
+                "event": "Yakuza 0",
+                "Developer": "SEGA",
+                "Publisher": "SEGA",
+                "Genre(s)": "Action Adventure, Beat 'Em Up",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "August 1, 2018",
+                "date_start": 1533081600,
+                "date_end": 1533081600,
+                "id": 959
+            },
+            {
+                "event": "Yakuza 3",
+                "Developer": "SEGA",
+                "Publisher": "SEGA",
+                "Genre(s)": "Action Adventure, Beat 'Em Up",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "January 28th, 2021",
+                "date_start": 1611792000,
+                "date_end": 1611792000,
+                "id": 960
+            },
+            {
+                "event": "Yakuza 4",
+                "Developer": "SEGA",
+                "Publisher": "SEGA",
+                "Genre(s)": "Action Adventure, Beat 'Em Up",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "January 28th, 2021",
+                "date_start": 1611792000,
+                "date_end": 1611792000,
+                "id": 961
+            },
+            {
+                "event": "Yakuza 5",
+                "Developer": "SEGA",
+                "Publisher": "SEGA",
+                "Genre(s)": "Action Adventure, Beat 'Em Up",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "January 28th, 2021",
+                "date_start": 1611792000,
+                "date_end": 1611792000,
+                "id": 962
+            },
+            {
+                "event": "Yakuza 6: The Song of Life",
+                "Developer": "SEGA",
+                "Publisher": "SEGA",
+                "Genre(s)": "Action Adventure, Beat 'Em Up",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "March 25th, 2021",
+                "date_start": 1616630400,
+                "date_end": 1616630400,
+                "id": 963
+            },
+            {
+                "event": "Yakuza Kiwami",
+                "Developer": "SEGA",
+                "Publisher": "SEGA",
+                "Genre(s)": "Action Adventure, Beat 'Em Up",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "Feb 19, 2019",
+                "date_start": 1550534400,
+                "date_end": 1550534400,
+                "id": 964
+            },
+            {
+                "event": "Yakuza Kiwami 2",
+                "Developer": "SEGA",
+                "Publisher": "SEGA",
+                "Genre(s)": "Action Adventure, Beat 'Em Up",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "May 9, 2019",
+                "date_start": 1557360000,
+                "date_end": 1557360000,
+                "id": 965
+            },
+            {
+                "event": "Yakuza: Like a Dragon",
+                "Developer": "Ryu ga Gotoku Studio",
+                "Publisher": "SEGA",
+                "Genre(s)": "Role-Playing Game, Beat 'Em Up",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "Nov 10, 2020",
+                "date_start": 1604966400,
+                "date_end": 1604966400,
+                "id": 966
+            },
+            {
+                "event": "Youtubers Life",
+                "Developer": "U-Play online",
+                "Publisher": "U-Play online",
+                "Genre(s)": "Life simulation, business simulation",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS, IOS",
+                "date": "May 18, 2016",
+                "date_start": 1463529600,
+                "date_end": 1463529600,
+                "id": 967
+            },
+            {
+                "event": "Yury",
+                "Developer": "Cubic Pie",
+                "Publisher": "Cubic Pie",
+                "Genre(s)": "Action",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "December 9, 2014",
+                "date_start": 1418083200,
+                "date_end": 1418083200,
+                "id": 968
+            },
+            {
+                "event": "Z",
+                "Developer": "The Bitmap Brothers",
+                "Publisher": "Virgin Interactive Entertainment",
+                "Genre(s)": "Real-time strategy",
+                "Operating system(s)": "MS-DOS, PlayStation, SEGA Saturn, Microsoft Windows, macOS, iOS, Android",
+                "date": "July 31, 1996",
+                "date_start": 838771200,
+                "date_end": 838771200,
+                "id": 969
+            },
+            {
+                "event": "Z: Steel Soldiers",
+                "Developer": "The Bitmap Brothers",
+                "Publisher": "EON Digital Entertainment",
+                "Genre(s)": "Real-time strategy",
+                "Operating system(s)": "Microsoft Windows, Android, iOS",
+                "date": "June 14, 2001",
+                "date_start": 992476800,
+                "date_end": 992476800,
+                "id": 970
+            },
+            {
+                "event": "Zeliard",
+                "Developer": "Game Arts",
+                "Publisher": "Game Arts, Sierra On-Line",
+                "Genre(s)": "Platformer, Action RPG",
+                "Operating system(s)": "DOS",
+                "date": "1990",
+                "date_start": 631152000,
+                "date_end": 662601600,
+                "id": 971
+            },
+            {
+                "event": "Zombie Driver",
+                "Developer": "Exor Studios",
+                "Publisher": "Exor Studios",
+                "Genre(s)": "Vehicular combat",
+                "Operating system(s)": "Microsoft Windows, Xbox 360, PlayStation 3",
+                "date": "December 4, 2009",
+                "date_start": 1259884800,
+                "date_end": 1259884800,
+                "id": 972
+            },
+            {
+                "event": "ZoMGman! Battle Arena",
+                "Developer": "Tristan Nishimoto",
+                "Publisher": "Tristan Nishimoto",
+                "Genre(s)": "Co-op Battle Arena",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "June 26, 2007",
+                "date_start": 1182816000,
+                "date_end": 1182816000,
+                "id": 973
+            },
+            {
+                "event": "ZoMGman! 2",
+                "Developer": "Tristan Nishimoto",
+                "Publisher": "Tristan Nishimoto",
+                "Genre(s)": "Co-op Battle Arena",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 7, 2008",
+                "date_start": 1226016000,
+                "date_end": 1226016000,
+                "id": 974
+            },
+            {
+                "event": "Zoo Tycoon",
+                "Developer": "Blue Fang Games",
+                "Publisher": "Microsoft Game Studios",
+                "Genre(s)": "Business simulation",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "October 17, 2001",
+                "date_start": 1003276800,
+                "date_end": 1003276800,
+                "id": 975
+            },
+            {
+                "event": "Zoo Tycoon 2",
+                "Developer": "Blue Fang Games, MacSoft, Rapan",
+                "Publisher": "Microsoft Game Studios, MacSoft",
+                "Genre(s)": "Business simulation",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "November 2004",
+                "date_start": 1099267200,
+                "date_end": 1099267200,
+                "id": 976
+            },
+            {
+                "event": "Zoo Tycoon 2: African Adventure",
+                "Developer": "Blue Fang Games",
+                "Publisher": "Microsoft Game Studios",
+                "Genre(s)": "Business simulation",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "May 2006",
+                "date_start": 1146441600,
+                "date_end": 1146441600,
+                "id": 977
+            },
+            {
+                "event": "Zoo Tycoon 2: Dino Danger Pack",
+                "Developer": "Blue Fang Games",
+                "Publisher": "Microsoft Game Studios",
+                "Genre(s)": "Business simulation",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "July 2006",
+                "date_start": 1151712000,
+                "date_end": 1151712000,
+                "id": 978
+            },
+            {
+                "event": "Zoo Tycoon 2: Endangered Species",
+                "Developer": "Blue Fang Games",
+                "Publisher": "Microsoft Game Studios",
+                "Genre(s)": "Business simulation",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "October 2005",
+                "date_start": 1128124800,
+                "date_end": 1128124800,
+                "id": 979
+            },
+            {
+                "event": "Zoo Tycoon 2: Extinct Animals",
+                "Developer": "Blue Fang Games",
+                "Publisher": "Microsoft Game Studios",
+                "Genre(s)": "Business simulation",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "October 17, 2007",
+                "date_start": 1192579200,
+                "date_end": 1192579200,
+                "id": 980
+            },
+            {
+                "event": "Zoo Tycoon 2: Marine Mania",
+                "Developer": "Blue Fang Games",
+                "Publisher": "Microsoft Game Studios",
+                "Genre(s)": "Business simulation",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "October 17, 2006",
+                "date_start": 1161043200,
+                "date_end": 1161043200,
+                "id": 981
+            },
+            {
+                "event": "Zoo Vet",
+                "Developer": "Legacy Interactive",
+                "Publisher": "Legacy Interactive",
+                "Genre(s)": null,
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "December 2004",
+                "date_start": 1101859200,
+                "date_end": 1101859200,
+                "id": 982
+            },
+            {
+                "event": "Zork: Grand Inquisitor",
+                "Developer": "Activision",
+                "Publisher": "Activision",
+                "Genre(s)": "Adventure",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "October 31, 1997",
+                "date_start": 878256000,
+                "date_end": 878256000,
+                "id": 983
+            },
+            {
+                "event": "Zork Zero",
+                "Developer": "Infocom",
+                "Publisher": "Infocom",
+                "Genre(s)": "interactive fiction",
+                "Operating system(s)": "Amiga, Apple II, DOS, macOS",
+                "date": "October 19, 1988",
+                "date_start": 593222400,
+                "date_end": 593222400,
+                "id": 984
+            },
+            {
+                "event": "Zuma's Revenge!",
+                "Developer": "PopCap Games",
+                "Publisher": "PopCap Games",
+                "Genre(s)": "Puzzle",
+                "Operating system(s)": "Microsoft Windows, macOS, Xbox Live Arcade, PlayStation Network",
+                "date": "September 15, 2009",
+                "date_start": 1252972800,
+                "date_end": 1252972800,
+                "id": 985
+            },
+            {
+                "event": "Zup!",
+                "Developer": "Quiet River",
+                "Publisher": "Quiet River",
+                "Genre(s)": "Puzzle",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "October 4, 2016",
+                "date_start": 1475539200,
+                "date_end": 1475539200,
+                "id": 986
+            },
+            {
+                "event": "Zup! 2",
+                "Developer": "Quiet River",
+                "Publisher": "Quiet River",
+                "Genre(s)": "Puzzle",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "December 5, 2016",
+                "date_start": 1480896000,
+                "date_end": 1480896000,
+                "id": 987
+            },
+            {
+                "event": "Zup! 3",
+                "Developer": "Quiet River",
+                "Publisher": "Quiet River",
+                "Genre(s)": "Puzzle",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "January 12, 2017",
+                "date_start": 1484179200,
+                "date_end": 1484179200,
+                "id": 988
+            },
+            {
+                "event": "Zup! 4",
+                "Developer": "Quiet River",
+                "Publisher": "Quiet River",
+                "Genre(s)": "Puzzle",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "February 20, 2017",
+                "date_start": 1487548800,
+                "date_end": 1487548800,
+                "id": 989
+            },
+            {
+                "event": "Zup! 5",
+                "Developer": "Quiet River",
+                "Publisher": "Quiet River",
+                "Genre(s)": "Puzzle",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "June 13, 2017",
+                "date_start": 1497312000,
+                "date_end": 1497312000,
+                "id": 990
+            },
+            {
+                "event": "Zup! 6",
+                "Developer": "Quiet River",
+                "Publisher": "Quiet River",
+                "Genre(s)": "Puzzle",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "September 19, 2017",
+                "date_start": 1505779200,
+                "date_end": 1505779200,
+                "id": 991
+            },
+            {
+                "event": "Zup! 7",
+                "Developer": "Quiet River",
+                "Publisher": "Quiet River",
+                "Genre(s)": "Puzzle",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "December 12, 2017",
+                "date_start": 1513036800,
+                "date_end": 1513036800,
+                "id": 992
+            },
+            {
+                "event": "Zup! 8",
+                "Developer": "Quiet River",
+                "Publisher": "Quiet River",
+                "Genre(s)": "Puzzle",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "February 22, 2018",
+                "date_start": 1519257600,
+                "date_end": 1519257600,
+                "id": 993
+            },
+            {
+                "event": "Zup! Arena",
+                "Developer": "Quiet River",
+                "Publisher": "Quiet River",
+                "Genre(s)": "Action, MMO",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "December 3, 2018",
+                "date_start": 1543795200,
+                "date_end": 1543795200,
+                "id": 994
+            },
+            {
+                "event": "Zup! X",
+                "Developer": "Quiet River",
+                "Publisher": "Quiet River",
+                "Genre(s)": "Puzzle",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "May 17, 2018",
+                "date_start": 1526515200,
+                "date_end": 1526515200,
+                "id": 995
+            },
+            {
+                "event": "Zup! Zero",
+                "Developer": "Quiet River",
+                "Publisher": "Quiet River",
+                "Genre(s)": "Puzzle",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "April 6, 2017",
+                "date_start": 1491436800,
+                "date_end": 1491436800,
+                "id": 996
+            },
+            {
+                "event": "Zup! Zero 2",
+                "Developer": "Quiet River",
+                "Publisher": "Quiet River",
+                "Genre(s)": "Puzzle",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "September 11, 2018",
+                "date_start": 1536624000,
+                "date_end": 1536624000,
+                "id": 997
+            },
+            {
+                "event": "ZZT",
+                "Developer": "Potomac Computer Systems",
+                "Publisher": "Potomac Computer Systems",
+                "Genre(s)": "Action-adventure, Puzzle",
+                "Operating system(s)": "MS-DOS",
+                "date": "October 1991",
+                "date_start": 686275200,
+                "date_end": 686275200,
+                "id": 998
+            },
+            {
+                "event": "_summer",
+                "Developer": "Hooksoft",
+                "Publisher": "Hook",
+                "Genre(s)": "Visual novel",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "July 15, 2005",
+                "date_start": 1121385600,
+                "date_end": 1121385600,
+                "id": 999
+            },
+            {
+                "event": "0 A.D.",
+                "Developer": "Wildfire Games",
+                "Publisher": "Wildfire Games",
+                "Genre(s)": "RTS",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "August 16, 2010",
+                "date_start": 1281916800,
+                "date_end": 1281916800,
+                "id": 1000
+            },
+            {
+                "event": "007 Legends",
+                "Developer": "Eurocom",
+                "Publisher": "Activision",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 2, 2012",
+                "date_start": 1351814400,
+                "date_end": 1351814400,
+                "id": 1001
+            },
+            {
+                "event": "007: Licence to Kill",
+                "Developer": "Quixel",
+                "Publisher": "Domark",
+                "Genre(s)": "Top-down shooter",
+                "Operating system(s)": "MS-DOS",
+                "date": "April 20, 1989",
+                "date_start": 609033600,
+                "date_end": 609033600,
+                "id": 1002
+            },
+            {
+                "event": "007: Quantum of Solace",
+                "Developer": "Treyarch, Beenox",
+                "Publisher": "Activision, Square Enix",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "October 31, 2008",
+                "date_start": 1225411200,
+                "date_end": 1225411200,
+                "id": 1003
+            },
+            {
+                "event": "1-0 Soccer Manager",
+                "Developer": "New Era Software",
+                "Publisher": "Wizard Games",
+                "Genre(s)": "Sports, management",
+                "Operating system(s)": "MS-DOS",
+                "date": "1992",
+                "date_start": 694224000,
+                "date_end": 725760000,
+                "id": 1004
+            },
+            {
+                "event": "101 Dalmatians: Escape from DeVil Manor",
+                "Developer": "DreamForge Intertainment",
+                "Publisher": "Disney Interactive",
+                "Genre(s)": "Action, adventure, strategy",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "1997",
+                "date_start": 852076800,
+                "date_end": 883526400,
+                "id": 1005
+            },
+            {
+                "event": "102 Dalmatians: Puppies to the Rescue",
+                "Developer": "Crystal Dynamics",
+                "Publisher": "Disney Interactive",
+                "Genre(s)": "Platform",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "2000",
+                "date_start": 946684800,
+                "date_end": 978220800,
+                "id": 1006
+            },
+            {
+                "event": "10th Frame",
+                "Developer": "Access Software",
+                "Publisher": "US Gold",
+                "Genre(s)": "Sports",
+                "Operating system(s)": "MS-DOS",
+                "date": "1986",
+                "date_start": 504921600,
+                "date_end": 536371200,
+                "id": 1007
+            },
+            {
+                "event": "140",
+                "Developer": "Jeppe Carlson",
+                "Publisher": null,
+                "Genre(s)": "Platformer",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "October 16, 2013",
+                "date_start": 1381881600,
+                "date_end": 1381881600,
+                "id": 1008
+            },
+            {
+                "event": "18 Wheels of Steel: Haulin'",
+                "Developer": "SCS Software",
+                "Publisher": "ValuSoft",
+                "Genre(s)": "Vehicle simulation",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "December 8, 2006",
+                "date_start": 1165536000,
+                "date_end": 1165536000,
+                "id": 1009
+            },
+            {
+                "event": "180",
+                "Developer": "Ste Pickford, David Whittaker",
+                "Publisher": "Mastertronic Added Dimension",
+                "Genre(s)": "Sports",
+                "Operating system(s)": "Commodore 64",
+                "date": "1986",
+                "date_start": 504921600,
+                "date_end": 536371200,
+                "id": 1010
+            },
+            {
+                "event": "1830: Railroads & Robber Barons",
+                "Developer": "Simtex",
+                "Publisher": "Avalon Hill",
+                "Genre(s)": "RTS",
+                "Operating system(s)": "MS-DOS",
+                "date": "1995",
+                "date_start": 788918400,
+                "date_end": 820368000,
+                "id": 1011
+            },
+            {
+                "event": "1869",
+                "Developer": "Max Design",
+                "Publisher": "Max Design",
+                "Genre(s)": "Strategy",
+                "Operating system(s)": "MS-DOS",
+                "date": "1992",
+                "date_start": 694224000,
+                "date_end": 725760000,
+                "id": 1012
+            },
+            {
+                "event": "1914 Shells of Fury",
+                "Developer": "Randomeida",
+                "Publisher": "Strategy First",
+                "Genre(s)": "Simulation",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "August 14, 2007",
+                "date_start": 1187049600,
+                "date_end": 1187049600,
+                "id": 1013
+            },
+            {
+                "event": "1942: The Pacific Air War",
+                "Developer": "Microprose",
+                "Publisher": "Microprose",
+                "Genre(s)": "Flight simulator",
+                "Operating system(s)": "MS-DOS",
+                "date": "1994",
+                "date_start": 757382400,
+                "date_end": 788832000,
+                "id": 1014
+            },
+            {
+                "event": "221B Baker Street",
+                "Developer": "Datasoft",
+                "Publisher": "Datasoft",
+                "Genre(s)": "Puzzle",
+                "Operating system(s)": "MS-DOS",
+                "date": "1987",
+                "date_start": 536457600,
+                "date_end": 567907200,
+                "id": 1015
+            },
+            {
+                "event": "2400 A.D.",
+                "Developer": "Origin Systems",
+                "Publisher": "Origin Systems",
+                "Genre(s)": "Adventure",
+                "Operating system(s)": "MS-DOS, Apple II",
+                "date": "1987",
+                "date_start": 536457600,
+                "date_end": 567907200,
+                "id": 1016
+            },
+            {
+                "event": "3-D Bomberman",
+                "Developer": "Hudson Soft",
+                "Publisher": "Hudson Soft",
+                "Genre(s)": "Arcade, maze, strategy",
+                "Operating system(s)": null,
+                "date": "1984",
+                "date_start": 441763200,
+                "date_end": 473299200,
+                "id": 1017
+            },
+            {
+                "event": "3-Demon",
+                "Developer": "PC research INC",
+                "Publisher": null,
+                "Genre(s)": "Adventure",
+                "Operating system(s)": "DOS",
+                "date": "1983",
+                "date_start": 410227200,
+                "date_end": 441676800,
+                "id": 1018
+            },
+            {
+                "event": "3D Construction Kit",
+                "Developer": "Incentive Software",
+                "Publisher": "Domark",
+                "Genre(s)": "Simulation",
+                "Operating system(s)": "MS-DOS",
+                "date": "July 1, 1991",
+                "date_start": 678326400,
+                "date_end": 678326400,
+                "id": 1019
+            },
+            {
+                "event": "3D Construction Kit II",
+                "Developer": "Incentive Software",
+                "Publisher": "Domark",
+                "Genre(s)": "Simulation",
+                "Operating system(s)": "MS-DOS",
+                "date": "November 10, 1992",
+                "date_start": 721353600,
+                "date_end": 721353600,
+                "id": 1020
+            },
+            {
+                "event": "3D Maze Man: Amazing Adventures",
+                "Developer": "Webfoot Technologies",
+                "Publisher": "eGames Inc",
+                "Genre(s)": "Arcade",
+                "Operating system(s)": "MS-DOS",
+                "date": "1998",
+                "date_start": 883612800,
+                "date_end": 915062400,
+                "id": 1021
+            },
+            {
+                "event": "3DiTeams",
+                "Developer": "Duke University Medical Center, Virtual Heroes, Inc.",
+                "Publisher": "Duke University Medical Center, Virtual Heroes, Inc.",
+                "Genre(s)": "Serious game",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "November 1, 2007",
+                "date_start": 1193875200,
+                "date_end": 1193875200,
+                "id": 1022
+            },
+            {
+                "event": "3Kingdoms",
+                "Developer": "Project Community",
+                "Publisher": null,
+                "Genre(s)": "MUD",
+                "Operating system(s)": null,
+                "date": "1992",
+                "date_start": 694224000,
+                "date_end": 725760000,
+                "id": 1023
+            },
+            {
+                "event": "4D Sports Boxing",
+                "Developer": "Distinctive Software",
+                "Publisher": "Mindscape",
+                "Genre(s)": "Sports",
+                "Operating system(s)": "Amiga, DOS, Atari ST, macOS",
+                "date": "June 15, 1991",
+                "date_start": 676944000,
+                "date_end": 676944000,
+                "id": 1024
+            },
+            {
+                "event": "4D Sports Tennis",
+                "Developer": "Distinctive Software",
+                "Publisher": "Mindscape",
+                "Genre(s)": "Sports",
+                "Operating system(s)": "DOS",
+                "date": "1990",
+                "date_start": 631152000,
+                "date_end": 662601600,
+                "id": 1025
+            },
+            {
+                "event": "4 Elements",
+                "Developer": "Playrix Entertainment",
+                "Publisher": null,
+                "Genre(s)": "Adventure Game",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "September 3, 2008",
+                "date_start": 1220400000,
+                "date_end": 1220400000,
+                "id": 1026
+            },
+            {
+                "event": "4Story",
+                "Developer": "Zemi Interactive",
+                "Publisher": "Gameforge",
+                "Genre(s)": "MMORPG",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "2008",
+                "date_start": 1199145600,
+                "date_end": 1230681600,
+                "id": 1027
+            },
+            {
+                "event": "4th & Inches",
+                "Developer": "Accolade",
+                "Publisher": null,
+                "Genre(s)": "Sports, American football",
+                "Operating system(s)": "Amiga, Commodore 64, Apple II, Apple IIGS, DOS",
+                "date": "1987",
+                "date_start": 536457600,
+                "date_end": 567907200,
+                "id": 1028
+            },
+            {
+                "event": "4x4 Hummer",
+                "Developer": "Avalon Entertainment",
+                "Publisher": "505 Games, 1C Company",
+                "Genre(s)": "Racing",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "June 15, 2009",
+                "date_start": 1245024000,
+                "date_end": 1245024000,
+                "id": 1029
+            },
+            {
+                "event": "4x4 Off-Road Racing",
+                "Developer": "Odan MicroDesign",
+                "Publisher": "Epyx",
+                "Genre(s)": "Racing",
+                "Operating system(s)": "Amstrad CPC, Atari ST, Amiga, DOS, Commodore 64, MSX, ZX Spectrum",
+                "date": "1988",
+                "date_start": 567993600,
+                "date_end": 599529600,
+                "id": 1030
+            },
+            {
+                "event": "5",
+                "Developer": "Ram",
+                "Publisher": "Visual Art's",
+                "Genre(s)": "Eroge, visual novel",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "July 25, 2008",
+                "date_start": 1216944000,
+                "date_end": 1216944000,
+                "id": 1031
+            },
+            {
+                "event": "5 A Day Adventures",
+                "Developer": null,
+                "Publisher": "Dole Food Company",
+                "Genre(s)": "Education",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "1994",
+                "date_start": 757382400,
+                "date_end": 788832000,
+                "id": 1032
+            },
+            {
+                "event": "50 Mission Crush",
+                "Developer": "John Gray",
+                "Publisher": "Strategic Simulations, Inc",
+                "Genre(s)": "RPG",
+                "Operating system(s)": "Apple II, Atari 8-bit family, Commodore 64, DOS",
+                "date": "1984",
+                "date_start": 441763200,
+                "date_end": 473299200,
+                "id": 1033
+            },
+            {
+                "event": "500cc Grand Prix",
+                "Developer": "Micro\u00efds",
+                "Publisher": "Micro\u00efds",
+                "Genre(s)": "Racing",
+                "Operating system(s)": "Amstrad CPC, Atari ST, Commodore C64/128",
+                "date": "1987",
+                "date_start": 536457600,
+                "date_end": 567907200,
+                "id": 1034
+            },
+            {
+                "event": "688(I) Hunter/Killer",
+                "Developer": "Sonalysts Inc.",
+                "Publisher": "Electronic Arts",
+                "Genre(s)": "Submarine simulator",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "July 4, 1997",
+                "date_start": 867974400,
+                "date_end": 867974400,
+                "id": 1035
+            },
+            {
+                "event": "7 Colors",
+                "Developer": "Gamos Ltd.",
+                "Publisher": "Infogrames",
+                "Genre(s)": "Strategy",
+                "Operating system(s)": "Amiga, DOS",
+                "date": "1991",
+                "date_start": 662688000,
+                "date_end": 694137600,
+                "id": 1036
+            },
+            {
+                "event": "7554",
+                "Developer": "Emobi Games",
+                "Publisher": "Emobi Games",
+                "Genre(s)": "First-person shooter",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "December 16, 2011",
+                "date_start": 1323993600,
+                "date_end": 1323993600,
+                "id": 1037
+            },
+            {
+                "event": "7th Legion",
+                "Developer": "Vision, Epic MegaGames",
+                "Publisher": "MicroProse",
+                "Genre(s)": "RTS",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "September 30, 1997",
+                "date_start": 875577600,
+                "date_end": 875577600,
+                "id": 1038
+            },
+            {
+                "event": "80 Days",
+                "Developer": "Frogwares",
+                "Publisher": null,
+                "Genre(s)": "Adventure",
+                "Operating system(s)": "Microsoft Windows",
+                "date": "2005",
+                "date_start": 1104537600,
+                "date_end": 1135987200,
+                "id": 1039
+            },
+            {
+                "event": "8BitMMO",
+                "Developer": "Archive Entertainment",
+                "Publisher": null,
+                "Genre(s)": "MMORPG",
+                "Operating system(s)": "Microsoft Windows, Linux, macOS",
+                "date": "December 14, 2013",
+                "date_start": 1386979200,
+                "date_end": 1386979200,
+                "id": 1040
+            },
+            {
+                "event": "9: The Last Resort",
+                "Developer": "Tribeca Interactive",
+                "Publisher": "GT Interactive",
+                "Genre(s)": "Adventure game",
+                "Operating system(s)": "Microsoft Windows, macOS",
+                "date": "September 30, 1996",
+                "date_start": 844041600,
+                "date_end": 844041600,
+                "id": 1041
+            }
+        ]
     }
-]
+}

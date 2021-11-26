@@ -1,3 +1,31 @@
+var quiz = 'history';
+
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function showDropdown() {
+    document.getElementById("quizeType").classList.toggle("show");
+  }
+
+  // Close the dropdown menu if the user clicks outside of it
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+          console.log(5 + 6);
+        }
+      }
+    }
+  }
+
+function setQuiz(name) {
+    quiz = name;
+    resetQuiz();
+}
+
 function getRandomInt(max, size) {
     var numbers = []
     max = Math.floor(max);
@@ -16,12 +44,12 @@ function getRandomInt(max, size) {
 
 function getNewEvent() {
     do {
-        idx = getRandomInt(questionData.length, 1)[0]
+        idx = getRandomInt(questionData[quiz]["questionNumber"], 1)[0]
     }
     while (questionID.includes(idx));
 
     questionID.push(idx)
-    new_event = questionData[idx]
+    new_event = questionData[quiz]["questions"][idx]
 
     return new_event
 }
@@ -31,7 +59,7 @@ function formatEvent(element) {
     event_HTML =
     `
     <div frozen="false" class="box"
-    year_start=${element.year_start} year_end=${element.year_start}>
+    date_start=${element.date_start} date_end=${element.date_start}>
         ${element.event}
         <div reveal="false" class="solution">
             ${element.date}
@@ -50,7 +78,7 @@ function updateEvents() {
     // get a new event and append it to the list
     questionList.push(getNewEvent())
     // mark all previous events as frozen
-    items = document.querySelectorAll('.quiz-container .box')
+    items = document.querySelectorAll('.quiz-container .box');
     for (it of items) {
         it.setAttribute('frozen', true);
         it.getElementsByClassName('solution')[0].setAttribute('reveal', true);
@@ -68,11 +96,11 @@ function validateAnswer() {
 
     for (it of items) {
         //get the end year of the next event
-        nextEventEnd = parseInt(it.getAttribute('year_end'))
+        nextEventEnd = parseInt(it.getAttribute('date_end'))
         //did the next event end after the previous event started?
         if (lastEventStart <= nextEventEnd) {
             // take the starting year of the next event
-            lastEventStart = parseInt(it.getAttribute('year_start'))
+            lastEventStart = parseInt(it.getAttribute('date_start'))
         } else {
             // the order is incompatible so return false
             return false
@@ -111,15 +139,33 @@ function submit() {
     }
 }
 
-function reset() {
-    location.reload()
+function resetQuiz() {
+
+    // delete all questions
+    quizContainer.innerHTML = '';
+
+    // reset points
+    stateContainer.innerHTML = "Current Points: 0";
+    submitButton.disabled = false;
+
+    // reset variables
+    currentQuestion = 0; // question being shown
+    maxQuestion = 0;// last question being solved
+    currentPoints = 0; // keep track of points
+
+    //get first question
+    questionList = [];
+    questionID = [];
+    questionList.push(getNewEvent());
+    appendEvent(questionList[0]);
+    updateEvents();
 }
+
 
 // define containers
 const pointContainer = document.getElementById('points')
 const stateContainer = document.getElementById('gamestate')
 const quizContainer = document.getElementById('quiz');
-const newEventContainer = document.getElementById('nextEvent')
 
 // define buttons
 const submitButton = document.getElementById("submit");
@@ -127,12 +173,11 @@ const resetButton = document.getElementById("reset");
 
 // button listeners
 submitButton.addEventListener('click', submit);
-resetButton.addEventListener('click', reset);
+resetButton.addEventListener('click', resetQuiz);
 
 var currentQuestion = 0 // question being shown
 var maxQuestion = 0 // last question being solved
 var currentPoints = 0 // keep track of points
-var numEvents = 4 // number of events to sort
 
 //get first question
 var questionList = []
@@ -141,5 +186,3 @@ questionList.push(getNewEvent())
 appendEvent(questionList[0])
 // get second event
 updateEvents()
-
-//showQuestion(questionList[currentQuestion]);
