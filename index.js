@@ -119,10 +119,10 @@ function submit() {
         currentValue.style.display = "block"
     })
 
-    // update points
+    // increase points by one
     currentPoints = currentPoints + res
-    pointString = `${currentPoints}`
-    pointContainer.innerHTML = pointString;
+    // update points
+    updatePoints()
 
     if (res == true) {
         // get next event
@@ -135,8 +135,13 @@ function submit() {
             it.getElementsByClassName('solution')[0].setAttribute('reveal', true);
         }
         submitButton.disabled = true
-        stateContainer.innerHTML = "Game OVER! Total points: " + `${currentPoints}`
+        pointTextContainer.innerHTML = "Game OVER! Total points: "
     }
+}
+
+function updatePoints() {
+    pointString = `${currentPoints}`
+    pointContainer.innerHTML = pointString;
 }
 
 function resetQuiz() {
@@ -145,13 +150,16 @@ function resetQuiz() {
     quizContainer.innerHTML = '';
 
     // reset points
-    stateContainer.innerHTML = "Current Points: 0";
+    pointTextContainer.innerHTML = "Current Points: ";
     submitButton.disabled = false;
 
     // reset variables
     currentQuestion = 0; // question being shown
     maxQuestion = 0;// last question being solved
     currentPoints = 0; // keep track of points
+
+    // render points
+    updatePoints()
 
     //get first question
     questionList = [];
@@ -164,7 +172,7 @@ function resetQuiz() {
 
 // define containers
 const pointContainer = document.getElementById('points')
-const stateContainer = document.getElementById('gamestate')
+const pointTextContainer = document.getElementById('point-text')
 const quizContainer = document.getElementById('quiz');
 
 // define buttons
