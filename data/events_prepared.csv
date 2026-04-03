@@ -134,7 +134,7 @@ index,year_start,year_end,date,era,event,Source,type
 132,161,161,161,Ancient & Classical,Marcus Aurelius becomes emperor of the Roman Empire. He is often ranked by historians as one of the greatest roman emperors.,,Politics & Power
 133,180,180,180,Ancient & Classical,Reign of Marcus Aurelius officially ends.,,Politics & Power
 134,180,181,180 - 181,Ancient & Classical,Commodus becomes Roman Emperor.,,Politics & Power
-135,200,200,200s,Ancient & Classical,The Buddhist Srivijaya Empire established in Maritime Southeast Asia.,,Religion
+135,200,250,200s,Ancient & Classical,The Buddhist Srivijaya Empire established in Maritime Southeast Asia.,,Religion
 136,220,220,220,Ancient & Classical,Three Kingdoms period begins in China after the fall of Han Dynasty.,,Politics & Power
 137,226,226,226,Ancient & Classical,Fall of the Parthian Empire and Rise of the Sassanian Empire.,,Politics & Power
 138,280,280,280,Ancient & Classical,Emperor Wu established Jin Dynasty providing a temporary unity of China after the devastating Three Kingdoms period.,,Politics & Power
@@ -153,60 +153,60 @@ index,year_start,year_end,date,era,event,Source,type
 151,378,378,378,Ancient & Classical,"Battle of Adrianople, Roman army is defeated by the Germanic tribes.",,War & Conflict
 152,380,380,380,Ancient & Classical,Roman Emperor Theodosius I declares the Arian faith of Christianity heretical.,,Religion
 153,395,395,395,Ancient & Classical,Theodosius I outlaws all religions other than Catholic Christianity.,,Religion
-154,400,400,c. 400,Medieval,Highland Maya fall to the lowland city of Teotihuacan. Begins the decline of Maya culture and language in some parts of the highlands. ,,Politics & Power
+154,380,420,c. 400,Medieval,Highland Maya fall to the lowland city of Teotihuacan. Begins the decline of Maya culture and language in some parts of the highlands. ,,Politics & Power
 155,405,405,405,Medieval,St. Jerome finished the Vulgate. The Christian Gospel is translated into Latin. ,,Religion
 156,406,406,406,Ancient & Classical,Romans are expelled from Britain.,,Politics & Power
 157,407,409,407-409,Ancient & Classical,Visigoths and other Germanic tribes cross into Roman-Gaul for the first time.,,Politics & Power
-159,410,410,410 August 24,Medieval,"Rome is sacked by Alaric, King of the Visigoths. Decisive event in the decline of the Western Roman Empire. ",,Politics & Power
+159,4100824,4100824,410 August 24,Medieval,"Rome is sacked by Alaric, King of the Visigoths. Decisive event in the decline of the Western Roman Empire. ",,Politics & Power
 160,415,415,415,Ancient & Classical,Germanic tribes enter Spain.,,Politics & Power
 161,429,429,429,Ancient & Classical,Vandals enter North Africa from Spain for the first time,,Politics & Power
-162,431,431,431 June 22 – July 31,Medieval,"The Council of Ephesus confirmed the original Nicene Creed, and condemned the teachings of Nestorius, Patriarch of Constantinople, that led to his exile and separation with the Church of the East. ",,Religion
+162,4310622,4310731,431 June 22 – July 31,Medieval,"The Council of Ephesus confirmed the original Nicene Creed, and condemned the teachings of Nestorius, Patriarch of Constantinople, that led to his exile and separation with the Church of the East. ",,Religion
 163,439,439,439,Ancient & Classical,Vandals have conquered the land stretching from Morocco to Tunisia by this time.,,Politics & Power
 164,455,455,455,Ancient & Classical,"Vandals sack Rome, capture Sicily and Sardinia.",,Politics & Power
-165,455,455,455 June 2,Medieval,"Rome is sacked by Genseric, King of the Vandals. Another decisive event in the Fall of Rome and held by some historians to mark the `end of the Roman Empire`",,Politics & Power
+165,4550602,4550602,455 June 2,Medieval,"Rome is sacked by Genseric, King of the Vandals. Another decisive event in the Fall of Rome and held by some historians to mark the `end of the Roman Empire`",,Politics & Power
 166,476,476,476,Ancient & Classical,"Romulus Augustus, last Western Roman Emperor is forced to abdicate by Odoacer, a chieftain of the Germanic Heruli",,Politics & Power
-167,476,476,476 September 4,Medieval,Odoacer deposes the Roman Emperor Romulus Augustulus. Considered by some historians to be the starting point of the Middle Ages.,,Politics & Power
-168,480,480,480 April 25,Medieval,"Death of Julius Nepos, last Roman Emperor to be recognized as such by the Roman Senate and the Eastern court. Considered by some historians to be the starting point of the Middle Ages.",,Politics & Power
-169,500,500,c. 500,Medieval,Tikal becomes the first great Maya city. Significant cultural exchange between the Maya of Tikal and the citizens of Teotihuacan.,,Politics & Power
-170,500,500,c. 500,Medieval,Battle of Mons Badonicus. The West Saxon advance is halted by Britons in England. Chiefly known today for the supposed involvement of King Arthur but information is very limited.,,War & Conflict
-171,507,507,507 Spring,Medieval,The Franks under Clovis defeat the Visigoths in the Battle of Vouillé. The Visigoths retreated into Spain. ,,War & Conflict
-172,524,524,c. 524,Medieval,Boethius writes his Consolation of Philosophy. It has been described as the single most important and influential work in the West on Medieval and early Renaissance Christianity. ,,Religion
+167,4760904,4760904,476 September 4,Medieval,Odoacer deposes the Roman Emperor Romulus Augustulus. Considered by some historians to be the starting point of the Middle Ages.,,Politics & Power
+168,4800425,4800425,480 April 25,Medieval,"Death of Julius Nepos, last Roman Emperor to be recognized as such by the Roman Senate and the Eastern court. Considered by some historians to be the starting point of the Middle Ages.",,Politics & Power
+169,480,520,c. 500,Medieval,Tikal becomes the first great Maya city. Significant cultural exchange between the Maya of Tikal and the citizens of Teotihuacan.,,Politics & Power
+170,480,520,c. 500,Medieval,Battle of Mons Badonicus. The West Saxon advance is halted by Britons in England. Chiefly known today for the supposed involvement of King Arthur but information is very limited.,,War & Conflict
+171,5070101,5070331,507 Spring,Medieval,The Franks under Clovis defeat the Visigoths in the Battle of Vouillé. The Visigoths retreated into Spain. ,,War & Conflict
+172,520,530,c. 524,Medieval,Boethius writes his Consolation of Philosophy. It has been described as the single most important and influential work in the West on Medieval and early Renaissance Christianity. ,,Religion
 173,525,525,525,Medieval,"Dionysius Exiguus publishes the Dionysius Exiguus' Easter table. This initiated the Anno Domini era, used for the Gregorian and Julian calendars. ",,Science & Technology
-174,527,527,527 August 1,Medieval,Justinian I becomes Eastern Roman Emperor. Justinian is best remembered for his Code of Civil Law and expansion of imperial territory retaking Rome from the Ostrogoths. ,,Politics & Power
-175,529,529,529–534,Medieval,Justinian I publishes the Code of Civil Law. This compiled centuries of legal writings and imperial pronouncements into three parts of one body of law.,,Politics & Power
+174,5270801,5270801,527 August 1,Medieval,Justinian I becomes Eastern Roman Emperor. Justinian is best remembered for his Code of Civil Law and expansion of imperial territory retaking Rome from the Ostrogoths. ,,Politics & Power
+175,529,534,529–534,Medieval,Justinian I publishes the Code of Civil Law. This compiled centuries of legal writings and imperial pronouncements into three parts of one body of law.,,Politics & Power
 176,529,529,529,Medieval,"Benedict of Nursia founds monastery at Monte Cassino. The first of twelve monasteries founded by Saint Benedict, beginning the Order of Saint Benedict.",,Religion
-177,532,532,532 January 1,Medieval,Nika riots in Constantinople. Nearly half the city is burned down or destroyed and tens of thousands of people are killed.,,Politics & Power
-178,533,533,533 December 15,Medieval,"Byzantines, under Belisarius, retake North Africa from the Vandals. Vandal kingdom ends and the Reconquest of North Africa is completed. ",,Politics & Power
-179,535,535,535–554,Medieval,Gothic War in Italy as a part of Justinian's Reconquest. Byzantines retook Italy but crippled the Byzantine economy and left Italy unable to cope against the oncoming Lombards.,,War & Conflict
+177,5320101,5320101,532 January 1,Medieval,Nika riots in Constantinople. Nearly half the city is burned down or destroyed and tens of thousands of people are killed.,,Politics & Power
+178,5331215,5331215,533 December 15,Medieval,"Byzantines, under Belisarius, retake North Africa from the Vandals. Vandal kingdom ends and the Reconquest of North Africa is completed. ",,Politics & Power
+179,535,554,535–554,Medieval,Gothic War in Italy as a part of Justinian's Reconquest. Byzantines retook Italy but crippled the Byzantine economy and left Italy unable to cope against the oncoming Lombards.,,War & Conflict
 180,563,563,563,Medieval,Saint Columba founds mission in Iona. Constructed an abbey which helped convert the Picts to Christianity until it was destroyed and raided by the Vikings in 794.,,Religion
 181,568,568,568,Medieval,The Kingdom of the Lombards is founded in Italy. Survived in Italy until the invasion of the Franks under Charlemagne. ,,War & Conflict
-182,570,570,c. 570,Medieval,"Muhammad is born. Professed receiving revelations from a god, which were recorded in the Quran, the basis of Islamic theology, in which he is regarded as the last of the sent prophets.",,Religion
+182,560,580,c. 570,Medieval,"Muhammad is born. Professed receiving revelations from a god, which were recorded in the Quran, the basis of Islamic theology, in which he is regarded as the last of the sent prophets.",,Religion
 183,577,577,577,Medieval,"The West Saxons continue their advance at the Battle of Deorham. Led to the permanent separation of Cornwall, England from Wales. ",,War & Conflict
-184,581,581,04 March 581 – 23 May 618,Medieval,Sui dynasty in China. China unified once again during this period after more than three centuries of fragmentation.,,Politics & Power
-185,590,590,590 September 3,Medieval,Gregory the Great becomes Pope. The missionary work reached new levels during his reign and he revolutionized the way of worship for the Catholic Church.,,Science & Technology
+184,5810304,6180523,04 March 581 – 23 May 618,Medieval,Sui dynasty in China. China unified once again during this period after more than three centuries of fragmentation.,,Politics & Power
+185,5900903,5900903,590 September 3,Medieval,Gregory the Great becomes Pope. The missionary work reached new levels during his reign and he revolutionized the way of worship for the Catholic Church.,,Science & Technology
 186,597,597,597,Medieval,Augustine arrives in Kent. Christianization of England (Anglo-Saxons) begins.,,Religion
-187,598,598,598–668,Medieval,"Massive Chinese (Sui and Tang) invasions against Korean Goguryeo. Contributed to the fall of the Sui dynasty, and Goguryeo fell under the forces of the Tang and Silla.",,War & Conflict
-188,600,600,c. 600,Medieval,Deliberate fires set for unknown reasons destroy major buildings in Teotihuacan. Destroys the Teotihuacan civilization and empire. Tikal is now the largest city-state in Mesoamerica.,,Politics & Power
-189,602,602,602–629,Medieval,Last great Roman–Persian War. Long conflict leaves both empires exhausted and unable to cope with the newly united Arab armies under Islam in the 630s,,War & Conflict
-190,604,604,604–609,Medieval,Grand Canal in China is fully completed Its main role throughout its history was the transport of grain to the capital.,,Politics & Power
-191,618,618,01 June 618 – 18 June 907,Medieval,Tang dynasty in China. The essential administrative system established during this dynasty shaped Chinese governance for generations.,,Politics & Power
-192,622,622,9 September – 23 September 622,Medieval,"Muhammad migrates from Mecca to Medina. Event will have designated first year of the Islamic calendar, as Anno Hegirae. ",,Science & Technology
+187,598,668,598–668,Medieval,"Massive Chinese (Sui and Tang) invasions against Korean Goguryeo. Contributed to the fall of the Sui dynasty, and Goguryeo fell under the forces of the Tang and Silla.",,War & Conflict
+188,580,620,c. 600,Medieval,Deliberate fires set for unknown reasons destroy major buildings in Teotihuacan. Destroys the Teotihuacan civilization and empire. Tikal is now the largest city-state in Mesoamerica.,,Politics & Power
+189,602,629,602–629,Medieval,Last great Roman–Persian War. Long conflict leaves both empires exhausted and unable to cope with the newly united Arab armies under Islam in the 630s,,War & Conflict
+190,604,609,604–609,Medieval,Grand Canal in China is fully completed Its main role throughout its history was the transport of grain to the capital.,,Politics & Power
+191,6180601,9070618,01 June 618 – 18 June 907,Medieval,Tang dynasty in China. The essential administrative system established during this dynasty shaped Chinese governance for generations.,,Politics & Power
+192,6220909,6220923,9 September – 23 September 622,Medieval,"Muhammad migrates from Mecca to Medina. Event will have designated first year of the Islamic calendar, as Anno Hegirae. ",,Science & Technology
 193,626,626,626,Medieval,"Joint Persian–Avar–Slav Siege of Constantinople. Constantinople saved, Avar power broken and Persians henceforth on the defensive ",,War & Conflict
-194,627,627,627 December 12,Medieval,"Battle of Nineveh. The Byzantines, under Heraclius, crush the Persians. ",,War & Conflict
-195,632,632,632 June 8,Medieval,Death of Muhammad,,Politics & Power
-196,632,632,632–668,Medieval,Establishment and expansion of Old Great Bulgaria. The demise of Old Great Bulgaria lead to the founding of the First Bulgarian Empire and Volga Bulgaria by the sons of Kubrat.,,Politics & Power
-197,632,632,632 June 8,Medieval,Accession of Abu Bakr as first Caliph. Though the period of his caliphate was not long it included successful invasions of the two most powerful empires of the time.,,War & Conflict
-198,633,633,633–634,Medieval,Battle of Heavenfield. Northumbrian army under Oswald defeat Welsh army.,,War & Conflict
+194,6271212,6271212,627 December 12,Medieval,"Battle of Nineveh. The Byzantines, under Heraclius, crush the Persians. ",,War & Conflict
+195,6320608,6320608,632 June 8,Medieval,Death of Muhammad,,Politics & Power
+196,632,668,632–668,Medieval,Establishment and expansion of Old Great Bulgaria. The demise of Old Great Bulgaria lead to the founding of the First Bulgarian Empire and Volga Bulgaria by the sons of Kubrat.,,Politics & Power
+197,6320608,6320608,632 June 8,Medieval,Accession of Abu Bakr as first Caliph. Though the period of his caliphate was not long it included successful invasions of the two most powerful empires of the time.,,War & Conflict
+198,633,634,633–634,Medieval,Battle of Heavenfield. Northumbrian army under Oswald defeat Welsh army.,,War & Conflict
 199,638,638,638,Medieval,"Jerusalem captured by the Arab army, mostly Muslims, but with contingents of Syrian Christians.",,War & Conflict
 200,641,641,641,Medieval,Battle of Nahavand. Muslims conquer Persia.,,War & Conflict
 201,643,643,643,Medieval,Arab Army led by Amr ibn al-As takes Alexandria.,,War & Conflict
 202,645,645,645,Medieval,"In Japan, the Soga clan falls. This initiates a period of imitation of Chinese culture, The Nara period begins a year later. ",,Politics & Power
 203,650,650,650,Medieval,Slav occupation of Balkans complete.,,Politics & Power
-204,650,650,c. 650,Medieval,The city-state Xochicalco is founded by the Olmeca–Xicallanca. Becomes an important cultural and commercial center.,,Politics & Power
+204,630,670,c. 650,Medieval,The city-state Xochicalco is founded by the Olmeca–Xicallanca. Becomes an important cultural and commercial center.,,Politics & Power
 205,653,653,653,Medieval,Arab force under Muslim general Muawiyah I conqueres Rhodes and destroys the Collosus of Rhodes.,https://en.wikipedia.org/wiki/Colossus_of_Rhodes,Politics & Power
 206,663,663,663,Medieval,Synod of Whitby. Roman Christianity triumphs over Celtic Christianity in England.,,Religion
 207,668,668,668,Medieval,"End of the Three Kingdoms period in Korea. Unified Silla was established, which shortly led to the North–South States Period.",,Politics & Power
-208,674,674,674–678,Medieval,First Arab siege of Constantinople. First time Islamic armies defeated forestalling Islamic conquest of Europe.,,War & Conflict
+208,674,678,674–678,Medieval,First Arab siege of Constantinople. First time Islamic armies defeated forestalling Islamic conquest of Europe.,,War & Conflict
 209,681,681,681,Medieval,Establishment of the Bulgarian Empire.,,Politics & Power
 210,685,685,685,Medieval,Battle of Dun Nechtain. Picts defeat Northumbrians whose dominance ends.,,War & Conflict
 211,687,687,687,Medieval,Battle of Tertry Established Pepin of Herstal as mayor over the entire realms of Neustria and Austrasia which further dwindled Merovingian power.,,War & Conflict
@@ -215,20 +215,20 @@ index,year_start,year_end,date,era,event,Source,type
 214,711,711,711,Medieval,Umayyad conquest of Hispania under Tarik. Will begin a period of Muslim rule within in the Al-Andalus (with various portions of Iberian peninsula) until nearly the end of the Fifteenth Century.,,Politics & Power
 215,718,718,718,Medieval,"Second Arab attack on Constantinople, ending in failure. The combined Byzantine–Bulgarian forces stop the Arab threat in Southeastern Europe.",,Politics & Power
 216,726,726,726,Medieval,"Iconoclast movement begun in the Byzantine Empire under Leo III. This was opposed by Pope Gregory II, and an important difference between the Roman and Byzantine churches.",,Religion
-217,732,732,732 October,Medieval,Battle of Tours. Charles Martel halts Muslim advance which led to the forming of the Carolingian Empire for the Franks and halted the advancement of the Moors in southwestern Europe.,,War & Conflict
-218,735,735,735 26 May,Medieval,Death of Bede. Bede was later regarded as the father of English history ,,Politics & Power
-219,750,750,750 25 January,Medieval,"Beginning of Abbasid Caliphate. It would become the longest-lasting caliphate, eventually falling when conquered and annexed into the Ottoman Empire.",,Politics & Power
+217,7321001,7321001,732 October,Medieval,Battle of Tours. Charles Martel halts Muslim advance which led to the forming of the Carolingian Empire for the Franks and halted the advancement of the Moors in southwestern Europe.,,War & Conflict
+218,7350526,7350526,735 26 May,Medieval,Death of Bede. Bede was later regarded as the father of English history ,,Politics & Power
+219,7500125,7500125,750 25 January,Medieval,"Beginning of Abbasid Caliphate. It would become the longest-lasting caliphate, eventually falling when conquered and annexed into the Ottoman Empire.",,Politics & Power
 220,751,751,751,Medieval,Pepin the Short founds the Carolingian dynasty.,,Politics & Power
 221,754,754,754,Medieval,Pepin promises the Pope central Italy. This is arguably the beginning of the temporal power of the Papacy.,,Religion
 222,768,768,768,Medieval,Beginning of Charlemagne's reign.,,Politics & Power
-223,778,778,778 15 August,Medieval,Battle of Roncevaux Pass.,,War & Conflict
-224,786,786,786 14 September,Medieval,Accession of Harun al-Rashid to the Caliphate in Baghdad.,,Politics & Power
+223,7780815,7780815,778 15 August,Medieval,Battle of Roncevaux Pass.,,War & Conflict
+224,7860914,7860914,786 14 September,Medieval,Accession of Harun al-Rashid to the Caliphate in Baghdad.,,Politics & Power
 225,793,793,793,Medieval,"Viking attacks on Britain begin with the Sack of Lindisfarne. The Viking Age will span over two centuries. There influence will reach Hispania, to the Byzantine Empire, and present day Russia. ",,Politics & Power
 226,794,794,794,Medieval,Heian period in Japan. Considered to be the last classical period of History of Japan. Chinese influence was at its strongest during this era in Japan.,,Politics & Power
-227,795,795,795 29 July,Medieval,Death of Offa. Marks the end of Mercian dominance in England.,,Politics & Power
-228,800,800,800 25 December,Medieval,Charlemagne is crowned Holy Roman Emperor. With his crowning Charlemagne's kingdom is officially recognized by the Papacy as the largest in Europe since the fall of the Roman Empire.,,Politics & Power
+227,7950729,7950729,795 29 July,Medieval,Death of Offa. Marks the end of Mercian dominance in England.,,Politics & Power
+228,8001225,8001225,800 25 December,Medieval,Charlemagne is crowned Holy Roman Emperor. With his crowning Charlemagne's kingdom is officially recognized by the Papacy as the largest in Europe since the fall of the Roman Empire.,,Politics & Power
 229,800,800,800,Medieval,Gunpowder is invented in China by Taoist alchemists searching for an elixir of immortality.,,Science & Technology
-230,814,814,814 28 January,Medieval,Death of Charlemagne. This would be a factor towards the splitting of his empire within a generation.,,Politics & Power
+230,8140128,8140128,814 28 January,Medieval,Death of Charlemagne. This would be a factor towards the splitting of his empire within a generation.,,Politics & Power
 231,820,820,820,Medieval,Algebrae et Alumcabola Algorithm Muhammad ibn Musa- al-Khwarizmi,,Politics & Power
 232,825,825,825,Medieval,Battle of Ellandun. Egbert defeats Mercians. Wessex becomes the leading kingdom of England.,,War & Conflict
 233,827,827,827,Medieval,Muslims invade Sicily. First encounter of attempts to conquer Byzantine Sicily until the last Byzantine outpost was conquered in 965.,,Politics & Power
@@ -241,15 +241,15 @@ index,year_start,year_end,date,era,event,Source,type
 240,866,866,866,Medieval,"Viking Great Army arrives in England. Northumbria, East Anglia, and Mercia were overwhelmed. ",,War & Conflict
 241,868,868,868,Medieval,Earliest known printed book in China with a date.,,Politics & Power
 242,871,871,871,Medieval,"Alfred the Great assumes the throne, the first king of a united England. He defended England from Viking invaders, formed new laws and fostered a rebirth of religious and scholarly activities.",,Politics & Power
-243,872,872,c. 872,Medieval,Harold Fairhair becomes King of Norway.,,Politics & Power
+243,870,875,c. 872,Medieval,Harold Fairhair becomes King of Norway.,,Politics & Power
 244,874,874,874,Medieval,Iceland is settled by Norsemen.,,Politics & Power
 245,882,882,882,Medieval,"Kievan Rus' is established. It would be sustained through numerous challenges, peaking during the reign of Yaroslav the Wise, before ultimately falling to the Mongol invasion.",,War & Conflict
 246,885,885,885,Medieval,Arrival of the disciples of Saints Cyril and Methodius in Bulgaria. In the following decades the country became the cultural and spiritual centre of the Eastern Orthodox part of the Slavic World.,,Politics & Power
-247,885,885,885–886,Medieval,Vikings attack Paris.,,Politics & Power
+247,885,886,885–886,Medieval,Vikings attack Paris.,,Politics & Power
 248,893,893,893,Medieval,Emperor Simeon I becomes ruler of the First Bulgarian Empire in the Balkans. Under his rule falls the golden age of the First Bulgarian Empire and the invention of the Cyrillic Script. ,,Science & Technology
 249,896,896,896,Medieval,Arpad and the Magyars are present in Pannonia.,,Politics & Power
-250,899,899,27 October 899,Medieval,Death of Alfred the Great King of the Anglo-Saxon. Being learned he proposed that priamry education be conducted in Old English instead of Latin.,,Politics & Power
-251,900,900,c. 900,Medieval,Lowland Maya cities in the south collapse. Signifies the end of the Classic Period of Maya history. The Maya in northern Yucatán continue to thrive. ,,Politics & Power
+250,8991027,8991027,27 October 899,Medieval,Death of Alfred the Great King of the Anglo-Saxon. Being learned he proposed that priamry education be conducted in Old English instead of Latin.,,Politics & Power
+251,880,920,c. 900,Medieval,Lowland Maya cities in the south collapse. Signifies the end of the Classic Period of Maya history. The Maya in northern Yucatán continue to thrive. ,,Politics & Power
 252,907,907,907,Medieval,Tang Dynasty ends with Emperor Ai deposed. The Five Dynasties and Ten Kingdoms period in China commences. ,,Politics & Power
 253,910,910,910,Medieval,"King Edward the Elder of England, son of King Alfred, defeats the Northumbrian Vikings at the Battle of Tettenhall; they never raid south of the River Humber again.",,War & Conflict
 254,910,910,910,Medieval,"Cluny Abbey is founded by William I, Count of Auvergne. Cluny goes on to become the acknowledged leader of Western Monasticism. Cluniac Reforms initiated with the abbey's founding.",,Politics & Power
@@ -263,11 +263,11 @@ index,year_start,year_end,date,era,event,Source,type
 262,936,936,936,Medieval,Wang Geon unifies Goryeo (Korea) which ends the Later Three Kingdoms Era.,,Politics & Power
 263,938,938,938,Medieval,Ngo Quyen won the battle of Bach Dang against the Chinese Southern Han army. This event marked the independence of Vietnam after centuries of Chinese domination.,,War & Conflict
 264,955,955,955,Medieval,"Battle of Lechfeld. Otto the Great, son of Henry the Fowler, defeats the Magyars. This is the defining event that prevents the Hungarians from entering Central Europe.",,War & Conflict
-265,960,960,c.960,Medieval,Mieszko I becomes duke of Polans. First historical ruler of Poland and de facto founder of the Polish State.,,Politics & Power
+265,940,980,c.960,Medieval,Mieszko I becomes duke of Polans. First historical ruler of Poland and de facto founder of the Polish State.,,Politics & Power
 266,960,960,960,Medieval,"Song Dynasty begins after Emperor Taizu usurps the throne from the Later Zhou, last of the Five Dynasties. A lengthy period of Song rule goes underway.",,Politics & Power
 267,962,962,962,Medieval,Otto the Great crowned the Holy Roman Emperor. First to be crowned Holy Roman Emperor in nearly 40 years.,,Politics & Power
-268,963,963,963–964,Medieval,Otto deposes Pope John XII who is replaced with Pope Leo VIII. Citizens of Rome promise not to elect another Pope without Imperial approval.,,Religion
-269,965,965,965–967,Medieval,"Mieszko I of Poland and his court embrace Christianity, which becomes national religion.",,Religion
+268,963,964,963–964,Medieval,Otto deposes Pope John XII who is replaced with Pope Leo VIII. Citizens of Rome promise not to elect another Pope without Imperial approval.,,Religion
+269,965,967,965–967,Medieval,"Mieszko I of Poland and his court embrace Christianity, which becomes national religion.",,Religion
 270,969,969,969,Medieval,John I Tzimiskes and Nikephoros II are executed. Sultane of Rums are proclaimed.,,Politics & Power
 271,976,976,976,Medieval,Death of John I Tzimiskes Under Basil II zenith of the power of Eastern Empire after Justinian.,,Politics & Power
 272,978,978,978,Medieval,Al-Mansur Ibn Abi Aamir becomes de facto ruler of Muslim Al-Andalus. Peak of power of Moorish Iberia under Almanzor.,,Politics & Power
@@ -276,7 +276,7 @@ index,year_start,year_end,date,era,event,Source,type
 275,987,987,987,Medieval,Succession of Hugh Capet to the French Throne. Beginning of Capetian Dynasty.,,Politics & Power
 276,988,988,988,Medieval,"Volodymyr I of Kiev embraces Christianity, which becomes national religion.",,Religion
 277,989,989,989,Medieval,Peace and Truce of God formed. The first movement of the Catholic Church using spiritual means to limit war and the first movement in medieval Europe to control society through non-violent means.,,War & Conflict
-278,1001,1001,c. 1001,Medieval,Leif Ericson is to settle during the winter in present-day Canada at L'Anse aux Meadows. Ericson is to be the first European to settle in the Americas during the Norse exploration of the Americas.,,Exploration
+278,1000,1002,c. 1001,Medieval,Leif Ericson is to settle during the winter in present-day Canada at L'Anse aux Meadows. Ericson is to be the first European to settle in the Americas during the Norse exploration of the Americas.,,Exploration
 279,1016,1016,1016,Medieval,"Canute the Great becomes King of England after the death of Edmund Ironside, with whom he shared the English throne. Danes remain kings of England for the next 26 years.",,Politics & Power
 280,1018,1018,1018,Medieval,The Byzantines under Basil II conquer Bulgaria after a bitter 50-years struggle. Concludes the Byzantine conquest of Bulgaria.,,Politics & Power
 281,1021,1021,1021,Medieval,"The Tale of Genji, by Murasaki Shikibu, is completed in Japan. It is sometimes called the world's first (modern) novel, or the first psychological novel.",,Culture & Arts
@@ -300,26 +300,26 @@ index,year_start,year_end,date,era,event,Source,type
 299,1100,1100,1100,Medieval,"Latin-translation of the great masters of Arabic medicine: Rhazes, Ishaq Ibn Imran, Ibn Suleiman, and Ibn al-Jazzar Constantine the African",,Politics & Power
 300,1102,1102,1102,Medieval,"The Kingdom of Croatia and the Kingdom of Hungary formed a personal union under the Hungarian king, creating an alliance that endured for centuries.",,Politics & Power
 301,1102,1102,1102,Medieval,"Synods of Westminster End of simony, clerical marriages, slavery under Anselm of Canterbury",,Politics & Power
-302,1106,1106,1106 28 September,Medieval,"Henry I of England defeats his older brother Robert Curthose, duke of Normandy, at the Battle of Tinchebrai, and imprisons him in Devizes castle.",,War & Conflict
+302,11060928,11060928,1106 28 September,Medieval,"Henry I of England defeats his older brother Robert Curthose, duke of Normandy, at the Battle of Tinchebrai, and imprisons him in Devizes castle.",,War & Conflict
 303,1107,1107,1107,Medieval,"Through the compromise, suggested by Adela, the sister of King Henry, the Investiture Struggle in England is ended it eases friction between the English monarchy and the Catholic Church.",,Religion
 304,1109,1109,1109,Medieval,"In the Battle of Naklo, Boleslaus III Wrymouth defeats the Pomeranians. Polish access to the sea is re-established.",,War & Conflict
-305,1109,1109,1109 24 August,Medieval,"In the Battle of Hundsfeld, Boleslaus III Wrymouth defeats Emperor Henry V. German expansion to the centre of Europe is stopped.",,War & Conflict
+305,11090824,11090824,1109 24 August,Medieval,"In the Battle of Hundsfeld, Boleslaus III Wrymouth defeats Emperor Henry V. German expansion to the centre of Europe is stopped.",,War & Conflict
 306,1116,1116,1116,Medieval,The Byzantine army defeats the Turks at Philomelion. The Turks abandon the entire coastal area of Anatolia and all of western Anatolia,,War & Conflict
 307,1117,1117,1117,Medieval,The University of Oxford is founded. It is the oldest university in the United Kingdom.,,Politics & Power
 308,1118,1118,1118,Medieval,"The Knights Templar are founded to protect Jerusalem and European pilgrims on their journey to the city. Becomes the most recognizable, and impactful military orders during the Crusades.",,War & Conflict
-309,1121,1121,1121 25 December,Medieval,"St. Norbert and 29 companions make their solemn vows marking the beginning of the Premonstratensian Order. This order played a significant role in evangelizing the Slavs, and the Wends.",,Politics & Power
-310,1122,1122,1122 23 September,Medieval,The Concordat of Worms was drawn up between Emperor Henry V and Pope Calixtus II. This concordat ended the investiture struggle but bitter rivalry between emperor and pope remained.,,Religion
-311,1123,1123,1123 18 March - 27 March,Medieval,The First Lateran Council followed and confirmed the Concordat of Worms.,,Politics & Power
+309,11211225,11211225,1121 25 December,Medieval,"St. Norbert and 29 companions make their solemn vows marking the beginning of the Premonstratensian Order. This order played a significant role in evangelizing the Slavs, and the Wends.",,Politics & Power
+310,11220923,11220923,1122 23 September,Medieval,The Concordat of Worms was drawn up between Emperor Henry V and Pope Calixtus II. This concordat ended the investiture struggle but bitter rivalry between emperor and pope remained.,,Religion
+311,11230318,11230327,1123 18 March - 27 March,Medieval,The First Lateran Council followed and confirmed the Concordat of Worms.,,Politics & Power
 312,1125,1125,1125,Medieval,School of Glossators Irnerius,,Politics & Power
 313,1125,1125,1125,Medieval,"Lothair of Supplinburg, duke of Saxony, is elected Holy Roman Emperor instead, Frederick of Swabia. This election marks the beginning of the great struggle between the Guelfs and the Ghibellines.",,Politics & Power
-314,1125,1125,1125–1127,Medieval,"Jingkang Incident The Jurchen soldiers sack Kaifeng, bringing an end to the Northern Song Dynasty in China; the Song moves further south and makes Lin'an their new capital.",,Politics & Power
-315,1130,1130,1130 25 December,Medieval,"Roger II is crowned King of Sicily, a Royal title given him by the Antipope Anacletus II. This marks the beginning of the Kingdom of Sicily of Norman kings.",,Religion
+314,1125,1127,1125–1127,Medieval,"Jingkang Incident The Jurchen soldiers sack Kaifeng, bringing an end to the Northern Song Dynasty in China; the Song moves further south and makes Lin'an their new capital.",,Politics & Power
+315,11301225,11301225,1130 25 December,Medieval,"Roger II is crowned King of Sicily, a Royal title given him by the Antipope Anacletus II. This marks the beginning of the Kingdom of Sicily of Norman kings.",,Religion
 316,1130,1130,1130,Medieval,Sic et Non Peter Abelard,,Politics & Power
 317,1135,1135,1135,Medieval,"The Anarchy begins in England — a prolonged period of strife and Civil War between the supporters of Stephen and Matilda, ending with the crowning of Matilda's son, Henry II.",,War & Conflict
-318,1139,1139,1139 April,Medieval,"The Second Lateran Council enforces Gergory VII’s campaign by declaring clerical marriages invalid, regulated clerical dress, and punished attacks on clerics by excommunication.",,Politics & Power
+318,11390401,11390430,1139 April,Medieval,"The Second Lateran Council enforces Gergory VII’s campaign by declaring clerical marriages invalid, regulated clerical dress, and punished attacks on clerics by excommunication.",,Politics & Power
 319,1140,1140,1140,Medieval,Decretum Gratian,,Politics & Power
 320,1144,1144,1144,Medieval,Rebuild of Basilica of Saint Denis Suger,,Politics & Power
-321,1147,1147,1147–1149,Medieval,"The Second Crusade was in retaliation for the fall of Edessa, one of the first Crusader States founded in the First Crusade. The first Crusade been led by European kngs was an overall failure.",,War & Conflict
+321,1147,1149,1147–1149,Medieval,"The Second Crusade was in retaliation for the fall of Edessa, one of the first Crusader States founded in the First Crusade. The first Crusade been led by European kngs was an overall failure.",,War & Conflict
 322,1150,1150,1150,Medieval,"Ramon Berenguer IV, Count of Barcelona, married Queen Petronilla of Aragon. This marriage gave the Kingdom of Aragon access to the Mediterranean Sea.",,Politics & Power
 323,1150,1150,1150,Medieval,Founding of the University of Paris,,Politics & Power
 324,1152,1152,1152,Medieval,The Synod of Kells-Mellifont established the present diocesan system of Ireland and recognized the primacy of Armagh. The Irish Church is included into mainstream European Catholicism.,,Religion
@@ -328,23 +328,23 @@ index,year_start,year_end,date,era,event,Source,type
 327,1163,1163,1163,Medieval,The first cornerstone is laid for the construction of Notre Dame de Paris.,,Politics & Power
 328,1166,1166,1166,Medieval,"Stefan Nemanja united Serbian territories, establishing the Medieval Serbian state marking the rise of Serbia which will dominate the Balkans for the next three hundred years.",,Politics & Power
 329,1171,1171,1171,Medieval,King Henry II of England lands in Ireland to assert his supremacy. This begins the English claim to and occupation of Ireland which would last some seven and a half centuries.,,Politics & Power
-330,1174,1174,1174 7/12,Medieval,"King William I of Scotland, captured in the Battle of Alnwick by the English, accepts the feudal lordship of the English crown. This is the beginning of the acquisition of Scotland by the English.",,War & Conflict
+330,11740712,11740712,1174 12 July,Medieval,"King William I of Scotland, captured in the Battle of Alnwick by the English, accepts the feudal lordship of the English crown. This is the beginning of the acquisition of Scotland by the English.",,War & Conflict
 331,1175,1175,1175,Medieval,Hōnen Shōnin (Genkū) founds the Jōdo shū (Pure Land) sect of Buddhism. This event marks the beginning of the Buddhist sectarian movement in Japan.,,Religion
 332,1175,1175,1175,Medieval,Gerard of Cremona translates the Arabic version of Ptolemy's Almagest,,Politics & Power
-333,1176,1176,1176 5/29,Medieval,"At the Battle of Legnano, the Lombard League's infantry defeats Federick Barbarossa's cavalry – the first major defeat of cavalry by infantry, signaling the new role of the bourgeoisie.",,War & Conflict
+333,11760529,11760529,1176 5/29,Medieval,"At the Battle of Legnano, the Lombard League's infantry defeats Federick Barbarossa's cavalry – the first major defeat of cavalry by infantry, signaling the new role of the bourgeoisie.",,War & Conflict
 334,1179,1179,1179,Medieval,Third Council of the Lateran,,Politics & Power
-335,1179,1179,1179 March,Medieval,"The Third Lateran Council limits papal electees to the cardinals alone, condemns simony, and forbids the promotion of anyone to the episcopate before the age of thirty.",,Politics & Power
+335,11790301,11790331,1179 March,Medieval,"The Third Lateran Council limits papal electees to the cardinals alone, condemns simony, and forbids the promotion of anyone to the episcopate before the age of thirty.",,Politics & Power
 336,1183,1183,1183,Medieval,"The final Peace of Constance between Frederick Barbarossa, the pope, and the Lombard towns is signed.",,Religion
 337,1183,1183,1183,Medieval,The Taira clan are driven out of Kyōto by Minamoto Yoshinaka. The conflict which follows ends at the Battle of Dan no Ura with the annihilation of the Taira.,,War & Conflict
-338,1184,1184,1184 November,Medieval,Pope Lucius III issues the papal bull Ad Abolendam. This bull set up the organization of the medieval inquisitions.,,Religion
+338,11841101,118411030,1184 November,Medieval,Pope Lucius III issues the papal bull Ad Abolendam. This bull set up the organization of the medieval inquisitions.,,Religion
 339,1185,1185,1185,Medieval,Windmills are first recorded.,,Politics & Power
 340,1185,1185,1185,Medieval,Uprising of Asen and Peter. The reestablishment of the Bulgarian Empire.,,War & Conflict
 341,1185,1185,1185,Medieval,"At the Battle of Dan no Ura, Minamoto Yoshitsune annihilates the Taira clan which leaves Minamoto the rulers of Japan and marks the beginning of feudal rule known as the Kamakura Period.",,War & Conflict
-342,1186,1186,1186 1/27,Medieval,"The future emperor Henry VI marries Constance of Sicily, heiress to the Sicilian throne. This marriage shifts the focus of the Guelphs/Ghibelline struggle to Sicily.",,Politics & Power
+342,11760529,11760529,1186 1/27,Medieval,"The future emperor Henry VI marries Constance of Sicily, heiress to the Sicilian throne. This marriage shifts the focus of the Guelphs/Ghibelline struggle to Sicily.",,Politics & Power
 343,1187,1187,1187,Medieval,Saladin recaptures Jerusalem. Would lead to the Third Crusade.,,War & Conflict
 344,1188,1188,1188,Medieval,Tractatus of Glanvil Oxford University,,Politics & Power
-345,1189,1189,1189 July 6,Medieval,Richard I (Cœur de Lion) ascends the throne of England. He levies heavy taxes to finance his European creates antipathy towards the crown but his being absent enabled political developments.,,Politics & Power
-346,1189,1189,1189–1192,Medieval,The Third Crusade follows upon Saladin's uniting the Muslim world and recapturing Jerusalem. Despite managing to win several major battles. the Crusaders did not recapture Jerusalem.,,War & Conflict
+345,11890706,11890706,1189 July 6,Medieval,Richard I (Cœur de Lion) ascends the throne of England. He levies heavy taxes to finance his European creates antipathy towards the crown but his being absent enabled political developments.,,Politics & Power
+346,1189,1192,1189–1192,Medieval,The Third Crusade follows upon Saladin's uniting the Muslim world and recapturing Jerusalem. Despite managing to win several major battles. the Crusaders did not recapture Jerusalem.,,War & Conflict
 347,1192,1192,1192,Medieval,"Minamoto no Yoritomo is appointed Sei-i Taishōgun, or shōgun for short. He is the first of a long line of military dictators to bear this title, an institution that would define Japan for centuries.",,Politics & Power
 348,1193,1193,1193,Medieval,Muhammad bin Bakhtiyar Khilji sack and burn the university at Nalanda. This is the beginning of the decline of Buddhism in India.,,Religion
 349,1193,1193,1193,Medieval,The first known merchant guild.,,Politics & Power
@@ -358,29 +358,29 @@ index,year_start,year_end,date,era,event,Source,type
 357,1209,1209,1209,Medieval,The University of Cambridge is founded.,,Politics & Power
 358,1209,1209,1209,Medieval,Founding of the Franciscan Order. One of the more significant orders in the Roman Catholic church. founded by Saint Francis of Assisi.,,Religion
 359,1212,1212,1212,Medieval,"Spanish Christians succeed in defeating the Moors in the long Reconquista campaigns, after the Battle of Las Navas de Tolosa.",,War & Conflict
-360,1215,1215,1215 15 June,Medieval,The Magna Carta is sealed by John of England. This marks one of the first times a medieval ruler is forced to accept limits on his power.,,Politics & Power
+360,12150615,12150615,1215 15 June,Medieval,The Magna Carta is sealed by John of England. This marks one of the first times a medieval ruler is forced to accept limits on his power.,,Politics & Power
 361,1215,1215,1215,Medieval,"Fourth Lateran Council. Dealt with transubstantiation, papal primacy and conduct of clergy. Proclaimed that Jews and Muslims should wear identification marks to distinguish them from Christians.",,Religion
 362,1216,1216,1216,Medieval,Papal recognition of the Dominican Order.,,Politics & Power
 363,1219,1219,1219,Medieval,"Serbian Orthodox Church becomes autocephalous under St. Sava, its first Archbishop.",,Religion
-364,1227,1227,1227 18 August,Medieval,Genghis Khan dies. His kingdom is divided among his children and grandchildren some of which later form the Golden Horde.,,Politics & Power
-365,1237,1237,1237–1240,Medieval,"Mongol invasion of Rus' resumes. Causes the split of Kievan Rus' into three components (present day Russia, Ukraine, Belarus).",,War & Conflict
+364,12270818,12270818,1227 18 August,Medieval,Genghis Khan dies. His kingdom is divided among his children and grandchildren some of which later form the Golden Horde.,,Politics & Power
+365,1237,1240,1237–1240,Medieval,"Mongol invasion of Rus' resumes. Causes the split of Kievan Rus' into three components (present day Russia, Ukraine, Belarus).",,War & Conflict
 366,1257,1257,1257,Medieval,Opening of the College of Sorbonne.,,Politics & Power
 367,1257,1257,1257,Medieval,Provisions of Oxford forced upon Henry III of England. This establishes a new form of government-limited regal authority.,,Politics & Power
-368,1258,1258,1258 29 January– 10 February,Medieval,Siege of Baghdad by Ilkhanate Mongol forces Mongols (the Ilkhanate) ensure control of the region.  Generally considered the end of the Islamic Golden Age.,,War & Conflict
+368,12580129,12580210,1258 29 January– 10 February,Medieval,Siege of Baghdad by Ilkhanate Mongol forces Mongols (the Ilkhanate) ensure control of the region.  Generally considered the end of the Islamic Golden Age.,,War & Conflict
 369,1258,1258,1258,Medieval,The first Mongol invasion of Vietnam The Mongol army was defeated by emperor Tran Thai Tong of Đại Việt,,War & Conflict
-370,1272,1272,1272–73,Medieval,The Ninth Crusade occurs. Considered to be the Last Major Crusade to take place in the Holy Land.,,War & Conflict
-371,1273,1273,1273 29 September,Medieval,Rudolph I of Germany is elected Holy Roman Emperor. This begins the Habsburg de facto domination of the imperial crown that would last until its eventual dissolution.,,Politics & Power
+370,1272,1273,1272–73,Medieval,The Ninth Crusade occurs. Considered to be the Last Major Crusade to take place in the Holy Land.,,War & Conflict
+371,12730929,12730929,1273 29 September,Medieval,Rudolph I of Germany is elected Holy Roman Emperor. This begins the Habsburg de facto domination of the imperial crown that would last until its eventual dissolution.,,Politics & Power
 372,1274,1274,1274,Medieval,"Thomas Aquinas' work, Summa Theologica is published, after his death. Is the main staple of theology during the Middle Ages.",,Religion
-373,1279,1279,1279 19 March,Medieval,"Battle of Yamen. Marks the end of the Song Dynasty in China, and all of China is under the rule of Kublai Khan as the emperor.",,War & Conflict
+373,12790319,12790319,1279 19 March,Medieval,"Battle of Yamen. Marks the end of the Song Dynasty in China, and all of China is under the rule of Kublai Khan as the emperor.",,War & Conflict
 374,1282,1282,1282,Medieval,"Sicilian Vespers. Sicilians massacre Angevins over a six-week period, after a Frenchman harassed a woman.",,War & Conflict
 375,1283,1283,1283,Medieval,First regulated Catalan Courts are formed. Presided by king Peter III of Aragon they become the model for medieval parliaments.,https://en.wikipedia.org/wiki/Catalan_Courts,Politics & Power
 376,1285,1285,1285,Medieval,The second Mongol invasion of Vietnam The Mongol army was defeated by emperor Tran Nhan Tong and general Tran Hung Dao.,,War & Conflict
 377,1287,1287,1287,Medieval,The third Mongol invasion of Vietnam Decisive Vietnam victory. To avoid further conflict Đại Việt agreed to a tributary relationship with the Yuan dynasty,,War & Conflict
 378,1296,1296,1296,Medieval,"Edward I of England invades Scotland, starting the First War of Scottish Independence.",,War & Conflict
-379,1297,1297,1297 11 September,Medieval,The Battle of Stirling Bridge. William Wallace emerges as the leader of the Scottish resistancce to England.,,War & Conflict
+379,12970911,12970911,1297 11 September,Medieval,The Battle of Stirling Bridge. William Wallace emerges as the leader of the Scottish resistancce to England.,,War & Conflict
 380,1298,1298,1298,Medieval,"Marco Polo publishes his tales of China, along with Rustichello da Pisa. A key step to the bridging of Asia and Europe in trade.",,Politics & Power
-381,1299,1299,1299 27 July,Medieval,"The Ottoman Empire is founded by Osman I. It becomes the longest-lasting Islamic Empire, eventually growing to span three continents.",,Religion
-382,1305,1305,23 August 1305,Medieval,William Wallace is executed for treason.,,Politics & Power
+381,12990727,12990727,1299 27 July,Medieval,"The Ottoman Empire is founded by Osman I. It becomes the longest-lasting Islamic Empire, eventually growing to span three continents.",,Religion
+382,13050823,13050823,23 August 1305,Medieval,William Wallace is executed for treason.,,Politics & Power
 383,1307,1307,13 October 1307,Medieval,"The Knights Templar are rounded up and murdered by Philip the Fair of France, with the backing of the Pope. Hastens the demise of the order within a decade.",,Religion
 384,1307,1307,1307,Medieval,"The Popes move to Avignon and begin the Babylonian Captivity. The papacy remains there for several decades, which eventually leads to the Western Schism.",,Religion
 385,1310,1310,1310,Medieval,"Dante publishes his Divine Comedy. Is one of the most defining works of literature during the Late Middle Ages, and among the most recognizable in all of literature.",,Culture & Arts
@@ -575,3 +575,15 @@ index,year_start,year_end,date,era,event,Source,type
 577,2017,2017,2017,21st Century,"The #MeToo movement goes global after allegations against film producer Harvey Weinstein prompt millions of women to share experiences of sexual harassment and assault, leading to widespread accountability.",,Politics & Power
 578,2019,2019,2019,21st Century,"Greta Thunberg leads global School Strike for Climate movement, mobilising millions of young people worldwide in protest against government inaction on climate change.",,Politics & Power
 579,2020,2020,2020,21st Century,"George Floyd is killed by Minneapolis police, sparking the largest wave of racial justice protests in US history under the Black Lives Matter banner, with demonstrations in cities across the world.",,Politics & Power
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,s,,,
