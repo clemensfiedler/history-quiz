@@ -1,11 +1,12 @@
 export type QuizType = 'history' | 'games';
+export type GamePhase = 'loading' | 'playing' | 'mistake' | 'gameover';
 
 export interface HistoryEvent {
   id: number;
   date_start: number;
   date_end: number;
   date: string;
-  era: string;
+  type: string;
   event: string;
 }
 

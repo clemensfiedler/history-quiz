@@ -4,7 +4,7 @@
     "date_start": -3200,
     "date_end": -3200,
     "date": "c. 3200 BCE",
-    "era": "Ancient & Classical",
+    "type": "Science & Technology",
     "event": "Sumerian cuneiform writing system and Egyptian hieroglyphs"
   },
   {
@@ -12,7 +12,7 @@
     "date_start": -3200,
     "date_end": -3200,
     "date": "c. 3200 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Newgrange built in Ireland"
   },
   {
@@ -20,7 +20,7 @@
     "date_start": -3150,
     "date_end": -3150,
     "date": "c. 3150 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "First Dynasty of Egypt"
   },
   {
@@ -28,7 +28,7 @@
     "date_start": -3100,
     "date_end": -3100,
     "date": "c. 3100 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Skara Brae in Scotland"
   },
   {
@@ -36,7 +36,7 @@
     "date_start": -3000,
     "date_end": -3000,
     "date": "c. 3000 BCE",
-    "era": "Ancient & Classical",
+    "type": "Science & Technology",
     "event": "Egyptian calendar"
   },
   {
@@ -44,7 +44,7 @@
     "date_start": -3000,
     "date_end": -3000,
     "date": "c. 3000 BCE",
-    "era": "Ancient & Classical",
+    "type": "Culture & Arts",
     "event": "Stonehenge construction begins. In its first version, it consisted of a circular ditch and bank, with 56 wooden posts."
   },
   {
@@ -52,7 +52,7 @@
     "date_start": -3000,
     "date_end": -3000,
     "date": "c. 3000 BCE",
-    "era": "Ancient & Classical",
+    "type": "Science & Technology",
     "event": "First known use of papyrus by Egyptians"
   },
   {
@@ -60,7 +60,7 @@
     "date_start": -2700,
     "date_end": -2700,
     "date": "c. 2700 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Minoan Civilization ancient palace city Knossos reaches 80,000 inhabitants."
   },
   {
@@ -68,7 +68,7 @@
     "date_start": -2700,
     "date_end": -2700,
     "date": "c. 2700 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Rise of Elam in Iran"
   },
   {
@@ -76,7 +76,7 @@
     "date_start": -2700,
     "date_end": -2700,
     "date": "c. 2700 BCE",
-    "era": "Ancient & Classical",
+    "type": "Culture & Arts",
     "event": "The Epic of Gilgamesh becomes the first written story"
   },
   {
@@ -84,7 +84,7 @@
     "date_start": -2700,
     "date_end": -2700,
     "date": "c. 2700 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "The Old Kingdom begins in Egypt"
   },
   {
@@ -92,7 +92,7 @@
     "date_start": -2600,
     "date_end": -2600,
     "date": "c. 2600 BCE",
-    "era": "Ancient & Classical",
+    "type": "Religion",
     "event": "Oldest known surviving literature: Sumerian texts from Abu Salabikh, including the Instructions of Shuruppak and the Kesh temple hymn."
   },
   {
@@ -100,7 +100,7 @@
     "date_start": -2600,
     "date_end": -2600,
     "date": "c. 2600 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Mature Harappan phase of the Indus Valley civilization (in present-day Pakistan and India) begins"
   },
   {
@@ -108,7 +108,7 @@
     "date_start": -2600,
     "date_end": -2600,
     "date": "c. 2600 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Emergence of Maya culture in the Yucatán Peninsula"
   },
   {
@@ -116,7 +116,7 @@
     "date_start": -2560,
     "date_end": -2560,
     "date": "2560 BCE",
-    "era": "Ancient & Classical",
+    "type": "Culture & Arts",
     "event": "King Khufu completes the Great Pyramid of Giza. The Land of Punt in the Horn of Africa first appears in Egyptian records around this time."
   },
   {
@@ -124,7 +124,7 @@
     "date_start": -2500,
     "date_end": -2500,
     "date": "c. 2500 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "The mammoth goes extinct."
   },
   {
@@ -132,7 +132,7 @@
     "date_start": -2334,
     "date_end": -2270,
     "date": "2334 or 2270 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Akkadian Empire is founded, dating depends upon whether the Middle chronology or the Short chronology is used."
   },
   {
@@ -140,7 +140,7 @@
     "date_start": -2200,
     "date_end": -2200,
     "date": "2200 BCE",
-    "era": "Ancient & Classical",
+    "type": "Culture & Arts",
     "event": "completion of Stonehenge."
   },
   {
@@ -148,7 +148,7 @@
     "date_start": -2055,
     "date_end": -2055,
     "date": "2055 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "The Middle Kingdom begins in Egypt"
   },
   {
@@ -156,7 +156,7 @@
     "date_start": -2000,
     "date_end": -2000,
     "date": "2000 BCE",
-    "era": "Ancient & Classical",
+    "type": "Science & Technology",
     "event": "Domestication of the horse"
   },
   {
@@ -164,7 +164,7 @@
     "date_start": -1800,
     "date_end": -1800,
     "date": "1800 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "alphabetic writing emerges"
   },
   {
@@ -172,7 +172,7 @@
     "date_start": -1780,
     "date_end": -1780,
     "date": "1780 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Oldest Record of Hammurabi's Code."
   },
   {
@@ -180,7 +180,7 @@
     "date_start": -1700,
     "date_end": -1700,
     "date": "1700 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Indus Valley Civilization comes to an end but is continued by the Cemetery H culture"
   },
   {
@@ -188,7 +188,7 @@
     "date_start": -1600,
     "date_end": -1600,
     "date": "1600 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Minoan civilization on Crete is destroyed by the Minoan eruption of Santorini island."
   },
   {
@@ -196,7 +196,7 @@
     "date_start": -1600,
     "date_end": -1600,
     "date": "1600 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Mycenaean Greece"
   },
   {
@@ -204,7 +204,7 @@
     "date_start": -1600,
     "date_end": -1600,
     "date": "1600 BCE",
-    "era": "Ancient & Classical",
+    "type": "Science & Technology",
     "event": "The beginning of Shang Dynasty in China, evidence of a fully developed Chinese writing system"
   },
   {
@@ -212,7 +212,7 @@
     "date_start": -1600,
     "date_end": -1600,
     "date": "1600 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Beginning of Hittite dominance of the Eastern Mediterranean region"
   },
   {
@@ -220,7 +220,7 @@
     "date_start": -1550,
     "date_end": -1550,
     "date": "c.1550 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "The  New Kingdom begins in Egypt"
   },
   {
@@ -228,7 +228,7 @@
     "date_start": -1500,
     "date_end": -1500,
     "date": "1500 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Composition of the Rigveda is completed"
   },
   {
@@ -236,7 +236,7 @@
     "date_start": -1400,
     "date_end": -1400,
     "date": "c.1400 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Oldest known song with notation"
   },
   {
@@ -244,7 +244,7 @@
     "date_start": -1400,
     "date_end": -400,
     "date": "1400-400 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Olmec civilization flourishes in Pre-Columbian Mexico, during Mesoamerica's Formative period"
   },
   {
@@ -252,7 +252,7 @@
     "date_start": -1200,
     "date_end": -1150,
     "date": "1200-1150 BCE",
-    "era": "Ancient & Classical",
+    "type": "Science & Technology",
     "event": "Bronze Age collapse in Southwestern Asia and Eastern Mediterranean region. This forms the setting of the Iliad and the Odyssey epic poems which were composed about four centuries later."
   },
   {
@@ -260,7 +260,7 @@
     "date_start": -1180,
     "date_end": -1180,
     "date": "c. 1180 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Disintegration of Hittite Empire"
   },
   {
@@ -268,7 +268,7 @@
     "date_start": -1100,
     "date_end": -1100,
     "date": "1100 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Use of Iron spreads."
   },
   {
@@ -276,7 +276,7 @@
     "date_start": -1046,
     "date_end": -1046,
     "date": "1046 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "The Zhou force (led by King Wu of Zhou) overthrow the last king of Shang Dynasty"
   },
   {
@@ -284,7 +284,7 @@
     "date_start": -1000,
     "date_end": -1000,
     "date": "c.1000 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "King David begins his reign as the second King of Israel, after Saul"
   },
   {
@@ -292,7 +292,7 @@
     "date_start": -970,
     "date_end": -970,
     "date": "970 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "King Solomon begins his reign as third King of Israel, after David"
   },
   {
@@ -300,7 +300,7 @@
     "date_start": -890,
     "date_end": -890,
     "date": "890 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Approximate date for the composition of the Iliad and the Odyssey"
   },
   {
@@ -308,7 +308,7 @@
     "date_start": -814,
     "date_end": -814,
     "date": "814 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Foundation of Carthage by the Phoenicians in today known Tunisia"
   },
   {
@@ -316,7 +316,7 @@
     "date_start": -800,
     "date_end": -800,
     "date": "800 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Rise of Greek city-states"
   },
   {
@@ -324,7 +324,7 @@
     "date_start": -785,
     "date_end": -785,
     "date": "c.785 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Rise of the Kingdom of Kush"
   },
   {
@@ -332,7 +332,7 @@
     "date_start": -776,
     "date_end": -776,
     "date": "776 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "First recorded Ancient Olympic Games."
   },
   {
@@ -340,7 +340,7 @@
     "date_start": -753,
     "date_end": -753,
     "date": "753 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Founding of Rome (traditional date)"
   },
   {
@@ -348,7 +348,7 @@
     "date_start": -745,
     "date_end": -745,
     "date": "745 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Tiglath-Pileser III becomes the new king of Assyria. With time he conquers neighboring countries and turns Assyria into an empire."
   },
   {
@@ -356,7 +356,7 @@
     "date_start": -728,
     "date_end": -728,
     "date": "728 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Rise of the Median Empire."
   },
   {
@@ -364,7 +364,7 @@
     "date_start": -722,
     "date_end": -722,
     "date": "722 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Spring and Autumn period begins in China. The era of the Hundred Schools of Thought."
   },
   {
@@ -372,7 +372,7 @@
     "date_start": -660,
     "date_end": -660,
     "date": "660 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Purported date of the accession of Jimmu, the mythical first Emperor of Japan."
   },
   {
@@ -380,7 +380,7 @@
     "date_start": -653,
     "date_end": -653,
     "date": "653 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Rise of Persian Empire."
   },
   {
@@ -388,7 +388,7 @@
     "date_start": -612,
     "date_end": -612,
     "date": "612 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "An alliance between the Babylonians, Medes, and Scythians succeeds in destroying Nineveh and causing subsequent fall of the Assyrian empire."
   },
   {
@@ -396,7 +396,7 @@
     "date_start": -600,
     "date_end": -600,
     "date": "600 BCE",
-    "era": "Ancient & Classical",
+    "type": "Science & Technology",
     "event": "Evidence of writing system appear in Oaxaca used by the Zapotec civilization."
   },
   {
@@ -404,7 +404,7 @@
     "date_start": -563,
     "date_end": -563,
     "date": "563 BCE",
-    "era": "Ancient & Classical",
+    "type": "Religion",
     "event": "Siddhartha Gautama (Buddha), founder of Buddhism is born as a prince of the Shakya tribe, which ruled parts of Magadha, one of the Maha Janapadas."
   },
   {
@@ -412,7 +412,7 @@
     "date_start": -551,
     "date_end": -551,
     "date": "551 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Confucius, founder of Confucianism, is born."
   },
   {
@@ -420,7 +420,7 @@
     "date_start": -550,
     "date_end": -550,
     "date": "550 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Foundation of the Persian Empire by Cyrus the Great."
   },
   {
@@ -428,7 +428,7 @@
     "date_start": -549,
     "date_end": -549,
     "date": "549 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Mahavira, founder of Jainism, is born."
   },
   {
@@ -436,7 +436,7 @@
     "date_start": -546,
     "date_end": -546,
     "date": "546 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Cyrus the Great overthrows Croesus King of Lydia."
   },
   {
@@ -444,7 +444,7 @@
     "date_start": -544,
     "date_end": -544,
     "date": "544 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Rise of Magadha as the dominant power under Bimbisara."
   },
   {
@@ -452,7 +452,7 @@
     "date_start": -539,
     "date_end": -539,
     "date": "539 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "The fall of the Babylonian Empire and liberation of the Jews by Cyrus the Great."
   },
   {
@@ -460,7 +460,7 @@
     "date_start": -529,
     "date_end": -529,
     "date": "529 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Death of Cyrus"
   },
   {
@@ -468,7 +468,7 @@
     "date_start": -525,
     "date_end": -525,
     "date": "525 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Cambyses II of Persia conquers Egypt."
   },
   {
@@ -476,7 +476,7 @@
     "date_start": -512,
     "date_end": -512,
     "date": "c. 512 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Darius I (Darius the Great) of Persia, subjugates eastern Thrace, Macedonia submits voluntarily, and annexes Libya, Persian Empire at largest extent."
   },
   {
@@ -484,7 +484,7 @@
     "date_start": -509,
     "date_end": -509,
     "date": "509 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Expulsion of the last King of Rome, founding of Roman Republic (traditional date)."
   },
   {
@@ -492,7 +492,7 @@
     "date_start": -508,
     "date_end": -508,
     "date": "508 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Democracy instituted at Athens"
   },
   {
@@ -500,7 +500,7 @@
     "date_start": -500,
     "date_end": -500,
     "date": "c. 500 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Completion  of Euclid's Elements"
   },
   {
@@ -508,7 +508,7 @@
     "date_start": -500,
     "date_end": -500,
     "date": "500 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Panini standardizes the grammar and morphology of Sanskrit in the text Ashtadhyayi. Panini's standardized Sanskrit is known as Classical Sanskrit."
   },
   {
@@ -516,7 +516,7 @@
     "date_start": -500,
     "date_end": -500,
     "date": "500 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Pingala uses zero and binary numeral system"
   },
   {
@@ -524,7 +524,7 @@
     "date_start": -499,
     "date_end": -499,
     "date": "499 BCE",
-    "era": "Ancient & Classical",
+    "type": "War & Conflict",
     "event": "King Aristagoras of Miletus incites all of Hellenic Asia Minor to rebel against the Persian Empire, beginning the Greco-Persian Wars."
   },
   {
@@ -532,7 +532,7 @@
     "date_start": -490,
     "date_end": -490,
     "date": "490 BCE",
-    "era": "Ancient & Classical",
+    "type": "War & Conflict",
     "event": "Greek city-states defeat Persian invasion at Battle of Marathon"
   },
   {
@@ -540,7 +540,7 @@
     "date_start": -483,
     "date_end": -483,
     "date": "483 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Death of Gautama Buddha"
   },
   {
@@ -548,7 +548,7 @@
     "date_start": -480,
     "date_end": -480,
     "date": "480 BCE",
-    "era": "Ancient & Classical",
+    "type": "War & Conflict",
     "event": "Persian invasion of Greece by Xerxes"
   },
   {
@@ -556,7 +556,7 @@
     "date_start": -479,
     "date_end": -479,
     "date": "479 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Death of Confucius"
   },
   {
@@ -564,7 +564,7 @@
     "date_start": -475,
     "date_end": -475,
     "date": "475 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Warring States period begins in China as the Zhou king became a mere figurehead"
   },
   {
@@ -572,7 +572,7 @@
     "date_start": -470,
     "date_end": -469,
     "date": "470/469 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Birth of Socrates"
   },
   {
@@ -580,7 +580,7 @@
     "date_start": -465,
     "date_end": -465,
     "date": "465 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Murder of Xerxes"
   },
   {
@@ -588,7 +588,7 @@
     "date_start": -460,
     "date_end": -460,
     "date": "460 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Birth of Democritus"
   },
   {
@@ -596,7 +596,7 @@
     "date_start": -458,
     "date_end": -458,
     "date": "458 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "The Oresteia by Aeschylus, the only surviving trilogy of ancient Greek plays, is performed."
   },
   {
@@ -604,7 +604,7 @@
     "date_start": -449,
     "date_end": -449,
     "date": "449 BCE",
-    "era": "Ancient & Classical",
+    "type": "War & Conflict",
     "event": "The Greco-Persian Wars end."
   },
   {
@@ -612,7 +612,7 @@
     "date_start": -447,
     "date_end": -447,
     "date": "447 BCE",
-    "era": "Ancient & Classical",
+    "type": "Culture & Arts",
     "event": "Building of the Parthenon at Athens started"
   },
   {
@@ -620,7 +620,7 @@
     "date_start": -432,
     "date_end": -432,
     "date": "432 BCE",
-    "era": "Ancient & Classical",
+    "type": "Culture & Arts",
     "event": "Construction of the Parthenon is completed"
   },
   {
@@ -628,7 +628,7 @@
     "date_start": -431,
     "date_end": -431,
     "date": "431 BCE",
-    "era": "Ancient & Classical",
+    "type": "War & Conflict",
     "event": "Beginning of the Peloponnesian war between the Greek city-states"
   },
   {
@@ -636,7 +636,7 @@
     "date_start": -429,
     "date_end": -429,
     "date": "429 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Sophocles's play Oedipus Rex is first performed"
   },
   {
@@ -644,7 +644,7 @@
     "date_start": -427,
     "date_end": -427,
     "date": "427 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Birth of Plato"
   },
   {
@@ -652,7 +652,7 @@
     "date_start": -404,
     "date_end": -404,
     "date": "404 BCE",
-    "era": "Ancient & Classical",
+    "type": "War & Conflict",
     "event": "End of the Peloponnesian War"
   },
   {
@@ -660,7 +660,7 @@
     "date_start": -399,
     "date_end": -399,
     "date": "399 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Death of Socrates"
   },
   {
@@ -668,7 +668,7 @@
     "date_start": -384,
     "date_end": -384,
     "date": "384 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Birth of Aristotle"
   },
   {
@@ -676,7 +676,7 @@
     "date_start": -370,
     "date_end": -370,
     "date": "370 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Death of Democritus"
   },
   {
@@ -684,7 +684,7 @@
     "date_start": -331,
     "date_end": -331,
     "date": "331 BCE",
-    "era": "Ancient & Classical",
+    "type": "War & Conflict",
     "event": "Alexander the Great defeats Darius III of Persia in the Battle of Gaugamela, completing his conquest of Persia."
   },
   {
@@ -692,7 +692,7 @@
     "date_start": -326,
     "date_end": -326,
     "date": "326 BCE",
-    "era": "Ancient & Classical",
+    "type": "War & Conflict",
     "event": "Alexander the Great defeats Indian king Porus in the Battle of the Hydaspes River."
   },
   {
@@ -700,7 +700,7 @@
     "date_start": -323,
     "date_end": -323,
     "date": "323 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Death of Alexander the Great at Babylon."
   },
   {
@@ -708,7 +708,7 @@
     "date_start": -322,
     "date_end": -322,
     "date": "322 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Death of Aristotle"
   },
   {
@@ -716,7 +716,7 @@
     "date_start": -321,
     "date_end": -321,
     "date": "321 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Chandragupta Maurya overthrows the Nanda Dynasty of Magadha."
   },
   {
@@ -724,7 +724,7 @@
     "date_start": -305,
     "date_end": -305,
     "date": "305 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Chandragupta Maurya seizes the satrapies of Paropanisadai (Kabul), Aria (Herat), Arachosia (Qanadahar) and Gedrosia (Baluchistan) from Seleucus I Nicator, in return for 500 elephants."
   },
   {
@@ -732,7 +732,7 @@
     "date_start": -300,
     "date_end": -300,
     "date": "300 BCE",
-    "era": "Ancient & Classical",
+    "type": "Culture & Arts",
     "event": "Construction of the Great Pyramid of Cholula, the world's largest pyramid by volume (despite the Great Pyramid of Giza being taller) begins in Cholula, Puebla, Mexico."
   },
   {
@@ -740,7 +740,7 @@
     "date_start": -284,
     "date_end": -246,
     "date": "284 - 246 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "The Lighthouse of Alexandria is built during the reign of Ptolemy II. It exceeded 100 meters in overall height."
   },
   {
@@ -748,7 +748,7 @@
     "date_start": -280,
     "date_end": -280,
     "date": "280 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "The Colossus of Rhodes is built to celebrate the defence of Rhodes against Demetrius Poliorcetes"
   },
   {
@@ -756,7 +756,7 @@
     "date_start": -273,
     "date_end": -273,
     "date": "273 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Ashoka becomes the emperor of the Mauryan Empire"
   },
   {
@@ -764,7 +764,7 @@
     "date_start": -261,
     "date_end": -261,
     "date": "261 BCE",
-    "era": "Ancient & Classical",
+    "type": "War & Conflict",
     "event": "Kalinga war"
   },
   {
@@ -772,7 +772,7 @@
     "date_start": -255,
     "date_end": -255,
     "date": "255 BCE",
-    "era": "Ancient & Classical",
+    "type": "Religion",
     "event": "Ashoka sends a Buddhist missionary led by his son who was Mahinda Thero (Buddhist monk) to Sri Lanka (then Lanka) Mahinda (Buddhist monk)"
   },
   {
@@ -780,7 +780,7 @@
     "date_start": -232,
     "date_end": -232,
     "date": "232 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Death of Emperor Ashoka"
   },
   {
@@ -788,7 +788,7 @@
     "date_start": -221,
     "date_end": -221,
     "date": "221 BCE",
-    "era": "Ancient & Classical",
+    "type": "War & Conflict",
     "event": "Qin Shi Huang unifies China, end of Warring States period; marking the beginning of Imperial rule in China which lasts until .. Construction of the Great Wall by the Qin Dynasty begins."
   },
   {
@@ -796,7 +796,7 @@
     "date_start": -206,
     "date_end": -206,
     "date": "206 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Han Dynasty established in China, after the death of Qin Shi Huang; China in this period officially becomes a Confucian state and opens trading connections with the West, i.e. the Silk Road."
   },
   {
@@ -804,7 +804,7 @@
     "date_start": -202,
     "date_end": -202,
     "date": "202 BCE",
-    "era": "Ancient & Classical",
+    "type": "War & Conflict",
     "event": "Scipio Africanus defeats Hannibal at Battle of Zama."
   },
   {
@@ -812,7 +812,7 @@
     "date_start": -200,
     "date_end": -200,
     "date": "200 BCE",
-    "era": "Ancient & Classical",
+    "type": "Science & Technology",
     "event": "Paper is invented in China."
   },
   {
@@ -820,7 +820,7 @@
     "date_start": -149,
     "date_end": -146,
     "date": "149-146 BCE",
-    "era": "Ancient & Classical",
+    "type": "War & Conflict",
     "event": "Third Punic War between Rome and Carthage. War ends with the complete destruction of Carthage, allowing Rome to conquer modern day Tunisia and Libya."
   },
   {
@@ -828,7 +828,7 @@
     "date_start": -146,
     "date_end": -146,
     "date": "146 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Roman conquest of Greece, see Roman Greece"
   },
   {
@@ -836,7 +836,7 @@
     "date_start": -121,
     "date_end": -121,
     "date": "121 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Roman armies enter Gaul for the first time."
   },
   {
@@ -844,7 +844,7 @@
     "date_start": -80,
     "date_end": -80,
     "date": "80 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "The city of Florence is founded."
   },
   {
@@ -852,7 +852,7 @@
     "date_start": -49,
     "date_end": -49,
     "date": "49 BCE",
-    "era": "Ancient & Classical",
+    "type": "War & Conflict",
     "event": "Roman Civil War between Julius Caesar and Pompey the Great."
   },
   {
@@ -860,7 +860,7 @@
     "date_start": -44,
     "date_end": -44,
     "date": "44 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Julius Caesar murdered by Marcus Brutus and others"
   },
   {
@@ -868,7 +868,7 @@
     "date_start": -40,
     "date_end": -40,
     "date": "40 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Roman conquest of Egypt."
   },
   {
@@ -876,7 +876,7 @@
     "date_start": -30,
     "date_end": -30,
     "date": "30 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Cleopatra ends her reign as the last active ruler of the Ptolemaic Kingdom of Egypt"
   },
   {
@@ -884,7 +884,7 @@
     "date_start": -27,
     "date_end": -27,
     "date": "27 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Formation of Roman Empire:  Octavius is given titles of Princeps and Augustus by Roman Senate - beginning of Pax Romana. Formation of influential Praetorian Guard to provide security to Emperor"
   },
   {
@@ -892,7 +892,7 @@
     "date_start": -18,
     "date_end": -18,
     "date": "18 BCE",
-    "era": "Ancient & Classical",
+    "type": "Religion",
     "event": "Three Kingdoms period begins in Korea. The temple of Jerusalem is reconstructed."
   },
   {
@@ -900,7 +900,7 @@
     "date_start": -6,
     "date_end": -6,
     "date": "6 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Earliest theorized date for birth of Jesus of Nazareth. Roman succession:  Gaius Caesar and Lucius Caesar groomed for the throne."
   },
   {
@@ -908,7 +908,7 @@
     "date_start": -4,
     "date_end": -4,
     "date": "4 BCE",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Widely accepted date (Ussher) for birth of Jesus Christ."
   },
   {
@@ -916,7 +916,7 @@
     "date_start": 9,
     "date_end": 9,
     "date": "9",
-    "era": "Ancient & Classical",
+    "type": "War & Conflict",
     "event": "Battle of the Teutoburg Forest, the Imperial Roman Army's bloodiest defeat."
   },
   {
@@ -924,7 +924,7 @@
     "date_start": 14,
     "date_end": 14,
     "date": "14",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Death of Emperor Augustus (Octavian), ascension of his adopted son Tiberius to the throne."
   },
   {
@@ -932,7 +932,7 @@
     "date_start": 26,
     "date_end": 34,
     "date": "26-34",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Crucifixion of Jesus Christ, exact date unknown."
   },
   {
@@ -940,7 +940,7 @@
     "date_start": 37,
     "date_end": 37,
     "date": "37",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Death of Emperor Tiberius, ascension of his nephew Caligula to the throne."
   },
   {
@@ -948,7 +948,7 @@
     "date_start": 40,
     "date_end": 40,
     "date": "40",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Rome conquers Morocco."
   },
   {
@@ -956,7 +956,7 @@
     "date_start": 41,
     "date_end": 41,
     "date": "41",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Emperor Caligula is assassinated by the Roman senate. His uncle Claudius succeeds him."
   },
   {
@@ -964,7 +964,7 @@
     "date_start": 43,
     "date_end": 43,
     "date": "43",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Rome enters Britain for the first time."
   },
   {
@@ -972,7 +972,7 @@
     "date_start": 54,
     "date_end": 54,
     "date": "54",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Emperor Claudius dies and is succeeded by his grand nephew Nero."
   },
   {
@@ -980,7 +980,7 @@
     "date_start": 68,
     "date_end": 68,
     "date": "68",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Emperor Nero commits suicide, prompting the Year of the four emperors in Rome."
   },
   {
@@ -988,7 +988,7 @@
     "date_start": 70,
     "date_end": 70,
     "date": "70",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Destruction of Jerusalem by the armies of Titus."
   },
   {
@@ -996,7 +996,7 @@
     "date_start": 79,
     "date_end": 79,
     "date": "79",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Destruction of Pompeii by the volcano Vesuvius."
   },
   {
@@ -1004,7 +1004,7 @@
     "date_start": 98,
     "date_end": 98,
     "date": "98",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "After a two-year rule, Emperor Nerva dies of natural causes, his adopted son Trajan succeeds him."
   },
   {
@@ -1012,7 +1012,7 @@
     "date_start": 100,
     "date_end": 940,
     "date": "100-940",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Kingdom of Aksum in the Horn of Africa"
   },
   {
@@ -1020,7 +1020,7 @@
     "date_start": 106,
     "date_end": 117,
     "date": "106-117",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Roman Empire at largest extent under Emperor Trajan after having conquered modern-day Romania, Iraq and Armenia."
   },
   {
@@ -1028,7 +1028,7 @@
     "date_start": 117,
     "date_end": 117,
     "date": "117",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Trajan dies of natural causes. His adopted son Hadrian succeeds him. Hadrian pulls out of Iraq and Armenia."
   },
   {
@@ -1036,7 +1036,7 @@
     "date_start": 126,
     "date_end": 126,
     "date": "126",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Hadrian completes the Pantheon in Rome."
   },
   {
@@ -1044,7 +1044,7 @@
     "date_start": 138,
     "date_end": 138,
     "date": "138",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Hadrian dies of natural causes. His adopted son Antoninus Pius succeeds him."
   },
   {
@@ -1052,7 +1052,7 @@
     "date_start": 161,
     "date_end": 161,
     "date": "161",
-    "era": "Ancient & Classical",
+    "type": "War & Conflict",
     "event": "Death of Antoninus Pius. His rule was the only one in which Rome did not fight in a war."
   },
   {
@@ -1060,7 +1060,7 @@
     "date_start": 161,
     "date_end": 161,
     "date": "161",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Marcus Aurelius becomes emperor of the Roman Empire. He is often ranked by historians as one of the greatest roman emperors."
   },
   {
@@ -1068,7 +1068,7 @@
     "date_start": 180,
     "date_end": 180,
     "date": "180",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Reign of Marcus Aurelius officially ends."
   },
   {
@@ -1076,7 +1076,7 @@
     "date_start": 180,
     "date_end": 181,
     "date": "180 - 181",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Commodus becomes Roman Emperor."
   },
   {
@@ -1084,7 +1084,7 @@
     "date_start": 200,
     "date_end": 200,
     "date": "200s",
-    "era": "Ancient & Classical",
+    "type": "Religion",
     "event": "The Buddhist Srivijaya Empire established in Maritime Southeast Asia."
   },
   {
@@ -1092,7 +1092,7 @@
     "date_start": 220,
     "date_end": 220,
     "date": "220",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Three Kingdoms period begins in China after the fall of Han Dynasty."
   },
   {
@@ -1100,7 +1100,7 @@
     "date_start": 226,
     "date_end": 226,
     "date": "226",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Fall of the Parthian Empire and Rise of the Sassanian Empire."
   },
   {
@@ -1108,7 +1108,7 @@
     "date_start": 280,
     "date_end": 280,
     "date": "280",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Emperor Wu established Jin Dynasty providing a temporary unity of China after the devastating Three Kingdoms period."
   },
   {
@@ -1116,7 +1116,7 @@
     "date_start": 285,
     "date_end": 285,
     "date": "285",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Diocletian becomes emperor of Rome and splits the Roman Empire into Eastern and Western Empires."
   },
   {
@@ -1124,7 +1124,7 @@
     "date_start": 285,
     "date_end": 285,
     "date": "285",
-    "era": "Ancient & Classical",
+    "type": "Religion",
     "event": "Diocletian begins a large-scale persecution of Christians."
   },
   {
@@ -1132,7 +1132,7 @@
     "date_start": 292,
     "date_end": 292,
     "date": "292",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "The capital of the Roman empire is officially moved from Rome to Mediolanum (modern day Milan)."
   },
   {
@@ -1140,7 +1140,7 @@
     "date_start": 313,
     "date_end": 313,
     "date": "313",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Edict of Milan declared that the Roman Empire would tolerate all forms of religious worship."
   },
   {
@@ -1148,7 +1148,7 @@
     "date_start": 325,
     "date_end": 325,
     "date": "325",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Constantine I organizes the First Council of Nicaea."
   },
   {
@@ -1156,7 +1156,7 @@
     "date_start": 330,
     "date_end": 330,
     "date": "330",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Constantinople is officially named and becomes the capital of the eastern Roman Empire."
   },
   {
@@ -1164,7 +1164,7 @@
     "date_start": 335,
     "date_end": 335,
     "date": "335",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Samudragupta becomes the emperor of the Gupta empire."
   },
   {
@@ -1172,7 +1172,7 @@
     "date_start": 337,
     "date_end": 337,
     "date": "337",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Emperor Constantine I dies, leaving his sons Constantius II, Constans I, and Constantine II as the emperors of the Roman empire."
   },
   {
@@ -1180,7 +1180,7 @@
     "date_start": 337,
     "date_end": 361,
     "date": "337-361",
-    "era": "Ancient & Classical",
+    "type": "War & Conflict",
     "event": "Perso-Roman wars between the Roman Empire and the Sasanian Empire."
   },
   {
@@ -1188,7 +1188,7 @@
     "date_start": 350,
     "date_end": 350,
     "date": "350",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Constantius II is left sole emperor with the death of his two brothers."
   },
   {
@@ -1196,7 +1196,7 @@
     "date_start": 354,
     "date_end": 354,
     "date": "354",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Birth of Augustine of Hippo"
   },
   {
@@ -1204,7 +1204,7 @@
     "date_start": 361,
     "date_end": 361,
     "date": "361",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Constantius II dies, his cousin Julian succeeds him."
   },
   {
@@ -1212,7 +1212,7 @@
     "date_start": 378,
     "date_end": 378,
     "date": "378",
-    "era": "Ancient & Classical",
+    "type": "War & Conflict",
     "event": "Battle of Adrianople, Roman army is defeated by the Germanic tribes."
   },
   {
@@ -1220,7 +1220,7 @@
     "date_start": 380,
     "date_end": 380,
     "date": "380",
-    "era": "Ancient & Classical",
+    "type": "Religion",
     "event": "Roman Emperor Theodosius I declares the Arian faith of Christianity heretical."
   },
   {
@@ -1228,7 +1228,7 @@
     "date_start": 395,
     "date_end": 395,
     "date": "395",
-    "era": "Ancient & Classical",
+    "type": "Religion",
     "event": "Theodosius I outlaws all religions other than Catholic Christianity."
   },
   {
@@ -1236,7 +1236,7 @@
     "date_start": 400,
     "date_end": 400,
     "date": "c. 400",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Highland Maya fall to the lowland city of Teotihuacan. Begins the decline of Maya culture and language in some parts of the highlands. "
   },
   {
@@ -1244,7 +1244,7 @@
     "date_start": 405,
     "date_end": 405,
     "date": "405",
-    "era": "Medieval",
+    "type": "Religion",
     "event": "St. Jerome finished the Vulgate. The Christian Gospel is translated into Latin. "
   },
   {
@@ -1252,7 +1252,7 @@
     "date_start": 406,
     "date_end": 406,
     "date": "406",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Romans are expelled from Britain."
   },
   {
@@ -1260,7 +1260,7 @@
     "date_start": 407,
     "date_end": 409,
     "date": "407-409",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Visigoths and other Germanic tribes cross into Roman-Gaul for the first time."
   },
   {
@@ -1268,7 +1268,7 @@
     "date_start": 410,
     "date_end": 410,
     "date": "410",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Visigoths sacks Rome for the first time since .."
   },
   {
@@ -1276,7 +1276,7 @@
     "date_start": 410,
     "date_end": 410,
     "date": "410 August 24",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Rome is sacked by Alaric, King of the Visigoths. Decisive event in the decline of the Western Roman Empire. "
   },
   {
@@ -1284,7 +1284,7 @@
     "date_start": 415,
     "date_end": 415,
     "date": "415",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Germanic tribes enter Spain."
   },
   {
@@ -1292,7 +1292,7 @@
     "date_start": 429,
     "date_end": 429,
     "date": "429",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Vandals enter North Africa from Spain for the first time"
   },
   {
@@ -1300,7 +1300,7 @@
     "date_start": 431,
     "date_end": 431,
     "date": "431 June 22 – July 31",
-    "era": "Medieval",
+    "type": "Religion",
     "event": "The Council of Ephesus confirmed the original Nicene Creed, and condemned the teachings of Nestorius, Patriarch of Constantinople, that led to his exile and separation with the Church of the East. "
   },
   {
@@ -1308,7 +1308,7 @@
     "date_start": 439,
     "date_end": 439,
     "date": "439",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Vandals have conquered the land stretching from Morocco to Tunisia by this time."
   },
   {
@@ -1316,7 +1316,7 @@
     "date_start": 455,
     "date_end": 455,
     "date": "455",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Vandals sack Rome, capture Sicily and Sardinia."
   },
   {
@@ -1324,7 +1324,7 @@
     "date_start": 455,
     "date_end": 455,
     "date": "455 June 2",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Rome is sacked by Genseric, King of the Vandals. Another decisive event in the Fall of Rome and held by some historians to mark the `end of the Roman Empire`"
   },
   {
@@ -1332,7 +1332,7 @@
     "date_start": 476,
     "date_end": 476,
     "date": "476",
-    "era": "Ancient & Classical",
+    "type": "Politics & Power",
     "event": "Romulus Augustus, last Western Roman Emperor is forced to abdicate by Odoacer, a chieftain of the Germanic Heruli"
   },
   {
@@ -1340,7 +1340,7 @@
     "date_start": 476,
     "date_end": 476,
     "date": "476 September 4",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Odoacer deposes the Roman Emperor Romulus Augustulus. Considered by some historians to be the starting point of the Middle Ages."
   },
   {
@@ -1348,7 +1348,7 @@
     "date_start": 480,
     "date_end": 480,
     "date": "480 April 25",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Death of Julius Nepos, last Roman Emperor to be recognized as such by the Roman Senate and the Eastern court. Considered by some historians to be the starting point of the Middle Ages."
   },
   {
@@ -1356,7 +1356,7 @@
     "date_start": 500,
     "date_end": 500,
     "date": "c. 500",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Tikal becomes the first great Maya city. Significant cultural exchange between the Maya of Tikal and the citizens of Teotihuacan."
   },
   {
@@ -1364,7 +1364,7 @@
     "date_start": 500,
     "date_end": 500,
     "date": "c. 500",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "Battle of Mons Badonicus. The West Saxon advance is halted by Britons in England. Chiefly known today for the supposed involvement of King Arthur but information is very limited."
   },
   {
@@ -1372,7 +1372,7 @@
     "date_start": 507,
     "date_end": 507,
     "date": "507 Spring",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "The Franks under Clovis defeat the Visigoths in the Battle of Vouillé. The Visigoths retreated into Spain. "
   },
   {
@@ -1380,7 +1380,7 @@
     "date_start": 524,
     "date_end": 524,
     "date": "c. 524",
-    "era": "Medieval",
+    "type": "Religion",
     "event": "Boethius writes his Consolation of Philosophy. It has been described as the single most important and influential work in the West on Medieval and early Renaissance Christianity. "
   },
   {
@@ -1388,7 +1388,7 @@
     "date_start": 525,
     "date_end": 525,
     "date": "525",
-    "era": "Medieval",
+    "type": "Science & Technology",
     "event": "Dionysius Exiguus publishes the Dionysius Exiguus' Easter table. This initiated the Anno Domini era, used for the Gregorian and Julian calendars. "
   },
   {
@@ -1396,7 +1396,7 @@
     "date_start": 527,
     "date_end": 527,
     "date": "527 August 1",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Justinian I becomes Eastern Roman Emperor. Justinian is best remembered for his Code of Civil Law and expansion of imperial territory retaking Rome from the Ostrogoths. "
   },
   {
@@ -1404,7 +1404,7 @@
     "date_start": 529,
     "date_end": 529,
     "date": "529–534",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Justinian I publishes the Code of Civil Law. This compiled centuries of legal writings and imperial pronouncements into three parts of one body of law."
   },
   {
@@ -1412,7 +1412,7 @@
     "date_start": 529,
     "date_end": 529,
     "date": "529",
-    "era": "Medieval",
+    "type": "Religion",
     "event": "Benedict of Nursia founds monastery at Monte Cassino. The first of twelve monasteries founded by Saint Benedict, beginning the Order of Saint Benedict."
   },
   {
@@ -1420,7 +1420,7 @@
     "date_start": 532,
     "date_end": 532,
     "date": "532 January 1",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Nika riots in Constantinople. Nearly half the city is burned down or destroyed and tens of thousands of people are killed."
   },
   {
@@ -1428,7 +1428,7 @@
     "date_start": 533,
     "date_end": 533,
     "date": "533 December 15",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Byzantines, under Belisarius, retake North Africa from the Vandals. Vandal kingdom ends and the Reconquest of North Africa is completed. "
   },
   {
@@ -1436,7 +1436,7 @@
     "date_start": 535,
     "date_end": 535,
     "date": "535–554",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "Gothic War in Italy as a part of Justinian's Reconquest. Byzantines retook Italy but crippled the Byzantine economy and left Italy unable to cope against the oncoming Lombards."
   },
   {
@@ -1444,7 +1444,7 @@
     "date_start": 563,
     "date_end": 563,
     "date": "563",
-    "era": "Medieval",
+    "type": "Religion",
     "event": "Saint Columba founds mission in Iona. Constructed an abbey which helped convert the Picts to Christianity until it was destroyed and raided by the Vikings in 794."
   },
   {
@@ -1452,7 +1452,7 @@
     "date_start": 568,
     "date_end": 568,
     "date": "568",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "The Kingdom of the Lombards is founded in Italy. Survived in Italy until the invasion of the Franks under Charlemagne. "
   },
   {
@@ -1460,7 +1460,7 @@
     "date_start": 570,
     "date_end": 570,
     "date": "c. 570",
-    "era": "Medieval",
+    "type": "Religion",
     "event": "Muhammad is born. Professed receiving revelations from a god, which were recorded in the Quran, the basis of Islamic theology, in which he is regarded as the last of the sent prophets."
   },
   {
@@ -1468,7 +1468,7 @@
     "date_start": 577,
     "date_end": 577,
     "date": "577",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "The West Saxons continue their advance at the Battle of Deorham. Led to the permanent separation of Cornwall, England from Wales. "
   },
   {
@@ -1476,7 +1476,7 @@
     "date_start": 581,
     "date_end": 581,
     "date": "04 March 581 – 23 May 618",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Sui dynasty in China. China unified once again during this period after more than three centuries of fragmentation."
   },
   {
@@ -1484,7 +1484,7 @@
     "date_start": 590,
     "date_end": 590,
     "date": "590 September 3",
-    "era": "Medieval",
+    "type": "Science & Technology",
     "event": "Gregory the Great becomes Pope. The missionary work reached new levels during his reign and he revolutionized the way of worship for the Catholic Church."
   },
   {
@@ -1492,7 +1492,7 @@
     "date_start": 597,
     "date_end": 597,
     "date": "597",
-    "era": "Medieval",
+    "type": "Religion",
     "event": "Augustine arrives in Kent. Christianization of England (Anglo-Saxons) begins."
   },
   {
@@ -1500,7 +1500,7 @@
     "date_start": 598,
     "date_end": 598,
     "date": "598–668",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "Massive Chinese (Sui and Tang) invasions against Korean Goguryeo. Contributed to the fall of the Sui dynasty, and Goguryeo fell under the forces of the Tang and Silla."
   },
   {
@@ -1508,7 +1508,7 @@
     "date_start": 600,
     "date_end": 600,
     "date": "c. 600",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Deliberate fires set for unknown reasons destroy major buildings in Teotihuacan. Destroys the Teotihuacan civilization and empire. Tikal is now the largest city-state in Mesoamerica."
   },
   {
@@ -1516,7 +1516,7 @@
     "date_start": 602,
     "date_end": 602,
     "date": "602–629",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "Last great Roman–Persian War. Long conflict leaves both empires exhausted and unable to cope with the newly united Arab armies under Islam in the 630s"
   },
   {
@@ -1524,7 +1524,7 @@
     "date_start": 604,
     "date_end": 604,
     "date": "604–609",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Grand Canal in China is fully completed Its main role throughout its history was the transport of grain to the capital."
   },
   {
@@ -1532,7 +1532,7 @@
     "date_start": 618,
     "date_end": 618,
     "date": "01 June 618 – 18 June 907",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Tang dynasty in China. The essential administrative system established during this dynasty shaped Chinese governance for generations."
   },
   {
@@ -1540,7 +1540,7 @@
     "date_start": 622,
     "date_end": 622,
     "date": "9 September – 23 September 622",
-    "era": "Medieval",
+    "type": "Science & Technology",
     "event": "Muhammad migrates from Mecca to Medina. Event will have designated first year of the Islamic calendar, as Anno Hegirae. "
   },
   {
@@ -1548,7 +1548,7 @@
     "date_start": 626,
     "date_end": 626,
     "date": "626",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "Joint Persian–Avar–Slav Siege of Constantinople. Constantinople saved, Avar power broken and Persians henceforth on the defensive "
   },
   {
@@ -1556,7 +1556,7 @@
     "date_start": 627,
     "date_end": 627,
     "date": "627 December 12",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "Battle of Nineveh. The Byzantines, under Heraclius, crush the Persians. "
   },
   {
@@ -1564,7 +1564,7 @@
     "date_start": 632,
     "date_end": 632,
     "date": "632 June 8",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Death of Muhammad"
   },
   {
@@ -1572,7 +1572,7 @@
     "date_start": 632,
     "date_end": 632,
     "date": "632–668",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Establishment and expansion of Old Great Bulgaria. The demise of Old Great Bulgaria lead to the founding of the First Bulgarian Empire and Volga Bulgaria by the sons of Kubrat."
   },
   {
@@ -1580,7 +1580,7 @@
     "date_start": 632,
     "date_end": 632,
     "date": "632 June 8",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "Accession of Abu Bakr as first Caliph. Though the period of his caliphate was not long it included successful invasions of the two most powerful empires of the time."
   },
   {
@@ -1588,7 +1588,7 @@
     "date_start": 633,
     "date_end": 633,
     "date": "633–634",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "Battle of Heavenfield. Northumbrian army under Oswald defeat Welsh army."
   },
   {
@@ -1596,7 +1596,7 @@
     "date_start": 638,
     "date_end": 638,
     "date": "638",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "Jerusalem captured by the Arab army, mostly Muslims, but with contingents of Syrian Christians."
   },
   {
@@ -1604,7 +1604,7 @@
     "date_start": 641,
     "date_end": 641,
     "date": "641",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "Battle of Nahavand. Muslims conquer Persia."
   },
   {
@@ -1612,7 +1612,7 @@
     "date_start": 643,
     "date_end": 643,
     "date": "643",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "Arab Army led by Amr ibn al-As takes Alexandria."
   },
   {
@@ -1620,7 +1620,7 @@
     "date_start": 645,
     "date_end": 645,
     "date": "645",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "In Japan, the Soga clan falls. This initiates a period of imitation of Chinese culture, The Nara period begins a year later. "
   },
   {
@@ -1628,7 +1628,7 @@
     "date_start": 650,
     "date_end": 650,
     "date": "650",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Slav occupation of Balkans complete."
   },
   {
@@ -1636,7 +1636,7 @@
     "date_start": 650,
     "date_end": 650,
     "date": "c. 650",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "The city-state Xochicalco is founded by the Olmeca–Xicallanca. Becomes an important cultural and commercial center."
   },
   {
@@ -1644,7 +1644,7 @@
     "date_start": 653,
     "date_end": 653,
     "date": "653",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Arab force under Muslim general Muawiyah I conqueres Rhodes and destroys the Collosus of Rhodes."
   },
   {
@@ -1652,7 +1652,7 @@
     "date_start": 663,
     "date_end": 663,
     "date": "663",
-    "era": "Medieval",
+    "type": "Religion",
     "event": "Synod of Whitby. Roman Christianity triumphs over Celtic Christianity in England."
   },
   {
@@ -1660,7 +1660,7 @@
     "date_start": 668,
     "date_end": 668,
     "date": "668",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "End of the Three Kingdoms period in Korea. Unified Silla was established, which shortly led to the North–South States Period."
   },
   {
@@ -1668,7 +1668,7 @@
     "date_start": 674,
     "date_end": 674,
     "date": "674–678",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "First Arab siege of Constantinople. First time Islamic armies defeated forestalling Islamic conquest of Europe."
   },
   {
@@ -1676,7 +1676,7 @@
     "date_start": 681,
     "date_end": 681,
     "date": "681",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Establishment of the Bulgarian Empire."
   },
   {
@@ -1684,7 +1684,7 @@
     "date_start": 685,
     "date_end": 685,
     "date": "685",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "Battle of Dun Nechtain. Picts defeat Northumbrians whose dominance ends."
   },
   {
@@ -1692,7 +1692,7 @@
     "date_start": 687,
     "date_end": 687,
     "date": "687",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "Battle of Tertry Established Pepin of Herstal as mayor over the entire realms of Neustria and Austrasia which further dwindled Merovingian power."
   },
   {
@@ -1700,7 +1700,7 @@
     "date_start": 698,
     "date_end": 698,
     "date": "698",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "Arab army takes Carthage. End of Byzantine rule in North Africa"
   },
   {
@@ -1708,7 +1708,7 @@
     "date_start": 698,
     "date_end": 698,
     "date": "698",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "North–South States Period begins in Korea. Silla and Balhae coexisted in the south and north of the peninsula respectively until 926"
   },
   {
@@ -1716,7 +1716,7 @@
     "date_start": 711,
     "date_end": 711,
     "date": "711",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Umayyad conquest of Hispania under Tarik. Will begin a period of Muslim rule within in the Al-Andalus (with various portions of Iberian peninsula) until nearly the end of the Fifteenth Century."
   },
   {
@@ -1724,7 +1724,7 @@
     "date_start": 718,
     "date_end": 718,
     "date": "718",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Second Arab attack on Constantinople, ending in failure. The combined Byzantine–Bulgarian forces stop the Arab threat in Southeastern Europe."
   },
   {
@@ -1732,7 +1732,7 @@
     "date_start": 726,
     "date_end": 726,
     "date": "726",
-    "era": "Medieval",
+    "type": "Religion",
     "event": "Iconoclast movement begun in the Byzantine Empire under Leo III. This was opposed by Pope Gregory II, and an important difference between the Roman and Byzantine churches."
   },
   {
@@ -1740,7 +1740,7 @@
     "date_start": 732,
     "date_end": 732,
     "date": "732 October",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "Battle of Tours. Charles Martel halts Muslim advance which led to the forming of the Carolingian Empire for the Franks and halted the advancement of the Moors in southwestern Europe."
   },
   {
@@ -1748,7 +1748,7 @@
     "date_start": 735,
     "date_end": 735,
     "date": "735 26 May",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Death of Bede. Bede was later regarded as the father of English history "
   },
   {
@@ -1756,7 +1756,7 @@
     "date_start": 750,
     "date_end": 750,
     "date": "750 25 January",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Beginning of Abbasid Caliphate. It would become the longest-lasting caliphate, eventually falling when conquered and annexed into the Ottoman Empire."
   },
   {
@@ -1764,7 +1764,7 @@
     "date_start": 751,
     "date_end": 751,
     "date": "751",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Pepin the Short founds the Carolingian dynasty."
   },
   {
@@ -1772,7 +1772,7 @@
     "date_start": 754,
     "date_end": 754,
     "date": "754",
-    "era": "Medieval",
+    "type": "Religion",
     "event": "Pepin promises the Pope central Italy. This is arguably the beginning of the temporal power of the Papacy."
   },
   {
@@ -1780,7 +1780,7 @@
     "date_start": 768,
     "date_end": 768,
     "date": "768",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Beginning of Charlemagne's reign."
   },
   {
@@ -1788,7 +1788,7 @@
     "date_start": 778,
     "date_end": 778,
     "date": "778 15 August",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "Battle of Roncevaux Pass."
   },
   {
@@ -1796,7 +1796,7 @@
     "date_start": 786,
     "date_end": 786,
     "date": "786 14 September",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Accession of Harun al-Rashid to the Caliphate in Baghdad."
   },
   {
@@ -1804,7 +1804,7 @@
     "date_start": 793,
     "date_end": 793,
     "date": "793",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Viking attacks on Britain begin with the Sack of Lindisfarne. The Viking Age will span over two centuries. There influence will reach Hispania, to the Byzantine Empire, and present day Russia. "
   },
   {
@@ -1812,7 +1812,7 @@
     "date_start": 794,
     "date_end": 794,
     "date": "794",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Heian period in Japan. Considered to be the last classical period of History of Japan. Chinese influence was at its strongest during this era in Japan."
   },
   {
@@ -1820,7 +1820,7 @@
     "date_start": 795,
     "date_end": 795,
     "date": "795 29 July",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Death of Offa. Marks the end of Mercian dominance in England."
   },
   {
@@ -1828,7 +1828,7 @@
     "date_start": 800,
     "date_end": 800,
     "date": "800 25 December",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Charlemagne is crowned Holy Roman Emperor. With his crowning Charlemagne's kingdom is officially recognized by the Papacy as the largest in Europe since the fall of the Roman Empire."
   },
   {
@@ -1836,7 +1836,7 @@
     "date_start": 800,
     "date_end": 800,
     "date": "800",
-    "era": "Medieval",
+    "type": "Science & Technology",
     "event": "Gunpowder is invented in China by Taoist alchemists searching for an elixir of immortality."
   },
   {
@@ -1844,7 +1844,7 @@
     "date_start": 814,
     "date_end": 814,
     "date": "814 28 January",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Death of Charlemagne. This would be a factor towards the splitting of his empire within a generation."
   },
   {
@@ -1852,7 +1852,7 @@
     "date_start": 820,
     "date_end": 820,
     "date": "820",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Algebrae et Alumcabola Algorithm Muhammad ibn Musa- al-Khwarizmi"
   },
   {
@@ -1860,7 +1860,7 @@
     "date_start": 825,
     "date_end": 825,
     "date": "825",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "Battle of Ellandun. Egbert defeats Mercians. Wessex becomes the leading kingdom of England."
   },
   {
@@ -1868,7 +1868,7 @@
     "date_start": 827,
     "date_end": 827,
     "date": "827",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Muslims invade Sicily. First encounter of attempts to conquer Byzantine Sicily until the last Byzantine outpost was conquered in 965."
   },
   {
@@ -1876,7 +1876,7 @@
     "date_start": 840,
     "date_end": 840,
     "date": "840",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Muslims capture Bari and much of southern Italy."
   },
   {
@@ -1884,7 +1884,7 @@
     "date_start": 843,
     "date_end": 843,
     "date": "843",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Division of Charlemagne's Empire between his grandsons with the Treaty of Verdun. Sets the stage for the founding of the Holy Roman Empire and France as separate states."
   },
   {
@@ -1892,7 +1892,7 @@
     "date_start": 843,
     "date_end": 843,
     "date": "843",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Kenneth McAlpin becomes king of the Picts and Scots, creating the Kingdom of Alba."
   },
   {
@@ -1900,7 +1900,7 @@
     "date_start": 862,
     "date_end": 862,
     "date": "862",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Viking state in Russia founded under Rurik, first at Novgorod, then Kiev."
   },
   {
@@ -1908,7 +1908,7 @@
     "date_start": 864,
     "date_end": 864,
     "date": "864",
-    "era": "Medieval",
+    "type": "Religion",
     "event": "Christianization of Bulgaria."
   },
   {
@@ -1916,7 +1916,7 @@
     "date_start": 866,
     "date_end": 866,
     "date": "866",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Fujiwara period in Japan. Would become the most powerful clan during the Heian period in Japan for around three centuries."
   },
   {
@@ -1924,7 +1924,7 @@
     "date_start": 866,
     "date_end": 866,
     "date": "866",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "Viking Great Army arrives in England. Northumbria, East Anglia, and Mercia were overwhelmed. "
   },
   {
@@ -1932,7 +1932,7 @@
     "date_start": 868,
     "date_end": 868,
     "date": "868",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Earliest known printed book in China with a date."
   },
   {
@@ -1940,7 +1940,7 @@
     "date_start": 871,
     "date_end": 871,
     "date": "871",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Alfred the Great assumes the throne, the first king of a united England. He defended England from Viking invaders, formed new laws and fostered a rebirth of religious and scholarly activities."
   },
   {
@@ -1948,7 +1948,7 @@
     "date_start": 872,
     "date_end": 872,
     "date": "c. 872",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Harold Fairhair becomes King of Norway."
   },
   {
@@ -1956,7 +1956,7 @@
     "date_start": 874,
     "date_end": 874,
     "date": "874",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Iceland is settled by Norsemen."
   },
   {
@@ -1964,7 +1964,7 @@
     "date_start": 882,
     "date_end": 882,
     "date": "882",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "Kievan Rus' is established. It would be sustained through numerous challenges, peaking during the reign of Yaroslav the Wise, before ultimately falling to the Mongol invasion."
   },
   {
@@ -1972,7 +1972,7 @@
     "date_start": 885,
     "date_end": 885,
     "date": "885",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Arrival of the disciples of Saints Cyril and Methodius in Bulgaria. In the following decades the country became the cultural and spiritual centre of the Eastern Orthodox part of the Slavic World."
   },
   {
@@ -1980,7 +1980,7 @@
     "date_start": 885,
     "date_end": 885,
     "date": "885–886",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Vikings attack Paris."
   },
   {
@@ -1988,7 +1988,7 @@
     "date_start": 893,
     "date_end": 893,
     "date": "893",
-    "era": "Medieval",
+    "type": "Science & Technology",
     "event": "Emperor Simeon I becomes ruler of the First Bulgarian Empire in the Balkans. Under his rule falls the golden age of the First Bulgarian Empire and the invention of the Cyrillic Script. "
   },
   {
@@ -1996,7 +1996,7 @@
     "date_start": 896,
     "date_end": 896,
     "date": "896",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Arpad and the Magyars are present in Pannonia."
   },
   {
@@ -2004,7 +2004,7 @@
     "date_start": 899,
     "date_end": 899,
     "date": "27 October 899",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Death of Alfred the Great King of the Anglo-Saxon. Being learned he proposed that priamry education be conducted in Old English instead of Latin."
   },
   {
@@ -2012,7 +2012,7 @@
     "date_start": 900,
     "date_end": 900,
     "date": "c. 900",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Lowland Maya cities in the south collapse. Signifies the end of the Classic Period of Maya history. The Maya in northern Yucatán continue to thrive. "
   },
   {
@@ -2020,7 +2020,7 @@
     "date_start": 907,
     "date_end": 907,
     "date": "907",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Tang Dynasty ends with Emperor Ai deposed. The Five Dynasties and Ten Kingdoms period in China commences. "
   },
   {
@@ -2028,7 +2028,7 @@
     "date_start": 910,
     "date_end": 910,
     "date": "910",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "King Edward the Elder of England, son of King Alfred, defeats the Northumbrian Vikings at the Battle of Tettenhall; they never raid south of the River Humber again."
   },
   {
@@ -2036,7 +2036,7 @@
     "date_start": 910,
     "date_end": 910,
     "date": "910",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Cluny Abbey is founded by William I, Count of Auvergne. Cluny goes on to become the acknowledged leader of Western Monasticism. Cluniac Reforms initiated with the abbey's founding."
   },
   {
@@ -2044,7 +2044,7 @@
     "date_start": 911,
     "date_end": 911,
     "date": "911",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "The Viking Rollo and his tribe settle in what is now Normandy by the terms of the Treaty of Saint-Clair-sur-Epte, founding the Duchy of Normandy."
   },
   {
@@ -2052,7 +2052,7 @@
     "date_start": 917,
     "date_end": 917,
     "date": "917",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "Battle of Anchialus. Simeon I the Great defeats the Byzantines. Recognition of the Imperial Title of the Bulgarian rulers."
   },
   {
@@ -2060,7 +2060,7 @@
     "date_start": 919,
     "date_end": 919,
     "date": "919",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Henry the Fowler, Duke of Saxony elected German King.  First king of the Ottonian Dynasty. Henry I considered the founder and first king of the medieval German state."
   },
   {
@@ -2068,7 +2068,7 @@
     "date_start": 925,
     "date_end": 925,
     "date": "925",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "The first King of Croatia (rex Croatorum), Tomislav of the Trpimirović dynasty was crowned. Tomislav united Croats of Dalmatia and Pannonia into a single Kingdom, and created a sizeable state."
   },
   {
@@ -2076,7 +2076,7 @@
     "date_start": 927,
     "date_end": 927,
     "date": "927",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "King Aethelstan the Glorious unites the heptarchy of The Anglo-Saxon  nations of Wessex, Sussex, Essex, Kent, East Anglia, Mercia and Northumbria founding the Kingdom of England."
   },
   {
@@ -2084,7 +2084,7 @@
     "date_start": 927,
     "date_end": 927,
     "date": "927",
-    "era": "Medieval",
+    "type": "Religion",
     "event": "Death of Simeon I the Great. Recognition of the Bulgarian Patriarchate, the first independent National Church in Europe."
   },
   {
@@ -2092,7 +2092,7 @@
     "date_start": 929,
     "date_end": 929,
     "date": "929",
-    "era": "Medieval",
+    "type": "Religion",
     "event": "Abd-ar-Rahman III of the Umayyad dynasty in al-Andalus (part of the Iberian peninsula) takes the title of Caliph or ruler of the Islamic world. This marks the beginning of the Caliphate of Córdoba."
   },
   {
@@ -2100,7 +2100,7 @@
     "date_start": 936,
     "date_end": 936,
     "date": "936",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Wang Geon unifies Goryeo (Korea) which ends the Later Three Kingdoms Era."
   },
   {
@@ -2108,7 +2108,7 @@
     "date_start": 938,
     "date_end": 938,
     "date": "938",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "Ngo Quyen won the battle of Bach Dang against the Chinese Southern Han army. This event marked the independence of Vietnam after centuries of Chinese domination."
   },
   {
@@ -2116,7 +2116,7 @@
     "date_start": 955,
     "date_end": 955,
     "date": "955",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "Battle of Lechfeld. Otto the Great, son of Henry the Fowler, defeats the Magyars. This is the defining event that prevents the Hungarians from entering Central Europe."
   },
   {
@@ -2124,7 +2124,7 @@
     "date_start": 960,
     "date_end": 960,
     "date": "c.960",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Mieszko I becomes duke of Polans. First historical ruler of Poland and de facto founder of the Polish State."
   },
   {
@@ -2132,7 +2132,7 @@
     "date_start": 960,
     "date_end": 960,
     "date": "960",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Song Dynasty begins after Emperor Taizu usurps the throne from the Later Zhou, last of the Five Dynasties. A lengthy period of Song rule goes underway."
   },
   {
@@ -2140,7 +2140,7 @@
     "date_start": 962,
     "date_end": 962,
     "date": "962",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Otto the Great crowned the Holy Roman Emperor. First to be crowned Holy Roman Emperor in nearly 40 years."
   },
   {
@@ -2148,7 +2148,7 @@
     "date_start": 963,
     "date_end": 963,
     "date": "963–964",
-    "era": "Medieval",
+    "type": "Religion",
     "event": "Otto deposes Pope John XII who is replaced with Pope Leo VIII. Citizens of Rome promise not to elect another Pope without Imperial approval."
   },
   {
@@ -2156,7 +2156,7 @@
     "date_start": 965,
     "date_end": 965,
     "date": "965–967",
-    "era": "Medieval",
+    "type": "Religion",
     "event": "Mieszko I of Poland and his court embrace Christianity, which becomes national religion."
   },
   {
@@ -2164,7 +2164,7 @@
     "date_start": 969,
     "date_end": 969,
     "date": "969",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "John I Tzimiskes and Nikephoros II are executed. Sultane of Rums are proclaimed."
   },
   {
@@ -2172,7 +2172,7 @@
     "date_start": 976,
     "date_end": 976,
     "date": "976",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Death of John I Tzimiskes Under Basil II zenith of the power of Eastern Empire after Justinian."
   },
   {
@@ -2180,7 +2180,7 @@
     "date_start": 978,
     "date_end": 978,
     "date": "978",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Al-Mansur Ibn Abi Aamir becomes de facto ruler of Muslim Al-Andalus. Peak of power of Moorish Iberia under Almanzor."
   },
   {
@@ -2188,7 +2188,7 @@
     "date_start": 981,
     "date_end": 981,
     "date": "981",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Basil II (called Bulgar Slayer) begins final conquest of Bulgaria by Eastern Empire."
   },
   {
@@ -2196,7 +2196,7 @@
     "date_start": 985,
     "date_end": 985,
     "date": "985",
-    "era": "Medieval",
+    "type": "Exploration",
     "event": "Eric the Red, exiled from Iceland, begins Scandinavian colonization of Greenland."
   },
   {
@@ -2204,7 +2204,7 @@
     "date_start": 987,
     "date_end": 987,
     "date": "987",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Succession of Hugh Capet to the French Throne. Beginning of Capetian Dynasty."
   },
   {
@@ -2212,7 +2212,7 @@
     "date_start": 988,
     "date_end": 988,
     "date": "988",
-    "era": "Medieval",
+    "type": "Religion",
     "event": "Volodymyr I of Kiev embraces Christianity, which becomes national religion."
   },
   {
@@ -2220,7 +2220,7 @@
     "date_start": 989,
     "date_end": 989,
     "date": "989",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "Peace and Truce of God formed. The first movement of the Catholic Church using spiritual means to limit war and the first movement in medieval Europe to control society through non-violent means."
   },
   {
@@ -2228,7 +2228,7 @@
     "date_start": 1001,
     "date_end": 1001,
     "date": "c. 1001",
-    "era": "Medieval",
+    "type": "Exploration",
     "event": "Leif Ericson is to settle during the winter in present-day Canada at L'Anse aux Meadows. Ericson is to be the first European to settle in the Americas during the Norse exploration of the Americas."
   },
   {
@@ -2236,7 +2236,7 @@
     "date_start": 1016,
     "date_end": 1016,
     "date": "1016",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Canute the Great becomes King of England after the death of Edmund Ironside, with whom he shared the English throne. Danes remain kings of England for the next 26 years."
   },
   {
@@ -2244,7 +2244,7 @@
     "date_start": 1018,
     "date_end": 1018,
     "date": "1018",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "The Byzantines under Basil II conquer Bulgaria after a bitter 50-years struggle. Concludes the Byzantine conquest of Bulgaria."
   },
   {
@@ -2252,7 +2252,7 @@
     "date_start": 1021,
     "date_end": 1021,
     "date": "1021",
-    "era": "Medieval",
+    "type": "Culture & Arts",
     "event": "The Tale of Genji, by Murasaki Shikibu, is completed in Japan. It is sometimes called the world's first (modern) novel, or the first psychological novel."
   },
   {
@@ -2260,7 +2260,7 @@
     "date_start": 1025,
     "date_end": 1025,
     "date": "1025",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "The Canon of Medicine by the Persian scholar Avicenna sets the standard medical textbook for European universities for centuries."
   },
   {
@@ -2268,7 +2268,7 @@
     "date_start": 1037,
     "date_end": 1037,
     "date": "1037",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "The Great Seljuk Empire is founded by Tughril Beg. Would be a major force during the first two Crusades and an antagonist to the Byzantine Empire over the next century."
   },
   {
@@ -2276,7 +2276,7 @@
     "date_start": 1049,
     "date_end": 1049,
     "date": "1049",
-    "era": "Medieval",
+    "type": "Religion",
     "event": "Pope Leo IX ascends to the papal throne. Leo IX was the pope that excommunicated Patriarch of Constantinople, Michael Cerularius (who also excommunicated Leo), which caused the Great Schism."
   },
   {
@@ -2284,7 +2284,7 @@
     "date_start": 1050,
     "date_end": 1050,
     "date": "1050",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "The astrolabe, an ancient tool of navigation, is first used in Europe. Early tool of marine navigators, astrologers, astronomers."
   },
   {
@@ -2292,7 +2292,7 @@
     "date_start": 1050,
     "date_end": 1050,
     "date": "1050",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Westminster Abbey Edward the Confessor"
   },
   {
@@ -2300,7 +2300,7 @@
     "date_start": 1054,
     "date_end": 1054,
     "date": "1054",
-    "era": "Medieval",
+    "type": "Religion",
     "event": "The East-West Schism which divided the church into Western Catholicism and Eastern Orthodoxy. Tensions will vary between the Catholic and Orthodox churches throughout the Middle Ages."
   },
   {
@@ -2308,7 +2308,7 @@
     "date_start": 1066,
     "date_end": 1066,
     "date": "1066",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "William the Conqueror, Duke of Normandy, invades England and becomes King after the Battle of Hastings. End of Anglo-Saxon rule in England and start of Norman lineage."
   },
   {
@@ -2316,7 +2316,7 @@
     "date_start": 1067,
     "date_end": 1067,
     "date": "1067",
-    "era": "Medieval",
+    "type": "Religion",
     "event": "Pope Gregory VII elevated to the papal throne. This begins a period of church reform."
   },
   {
@@ -2324,7 +2324,7 @@
     "date_start": 1071,
     "date_end": 1071,
     "date": "1071",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "The Seljuks under Alp Arslan defeat the Byzantine army at Manzikert. The Normans capture Bari, the last Byzantine possession in southern Italy. Beginning of the end of Byzantine rule in Asia Minor."
   },
   {
@@ -2332,7 +2332,7 @@
     "date_start": 1075,
     "date_end": 1075,
     "date": "1075",
-    "era": "Medieval",
+    "type": "Religion",
     "event": "Dictatus Papae in which Pope Gregory VII defines the powers of the pope. Peak of the Gregorian Reform, and an immense factor in the Investiture Controversy."
   },
   {
@@ -2340,7 +2340,7 @@
     "date_start": 1077,
     "date_end": 1077,
     "date": "1077",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "Holy Roman Emperor Henry IV  walks to Canossa where he stands barefoot in the snow to beg forgiveness of the Pope for his offences, and admitting defeat in the Investiture Controversy."
   },
   {
@@ -2348,7 +2348,7 @@
     "date_start": 1077,
     "date_end": 1077,
     "date": "1077",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "The Construction of the Tower of London begins. The tower of London was the ultimate keep of the British Empire."
   },
   {
@@ -2356,7 +2356,7 @@
     "date_start": 1086,
     "date_end": 1086,
     "date": "1086",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "The compilation of the Domesday Book, a great land and property survey commissioned by William the Conqueror to assess his new possessions. This is the first such undertaking since Roman times."
   },
   {
@@ -2364,7 +2364,7 @@
     "date_start": 1088,
     "date_end": 1088,
     "date": "1088",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "University of Bologna is formed. It is the oldest university in Europe."
   },
   {
@@ -2372,7 +2372,7 @@
     "date_start": 1095,
     "date_end": 1095,
     "date": "1095",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "Pope Urban issues the Crusades to capture the Holy Land, and to repel the Seljuk Turks from the Byzantine Empire from Alexios I Komnenos."
   },
   {
@@ -2380,7 +2380,7 @@
     "date_start": 1098,
     "date_end": 1098,
     "date": "1098",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "The Cistercian Order is founded. Was a return to the original observance of the Rule of St. Benedict."
   },
   {
@@ -2388,7 +2388,7 @@
     "date_start": 1099,
     "date_end": 1099,
     "date": "1099",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "First Crusade. Jerusalem is re-taken from the Muslims on the urging of Pope Urban II and the Kingdom of Jerusalem is formed. It last for nearly two centuries."
   },
   {
@@ -2396,7 +2396,7 @@
     "date_start": 1100,
     "date_end": 1100,
     "date": "1100",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Latin-translation of the great masters of Arabic medicine: Rhazes, Ishaq Ibn Imran, Ibn Suleiman, and Ibn al-Jazzar Constantine the African"
   },
   {
@@ -2404,7 +2404,7 @@
     "date_start": 1102,
     "date_end": 1102,
     "date": "1102",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "The Kingdom of Croatia and the Kingdom of Hungary formed a personal union under the Hungarian king, creating an alliance that endured for centuries."
   },
   {
@@ -2412,7 +2412,7 @@
     "date_start": 1102,
     "date_end": 1102,
     "date": "1102",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Synods of Westminster End of simony, clerical marriages, slavery under Anselm of Canterbury"
   },
   {
@@ -2420,7 +2420,7 @@
     "date_start": 1106,
     "date_end": 1106,
     "date": "1106 28 September",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "Henry I of England defeats his older brother Robert Curthose, duke of Normandy, at the Battle of Tinchebrai, and imprisons him in Devizes castle."
   },
   {
@@ -2428,7 +2428,7 @@
     "date_start": 1107,
     "date_end": 1107,
     "date": "1107",
-    "era": "Medieval",
+    "type": "Religion",
     "event": "Through the compromise, suggested by Adela, the sister of King Henry, the Investiture Struggle in England is ended it eases friction between the English monarchy and the Catholic Church."
   },
   {
@@ -2436,7 +2436,7 @@
     "date_start": 1109,
     "date_end": 1109,
     "date": "1109",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "In the Battle of Naklo, Boleslaus III Wrymouth defeats the Pomeranians. Polish access to the sea is re-established."
   },
   {
@@ -2444,7 +2444,7 @@
     "date_start": 1109,
     "date_end": 1109,
     "date": "1109 24 August",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "In the Battle of Hundsfeld, Boleslaus III Wrymouth defeats Emperor Henry V. German expansion to the centre of Europe is stopped."
   },
   {
@@ -2452,7 +2452,7 @@
     "date_start": 1116,
     "date_end": 1116,
     "date": "1116",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "The Byzantine army defeats the Turks at Philomelion. The Turks abandon the entire coastal area of Anatolia and all of western Anatolia"
   },
   {
@@ -2460,7 +2460,7 @@
     "date_start": 1117,
     "date_end": 1117,
     "date": "1117",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "The University of Oxford is founded. It is the oldest university in the United Kingdom."
   },
   {
@@ -2468,7 +2468,7 @@
     "date_start": 1118,
     "date_end": 1118,
     "date": "1118",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "The Knights Templar are founded to protect Jerusalem and European pilgrims on their journey to the city. Becomes the most recognizable, and impactful military orders during the Crusades."
   },
   {
@@ -2476,7 +2476,7 @@
     "date_start": 1121,
     "date_end": 1121,
     "date": "1121 25 December",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "St. Norbert and 29 companions make their solemn vows marking the beginning of the Premonstratensian Order. This order played a significant role in evangelizing the Slavs, and the Wends."
   },
   {
@@ -2484,7 +2484,7 @@
     "date_start": 1122,
     "date_end": 1122,
     "date": "1122 23 September",
-    "era": "Medieval",
+    "type": "Religion",
     "event": "The Concordat of Worms was drawn up between Emperor Henry V and Pope Calixtus II. This concordat ended the investiture struggle but bitter rivalry between emperor and pope remained."
   },
   {
@@ -2492,7 +2492,7 @@
     "date_start": 1123,
     "date_end": 1123,
     "date": "1123 18 March - 27 March",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "The First Lateran Council followed and confirmed the Concordat of Worms."
   },
   {
@@ -2500,7 +2500,7 @@
     "date_start": 1125,
     "date_end": 1125,
     "date": "1125",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "School of Glossators Irnerius"
   },
   {
@@ -2508,7 +2508,7 @@
     "date_start": 1125,
     "date_end": 1125,
     "date": "1125",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Lothair of Supplinburg, duke of Saxony, is elected Holy Roman Emperor instead, Frederick of Swabia. This election marks the beginning of the great struggle between the Guelfs and the Ghibellines."
   },
   {
@@ -2516,7 +2516,7 @@
     "date_start": 1125,
     "date_end": 1125,
     "date": "1125–1127",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Jingkang Incident The Jurchen soldiers sack Kaifeng, bringing an end to the Northern Song Dynasty in China; the Song moves further south and makes Lin'an their new capital."
   },
   {
@@ -2524,7 +2524,7 @@
     "date_start": 1130,
     "date_end": 1130,
     "date": "1130 25 December",
-    "era": "Medieval",
+    "type": "Religion",
     "event": "Roger II is crowned King of Sicily, a Royal title given him by the Antipope Anacletus II. This marks the beginning of the Kingdom of Sicily of Norman kings."
   },
   {
@@ -2532,7 +2532,7 @@
     "date_start": 1130,
     "date_end": 1130,
     "date": "1130",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Sic et Non Peter Abelard"
   },
   {
@@ -2540,7 +2540,7 @@
     "date_start": 1135,
     "date_end": 1135,
     "date": "1135",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "The Anarchy begins in England — a prolonged period of strife and Civil War between the supporters of Stephen and Matilda, ending with the crowning of Matilda's son, Henry II."
   },
   {
@@ -2548,7 +2548,7 @@
     "date_start": 1139,
     "date_end": 1139,
     "date": "1139 April",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "The Second Lateran Council enforces Gergory VII’s campaign by declaring clerical marriages invalid, regulated clerical dress, and punished attacks on clerics by excommunication."
   },
   {
@@ -2556,7 +2556,7 @@
     "date_start": 1140,
     "date_end": 1140,
     "date": "1140",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Decretum Gratian"
   },
   {
@@ -2564,7 +2564,7 @@
     "date_start": 1144,
     "date_end": 1144,
     "date": "1144",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Rebuild of Basilica of Saint Denis Suger"
   },
   {
@@ -2572,7 +2572,7 @@
     "date_start": 1147,
     "date_end": 1147,
     "date": "1147–1149",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "The Second Crusade was in retaliation for the fall of Edessa, one of the first Crusader States founded in the First Crusade. The first Crusade been led by European kngs was an overall failure."
   },
   {
@@ -2580,7 +2580,7 @@
     "date_start": 1150,
     "date_end": 1150,
     "date": "1150",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Ramon Berenguer IV, Count of Barcelona, married Queen Petronilla of Aragon. This marriage gave the Kingdom of Aragon access to the Mediterranean Sea."
   },
   {
@@ -2588,7 +2588,7 @@
     "date_start": 1150,
     "date_end": 1150,
     "date": "1150",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Founding of the University of Paris"
   },
   {
@@ -2596,7 +2596,7 @@
     "date_start": 1152,
     "date_end": 1152,
     "date": "1152",
-    "era": "Medieval",
+    "type": "Religion",
     "event": "The Synod of Kells-Mellifont established the present diocesan system of Ireland and recognized the primacy of Armagh. The Irish Church is included into mainstream European Catholicism."
   },
   {
@@ -2604,7 +2604,7 @@
     "date_start": 1154,
     "date_end": 1154,
     "date": "1154",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Common Law Henry II"
   },
   {
@@ -2612,7 +2612,7 @@
     "date_start": 1158,
     "date_end": 1158,
     "date": "1158",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "The Hanseatic League is founded. This marks a new period of trade and economic development for northern and central Europe."
   },
   {
@@ -2620,7 +2620,7 @@
     "date_start": 1163,
     "date_end": 1163,
     "date": "1163",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "The first cornerstone is laid for the construction of Notre Dame de Paris."
   },
   {
@@ -2628,7 +2628,7 @@
     "date_start": 1166,
     "date_end": 1166,
     "date": "1166",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Stefan Nemanja united Serbian territories, establishing the Medieval Serbian state marking the rise of Serbia which will dominate the Balkans for the next three hundred years."
   },
   {
@@ -2636,7 +2636,7 @@
     "date_start": 1171,
     "date_end": 1171,
     "date": "1171",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "King Henry II of England lands in Ireland to assert his supremacy. This begins the English claim to and occupation of Ireland which would last some seven and a half centuries."
   },
   {
@@ -2644,7 +2644,7 @@
     "date_start": 1174,
     "date_end": 1174,
     "date": "1174 7/12",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "King William I of Scotland, captured in the Battle of Alnwick by the English, accepts the feudal lordship of the English crown. This is the beginning of the acquisition of Scotland by the English."
   },
   {
@@ -2652,7 +2652,7 @@
     "date_start": 1175,
     "date_end": 1175,
     "date": "1175",
-    "era": "Medieval",
+    "type": "Religion",
     "event": "Hōnen Shōnin (Genkū) founds the Jōdo shū (Pure Land) sect of Buddhism. This event marks the beginning of the Buddhist sectarian movement in Japan."
   },
   {
@@ -2660,7 +2660,7 @@
     "date_start": 1175,
     "date_end": 1175,
     "date": "1175",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Gerard of Cremona translates the Arabic version of Ptolemy's Almagest"
   },
   {
@@ -2668,7 +2668,7 @@
     "date_start": 1176,
     "date_end": 1176,
     "date": "1176 5/29",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "At the Battle of Legnano, the Lombard League's infantry defeats Federick Barbarossa's cavalry – the first major defeat of cavalry by infantry, signaling the new role of the bourgeoisie."
   },
   {
@@ -2676,7 +2676,7 @@
     "date_start": 1179,
     "date_end": 1179,
     "date": "1179",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Third Council of the Lateran"
   },
   {
@@ -2684,7 +2684,7 @@
     "date_start": 1179,
     "date_end": 1179,
     "date": "1179 March",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "The Third Lateran Council limits papal electees to the cardinals alone, condemns simony, and forbids the promotion of anyone to the episcopate before the age of thirty."
   },
   {
@@ -2692,7 +2692,7 @@
     "date_start": 1183,
     "date_end": 1183,
     "date": "1183",
-    "era": "Medieval",
+    "type": "Religion",
     "event": "The final Peace of Constance between Frederick Barbarossa, the pope, and the Lombard towns is signed."
   },
   {
@@ -2700,7 +2700,7 @@
     "date_start": 1183,
     "date_end": 1183,
     "date": "1183",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "The Taira clan are driven out of Kyōto by Minamoto Yoshinaka. The conflict which follows ends at the Battle of Dan no Ura with the annihilation of the Taira."
   },
   {
@@ -2708,7 +2708,7 @@
     "date_start": 1184,
     "date_end": 1184,
     "date": "1184 November",
-    "era": "Medieval",
+    "type": "Religion",
     "event": "Pope Lucius III issues the papal bull Ad Abolendam. This bull set up the organization of the medieval inquisitions."
   },
   {
@@ -2716,7 +2716,7 @@
     "date_start": 1185,
     "date_end": 1185,
     "date": "1185",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Windmills are first recorded."
   },
   {
@@ -2724,7 +2724,7 @@
     "date_start": 1185,
     "date_end": 1185,
     "date": "1185",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "Uprising of Asen and Peter. The reestablishment of the Bulgarian Empire."
   },
   {
@@ -2732,7 +2732,7 @@
     "date_start": 1185,
     "date_end": 1185,
     "date": "1185",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "At the Battle of Dan no Ura, Minamoto Yoshitsune annihilates the Taira clan which leaves Minamoto the rulers of Japan and marks the beginning of feudal rule known as the Kamakura Period."
   },
   {
@@ -2740,7 +2740,7 @@
     "date_start": 1186,
     "date_end": 1186,
     "date": "1186 1/27",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "The future emperor Henry VI marries Constance of Sicily, heiress to the Sicilian throne. This marriage shifts the focus of the Guelphs/Ghibelline struggle to Sicily."
   },
   {
@@ -2748,7 +2748,7 @@
     "date_start": 1187,
     "date_end": 1187,
     "date": "1187",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "Saladin recaptures Jerusalem. Would lead to the Third Crusade."
   },
   {
@@ -2756,7 +2756,7 @@
     "date_start": 1188,
     "date_end": 1188,
     "date": "1188",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Tractatus of Glanvil Oxford University"
   },
   {
@@ -2764,7 +2764,7 @@
     "date_start": 1189,
     "date_end": 1189,
     "date": "1189 July 6",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Richard I (Cœur de Lion) ascends the throne of England. He levies heavy taxes to finance his European creates antipathy towards the crown but his being absent enabled political developments."
   },
   {
@@ -2772,7 +2772,7 @@
     "date_start": 1189,
     "date_end": 1189,
     "date": "1189–1192",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "The Third Crusade follows upon Saladin's uniting the Muslim world and recapturing Jerusalem. Despite managing to win several major battles. the Crusaders did not recapture Jerusalem."
   },
   {
@@ -2780,7 +2780,7 @@
     "date_start": 1192,
     "date_end": 1192,
     "date": "1192",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Minamoto no Yoritomo is appointed Sei-i Taishōgun, or shōgun for short. He is the first of a long line of military dictators to bear this title, an institution that would define Japan for centuries."
   },
   {
@@ -2788,7 +2788,7 @@
     "date_start": 1193,
     "date_end": 1193,
     "date": "1193",
-    "era": "Medieval",
+    "type": "Religion",
     "event": "Muhammad bin Bakhtiyar Khilji sack and burn the university at Nalanda. This is the beginning of the decline of Buddhism in India."
   },
   {
@@ -2796,7 +2796,7 @@
     "date_start": 1193,
     "date_end": 1193,
     "date": "1193",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "The first known merchant guild."
   },
   {
@@ -2804,7 +2804,7 @@
     "date_start": 1195,
     "date_end": 1195,
     "date": "1195",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "Battle of Alarcos The Almohad Caliphate decisively defeat the Kingdom of Castile. The Almohads pushed Christians to the north and stablished themselves as the supreme power in Al-Andalus"
   },
   {
@@ -2812,7 +2812,7 @@
     "date_start": 1199,
     "date_end": 1199,
     "date": "1199",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Europeans first use compasses."
   },
   {
@@ -2820,7 +2820,7 @@
     "date_start": 1202,
     "date_end": 1202,
     "date": "1202",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "The Fourth Crusade sacked Croatian town of Zadar, a rival of Venice, despite letters from Pope Innocent III forbidding it. This marks the first attack against a Catholic city by Catholic crusaders."
   },
   {
@@ -2828,7 +2828,7 @@
     "date_start": 1204,
     "date_end": 1204,
     "date": "1204",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "Sack of Constantinople during the Fourth Crusade. Considered to be the beginning of the decline of the Byzantine Empire."
   },
   {
@@ -2836,7 +2836,7 @@
     "date_start": 1205,
     "date_end": 1205,
     "date": "1205",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "Battle of Adrianople. The Bulgarians under Emperor Kaloyan defeat Baldwin I. Beginning of the decline of the Latin Empire."
   },
   {
@@ -2844,7 +2844,7 @@
     "date_start": 1206,
     "date_end": 1206,
     "date": "1206",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Genghis Khan was elected as Khagan of the Mongols and the Mongol Empire was established. The Mongols would conquer much of Eurasia, changing former political borders."
   },
   {
@@ -2852,7 +2852,7 @@
     "date_start": 1208,
     "date_end": 1208,
     "date": "1208",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "Pope Innocent III calls for the Albigensian Crusade which seeks to destroy a rival form of Christianity practiced by the Cathars."
   },
   {
@@ -2860,7 +2860,7 @@
     "date_start": 1209,
     "date_end": 1209,
     "date": "1209",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "The University of Cambridge is founded."
   },
   {
@@ -2868,7 +2868,7 @@
     "date_start": 1209,
     "date_end": 1209,
     "date": "1209",
-    "era": "Medieval",
+    "type": "Religion",
     "event": "Founding of the Franciscan Order. One of the more significant orders in the Roman Catholic church. founded by Saint Francis of Assisi."
   },
   {
@@ -2876,7 +2876,7 @@
     "date_start": 1212,
     "date_end": 1212,
     "date": "1212",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "Spanish Christians succeed in defeating the Moors in the long Reconquista campaigns, after the Battle of Las Navas de Tolosa."
   },
   {
@@ -2884,7 +2884,7 @@
     "date_start": 1215,
     "date_end": 1215,
     "date": "1215 15 June",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "The Magna Carta is sealed by John of England. This marks one of the first times a medieval ruler is forced to accept limits on his power."
   },
   {
@@ -2892,7 +2892,7 @@
     "date_start": 1215,
     "date_end": 1215,
     "date": "1215",
-    "era": "Medieval",
+    "type": "Religion",
     "event": "Fourth Lateran Council. Dealt with transubstantiation, papal primacy and conduct of clergy. Proclaimed that Jews and Muslims should wear identification marks to distinguish them from Christians."
   },
   {
@@ -2900,7 +2900,7 @@
     "date_start": 1216,
     "date_end": 1216,
     "date": "1216",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Papal recognition of the Dominican Order."
   },
   {
@@ -2908,7 +2908,7 @@
     "date_start": 1219,
     "date_end": 1219,
     "date": "1219",
-    "era": "Medieval",
+    "type": "Religion",
     "event": "Serbian Orthodox Church becomes autocephalous under St. Sava, its first Archbishop."
   },
   {
@@ -2916,7 +2916,7 @@
     "date_start": 1227,
     "date_end": 1227,
     "date": "1227 18 August",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Genghis Khan dies. His kingdom is divided among his children and grandchildren some of which later form the Golden Horde."
   },
   {
@@ -2924,7 +2924,7 @@
     "date_start": 1237,
     "date_end": 1237,
     "date": "1237–1240",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "Mongol invasion of Rus' resumes. Causes the split of Kievan Rus' into three components (present day Russia, Ukraine, Belarus)."
   },
   {
@@ -2932,7 +2932,7 @@
     "date_start": 1257,
     "date_end": 1257,
     "date": "1257",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Opening of the College of Sorbonne."
   },
   {
@@ -2940,7 +2940,7 @@
     "date_start": 1257,
     "date_end": 1257,
     "date": "1257",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Provisions of Oxford forced upon Henry III of England. This establishes a new form of government-limited regal authority."
   },
   {
@@ -2948,7 +2948,7 @@
     "date_start": 1258,
     "date_end": 1258,
     "date": "1258 29 January– 10 February",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "Siege of Baghdad by Ilkhanate Mongol forces Mongols (the Ilkhanate) ensure control of the region.  Generally considered the end of the Islamic Golden Age."
   },
   {
@@ -2956,7 +2956,7 @@
     "date_start": 1258,
     "date_end": 1258,
     "date": "1258",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "The first Mongol invasion of Vietnam The Mongol army was defeated by emperor Tran Thai Tong of Đại Việt"
   },
   {
@@ -2964,7 +2964,7 @@
     "date_start": 1272,
     "date_end": 1272,
     "date": "1272–73",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "The Ninth Crusade occurs. Considered to be the Last Major Crusade to take place in the Holy Land."
   },
   {
@@ -2972,7 +2972,7 @@
     "date_start": 1273,
     "date_end": 1273,
     "date": "1273 29 September",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Rudolph I of Germany is elected Holy Roman Emperor. This begins the Habsburg de facto domination of the imperial crown that would last until its eventual dissolution."
   },
   {
@@ -2980,7 +2980,7 @@
     "date_start": 1274,
     "date_end": 1274,
     "date": "1274",
-    "era": "Medieval",
+    "type": "Religion",
     "event": "Thomas Aquinas' work, Summa Theologica is published, after his death. Is the main staple of theology during the Middle Ages."
   },
   {
@@ -2988,7 +2988,7 @@
     "date_start": 1279,
     "date_end": 1279,
     "date": "1279 19 March",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "Battle of Yamen. Marks the end of the Song Dynasty in China, and all of China is under the rule of Kublai Khan as the emperor."
   },
   {
@@ -2996,7 +2996,7 @@
     "date_start": 1282,
     "date_end": 1282,
     "date": "1282",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "Sicilian Vespers. Sicilians massacre Angevins over a six-week period, after a Frenchman harassed a woman."
   },
   {
@@ -3004,7 +3004,7 @@
     "date_start": 1283,
     "date_end": 1283,
     "date": "1283",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "First regulated Catalan Courts are formed. Presided by king Peter III of Aragon they become the model for medieval parliaments."
   },
   {
@@ -3012,7 +3012,7 @@
     "date_start": 1285,
     "date_end": 1285,
     "date": "1285",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "The second Mongol invasion of Vietnam The Mongol army was defeated by emperor Tran Nhan Tong and general Tran Hung Dao."
   },
   {
@@ -3020,7 +3020,7 @@
     "date_start": 1287,
     "date_end": 1287,
     "date": "1287",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "The third Mongol invasion of Vietnam Decisive Vietnam victory. To avoid further conflict Đại Việt agreed to a tributary relationship with the Yuan dynasty"
   },
   {
@@ -3028,7 +3028,7 @@
     "date_start": 1296,
     "date_end": 1296,
     "date": "1296",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "Edward I of England invades Scotland, starting the First War of Scottish Independence."
   },
   {
@@ -3036,7 +3036,7 @@
     "date_start": 1297,
     "date_end": 1297,
     "date": "1297 11 September",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "The Battle of Stirling Bridge. William Wallace emerges as the leader of the Scottish resistancce to England."
   },
   {
@@ -3044,7 +3044,7 @@
     "date_start": 1298,
     "date_end": 1298,
     "date": "1298",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Marco Polo publishes his tales of China, along with Rustichello da Pisa. A key step to the bridging of Asia and Europe in trade."
   },
   {
@@ -3052,7 +3052,7 @@
     "date_start": 1299,
     "date_end": 1299,
     "date": "1299 27 July",
-    "era": "Medieval",
+    "type": "Religion",
     "event": "The Ottoman Empire is founded by Osman I. It becomes the longest-lasting Islamic Empire, eventually growing to span three continents."
   },
   {
@@ -3060,7 +3060,7 @@
     "date_start": 1305,
     "date_end": 1305,
     "date": "23 August 1305",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "William Wallace is executed for treason."
   },
   {
@@ -3068,7 +3068,7 @@
     "date_start": 1307,
     "date_end": 1307,
     "date": "13 October 1307",
-    "era": "Medieval",
+    "type": "Religion",
     "event": "The Knights Templar are rounded up and murdered by Philip the Fair of France, with the backing of the Pope. Hastens the demise of the order within a decade."
   },
   {
@@ -3076,7 +3076,7 @@
     "date_start": 1307,
     "date_end": 1307,
     "date": "1307",
-    "era": "Medieval",
+    "type": "Religion",
     "event": "The Popes move to Avignon and begin the Babylonian Captivity. The papacy remains there for several decades, which eventually leads to the Western Schism."
   },
   {
@@ -3084,7 +3084,7 @@
     "date_start": 1310,
     "date_end": 1310,
     "date": "1310",
-    "era": "Medieval",
+    "type": "Culture & Arts",
     "event": "Dante publishes his Divine Comedy. Is one of the most defining works of literature during the Late Middle Ages, and among the most recognizable in all of literature."
   },
   {
@@ -3092,7 +3092,7 @@
     "date_start": 1314,
     "date_end": 1314,
     "date": "1314 23–24 June",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "Battle of Bannockburn. Robert the Bruce restores Scotland's de facto independence."
   },
   {
@@ -3100,7 +3100,7 @@
     "date_start": 1323,
     "date_end": 1323,
     "date": "1323",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Romance of the three kingdoms"
   },
   {
@@ -3108,7 +3108,7 @@
     "date_start": 1325,
     "date_end": 1325,
     "date": "1325",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "The Mexica found the city of Tenochtitlan. This would later become the epicentre and capital of the Aztec Empire until its eventual conquest by Spanish forces."
   },
   {
@@ -3116,7 +3116,7 @@
     "date_start": 1328,
     "date_end": 1328,
     "date": "1328",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "The First War of Scottish Independence ends in Scottish victory with the Treaty of Edinburgh-Northampton and de jure independence."
   },
   {
@@ -3124,7 +3124,7 @@
     "date_start": 1333,
     "date_end": 1333,
     "date": "1333",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Emperor Go-Daigo returns to the throne from exile, and begins the Kenmu restoration ending the Kamakura Shogunate. It only lasts a few years before the Ashikaga Shogunate begins."
   },
   {
@@ -3132,7 +3132,7 @@
     "date_start": 1337,
     "date_end": 1337,
     "date": "1337",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "The Hundred Years' War begins. England and France struggle for a dominating position in Europe across several distinct phases of conflict."
   },
   {
@@ -3140,7 +3140,7 @@
     "date_start": 1346,
     "date_end": 1346,
     "date": "1346 August 26th",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "Battle of Crécy. English forces led by Edward III and Edward, the Black Prince defeat the French forces of Philip VI despite being outnumbered at least 4 to 1 thanks to the longbow."
   },
   {
@@ -3148,7 +3148,7 @@
     "date_start": 1347,
     "date_end": 1347,
     "date": "1347",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "The Black Death ravages Europe for the first of many times. In the first year 20% – 40% of the population perishes, and it eventually kills over half of the population of Europe."
   },
   {
@@ -3156,7 +3156,7 @@
     "date_start": 1347,
     "date_end": 1347,
     "date": "1347",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "The University of Prague is founded. It is the oldest Czech and German-Speaking University in the world"
   },
   {
@@ -3164,7 +3164,7 @@
     "date_start": 1368,
     "date_end": 1368,
     "date": "1368",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "The fall of the Yuan Dynasty. Its remnants, known as Northern Yuan, continued to rule Mongolia. The breakup of the Mongol Empire, which marked the end of Pax Mongolica."
   },
   {
@@ -3172,7 +3172,7 @@
     "date_start": 1370,
     "date_end": 1370,
     "date": "1370",
-    "era": "Medieval",
+    "type": "Religion",
     "event": "Tamerlane establishes the Timurid Dynasty and proceeds to ravage fellow Islamic states such as the Golden Horde and the Delhi Sultanate in his drive to restore Mongol dominance."
   },
   {
@@ -3180,7 +3180,7 @@
     "date_start": 1378,
     "date_end": 1378,
     "date": "1378",
-    "era": "Medieval",
+    "type": "Religion",
     "event": "The Western Schism during which three claimant popes were elected simultaneously. The Avignon Papacy ends."
   },
   {
@@ -3188,7 +3188,7 @@
     "date_start": 1380,
     "date_end": 1380,
     "date": "1380",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "Prince Dmitry Donskoy of Moscow led a united Russian army to a victory over the Mongols in the Battle of Kulikovo."
   },
   {
@@ -3196,7 +3196,7 @@
     "date_start": 1380,
     "date_end": 1380,
     "date": "1380",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Chaucer begins to write The Canterbury Tales. Chaucer's greatest work and one of the foundations towards the formation of the Modern English language"
   },
   {
@@ -3204,7 +3204,7 @@
     "date_start": 1381,
     "date_end": 1381,
     "date": "1381",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "Peasants' Revolt in England. Quickest-spread revolt in English history and the most popular revolt of the Late Middle Ages."
   },
   {
@@ -3212,7 +3212,7 @@
     "date_start": 1381,
     "date_end": 1381,
     "date": "1381",
-    "era": "Medieval",
+    "type": "Religion",
     "event": "The Bible is translated into English by John Wycliffe. First print published in English (Vulgate)"
   },
   {
@@ -3220,7 +3220,7 @@
     "date_start": 1386,
     "date_end": 1386,
     "date": "1386 October 18–19th",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "The University of Heidelberg is founded. It is the oldest university in Germany."
   },
   {
@@ -3228,7 +3228,7 @@
     "date_start": 1389,
     "date_end": 1389,
     "date": "1389 June 28th",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "Battle of Kosovo in Serbia between the Turks (Sultan Murat) and the Christian army led by the Serbs (Duke Lazar). The Turkish empire continued to spread over the Balkans, and reaches Vienna."
   },
   {
@@ -3236,7 +3236,7 @@
     "date_start": 1392,
     "date_end": 1392,
     "date": "1392",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Joseon Dynasty founded in Korea. Becomes longest reigning Korean dynasty."
   },
   {
@@ -3244,7 +3244,7 @@
     "date_start": 1396,
     "date_end": 1396,
     "date": "1396",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "The Battle of Nicopolis. The last great Crusade fails. Bulgaria was conquered by the Ottomans"
   },
   {
@@ -3252,7 +3252,7 @@
     "date_start": 1397,
     "date_end": 1397,
     "date": "1397",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "The Kalmar Union is formed. Queen Margaret I of Denmark unites Denmark, Sweden, and Norway under one crown."
   },
   {
@@ -3260,7 +3260,7 @@
     "date_start": 1399,
     "date_end": 1399,
     "date": "1399",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Richard II abdicates the throne to Henry of Bolingbroke, who becomes Henry IV of England. End of Plantagenet Dynasty, beginning of the Lancaster lineage of kings."
   },
   {
@@ -3268,7 +3268,7 @@
     "date_start": 1402,
     "date_end": 1402,
     "date": "20 July 1402",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "Battle of Ankara Bayezid I is captured by Tamerlane's forces, causing the interregnum of the Ottoman Empire."
   },
   {
@@ -3276,7 +3276,7 @@
     "date_start": 1405,
     "date_end": 1405,
     "date": "1405",
-    "era": "Medieval",
+    "type": "Exploration",
     "event": "Chinese naval expeditions of Southeast Asia and the Indian Ocean (to Eastern Africa) begin under Zheng He. This will be the first of seven of the Ming Dynasty-sponsored expeditions."
   },
   {
@@ -3284,7 +3284,7 @@
     "date_start": 1410,
     "date_end": 1410,
     "date": "1410",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "Battle of Grunwald Major turning point in history of Lithuania Poland and the Teutonic Order."
   },
   {
@@ -3292,7 +3292,7 @@
     "date_start": 1415,
     "date_end": 1415,
     "date": "1415",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Kingdom of Portugal conquers Ceuta. Beginning of the Portuguese Empire. Beginning of the Age of Discovery."
   },
   {
@@ -3300,7 +3300,7 @@
     "date_start": 1415,
     "date_end": 1415,
     "date": "25 October 1415",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "Battle of Agincourt. Henry V and his army defeat a numerically superior French army, partially because of the newly introduced English longbow. The turning point in the Hundred Years' War for England."
   },
   {
@@ -3308,7 +3308,7 @@
     "date_start": 1417,
     "date_end": 1417,
     "date": "1417",
-    "era": "Medieval",
+    "type": "Religion",
     "event": "The Council of Constance ends. The Western Schism comes to a close and elects Pope Martin V as the sole pope."
   },
   {
@@ -3316,7 +3316,7 @@
     "date_start": 1419,
     "date_end": 1419,
     "date": "1419",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "Hussite Wars begin after four years after the death of Jan Hus in central Europe, dealing with the followers of Jan Hus and those against them."
   },
   {
@@ -3324,7 +3324,7 @@
     "date_start": 1428,
     "date_end": 1428,
     "date": "1428",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "Itzcoatl, the fourth Mexica king in Tenochtitlán, allied with Texcoco and Tlacopan, defeats Azcapotzalco. Signifies the birth of the Aztec Empire and the start of a 90 years aggressive expansion."
   },
   {
@@ -3332,7 +3332,7 @@
     "date_start": 1429,
     "date_end": 1429,
     "date": "1429",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "Jeanne d’Arc lifts the siege of Orléans for the Dauphin of France. This and following battles drive the English from the continent and allow the Dauphin to be crowned in Reims."
   },
   {
@@ -3340,7 +3340,7 @@
     "date_start": 1431,
     "date_end": 1431,
     "date": "30 May 1431",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "Trial and execution of Jeanne d’Arc. Death of the woman who helped turn the Hundred Years' War in favor of the French over the past two years."
   },
   {
@@ -3348,7 +3348,7 @@
     "date_start": 1434,
     "date_end": 1434,
     "date": "1434",
-    "era": "Medieval",
+    "type": "Religion",
     "event": "The Medici family rises to prominence in Florence. Over the next three centuries the Medicis are bankers, popes, queens (regents) and dukes, in Italy but also throughout Europe."
   },
   {
@@ -3356,7 +3356,7 @@
     "date_start": 1438,
     "date_end": 1438,
     "date": "1438",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Prince Cusi Yupanqui becomes the first Inca emperor. Inca civilization begins expanding and the Inca Empire is born."
   },
   {
@@ -3364,7 +3364,7 @@
     "date_start": 1439,
     "date_end": 1439,
     "date": "1439",
-    "era": "Medieval",
+    "type": "Science & Technology",
     "event": "Johannes Gutenberg invents the printing press."
   },
   {
@@ -3372,7 +3372,7 @@
     "date_start": 1443,
     "date_end": 1443,
     "date": "1443",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Sejong the Great creates Hangul, the Korean script still in use today."
   },
   {
@@ -3380,7 +3380,7 @@
     "date_start": 1444,
     "date_end": 1444,
     "date": "10 November 1444",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "Battle of Varna Final battle of the Crusade of Varna, Ottomans are victorious over the Hungarian-Polish armies, and Władysław III of Poland dies."
   },
   {
@@ -3388,7 +3388,7 @@
     "date_start": 1452,
     "date_end": 1452,
     "date": "1452",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Coronation of Frederick III the first emperor of the House of Habsburg and last emperor to be crowned in Rome."
   },
   {
@@ -3396,7 +3396,7 @@
     "date_start": 1452,
     "date_end": 1452,
     "date": "1452",
-    "era": "Renaissance",
+    "type": "Politics & Power",
     "event": "Leonardo da Vinci is born"
   },
   {
@@ -3404,7 +3404,7 @@
     "date_start": 1453,
     "date_end": 1453,
     "date": "1453",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Constantinople falls to the Ottoman Turks ending the Eastern Roman (Byzantine) Empire. Constantinople becomes the capital of the Ottoman Empire."
   },
   {
@@ -3412,7 +3412,7 @@
     "date_start": 1453,
     "date_end": 1453,
     "date": "1453",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "The Hundred Years' War ends. England's once vast territory in France is now reduced to only Calais, which they eventually lose control of as well."
   },
   {
@@ -3420,7 +3420,7 @@
     "date_start": 1454,
     "date_end": 1454,
     "date": "1454",
-    "era": "Renaissance",
+    "type": "Religion",
     "event": "Johannes Gutenberg published the Gutenberg Bible "
   },
   {
@@ -3428,7 +3428,7 @@
     "date_start": 1455,
     "date_end": 1455,
     "date": "22 May 1455",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "Battle of St. Albans that traditionally marks the beginning of the War of the Roses."
   },
   {
@@ -3436,7 +3436,7 @@
     "date_start": 1456,
     "date_end": 1456,
     "date": "1456",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "Siege of Belgrade, which marks the end of the Medieval Serbian state. Major Ottoman advances into Central Europe are halted for several decades — the last major victory for Hunyadi."
   },
   {
@@ -3444,7 +3444,7 @@
     "date_start": 1461,
     "date_end": 1461,
     "date": "1461",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "The Empire of Trebizond, the last Roman outpost, falls to the Ottoman Turks."
   },
   {
@@ -3452,7 +3452,7 @@
     "date_start": 1467,
     "date_end": 1467,
     "date": "1467–1477",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "Ōnin War takes place in Japan. First of many significant civil wars between shogunates that would continue for many decades during the Muromachi period."
   },
   {
@@ -3460,7 +3460,7 @@
     "date_start": 1469,
     "date_end": 1469,
     "date": "1469",
-    "era": "Renaissance",
+    "type": "Politics & Power",
     "event": "Lorenzo de Medici \"The Magnificent” takes over power in Florence. : his rule is considered the high point of the Florentine Renaissance. "
   },
   {
@@ -3468,7 +3468,7 @@
     "date_start": 1471,
     "date_end": 1528,
     "date": "1471-1528",
-    "era": "Renaissance",
+    "type": "Politics & Power",
     "event": "Life of Albrecht Dürer"
   },
   {
@@ -3476,7 +3476,7 @@
     "date_start": 1475,
     "date_end": 1475,
     "date": "1475",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "The Khanate of Crimea is conquered and made a vassal state by the Ottoman Empire. Venice is defeated and the Ottoman Empire becomes master of the Aegean Sea."
   },
   {
@@ -3484,7 +3484,7 @@
     "date_start": 1480,
     "date_end": 1480,
     "date": "1480",
-    "era": "Early Modern",
+    "type": "Politics & Power",
     "event": "The last remaining stones of the abandoned Lighthouse of Alexandria are used to built the Citadel of Qaitbay."
   },
   {
@@ -3492,7 +3492,7 @@
     "date_start": 1481,
     "date_end": 1481,
     "date": "1481",
-    "era": "Renaissance",
+    "type": "Culture & Arts",
     "event": "Construction of the Sistine Chapel is finished"
   },
   {
@@ -3500,7 +3500,7 @@
     "date_start": 1485,
     "date_end": 1485,
     "date": "1485",
-    "era": "Medieval",
+    "type": "Culture & Arts",
     "event": "Thomas Malory composes Le Morte d'Arthur, the best-known work of Arthurian literature in English."
   },
   {
@@ -3508,7 +3508,7 @@
     "date_start": 1485,
     "date_end": 1485,
     "date": "22 August 1485",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "Battle of Bosworth Field during which Richard III dies in battle."
   },
   {
@@ -3516,7 +3516,7 @@
     "date_start": 1487,
     "date_end": 1487,
     "date": "1487 June 16",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "The Battle of Stoke makes the end of the War of the Roses."
   },
   {
@@ -3524,7 +3524,7 @@
     "date_start": 1492,
     "date_end": 1492,
     "date": "1492",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "The Reconquista ends. This marks the end of the Moorish-Muslim rule on the Iberian Peninsula and leads to the Unification of Spain."
   },
   {
@@ -3532,7 +3532,7 @@
     "date_start": 1492,
     "date_end": 1492,
     "date": "1492",
-    "era": "Medieval",
+    "type": "Exploration",
     "event": "Christopher Columbus reaches the New World."
   },
   {
@@ -3540,7 +3540,7 @@
     "date_start": 1494,
     "date_end": 1494,
     "date": "June 10 1494",
-    "era": "Medieval",
+    "type": "Politics & Power",
     "event": "Spain and Portugal sign the Treaty of Tordesillas and agree to divide the World outside of Europe between themselves."
   },
   {
@@ -3548,7 +3548,7 @@
     "date_start": 1494,
     "date_end": 1494,
     "date": "1494–1559",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "The Italian Wars which eventually will lead to the downfall of the Italian city-states."
   },
   {
@@ -3556,7 +3556,7 @@
     "date_start": 1497,
     "date_end": 1497,
     "date": "1497",
-    "era": "Medieval",
+    "type": "Exploration",
     "event": "Vasco da Gama begins his first voyage from Europe to India and back. He was the first European to sail directly from Europe to Eastern Asia."
   },
   {
@@ -3564,7 +3564,7 @@
     "date_start": 1499,
     "date_end": 1499,
     "date": "1499",
-    "era": "Medieval",
+    "type": "War & Conflict",
     "event": "The Ottoman fleet defeats Venetians at the Battle of Zonchio. This marks the first naval battle that used cannons in ships. "
   },
   {
@@ -3572,7 +3572,7 @@
     "date_start": 1509,
     "date_end": 1509,
     "date": "1509",
-    "era": "Renaissance",
+    "type": "Politics & Power",
     "event": "Henry VIII came to power in England"
   },
   {
@@ -3580,7 +3580,7 @@
     "date_start": 1513,
     "date_end": 1513,
     "date": "1513",
-    "era": "Renaissance",
+    "type": "Politics & Power",
     "event": "Niccolò Machiavelli wrote ‘The Prince’"
   },
   {
@@ -3588,7 +3588,7 @@
     "date_start": 1516,
     "date_end": 1516,
     "date": "1516",
-    "era": "Renaissance",
+    "type": "Politics & Power",
     "event": "Thomas More wrote ‘Utopia’"
   },
   {
@@ -3596,7 +3596,7 @@
     "date_start": 1525,
     "date_end": 1525,
     "date": "1525",
-    "era": "Renaissance",
+    "type": "War & Conflict",
     "event": "The Battle of Pavia took place between France and the Holy Roman Empire, ending French claims on Italy "
   },
   {
@@ -3604,7 +3604,7 @@
     "date_start": 1530,
     "date_end": 1530,
     "date": "1530",
-    "era": "Renaissance",
+    "type": "Politics & Power",
     "event": " Charles V  become Holy Roman Emperor"
   },
   {
@@ -3612,7 +3612,7 @@
     "date_start": 1547,
     "date_end": 1547,
     "date": "1547",
-    "era": "Renaissance",
+    "type": "Politics & Power",
     "event": "Miguel de Cervantes, author of Don Quixote, is born in Alcalá de Henares, Spain."
   },
   {
@@ -3620,7 +3620,7 @@
     "date_start": 1558,
     "date_end": 1558,
     "date": "17 November 1558",
-    "era": "Renaissance",
+    "type": "Politics & Power",
     "event": "Elizabeth I “the Virgin Queen” was crowned queen "
   },
   {
@@ -3628,7 +3628,7 @@
     "date_start": 1605,
     "date_end": 1605,
     "date": "1605",
-    "era": "Renaissance",
+    "type": "Politics & Power",
     "event": "William Shakespeare wrote \"Hamlet,\""
   },
   {
@@ -3636,7 +3636,7 @@
     "date_start": 1605,
     "date_end": 1615,
     "date": "Part 1 in 1605, Part 2 in 1615",
-    "era": "Renaissance",
+    "type": "Culture & Arts",
     "event": "Miguel Cervantes' \"Don Quixote\" was published. It is often labeled as the first modern novel"
   },
   {
@@ -3644,7 +3644,7 @@
     "date_start": 1789,
     "date_end": 1789,
     "date": "14 July 1789",
-    "era": "Enlightenment",
+    "type": "Science & Technology",
     "event": "Storming of the Bastille makes the beginning of the French Revolution"
   },
   {
@@ -3652,7 +3652,7 @@
     "date_start": 1789,
     "date_end": 1789,
     "date": "14 July 1789",
-    "era": "Modern",
+    "type": "Science & Technology",
     "event": "Storming of the Bastille. Parisian crowds seize the royal fortress-prison, marking the symbolic beginning of the French Revolution."
   },
   {
@@ -3660,7 +3660,7 @@
     "date_start": 1789,
     "date_end": 1799,
     "date": "5 May 1789 – 9 November 1799",
-    "era": "Enlightenment",
+    "type": "Science & Technology",
     "event": "The French Revolution takes place"
   },
   {
@@ -3668,7 +3668,7 @@
     "date_start": 1789,
     "date_end": 1799,
     "date": "1789–1799",
-    "era": "Modern",
+    "type": "Science & Technology",
     "event": "The French Revolution. A period of radical political transformation in France, ending the monarchy, establishing the Republic, and giving rise to ideals of liberty, equality, and fraternity that shaped the modern world."
   },
   {
@@ -3676,7 +3676,7 @@
     "date_start": 1791,
     "date_end": 1804,
     "date": "1791–1804",
-    "era": "Modern",
+    "type": "War & Conflict",
     "event": "The Haitian Revolution. Enslaved people on the French colony of Saint-Domingue rise up under Toussaint Louverture. Haiti becomes the first Black republic and the only successful slave revolt in history."
   },
   {
@@ -3684,7 +3684,7 @@
     "date_start": 1793,
     "date_end": 1794,
     "date": "1793–1794",
-    "era": "Modern",
+    "type": "Science & Technology",
     "event": "The Reign of Terror in France. The Committee of Public Safety, led by Robespierre, executes thousands of perceived enemies of the Revolution, including King Louis XVI and Queen Marie Antoinette."
   },
   {
@@ -3692,7 +3692,7 @@
     "date_start": 1799,
     "date_end": 1799,
     "date": "9 November 1799",
-    "era": "Modern",
+    "type": "War & Conflict",
     "event": "Napoleon Bonaparte seizes power in the Coup of 18 Brumaire, becoming First Consul of France. He proceeds to reform French law, administration, and education, and will later crown himself Emperor."
   },
   {
@@ -3700,7 +3700,7 @@
     "date_start": 1803,
     "date_end": 1803,
     "date": "1803",
-    "era": "Modern",
+    "type": "Politics & Power",
     "event": "The Louisiana Purchase. Napoleon sells the vast Louisiana Territory to the United States for approximately $15 million, roughly doubling the young nation's size and opening westward expansion."
   },
   {
@@ -3708,7 +3708,7 @@
     "date_start": 1804,
     "date_end": 1804,
     "date": "1804",
-    "era": "Modern",
+    "type": "Religion",
     "event": "Napoleon crowns himself Emperor of France in Notre-Dame Cathedral. That same year, Haiti declares independence, becoming the first nation founded by formerly enslaved people."
   },
   {
@@ -3716,7 +3716,7 @@
     "date_start": 1805,
     "date_end": 1805,
     "date": "21 October 1805",
-    "era": "Modern",
+    "type": "War & Conflict",
     "event": "Battle of Trafalgar. British Admiral Lord Nelson defeats the combined French and Spanish fleets off the coast of Spain, securing British naval supremacy. Nelson is mortally wounded in the victory."
   },
   {
@@ -3724,7 +3724,7 @@
     "date_start": 1807,
     "date_end": 1807,
     "date": "1807",
-    "era": "Modern",
+    "type": "Politics & Power",
     "event": "The Slave Trade Act is passed by the British Parliament, abolishing the transatlantic slave trade throughout the British Empire. However, slavery itself remains legal until 1833."
   },
   {
@@ -3732,7 +3732,7 @@
     "date_start": 1812,
     "date_end": 1812,
     "date": "1812",
-    "era": "Modern",
+    "type": "War & Conflict",
     "event": "Napoleon's Grande Armée invades Russia with over 600,000 troops. Facing harsh winter conditions and scorched-earth tactics, the campaign ends in catastrophic failure, with fewer than 100,000 soldiers returning."
   },
   {
@@ -3740,7 +3740,7 @@
     "date_start": 1815,
     "date_end": 1815,
     "date": "18 June 1815",
-    "era": "Modern",
+    "type": "War & Conflict",
     "event": "Battle of Waterloo. Napoleon Bonaparte is decisively defeated by the Duke of Wellington and Prussian forces near Brussels, ending the Napoleonic Wars and Napoleon's rule for good. He is exiled to Saint Helena."
   },
   {
@@ -3748,7 +3748,7 @@
     "date_start": 1815,
     "date_end": 1815,
     "date": "1815",
-    "era": "Modern",
+    "type": "War & Conflict",
     "event": "The Congress of Vienna reshapes the map of Europe after the Napoleonic Wars, establishing a new balance of power among the major European states that largely holds for a century."
   },
   {
@@ -3756,7 +3756,7 @@
     "date_start": 1819,
     "date_end": 1825,
     "date": "1819–1825",
-    "era": "Modern",
+    "type": "Politics & Power",
     "event": "Latin American independence movements succeed across the continent. Simón Bolívar liberates much of northern South America, while José de San Martín frees Argentina, Chile, and Peru."
   },
   {
@@ -3764,7 +3764,7 @@
     "date_start": 1821,
     "date_end": 1832,
     "date": "1821–1832",
-    "era": "Modern",
+    "type": "War & Conflict",
     "event": "Greek War of Independence. Greece revolts against Ottoman rule, gaining the support of Britain, France, and Russia. Greece is recognised as an independent state."
   },
   {
@@ -3772,7 +3772,7 @@
     "date_start": 1825,
     "date_end": 1825,
     "date": "27 September 1825",
-    "era": "Modern",
+    "type": "Politics & Power",
     "event": "The Stockton and Darlington Railway opens in England — the world's first steam-powered public railway — marking the dawn of the railway age and transforming travel, trade, and industry."
   },
   {
@@ -3780,7 +3780,7 @@
     "date_start": 1830,
     "date_end": 1830,
     "date": "1830",
-    "era": "Modern",
+    "type": "War & Conflict",
     "event": "Revolutions sweep Europe. In France, the July Revolution deposes King Charles X. Belgium gains independence from the Netherlands. Uprisings also occur in Poland and Italy."
   },
   {
@@ -3788,7 +3788,7 @@
     "date_start": 1833,
     "date_end": 1833,
     "date": "1833",
-    "era": "Modern",
+    "type": "Politics & Power",
     "event": "The Slavery Abolition Act is passed in Britain, abolishing slavery throughout most of the British Empire and freeing approximately 800,000 enslaved people across the Caribbean and elsewhere."
   },
   {
@@ -3796,7 +3796,7 @@
     "date_start": 1837,
     "date_end": 1901,
     "date": "1837–1901",
-    "era": "Modern",
+    "type": "Politics & Power",
     "event": "Queen Victoria begins her reign in Britain. Her 63-year reign is one of the longest in British history and coincides with a period of industrial expansion and vast growth of the British Empire."
   },
   {
@@ -3804,7 +3804,7 @@
     "date_start": 1839,
     "date_end": 1842,
     "date": "1839–1842",
-    "era": "Modern",
+    "type": "War & Conflict",
     "event": "The First Opium War. Britain defeats China, forcing the Treaty of Nanking which opens Chinese ports to trade and cedes Hong Kong Island to Britain, beginning a century of unequal treaties."
   },
   {
@@ -3812,7 +3812,7 @@
     "date_start": 1845,
     "date_end": 1852,
     "date": "1845–1852",
-    "era": "Modern",
+    "type": "Politics & Power",
     "event": "The Great Famine in Ireland. A potato blight devastates the staple crop. Approximately one million people die of starvation and disease; another million emigrate, dramatically reducing Ireland's population."
   },
   {
@@ -3820,7 +3820,7 @@
     "date_start": 1848,
     "date_end": 1848,
     "date": "1848",
-    "era": "Modern",
+    "type": "War & Conflict",
     "event": "The Year of Revolutions. Uprisings break out across France, Germany, Austria, Hungary, and Italy, challenging monarchies and demanding democratic reform. Karl Marx and Friedrich Engels publish The Communist Manifesto."
   },
   {
@@ -3828,7 +3828,7 @@
     "date_start": 1853,
     "date_end": 1856,
     "date": "1853–1856",
-    "era": "Modern",
+    "type": "War & Conflict",
     "event": "The Crimean War. Britain, France, and Ottoman Turkey defeat Russia on the Crimean Peninsula in one of the first modern wars. Florence Nightingale pioneers modern nursing practices during the conflict."
   },
   {
@@ -3836,7 +3836,7 @@
     "date_start": 1854,
     "date_end": 1854,
     "date": "1854",
-    "era": "Modern",
+    "type": "Politics & Power",
     "event": "Commodore Matthew Perry forces Japan to sign the Convention of Kanagawa, ending over two centuries of Japanese isolation and opening the country to Western trade and influence."
   },
   {
@@ -3844,7 +3844,7 @@
     "date_start": 1859,
     "date_end": 1859,
     "date": "1859",
-    "era": "Modern",
+    "type": "Science & Technology",
     "event": "Charles Darwin publishes On the Origin of Species, establishing the theory of evolution by natural selection. The book transforms biology, challenges religious orthodoxy, and reshapes humanity's understanding of life."
   },
   {
@@ -3852,7 +3852,7 @@
     "date_start": 1861,
     "date_end": 1865,
     "date": "1861–1865",
-    "era": "Modern",
+    "type": "War & Conflict",
     "event": "The American Civil War. Eleven Southern states secede from the Union over the issue of slavery. The conflict kills over 600,000 people and ends with the abolition of slavery and reunification of the nation."
   },
   {
@@ -3860,7 +3860,7 @@
     "date_start": 1863,
     "date_end": 1863,
     "date": "1 January 1863",
-    "era": "Modern",
+    "type": "War & Conflict",
     "event": "President Abraham Lincoln issues the Emancipation Proclamation, declaring enslaved people in Confederate states to be legally free, transforming the Civil War into a fight explicitly for human freedom."
   },
   {
@@ -3868,7 +3868,7 @@
     "date_start": 1865,
     "date_end": 1865,
     "date": "1865",
-    "era": "Modern",
+    "type": "War & Conflict",
     "event": "The 13th Amendment to the US Constitution abolishes slavery throughout the United States. President Lincoln is assassinated by John Wilkes Booth at Ford's Theatre shortly after the Civil War's end."
   },
   {
@@ -3876,7 +3876,7 @@
     "date_start": 1868,
     "date_end": 1868,
     "date": "1868",
-    "era": "Modern",
+    "type": "Politics & Power",
     "event": "The Meiji Restoration in Japan. Emperor Meiji reclaims political power from the shogunate, launching rapid industrialisation, modernisation, and Westernisation that transforms Japan into a major world power within decades."
   },
   {
@@ -3884,7 +3884,7 @@
     "date_start": 1869,
     "date_end": 1869,
     "date": "17 November 1869",
-    "era": "Modern",
+    "type": "Politics & Power",
     "event": "The Suez Canal opens, connecting the Mediterranean Sea to the Red Sea. Built under French engineer Ferdinand de Lesseps, it dramatically reduces sailing distances between Europe and Asia."
   },
   {
@@ -3892,7 +3892,7 @@
     "date_start": 1871,
     "date_end": 1871,
     "date": "18 January 1871",
-    "era": "Modern",
+    "type": "War & Conflict",
     "event": "The German Empire is proclaimed at the Palace of Versailles after Prussia defeats France in the Franco-Prussian War. Italy also completes its unification, with Rome as its capital."
   },
   {
@@ -3900,7 +3900,7 @@
     "date_start": 1876,
     "date_end": 1876,
     "date": "1876",
-    "era": "Modern",
+    "type": "Science & Technology",
     "event": "Alexander Graham Bell is awarded the patent for the telephone, revolutionising long-distance communication and laying the groundwork for the modern telecommunications industry."
   },
   {
@@ -3908,7 +3908,7 @@
     "date_start": 1879,
     "date_end": 1879,
     "date": "1879",
-    "era": "Modern",
+    "type": "Politics & Power",
     "event": "Thomas Edison demonstrates the first practical incandescent light bulb, transforming how cities and homes are illuminated and launching the era of electrical power generation and distribution."
   },
   {
@@ -3916,7 +3916,7 @@
     "date_start": 1885,
     "date_end": 1885,
     "date": "1885",
-    "era": "Modern",
+    "type": "Politics & Power",
     "event": "Karl Benz builds the Benz Patent-Motorwagen, widely regarded as the first true automobile powered by a petrol engine, launching the age of motor transport."
   },
   {
@@ -3924,7 +3924,7 @@
     "date_start": 1895,
     "date_end": 1895,
     "date": "1895",
-    "era": "Modern",
+    "type": "Science & Technology",
     "event": "Wilhelm Röntgen discovers X-rays. The Lumière brothers give the first public cinema screening in Paris. Guglielmo Marconi demonstrates wireless radio telegraphy — a year of transformative inventions."
   },
   {
@@ -3932,7 +3932,7 @@
     "date_start": 1898,
     "date_end": 1898,
     "date": "1898",
-    "era": "Modern",
+    "type": "War & Conflict",
     "event": "The Spanish-American War ends with Spain ceding Cuba, Puerto Rico, Guam, and the Philippines to the United States, marking the emergence of the US as a global imperial power."
   },
   {
@@ -3940,7 +3940,7 @@
     "date_start": 1903,
     "date_end": 1903,
     "date": "17 December 1903",
-    "era": "Contemporary",
+    "type": "War & Conflict",
     "event": "Orville and Wilbur Wright make the first successful powered aeroplane flights at Kitty Hawk, North Carolina, launching the age of aviation and forever changing transportation and warfare."
   },
   {
@@ -3948,7 +3948,7 @@
     "date_start": 1905,
     "date_end": 1905,
     "date": "1905",
-    "era": "Contemporary",
+    "type": "Science & Technology",
     "event": "Albert Einstein publishes his special theory of relativity and the photoelectric effect paper in his 'miracle year', revolutionising physics and our understanding of space, time, mass, and energy."
   },
   {
@@ -3956,7 +3956,7 @@
     "date_start": 1908,
     "date_end": 1908,
     "date": "1908",
-    "era": "Contemporary",
+    "type": "Politics & Power",
     "event": "Henry Ford introduces the Model T, launching mass automobile production on an assembly line and transforming American society, industry, and the global economy."
   },
   {
@@ -3964,7 +3964,7 @@
     "date_start": 1912,
     "date_end": 1912,
     "date": "15 April 1912",
-    "era": "Contemporary",
+    "type": "Exploration",
     "event": "The RMS Titanic sinks after striking an iceberg on its maiden voyage, killing over 1,500 people. The disaster prompts major reforms in maritime safety regulations."
   },
   {
@@ -3972,7 +3972,7 @@
     "date_start": 1914,
     "date_end": 1914,
     "date": "28 June 1914",
-    "era": "Contemporary",
+    "type": "War & Conflict",
     "event": "Assassination of Archduke Franz Ferdinand of Austria-Hungary in Sarajevo by Gavrilo Princip triggers a chain of alliances that plunges Europe into World War I."
   },
   {
@@ -3980,7 +3980,7 @@
     "date_start": 1914,
     "date_end": 1918,
     "date": "1914–1918",
-    "era": "Contemporary",
+    "type": "War & Conflict",
     "event": "World War I. A catastrophic conflict involving most of Europe and beyond, fought primarily in trenches. Over 17 million people die. The war reshapes empires, borders, and the political order of the world."
   },
   {
@@ -3988,7 +3988,7 @@
     "date_start": 1915,
     "date_end": 1915,
     "date": "1915",
-    "era": "Contemporary",
+    "type": "War & Conflict",
     "event": "The Armenian Genocide. The Ottoman government systematically deports and massacres Armenians, resulting in the deaths of an estimated 600,000 to 1.5 million people — one of the first genocides of the modern era."
   },
   {
@@ -3996,7 +3996,7 @@
     "date_start": 1916,
     "date_end": 1916,
     "date": "1916",
-    "era": "Contemporary",
+    "type": "War & Conflict",
     "event": "Battle of the Somme. On the first day alone, the British Army suffers almost 60,000 casualties — the bloodiest day in British military history. The battle lasts five months with over one million total casualties."
   },
   {
@@ -4004,7 +4004,7 @@
     "date_start": 1917,
     "date_end": 1917,
     "date": "1917",
-    "era": "Contemporary",
+    "type": "War & Conflict",
     "event": "The Russian Revolution. Tsar Nicholas II abdicates in February. In October, the Bolsheviks under Lenin seize power, establishing the world's first communist state and triggering a brutal civil war."
   },
   {
@@ -4012,7 +4012,7 @@
     "date_start": 1918,
     "date_end": 1918,
     "date": "11 November 1918",
-    "era": "Contemporary",
+    "type": "War & Conflict",
     "event": "World War I ends with the Armistice. The defeated powers — Germany, Austria-Hungary, and the Ottoman Empire — lose territory and sovereignty. Over 17 million dead, reshaping the world order."
   },
   {
@@ -4020,7 +4020,7 @@
     "date_start": 1918,
     "date_end": 1920,
     "date": "1918–1920",
-    "era": "Contemporary",
+    "type": "War & Conflict",
     "event": "The Spanish Flu pandemic infects around 500 million people worldwide and kills an estimated 20–50 million — one of the deadliest pandemics in human history, striking as World War I ends."
   },
   {
@@ -4028,7 +4028,7 @@
     "date_start": 1919,
     "date_end": 1919,
     "date": "28 June 1919",
-    "era": "Contemporary",
+    "type": "War & Conflict",
     "event": "The Treaty of Versailles formally ends World War I, imposing harsh reparations and territorial losses on Germany. The League of Nations is founded to prevent future wars."
   },
   {
@@ -4036,7 +4036,7 @@
     "date_start": 1920,
     "date_end": 1920,
     "date": "18 August 1920",
-    "era": "Contemporary",
+    "type": "Politics & Power",
     "event": "The 19th Amendment is ratified in the United States, granting women the right to vote. Women's suffrage movements had been campaigning for decades across the Western world."
   },
   {
@@ -4044,7 +4044,7 @@
     "date_start": 1922,
     "date_end": 1922,
     "date": "1922",
-    "era": "Contemporary",
+    "type": "Politics & Power",
     "event": "The Soviet Union is formally established as the world's first communist federal state. Benito Mussolini's Fascist Party marches on Rome, making him Prime Minister of Italy."
   },
   {
@@ -4052,7 +4052,7 @@
     "date_start": 1927,
     "date_end": 1927,
     "date": "20–21 May 1927",
-    "era": "Contemporary",
+    "type": "Politics & Power",
     "event": "Charles Lindbergh completes the first non-stop solo transatlantic flight, flying from New York to Paris in 33.5 hours in his aircraft Spirit of St. Louis."
   },
   {
@@ -4060,7 +4060,7 @@
     "date_start": 1928,
     "date_end": 1928,
     "date": "1928",
-    "era": "Contemporary",
+    "type": "Politics & Power",
     "event": "Alexander Fleming discovers penicillin after noticing that a mould had killed bacteria in a petri dish. The subsequent development of antibiotics transforms medicine and saves hundreds of millions of lives."
   },
   {
@@ -4068,7 +4068,7 @@
     "date_start": 1929,
     "date_end": 1929,
     "date": "24 October 1929",
-    "era": "Contemporary",
+    "type": "Politics & Power",
     "event": "Wall Street Crash. Stock markets collapse on 'Black Thursday', triggering the Great Depression — the worst economic crisis of the 20th century, causing mass unemployment and poverty worldwide."
   },
   {
@@ -4076,7 +4076,7 @@
     "date_start": 1933,
     "date_end": 1933,
     "date": "30 January 1933",
-    "era": "Contemporary",
+    "type": "War & Conflict",
     "event": "Adolf Hitler is appointed Chancellor of Germany. The Nazi regime quickly dismantles democracy, persecutes political opponents and Jewish people, and begins the process that leads to World War II and the Holocaust."
   },
   {
@@ -4084,7 +4084,7 @@
     "date_start": 1936,
     "date_end": 1939,
     "date": "1936–1939",
-    "era": "Contemporary",
+    "type": "War & Conflict",
     "event": "The Spanish Civil War. Nationalist forces under General Franco, backed by Nazi Germany and Fascist Italy, defeat the Republican government. The war serves as a rehearsal for World War II."
   },
   {
@@ -4092,7 +4092,7 @@
     "date_start": 1937,
     "date_end": 1937,
     "date": "1937",
-    "era": "Contemporary",
+    "type": "War & Conflict",
     "event": "Japan invades China, leading to the Nanjing Massacre in which Japanese forces kill an estimated 100,000–300,000 Chinese civilians and prisoners of war."
   },
   {
@@ -4100,7 +4100,7 @@
     "date_start": 1938,
     "date_end": 1938,
     "date": "9–10 November 1938",
-    "era": "Contemporary",
+    "type": "Religion",
     "event": "Kristallnacht ('Night of Broken Glass'). Nazi stormtroopers attack Jewish businesses, homes, and synagogues across Germany and Austria, signalling the escalation towards systematic persecution and genocide."
   },
   {
@@ -4108,7 +4108,7 @@
     "date_start": 1939,
     "date_end": 1945,
     "date": "1939–1945",
-    "era": "Contemporary",
+    "type": "War & Conflict",
     "event": "World War II. Germany invades Poland on 1 September 1939, prompting Britain and France to declare war. The conflict expands to involve most of the world and results in an estimated 70–85 million deaths."
   },
   {
@@ -4116,7 +4116,7 @@
     "date_start": 1940,
     "date_end": 1940,
     "date": "1940",
-    "era": "Contemporary",
+    "type": "War & Conflict",
     "event": "The Fall of France. Germany rapidly defeats France and the Low Countries. The Battle of Britain follows as the RAF defeats the Luftwaffe, preventing a German invasion of Britain."
   },
   {
@@ -4124,7 +4124,7 @@
     "date_start": 1941,
     "date_end": 1941,
     "date": "22 June 1941",
-    "era": "Contemporary",
+    "type": "War & Conflict",
     "event": "Operation Barbarossa. Nazi Germany invades the Soviet Union in the largest military offensive in history, eventually leading to the bloodiest theatre of World War II and millions of Soviet deaths."
   },
   {
@@ -4132,7 +4132,7 @@
     "date_start": 1941,
     "date_end": 1941,
     "date": "7 December 1941",
-    "era": "Contemporary",
+    "type": "War & Conflict",
     "event": "Japan launches a surprise attack on the US naval base at Pearl Harbor, Hawaii, destroying much of the American Pacific Fleet. The US declares war on Japan the next day, entering World War II."
   },
   {
@@ -4140,7 +4140,7 @@
     "date_start": 1944,
     "date_end": 1944,
     "date": "6 June 1944",
-    "era": "Contemporary",
+    "type": "War & Conflict",
     "event": "D-Day landings at Normandy. Allied forces launch the largest seaborne invasion in history on the beaches of German-occupied France, opening the Western Front and beginning the liberation of Western Europe."
   },
   {
@@ -4148,7 +4148,7 @@
     "date_start": 1945,
     "date_end": 1945,
     "date": "1945",
-    "era": "Contemporary",
+    "type": "Religion",
     "event": "The Holocaust is fully revealed as Allied forces liberate Nazi concentration camps. Six million Jewish people and millions of others — Roma, disabled, political prisoners — were systematically murdered by the Nazi regime."
   },
   {
@@ -4156,7 +4156,7 @@
     "date_start": 1945,
     "date_end": 1945,
     "date": "8 May 1945",
-    "era": "Contemporary",
+    "type": "War & Conflict",
     "event": "Victory in Europe (VE Day). Germany unconditionally surrenders, ending World War II in Europe. Hitler had died by suicide in his Berlin bunker days earlier."
   },
   {
@@ -4164,7 +4164,7 @@
     "date_start": 1945,
     "date_end": 1945,
     "date": "6–9 August 1945",
-    "era": "Contemporary",
+    "type": "War & Conflict",
     "event": "The United States drops atomic bombs on the Japanese cities of Hiroshima and Nagasaki, killing an estimated 110,000–210,000 people. Japan surrenders, ending World War II."
   },
   {
@@ -4172,7 +4172,7 @@
     "date_start": 1945,
     "date_end": 1945,
     "date": "26 June 1945",
-    "era": "Post-War",
+    "type": "Politics & Power",
     "event": "The United Nations is founded in San Francisco, with 51 member states signing the UN Charter. It replaces the failed League of Nations and aims to maintain international peace and security."
   },
   {
@@ -4180,7 +4180,7 @@
     "date_start": 1946,
     "date_end": 1946,
     "date": "1946",
-    "era": "Post-War",
+    "type": "War & Conflict",
     "event": "The Nuremberg Trials. Nazi war criminals are prosecuted before an international military tribunal for crimes against peace, war crimes, and crimes against humanity, establishing principles of international law."
   },
   {
@@ -4188,7 +4188,7 @@
     "date_start": 1947,
     "date_end": 1947,
     "date": "1947",
-    "era": "Post-War",
+    "type": "Politics & Power",
     "event": "The Partition of India. British India is divided into the independent nations of India and Pakistan, triggering the largest mass migration in human history and communal violence that kills an estimated one million people."
   },
   {
@@ -4196,7 +4196,7 @@
     "date_start": 1948,
     "date_end": 1948,
     "date": "10 December 1948",
-    "era": "Post-War",
+    "type": "Politics & Power",
     "event": "The Universal Declaration of Human Rights is adopted by the UN General Assembly, establishing for the first time a global statement of the fundamental rights to which all human beings are entitled."
   },
   {
@@ -4204,7 +4204,7 @@
     "date_start": 1948,
     "date_end": 1948,
     "date": "14 May 1948",
-    "era": "Post-War",
+    "type": "War & Conflict",
     "event": "The State of Israel is proclaimed, followed immediately by war with neighbouring Arab states. The conflict results in Palestinian displacement on a massive scale, setting the stage for decades of conflict."
   },
   {
@@ -4212,7 +4212,7 @@
     "date_start": 1949,
     "date_end": 1949,
     "date": "1 October 1949",
-    "era": "Post-War",
+    "type": "War & Conflict",
     "event": "Mao Zedong proclaims the People's Republic of China in Beijing after the Communist Party defeats the Nationalist government. China becomes a communist state, reshaping the geopolitical balance."
   },
   {
@@ -4220,7 +4220,7 @@
     "date_start": 1950,
     "date_end": 1953,
     "date": "1950–1953",
-    "era": "Post-War",
+    "type": "War & Conflict",
     "event": "The Korean War. North Korea invades South Korea; a US-led UN coalition and later China enter the conflict. An armistice ends the fighting but no formal peace treaty is signed, leaving Korea divided."
   },
   {
@@ -4228,7 +4228,7 @@
     "date_start": 1953,
     "date_end": 1953,
     "date": "5 March 1953",
-    "era": "Post-War",
+    "type": "Politics & Power",
     "event": "Joseph Stalin dies. His death ends decades of terror in the Soviet Union and begins a period of de-Stalinisation under Nikita Khrushchev, easing some of the harshest aspects of Soviet rule."
   },
   {
@@ -4236,7 +4236,7 @@
     "date_start": 1954,
     "date_end": 1954,
     "date": "17 May 1954",
-    "era": "Post-War",
+    "type": "Politics & Power",
     "event": "The US Supreme Court rules in Brown v. Board of Education that racial segregation in public schools is unconstitutional, galvanising the Civil Rights Movement in America."
   },
   {
@@ -4244,7 +4244,7 @@
     "date_start": 1955,
     "date_end": 1968,
     "date": "1955–1968",
-    "era": "Post-War",
+    "type": "Politics & Power",
     "event": "The American Civil Rights Movement. Led by figures including Martin Luther King Jr., activists use non-violent protest to fight racial segregation and discrimination, achieving major legislative victories."
   },
   {
@@ -4252,7 +4252,7 @@
     "date_start": 1956,
     "date_end": 1956,
     "date": "1956",
-    "era": "Post-War",
+    "type": "Politics & Power",
     "event": "The Suez Crisis. Egypt nationalises the Suez Canal; Britain, France, and Israel invade but are forced to withdraw under US and Soviet pressure — a turning point marking the decline of European imperial power."
   },
   {
@@ -4260,7 +4260,7 @@
     "date_start": 1957,
     "date_end": 1957,
     "date": "4 October 1957",
-    "era": "Post-War",
+    "type": "Science & Technology",
     "event": "The Soviet Union launches Sputnik, the world's first artificial satellite. The 'Sputnik moment' shocks the West, accelerates the Space Race, and triggers a major US investment in science and technology."
   },
   {
@@ -4268,7 +4268,7 @@
     "date_start": 1957,
     "date_end": 1957,
     "date": "25 March 1957",
-    "era": "Post-War",
+    "type": "Politics & Power",
     "event": "The Treaty of Rome is signed, establishing the European Economic Community among six founding nations. It is the foundation for what will become the European Union."
   },
   {
@@ -4276,7 +4276,7 @@
     "date_start": 1960,
     "date_end": 1960,
     "date": "1960",
-    "era": "Post-War",
+    "type": "Politics & Power",
     "event": "The Year of Africa. Seventeen African nations gain independence from European colonial powers in a single year, part of a sweeping wave of decolonisation that transforms the continent and the world order."
   },
   {
@@ -4284,7 +4284,7 @@
     "date_start": 1961,
     "date_end": 1961,
     "date": "12 April 1961",
-    "era": "Post-War",
+    "type": "Politics & Power",
     "event": "Yuri Gagarin becomes the first human in space, completing a single orbit of Earth in 108 minutes aboard Vostok 1. His flight marks a milestone in the Space Race between the US and USSR."
   },
   {
@@ -4292,7 +4292,7 @@
     "date_start": 1961,
     "date_end": 1961,
     "date": "13 August 1961",
-    "era": "Post-War",
+    "type": "War & Conflict",
     "event": "Construction of the Berlin Wall begins, dividing East and West Berlin. The wall becomes the most potent symbol of the Cold War division between communist Eastern Europe and the democratic West."
   },
   {
@@ -4300,7 +4300,7 @@
     "date_start": 1962,
     "date_end": 1962,
     "date": "October 1962",
-    "era": "Post-War",
+    "type": "War & Conflict",
     "event": "The Cuban Missile Crisis. The US and Soviet Union come to the brink of nuclear war after Soviet missiles are discovered in Cuba. Thirteen days of tense diplomacy end with Soviet withdrawal, averting catastrophe."
   },
   {
@@ -4308,7 +4308,7 @@
     "date_start": 1963,
     "date_end": 1963,
     "date": "28 August 1963",
-    "era": "Post-War",
+    "type": "Politics & Power",
     "event": "Martin Luther King Jr. delivers his 'I Have a Dream' speech to 250,000 people at the March on Washington, becoming the defining statement of the American Civil Rights Movement."
   },
   {
@@ -4316,7 +4316,7 @@
     "date_start": 1963,
     "date_end": 1963,
     "date": "22 November 1963",
-    "era": "Post-War",
+    "type": "Politics & Power",
     "event": "US President John F. Kennedy is assassinated in Dallas, Texas. His death shocks the world and marks the end of the optimistic early 1960s; Lyndon B. Johnson is sworn in as president."
   },
   {
@@ -4324,7 +4324,7 @@
     "date_start": 1968,
     "date_end": 1968,
     "date": "1968",
-    "era": "Post-War",
+    "type": "Politics & Power",
     "event": "A year of global upheaval. Martin Luther King and Robert Kennedy are assassinated. Student protests erupt in Paris, Mexico City, and across the US. Soviet tanks crush the Prague Spring in Czechoslovakia."
   },
   {
@@ -4332,7 +4332,7 @@
     "date_start": 1969,
     "date_end": 1969,
     "date": "20 July 1969",
-    "era": "Post-War",
+    "type": "Politics & Power",
     "event": "Apollo 11 lands on the Moon. Astronauts Neil Armstrong and Buzz Aldrin become the first humans to walk on the lunar surface, fulfilling a national goal set by President Kennedy eight years earlier."
   },
   {
@@ -4340,7 +4340,7 @@
     "date_start": 1975,
     "date_end": 1975,
     "date": "30 April 1975",
-    "era": "Post-War",
+    "type": "War & Conflict",
     "event": "Fall of Saigon. North Vietnamese forces capture the South Vietnamese capital, ending the Vietnam War. The US-backed South Vietnam collapses, and Vietnam is reunified under communist rule."
   },
   {
@@ -4348,7 +4348,7 @@
     "date_start": 1979,
     "date_end": 1979,
     "date": "1979",
-    "era": "Post-War",
+    "type": "Science & Technology",
     "event": "The Iranian Revolution. Shah Mohammad Reza Pahlavi is overthrown; Ayatollah Khomeini establishes an Islamic Republic. The Soviet Union also invades Afghanistan, triggering a decade-long conflict."
   },
   {
@@ -4356,7 +4356,7 @@
     "date_start": 1986,
     "date_end": 1986,
     "date": "26 April 1986",
-    "era": "Post-War",
+    "type": "Science & Technology",
     "event": "The Chernobyl nuclear disaster. An explosion at the Soviet nuclear power plant in Ukraine releases radioactive contamination across Europe. The disaster accelerates the decline of the Soviet Union."
   },
   {
@@ -4364,7 +4364,7 @@
     "date_start": 1989,
     "date_end": 1989,
     "date": "9 November 1989",
-    "era": "Post-War",
+    "type": "War & Conflict",
     "event": "The Fall of the Berlin Wall. East Germany opens its borders; jubilant crowds tear down the Wall. A wave of revolutions topples communist regimes across Eastern Europe, ending the Cold War."
   },
   {
@@ -4372,7 +4372,7 @@
     "date_start": 1989,
     "date_end": 1989,
     "date": "4 June 1989",
-    "era": "Post-War",
+    "type": "War & Conflict",
     "event": "Tiananmen Square massacre. Chinese troops violently suppress pro-democracy protests in Beijing, killing hundreds. The crackdown crushes the democracy movement and strains China's international relations."
   },
   {
@@ -4380,7 +4380,7 @@
     "date_start": 1990,
     "date_end": 1990,
     "date": "3 October 1990",
-    "era": "Post-War",
+    "type": "Politics & Power",
     "event": "German Reunification. East and West Germany are formally reunited for the first time since 1945, following the fall of the Berlin Wall. Nelson Mandela is released from prison in South Africa after 27 years."
   },
   {
@@ -4388,7 +4388,7 @@
     "date_start": 1991,
     "date_end": 1991,
     "date": "25 December 1991",
-    "era": "Post-War",
+    "type": "War & Conflict",
     "event": "Dissolution of the Soviet Union. Mikhail Gorbachev resigns as president; fifteen independent republics emerge. The Cold War that dominated global politics for over four decades comes to an end."
   },
   {
@@ -4396,7 +4396,7 @@
     "date_start": 1991,
     "date_end": 1991,
     "date": "1991",
-    "era": "Post-War",
+    "type": "War & Conflict",
     "event": "The Gulf War. A US-led coalition liberates Kuwait after Saddam Hussein's Iraq invades the country, marking the first major post-Cold War international military intervention."
   },
   {
@@ -4404,7 +4404,7 @@
     "date_start": 1993,
     "date_end": 1993,
     "date": "13 September 1993",
-    "era": "Post-War",
+    "type": "Politics & Power",
     "event": "The Oslo Accords are signed on the White House lawn by Israeli Prime Minister Yitzhak Rabin and PLO Chairman Yasser Arafat, marking the first formal mutual recognition between Israel and the PLO."
   },
   {
@@ -4412,7 +4412,7 @@
     "date_start": 1994,
     "date_end": 1994,
     "date": "1994",
-    "era": "Post-War",
+    "type": "Politics & Power",
     "event": "Nelson Mandela is elected the first Black president of South Africa following the first fully democratic elections, ending the apartheid era after decades of struggle against racial segregation."
   },
   {
@@ -4420,7 +4420,7 @@
     "date_start": 1994,
     "date_end": 1994,
     "date": "April–July 1994",
-    "era": "Post-War",
+    "type": "War & Conflict",
     "event": "The Rwandan Genocide. In 100 days, an estimated 500,000–800,000 Tutsi and moderate Hutu are massacred by Hutu extremists — one of the fastest and most devastating genocides in history."
   },
   {
@@ -4428,7 +4428,7 @@
     "date_start": 1995,
     "date_end": 1995,
     "date": "1995",
-    "era": "Post-War",
+    "type": "Politics & Power",
     "event": "The World Wide Web opens to the public. The internet begins its transformation from academic and military tool to a global network that will reshape commerce, communication, politics, and culture."
   },
   {
@@ -4436,7 +4436,7 @@
     "date_start": 1997,
     "date_end": 1997,
     "date": "1997",
-    "era": "Post-War",
+    "type": "Politics & Power",
     "event": "Hong Kong is returned to China by Britain after 156 years of colonial rule under the 'one country, two systems' framework. The Asian financial crisis devastates economies across Southeast Asia."
   },
   {
@@ -4444,7 +4444,7 @@
     "date_start": 1998,
     "date_end": 1998,
     "date": "10 April 1998",
-    "era": "Post-War",
+    "type": "Politics & Power",
     "event": "The Good Friday Agreement is signed in Northern Ireland, establishing a power-sharing government and ending most of the violence of The Troubles — three decades of sectarian conflict that killed over 3,500 people."
   },
   {
@@ -4452,7 +4452,7 @@
     "date_start": 2001,
     "date_end": 2001,
     "date": "11 September 2001",
-    "era": "21st Century",
+    "type": "Politics & Power",
     "event": "Terrorist attacks on the United States. Al-Qaeda hijackers crash planes into the World Trade Center and the Pentagon, killing nearly 3,000 people. The attacks reshape global politics and trigger the 'War on Terror'."
   },
   {
@@ -4460,7 +4460,7 @@
     "date_start": 2001,
     "date_end": 2001,
     "date": "7 October 2001",
-    "era": "21st Century",
+    "type": "War & Conflict",
     "event": "US and NATO forces invade Afghanistan, toppling the Taliban regime that harboured al-Qaeda. The conflict becomes the longest war in US history, ending with the Taliban's return to power in 2021."
   },
   {
@@ -4468,7 +4468,7 @@
     "date_start": 2003,
     "date_end": 2011,
     "date": "2003–2011",
-    "era": "21st Century",
+    "type": "War & Conflict",
     "event": "The US-led invasion of Iraq removes Saddam Hussein from power. The subsequent occupation triggers an insurgency and sectarian conflict, destabilising the region and killing hundreds of thousands."
   },
   {
@@ -4476,7 +4476,7 @@
     "date_start": 2004,
     "date_end": 2004,
     "date": "26 December 2004",
-    "era": "21st Century",
+    "type": "Politics & Power",
     "event": "Indian Ocean tsunami. A massive undersea earthquake triggers a devastating tsunami across the Indian Ocean, killing over 227,000 people in 14 countries in one of the deadliest natural disasters in recorded history."
   },
   {
@@ -4484,7 +4484,7 @@
     "date_start": 2008,
     "date_end": 2008,
     "date": "2008",
-    "era": "21st Century",
+    "type": "Politics & Power",
     "event": "The global financial crisis. The collapse of the US housing market triggers the worst financial crisis since the Great Depression, causing bank failures, recession, and massive unemployment worldwide."
   },
   {
@@ -4492,7 +4492,7 @@
     "date_start": 2008,
     "date_end": 2008,
     "date": "4 November 2008",
-    "era": "21st Century",
+    "type": "Politics & Power",
     "event": "Barack Obama is elected the 44th President of the United States, becoming the first African American to hold the office."
   },
   {
@@ -4500,7 +4500,7 @@
     "date_start": 2010,
     "date_end": 2012,
     "date": "2010–2012",
-    "era": "21st Century",
+    "type": "War & Conflict",
     "event": "The Arab Spring. A wave of pro-democracy protests and uprisings sweeps the Arab world, toppling governments in Tunisia, Egypt, Libya, and Yemen, and triggering a devastating civil war in Syria."
   },
   {
@@ -4508,7 +4508,7 @@
     "date_start": 2011,
     "date_end": 2011,
     "date": "2 May 2011",
-    "era": "21st Century",
+    "type": "Politics & Power",
     "event": "Osama bin Laden, founder of al-Qaeda and architect of the 11 September attacks, is killed by US Navy SEALs in a raid on his compound in Abbottabad, Pakistan."
   },
   {
@@ -4516,7 +4516,7 @@
     "date_start": 2011,
     "date_end": 2011,
     "date": "11 March 2011",
-    "era": "21st Century",
+    "type": "Science & Technology",
     "event": "A massive earthquake and tsunami strike Japan, killing nearly 20,000 people and triggering the Fukushima Daiichi nuclear disaster — the worst nuclear accident since Chernobyl."
   },
   {
@@ -4524,7 +4524,7 @@
     "date_start": 2015,
     "date_end": 2015,
     "date": "12 December 2015",
-    "era": "21st Century",
+    "type": "War & Conflict",
     "event": "The Paris Climate Agreement is adopted by 196 countries, committing nations to limit global warming by reducing greenhouse gas emissions. It is the most ambitious international climate accord ever reached."
   },
   {
@@ -4532,7 +4532,7 @@
     "date_start": 2016,
     "date_end": 2016,
     "date": "23 June 2016",
-    "era": "21st Century",
+    "type": "Politics & Power",
     "event": "The Brexit referendum. The United Kingdom votes by 52% to 48% to leave the European Union, triggering years of political turmoil and the eventual UK withdrawal from the EU in 2020."
   },
   {
@@ -4540,7 +4540,7 @@
     "date_start": 2019,
     "date_end": 2023,
     "date": "2019–2023",
-    "era": "21st Century",
+    "type": "War & Conflict",
     "event": "The COVID-19 pandemic. A novel coronavirus originating in Wuhan, China, spreads globally, killing an estimated 7 million+ people, causing the worst global economic disruption since World War II, and transforming daily life worldwide."
   },
   {
@@ -4548,7 +4548,7 @@
     "date_start": 2022,
     "date_end": 2022,
     "date": "24 February 2022",
-    "era": "21st Century",
+    "type": "War & Conflict",
     "event": "Russia launches a full-scale invasion of Ukraine, beginning the largest conventional war in Europe since World War II. The conflict triggers global energy and food crises and reshapes European security."
   },
   {
@@ -4556,7 +4556,7 @@
     "date_start": 2022,
     "date_end": 2023,
     "date": "2022–2023",
-    "era": "21st Century",
+    "type": "Politics & Power",
     "event": "The rise of generative AI. Tools like ChatGPT and image generators reach mainstream adoption, sparking debate about the future of work, creativity, education, and the nature of intelligence itself."
   },
   {
@@ -4564,7 +4564,7 @@
     "date_start": 2023,
     "date_end": 2023,
     "date": "7 October 2023",
-    "era": "21st Century",
+    "type": "Politics & Power",
     "event": "Hamas launches a large-scale attack on Israel from Gaza, killing approximately 1,200 people. Israel's military response in Gaza kills tens of thousands, triggering a major humanitarian crisis."
   },
   {
@@ -4572,7 +4572,7 @@
     "date_start": 2005,
     "date_end": 2005,
     "date": "29 August 2005",
-    "era": "21st Century",
+    "type": "Politics & Power",
     "event": "Hurricane Katrina devastates New Orleans and the Gulf Coast of the United States, killing over 1,800 people. The inadequate government response exposes deep racial and economic inequalities in American society."
   },
   {
@@ -4580,7 +4580,7 @@
     "date_start": 2007,
     "date_end": 2007,
     "date": "2007",
-    "era": "21st Century",
+    "type": "Politics & Power",
     "event": "Apple introduces the iPhone, launching the smartphone era and transforming how billions of people communicate, consume media, navigate, and interact with technology."
   },
   {
@@ -4588,7 +4588,7 @@
     "date_start": 2012,
     "date_end": 2012,
     "date": "4 July 2012",
-    "era": "21st Century",
+    "type": "Politics & Power",
     "event": "Scientists at CERN announce the discovery of the Higgs boson — the so-called 'God particle' — confirming a key part of the Standard Model of particle physics after decades of searching."
   },
   {
@@ -4596,7 +4596,7 @@
     "date_start": 2013,
     "date_end": 2013,
     "date": "2013",
-    "era": "21st Century",
+    "type": "Politics & Power",
     "event": "Edward Snowden leaks classified NSA documents revealing the scale of US and allied government surveillance programmes, triggering a global debate about privacy, security, and the power of intelligence agencies."
   },
   {
@@ -4604,7 +4604,7 @@
     "date_start": 2014,
     "date_end": 2014,
     "date": "2014",
-    "era": "21st Century",
+    "type": "Religion",
     "event": "Russia annexes Crimea from Ukraine, violating international law and triggering sanctions. The Islamic State (ISIS) declares a caliphate across large parts of Iraq and Syria, launching a wave of global terror."
   },
   {
@@ -4612,7 +4612,7 @@
     "date_start": 2015,
     "date_end": 2015,
     "date": "2015",
-    "era": "21st Century",
+    "type": "War & Conflict",
     "event": "A million refugees and migrants, many fleeing the Syrian Civil War, arrive in Europe in a single year, triggering a political crisis and reshaping the continent's politics for years to come."
   },
   {
@@ -4620,7 +4620,7 @@
     "date_start": 2017,
     "date_end": 2017,
     "date": "2017",
-    "era": "21st Century",
+    "type": "Politics & Power",
     "event": "The #MeToo movement goes global after allegations against film producer Harvey Weinstein prompt millions of women to share experiences of sexual harassment and assault, leading to widespread accountability."
   },
   {
@@ -4628,7 +4628,7 @@
     "date_start": 2019,
     "date_end": 2019,
     "date": "2019",
-    "era": "21st Century",
+    "type": "Politics & Power",
     "event": "Greta Thunberg leads global School Strike for Climate movement, mobilising millions of young people worldwide in protest against government inaction on climate change."
   },
   {
@@ -4636,7 +4636,7 @@
     "date_start": 2020,
     "date_end": 2020,
     "date": "2020",
-    "era": "21st Century",
+    "type": "Politics & Power",
     "event": "George Floyd is killed by Minneapolis police, sparking the largest wave of racial justice protests in US history under the Black Lives Matter banner, with demonstrations in cities across the world."
   },
   {
@@ -4644,7 +4644,7 @@
     "date_start": 2021,
     "date_end": 2021,
     "date": "6 January 2021",
-    "era": "21st Century",
+    "type": "Politics & Power",
     "event": "Supporters of President Donald Trump storm the US Capitol building during the certification of the 2020 election results, in an unprecedented attack on American democratic institutions."
   }
 ]

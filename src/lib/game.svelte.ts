@@ -1,6 +1,6 @@
 import { loadEvents } from './data';
 import { getRandomUnique, validateOrder } from './utils';
-import type { CardState, QuizEvent, QuizType } from './types';
+import type { CardState, GamePhase, QuizEvent, QuizType } from './types';
 
 const LS_BEST_KEY = 'history-quiz-best';
 
@@ -8,7 +8,7 @@ function createGameState() {
   let cards = $state<CardState[]>([]);
   let points = $state(0);
   let bestScore = $state(parseInt(localStorage.getItem(LS_BEST_KEY) ?? '0', 10));
-  let phase = $state<'loading' | 'playing' | 'gameover'>('loading');
+  let phase = $state<GamePhase>('loading');
   let quizType = $state<QuizType>('history');
   let usedIds = $state<Set<number>>(new Set());
   let allEvents = $state<QuizEvent[]>([]);
@@ -63,14 +63,20 @@ function createGameState() {
       usedIds.add(next.id);
       cards = [...cards, { event: next, frozen: false, dateRevealed: false }];
     } else {
-      // Wrong — reveal all dates and go to game over
-      cards = cards.map((c) => ({ ...c, dateRevealed: true }));
-      phase = 'gameover';
+      // Wrong — reveal all dates, sort into correct order, pause before game over
+      cards = cards
+        .map((c) => ({ ...c, dateRevealed: true }))
+        .sort((a, b) => a.event.date_start - b.event.date_start);
+      phase = 'mistake';
     }
   }
 
   async function switchQuiz(type: QuizType) {
     await init(type);
+  }
+
+  function confirm() {
+    phase = 'gameover';
   }
 
   return {
@@ -83,6 +89,7 @@ function createGameState() {
     init,
     reorder,
     submit,
+    confirm,
     switchQuiz,
   };
 }

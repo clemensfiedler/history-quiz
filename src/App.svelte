@@ -42,6 +42,19 @@
     </button>
   {/if}
 
+  {#if game.phase === 'mistake'}
+    <div class="rounded-xl border border-red-200 bg-red-50 p-4 text-center dark:border-red-800 dark:bg-red-950">
+      <p class="mb-1 font-semibold text-red-700 dark:text-red-300">Wrong order!</p>
+      <p class="mb-3 text-sm text-red-600 dark:text-red-400">The correct arrangement is shown above.</p>
+      <button
+        onclick={() => game.confirm()}
+        class="rounded-xl bg-red-600 px-6 py-2 font-semibold text-white transition-colors hover:bg-red-700 active:bg-red-800"
+      >
+        See Score
+      </button>
+    </div>
+  {/if}
+
   {#if game.phase === 'gameover'}
     <GameOverModal />
   {/if}

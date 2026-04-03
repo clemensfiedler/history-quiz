@@ -9,8 +9,8 @@
   const { card }: Props = $props();
 
   const badge = $derived(
-    'era' in card.event
-      ? card.event.era
+    'type' in card.event
+      ? card.event.type
       : 'genre' in card.event && card.event.genre
         ? (card.event.genre as string).split(',')[0].trim()
         : '',

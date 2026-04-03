@@ -5,20 +5,28 @@
   const { label }: Props = $props();
 
   const colours: Record<string, string> = {
-    'Ancient & Classical': 'bg-amber-700 text-amber-50',
-    'Medieval': 'bg-green-800 text-green-50',
-    'Renaissance': 'bg-rose-700 text-rose-50',
-    'Early Modern': 'bg-sky-800 text-sky-50',
-    'Enlightenment': 'bg-teal-700 text-teal-50',
-    'Modern': 'bg-purple-800 text-purple-50',
-    'Contemporary': 'bg-indigo-800 text-indigo-50',
-    'Post-War': 'bg-violet-700 text-violet-50',
-    '21st Century': 'bg-cyan-700 text-cyan-50',
+    'War & Conflict':       'bg-red-700 text-red-50',
+    'Science & Technology': 'bg-blue-700 text-blue-50',
+    'Exploration':          'bg-teal-700 text-teal-50',
+    'Religion':             'bg-purple-700 text-purple-50',
+    'Culture & Arts':       'bg-amber-600 text-amber-50',
+    'Politics & Power':     'bg-slate-600 text-slate-50',
+    // game genres (fallback colours by first word)
+    'Action':               'bg-orange-600 text-orange-50',
+    'RPG':                  'bg-indigo-600 text-indigo-50',
+    'Racing':               'bg-cyan-600 text-cyan-50',
+    'Strategy':             'bg-green-700 text-green-50',
+    'Adventure':            'bg-rose-600 text-rose-50',
+    'Simulation':           'bg-sky-600 text-sky-50',
+    'Sports':               'bg-lime-600 text-lime-50',
+    'Fighting':             'bg-red-600 text-red-50',
+    'Puzzle':               'bg-violet-600 text-violet-50',
+    'Survival':             'bg-emerald-700 text-emerald-50',
   };
 
   const colour = $derived(
     Object.entries(colours).find(([k]) => label.includes(k))?.[1] ??
-      'bg-slate-600 text-slate-50',
+      'bg-slate-500 text-slate-50',
   );
 </script>
 

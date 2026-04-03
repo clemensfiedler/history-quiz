@@ -13,13 +13,69 @@ import pandas as pd
 OUT_DIR = Path(__file__).parent.parent / "public" / "data"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
+
+def classify_event(text: str) -> str:
+    """Assign a broad event type from the event description."""
+    t = text.lower()
+
+    war = [
+        "battle", "siege", "crusade", "invasion", "troops", "army",
+        " war", "defeat", "uprising", "revolt", "combat", "massacre",
+        "assassination", "armistice", "surrender", "blockade", "bombardment",
+        "military campaign", "coup ",
+    ]
+    science = [
+        "invent", "telescope", "steam engine", "electricity", "experiment",
+        "vaccine", "nuclear", "computer", "spaceflight", "satellite",
+        "calculus", "genetics", "evolution", "gravity", "relativity",
+        " dna", "chemistry", "biology", "astronomy", "surgery",
+        "calendar", "writing system", "domestication", "iron age",
+        "bronze age", "agriculture", "gunpowder", "telephone", "airplane",
+        "rocket", "mathematics", "papyrus", "cuneiform", "hieroglyph", "printing",
+    ]
+    exploration = [
+        "voyage", "expedition", "circumnavigate", "trade route",
+        "coloniz", "new world", "first european", "first contact",
+    ]
+    religion = [
+        "church", "pope", "bishop", "monastery", "cathedral", "mosque",
+        "temple", "islam", "christian", "buddhis", "hindu", " jewish",
+        "religion", "faith", "theology", "protestant", "catholic",
+        "reformation", "inquisition", "bible", "quran", "pilgrimage", "schism",
+    ]
+    culture = [
+        "painting", "literature", "music", "poetry", "architecture",
+        "sculpture", "novel", "theater", "symphony", "opera",
+        "monument", "pyramid", "epic of gilgamesh", "stonehenge",
+        "parthenon", "colosseum", "sistine", "construction begins",
+    ]
+
+    for kw in war:
+        if kw in t:
+            return "War & Conflict"
+    for kw in science:
+        if kw in t:
+            return "Science & Technology"
+    for kw in exploration:
+        if kw in t:
+            return "Exploration"
+    for kw in religion:
+        if kw in t:
+            return "Religion"
+    for kw in culture:
+        if kw in t:
+            return "Culture & Arts"
+    return "Politics & Power"
+
+
 # ── History events (from CSV) ───────────────────────────────────────────────
 df = pd.read_csv(
     Path(__file__).parent / "events_prepared.csv", index_col=0
 ).reset_index(drop=True)
 df["id"] = range(len(df))
+df["type"] = df["event"].apply(classify_event)
 
-history = df[["id", "year_start", "year_end", "date", "era", "event"]].copy()
+history = df[["id", "year_start", "year_end", "date", "type", "event"]].copy()
 history = history.rename(columns={"year_start": "date_start", "year_end": "date_end"})
 history["date_start"] = history["date_start"].astype(int)
 history["date_end"] = history["date_end"].astype(int)
@@ -73,6 +129,14 @@ for idx, g in enumerate(games):
     if "Publisher" in g:
         g["publisher"] = g.pop("Publisher")
     g.pop("Operating system(s)", None)
+
+extra_path = Path(__file__).parent / "games_extra.json"
+if extra_path.exists():
+    extra = json.loads(extra_path.read_text())
+    for g in extra:
+        g["id"] = len(games)
+        games.append(g)
+    print(f"Merged {len(extra)} extra game events from {extra_path.name}")
 
 (OUT_DIR / "games.json").write_text(
     json.dumps(games, ensure_ascii=False, indent=2)
