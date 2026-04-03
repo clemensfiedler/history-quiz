@@ -20,15 +20,10 @@ export function getRandomUnique<T extends { id: number }>(
   return results;
 }
 
-/** Returns the best available sort key for an event (sub-year precision when available). */
-export function sortKey(event: CardState['event']): number {
-  return 'date_sort' in event ? event.date_sort : event.date_start;
-}
-
-/** Returns true if all cards are in chronological order. */
+/** Returns true if all cards are in chronological order (date_start ascending). */
 export function validateOrder(cards: CardState[]): boolean {
   for (let i = 1; i < cards.length; i++) {
-    if (sortKey(cards[i].event) < sortKey(cards[i - 1].event)) return false;
+    if (cards[i].event.date_start < cards[i - 1].event.date_start) return false;
   }
   return true;
 }

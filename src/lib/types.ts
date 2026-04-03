@@ -6,7 +6,6 @@ export interface HistoryEvent {
   date_start: number;
   date_end: number;
   date: string;
-  date_sort: number;
   type: string;
   event: string;
 }

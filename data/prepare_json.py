@@ -3,9 +3,16 @@ Prepare JSON data files for the History Quiz app.
 Outputs:
   ../public/data/history.json  — history events from CSV
   ../public/data/games.json    — video game events extracted from events.js
+
+Date encoding: all date_start / date_end values use YYYYMMDD integer codes.
+  Full date  → 20250115
+  Month only → 20250100
+  Year only  → 20250000
+  BCE year   → -32000000
 """
 import json
 import re
+from datetime import datetime, timezone
 from pathlib import Path
 
 import pandas as pd
@@ -21,17 +28,28 @@ MONTH_NUM = {
 }
 
 
-def compute_date_sort(row) -> float:
-    """Return a fractional year for sub-year sorting when month/day info exists."""
-    year = float(row["year_start"])
+def year_to_date_code(year: int, month: int = 0, day: int = 0) -> int:
+    """Encode year + optional month/day as a sortable YYYYMMDD integer."""
+    return year * 10000 + month * 100 + day
+
+
+def parse_date_code(row) -> int:
+    """Build a YYYYMMDD code from year_start + any month/day in the date string."""
+    year = int(row["year_start"])
     date_lower = str(row["date"]).lower()
     for month_name, month_num in MONTH_NUM.items():
         if month_name in date_lower:
             after = date_lower[date_lower.index(month_name) + len(month_name):]
             day_match = re.search(r"^\s+(\d{1,2})\b", after)
-            day = int(day_match.group(1)) if day_match else 15
-            return round(year + (month_num - 1 + (day - 1) / 30.0) / 12.0, 4)
-    return year
+            day = int(day_match.group(1)) if day_match else 0
+            return year_to_date_code(year, month_num, day)
+    return year_to_date_code(year)
+
+
+def unix_to_date_code(ts: float) -> int:
+    """Convert a Unix timestamp to a YYYYMMDD integer."""
+    dt = datetime.fromtimestamp(ts, tz=timezone.utc)
+    return year_to_date_code(dt.year, dt.month, dt.day)
 
 
 def classify_event(text: str) -> str:
@@ -93,7 +111,9 @@ df = pd.read_csv(
     Path(__file__).parent / "events_prepared.csv", index_col=0
 ).reset_index(drop=True)
 df["id"] = range(len(df))
-df["date_sort"] = df.apply(compute_date_sort, axis=1)
+df["date_start"] = df.apply(parse_date_code, axis=1)
+df["date_end"] = df["year_end"].apply(lambda y: year_to_date_code(int(y)))
+
 # Use explicit type from CSV where set; auto-classify anything blank
 if "type" not in df.columns:
     df["type"] = ""
@@ -102,10 +122,7 @@ df["type"] = df.apply(
     axis=1,
 )
 
-history = df[["id", "year_start", "year_end", "date", "date_sort", "type", "event"]].copy()
-history = history.rename(columns={"year_start": "date_start", "year_end": "date_end"})
-history["date_start"] = history["date_start"].astype(int)
-history["date_end"] = history["date_end"].astype(int)
+history = df[["id", "date_start", "date_end", "date", "type", "event"]].copy()
 
 history_records = json.loads(history.to_json(orient="records"))
 (OUT_DIR / "history.json").write_text(
@@ -146,7 +163,7 @@ while i < len(js_text):
 
 games = json.loads(js_text[questions_start : i + 1])
 
-# Normalise field names
+# Normalise field names and convert timestamps to YYYYMMDD
 for idx, g in enumerate(games):
     g["id"] = idx
     if "Genre(s)" in g:
@@ -156,12 +173,16 @@ for idx, g in enumerate(games):
     if "Publisher" in g:
         g["publisher"] = g.pop("Publisher")
     g.pop("Operating system(s)", None)
+    g["date_start"] = unix_to_date_code(g["date_start"])
+    g["date_end"] = unix_to_date_code(g["date_end"])
 
 extra_path = Path(__file__).parent / "games_extra.json"
 if extra_path.exists():
     extra = json.loads(extra_path.read_text())
     for g in extra:
         g["id"] = len(games)
+        g["date_start"] = unix_to_date_code(g["date_start"])
+        g["date_end"] = unix_to_date_code(g["date_end"])
         games.append(g)
     print(f"Merged {len(extra)} extra game events from {extra_path.name}")
 
