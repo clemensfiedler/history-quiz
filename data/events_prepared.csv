@@ -40,7 +40,7 @@ index,year_start,year_end,date,era,event,Source,type
 38,-814,-814,814 BCE,Ancient & Classical,Foundation of Carthage by the Phoenicians in today known Tunisia,,Politics & Power
 39,-800,-800,800 BCE,Ancient & Classical,Rise of Greek city-states,,Politics & Power
 40,-785,-785,c.785 BCE,Ancient & Classical,Rise of the Kingdom of Kush,,Politics & Power
-41,-776,-776,776 BCE,Ancient & Classical,First recorded Ancient Olympic Games.,,Politics & Power
+41,-776,-776,776 BCE,Ancient & Classical,First recorded Ancient Olympic Games (according to Aristotle),,Politics & Power
 42,-753,-753,753 BCE,Ancient & Classical,Founding of Rome (traditional date),,Politics & Power
 43,-745,-745,745 BCE,Ancient & Classical,Tiglath-Pileser III becomes the new king of Assyria. With time he conquers neighboring countries and turns Assyria into an empire.,,Politics & Power
 44,-728,-728,728 BCE,Ancient & Classical,Rise of the Median Empire.,,Politics & Power
@@ -567,8 +567,6 @@ index,year_start,year_end,date,era,event,Source,type
 567,2019,2023,2019–2023,21st Century,"The COVID-19 pandemic. A novel coronavirus originating in Wuhan, China, spreads globally, killing an estimated 7 million+ people, causing the worst global economic disruption since World War II, and transforming daily life worldwide.",,War & Conflict
 568,2022,2022,24 February 2022,21st Century,"Russia launches a full-scale invasion of Ukraine, beginning the largest conventional war in Europe since World War II. The conflict triggers global energy and food crises and reshapes European security.",,War & Conflict
 569,2022,2023,2022–2023,21st Century,"The rise of generative AI. Tools like ChatGPT and image generators reach mainstream adoption, sparking debate about the future of work, creativity, education, and the nature of intelligence itself.",,Politics & Power
-570,2023,2023,7 October 2023,21st Century,"Hamas launches a large-scale attack on Israel from Gaza, killing approximately 1,200 people. Israel's military response in Gaza kills tens of thousands, triggering a major humanitarian crisis.",,Politics & Power
-571,2005,2005,29 August 2005,21st Century,"Hurricane Katrina devastates New Orleans and the Gulf Coast of the United States, killing over 1,800 people. The inadequate government response exposes deep racial and economic inequalities in American society.",,Politics & Power
 572,2007,2007,2007,21st Century,"Apple introduces the iPhone, launching the smartphone era and transforming how billions of people communicate, consume media, navigate, and interact with technology.",,Politics & Power
 573,2012,2012,4 July 2012,21st Century,Scientists at CERN announce the discovery of the Higgs boson — the so-called 'God particle' — confirming a key part of the Standard Model of particle physics after decades of searching.,,Politics & Power
 574,2013,2013,2013,21st Century,"Edward Snowden leaks classified NSA documents revealing the scale of US and allied government surveillance programmes, triggering a global debate about privacy, security, and the power of intelligence agencies.",,Politics & Power
@@ -577,4 +575,3 @@ index,year_start,year_end,date,era,event,Source,type
 577,2017,2017,2017,21st Century,"The #MeToo movement goes global after allegations against film producer Harvey Weinstein prompt millions of women to share experiences of sexual harassment and assault, leading to widespread accountability.",,Politics & Power
 578,2019,2019,2019,21st Century,"Greta Thunberg leads global School Strike for Climate movement, mobilising millions of young people worldwide in protest against government inaction on climate change.",,Politics & Power
 579,2020,2020,2020,21st Century,"George Floyd is killed by Minneapolis police, sparking the largest wave of racial justice protests in US history under the Black Lives Matter banner, with demonstrations in cities across the world.",,Politics & Power
-580,2021,2021,6 January 2021,21st Century,"Supporters of President Donald Trump storm the US Capitol building during the certification of the 2020 election results, in an unprecedented attack on American democratic institutions.",,Politics & Power
