@@ -11,7 +11,6 @@ Date encoding: all date_start / date_end values use YYYYMMDD integer codes.
   BCE year   → -32000000
 """
 import json
-import re
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -21,35 +20,27 @@ OUT_DIR = Path(__file__).parent.parent / "public" / "data"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 
-MONTH_NUM = {
-    "january": 1, "february": 2, "march": 3, "april": 4,
-    "may": 5, "june": 6, "july": 7, "august": 8,
-    "september": 9, "october": 10, "november": 11, "december": 12,
-}
 
+def iso_to_date_code(iso: str) -> int:
+    """Parse an ISO date string to a sortable YYYYMMDD integer.
 
-def year_to_date_code(year: int, month: int = 0, day: int = 0) -> int:
-    """Encode year + optional month/day as a sortable YYYYMMDD integer."""
-    return year * 10000 + month * 100 + day
-
-
-def parse_date_code(row) -> int:
-    """Build a YYYYMMDD code from year_start + any month/day in the date string."""
-    year = int(row["year_start"])
-    date_lower = str(row["date"]).lower()
-    for month_name, month_num in MONTH_NUM.items():
-        if month_name in date_lower:
-            after = date_lower[date_lower.index(month_name) + len(month_name):]
-            day_match = re.search(r"^\s+(\d{1,2})\b", after)
-            day = int(day_match.group(1)) if day_match else 0
-            return year_to_date_code(year, month_num, day)
-    return year_to_date_code(year)
+    Accepts: '476', '-3200', '476-09', '476-09-04'
+    Returns: 4760000,  -32000000,  4760900,  4760904
+    """
+    s = str(iso).strip()
+    negative = s.startswith("-")
+    parts = s.lstrip("-").split("-")
+    year  = int(parts[0])
+    month = int(parts[1]) if len(parts) > 1 else 0
+    day   = int(parts[2]) if len(parts) > 2 else 0
+    code  = year * 10000 + month * 100 + day
+    return -code if negative else code
 
 
 def unix_to_date_code(ts: float) -> int:
     """Convert a Unix timestamp to a YYYYMMDD integer."""
     dt = datetime.fromtimestamp(ts, tz=timezone.utc)
-    return year_to_date_code(dt.year, dt.month, dt.day)
+    return dt.year * 10000 + dt.month * 100 + dt.day
 
 
 def classify_event(text: str) -> str:
@@ -110,9 +101,10 @@ def classify_event(text: str) -> str:
 df = pd.read_csv(
     Path(__file__).parent / "events_prepared.csv", index_col=0
 ).reset_index(drop=True)
+df = df.dropna(subset=["date_start"])
 df["id"] = range(len(df))
-df["date_start"] = df.apply(parse_date_code, axis=1)
-df["date_end"] = df["year_end"].apply(lambda y: year_to_date_code(int(y)))
+df["date_start"] = df["date_start"].apply(iso_to_date_code)
+df["date_end"]   = df["date_end"].apply(iso_to_date_code)
 
 # Use explicit type from CSV where set; auto-classify anything blank
 if "type" not in df.columns:
