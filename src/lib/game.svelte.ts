@@ -1,5 +1,5 @@
 import { loadEvents } from './data';
-import { getRandomUnique, validateOrder } from './utils';
+import { getRandomUnique, sortKey, validateOrder } from './utils';
 import type { CardState, GamePhase, QuizEvent, QuizType } from './types';
 
 const LS_BEST_KEY = 'history-quiz-best';
@@ -66,7 +66,7 @@ function createGameState() {
       // Wrong — reveal all dates, sort into correct order, pause before game over
       cards = cards
         .map((c) => ({ ...c, dateRevealed: true }))
-        .sort((a, b) => a.event.date_start - b.event.date_start);
+        .sort((a, b) => sortKey(a.event) - sortKey(b.event));
       phase = 'mistake';
     }
   }

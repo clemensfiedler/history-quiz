@@ -14,6 +14,26 @@ OUT_DIR = Path(__file__).parent.parent / "public" / "data"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 
+MONTH_NUM = {
+    "january": 1, "february": 2, "march": 3, "april": 4,
+    "may": 5, "june": 6, "july": 7, "august": 8,
+    "september": 9, "october": 10, "november": 11, "december": 12,
+}
+
+
+def compute_date_sort(row) -> float:
+    """Return a fractional year for sub-year sorting when month/day info exists."""
+    year = float(row["year_start"])
+    date_lower = str(row["date"]).lower()
+    for month_name, month_num in MONTH_NUM.items():
+        if month_name in date_lower:
+            after = date_lower[date_lower.index(month_name) + len(month_name):]
+            day_match = re.search(r"^\s+(\d{1,2})\b", after)
+            day = int(day_match.group(1)) if day_match else 15
+            return round(year + (month_num - 1 + (day - 1) / 30.0) / 12.0, 4)
+    return year
+
+
 def classify_event(text: str) -> str:
     """Assign a broad event type from the event description."""
     t = text.lower()
@@ -73,9 +93,16 @@ df = pd.read_csv(
     Path(__file__).parent / "events_prepared.csv", index_col=0
 ).reset_index(drop=True)
 df["id"] = range(len(df))
-df["type"] = df["event"].apply(classify_event)
+df["date_sort"] = df.apply(compute_date_sort, axis=1)
+# Use explicit type from CSV where set; auto-classify anything blank
+if "type" not in df.columns:
+    df["type"] = ""
+df["type"] = df.apply(
+    lambda r: r["type"] if pd.notna(r["type"]) and str(r["type"]).strip() else classify_event(r["event"]),
+    axis=1,
+)
 
-history = df[["id", "year_start", "year_end", "date", "type", "event"]].copy()
+history = df[["id", "year_start", "year_end", "date", "date_sort", "type", "event"]].copy()
 history = history.rename(columns={"year_start": "date_start", "year_end": "date_end"})
 history["date_start"] = history["date_start"].astype(int)
 history["date_end"] = history["date_end"].astype(int)
