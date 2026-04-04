@@ -1,4 +1,7 @@
-.PHONY: data
+.PHONY: help update-data
+
+help:
+	@echo "update-data  Regenerate public/data/*.json from pipeline sources"
 
 update-data:
-	cd data && uv run --with pandas python prepare_json.py
+	uv run python pipeline/prepare_json.py

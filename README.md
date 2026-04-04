@@ -18,9 +18,8 @@ pnpm dev
 
 ## Data
 
-Events are stored in `public/data/history.json` and `public/data/games.json`, generated from source files in `data/`:
+Events are stored in `public/data/history.json` and `public/data/games.json`, generated from source files in `pipeline/`:
 
 ```bash
-cd data
-uv run --with pandas python prepare_json.py
+make update-data
 ```

@@ -1,0 +1,8 @@
+[project]
+name = "history-quiz-pipeline"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = ["pandas"]
+
+[tool.uv]
+virtual = true
