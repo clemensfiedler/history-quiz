@@ -102,7 +102,7 @@ index,date_start,date_end,date,era,event,Source,type
 100,-202,-202,202 BCE,Ancient & Classical,Scipio Africanus defeats Hannibal at Battle of Zama.,,War & Conflict
 101,-200,-200,200 BCE,Ancient & Classical,Paper is invented in China.,,Science & Technology
 102,-149,-146,149–146 BCE,Ancient & Classical,"Third Punic War between Rome and Carthage. War ends with the complete destruction of Carthage, allowing Rome to conquer modern day Tunisia and Libya.",,War & Conflict
-103,-146,-146,146 BCE,Ancient & Classical,"Roman conquest of Greece, see Roman Greece",,Politics & Power
+103,-146,-146,146 BCE,Ancient & Classical,"The Battle of Corinth (Leucapetra or Lefkopetra) marks the beginning of Roman domination over Greece and the destruction of Corinth",,Politics & Power
 104,-121,-121,121 BCE,Ancient & Classical,Roman armies enter Gaul for the first time.,,Politics & Power
 105,-80,-80,80 BCE,Ancient & Classical,The city of Florence is founded.,,Politics & Power
 106,-49,-49,49 BCE,Ancient & Classical,Roman Civil War between Julius Caesar and Pompey the Great.,,War & Conflict
@@ -111,11 +111,9 @@ index,date_start,date_end,date,era,event,Source,type
 109,-30,-30,30 BCE,Ancient & Classical,Cleopatra ends her reign as the last active ruler of the Ptolemaic Kingdom of Egypt,,Politics & Power
 110,-27,-27,27 BCE,Ancient & Classical,Formation of Roman Empire:  Octavius is given titles of Princeps and Augustus by Roman Senate - beginning of Pax Romana. Formation of influential Praetorian Guard to provide security to Emperor,,Politics & Power
 111,-18,-18,18 BCE,Ancient & Classical,Three Kingdoms period begins in Korea. The temple of Jerusalem is reconstructed.,,Religion
-112,-6,-6,6 BCE,Ancient & Classical,Earliest theorized date for birth of Jesus of Nazareth. Roman succession:  Gaius Caesar and Lucius Caesar groomed for the throne.,,Politics & Power
 113,-4,-4,4 BCE,Ancient & Classical,Widely accepted date (Ussher) for birth of Jesus Christ.,,Politics & Power
-114,9,9,9,Ancient & Classical,"Battle of the Teutoburg Forest, the Imperial Roman Army's bloodiest defeat.",,War & Conflict
+114,0009-09-08,0009-09-09,8-9 September 9 CE,Ancient & Classical,"Battle of the Teutoburg Forest: Three Roman legions led by Publius Quinctilius Varus are ambushed and completely defeated. This was the Imperial Roman Army's bloodiest defeat.",,War & Conflict
 115,14,14,14,Ancient & Classical,"Death of Emperor Augustus (Octavian), ascension of his adopted son Tiberius to the throne.",,Politics & Power
-116,26,34,26–34,Ancient & Classical,"Crucifixion of Jesus Christ, exact date unknown.",,Politics & Power
 117,37,37,37,Ancient & Classical,"Death of Emperor Tiberius, ascension of his nephew Caligula to the throne.",,Politics & Power
 118,40,40,40,Ancient & Classical,Rome conquers Morocco.,,Politics & Power
 119,41,41,41,Ancient & Classical,Emperor Caligula is assassinated by the Roman senate. His uncle Claudius succeeds him.,,Politics & Power
