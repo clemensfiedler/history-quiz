@@ -174,9 +174,9 @@ index,date_start,date_end,date,era,event,Source,type
 175,529,534,529–534,Medieval,Justinian I publishes the Code of Civil Law. This compiled centuries of legal writings and imperial pronouncements into three parts of one body of law.,,Politics & Power
 176,529,529,529,Medieval,"Benedict of Nursia founds monastery at Monte Cassino. The first of twelve monasteries founded by Saint Benedict, beginning the Order of Saint Benedict.",,Religion
 177,532-01-01,532-01-01,1 January 532,Medieval,Nika riots in Constantinople. Nearly half the city is burned down or destroyed and tens of thousands of people are killed.,,Politics & Power
-178,533-12-15,533-12-15,15 December 533,Medieval,"Byzantines, under Belisarius, retake North Africa from the Vandals. Vandal kingdom ends and the Reconquest of North Africa is completed. ",,Politics & Power
+178,533-12-15,533-12-15,15 December 533,Medieval,"Byzantines, under Belisarius, retake North Africa from the Vandals. Vandal kingdom ends and the Reconquest of North Africa is completed.",,Politics & Power
 179,535,554,535–554,Medieval,Gothic War in Italy as a part of Justinian's Reconquest. Byzantines retook Italy but crippled the Byzantine economy and left Italy unable to cope against the oncoming Lombards.,,War & Conflict
-180,563,563,563,Medieval,Saint Columba founds mission in Iona. Constructed an abbey which helped convert the Picts to Christianity until it was destroyed and raided by the Vikings in 794.,,Religion
+180,563,563,563,Medieval,Saint Columba founds mission in Iona. Constructed an abbey which helped convert the Picts to Christianity until it was destroyed and raided by the Vikings.,,Religion
 181,568,568,568,Medieval,The Kingdom of the Lombards is founded in Italy. Survived in Italy until the invasion of the Franks under Charlemagne. ,,War & Conflict
 182,560,580,c. 570,Medieval,"Muhammad is born. Professed receiving revelations from a god, which were recorded in the Quran, the basis of Islamic theology, in which he is regarded as the last of the sent prophets.",,Religion
 183,577,577,577,Medieval,"The West Saxons continue their advance at the Battle of Deorham. Led to the permanent separation of Cornwall, England from Wales. ",,War & Conflict
@@ -185,7 +185,7 @@ index,date_start,date_end,date,era,event,Source,type
 186,597,597,597,Medieval,Augustine arrives in Kent. Christianization of England (Anglo-Saxons) begins.,,Religion
 187,598,668,598–668,Medieval,"Massive Chinese (Sui and Tang) invasions against Korean Goguryeo. Contributed to the fall of the Sui dynasty, and Goguryeo fell under the forces of the Tang and Silla.",,War & Conflict
 188,580,620,c. 600,Medieval,Deliberate fires set for unknown reasons destroy major buildings in Teotihuacan. Destroys the Teotihuacan civilization and empire. Tikal is now the largest city-state in Mesoamerica.,,Politics & Power
-189,602,629,602–629,Medieval,Last great Roman–Persian War. Long conflict leaves both empires exhausted and unable to cope with the newly united Arab armies under Islam in the 630s,,War & Conflict
+189,602,629,602–629,Medieval,Last great Roman–Persian War. Long conflict leaves both empires exhausted and unable to cope with the newly united Arab armies under Islam in the shortly thereafter.,War & Conflict
 190,604,609,604–609,Medieval,Grand Canal in China is fully completed Its main role throughout its history was the transport of grain to the capital.,,Politics & Power
 191,618-06-01,907-06-18,01 June 618 – 18 June 907,Medieval,Tang dynasty in China. The essential administrative system established during this dynasty shaped Chinese governance for generations.,,Politics & Power
 192,622-09-09,622-09-23,9 September – 23 September 622,Medieval,"Muhammad migrates from Mecca to Medina. Event will have designated first year of the Islamic calendar, as Anno Hegirae. ",,Science & Technology
@@ -203,13 +203,12 @@ index,date_start,date_end,date,era,event,Source,type
 204,630,670,c. 650,Medieval,The city-state Xochicalco is founded by the Olmeca–Xicallanca. Becomes an important cultural and commercial center.,,Politics & Power
 205,653,653,653,Medieval,Arab force under Muslim general Muawiyah I conqueres Rhodes and destroys the Collosus of Rhodes.,https://en.wikipedia.org/wiki/Colossus_of_Rhodes,Politics & Power
 206,663,663,663,Medieval,Synod of Whitby. Roman Christianity triumphs over Celtic Christianity in England.,,Religion
-207,668,668,668,Medieval,"End of the Three Kingdoms period in Korea. Unified Silla was established, which shortly led to the North–South States Period.",,Politics & Power
+207,668,668,668,Medieval,"End of the Three Kingdoms period in Korea. Unified Silla was established, which shortly led to the North–South States Period which split Korea into Silla in the South and Balhae in the North.",,Politics & Power
 208,674,678,674–678,Medieval,First Arab siege of Constantinople. First time Islamic armies defeated forestalling Islamic conquest of Europe.,,War & Conflict
 209,681,681,681,Medieval,Establishment of the Bulgarian Empire.,,Politics & Power
 210,685,685,685,Medieval,Battle of Dun Nechtain. Picts defeat Northumbrians whose dominance ends.,,War & Conflict
 211,687,687,687,Medieval,Battle of Tertry Established Pepin of Herstal as mayor over the entire realms of Neustria and Austrasia which further dwindled Merovingian power.,,War & Conflict
 212,698,698,698,Medieval,Arab army takes Carthage. End of Byzantine rule in North Africa,,War & Conflict
-213,698,698,698,Medieval,North–South States Period begins in Korea. Silla and Balhae coexisted in the south and north of the peninsula respectively until 926,,Politics & Power
 214,711,711,711,Medieval,Umayyad conquest of Hispania under Tarik. Will begin a period of Muslim rule within in the Al-Andalus (with various portions of Iberian peninsula) until nearly the end of the Fifteenth Century.,,Politics & Power
 215,718,718,718,Medieval,"Second Arab attack on Constantinople, ending in failure. The combined Byzantine–Bulgarian forces stop the Arab threat in Southeastern Europe.",,Politics & Power
 216,726,726,726,Medieval,"Iconoclast movement begun in the Byzantine Empire under Leo III. This was opposed by Pope Gregory II, and an important difference between the Roman and Byzantine churches.",,Religion
@@ -229,7 +228,7 @@ index,date_start,date_end,date,era,event,Source,type
 230,814-01-28,814-01-28,28 January 814,Medieval,Death of Charlemagne. This would be a factor towards the splitting of his empire within a generation.,,Politics & Power
 231,820,820,820,Medieval,Algebrae et Alumcabola Algorithm Muhammad ibn Musa- al-Khwarizmi,,Politics & Power
 232,825,825,825,Medieval,Battle of Ellandun. Egbert defeats Mercians. Wessex becomes the leading kingdom of England.,,War & Conflict
-233,827,827,827,Medieval,Muslims invade Sicily. First encounter of attempts to conquer Byzantine Sicily until the last Byzantine outpost was conquered in 965.,,Politics & Power
+233,827,827,827,Medieval,Muslims invade Sicily marking the first encounter of attempts to conquer Byzantine Sicily.,,Politics & Power
 234,840,840,840,Medieval,Muslims capture Bari and much of southern Italy.,,Politics & Power
 235,843,843,843,Medieval,Division of Charlemagne's Empire between his grandsons with the Treaty of Verdun. Sets the stage for the founding of the Holy Roman Empire and France as separate states.,,Politics & Power
 236,843,843,843,Medieval,"Kenneth McAlpin becomes king of the Picts and Scots, creating the Kingdom of Alba.",,Politics & Power
@@ -423,7 +422,7 @@ index,date_start,date_end,date,era,event,Source,type
 424,1452,1452,1452,Renaissance,Leonardo da Vinci is born,https://www.thoughtco.com/renaissance-timeline-4158077,Politics & Power
 425,1453,1453,1453,Medieval,Constantinople falls to the Ottoman Turks ending the Eastern Roman (Byzantine) Empire. Constantinople becomes the capital of the Ottoman Empire.,,Politics & Power
 426,1453,1453,1453,Medieval,"The Hundred Years' War ends. England's once vast territory in France is now reduced to only Calais, which they eventually lose control of as well.",,War & Conflict
-427,1454,1454,1454,Renaissance,Johannes Gutenberg published the Gutenberg Bible ,https://www.thoughtco.com/renaissance-timeline-4158077,Religion
+427,1454,1454,1454,Renaissance,Johannes Gutenberg published the Gutenberg Bible ,https://www.thoughtco.com/renaissance-timeline-4158077,Religion
 428,1455-05,1455-05,22 May 1455,Medieval,Battle of St. Albans that traditionally marks the beginning of the War of the Roses.,,War & Conflict
 429,1456,1456,1456,Medieval,"Siege of Belgrade, which marks the end of the Medieval Serbian state. Major Ottoman advances into Central Europe are halted for several decades — the last major victory for Hunyadi.",,War & Conflict
 430,1461,1461,1461,Medieval,"The Empire of Trebizond, the last Roman outpost, falls to the Ottoman Turks.",,Politics & Power
@@ -446,9 +445,9 @@ index,date_start,date_end,date,era,event,Source,type
 447,1513,1513,1513,Renaissance,Niccolò Machiavelli wrote ‘The Prince’,https://www.thoughtco.com/renaissance-timeline-4158077,Politics & Power
 448,1516,1516,1516,Renaissance,Thomas More wrote ‘Utopia’,https://www.thoughtco.com/renaissance-timeline-4158077,Politics & Power
 449,1525,1525,1525,Renaissance,"The Battle of Pavia took place between France and the Holy Roman Empire, ending French claims on Italy ",https://www.thoughtco.com/renaissance-timeline-4158077,War & Conflict
-450,1530,1530,1530,Renaissance, Charles V  become Holy Roman Emperor,https://www.thoughtco.com/renaissance-timeline-4158077,Politics & Power
+450,1530,1530,1530,Renaissance,"Charles V becomes Holy Roman Emperor. He ruled the largest western empire seen since Rome coining the phrase that the sun never sets on his empire.",https://www.thoughtco.com/renaissance-timeline-4158077,Politics & Power
 451,1547,1547,1547,Renaissance,"Miguel de Cervantes, author of Don Quixote, is born in Alcalá de Henares, Spain.",https://www.thoughtco.com/renaissance-timeline-4158077,Politics & Power
-452,1558-11,1558-11,17 November 1558,Renaissance,Elizabeth I “the Virgin Queen” was crowned queen ,https://en.wikipedia.org/wiki/Elizabeth_I,Politics & Power
+452,1558-11,1558-11,17 November 1558,Renaissance,Elizabeth I “the Virgin Queen” was crowned queen.,https://en.wikipedia.org/wiki/Elizabeth_I,Politics & Power
 453,1605,1605,1605,Renaissance,"William Shakespeare wrote ""Hamlet,""",https://www.thoughtco.com/renaissance-timeline-4158077,Politics & Power
 454,1605,1615,"Part 1 in 1605, Part 2 in 1615",Renaissance,"Miguel Cervantes' ""Don Quixote"" was published. It is often labeled as the first modern novel",https://en.wikipedia.org/wiki/Don_Quixote,Culture & Arts
 455,1789-07,1789-07,14 July 1789,Enlightenment,"Storming of the Bastille. Parisian crowds seize the royal fortress-prison, marking the symbolic beginning of the French Revolution.",https://en.wikipedia.org/wiki/Storming_of_the_Bastille,Science & Technology
@@ -460,7 +459,7 @@ index,date_start,date_end,date,era,event,Source,type
 462,1803,1803,1803,Modern,"The Louisiana Purchase. Napoleon sells the vast Louisiana Territory to the United States for approximately $15 million, roughly doubling the young nation's size and opening westward expansion.",,Politics & Power
 463,1804,1804,1804,Modern,"Napoleon crowns himself Emperor of France in Notre-Dame Cathedral. That same year, Haiti declares independence, becoming the first nation founded by formerly enslaved people.",,Religion
 464,1805-10,1805-10,21 October 1805,Modern,"Battle of Trafalgar. British Admiral Lord Nelson defeats the combined French and Spanish fleets off the coast of Spain, securing British naval supremacy. Nelson is mortally wounded in the victory.",,War & Conflict
-465,1807,1807,1807,Modern,"The Slave Trade Act is passed by the British Parliament, abolishing the transatlantic slave trade throughout the British Empire. However, slavery itself remains legal until 1833.",,Politics & Power
+465,1807,1807,1807,Modern,"The Slave Trade Act is passed by the British Parliament, abolishing the transatlantic slave trade throughout the British Empire. However, slavery itself remains legal until 26 years later.",,Politics & Power
 466,1812,1812,1812,Modern,"Napoleon's Grande Armée invades Russia with over 600,000 troops. Facing harsh winter conditions and scorched-earth tactics, the campaign ends in catastrophic failure, with fewer than 100,000 soldiers returning.",,War & Conflict
 467,1815-06,1815-06,18 June 1815,Modern,"Battle of Waterloo. Napoleon Bonaparte is decisively defeated by the Duke of Wellington and Prussian forces near Brussels, ending the Napoleonic Wars and Napoleon's rule for good. He is exiled to Saint Helena.",,War & Conflict
 468,1815,1815,1815,Modern,"The Congress of Vienna reshapes the map of Europe after the Napoleonic Wars, establishing a new balance of power among the major European states that largely holds for a century.",,War & Conflict
@@ -542,7 +541,7 @@ index,date_start,date_end,date,era,event,Source,type
 544,1986-04,1986-04,26 April 1986,Post-War,The Chernobyl nuclear disaster. An explosion at the Soviet nuclear power plant in Ukraine releases radioactive contamination across Europe. The disaster accelerates the decline of the Soviet Union.,,Science & Technology
 545,1989-11,1989-11,9 November 1989,Post-War,"The Fall of the Berlin Wall. East Germany opens its borders; jubilant crowds tear down the Wall. A wave of revolutions topples communist regimes across Eastern Europe, ending the Cold War.",,War & Conflict
 546,1989-06,1989-06,4 June 1989,Post-War,"Tiananmen Square massacre. Chinese troops violently suppress pro-democracy protests in Beijing, killing hundreds. The crackdown crushes the democracy movement and strains China's international relations.",,War & Conflict
-547,1990-10,1990-10,3 October 1990,Post-War,"German Reunification. East and West Germany are formally reunited for the first time since 1945, following the fall of the Berlin Wall. Nelson Mandela is released from prison in South Africa after 27 years.",,Politics & Power
+547,1990-10,1990-10,3 October 1990,Post-War,"German Reunification. East and West Germany are formally reunited for the first time since WW2, following the fall of the Berlin Wall. Nelson Mandela is released from prison in South Africa after 27 years.",,Politics & Power
 548,1991-12,1991-12,25 December 1991,Post-War,Dissolution of the Soviet Union. Mikhail Gorbachev resigns as president; fifteen independent republics emerge. The Cold War that dominated global politics for over four decades comes to an end.,,War & Conflict
 549,1991,1991,1991,Post-War,"The Gulf War. A US-led coalition liberates Kuwait after Saddam Hussein's Iraq invades the country, marking the first major post-Cold War international military intervention.",,War & Conflict
 550,1993-09,1993-09,13 September 1993,Post-War,"The Oslo Accords are signed on the White House lawn by Israeli Prime Minister Yitzhak Rabin and PLO Chairman Yasser Arafat, marking the first formal mutual recognition between Israel and the PLO.",,Politics & Power
@@ -552,7 +551,7 @@ index,date_start,date_end,date,era,event,Source,type
 554,1997,1997,1997,Post-War,"Hong Kong is returned to China by Britain after 156 years of colonial rule under the 'one country, two systems' framework. The Asian financial crisis devastates economies across Southeast Asia.",,Politics & Power
 555,1998-04,1998-04,10 April 1998,Post-War,"The Good Friday Agreement is signed in Northern Ireland, establishing a power-sharing government and ending most of the violence of The Troubles — three decades of sectarian conflict that killed over 3,500 people.",,Politics & Power
 556,2001-09,2001-09,11 September 2001,21st Century,"Terrorist attacks on the United States. Al-Qaeda hijackers crash planes into the World Trade Center and the Pentagon, killing nearly 3,000 people. The attacks reshape global politics and trigger the 'War on Terror'.",,Politics & Power
-557,2001-10,2001-10,7 October 2001,21st Century,"US and NATO forces invade Afghanistan, toppling the Taliban regime that harboured al-Qaeda. The conflict becomes the longest war in US history, ending with the Taliban's return to power in 2021.",,War & Conflict
+557,2001-10,2001-10,7 October 2001,21st Century,"US and NATO forces invade Afghanistan, toppling the Taliban regime that harboured al-Qaeda. The conflict becomes the longest war in US history, eventually ending with the Taliban's return to power.",,War & Conflict
 558,2003,2011,2003–2011,21st Century,"The US-led invasion of Iraq removes Saddam Hussein from power. The subsequent occupation triggers an insurgency and sectarian conflict, destabilising the region and killing hundreds of thousands.",,War & Conflict
 559,2004-12,2004-12,26 December 2004,21st Century,"Indian Ocean tsunami. A massive undersea earthquake triggers a devastating tsunami across the Indian Ocean, killing over 227,000 people in 14 countries in one of the deadliest natural disasters in recorded history.",,Politics & Power
 560,2008,2008,2008,21st Century,"The global financial crisis. The collapse of the US housing market triggers the worst financial crisis since the Great Depression, causing bank failures, recession, and massive unemployment worldwide.",,Politics & Power
