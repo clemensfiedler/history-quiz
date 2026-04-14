@@ -94,7 +94,7 @@
     <footer class="mt-10 border-t border-slate-200 pt-6 text-center text-xs text-slate-400 dark:border-slate-700">
       <p>Source: Wikipedia</p>
       <p class="mt-1">
-        By <a href="mailto:clemens.mb.fiedler@gmail.com" class="underline">Clemens Fiedler</a>
+        By Clemens Fiedler
         ·
         <a href="https://github.com/clemensfiedler/history-quiz" class="underline">GitHub</a>
       </p>
