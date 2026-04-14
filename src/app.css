@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: 'Inter', sans-serif;
+
+  --color-era-ancient: #8b6b35;
+  --color-era-medieval: #5a6b35;
+  --color-era-early-modern: #35556b;
+  --color-era-modern: #6b3555;
+  --color-era-contemporary: #353b6b;
+}
+
+html, body {
+  font-family: var(--font-sans);
+}

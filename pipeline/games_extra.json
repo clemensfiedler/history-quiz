@@ -1,0 +1,407 @@
+[
+  {
+    "event": "Valheim",
+    "date": "February 2, 2021",
+    "date_start": 1612224000,
+    "date_end": 1612224000,
+    "genre": "Survival, Action RPG",
+    "developer": "Iron Gate Studio",
+    "publisher": "Coffee Stain Publishing"
+  },
+  {
+    "event": "It Takes Two",
+    "date": "March 26, 2021",
+    "date_start": 1616716800,
+    "date_end": 1616716800,
+    "genre": "Action-adventure, Platformer",
+    "developer": "Hazelight Studios",
+    "publisher": "Electronic Arts"
+  },
+  {
+    "event": "Returnal",
+    "date": "April 30, 2021",
+    "date_start": 1619740800,
+    "date_end": 1619740800,
+    "genre": "Roguelike, Third-person shooter",
+    "developer": "Housemarque",
+    "publisher": "Sony Interactive Entertainment"
+  },
+  {
+    "event": "Resident Evil Village",
+    "date": "May 7, 2021",
+    "date_start": 1620345600,
+    "date_end": 1620345600,
+    "genre": "Survival horror",
+    "developer": "Capcom",
+    "publisher": "Capcom"
+  },
+  {
+    "event": "Ratchet & Clank: Rift Apart",
+    "date": "June 11, 2021",
+    "date_start": 1623369600,
+    "date_end": 1623369600,
+    "genre": "Action-platformer",
+    "developer": "Insomniac Games",
+    "publisher": "Sony Interactive Entertainment"
+  },
+  {
+    "event": "Guilty Gear Strive",
+    "date": "June 11, 2021",
+    "date_start": 1623369600,
+    "date_end": 1623369600,
+    "genre": "Fighting",
+    "developer": "Arc System Works",
+    "publisher": "Arc System Works"
+  },
+  {
+    "event": "Psychonauts 2",
+    "date": "August 25, 2021",
+    "date_start": 1629849600,
+    "date_end": 1629849600,
+    "genre": "Platformer, Action-adventure",
+    "developer": "Double Fine Productions",
+    "publisher": "Xbox Game Studios"
+  },
+  {
+    "event": "Kena: Bridge of Spirits",
+    "date": "September 21, 2021",
+    "date_start": 1632182400,
+    "date_end": 1632182400,
+    "genre": "Action-adventure",
+    "developer": "Ember Lab",
+    "publisher": "Ember Lab"
+  },
+  {
+    "event": "Metroid Dread",
+    "date": "October 8, 2021",
+    "date_start": 1633651200,
+    "date_end": 1633651200,
+    "genre": "Action-adventure, Metroidvania",
+    "developer": "MercurySteam",
+    "publisher": "Nintendo"
+  },
+  {
+    "event": "Forza Horizon 5",
+    "date": "November 9, 2021",
+    "date_start": 1636416000,
+    "date_end": 1636416000,
+    "genre": "Racing",
+    "developer": "Playground Games",
+    "publisher": "Xbox Game Studios"
+  },
+  {
+    "event": "Halo Infinite",
+    "date": "December 8, 2021",
+    "date_start": 1638921600,
+    "date_end": 1638921600,
+    "genre": "First-person shooter",
+    "developer": "343 Industries",
+    "publisher": "Xbox Game Studios"
+  },
+  {
+    "event": "Pokémon Legends: Arceus",
+    "date": "January 28, 2022",
+    "date_start": 1643328000,
+    "date_end": 1643328000,
+    "genre": "Action RPG",
+    "developer": "Game Freak",
+    "publisher": "Nintendo, The Pokémon Company"
+  },
+  {
+    "event": "Horizon Forbidden West",
+    "date": "February 18, 2022",
+    "date_start": 1645142400,
+    "date_end": 1645142400,
+    "genre": "Action RPG",
+    "developer": "Guerrilla Games",
+    "publisher": "Sony Interactive Entertainment"
+  },
+  {
+    "event": "Elden Ring",
+    "date": "February 25, 2022",
+    "date_start": 1645747200,
+    "date_end": 1645747200,
+    "genre": "Action RPG, Soulslike",
+    "developer": "FromSoftware",
+    "publisher": "Bandai Namco Entertainment"
+  },
+  {
+    "event": "TUNIC",
+    "date": "March 16, 2022",
+    "date_start": 1647388800,
+    "date_end": 1647388800,
+    "genre": "Action-adventure, Puzzle",
+    "developer": "Andrew Shouldice",
+    "publisher": "Finji"
+  },
+  {
+    "event": "Neon White",
+    "date": "June 16, 2022",
+    "date_start": 1655337600,
+    "date_end": 1655337600,
+    "genre": "Action, Card game",
+    "developer": "Angel Matrix",
+    "publisher": "Annapurna Interactive"
+  },
+  {
+    "event": "Stray",
+    "date": "July 19, 2022",
+    "date_start": 1658188800,
+    "date_end": 1658188800,
+    "genre": "Adventure",
+    "developer": "BlueTwelve Studio",
+    "publisher": "Annapurna Interactive"
+  },
+  {
+    "event": "Xenoblade Chronicles 3",
+    "date": "July 29, 2022",
+    "date_start": 1659052800,
+    "date_end": 1659052800,
+    "genre": "Action RPG",
+    "developer": "Monolith Soft",
+    "publisher": "Nintendo"
+  },
+  {
+    "event": "The Last of Us Part I",
+    "date": "September 2, 2022",
+    "date_start": 1662076800,
+    "date_end": 1662076800,
+    "genre": "Action-adventure, Survival horror",
+    "developer": "Naughty Dog",
+    "publisher": "Sony Interactive Entertainment"
+  },
+  {
+    "event": "Bayonetta 3",
+    "date": "October 28, 2022",
+    "date_start": 1666915200,
+    "date_end": 1666915200,
+    "genre": "Action",
+    "developer": "PlatinumGames",
+    "publisher": "Nintendo"
+  },
+  {
+    "event": "God of War Ragnarök",
+    "date": "November 9, 2022",
+    "date_start": 1667952000,
+    "date_end": 1667952000,
+    "genre": "Action-adventure",
+    "developer": "Santa Monica Studio",
+    "publisher": "Sony Interactive Entertainment"
+  },
+  {
+    "event": "Hogwarts Legacy",
+    "date": "February 10, 2023",
+    "date_start": 1675987200,
+    "date_end": 1675987200,
+    "genre": "Action RPG",
+    "developer": "Avalanche Software",
+    "publisher": "Warner Bros. Games"
+  },
+  {
+    "event": "Resident Evil 4",
+    "date": "March 24, 2023",
+    "date_start": 1679616000,
+    "date_end": 1679616000,
+    "genre": "Survival horror, Action-adventure",
+    "developer": "Capcom",
+    "publisher": "Capcom"
+  },
+  {
+    "event": "The Legend of Zelda: Tears of the Kingdom",
+    "date": "May 12, 2023",
+    "date_start": 1683849600,
+    "date_end": 1683849600,
+    "genre": "Action-adventure",
+    "developer": "Nintendo EPD",
+    "publisher": "Nintendo"
+  },
+  {
+    "event": "Diablo IV",
+    "date": "June 5, 2023",
+    "date_start": 1685923200,
+    "date_end": 1685923200,
+    "genre": "Action RPG, Hack and slash",
+    "developer": "Blizzard Entertainment",
+    "publisher": "Blizzard Entertainment"
+  },
+  {
+    "event": "Final Fantasy XVI",
+    "date": "June 22, 2023",
+    "date_start": 1687392000,
+    "date_end": 1687392000,
+    "genre": "Action RPG",
+    "developer": "Square Enix Creative Business Unit III",
+    "publisher": "Square Enix"
+  },
+  {
+    "event": "Baldur's Gate 3",
+    "date": "August 3, 2023",
+    "date_start": 1691020800,
+    "date_end": 1691020800,
+    "genre": "RPG",
+    "developer": "Larian Studios",
+    "publisher": "Larian Studios"
+  },
+  {
+    "event": "Starfield",
+    "date": "September 6, 2023",
+    "date_start": 1693958400,
+    "date_end": 1693958400,
+    "genre": "Action RPG, Open world",
+    "developer": "Bethesda Game Studios",
+    "publisher": "Bethesda Softworks"
+  },
+  {
+    "event": "Lies of P",
+    "date": "September 19, 2023",
+    "date_start": 1695081600,
+    "date_end": 1695081600,
+    "genre": "Action RPG, Soulslike",
+    "developer": "Neowiz",
+    "publisher": "Neowiz"
+  },
+  {
+    "event": "Marvel's Spider-Man 2",
+    "date": "October 20, 2023",
+    "date_start": 1697760000,
+    "date_end": 1697760000,
+    "genre": "Action-adventure",
+    "developer": "Insomniac Games",
+    "publisher": "Sony Interactive Entertainment"
+  },
+  {
+    "event": "Super Mario Bros. Wonder",
+    "date": "October 20, 2023",
+    "date_start": 1697760000,
+    "date_end": 1697760000,
+    "genre": "Platformer",
+    "developer": "Nintendo EPD",
+    "publisher": "Nintendo"
+  },
+  {
+    "event": "Alan Wake 2",
+    "date": "October 27, 2023",
+    "date_start": 1698364800,
+    "date_end": 1698364800,
+    "genre": "Survival horror, Action-adventure",
+    "developer": "Remedy Entertainment",
+    "publisher": "Epic Games Publishing"
+  },
+  {
+    "event": "Palworld",
+    "date": "January 19, 2024",
+    "date_start": 1705622400,
+    "date_end": 1705622400,
+    "genre": "Survival, Action RPG",
+    "developer": "Pocketpair",
+    "publisher": "Pocketpair"
+  },
+  {
+    "event": "Like a Dragon: Infinite Wealth",
+    "date": "January 26, 2024",
+    "date_start": 1706227200,
+    "date_end": 1706227200,
+    "genre": "Action RPG",
+    "developer": "Ryu Ga Gotoku Studio",
+    "publisher": "Sega"
+  },
+  {
+    "event": "Helldivers 2",
+    "date": "February 8, 2024",
+    "date_start": 1707350400,
+    "date_end": 1707350400,
+    "genre": "Third-person shooter, Co-op",
+    "developer": "Arrowhead Game Studios",
+    "publisher": "Sony Interactive Entertainment"
+  },
+  {
+    "event": "Final Fantasy VII Rebirth",
+    "date": "February 29, 2024",
+    "date_start": 1709164800,
+    "date_end": 1709164800,
+    "genre": "Action RPG",
+    "developer": "Square Enix",
+    "publisher": "Square Enix"
+  },
+  {
+    "event": "Dragon's Dogma 2",
+    "date": "March 22, 2024",
+    "date_start": 1711065600,
+    "date_end": 1711065600,
+    "genre": "Action RPG",
+    "developer": "Capcom",
+    "publisher": "Capcom"
+  },
+  {
+    "event": "Black Myth: Wukong",
+    "date": "August 20, 2024",
+    "date_start": 1724112000,
+    "date_end": 1724112000,
+    "genre": "Action RPG",
+    "developer": "Game Science",
+    "publisher": "Game Science"
+  },
+  {
+    "event": "Astro Bot",
+    "date": "September 6, 2024",
+    "date_start": 1725580800,
+    "date_end": 1725580800,
+    "genre": "Platformer",
+    "developer": "Team Asobi",
+    "publisher": "Sony Interactive Entertainment"
+  },
+  {
+    "event": "Metaphor: ReFantazio",
+    "date": "October 11, 2024",
+    "date_start": 1728604800,
+    "date_end": 1728604800,
+    "genre": "JRPG",
+    "developer": "Atlus",
+    "publisher": "Atlus, Sega"
+  },
+  {
+    "event": "Indiana Jones and the Great Circle",
+    "date": "December 9, 2024",
+    "date_start": 1733702400,
+    "date_end": 1733702400,
+    "genre": "Action-adventure",
+    "developer": "MachineGames",
+    "publisher": "Bethesda Softworks"
+  },
+  {
+    "event": "Monster Hunter Wilds",
+    "date": "February 28, 2025",
+    "date_start": 1740700800,
+    "date_end": 1740700800,
+    "genre": "Action RPG",
+    "developer": "Capcom",
+    "publisher": "Capcom"
+  },
+  {
+    "event": "Split Fiction",
+    "date": "March 6, 2025",
+    "date_start": 1741219200,
+    "date_end": 1741219200,
+    "genre": "Action-adventure, Co-op",
+    "developer": "Hazelight Studios",
+    "publisher": "Electronic Arts"
+  },
+  {
+    "event": "Assassin's Creed Shadows",
+    "date": "March 20, 2025",
+    "date_start": 1742428800,
+    "date_end": 1742428800,
+    "genre": "Action RPG, Stealth",
+    "developer": "Ubisoft Quebec",
+    "publisher": "Ubisoft"
+  },
+  {
+    "event": "Clair Obscur: Expedition 33",
+    "date": "April 24, 2025",
+    "date_start": 1745452800,
+    "date_end": 1745452800,
+    "genre": "Turn-based RPG",
+    "developer": "Sandfall Interactive",
+    "publisher": "Kepler Interactive"
+  }
+]
